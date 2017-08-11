@@ -148,6 +148,7 @@ Bruno Antunes,antunes
 Bruno Browning,browning
 Bruno Escherl,escherl
 Bruno Queirós,queiros
+Bruno Werminghoff,werminghoff
 Bryan Bell,bell
 Bryant Mao,mao
 Buchan Milne,milne
@@ -162,6 +163,7 @@ Carl Corcoran,corcoran
 Carlos Alberto Riveros Olivares,riveros olivares
 Carlos Díaz del Campo,diaz del campo
 Carlos González,gonzalez
+Carlos Yoshinobu Une,une
 Carmen Fat,fat
 Carol Huang,huang
 Catalin Suciu,suciu
@@ -207,6 +209,7 @@ Curt Rothert,rothert
 Cynthia Tang,tang
 Cyril Bortolato,bortolato
 Cédric Valmary,valmary
+César Rincón,rincon
 Damian Szczepanik,szczepanik
 Damien Thebault,thebault
 Damira Akhmedova,akhmedova
@@ -238,6 +241,13 @@ Dave Laundon,laundon
 Dave Liebreich,liebreich
 Dave Murray,murray
 Dave Salgueiro,salgueiro
+<<<<<<< HEAD
+=======
+Dave Yeo,yeo
+Dave Zeber,zeber
+David Bellot,bellot
+David Bialer,bialer
+>>>>>>> 82ac99c (Added more contributors and translators.)
 David C. Uhrig,uhrig
 David Durst,durst
 David Inglis,inglis
@@ -258,6 +268,7 @@ Denis Sharypov,sharypov
 Dima V. Fedorov,fedorov
 Dimitris Monopatis,monopatis
 Dirk Mueller,mueller
+Dmitry A. Kuminov,kuminov
 Dmitry S. Sivachenko,sivachenko
 Dominik Strohmeier,strohmeier
 Don Crandall,crandall
@@ -306,7 +317,9 @@ Ferdinand Grassmann,grassmann
 Fernando Campo,campo
 Fernando García,garcia
 Fernando Verdú Castillo,verdu castillo
+Filip Knežić,knezic
 Filip Molčan,molcan
+Florian Hänel,hanel
 Florian Laluque,laluque
 Florian Verdet,verdet
 Florin Mezei,mezei
@@ -374,6 +387,7 @@ Henry Nestler,nestler
 Henry Pijffers,pijffers
 Herath Mudiyanselage Usheera Rathnayake,rathnayake
 Heroid Shehu,shehu
+Herwig Bauernfeind,bauernfeind
 Hoba Yehia,yehia
 Hoony Jang,jang
 Hrayr Ohanyan,ohanyan
@@ -529,6 +543,7 @@ Ján Gallik,gallik
 Ján Kendi,kendi
 Jérémy Le Floc'h,le floc'h
 Jón Ragnarsson,ragnarsson
+Jörg Brunsmann,brunsmann
 Jürgen Harter,harter
 K'Trina Medina,medina
 Kamera Raharaha,raharaha
@@ -714,6 +729,7 @@ Nguyễn Minh Đức,duc
 Nguyễn Phan Hải,hai
 Nguyễn Trọng Tuấn,tuan
 Ngô Đức Trung,trung
+Niccolò Cantù,cantu
 Nick Guenther,guenther
 Nickos Venturas,venturas
 Nicolas Kallaniotis,kallaniotis
@@ -791,6 +807,7 @@ Porfirio Landeros,landeros
 Prasad A. Chodavarapu,chodavarapu
 Prasad Sunkari,sunkari
 Preeti Sanketh,sanketh
+Przemek Abratowski,abratowski
 Przemyslaw Bialik,bialik
 Quico Llach,llach
 Radek Bíba,biba
@@ -893,6 +910,7 @@ Sheueling Chang,chang
 Shrirang Khanzode,khanzode
 Siddharth Shanker Mishra,mishra
 Sigleif S. Lekve,lekve
+Silvan Scherrer,scherrer
 Simon Cornelius P. Umacob,umacob
 Simon Eder,eder
 Simona Badau,badau
@@ -939,6 +957,7 @@ Sven Krohlas,krohlas
 Swati Nalavade,nalavade
 SwooWoong Seol,seol
 Szabolcs Horváth,horvath
+Sébastien Delahaye,delahaye
 Sérgio Marques,marques
 Tahir Azhar,azhar
 Taksing Kwan,kwan
