@@ -20,6 +20,7 @@ Ahmet Mulalić,mulalic
 Aiet Kolkhi,kolkhi
 Akber Choudhry,choudhry
 Akira Uchida,uchida
+Alan Kligman,kligman
 Alastair Moore,moore
 Albert De Castro,de castro
 Albert Lombarte,lombarte
@@ -81,6 +82,7 @@ André Barbosa,barbosa
 André Dahlqvist,dahlqvist
 Anir Chowdhury,chowdhury
 Anita Reitere,reitere
+Anna Debenham,debenham
 Annabella Szép,szep
 Anoosh Hosseini,hosseini
 Anousak Souphavanh,souphavanh
@@ -105,6 +107,7 @@ Ashutosh Kulkarni,kulkarni
 Astley Chen,chen
 Atsushi Kamoshida,kamoshida
 Attasit Thipsongkhroh,thipsongkhroh
+Atul Varma,varma
 Augustin Kiberwa,kiberwa
 Austin Tuan,tuan
 Axel Taferner,taferner
@@ -117,6 +120,8 @@ Basanta K. Shrestha,shrestha
 Basil Keane,keane
 Ben FrantzDale,frantzdale
 Ben Hsu,hsu
+Ben Moskowitz,moskowitz
+Ben Simon,simon
 Ben van der Merwe,van der merwe
 Benedikt Pfeifer,pfeifer
 Benjamin Bangert,bangert
@@ -132,6 +137,7 @@ Blaž Mihevc,mihevc
 Bob Micheletto,micheletto
 Bob Miller,miller
 Bobby Chien,chien
+Bobby Richter,richter
 Bogdan Alexandru Costea,costea
 Bogdan Enache,enache
 Bogdan Matei,matei
@@ -140,8 +146,10 @@ Brandon Lujan,lujan
 Branimir Sesar,sesar
 Branislav Pavelka,pavelka
 Brenton Martin,martin
+Brett Gaylor,gaylor
 Brett Wilson,wilson
 Brian Edmond,edmond
+Brian J. Brennan,brennan
 Brian Jones,jones
 Brian Jørgensen,jorgensen
 Brian Omid Krabbe,krabbe
@@ -172,6 +180,7 @@ Carlos Yoshinobu Une,une
 Carmen Fat,fat
 Carol Huang,huang
 Catalin Suciu,suciu
+Cathy Davidson,davidson
 Cavin Song,song
 Cem Elhasan,elhasan
 Cesar Romero,romero
@@ -181,10 +190,13 @@ Charilaos Margiolakis,margiolakis
 Charles Fenwick,fenwick
 Charles-André Landemaine,landemaine
 Chris Andrichak,andrichak
+Chris Appleton,appleton
 Chris Blore,blore
 Chris Cox,cox
 Chris Howse,howse
 Chris Karlof,karlof
+Chris Lawrence,lawrence
+Chris McAvoy,mcavoy
 Christian Gruber,gruber
 Christian Jansen,jansen
 Christian Mondorf,mondorf
@@ -225,6 +237,7 @@ Dan Christian,christian
 Dan Huang,huang
 Dan Jipa,jipa
 Dan Mellem,mellem
+Dan Sinker,sinker
 Dang Minh Tuan,tuan
 Daniel Burka,burka
 Daniel Bölzle,bolzle
@@ -305,8 +318,9 @@ Eric Peyton,peyton
 Eric Portelance,portelance
 Eric Trembly,trembly
 Eric Tsai,tsai
-Eric Vaughan,vaughan
-Ermengol Bota,bota
+Erin Knight,knight
+Erkan Kaplan,kaplan
+Ermengol Bota Argue,bota argue
 Ernest Adrogué Calveras,adrogue calveras
 Erwin Dwight B. Ruiz,ruiz
 Fabio Luiz,luiz
@@ -343,6 +357,7 @@ Gavin Ho,ho
 Gene Backlin,backlin
 Gene Lian,lian
 Geoffrey C. Wenger,wenger
+Geoffrey MacDougall,macdougall
 George Fiotakis,fiotakis
 Georges Moracchini,moracchini
 Georgios Terzoglou,terzoglou
@@ -386,6 +401,7 @@ Hauke Schmiegel,schmiegel
 Heather McGaw,mcgaw
 Hebert Silva,silva
 Helen Huang,huang
+Helen Turvey,turvey
 Helge Dale Titlestad,titlestad
 Helgi Hráfn Gunnarsson,gunnarsson
 Hema Koka,koka
@@ -470,13 +486,18 @@ Jeff Lee,lee
 Jeff Rhyason,rhyason
 Jeffrey Falkingham,falkingham
 Jeffrey M. Treuhaft,treuhaft
+Jennifer Bertsch,bertsch
 Jennifer Davidson,davidson
 Jens Hyllegaard,hyllegaard
 Jens Jacob Iversen,iversen
 Jernej Baranja,baranja
+Jess Klein,klein
 Jesse Tayler,tayler
 Jessica Jong,jong
 Jesús García y Álvarez,garcia y alvarez
+Jesús López,lopez
+Jesús Vidal Panalés,vidal panales
+Jim Cook,cook
 Jim Erdmann,erdmann
 Jim Massey,massey
 Jim Park,park
@@ -502,6 +523,7 @@ John Dobbins,dobbins
 John Gardiner Myers,myers
 John Gruen,gruen
 John Jensen,jensen
+John Keiser,keiser
 John McKee,mckee
 John Signa,signa
 John Tsagatakis,tsagatakis
@@ -565,6 +587,7 @@ Karl Benson,benson
 Karthikeyan Palaniswamy,palaniswamy
 Kaspars Krampis,krampis
 Kate Glazko,glazko
+Katrin Lepik,lepik
 KDS Sahambi,sahambi
 Keiki Kawai'ae'a,kawai'ae'a
 Kemal Taskin,taskin
@@ -587,7 +610,6 @@ Kim Ludvigsen,ludvigsen
 Kiran Bhamare,bhamare
 Kirk Brocas,brocas
 Kirk Erickson,erickson
-Kirk Steuber,steuber
 Kit Cambridge,cambridge
 Koen Hendrickx,hendrickx
 Konrad Kieling,kieling
@@ -595,17 +617,14 @@ Konstantina Papadea,papadea
 Konstantinos Antonakoglou,antonakoglou
 Konstantinos Tsakaloglou,tsakaloglou
 Kostas Michalopoulos,michalopoulos
-<<<<<<< HEAD
-=======
-Krasimir Berov,berov
 Krishna Mohan Khandrika,khandrika
->>>>>>> 33abe65 (Added more contributors.)
 Kristjan Zink,zink
 Kurt Buecherl,buecherl
 Kwang Poon,poon
 Kyriakos K. Skafas,skafas
 Kálmán Szalai,szalai
 Ladislav Vykukal,vykukal
+Lainie DeCoursy,decoursy
 Lalo Martins,martins
 Larry Belan,belan
 Larry Jones,jones
@@ -645,6 +664,8 @@ Marco Aurélio Krause,krause
 Marco Fusari,fuasri
 Marcos Paulo Hauer,hauer
 Marcus Vinicius Saad,saad
+Mari Moreshead,moreshead
+Marilyn Wigglesworth,wigglesworth
 Marius Gricius,gricius
 Marius Santa,santa
 Mark Carson,carson
@@ -672,6 +693,7 @@ Matt Howell,howell
 Matt McBride,mcbride
 Matt Perry,perry
 Matt Schmitt,schmitt
+Matt Thompson,thompson
 Matt Wobensmith,wobensmith
 Matthew P. Barnson,barnson
 Matěj Hudec,hudec
@@ -704,6 +726,8 @@ Michael Wolf,wolf
 Michał Sadowski,sadowski
 Michel Weinachter,weinachter
 Michelle Heubusch,heubusch
+Michelle Levesque,levesque
+Michelle Thorne,thorne
 Miha Knavs,knavs
 Miha Kosi,kosi
 Mihai Boldan,boldan
@@ -724,6 +748,7 @@ Mitsuhiro Wada,wada
 Miłosz Pigłas,piglas
 Mohamed Alaa,alaa
 Mohamed Hafez,hafez
+Mohamed Nanabhay,nanabhay
 Mohsen Sajjadi,sajjadi
 Moied Mohammed,mohammed
 Mojca Šetinc,setinc
@@ -800,6 +825,7 @@ Paul Andrel,andrel
 Paul Ashford,ashford
 Paul Borokhov,borokhov
 Paul Oiegas,oiegas
+Paul Osman,osman
 Paul Yang,yang
 Pavel Chovančík,chovancik
 Pavel Kurc,kurc
@@ -823,7 +849,9 @@ Petr Tomeš,tomes
 Petruta Rasa,rasa
 Petteri Kamppuri,kamppuri
 Phil Lacy,lacy
+Philipp Schmidt,schmidt
 Philippe M. Chiasson,chiasson
+Phillip Smith,smith
 Piarres Beobide,beobide
 Piotr Pielach,pielach
 Porfirio Landeros,landeros
@@ -875,7 +903,9 @@ Rob MacDonald,macdonald
 Rob McCool,mccool
 Rob Wu,wu
 Robb Bloomfield,bloomfield
+Robert LaRubbio,larubbio
 Robert Linder,linder
+Robert Lisbonne,lisbonne
 Robert Vongbounthanh,vongbounthanh
 Robert Waugh,waugh
 Robin Anderson,anderson
@@ -889,6 +919,7 @@ Roko Roić,roic
 Romain Bezut,bezut
 Ron Teitelbaum,teitelbaum
 Ronald Killmer,killmer
+Ross Bruniges,bruniges
 Roxana Leitan,leitan
 Roxana Robotin,robotin
 Ruby Hsu,hsu
@@ -896,6 +927,8 @@ Rubén Cuesta Arnaldo,cuesta arnaldo
 Russ Nicoletti,nicoletti
 Rustam Aliyev,aliyev
 Ryan Feeley,feeley
+Ryan Gaddis,gaddis
+Ryan Merkley,merkley
 Régis Fernandes Gontijo,gontijo
 Rémy Hubscher,hubscher
 Rūdolfs Mazurs,mazurs
@@ -968,6 +1001,7 @@ Stefan Malling,malling
 Stefan Rechsteiner,rechsteiner
 Stefan Sitter,sitter
 Stephan Schaefer,schaefer
+Stephanie Schipper,schipper
 Stephen Bounds,bounds
 Stephen Henson,henson
 Stephen Holt,holt
@@ -981,6 +1015,7 @@ Steve Simms,simms
 Sue Sims,sims
 Sujay Desai,desai
 Sundeep Peswani,peswani
+Sunny Lee,lee
 Suso Baleato,baleato
 Sven Giermann,giermann
 Sven Grull,grull
@@ -1116,6 +1151,7 @@ Zack Rusin,rusin
 Zhiyong Liu,liu
 Zinnur Sirazitdinov,sirazitdinov
 Zlatko Popov,popov
+Zuzel Pacheco,pacheco
 Zvi Nachnami,nachnami
 Áron Sipos,sipos
 Éric Jousse,jousse
