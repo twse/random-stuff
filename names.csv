@@ -58,6 +58,8 @@ Anders Kjersem,kjersem
 Andre Guibert de Bruet,guibert de bruet
 Andrea Knight,knight
 Andrea Romoli,romoli
+Andreas Kleinert,kleinert
+Andreas Treumann,treumann
 Andrei Bosco,bosco
 Andrej Uduč,uduc
 Andrew Myers,myers
@@ -185,6 +187,7 @@ David Jorjoliani,jorjoliani
 David Kay,kay
 David Koudela,koudela
 David Pěgřímek,pegrimek
+David Schmitz,schmitz
 Dawn Isabel,isabel
 Denis Scholler,scholler
 Denis Sharypov,sharypov
@@ -546,7 +549,12 @@ Ngô Đức Trung,trung
 Niccolò Cantù,cantu
 Nick Guenther,guenther
 Nickos Venturas,venturas
+<<<<<<< HEAD
 Nicolas Delebecque,delebecque
+=======
+Niclas Mattheus,mattheus
+Nicolas Kallaniotis,kallaniotis
+>>>>>>> 90183e9 (Added German localizers)
 Niek Dekker,dekker
 Niklas Lundström,lundstrom
 Nikolai Nikolov,nikolov
@@ -596,6 +604,10 @@ Petr Hrbek,hrbek
 Petr Jirsa,jirsa
 Petr Tomeš,tomes
 Petteri Kamppuri,kamppuri
+Phil Lacy,lacy
+Philipp Schmidt,schmidt
+Phillip Smith,smith
+Phillip Szelat,szelat
 Piarres Beobide,beobide
 Piotr Pielach,pielach
 Prasad A. Chodavarapu,chodavarapu
@@ -673,6 +685,7 @@ Scott Kveton,kveton
 Scott M. Silver,silver
 Scott McCammon,mccammon
 Sean Fennel,fennel
+Sebastian Tischer,tischer
 Seeger Fisher,fisher
 Seong-wook Gong,gong
 Serdar Soydemir,soydemir
@@ -731,7 +744,6 @@ Tapu Afrad,afrad
 Teddy Mwakabaga,mwakabaga
 Tegegne Tefera,tefera
 Terence Tan,tan
-Thad Lozada,lozada
 Thanh Minh Thinh,thinh
 Theun Bouius,bouius
 Thomas Aagaard Jensen,aagaard jensen
@@ -739,8 +751,12 @@ Thomas Kneeland Jr.,kneeland
 Thomas Martin Widmann,widmann
 Thomas Schubert,schubert
 Thomas Whalen,whalen
+Thorsten Fritz,fritz
 Tiago R. Mello,mello
 Tian Mingming,tian
+Till N. Fiedler,fiedler
+Tim Schulz,schulz
+Tim van der Meij,van der meij
 Tim Yamin,yamin
 Timothy B. Anderson,anderson
 Tin V Le,le
@@ -765,6 +781,7 @@ Ulf Scherov,scherov
 Urška Colner,colner
 Vadim Vinichenko,vinichenko
 Valentina Vaneeva,vaneeva
+Valérie Labonté,labonte
 Varuna Jayasiri,jayasiri
 Vasilica Mihasca,mihasca
 Vedran Hrvoj Tomicic Cantizano,tomicic cantizano
