@@ -1,7 +1,6 @@
 # Information
 This repository contains random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums with some glyphs modified. Created using FontCreator 5.6 (2007).
-* **FontCreator Data Files and Registry Keys.htm**: FontCreator resources and registry keys for all versions.
 * **Icons.zip**: Icons based on the lowercase letters of bob's game font for use with OS/2 programs of the past and present. See http://bobsgame.wikia.com/wiki/Extras for Third-Party Notices. (Some Third-Party Notices for programs as SCSIMON or WarpCfg have inappropriate language in the disclaimers or in legal stuff.)
 * **LTROL Font**: TrueType Unicode font based on the font used in the North American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
 * **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits) from Gervase Markham (partial list only). In the early days, Dawn Endico was responsible for updating the list through CVS.
@@ -10,3 +9,10 @@ This repository contains random stuff.
 * **Ubunteros.htm**: Ubuntu members, Launchpad users and open source contributors who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
 * **ZOE TFOM**: TrueType Unicode font based on the font used in the North American/European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled.
+
+## FontCreator Data Files and Registry Keys (HTM file)
+This file includes data files and registry keys for various versions of FontCreator. Included versions:
+* Font Creator Program 3.0 (2000)
+* FontCreator 5.6 (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs as UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
+* FontCreator 6.0 (2010) – The serial key is associated to Pierre Mauclair but he does not seem to be active. Paula_K translated this program to Russian.
+- FontCreator 9.1 (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
