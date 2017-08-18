@@ -9,3 +9,10 @@ This repository contains random stuff.
 * **Ubunteros.htm**: Ubuntu members, Launchpad users and open source contributors who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
 * **ZOE TFOM**: TrueType Unicode font based on the font used in the North American/European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled.
+
+## FontCreator Data Files and Registry Keys (HTM file)
+This file includes data files and registry keys for various versions of FontCreator. Included versions:
+* Font Creator Program 3.0 (2000)
+* FontCreator 5.6 (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs as UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
+* FontCreator 6.0 (2010) – The serial key is associated to Pierre Mauclair but he does not seem to be active. Paula_K translated this program to Russian.
+- FontCreator 9.1 (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
