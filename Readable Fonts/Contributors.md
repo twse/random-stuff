@@ -1,5 +1,4 @@
-﻿===Acknowledgements===
-
+## Acknowledgements
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard).
@@ -77,9 +76,9 @@ Special thanks goes to the following people:
 
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
-==Third-Party Fonts and Software==
+## Third-Party Fonts and Software
 
-===Credits for BaTimesAkkad===
+### Credits for BaTimesAkkad
 The fonts were generated with FontLab Fontographer 4.1.5 on the basis of a Times New Roman fontset © The Monotype Corporation.
 
 I warmly thank Åse Ghasemi for technical assistance, and Nicolas Vanderroost for helpful suggestions and for testing the fonts, particularly the French keyboard solutions. Peter Westh suggested the invaluable use of Keys 2.1, and provided useful technical assistance.
@@ -92,7 +91,7 @@ These font files may bedistributed as freeware on condition that
 * that - as a minimun - either the complete Mac or the complete PC font set is included,
 * and that this Read Me document accompanies the font files unaltered.
 
-====For use of Keys====
+#### For use of Keys
 Keys is copyrighted. (P. Szászvári 1995-97)
 
 You are granted to use and distribute the software for free. You are not allowed to sell the software in original or any modified format or to incorporate it into products which you sell.
@@ -110,24 +109,24 @@ THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SH
 
 This program may be freely distributed on a non profit basis, but you must include all files from the original distribution, and my name since fame is all I am getting out of it !
 
-===Credits for PLUTIL===
+### Credits for PLUTIL
 Copyright © 1994-1996 Sławomir Stachniewicz
 
-====Contributors====
+#### Contributors
 * Andrzej Knapczyk
 * Jan Bobrowski
 * Maciej Guja
 
-===Credits for readable fonts===
+### Credits for readable fonts
 Copyright © 1993 Miguel Farah
 
 Since this is PD, there is no a warranty of any kind and I take no responsibility for the damage that these files may do to your computer/peripherals (although I'm 99.9999999999% sure that there can't possibly be any damage).
 
-===Credits for Transliteration===
+### Credits for Transliteration
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
 
-===Credits for vietdos===
+### Credits for vietdos
 This software is copyrighted by the TriChlor Group. All rights reserved. You can freely use, copy, distribute vietdos in any form, as long as you do not charge a fee for it, and include this file . No modification allowed.
 
-====Thanks====
+#### Thanks
 * Ánh Minh
