@@ -83,7 +83,7 @@ Commercial use of the software need to be licensed, please contact the author.
 
 Employees of Microsoft (R) are not allowed to use this software without special licenses. Licenses for MS employees can be purchased on a per-keystroke basis from the author.
 
-===Credits for Greek VGA Utilities===
+### Credits for Greek VGA Utilities
 Copyright (c) Jul 1992  Angelos Karageorgiou all rights reserved
 
 This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose.
