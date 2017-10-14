@@ -2,9 +2,10 @@
 
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
+* Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard).
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
 * Ken Borgendale, for information about codepages.
-* Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
+
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
 * Peter Cassetta, for information about Cyrillic character sets.
@@ -12,6 +13,7 @@ Special thanks goes to the following people:
 * Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
 * Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
 * Roman Czyborra, for information about character sets.
+
 * Virginijus Dadurkevičius, for his accented Lithuanian font.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenicky.
 * John Elliott and others, for creating OpenGEM.
@@ -24,6 +26,7 @@ Special thanks goes to the following people:
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
 * Dov Grobgeld, forc reating his TeX math fonts (1992). The fonts were distributed in a package at israel.nyserent.org.
+
 * Raymond Hickey, for maintaining the two DOS packages Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
 * Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
@@ -36,13 +39,22 @@ Special thanks goes to the following people:
 * John E. Koontz, for creating the Siouanist fonts.
 * Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
 * Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
+* Andrey V. Kalantarian, for writing VGAFONT. It is available for download at Garbo.
+* Akira Kamimura, for creating his Mongol transliteration font Gamig.
+* Angelos Karageorgiou, for writing the Greek VGA utilities.
+* Jörg Knappen, for his TeX African Latin encoding.
+* Donald E. Knuth, for writing TeX.
+* John E. Koontz, for creating the Siouanist fonts.
+* Petr I. Kvitek, for writing EVAfont.
+* Ladislav Lacina, for releasing Bloček 1.5c. Quote from the author: "Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider."
+
 * Klaus Lagally, for writing ArabTeX. This program must be ran on TeX, and it writes Arabic/Hebrew text with standard scientific transliteration.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default.
 * Werner Lemberg, for writing FreeType. He also wrote the TeX T5 encoding designed for use with the Vietnamese language.
 * Iván Llanas, for writing FontEdit II and his font package.
-* Pádraig McCarthy, for creating the Gaeilge (1993) font. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
+* Pádraig McCarthy, for creating the Gaeilge (1993) font. It derives from American Uncial but has adopted some minuscule features. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
-* Sergey Menshikov, for maintaining Interpilot - this program changes the keyboard and fonts used for Palm OS to any language for using.
+* Sergey Menshikov, for maintaining Interpilot - this program changes the keyboard and fonts used for Palm OS to any language you can use (see the author's site to download utilities).
 * Hoà T. Nguyễn, for writing the Vietnamese text editor VIET. (All docs are in a different encoding.)
 * Anshuman Pandey, for maintaining the TeX package Washington Romanized Indic (2011).
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
@@ -62,6 +74,7 @@ Special thanks goes to the following people:
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
 * Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
+
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
 ==Third-Party Fonts and Software==
