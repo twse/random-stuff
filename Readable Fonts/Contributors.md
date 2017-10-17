@@ -1,5 +1,4 @@
-﻿===Acknowledgements===
-
+﻿## Acknowledgments
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
@@ -19,8 +18,7 @@ Special thanks goes to the following people:
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
-* Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
-* Vasil Glagolov, for creating the Windows installer Paleofonts.
+* Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search * Vasil Glagolov, for creating the Windows installer Paleofonts.
 * Dov Grobgeld, forc reating his TeX math fonts (1992). The fonts were distributed in a package at israel.nyserent.org.
 * Raymond Hickey, for maintaining the two DOS packages Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
