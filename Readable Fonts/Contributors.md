@@ -50,9 +50,9 @@ Special thanks goes to the following people:
 * Uwe Sieber, for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
 * Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in the .dok format and uses the Polish Mazovia encoding.)
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
-* [http://www.sanskritweb.net](Ulrich Stiehl) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
+* [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the PCL tables from his own fonts.
-* [http://www.altsan.org](Alexander Taylor) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
+* [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Conrad Taylor, for his book used for designing fonts for African languages.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
