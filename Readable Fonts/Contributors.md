@@ -20,6 +20,8 @@
 * [Sergey Menshikov](https://sergem.net/), for maintaining [Interpilot](https://sergem.net/interpilot/) - this program changes the Palm OS fonts and keyboard.
 * Hoà T. Nguyễn, for writing the Vietnamese text editor VIET. (All docs are in a different encoding.)
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
+* [http://www.sanskritweb.net](Ulrich Stiehl) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
+* Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the PCL tables from his own fonts.
 * Conrad Taylor, for his book used for designing fonts for African languages.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
