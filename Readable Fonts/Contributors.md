@@ -61,6 +61,9 @@ Special thanks goes to the following people:
 
 ## Third-Party Fonts and Software
 
+### Credits for ASCR
+(C)Copyright Andrey Kogan, 1989-1991
+
 ### Credits for BaTimesAkkad
 The fonts were generated with FontLab Fontographer 4.1.5 on the basis of a Times New Roman fontset © The Monotype Corporation.
 
@@ -71,7 +74,7 @@ All rights reserved © Bendt Alster, February, 2001
 These font files may bedistributed as freeware on condition that
 * no payment is charged,
 * that the font files remain unchanged,
-* that - as a minimun - either the complete Mac or the complete PC font set is included,
+* that - as a mininum - either the complete Mac or the complete PC font set is included,
 * and that this Read Me document accompanies the font files unaltered.
 
 #### For use of Keys
@@ -82,6 +85,25 @@ You are granted to use and distribute the software for free. You are not allowed
 Commercial use of the software need to be licensed, please contact the author.
 
 Employees of Microsoft (R) are not allowed to use this software without special licenses. Licenses for MS employees can be purchased on a per-keystroke basis from the author.
+
+### Credits for Display Font Editor
+Copyright (c) 1991 by Rimrock Software. All rights reserved.<br>
+Written by Michael Burton
+
+#### Trial Use Warranty
+The Shareware evaluation (trial use) version is provided AS IS. Rimrock Software MAKES NO WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+
+#### Registered Version Warranty
+Rimrock Software warrants the physical diskette(s) and physical documentation provided with registered versions to be free of defects in materials and workmanship for a period of ninety days from the date of registration.  If Rimrock Software receives notification within the warranty period of defects in materials or workmanship, and such notification is determined by Rimrock Software to be correct, Rimrock Software will replace the defective diskette(s) or documentation.
+
+The entire and exclusive liability and remedy for breach of this Limited Warranty shall be limited to replacement of defective diskette(s) or documentation and shall not include or extend to any claim for or right to recover any other damages, including but not limited to, loss of profit, data, or use of the software, or special, incidental, or consequential damages or other similar claims, even if Rimrock Software has been specifically advised of the possibility of such damages.  In no event will Rimrock Software's liability for any damages to you or any other person ever exceed the lower of suggested list price or actual price paid for the license to use the software, regardless of any form of the claim.
+
+Rimrock Software SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+
+### Credits for EVAfont
+Copyright (c) 1988,1989 by Pete I. Kvitek<br>
+Copyright (c) 1989 JV DIALOGUE, all rights reserved<br>
+JV DIALOGUE is a registered trademark of JV DIALOGUE, Moscow, USSR.
 
 ### Credits for Greek VGA Utilities
 Copyright (c) Jul 1992  Angelos Karageorgiou all rights reserved
