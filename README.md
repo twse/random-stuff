@@ -1,7 +1,7 @@
 # Information
 This repository contains random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums with some glyphs modified. Created using FontCreator 5.6 (2007).
-* **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. See http://bobsgame.wikia.com/wiki/Extras for Third-Party Notices.
+* **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. (**Note:** Created with OS/2 Icon Editor. Software credits available at http://bobsgame.wikia.com/wiki/Extras)
 * **LTROL Font**: TrueType Unicode font based on the font used in the North American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
 * **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits) from Gervase Markham (partial list only). In the early days, Dawn Endico was responsible for updating the list through CVS.
 * **PSF Contributor Signatories.htm**: Includes people who received the contributor form from the Python Software Foundation (partial list only).
@@ -13,7 +13,7 @@ This repository contains random stuff.
 
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for various versions of FontCreator. Included versions:
-* Font Creator Program 3.0 (2000)
-* FontCreator 5.6 (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs as UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
-* FontCreator 6.0 (2010) – The serial key is associated to Pierre Mauclair but he does not seem to be active. Paula_K translated this program to Russian.
-* FontCreator 9.1 (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
+* **Font Creator Program 3.0** (2000)
+* **FontCreator 5.6** (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs as UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
+* **FontCreator 6.0** (2010) – The serial key is associated to Pierre Mauclair but he does not seem to be active. Paula_K translated this program to Russian.
+* **FontCreator 9.1** (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
