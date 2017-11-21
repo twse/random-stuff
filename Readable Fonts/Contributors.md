@@ -17,6 +17,7 @@ Special thanks goes to the following people:
 * Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
 * Miguel Farah, for his readable fonts. I never used this for creating.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
+* Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
