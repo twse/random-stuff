@@ -13,6 +13,10 @@ This repository contains random stuff.
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for all versions of FontCreator. See the related page on the High-Logic site for version history. Included versions:
 * **Font Creator Program 3.0** (2000)
-* **FontCreator 5.6** (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs as UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
+* **FontCreator 5.6** (2007) – The executable file itself is packed so it cannot be unpacked with third-party programs, e.g. UPX. The serial key is associated to Gerard Buxeda Gomez but he does not seem to be active.
 * **FontCreator 6.0** (2010) – The serial key is associated to Pierre Mauclair but he does not seem to be active. Paula_K translated this program to Russian.
 * **FontCreator 9.1** (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
+
+## Translations for various programs
+* '''SPFIG''' by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
+* '''Tinke''' by Benito Palacios Sánchez to Italian, Czech and Korean (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations are spread.
