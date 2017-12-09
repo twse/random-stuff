@@ -66,13 +66,13 @@ Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change 
 ### Polish - Typed as usual on Polish keyboards
 This language can be written when used with CP775 (Mazovia encoding).
 
-Adam Marczewski wrote a page containing shortcuts for Polish standard/programmer keyboards (no Apple Central Europe shortcuts). Find the shortcut list with a Microsoft Word macro in [http://adsorption.org/awm/info/pl-codes.htm](this page).
+Adam Marczewski wrote a page containing shortcuts for Polish standard/programmer keyboards (no Apple Central Europe shortcuts). Find the shortcut list with a Microsoft Word macro in [this page](http://adsorption.org/awm/info/pl-codes.htm).
 
 Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format.
 
-[http://www.walewski-salecki.pl/](Piotr Walewski-Sawicki) wrote the program Gżegżółka (2009) which converts text in various encodings. [http://www.gzegzolka.com/](Home page for Gżegżółka), in Polish only / tylko w Polski.
+[Piotr Walewski-Salecki](http://www.walewski-salecki.pl/) wrote the program Gżegżółka (2009) which converts text in various encodings. [Home page for Gżegżółka](http://www.gzegzolka.com/), in Polish only / tylko w Polski.
 
-URW Palladio SKT, KUL, M and FF relocates Ź at 190 to comply with Adobe Standard Encoding. The position is used for the 35 Slovak diacritics, small l caron (ľ). Download these fonts at [http://www.sanskritweb.net/](the English Sanskrit Web site).
+URW Palladio SKT, KUL, M and FF relocates Ź at 190 to comply with Adobe Standard Encoding. The position is used for the 35 Slovak diacritics, small l caron (ľ). Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
 
 ### Hungarian - Typed as usual on Hungarian keyboards
 
@@ -87,10 +87,10 @@ Vedran Gačo wrote GWD Font Editor (1995), a Croatian font editor. This product 
 
 Domagoj Klepac wrote the program Crovert (1996) for conversion of text encodings written in Croatian language. Documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
 
-[http://www.blagi.net/hrslova/hrslovpl.html](hrSlova page) from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
+[hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) containing a bunch of file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards, using either cedilla or comma
-Some programs as [http://www.unipad.org/](UniPad) use the cedilla in s and t.
+Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 
 ### Albanian - Typed as usual on Albanian keyboards
 Mac users will appreciate that the Apple US encoding has to be used for writing.
