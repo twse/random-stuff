@@ -2,7 +2,7 @@
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
-* Ken Borgendale, for information about codepages.
+* [Ken Borgendale](http://www.borgendale.com), for information about codepages.
 * Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
@@ -132,7 +132,7 @@ Since this is PD, there is no a warranty of any kind and I take no responsibilit
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
 
 ### Credits for vietdos
-This software is copyrighted by the TriChlor Group. All rights reserved. You can freely use, copy, distribute vietdos in any form, as long as you do not charge a fee for it, and include this file . No modification allowed.
+This software is copyrighted by the TriChlor Group. All rights reserved. You can freely use, copy, distribute vietdos in any form, as long as you do not charge a fee for it, and include this file. No modification allowed.
 
 #### Thanks
 * Ánh Minh
