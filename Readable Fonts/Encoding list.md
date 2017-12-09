@@ -1,4 +1,4 @@
-The readable font family is based on the works of System VIO fonts from IBM OS/2.
+﻿The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
 ### Encodings with a set numerical value
 | File Name | Description                             |
