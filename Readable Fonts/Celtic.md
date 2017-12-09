@@ -1,5 +1,6 @@
 ﻿## Character sets and keyboard layouts
-See the related page on the [Evertype site](http://www.evertype.com/celtscript/celt-keys.html) for more info, with special keyboards for French and German users.
+
+See the related page on the [http://www.evertype.com/celtscript/celt-keys.html](Evertype site) for more info, with special keyboards for French and German users.
 
 Free public-domain fonts using custom character sets include:
 * Celtic Gaeilge (Symbol font). Supports most Irish dotted consonants and Welsh accented W and Y from Celtic Extended Roman GS.
@@ -18,3 +19,9 @@ See the page on the [Evertype site](http://www.evertype.com/celtscript/cyc-keys.
 
 ### Cymraeg Safonol - Welsh Keyboard for Apple Celtic
 See the page on the [Evertype site](http://www.evertype.com/celtscript/cys-keys.html) for more info with download links.
+
+### Cymraeg Cydwladol - Welsh International Keyboard for Apple Celtic
+See the page on the [http://www.evertype.com/celtscript/cyc-keys.html](Evertype site) for more info with download links.
+
+### Cymraeg Safonol - Welsh Keyboard for Apple Celtic
+See the page on the [http://www.evertype.com/celtscript/cys-keys.html](Evertype site) for more info with download links.
