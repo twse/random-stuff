@@ -1,5 +1,5 @@
 ﻿### Programs
-Ansis Ataols Bērziņš wrote Burti (2003) for typing Latvian in 10 encodings. Documentation is in Latvian, see [http://ansis.lv/burti/index.en.php](the author's site) for English documentation and download links.
+Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in 10 encodings. Documentation is in Latvian, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for the Latvian letter, r cedilla.
 
 ### Available encodings (Use `/b#` to change the encoding.)
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
