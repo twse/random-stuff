@@ -14,7 +14,6 @@ This repository contains my random stuff.
 This file includes data files and registry keys for all versions of FontCreator.
 
 ## Translations for various programs
-**Moderator's note:** Most translations were done with Bing Translator.
 * **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
 * **SPFig** – Dutch (CP850). Only English and French translations are included.
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
