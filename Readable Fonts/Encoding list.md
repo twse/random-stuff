@@ -33,22 +33,13 @@
 | APPEAL    | Appeal                                           |
 | ARMGEOR   | Armenian/Georgian                                |
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
-| AVESTRAN  | Avestan and Pahlavi                              |
+| AVESTRAN  | Avestan                                          |
 | BHTITIME  | BharatiTimes                                     |
-| BPSTRAN   | Buddhist Publication Society                     |
-| CS        | Classical Sanskrit                               |
-| CSX       | Classical Sanskrit Extended                      |
-| CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | DV1Y      | DV1-TTYogesh                                     |
-| GANDHARI  | Times Gandhari                                   |
-| GGM       | Gaudiya Grantha Mandira                          |
-| GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
 | HOBOGIR   | Hobogirin                                        |
-| INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
 | ISOCYTRA  | ISO 9 (Cyrillic) – Slavic languages              |
 | IT98      | Itranslator 98                                   |
-| ITIMESSK  | ITimesSkRom                                      |
 | ITRANSL   | Itranslator                                      |
 | KANNTRAN  | Kannada with ISO 15919 diacritics                |
 | KASHMIRI  | Kashmiri                                         |
@@ -57,19 +48,16 @@
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
 | MONGTRAN  | Mongolian                                        |
-| NINATRAN  | IJTS transliteration font for Nina               |
+| NINATRAN  | Nina/Original Garamond: IJTS Transliteration     |
 | NORMYN    | Kenneth Roy Norman                               |
 | OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
-| PASKT     | URW Palladio SKT                                 |
 | PINYIN    | Chinese (Pinyin)                                 |
 | PKTC      | PKTC                                             |
-| SANSKRIT  | Sanskrit transliteration font by Libor Sztemon   |
+| SANSKRT   | Sanskrit                                         |
 | SEMTRAN1  | Semitic – Arabic                                 |
 | SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
 | SINHTRAN  | Sinhala with ISO 15919 diacritics                |
-| SKTRAN    | Searchable Sanskrit Files                        |
-| SKTRANDE  | Searchable Sanskrit Files for German people      |
 | TAMILTRN  | Tamil with ISO 15919 diacritics                  |
 | TELUGTRN  | Telugu with ISO 15919 diacritics                 |
 | TITUSEO   | TITUS Eastern Oriental                           |
