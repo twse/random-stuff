@@ -81,6 +81,59 @@
 | TITUSOC   | TITUS Oriental Christian                         |
 | WNRI      | Washington Romanized Indic                       |
 
+### Transcription/Transliteration Font Encodings
+| File Name | Description                                      |
+|-----------|--------------------------------------------------|
+| ALALCT1   | ALA-LC Transliteration 1                         |
+| ALALCT2   | ALA-LC Transliteration 2                         |
+| APPEAL    | Appeal                                           |
+| ARMGEOR   | Armenian/Georgian                                |
+| AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
+| AVESTRAN  | Avestan                                          |
+| BHTITIME  | BharatiTimes                                     |
+| BPSTRAN   | Buddhist Publication Society                     |
+| CS        | Classical Sanskrit                               |
+| CSX       | Classical Sanskrit Extended                      |
+| CSXALT    | Classical Sanskrit Extended – Alternate encoding |
+| DV1Y      | DV1-TTYogesh                                     |
+| GANDHARI  | Times Gandhari                                   |
+| GGM       | Gaudiya Grantha Mandira                          |
+| GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
+| HOBOGIR   | Hobogirin                                        |
+| INDOSKR   | IndoSkript                                       |
+| IRTRARHE  | Iranian – Arabic & Hebrew                        |
+| ISOCYTRA  | ISO 9 (Cyrillic) – Slavic languages              |
+| IT98      | Itranslator 98                                   |
+| ITIMESSK  | ITimesSkRom                                      |
+| ITRANSL   | Itranslator                                      |
+| KANNTRAN  | Kannada with ISO 15919 diacritics                |
+| KASHMIRI  | Kashmiri                                         |
+| KULMIX    | Catholic University Lublin Mixed Font            |
+| KULTRAN   | Catholic University Lublin Transliteration       |
+| MALATRAN  | Malayalam with ISO 15919 diacritics              |
+| MININD    | Minion Indologist                                |
+| MONGTRAN  | Mongolian                                        |
+| NINATRAN  | Nina/Original Garamond: IJTS Transliteration     |
+| NORMYN    | Kenneth Roy Norman                               |
+| OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
+| PASKT     | URW Palladio SKT                                 |
+| PINYIN    | Chinese (Pinyin)                                 |
+| PKTC      | PKTC                                             |
+| SANSKRT   | Sanskrit                                         |
+| SEMTRAN1  | Semitic – Arabic                                 |
+| SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
+| SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
+| SINHTRAN  | Sinhala with ISO 15919 diacritics                |
+| SKTRAN    | Searchable Sanskrit                              |
+| SKTRANDE  | Searchable Sanskrit for German people            |
+| TAMILTRN  | Tamil with ISO 15919 diacritics                  |
+| TELUGTRN  | Telugu with ISO 15919 diacritics                 |
+| TITUSEO   | TITUS Eastern Oriental                           |
+| TITUSHS   | TITUS Hebrew & Semitic                           |
+| TITUSII   | TITUS Indo-Iranian                               |
+| TITUSOC   | TITUS Oriental Christian                         |
+| WNRI      | Washington Romanized Indic                       |
+
 ### Extras
 | File Name | Description     |
 |-----------|-----------------|
