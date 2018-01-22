@@ -8,14 +8,13 @@ This repository contains my random stuff.
 * **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages.
 * **SitePal Forum Drug Words.htm**: Words for toothpastes, drugs, medicine and other stuff excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
 * **Ubunteros.htm**: Ubuntu members, Launchpad users and open source contributors who signed the Ubuntu Code of Conduct (partial list only).
-* **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for all versions of FontCreator. See the Version History on the High-Logic site.
 
 ## Translations for various programs
-**Moderator's note:** All translations were done with Bing Translator.
-* **EasyPaint** by Nikita Grishko et al. to Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
+**Moderator's note:** Most translations were done with Bing Translator.
+* **EasyPaint** by Nikita Grishko et al. to German, Hungarian, Korean, Polish, Portuguese (Brazil), Spanish and Swedish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
 * **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
