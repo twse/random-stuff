@@ -18,5 +18,4 @@ This file includes data files and registry keys for all versions of FontCreator.
 * **FontCreator 9.1** (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
 
 ## Translations for various programs
-* **EasyPaint** by Nikita Grishko et al. to German, Hungarian, Korean, Polish, Portuguese (Brazil), Spanish and Swedish
-* **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian
+* **EasyPaint** by Nikita Grishko et al. to Danish, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish
