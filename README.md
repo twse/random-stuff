@@ -10,5 +10,4 @@ This repository contains random stuff.
 * **ZOE TFOM**: TrueType Unicode font based on the font used in the North American/European versions of Zone of the Enders: The Fist of Mars (2002). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
 
 ## Translations for various programs
-* **EasyPaint** by Nikita Grishko et al. to German, Korean, Portuguese (Brazil), Spanish and Swedish. Currently Chinese (Simplified), Czech, French and Russian translations are included.
-* **Tinke** by Benito Palacios Sánchez to Italian, Portuguese (Brazil), Czech and Korean (UTF-8). Currently English, French, Italian, Spanish and Simplified Chinese translations are included.
+* **EasyPaint** by Nikita Grishko et al. to Danish, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish
