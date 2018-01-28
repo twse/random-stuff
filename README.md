@@ -14,6 +14,6 @@ This repository contains my random stuff.
 This file includes data files and registry keys for all versions of FontCreator.
 
 ## Translations for various programs
-* **EasyPaint** by Nikita Grishko et al. to German, Hungarian, Korean, Polish, Portuguese (Brazil), Spanish and Swedish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
+* **EasyPaint** by Nikita Grishko et al. to Danish, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
 * **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
