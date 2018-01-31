@@ -15,6 +15,7 @@ Special thanks goes to the following people:
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
 * Miguel Farah, for his readable fonts. I never used this for creating.
+* Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
@@ -57,7 +58,7 @@ Special thanks goes to the following people:
 * Conrad Taylor, for his book used for designing fonts for African languages.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
-* Knut S. Vikør, for his Jaghbub font. (A Unicode version is available for the font itself.)
+* Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
 ## Third-Party Fonts and Software
