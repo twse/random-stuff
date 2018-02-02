@@ -245,7 +245,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>Gamma</source>
-        <translation></translation>
+        <translation>Gamma</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
@@ -499,7 +499,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="140"/>
         <source>General</source>
-        <translation></translation>
+        <translation>Generell</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
