@@ -223,12 +223,12 @@
         <translation>E&amp;ffekte</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="294"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>Gray</source>
         <translation>Grau</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="299"/>
+        <location filename="../mainwindow.cpp" line="334"/>
         <source>Negative</source>
         <translation>Negativ</translation>
     </message>
@@ -255,7 +255,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Custom</source>
-        <translation></translation>
+        <translation>Kustom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
