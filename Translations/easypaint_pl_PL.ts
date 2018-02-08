@@ -96,9 +96,8 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="147"/>
-
         <location filename="../mainwindow.cpp" line="124"/>
-        <location filename="../mainwindow.cpp" line="147/>
+        <location filename="../mainwindow.cpp" line="147"/>
         <source>&amp;File</source>
         <translation>&amp;Plik</translation>
     </message>
@@ -147,103 +146,70 @@
 
         <location filename="../mainwindow.cpp" line="168"/>
         <location filename="../mainwindow.cpp" line="181"/>
-
         <source>&amp;Print</source>
         <translation>&amp;Drukuj</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="189"/>
 
         <location filename="../mainwindow.cpp" line="178"/>
-
         <location filename="../mainwindow.cpp" line="189"/>
-
         <source>&amp;Exit</source>
         <translation>&amp;Koniec</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="195"/>
 
         <location filename="../mainwindow.cpp" line="186"/>
-
         <location filename="../mainwindow.cpp" line="195"/>
-
         <source>&amp;Edit</source>
         <translation>&amp;Edytuj</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="197"/>
 
         <location filename="../mainwindow.cpp" line="188"/>
-
         <location filename="../mainwindow.cpp" line="197"/>
-
         <source>&amp;Undo</source>
         <translation>&amp;Cofnij</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="203"/>
 
         <location filename="../mainwindow.cpp" line="196"/>
-
         <location filename="../mainwindow.cpp" line="203"/>
-
         <source>&amp;Redo</source>
         <translation>&amp;Ponów</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="211"/>
 
         <location filename="../mainwindow.cpp" line="206"/>
-
         <location filename="../mainwindow.cpp" line="211"/>
-
         <source>&amp;Copy</source>
         <translation>&amp;Kopiuj</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="218"/>
 
         <location filename="../mainwindow.cpp" line="214"/>
-
         <location filename="../mainwindow.cpp" line="218"/>
-
         <source>&amp;Paste</source>
         <translation>&amp;Wklej</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="224"/>
 
         <location filename="../mainwindow.cpp" line="222"/>
-
         <location filename="../mainwindow.cpp" line="224"/>
-
         <source>C&amp;ut</source>
         <translation>&amp;Wytnij</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="233"/>
 
         <location filename="../mainwindow.cpp" line="232"/>
-
         <location filename="../mainwindow.cpp" line="233"/>
-
         <source>&amp;Settings</source>
         <translation>&amp;Ustawienia</translation>
     </message>
@@ -254,8 +220,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
-
-
         <source>Selection</source>
         <translation>Wybór</translation>
     </message>
@@ -279,25 +243,6 @@
 
         <source>Cursor</source>
         <translation>&amp;Kursor</translation>
-
-        <source>Selection</source>
-        <translation>Wybór</translation>
-
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="249"/>
-        <source>Eraser</source>
-        <translation>Gumka</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="256"/>
-        <source>Color picker</source>
-        <translation>Próbnik kolorów</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="263"/>
-        <source>Magnifier</source>
-        <translation>Lupa</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
@@ -306,49 +251,26 @@
     </message>
     <message>
 
-
-        <location filename="../mainwindow.cpp" line="277"/>
-
         <location filename="../mainwindow.cpp" line="267"/>
-
         <location filename="../mainwindow.cpp" line="277"/>
-
         <source>Line</source>
         <translation>Linia</translation>
     </message>
     <message>
-
-
-        <location filename="../mainwindow.cpp" line="284"/>
-
         <location filename="../mainwindow.cpp" line="272"/>
-
         <location filename="../mainwindow.cpp" line="284"/>
-
         <source>Spray</source>
         <translation>Spray</translation>
     </message>
     <message>
-
-
-        <location filename="../mainwindow.cpp" line="291"/>
-
         <location filename="../mainwindow.cpp" line="277"/>
-
         <location filename="../mainwindow.cpp" line="291"/>
-
         <source>Fill</source>
         <translation>Wypełnienie</translation>
     </message>
     <message>
-
-
-        <location filename="../mainwindow.cpp" line="298"/>
-
         <location filename="../mainwindow.cpp" line="282"/>
-
         <location filename="../mainwindow.cpp" line="298"/>
-
         <source>Rect</source>
         <translation>Prostokąt</translation>
     </message>
@@ -365,10 +287,6 @@
         <translation>Elipsa</translation>
     </message>
     <message>
-
-
-
-
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
         <translation>Kurv</translation>
@@ -1045,20 +963,14 @@ Czy chcesz zapisać zmiany?</translation>
 <context>
     <name>ToolBar</name>
     <message>
-
-
         <location filename="../widgets/toolbar.cpp" line="37"/>
 
         <location filename="../toolbar.cpp" line="35"/>
-
         <location filename="../widgets/toolbar.cpp" line="37"/>
-
         <source>Instruments</source>
         <translation>Instrumenty</translation>
     </message>
     <message>
-
-
         <location filename="../widgets/toolbar.cpp" line="88"/>
         <location filename="../widgets/toolbar.cpp" line="89"/>
         <source>Primary color</source>
@@ -1070,11 +982,9 @@ Czy chcesz zapisać zmiany?</translation>
 
         <location filename="../toolbar.cpp" line="102"/>
         <source>First color</source>
-
         <location filename="../widgets/toolbar.cpp" line="88"/>
         <location filename="../widgets/toolbar.cpp" line="89"/>
         <source>Primary color</source>
-
         <translation>Pierwszy kolor</translation>
     </message>
     <message>
@@ -1084,25 +994,15 @@ Czy chcesz zapisać zmiany?</translation>
         <translation>Drugi kolor</translation>
     </message>
     <message>
-
-
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
 
         <location filename="../toolbar.cpp" line="112"/>
-
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
-
         <source>Pen size</source>
         <translation>Rozmiar pióra</translation>
     </message>
 </context>
-
-
-</TS>
-
-</TS>
-
 </TS>
 
