@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensität</translation>
     </message>
 </context>
 <context>
@@ -210,12 +210,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation></translation>
+        <translation>Kurv</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
         <source>Text</source>
-        <translation></translation>
+        <translation>Text</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
@@ -454,7 +454,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation></translation>
+        <translation>Anmerken: der Änderung von Sprache</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -533,7 +533,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensität</translation>
     </message>
 </context>
 <context>
