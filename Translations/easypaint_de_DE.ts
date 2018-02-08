@@ -165,17 +165,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="249"/>
         <source>Eraser</source>
-        <translation></translation>
+        <translation>Radiergummi</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Color picker</source>
-        <translation></translation>
+        <translation>Farbwähler</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
         <source>Magnifier</source>
-        <translation></translation>
+        <translation>Lupe</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Gauß Unschäfe</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -250,7 +250,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation>Schärfen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
@@ -280,32 +280,32 @@
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
-        <translation></translation>
+        <translation>Gegen den Uhrzeigersinn</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>Clockwise</source>
-        <translation></translation>
+        <translation>Im Uhrzeigersinn</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>Zoom</source>
-        <translation></translation>
+        <translation>Größe</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="392"/>
         <source>Zoom In</source>
-        <translation></translation>
+        <translation>Vergrößern</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="398"/>
         <source>Zoom Out</source>
-        <translation></translation>
+        <translation>Verkleinern</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Erweiterer Zoom...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -325,12 +325,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation>Zoomfaktor eingeben</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Zoomfaktor:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -369,7 +369,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation>Wenn Sie EasyPaint mögen und Ihre Meinung teilen möchten, oder einen Bug-Report senden oder neue Funktionen vorschlagen möchten, warten wir auf Sie auf unserem &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;Tracker&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -454,17 +454,17 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Anmerken: der Änderung von Sprache</translation>
+        <translation>Anmerken: Das Ändern der Sprache erfordert einen Neustart der Anwendung</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Fenstergröße beim Start wiederherstellen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Ask Canvas Größe auf neue Bild Schöpfung</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
@@ -504,7 +504,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
         <source>Keyboard shortcuts</source>
-        <translation></translation>
+        <translation>Tastenkombinationen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
@@ -515,12 +515,12 @@ Möchten Sie die Änderungen speichern?</translation>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <location filename="../dialogs/settingsdialog.cpp" line="160"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Kombination</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation>Tastenfolge:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
@@ -541,7 +541,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../widgets/shortcutedit.cpp" line="44"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 <context>
@@ -564,7 +564,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation></translation>
+        <translation>Text löschen?</translation>
     </message>
 </context>
 <context>
@@ -578,13 +578,13 @@ Möchten Sie die Änderungen speichern?</translation>
         <location filename="../widgets/toolbar.cpp" line="88"/>
         <location filename="../widgets/toolbar.cpp" line="89"/>
         <source>Primary color</source>
-        <translation></translation>
+        <translation>Primärfarbe</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="93"/>
         <location filename="../widgets/toolbar.cpp" line="94"/>
         <source>Second color</source>
-        <translation></translation>
+        <translation>Zweite Farbe</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="100"/>
