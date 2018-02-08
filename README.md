@@ -18,5 +18,7 @@ This file includes data files and registry keys for all versions of FontCreator.
 * **FontCreator 9.1** (2014) – The serial key is associated to JUNLAJUBALAM/MPT.
 
 ## Translations for various programs
-* **EasyPaint** by Nikita Grishko et al. to Danish, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
+* **EasyPaint** by Nikita Grishko et al. to Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
+* **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
+>>>>>>> 217b89d (Added missing language.)
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
