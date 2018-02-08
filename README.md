@@ -12,9 +12,9 @@ This repository contains random stuff.
 * **ZOE TFOM**: TrueType Unicode font based on the font used in USA/EUR versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled.
 
 ## FontCreator Data Files and Registry Keys (HTM file)
-This file includes data files and registry keys for all versions of FontCreator. See the related page on the High-Logic site for version history.
+This file includes data files and registry keys for all versions of FontCreator. See the Version History page on the High-Logic site.
 
 ## Translations for various programs
-* **EasyPaint** by Nikita Grishko et al. to Danish, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
+* **EasyPaint** by Nikita Grishko et al. to Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
 * **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
