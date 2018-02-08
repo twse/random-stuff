@@ -42,7 +42,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Can&apos;t open file &quot;%1&quot;.</source>
-        <translation>Nie można otworzyć pliku &quot;%1&quot;.</translation>
+        <translation>Nie można otworzyć pliku „%1”.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -54,7 +54,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
-        <translation>Nie można zapisać pliku &quot;%1&quot;.</translation>
+        <translation>Nie można zapisać pliku „%1”.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
@@ -305,7 +305,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation>Zaawansowane powiększenie</translation>
+        <translation>Zaawansowane powiększenie...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -330,7 +330,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation>Współczynnik powiększenia</translation>
+        <translation>Współczynnik powiększenia:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
