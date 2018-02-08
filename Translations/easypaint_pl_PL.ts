@@ -78,7 +78,7 @@
         <translation>Obraz bez tytułu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="147/>
+        <location filename="../mainwindow.cpp" line="147"/>
         <source>&amp;File</source>
         <translation>&amp;Plik</translation>
     </message>
