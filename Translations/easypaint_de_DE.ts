@@ -853,11 +853,11 @@ Möchten Sie die Änderungen speichern?</translation>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
         <translation>Text löschen?</translation>
-
+    </message>
+    <message>
         <location filename="../settingsdialog.cpp" line="127"/>
         <source>Main</source>
         <translation>Main</translation>
-
     </message>
 </context>
 <context>
