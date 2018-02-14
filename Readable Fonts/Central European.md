@@ -1,5 +1,4 @@
 ﻿## Character sets
-
 On the Macintosh platform, four character sets are in common use:
 * Unicode. Mac OS X. Supports all the needs of the Central European languages.
 * Mac OS Central Europe. Supports Czech, Slovak, Polish, Hungarian, Slovenian, Estonian, Latvian and Lithuanian languages. No support for Romanian, Yugoslavian nor Albanian languages.
@@ -46,10 +45,10 @@ Free public-domain fonts using custom character sets include:
 * Velehrad. Supports Czech and Slovenian letters from Windows CP1250.
 
 ## Fonts
-* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* EUROPEAN, by Howard M. Berlin, is a series of cannibal non-Unicode fonts and a Windows 3.1 package which comes with Arial, Courier and Times-like fonts. These fonts cannot be used for regular text.
+* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard program comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
+* EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic non-Unicode fonts and a Windows 3.1 package which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is designed for typing Romanian text on English keyboards. The numbers are old-style.
-* TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font has no word-wrap problems.
+* TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
 
 ## Diacritical characters
 
@@ -79,24 +78,21 @@ URW Palladio SKT, KUL, M and FF relocates Ź at 190 to comply with Adobe Standar
 ### Yugoslavian - Typed as usual on Yugoslavian keyboards
 These can be written when used with CP113.
 
-Kasim Terzić wrote the program Convert It (1995) for conversion of text encodings in Croatian language. Documentation is in Croatian only.
+Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. Documentation is in Croatian only.
 
-Tomislav Bronzin wrote the program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. Documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
+Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. Documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
 
-Vedran Gačo wrote GWD Font Editor (1995), a Croatian font editor. This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
+Vedran Gačo wrote the pay shareware font editor GWD Font Editor (1995). This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
 
-Domagoj Klepac wrote the program Crovert (1996) for conversion of text encodings written in Croatian language. Documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
+Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of text encodings written in Croatian language. Documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
 
-[hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) containing a bunch of file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
+[hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
-### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards, using either cedilla or comma
-Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
+### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
+Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t which is inacceptable.
 
 ### Albanian - Typed as usual on Albanian keyboards
 Mac users will appreciate that the Apple US encoding has to be used for writing.
-
-### Turkmen (Latin)
-Mac users will appreciate that Mac OS X has to be used for writing with the Unicode encoding.
 
 ### Spacing Accents
 
