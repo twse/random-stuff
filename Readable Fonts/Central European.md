@@ -94,9 +94,33 @@ Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 
 ### Albanian - Typed as usual on Albanian keyboards
 Mac users will appreciate that the Apple US encoding has to be used for writing.
+| Glyph      | Code    | Windows CP1250 | Apple US Roman | TITUS Eastern European |
+|------------|---------|----------------|----------------|------------------------|
+| C cedilla  | Alt-128 | Alt-199        | Alt-130        | Alt-128                |
+| E dieresis | Alt-211 | Alt-203        | Alt-232        | Alt-178                |
+| c cedilla  | Alt-135 | Alt-231        | Alt-141        | Alt-135                |
+| e dieresis | Alt-137 | Alt-235        | Alt-235        | Alt-137                |
 
 ### Turkmen (Latin)
 Mac users will appreciate that Mac OS X has to be used for writing with the Unicode encoding.
+| Glyph      | Code    | Windows CP1250 | Apple US Roman  | TITUS Eastern European |
+|------------|---------|----------------|-----------------|------------------------|
+| A dieresis | Alt-142 | Alt-196        | Alt-128         | Alt-142                |
+| C cedilla  | Alt-128 | Alt-199        | Alt-130         | Alt-128                |
+| N caron    | Alt-213 | Alt-210        | No key assigned | Alt-193                |
+| O dieresis | Alt-153 | Alt-214        | Alt-133         | Alt-153                |
+| S cedilla  | Alt-184 | Alt-170        | No key assigned | Alt-202                |
+| U dieresis | Alt-154 | Alt-220        | Alt-134         | Alt-154                |
+| Y acute    | Alt-237 | Alt-221        | No key assigned | Alt-211                |
+| Z caron    | Alt-166 | Alt-142        | No key assigned | Alt-214                |
+| a dieresis | Alt-132 | Alt-228        | Alt-138         | Alt-132                |
+| c cedilla  | Alt-135 | Alt-231        | Alt-141         | Alt-135                |
+| n caron    | Alt-229 | Alt-242        | No key assigned | Alt-238                |
+| o dieresis | Alt-148 | Alt-246        | Alt-154         | Alt-148                |
+| s cedilla  | Alt-173 | Alt-186        | No key assigned | Alt-245                |
+| u dieresis | Alt-129 | Alt-252        | Alt-159         | Alt-129                |
+| y acute    | Alt-236 | Alt-253        | No key assigned | Alt-155                |
+| z caron    | Alt-167 | Alt-158        | No key assigned | Alt-254                |
 
 ### Spacing Accents
 
