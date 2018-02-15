@@ -5,7 +5,7 @@ This repository contains random stuff.
 * **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
 * **names.csv**: Names for adding to the [Mozilla credits list](https://www.mozilla.org/credits/).
 * **PSF Contributor Signatories.htm**: Includes people who received the contributor form from the Python Software Foundation (partial list only).
-* **SitePal Forum Drug Words.htm**: Words related to medicine excluding song artists – these were used to spam the SitePal legacy forums from February and March 2011 which no longer exists.
+* **SitePal Forum Drug Words.htm**: Words for toothpastes, drugs, medicine and other stuff excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct. The Ubuntu Code of Conduct does not apply to this repository.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
