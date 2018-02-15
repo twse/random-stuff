@@ -1,5 +1,4 @@
-﻿
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="es_ES">
 <context>
@@ -7,7 +6,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="40"/>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>Aceptar</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
@@ -17,7 +16,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
         <source>Apply</source>
-        <translation>Applicar</translation>
+        <translation>Aplicar</translation>
     </message>
 </context>
 <context>
@@ -37,7 +36,6 @@
         <translation>Abrir imagen...</translation>
     </message>
     <message>
-
         <location filename="../imagearea.cpp" line="214"/>
         <source>Error opening file</source>
         <translation>Error durante cargando el archivo</translation>
@@ -61,13 +59,11 @@
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
-
         <location filename="../imagearea.cpp" line="155"/>
         <source>Untitled image</source>
         <translation>Imagen sin título</translation>
     </message>
     <message>
-
         <location filename="../imagearea.cpp" line="244"/>
         <location filename="../imagearea.cpp" line="157"/>
         <source>Save image...</source>
@@ -82,19 +78,16 @@
 <context>
     <name>MainWindow</name>
     <message>
-
         <location filename="../mainwindow.cpp" line="101"/>
         <location filename="../mainwindow.cpp" line="489"/>
         <location filename="../mainwindow.cpp" line="537"/>
         <location filename="../mainwindow.cpp" line="544"/>
-
         <location filename="../mainwindow.cpp" line="83"/>
         <location filename="../mainwindow.cpp" line="398"/>
         <source>Untitled Image</source>
         <translation>Imagen sin título</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="147"/>
 
         <location filename="../mainwindow.cpp" line="124"/>
@@ -102,7 +95,6 @@
         <translation>&amp;Archivo</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="149"/>
 
         <location filename="../mainwindow.cpp" line="126"/>
@@ -110,15 +102,14 @@
         <translation>&amp;Nuevo</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="155"/>
 
         <location filename="../mainwindow.cpp" line="134"/>
+        <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
         <translation>&amp;Abrir</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="161"/>
 
         <location filename="../mainwindow.cpp" line="142"/>
@@ -126,7 +117,6 @@
         <translation>&amp;Guardar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="167"/>
 
         <location filename="../mainwindow.cpp" line="150"/>
@@ -134,7 +124,6 @@
         <translation>Guardar como...</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="173"/>
 
         <location filename="../mainwindow.cpp" line="158"/>
@@ -142,7 +131,6 @@
         <translation>&amp;Cerrar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="189"/>
 
         <location filename="../mainwindow.cpp" line="168"/>
@@ -150,7 +138,6 @@
         <translation>&amp;Imprimir</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="195"/>
 
         <location filename="../mainwindow.cpp" line="178"/>
@@ -158,7 +145,6 @@
         <translation>&amp;Salir</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="197"/>
 
         <location filename="../mainwindow.cpp" line="186"/>
@@ -166,7 +152,6 @@
         <translation>&amp;Editar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="203"/>
 
         <location filename="../mainwindow.cpp" line="188"/>
@@ -174,7 +159,6 @@
         <translation>&amp;Deshacer</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="203"/>
 
         <location filename="../mainwindow.cpp" line="196"/>
@@ -182,7 +166,6 @@
         <translation>&amp;Rehacer</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="211"/>
 
         <location filename="../mainwindow.cpp" line="206"/>
@@ -190,7 +173,6 @@
         <translation>&amp;Copiar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="218"/>
 
         <location filename="../mainwindow.cpp" line="214"/>
@@ -198,7 +180,6 @@
         <translation>&amp;Pegar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="224"/>
 
         <location filename="../mainwindow.cpp" line="222"/>
@@ -206,7 +187,6 @@
         <translation>C&amp;ortar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="233"/>
 
         <location filename="../mainwindow.cpp" line="232"/>
@@ -220,7 +200,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
-
         <source>Selection</source>
         <translation>Selección</translation>
     </message>
@@ -241,32 +220,10 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
-
-        <source>Cursor</source>
-        <translation>Cursora</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="247"/>
-        <source>Lastic</source>
-        <translation>Lastico</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="252"/>
-        <source>Pipette</source>
-        <translation>Pipetear</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="257"/>
-        <source>Loupe</source>
-        <translation>Lupa</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="262"/>
         <source>Pen</source>
         <translation>Pluma</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="277"/>
 
         <location filename="../mainwindow.cpp" line="267"/>
@@ -274,7 +231,6 @@
         <translation>Lina</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="284"/>
 
         <location filename="../mainwindow.cpp" line="272"/>
@@ -282,7 +238,6 @@
         <translation>Aerosol</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="291"/>
 
         <location filename="../mainwindow.cpp" line="277"/>
@@ -290,7 +245,6 @@
         <translation>Terraplén</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="298"/>
         <source>Rectangle</source>
         <translation>Rectangulo</translation>
@@ -303,12 +257,11 @@
         <translation>Rectangulo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="287"/>
+        <location filename="../mainwindow.cpp" line="305"/>
         <source>Ellipse</source>
         <translation>Ellipso</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
         <translation>Curva</translation>
@@ -320,13 +273,11 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
-
         <location filename="../mainwindow.cpp" line="292"/>
         <source>E&amp;ffects</source>
         <translation>E&amp;fectos</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="329"/>
 
         <location filename="../mainwindow.cpp" line="294"/>
@@ -334,7 +285,6 @@
         <translation>Gris</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="334"/>
 
         <location filename="../mainwindow.cpp" line="299"/>
@@ -342,7 +292,6 @@
         <translation>Negativo</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
         <translation>Binarización</translation>
@@ -369,13 +318,11 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
-
         <location filename="../mainwindow.cpp" line="304"/>
         <source>&amp;Tools</source>
         <translation>U&amp;tilidades</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="366"/>
         <source>Image size...</source>
         <translation>Tamaño de imagen...</translation>
@@ -387,23 +334,10 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
-
-        <location filename="../mainwindow.cpp" line="306"/>
-        <source>Image size</source>
-        <translation>Tamaño de imagen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <source>Canvas size</source>
-        <translation>Tamaño de la lona</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="316"/>
         <source>Rotate</source>
         <translation>Girar</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
         <translation>Contra horario</translation>
@@ -431,33 +365,33 @@
         <translation>Horario</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="325"/>
-        <source>Right</source>
-        <translation>Antihorario</translation>
+        <location filename="../mainwindow.cpp" line="390"/>
+        <source>Zoom</source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="334"/>
+        <location filename="../mainwindow.cpp" line="404"/>
+        <source>Advanced Zoom...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="411"/>
         <source>&amp;About</source>
         <translation>Acerca de</translation>
     </message>
     <message>
-
-        <location filename="../mainwindow.cpp" line="413"/>
-
         <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="413"/>
         <source>&amp;About EasyPaint</source>
         <translation>Acerca de EasyPaint</translation>
     </message>
     <message>
-
-        <location filename="../mainwindow.cpp" line="240"/>
-
         <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="240"/>
         <source>About Qt</source>
         <translation>Acerca de Qt</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
         <translation></translation>
@@ -470,26 +404,25 @@
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
         <location filename="../mainwindow.cpp" line="728"/>
-
         <location filename="../mainwindow.cpp" line="491"/>
         <location filename="../mainwindow.cpp" line="539"/>
         <source>Closing Tab...</source>
         <translation>Cerrando...</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="672"/>
         <location filename="../mainwindow.cpp" line="729"/>
 
         <location filename="../mainwindow.cpp" line="492"/>
         <location filename="../mainwindow.cpp" line="540"/>
+        <location filename="../mainwindow.cpp" line="672"/>
+        <location filename="../mainwindow.cpp" line="729"/>
         <source>File has been modified.
 Do you want to save changes?</source>
         <translation>El archivo está modificado.
 ¿Deseas guardar los modificaciones?</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="849"/>
 
         <location filename="../mainwindow.cpp" line="820"/>
@@ -497,23 +430,20 @@ Do you want to save changes?</source>
         <translation>Acerca de EasyPaint</translation>
     </message>
     <message>
-
-        <location filename="../mainwindow.cpp" line="860"/>
-
         <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>version</source>
         <translation>versión</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="860"/>
 
         <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>Site</source>
         <translation>Sitio</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="860"/>
 
         <location filename="../mainwindow.cpp" line="830"/>
@@ -522,14 +452,14 @@ Do you want to save changes?</source>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>Authors</source>
         <translation>Autores</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Si gusta</translation>
+        <translation>Si ustedes gusta &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o</translation>
     </message>
 </context>
 <context>
@@ -538,7 +468,6 @@ Do you want to save changes?</source>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
         <translation>Colores</translation>
-
         <source>0.0.1</source>
         <translation type="obsolete">0.0.1</translation>
     </message>
@@ -546,23 +475,22 @@ Do you want to save changes?</source>
 <context>
     <name>ResizeDialog</name>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="44"/>
 
         <location filename="../resizedialog.cpp" line="42"/>
+        <location filename="../dialogs/resizedialog.cpp" line="44"/>
         <source>Resize</source>
         <translation>Redimensionar</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="49"/>
 
         <location filename="../resizedialog.cpp" line="47"/>
+        <location filename="../dialogs/resizedialog.cpp" line="49"/>
         <source>Original size:</source>
         <translation>Tamaño original:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="51"/>
         <source>New size:</source>
         <translation>Nuevo tamaño:</translation>
@@ -571,61 +499,63 @@ Do you want to save changes?</source>
         <location filename="../dialogs/resizedialog.cpp" line="54"/>
 
         <location filename="../resizedialog.cpp" line="49"/>
+        <location filename="../dialogs/resizedialog.cpp" line="51"/>
         <source>New size:</source>
-        <translation>Nuevas tamaños:</translation>
+        <translation>Nuevo tamaño:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="52"/>
+        <location filename="../dialogs/resizedialog.cpp" line="54"/>
         <source>Pixels</source>
         <translation>Píxels</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="68"/>
         <location filename="../dialogs/resizedialog.cpp" line="86"/>
 
         <location filename="../resizedialog.cpp" line="66"/>
         <location filename="../resizedialog.cpp" line="84"/>
+        <location filename="../dialogs/resizedialog.cpp" line="68"/>
+        <location filename="../dialogs/resizedialog.cpp" line="86"/>
         <source>Width:</source>
         <translation>Ancho:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="69"/>
 
         <location filename="../resizedialog.cpp" line="67"/>
+        <location filename="../dialogs/resizedialog.cpp" line="69"/>
         <source>x Height:</source>
         <translation>x Altura:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="71"/>
 
         <location filename="../resizedialog.cpp" line="69"/>
+        <location filename="../dialogs/resizedialog.cpp" line="71"/>
         <source>Percent</source>
         <translation>Pro cento</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="87"/>
 
         <location filename="../resizedialog.cpp" line="85"/>
+        <location filename="../dialogs/resizedialog.cpp" line="87"/>
         <source>% x Height:</source>
         <translation>% x Altura:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="88"/>
 
         <location filename="../resizedialog.cpp" line="86"/>
+        <location filename="../dialogs/resizedialog.cpp" line="88"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="90"/>
 
         <location filename="../resizedialog.cpp" line="88"/>
+        <location filename="../dialogs/resizedialog.cpp" line="90"/>
         <source>Preserve Aspect Ratio</source>
         <translation>Preserva cociente de aspecto</translation>
     </message>
@@ -633,23 +563,22 @@ Do you want to save changes?</source>
 <context>
     <name>SettingsDialog</name>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="49"/>
 
         <location filename="../settingsdialog.cpp" line="45"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="49"/>
         <source>Settings</source>
         <translation>Preferencias</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="69"/>
 
         <location filename="../settingsdialog.cpp" line="65"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="69"/>
         <source>Language:</source>
         <translation>Idioma:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="71"/>
 
         <location filename="../settingsdialog.cpp" line="67"/>
@@ -657,10 +586,9 @@ Do you want to save changes?</source>
         <translation>&lt;Sistema&gt;</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Nota: la cambia de idioma necesario</translation>
+        <translation>Nota: es necessario reiniciar la aplicación para cambiar el idioma</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -674,13 +602,11 @@ Do you want to save changes?</source>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
-
         <location filename="../settingsdialog.cpp" line="76"/>
         <source>User interface</source>
         <translation>Interfaz de utilizador</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
         <translation>Tamaño bajo:</ranslation>
@@ -690,15 +616,14 @@ Do you want to save changes?</source>
 
         <location filename="../settingsdialog.cpp" line="79"/>
         <source>Base size:</source>
-        <translation>Tamaño bajo:</translation>
+        <translation>Tamaño bajo:</ranslation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="93"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="107"/>
         <source>History depth:</source>
         <translation>Tamaño de historia:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="113"/>
 
         <location filename="../settingsdialog.cpp" line="101"/>
@@ -706,7 +631,6 @@ Do you want to save changes?</source>
         <translation>Guarda automatico</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="115"/>
         <source>Autosave Interval (sec):</source>
         <translation>Intervalo de guarda automatico (segundos):</translation>
@@ -716,15 +640,14 @@ Do you want to save changes?</source>
 
         <location filename="../settingsdialog.cpp" line="103"/>
         <source>Interval (msec):</source>
-        <translation>Intervalo (ms):</translation>
+        <translation>Intervalo (milisegundos):</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="117"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="130"/>
         <source>Image</source>
         <translation>Imagen</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="140"/>
         <source>General</source>
         <translation>General</translation>
@@ -803,7 +726,6 @@ Do you want to save changes?</source>
 <context>
     <name>ToolBar</name>
     <message>
-
         <location filename="../widgets/toolbar.cpp" line="37"/>
 
         <location filename="../toolbar.cpp" line="35"/>
@@ -811,7 +733,6 @@ Do you want to save changes?</source>
         <translation>Instrumentos</translation>
     </message>
     <message>
-
         <location filename="../widgets/toolbar.cpp" line="88"/>
         <location filename="../widgets/toolbar.cpp" line="89"/>
         <source>Primary color</source>
@@ -826,12 +747,12 @@ Do you want to save changes?</source>
         <translation>Color primero</translation>
     </message>
     <message>
-        <location filename="../toolbar.cpp" line="106"/>
+        <location filename="../widgets/toolbar.cpp" line="93"/>
+        <location filename="../widgets/toolbar.cpp" line="94"/>
         <source>Second color</source>
         <translation>Color segundo</translation>
     </message>
     <message>
-
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
 
@@ -840,6 +761,4 @@ Do you want to save changes?</source>
         <translation>Tamaño de la pluma</translation>
     </message>
 </context>
-
 </TS>
-
