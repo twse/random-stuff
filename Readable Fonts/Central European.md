@@ -10,6 +10,8 @@ On the PC platform, three character sets are in common use:
 * Windows CP1250. Supports Czech, Slovak, Polish, Hungarian, Slovenian, Bosnian, Croatian, Serbian and Albanian languages. No support for Baltic languages.
 * Windows CP1257. Supports Polish, Slovenian, Estonian, Latvian and Lithuanian languages. No support for Czech, Slovak, Hungarian, Bosnian, Croatian nor Serbian languages.
 
+On Linux and Unix, character sets are in common use:
+
 On OS/2 and MS-DOS, nine character sets are in common use:
 * CP113. Supports Slovenian, Bosnian, Croatian and Serbian languages.
 * CP3845. Supports Hungarian language but not other CE languages.
@@ -45,7 +47,7 @@ Free public-domain fonts using custom character sets include:
 * Velehrad. Supports Czech and Slovenian letters from Windows CP1250.
 
 ## Fonts
-* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard program comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
+* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard program which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic non-Unicode fonts and a Windows 3.1 package which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is designed for typing Romanian text on English keyboards. The numbers are old-style.
 * TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
@@ -127,4 +129,4 @@ Mac users will appreciate that Mac OS X has to be used for writing with the Unic
 
 ### Printer's Specials
 
-When launching egapl with "la" encoding, § is placed in 167.
+When launching egapl with "la" encoding, it will place the section sign (§) in codepoint 167.
