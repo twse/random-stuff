@@ -11,7 +11,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
@@ -43,7 +43,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Can&apos;t open file &quot;%1&quot;.</source>
-        <translation></translation>
+        <translation>Kan inte öppna filen &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -55,7 +55,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
-        <translation></translation>
+        <translation>Kan inte lagra filen &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
@@ -66,10 +66,6 @@
     </message>
     <message>
         <location filename="../imagearea.cpp" line="244"/>
-        <source>Save image...</source>
-        <translation>Lagra bild...</translation>
-    </message>
-
         <location filename="../imagearea.cpp" line="157"/>
         <source>Save image...</source>
         <translation>Lagra bild...</translation>
@@ -793,4 +789,3 @@ Vill du spara ändringarna?</translation>
 </context>
 </TS>
 
-</TS>
