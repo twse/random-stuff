@@ -69,10 +69,6 @@
     <message>
 
         <location filename="../imagearea.cpp" line="244"/>
-        <source>Save image...</source>
-        <translation>Guardar imagen...</translation>
-    </message>
-
         <location filename="../imagearea.cpp" line="157"/>
         <source>Save image...</source>
         <translation>Guardar imagen...</translation>
@@ -533,7 +529,7 @@ Do you want to save changes?</source>
 
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation>Si gusta</translation>
     </message>
 </context>
 <context>
@@ -669,12 +665,12 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Restaurar tamaño de la ventana durante inicialización</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Pregunta tamaño de la lona durante</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
@@ -797,7 +793,8 @@ Do you want to save changes?</source>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
         <translation>¿Eliminar texto?</translation>
-
+    </message>
+    <message>
         <location filename="../settingsdialog.cpp" line="127"/>
         <source>Main</source>
         <translation>Principal</translation>
@@ -846,4 +843,3 @@ Do you want to save changes?</source>
 
 </TS>
 
-</TS>
