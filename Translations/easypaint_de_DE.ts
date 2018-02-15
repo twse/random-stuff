@@ -705,12 +705,9 @@ Möchten Sie die Änderungen speichern?</translation>
         <translation>Sprache:</translation>
     </message>
     <message>
-
         <location filename="../dialogsettingsdialog.cpp" line="71"/>
 
-        <location filename="../settingsdialog.cpp" line="67"/>
-
-        <source>&lt;System&gt;</source>
+        <location filename="../settingsdialog.cpp" line="67"/>        <source>&lt;System&gt;</source>
         <translation>&lt;System&gt;</translation>
     </message>
     <message>
