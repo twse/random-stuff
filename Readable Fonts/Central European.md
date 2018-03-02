@@ -55,6 +55,10 @@ Free public-domain fonts using custom character sets include:
 ### Czech - Typed as usual on Czech keyboards
 This language can be used when written with Kamenicky encoding.
 
+Pavel Ferda wrote the pay shareware program Trans-ASCII (1991), a program to convert Czech text in various encodings. The executable file and documentation is encoded either in ASCII, CP852 or Kamenicky.
+
+Zdeněk Kudrla wrote Czech Coding Convertor, a program to convert Czech text written in eight encodings. The program comes with source code included.
+
 ### Slovak - Typed as usual on Slovak keyboards
 This language can be used when written with Kamenicky encoding.
 
@@ -78,18 +82,18 @@ URW Palladio SKT, KUL, M and FF relocates Ź at 190 to comply with Adobe Standar
 ### Yugoslavian - Typed as usual on Yugoslavian keyboards
 These can be written when used with CP113.
 
-Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. Documentation is in Croatian only.
+Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. The documentation is in Croatian only.
 
-Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. Documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
+Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
 
 Vedran Gačo wrote the pay shareware font editor GWD Font Editor (1995). This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
 
-Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of text encodings written in Croatian language. Documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
+Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of text encodings written in Croatian language. The documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
-Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t which is inacceptable.
+Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 
 ### Albanian - Typed as usual on Albanian keyboards
 Mac users will appreciate that the Apple US encoding has to be used for writing.
@@ -124,7 +128,30 @@ Mac users will appreciate that Mac OS X has to be used for writing with the Unic
 | z caron    | Alt-167 | Alt-158        | No key assigned | Alt-254                |
 
 ### Spacing Accents
+| Glyph        | Codes   | Windows CP1250 | Apple CE        | LinguaFont Czech | LinguaFont Polish |
+|--------------|---------|----------------|-----------------|------------------|-------------------|
+| acute        | Alt-239 | Alt-180        | No key assigned | No key assigned  | Alt-245           |
+| diaeresis    | Alt-249 | Alt-168        | Alt-172         | No key assigned  | No key assigned   |
+| háček/caron  | Alt-243 | Alt-161        | Alt-255         | Alt-241          | No key assigned   |
+| breve        | Alt-244 | Alt-162        | No key assigned | No key assigned  | No key assigned   |
+| double acute | Alt-241 | Alt-189        | No key assigned | No key assigned  | No key assigned   |
+| dot above    | Alt-250 | Alt-255        | No key assigned | No key assigned  | No key assigned   |
+| cedilla      | Alt-247 | Alt-168        | No key assigned | No key assigned  | No key assigned   |
+| ogonek       | Alt-242 | Alt-178        | No key assigned | No key assigned  | Alt-244           |
 
 ### Printer's Specials
+| Glyph              | Codes   | Windows CP1250 | Apple CE        | TITUS Eastern European |
+|--------------------|---------|----------------|-----------------|------------------------|
+| non-breaking space | Alt-255 | Alt-160        | Alt-202         | Alt-255                |
+| sharp s            | Alt-225 | Alt-223        | Alt-167         | Alt-225                |
+| Euro               | Alt-170 | Alt-128        | No key assigned | No key assigned        |
+| currency           | Alt-207 | Alt-164        | No key assigned | No key assigned        |
+| section            | Alt-245 | Alt-187        | Alt-164         | No key assigned        |
+| guillemotleft      | Alt-174 | Alt-171        | Alt-199         | No key assigned        |
+| guillemotright     | Alt-175 | Alt-187        | Alt-200         | No key assigned        |
+| degree             | Alt-248 | Alt-176        | Alt-161         | No key assigned        |
+| multiply           | Alt-158 | Alt-215        | No key assigned | No key assigned        |
+| division           | Alt-246 | Alt-247        | Alt-214         | No key assigned        |
+| soft hyphen        | Alt-240 | Alt-173        | No key assigned | No key assigned        |
 
 When launching egapl with "la" encoding, § is placed in 167.
