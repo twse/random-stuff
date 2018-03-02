@@ -12,7 +12,8 @@ Special thanks goes to the following people:
 * Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
 * Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
 * Roman Czyborra, for information about character sets.
-* Miroslav Dressler, for writing the EDA editor which uses its own encoding based on Kamenicky.
+* Virginijus Dadurkevičius, for his accented Lithuanian font.
+* Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenicky.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
 * Miguel Farah, for his readable fonts. I never used this for creating.
@@ -59,6 +60,7 @@ Special thanks goes to the following people:
 * Conrad Taylor, for his book used for designing fonts for African languages.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
+* Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
