@@ -30,6 +30,58 @@ This file includes data files and registry keys for all versions of FontCreator.
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
 
 # Proprietary software credits used in icon collection (see above for freeware, open source, public domain and shareware credits)
-“bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2016 Coherent Labs. All Rights Reserved.
+This software product includes Autodesk™ Beast™ software, © 2018 Autodesk, Inc. All rights reserved.
+
+Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
+
+“bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
+
+Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics Limited or its affiliates.
+
+FaceFX © OC3 Entertainment, Inc. and its licensors.
+
+FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
+
+This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2009 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
+
+This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
+
+Uses Granny Animation. Copyright © 1999-2018 by RAD Game Tools, Inc.
+
+Havok software is © 2017 Microsoft. All rights reserved.
+
+This software product includes Autodesk® HumanIK® software, © 2018 Autodesk, Inc. All rights reserved.
+
+Uses Iggy. Copyright © 2009-2018 by RAD Game Tools, Inc.
 
 Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
+
+Uses Kynapse, © 2003-2016 Kynapse.<br />
+Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserved.<br />
+See www.kynapse.com for more information.
+
+Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
+
+This game uses NaturalMotion morpheme animation technology.
+
+Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
+
+This software product includes Autodesk® Scaleform® software, © 2018 Autodesk, Inc. All rights reserved.
+
+Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
+
+Uses Simplygon®, Copyright © - 2018 Donya Labs AB
+
+Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
+
+Uses Telemetry. Copyright © 2010-2018 by RAD Game Tools, Inc.
+
+THX is a trademark or registered trademark of THX Ltd. All rights reserved.
+
+Uses Umbra 2006 - 2018. See umbra3d.com for details.
+
+This program was created using Unity. Portions of this program © 2005-2018 Unity Technologies.
+
+Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
+
+Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
