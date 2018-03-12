@@ -1,6 +1,7 @@
 ## Acknowledgements
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
+* Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
 * [Ken Borgendale](http://www.borgendale.com), for information about codepages.
 * Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
