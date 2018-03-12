@@ -4,7 +4,7 @@ This repository contains random stuff.
 * **Generic Menu**: TrueType Unicode font based on the Made in Wario font. Thanks goes to Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. (**Note:** Created with OS/2 Icon Editor. Software credits available at http://bobsgame.wikia.com/wiki/Extras)
 * **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
-* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
+* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. If you need to add someone you have to use the form at the end of this page.
 * **PSF Contributor Signatories.htm**: Includes people who received the contributor form from the Python Software Foundation (partial list only).
 * **READBL Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine).
 * **SitePal Forum Drug Words.htm**: Words for toothpastes, drugs, medicine and other stuff excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
@@ -28,3 +28,8 @@ This file includes data files and registry keys for all versions of FontCreator.
 * **EasyPaint** by Nikita Grishko et al. to Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
 * **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
 * **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
+
+# Proprietary software credits used in icon collection (see above for freeware, open source, public domain and shareware credits)
+“bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2016 Coherent Labs. All Rights Reserved.
+
+Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
