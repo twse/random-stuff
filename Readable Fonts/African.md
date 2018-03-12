@@ -1,5 +1,5 @@
 ## Fonts
-Gam Bia SIL SophiaL (1995), is a non-Unicode font based on the Sophia font for use with native languages of Gambia.
+Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with native languages of Gambia.
 
 ## Diacritical characters (alphabetical order by region)
 
