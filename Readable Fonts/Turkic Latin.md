@@ -4,22 +4,22 @@ Noxchi (unknown year), by Howard M. Berlin, is a series of non-Unicode fonts for
 ## Diacritical characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
-| Glyph       | Codes   |
-|-------------|---------|
-| C cedilla   | Alt-128 |
-| Schwa       | Alt-232 |
-| G breve     | Alt-166 |
-| I dot above | Alt-152 |
-| O dieresis  | Alt-153 |
-| S cedilla   | Alt-158 |
-| U dieresis  | Alt-154 |
-| c cedilla   | Alt-135 |
-| schwa       | Alt-246 |
-| g breve     | Alt-167 |
-| i dotless   | Alt-141 |
-| o dieresis  | Alt-148 |
-| s cedilla   | Alt-159 |
-| u dieresis  | Alt-129 |
+| Glyph       | Codes   | Times of the West II |
+|-------------|---------|----------------------|
+| C cedilla   | Alt-128 | Alt-199              |
+| Schwa       | Alt-232 | Alt-144              |
+| G breve     | Alt-166 | Alt-208              |
+| I dot above | Alt-152 | Alt-221              |
+| O dieresis  | Alt-153 | Alt-214              |
+| S cedilla   | Alt-158 | Alt-222              |
+| U dieresis  | Alt-154 | Alt-220              |
+| c cedilla   | Alt-135 | Alt-231              |
+| schwa       | Alt-246 | Alt-129              |
+| g breve     | Alt-167 | Alt-240              |
+| i dotless   | Alt-141 | Alt-253              |
+| o dieresis  | Alt-148 | Alt-246              |
+| s cedilla   | Alt-159 | Alt-254              |
+| u dieresis  | Alt-129 | Alt-252              |
 
 ### Bashkir
 | Glyph        | Codes   |
