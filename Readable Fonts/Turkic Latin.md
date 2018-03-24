@@ -1,7 +1,7 @@
 ## Fonts
 Noxchi (unknown year), by Howard M. Berlin, is a series of non-Unicode fonts for Chechen language. All other accented letters are replaced with bullet.
 
-Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and include letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. Download the font from [http://ls78.sweb.cz/fonts.htm](here).
+Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and include letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
 
 ## Diacritical characters (in alphabetical order by language)
 
