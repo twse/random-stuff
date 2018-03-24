@@ -3,13 +3,13 @@ This repository contains random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
 * **Generic Menu**: TrueType Unicode font based on the Made in Wario font. Thanks goes to Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. (**Note:** Created with OS/2 Icon Editor. See below for commercial software credits; freeware, open source, public domain and shareware credits available at http://bobsgame.wikia.com/wiki/Extras)
-* **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007).
-* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
+* **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc.
+* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. If you need to add someone you have to use the form at the end of this page.
 * **PSF Contributor Signatories.htm**: Includes people who received the contributor form from the Python Software Foundation (partial list only).
 * **READBL Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine).
 * **SitePal Forum Drug Words.htm**: Words for toothpastes, drugs, medicine and other stuff excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
 * **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
-* **ZOE TFOM**: TrueType Unicode font based on the font used in USA/EUR versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled.
+* **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
 ### Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). In the meantime, this font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
@@ -79,8 +79,7 @@ This game uses NaturalMotion morpheme animation technology.
 
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
-Copyright(c) 1990 - 1997 Sundial Systems Corporation.<br />
-ALL RIGHTS RESERVED.
+Relish Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
 The software program accompanying this information is copyrighted by Sundial Systems Corporation. This information is subject to change without notice and does not represent a commitment on the part of Sundial Systems Corporation. The Relish Working Model may be freely copied and distributed. This information may be freely reproduced in total and distributed solely for use with the Relish Working Model.
 
@@ -119,3 +118,8 @@ This program was created using Unity. Portions of this program © 2005-2018 Unit
 Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
+
+# Unsupported Software
+
+## For use of WarpCalc
+Place legal notice/warranty stuff here.
