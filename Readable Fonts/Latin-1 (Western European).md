@@ -1,5 +1,9 @@
 ## Fonts
-The WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
+Times of the West I (2001), by Libor Sztemon, is derived from Times New Roman and includes special characters and letters with diacritics for Catalan, Greenlandic, Luxembourgian and Old Danish/Norwegian languages. The PCL5 data refers to the original Times New Roman font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
+
+Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and include letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. The PCL5 data refers to the original Times New Roman font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
+
+The old WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
 
 ## Diacritical mapping tables
 
@@ -15,34 +19,34 @@ See table on Catalan/Spanish language.
 | l dot below | Alt-155                |
 
 ### Catalan/Spanish - Typed as usual on Catalan/Spanish keyboards
-| Glyph                     | Western 2 codes | WST_Span             | Times of the West II |
-|---------------------------|-----------------|----------------------|----------------------|
-| inverted exclamation mark | Alt-173         | at                   | Alt-161              |
-| inverted question mark    | Alt-168         | grave accent         | Alt-191              |
-| feminine ordinal          | Alt-166         | No key assigned      | Alt-170              |
-| masculine ordinal         | Alt-167         | No key assigned      | Alt-186              |
-| A grave                   | Alt-183         | No key assigned      | Alt-192              |
-| A acute                   | Alt-181         | No key assigned      | Alt-193              |
-| C cedilla                 | Alt-128         | No key assigned      | Alt-199              |
-| E grave                   | Alt-212         | No key assigned      | Alt-200              |
-| E acute                   | Alt-144         | No key assigned      | Alt-201              |
-| I acute                   | Alt-214         | No key assigned      | Alt-205              |
-| L middle dot              | Alt-242         | No key assigned      | Alt-188              |
-| N tilde                   | Alt-165         | No key assigned      | Alt-209              |
-| O acute                   | Alt-224         | No key assigned      | Alt-211              |
-| U acute                   | Alt-233         | No key assigned      | Alt-218              |
-| U dieresis                | Alt-154         | No key assigned      | Alt-220              |
-| a grave                   | Alt-133         | tilde                | Alt-224              |
-| a acute                   | Alt-160         | left square bracket  | Alt-225              |
-| c cedilla                 | Alt-135         | number sign          | Alt-231              |
-| e grave                   | Alt-138         | right curly bracket  | Alt-232              |
-| e acute                   | Alt-130         | backslash            | Alt-233              |
-| i acute                   | Alt-161         | right square bracket | Alt-237              |
-| l middle dot              | Alt-246         | No key assigned      | Alt-190              |
-| n tilde                   | Alt-164         | vertical line        | Alt-241              |
-| o acute                   | Alt-162         | circumflex accent    | Alt-243              |
-| u acute                   | Alt-163         | underscore           | Alt-250              |
-| u dieresis                | Alt-129         | left curly bracket   | Alt-252              |
+| Glyph                     | Western 2 codes | WST_Span             | Times of the West     |
+|---------------------------|-----------------|----------------------|-----------------------|
+| inverted exclamation mark | Alt-173         | at                   | Alt-161               |
+| inverted question mark    | Alt-168         | grave accent         | Alt-191               |
+| feminine ordinal          | Alt-166         | No key assigned      | Alt-170 (second font) |
+| masculine ordinal         | Alt-167         | No key assigned      | Alt-186 (second font) |
+| A grave                   | Alt-183         | No key assigned      | Alt-192               |
+| A acute                   | Alt-181         | No key assigned      | Alt-193               |
+| C cedilla                 | Alt-128         | No key assigned      | Alt-199               |
+| E grave                   | Alt-212         | No key assigned      | Alt-200               |
+| E acute                   | Alt-144         | No key assigned      | Alt-201               |
+| I acute                   | Alt-214         | No key assigned      | Alt-205               |
+| L middle dot              | Alt-242         | No key assigned      | Alt-163 or Alt-188    |
+| N tilde                   | Alt-165         | No key assigned      | Alt-209               |
+| O acute                   | Alt-224         | No key assigned      | Alt-211               |
+| U acute                   | Alt-233         | No key assigned      | Alt-218               |
+| U dieresis                | Alt-154         | No key assigned      | Alt-220               |
+| a grave                   | Alt-133         | tilde                | Alt-224               |
+| a acute                   | Alt-160         | left square bracket  | Alt-225               |
+| c cedilla                 | Alt-135         | number sign          | Alt-231               |
+| e grave                   | Alt-138         | right curly bracket  | Alt-232               |
+| e acute                   | Alt-130         | backslash            | Alt-233               |
+| i acute                   | Alt-161         | right square bracket | Alt-237               |
+| l middle dot              | Alt-246         | No key assigned      | Alt-179 or Alt-190    |
+| n tilde                   | Alt-164         | vertical line        | Alt-241               |
+| o acute                   | Alt-162         | circumflex accent    | Alt-243               |
+| u acute                   | Alt-163         | underscore           | Alt-250               |
+| u dieresis                | Alt-129         | left curly bracket   | Alt-252               |
 
 ### Galician
 See table on Catalan/Spanish language.
