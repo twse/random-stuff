@@ -94,6 +94,19 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
+| Glyph    | Codes   | Windows CP1250 | Apple Croatian | CP113   | Times of the West II | TITUS Eastern European |
+|----------|---------|----------------|----------------|---------|----------------------|------------------------|
+| C acute  | Alt-143 | Alt-198        | Alt-198        | Alt-143 | No key assigned      | Alt-171                |
+| C caron  | Alt-172 | Alt-200        | Alt-200        | Alt-146 | Alt-141              | Alt-170                |
+| D stroke | Alt-209 | Alt-208        | Alt-208        | Alt-157 | No key assigned      | Alt-172                |
+| S caron  | Alt-230 | Alt-238        | Alt-169        | Alt-165 | Alt-138              | Alt-201                |
+| Z caron  | Alt-166 | Alt-142        | Alt-174        | Alt-167 | Alt-152              | Alt-214                |
+| c acute  | Alt-134 | Alt-230        | Alt-232        | Alt-134 | No key assigned      | Alt-219                |
+| c caron  | Alt-159 | Alt-232        | Alt-230        | Alt-145 | Alt-157              | Alt-218                |
+| d stroke | Alt-208 | Alt-240        | Alt-240        | Alt-155 | No key assigned      | Alt-220                |
+| s caron  | Alt-231 | Alt-154        | Alt-185        | Alt-164 | Alt-154              | Alt-244                |
+| z caron  | Alt-167 | Alt-158        | Alt-190        | Alt-166 | Alt-158              | Alt-254                |
+
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
 Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 
