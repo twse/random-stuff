@@ -1,6 +1,8 @@
 ## Fonts
 Noxchi Arial (unknown year) is a non-Unicode font designed for Chechen language. All other accented letters are replaced with bullet.
 
+Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and include letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. Download the font from [http://ls78.sweb.cz/fonts.htm](here).
+
 ## Diacritical characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
@@ -162,26 +164,26 @@ Noxchi Arial (unknown year) is a non-Unicode font designed for Chechen language.
 | u dieresis   | Alt-129 |
 
 ### Turkish - Typed as usual on Turkish keyboards
-| Glyph        | Codes   |
-|--------------|---------|
-| A circumflex | Alt-182 |
-| C cedilla    | Alt-128 |
-| G breve      | Alt-166 |
-| I circumflex | Alt-215 |
-| I dot above  | Alt-152 |
-| O dieresis   | Alt-153 |
-| S cedilla    | Alt-158 |
-| U circumflex | Alt-234 |
-| U dieresis   | Alt-154 |
-| a circumflex | Alt-131 |
-| c cedilla    | Alt-135 |
-| g breve      | Alt-167 |
-| i circumflex | Alt-140 |
-| i dotless    | Alt-141 |
-| o dieresis   | Alt-148 |
-| s cedilla    | Alt-159 |
-| u circumflex | Alt-150 |
-| u dieresis   | Alt-129 |
+| Glyph        | Codes   | Times of the West II |
+|--------------|---------|----------------------|
+| A circumflex | Alt-182 | Alt-194              |
+| C cedilla    | Alt-128 | Alt-199              |
+| G breve      | Alt-166 | Alt-208              |
+| I circumflex | Alt-215 | Alt-206              |
+| I dot above  | Alt-152 | Alt-221              |
+| O dieresis   | Alt-153 | Alt-214              |
+| S cedilla    | Alt-158 | Alt-222              |
+| U circumflex | Alt-234 | Alt-219              |
+| U dieresis   | Alt-154 | Alt-220              |
+| a circumflex | Alt-131 | Alt-226              |
+| c cedilla    | Alt-135 | Alt-231              |
+| g breve      | Alt-167 | Alt-240              |
+| i circumflex | Alt-140 | Alt-238              |
+| i dotless    | Alt-141 | Alt-253              |
+| o dieresis   | Alt-148 | Alt-246              |
+| s cedilla    | Alt-159 | Alt-254              |
+| u circumflex | Alt-150 | Alt-251              |
+| u dieresis   | Alt-129 | Alt-252              |
 
 ### Turkmen
 | Glyph       | Codes   |
