@@ -9,6 +9,31 @@ Although not part of this VGA font, this range contains 58 characters.
 ### Diacritical characters used in the Amazigh fonts
 All characters are typed as usual on French keyboards depending on the nationality.
 
+| Glyph       | Code         |
+|-------------|--------------|
+| C caron     | a grave      |
+| D dot below | V            |
+| G caron     | O            |
+| Gamma       | sterling     |
+| H dot below | E dieresis   |
+| R dot below | O dieresis   |
+| S dot below | U dieresis   |
+| T dot below | I dieresis   |
+| T cedilla   | P            |
+| Z dot below | e grave      |
+| Z cedilla   | A dieresis   |
+| c caron     | c cedilla    |
+| d dot below | v            |
+| g caron     | o            |
+| gamma       | dollar       |
+| h dot below | e circumflex |
+| r dot below | o circumflex |
+| s dot below | u circumflex |
+| t dot below | i circumflex |
+| t cedilla   | p            |
+| z dot below | e acute      |
+| z cedilla   | a dieresis   |
+
 #### Moroccan Tamazight Transliteration (ALA-LC)
 | Glyph        | Code    | Amazigh |
 |--------------|---------|---------|
