@@ -123,12 +123,44 @@ Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 # Unsupported Software
 
 ## For use of Astrolog
+The graphics database and chart display routines used in this program are copyright (c) 1991-1996 by Walter D. Pullen. Permission is granted to freely use and distribute these routines provided one doesn't sell, restrict, or profit from them in any way. Modification is allowed provided these notices remain with any altered or edited versions of the program.
+
+The main planetary calculation routines used in this program are copyrighted and the core of this program is basically a conversion to C of routines created by James Neely. The copyright gives us permission to use the routines for personal use but not to sell them or financially profit from them in any way.
+
+The PostScript code within the core graphics routines are programmed and copyright (c) 1992-1993 by Brian D. Willoughby. Conditions are identical to those above.
+
+The extended accurate ephemeris databases and formulas are from the calculation routines in the program "Placalc" and are programmed and copyright (c) 1989, 1991, 1993 by Astrodienst AG and Alois Treindl
+
+The use of that source code is subject to regulations made by Astrodienst Zurich, and the code is not in the public domain. This copyright notice must not be changed or removed by any user of this program.
+
+All changes and additions to the original code (Astrolog 5.40) are copyright (c) 1998-2007 by Carl-Magnus Olsson.
+
+This customized and extended port of Astrolog for MS Windows to IBM OS/2 by Carl-Magnus Olsson (see top of file for contact information).
+
+None of these notices may be changed or removed for any reason.
 
 ## For use of File Hound
+Copyright © 1997 Aaron R. Gaalswyk
+
+Aaron R. Gaalswyk (the AUTHOR) grants you a non-exclusive, non-transferable license to the SOFTWARE (hereinafter defined), free of charge, provided that you adhere to the terms of this license agreement.
+
+The SOFTWARE is licensed, not sold. The AUTHOR does not transfer title to the SOFTWARE to you. No rights are granted to you other than those listed in this license agreement. By installing or USING (hereinafter defined) the SOFTWARE, you signify your agreement to the terms of this license agreement.
 
 ## For use of Magnum
+Copyright © 2000 Carl-Magnus Olsson
+
+Magnum is freeware, but is copyrighted and not in the public domain. Permission is granted to any individual or institution to use, copy, or redistribute this software so long as all of the original files are included unmodified, that it is not sold for profit, and that this copyright notice is retained.
 
 ## For use of RexxBase
+Copyright © 1993-1999 American Coders Ltd.<br />
+Written by Joe McVerry
 
 ## For use of WarpCalc
-Place legal notice/warranty stuff here.
+WarpCalc is Copyright (c) 1997-2012 by Carl-Magnus Olsson.<br />
+All rights reserved.
+
+THIS PROGRAM IS PROVIDED AS IS AND COMES WITH NO WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED. IN NO EVENT WILL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DAMAGES RESULTING FROM THE USE OF THIS SOFTWARE.
+
+BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+The author would like to acknowledge the help of all the pre-release testers. Special thanks to Tim Lomas, Marcelo Chiapparini, Andreas Ludwig and Erik Bracke for their enthusiastic support of WarpCalc and for suggesting useful improvements now included in this version.
