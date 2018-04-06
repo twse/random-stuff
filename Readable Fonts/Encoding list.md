@@ -9,11 +9,14 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| ILPROM    | ILPRumanianB100                                |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TMSEUS    | Times New Roman Basque                         |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
+| VGAF_HY   | VGAFONT Armenian                               |
+| VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
