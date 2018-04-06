@@ -16,14 +16,14 @@ Special thanks goes to the following people:
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenicky.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
-* Miguel Farah, for his readable fonts. I never used this for creating.
+* Miguel Farah, for his readable fonts. I never use his fonts as a base for creating them.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
-* Dov Grobgeld, forc reating his TeX math fonts (1992). The fonts were distributed in a package at israel.nyserent.org.
+* Dov Grobgeld, for creating his TeX math fonts (1992).
 * Raymond Hickey, for maintaining the two DOS packages Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
 * Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
@@ -32,7 +32,7 @@ Special thanks goes to the following people:
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
 * Jörg Knappen, for his TeX African Latin encoding.
-* Donald E. Knuth, for writing TeX and his own encodnig.
+* Donald E. Knuth, for writing TeX and his own encodings.
 * John E. Koontz, for creating the Siouanist fonts.
 * Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
 * Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
@@ -57,7 +57,7 @@ Special thanks goes to the following people:
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the PCL tables from his own fonts.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
-* Conrad Taylor, for his book used for designing fonts for African languages.
+* Conrad Taylor, for his book used to design fonts for African languages.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
 * Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
