@@ -92,7 +92,7 @@ Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
 
 SimCity Copyright © 2013 Electronic Arts Inc.
 
-Uses Simplygon®, Copyright © - 2018 Donya Labs AB
+Simplygon is © 2018 Microsoft. All rights reserved.
 
 Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
 
@@ -121,6 +121,14 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
 # Unsupported Software
+
+## For use of Astrolog
+
+## For use of File Hound
+
+## For use of Magnum
+
+## For use of RexxBase
 
 ## For use of WarpCalc
 Place legal notice/warranty stuff here.
