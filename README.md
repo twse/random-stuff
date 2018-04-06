@@ -80,6 +80,8 @@ This game uses NaturalMotion morpheme animation technology.
 
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
+This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
+
 Relish Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
 The software program accompanying this information is copyrighted by Sundial Systems Corporation. This information is subject to change without notice and does not represent a commitment on the part of Sundial Systems Corporation. The Relish Working Model may be freely copied and distributed. This information may be freely reproduced in total and distributed solely for use with the Relish Working Model.
