@@ -10,6 +10,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| CZECH     | Czech letters on cp852 codepoints              |
+| CZECHLF   | LinguaFont Czech                               |
 | ILPROM    | ILPRumanianB100                                |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
