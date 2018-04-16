@@ -369,7 +369,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Wenn Sie EasyPaint mögen und Ihre Meinung teilen möchten, oder einen Bug-Report senden oder neue Funktionen vorschlagen möchten, warten wir auf Sie auf unserem &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;Tracker&lt;/a&gt;.</translation>
+        <translation>Wenn Sie &lt;b&gt;EasyPaint&lt;/b&gt; mögen und Ihre Meinung teilen möchten, oder einen Bug-Report senden oder neue Funktionen vorschlagen möchten, warten wir auf Sie auf unserem &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;Tracker&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
