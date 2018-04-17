@@ -91,7 +91,7 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
-# Unsupported Software
+# Unsupported Freeware Licensed Software
 
 ## For use of Astrolog
 The graphics database and chart display routines used in this program are copyright (c) 1991-1996 by Walter D. Pullen. Permission is granted to freely use and distribute these routines provided one doesn't sell, restrict, or profit from them in any way. Modification is allowed provided these notices remain with any altered or edited versions of the program.
@@ -110,12 +110,31 @@ This customized and extended port of Astrolog for MS Windows to IBM OS/2 by Carl
 
 None of these notices may be changed or removed for any reason.
 
+## For use of CFSPoker
+Copyright (c) 1995-1996 by C F S Nevada, Inc.<br />
+Written by Dick Goran
+
+### Acknowledgements
+Initial testing was overseen by **Chip Shapiro**, Las Vegas OS/2 BESTeam member, with additional effort by numerous beta testers including **Irv Spalten** and his OS/2 Advisor group.
+
+Editorial assistance in preparing the documentation was provided by **David Moskowitz** of Productivity Solutions, Inc. Graphic assistance was provided by **George Norby** of Las Vegas, Nevada.
+
+**Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
+
 ## For use of File Hound
 Copyright © 1997 Aaron R. Gaalswyk
 
 Aaron R. Gaalswyk (the AUTHOR) grants you a non-exclusive, non-transferable license to the SOFTWARE (hereinafter defined), free of charge, provided that you adhere to the terms of this license agreement.
 
 The SOFTWARE is licensed, not sold. The AUTHOR does not transfer title to the SOFTWARE to you. No rights are granted to you other than those listed in this license agreement. By installing or USING (hereinafter defined) the SOFTWARE, you signify your agreement to the terms of this license agreement.
+
+## For use of HTMLGen
+Copyright © 1993-1999 American Coders Ltd.<br />
+Written by Joseph McVerry
+
+## For use of Icon Heaven
+Copyright © 1996 The Frobozz Magic Software Company<br />
+Written by Paul van Keep
 
 ## For use of LXOPT
 The LXOPT software and accompanying documentation may be distributed and used free of charge but are copyright (C) 1994-1997 Functional Software Limited. All rights reserved.
@@ -169,6 +188,28 @@ Copyright © 2000 Carl-Magnus Olsson
 
 Magnum is freeware, but is copyrighted and not in the public domain. Permission is granted to any individual or institution to use, copy, or redistribute this software so long as all of the original files are included unmodified, that it is not sold for profit, and that this copyright notice is retained.
 
+## For use of NetExtra
+Copyright (c) 1999 Momotek Computer Specialties.<br />
+Written by Gene Akins
+
+Netwatch, is a trademark of Momotek Computer Specialties.
+
+This Software is licensed, not sold. Momotek Computer Specialties (hereinafter referred to as Momotek) grants you a license for Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
+
+To the maximum extent permitted by applicable law, Momotek and its suppliers disclaim all warranties, either express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose, with regard to the Software and accompanying documentation.
+
+To the maximum extent permitted by applicable laws, in no event shall Momotek or its suppliers be liable for any damages whatsoever (including without limitation, damages for loss of business profits, business interruption, loss of information, or other pecuniary loss) arising out of the use of or inability to use this product, even if Momotek has been advised of the possibility of such damages.
+
+All other trademarks and service marks, registered or otherwise, are the property of their respective owners.
+
+## For use of PM File Compare
+Copyright © 1994 American Coders Ltd.<br />
+Written by Joseph McVerry
+
+American Coders LTD of Raleigh N. Carolina grants you a license to use PM File Compare (PMFLCOMP) only in the country where you acquired it. PM File Compare is copyrighted and licensed (not sold). We do not transfer title of PM File Compare to you. You obtain no rights other than those granted you under this license.
+
+PM File Compare is supplied as is. The author disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use of PM File Compare.
+
 ## For use of RexxBase
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
@@ -195,6 +236,10 @@ You may not sell, transfer, assign, or subcontract any of your rights or obligat
 
 This license is governed by the laws of Ontario, Canada.
 
+## For use of Sound
+Not Copyrighted by the Frobozz Magic Software Company<br />
+Written by Paul van Keep
+
 ### Contributors
 * Matthew Davis
 * Scott E. Garfinkle
@@ -210,3 +255,13 @@ THIS PROGRAM IS PROVIDED AS IS AND COMES WITH NO WARRANTY OF ANY KIND, EITHER EX
 BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
 
 The author would like to acknowledge the help of all the pre-release testers. Special thanks to Tim Lomas, Marcelo Chiapparini, Andreas Ludwig and Erik Bracke for their enthusiastic support of WarpCalc and for suggesting useful improvements now included in this version.
+
+## For use of Web Willy Watch
+(c) 1996, 1997, 1998 InnoVal Systems Solutions, Inc. All Rights Reserved.<br />
+Written by Marianne Roderus
+
+This Software is licensed, not sold. InnoVal Systems Solutions, Inc. (hereinafter referred to as InnoVal) grants you a license for the Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
+
+WebWilly was packaged using Info-ZIP's compression utility. Info-ZIP's software (Zip, UnZip and related utilities) is free and can be obtained as source code or executables from various bulletin board services and anonymous-ftp sites.
+
+IBM, OS/2, and WebExplorer are registered trademarks of the IBM Corporation. Netscape and Navigator are registered trademarks of Netscape Communications Corporation. WebWilly and NetExtra are trademarks of InnoVal Systems Solutions, Inc. All other brands, both cited and not cited, are trademarks, registered trademarks, or service marks of their respective companies. WebWilly is licensed software and is copyrighted.
