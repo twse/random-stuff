@@ -39,6 +39,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GANDHARI  | Times Gandhari                                   |
 | GGM       | Gaudiya Grantha Mandira                          |
 | GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
+| GRETIL    | Ronald E. Emmerick                               |
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
