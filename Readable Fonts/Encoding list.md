@@ -11,8 +11,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | BASQUE    | Basque                                         |
 | CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
-| ILPROM    | ILPRumanianB100                                |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
+| ILPROM    | ILPRumanianB100                                |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TMSEUS    | Times New Roman Basque                         |
@@ -28,7 +28,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | APPEAL    | Appeal                                           |
 | ARMGEOR   | Armenian/Georgian                                |
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
-| AVESTRAN  | Avestan                                          |
+| AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
 | BPSTRAN   | Buddhist Publication Society                     |
 | CS        | Classical Sanskrit                               |
@@ -52,7 +52,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
 | MONGTRAN  | Mongolian                                        |
-| NINATRAN  | Nina/Original Garamond: IJTS Transliteration     |
+| NINATRAN  | IJTS transliteration font for Nina               |
 | NORMYN    | Kenneth Roy Norman                               |
 | OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
 | PASKT     | URW Palladio SKT                                 |
@@ -63,8 +63,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
 | SINHTRAN  | Sinhala with ISO 15919 diacritics                |
-| SKTRAN    | Searchable Sanskrit                              |
-| SKTRANDE  | Searchable Sanskrit for German people            |
+| SKTRAN    | Searchable Sanskrit Files                        |
+| SKTRANDE  | Searchable Sanskrit Files for German people      |
 | TAMILTRN  | Tamil with ISO 15919 diacritics                  |
 | TELUGTRN  | Telugu with ISO 15919 diacritics                 |
 | TITUSEO   | TITUS Eastern Oriental                           |
