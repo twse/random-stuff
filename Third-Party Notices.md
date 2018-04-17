@@ -236,15 +236,15 @@ You may not sell, transfer, assign, or subcontract any of your rights or obligat
 
 This license is governed by the laws of Ontario, Canada.
 
-## For use of Sound
-Not Copyrighted by the Frobozz Magic Software Company<br />
-Written by Paul van Keep
-
 ### Contributors
 * Matthew Davis
 * Scott E. Garfinkle
 * Daniel Hellerstein
 * Tony Koker
+
+## For use of Sound
+Not Copyrighted by the Frobozz Magic Software Company<br />
+Written by Paul van Keep
 
 ## For use of WarpCalc
 WarpCalc is Copyright (c) 1997-2012 by Carl-Magnus Olsson.<br />
