@@ -714,7 +714,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Nota: la cambia de idioma necesita un</translation>
+        <translation>Nota: la cambia de idioma necesita un reinicializar</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -733,7 +733,7 @@ Do you want to save changes?</source>
         <translation>Interfaz de utilizador</translation>
     </message>
     <message>
-<<<<<<< HEAD
+
 
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
