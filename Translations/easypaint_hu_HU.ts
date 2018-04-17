@@ -6,12 +6,12 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="40"/>
         <source>Ok</source>
-        <translation></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Mégse</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
@@ -549,7 +549,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation></translation>
+        <translation>Kérdés</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
