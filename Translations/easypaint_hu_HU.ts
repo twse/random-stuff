@@ -398,45 +398,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
-
-        <location filename="../mainwindow.cpp" line="306"/>
-        <source>Image size</source>
-        <translation>Kép méret</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="370"/>
-        <source>Canvas size...</source>
-        <translation>Kanavász méret...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="374"/>
-        <source>Rotate</source>
-        <translation>Girar</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="376"/>
-        <source>Counter-clockwise</source>
-        <translation>Jobbra</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="382"/>
-        <source>Clockwise</source>
-        <translation>Balra</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="334"/>
-
-        <location filename="../mainwindow.cpp" line="390"/>
-        <source>Zoom</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="404"/>
-        <source>Advanced Zoom...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="411"/>
         <source>&amp;About</source>
         <translation>&amp;Információ</translation>
     </message>
@@ -530,7 +491,6 @@ Szeretné menteni a változásokat?</translation>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
         <translation>Szín</translation>
-
         <source>0.0.1</source>
         <translation type="obsolete">0.0.1</translation>
 
@@ -776,33 +736,6 @@ Szeretné menteni a változásokat?</translation>
         <source>Main</source>
         <translation>Fő</translation>
     </message>
-
-    <message>
-        <location filename="../dialogs/settingsdialog.cpp" line="142"/>
-        <source>Keyboard shortcuts</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
-        <source>Command</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
-        <location filename="../dialogs/settingsdialog.cpp" line="160"/>
-        <source>Shortcut</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/settingsdialog.cpp" line="164"/>
-        <source>Key sequence:</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/settingsdialog.cpp" line="178"/>
-        <source>Keyboard</source>
-        <translation></translation>
-    </message>
 </context>
 <context>
     <name>SharpenFilterSettings</name>
@@ -817,7 +750,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../widgets/shortcutedit.cpp" line="44"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Törlése</translation>
     </message>
 </context>
 <context>
@@ -830,7 +763,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
         <source>Select Font...</source>
-        <translation></translation>
+        <translation>Válassza szöveg...</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
@@ -840,7 +773,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation></translation>
+        <translation>Törlése szöveg?</translation>
     </message>
 </context>
 <context>
