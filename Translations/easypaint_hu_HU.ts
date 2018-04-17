@@ -37,7 +37,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Error opening file</source>
-        <translation></translation>
+        <translation>Hiba megnyitása fájl</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="214"/>
@@ -48,7 +48,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Error saving file</source>
-        <translation></translation>
+        <translation>Hiba mentése fájl</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -160,7 +160,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
         <source>Selection</source>
-        <translation></translation>
+        <translation>Válassza</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="249"/>
@@ -275,7 +275,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
         <source>Rotate</source>
-        <translation>Girar</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
@@ -367,7 +367,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
-        <translation>Colores</translation>
+        <translation>Szín</translation>
     </message>
 </context>
 <context>
@@ -515,7 +515,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
         <source>Keyboard</source>
-        <translation></translation>
+        <translation>Betűtípus</translation>
     </message>
 </context>
 <context>
@@ -531,7 +531,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../widgets/shortcutedit.cpp" line="44"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Törlése</translation>
     </message>
 </context>
 <context>
@@ -544,7 +544,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
         <source>Select Font...</source>
-        <translation></translation>
+        <translation>Válassza szöveg...</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
@@ -554,7 +554,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation></translation>
+        <translation>Törlése szöveg?</translation>
     </message>
 </context>
 <context>
@@ -580,7 +580,7 @@ Szeretné menteni a változásokat?</translation>
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
         <source>Pen size</source>
-        <translation>Toll méret</translation>
+        <translation>Toll méret:</translation>
     </message>
 </context>
 </TS>
