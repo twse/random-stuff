@@ -320,7 +320,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation>Zoomfaktor:</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -444,7 +444,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Nota: la cambia de idioma</translation>
+        <translation>Nota: la cambia de idioma necesario</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -510,7 +510,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation>Sequencia de tecla:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
