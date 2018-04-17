@@ -49,7 +49,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Error saving file</source>
-        <translation>Error durante guardando el archivo</translation>
+        <translation>Error al guardar el archivo</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -593,7 +593,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation>Restaurar tamaño de la ventana durante inicialización</translation>
+        <translation>Restaurar tamaño de la ventana durante la inicialización</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
