@@ -9,7 +9,6 @@
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
-| ILPROM    | ILPRumanianB100                                |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
@@ -26,7 +25,7 @@
 | APPEAL    | Appeal                                           |
 | ARMGEOR   | Armenian/Georgian                                |
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
-| AVESTRAN  | Avestan                                          |
+| AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
 | DV1Y      | DV1-TTYogesh                                     |
 | GANDHARI  | Times Gandhari                                   |
@@ -39,7 +38,6 @@
 | KULTRAN   | Catholic University Lublin Transliteration       |
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MONGTRAN  | Mongolian                                        |
-| NINATRAN  | Nina/Original Garamond: IJTS Transliteration     |
 | OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
 | PINYIN    | Chinese (Pinyin)                                 |
 | PKTC      | PKTC                                             |
