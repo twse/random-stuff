@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+>>>>>>> fd43b46 (Updated Romanian translation of EasyPaint.)
 <!DOCTYPE TS>
 <TS version="2.0" language="ro_RO">
 <context>
@@ -584,4 +588,7 @@ Doriți să salvați modificările?</translation>
     </message>
 </context>
 </TS>
+<<<<<<< HEAD
 
+=======
+>>>>>>> fd43b46 (Updated Romanian translation of EasyPaint.)
