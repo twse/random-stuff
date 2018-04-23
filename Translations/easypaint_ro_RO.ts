@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="ro_RO">
 <context>
@@ -6,17 +6,17 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="40"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Bine</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
         <source>Cancel</source>
-        <translation>Anula</translation>
+        <translation>Anulare</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
         <source>Apply</source>
-        <translation></translation>
+        <translation>Aplică</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensitate</translation>
     </message>
 </context>
 <context>
@@ -32,39 +32,39 @@
     <message>
         <location filename="../imagearea.cpp" line="178"/>
         <source>Open image...</source>
-        <translation>Deschise imagini...</translation>
+        <translation>Deschide imagine...</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Error opening file</source>
-        <translation>Eroare deschise fișierul</translation>
+        <translation>Eroare la deschiderea fișierului</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Can&apos;t open file &quot;%1&quot;.</source>
-        <translation>Nu poate deschise fișierul „%1“.</translation>
+        <translation>Nu se poate deschide fișierul &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Error saving file</source>
-        <translation>Eroare salvat fișierul</translation>
+        <translation>Eroare la salvarea fişierului</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
-        <translation>Nu poate salvat fișierul „%1“.</translation>
+        <translation>Nu se poate salva fișierul &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
         <source>Untitled image</source>
-        <translation></translation>
+        <translation>Imagine fără nume</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="244"/>
         <source>Save image...</source>
-        <translation>Salva imagini...</translation>
+        <translation>Salvează imaginea...</translation>
     </message>
 </context>
 <context>
@@ -75,12 +75,12 @@
         <location filename="../mainwindow.cpp" line="537"/>
         <location filename="../mainwindow.cpp" line="544"/>
         <source>Untitled Image</source>
-        <translation></translation>
+        <translation>Imagine fără nume</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="147"/>
         <source>&amp;File</source>
-        <translation>&amp;Fișier</translation>
+        <translation>&amp;Fişier</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="149"/>
@@ -90,127 +90,127 @@
     <message>
         <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
-        <translation>&amp;Deschise</translation>
+        <translation>&amp;Deschide</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="161"/>
         <source>&amp;Save</source>
-        <translation>&amp;Salva</translation>
+        <translation>&amp;Salvare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="167"/>
         <source>Save as...</source>
-        <translation></translation>
+        <translation>Salvează ca...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="173"/>
         <source>&amp;Close</source>
-        <translation>&amp;Aproape</translation>
+        <translation>În&amp;chide</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="189"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>Im&amp;primare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="195"/>
         <source>&amp;Exit</source>
-        <translation>&amp;Ieșire</translation>
+        <translation>I&amp;eşire</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="197"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Editare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Undo</source>
-        <translation></translation>
+        <translation>An&amp;ulează</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Redo</source>
-        <translation></translation>
+        <translation>&amp;Reface</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="211"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Copiați</translation>
+        <translation>&amp;Copiază</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="218"/>
         <source>&amp;Paste</source>
-        <translation>&amp;Paste</translation>
+        <translation>Li&amp;pire</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="224"/>
         <source>C&amp;ut</source>
-        <translation></translation>
+        <translation>&amp;Taie</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="233"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Setările</translation>
+        <translation>&amp;Setări</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="240"/>
         <source>&amp;Instruments</source>
-        <translation></translation>
+        <translation>&amp;Instrumente</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
         <source>Selection</source>
-        <translation>Selectați</translation>
+        <translation>Selecție</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="249"/>
         <source>Eraser</source>
-        <translation></translation>
+        <translation>Radieră</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Color picker</source>
-        <translation></translation>
+        <translation>Selector de culoare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
         <source>Magnifier</source>
-        <translation></translation>
+        <translation>Lupă</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
         <source>Pen</source>
-        <translation></translation>
+        <translation>Peniță</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="277"/>
         <source>Line</source>
-        <translation></translation>
+        <translation>Linie</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="284"/>
         <source>Spray</source>
-        <translation></translation>
+        <translation>Spray</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="291"/>
         <source>Fill</source>
-        <translation></translation>
+        <translation>Umplere</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="298"/>
         <source>Rectangle</source>
-        <translation></translation>
+        <translation>Dreptunghi</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="305"/>
         <source>Ellipse</source>
-        <translation></translation>
+        <translation>Elipsă</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation></translation>
+        <translation>Curbă</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
@@ -220,92 +220,92 @@
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
         <source>E&amp;ffects</source>
-        <translation>E&amp;fecti</translation>
+        <translation>E&amp;fecte</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="329"/>
         <source>Gray</source>
-        <translation></translation>
+        <translation>Gri</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="334"/>
         <source>Negative</source>
-        <translation></translation>
+        <translation>Negativ</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation>Binarizare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Estompare gaussiană</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>Gamma</source>
-        <translation></translation>
+        <translation>Gamma</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation>Intensificare detalii</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Custom</source>
-        <translation></translation>
+        <translation>Personalizat</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
         <source>&amp;Tools</source>
-        <translation></translation>
+        <translation>Unel&amp;te</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="366"/>
         <source>Image size...</source>
-        <translation>Imagini dimensiunea...</translation>
+        <translation>Mărime imagine...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="370"/>
         <source>Canvas size...</source>
-        <translation></translation>
+        <translation>Mărime pînză...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
         <source>Rotate</source>
-        <translation></translation>
+        <translation>Rotește</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
-        <translation></translation>
+        <translation>Rotește în sensul invers al acelor de ceas</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>Clockwise</source>
-        <translation>Chiar</translation>
+        <translation>Rotește în sensul acelor de ceas</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>Zoom</source>
-        <translation></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Zoom avansat...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
         <source>&amp;About</source>
-        <translation>&amp;Despre</translation>
+        <translation>Despre</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="413"/>
         <source>&amp;About EasyPaint</source>
-        <translation>&amp;Despre EasyPaint</translation>
+        <translation>Despre EasyPaint</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="240"/>
@@ -315,26 +315,26 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation>Introduceți factorul de zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Factor de zoom:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
         <location filename="../mainwindow.cpp" line="728"/>
         <source>Closing Tab...</source>
-        <translation></translation>
+        <translation>Închidere filă...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="672"/>
         <location filename="../mainwindow.cpp" line="729"/>
         <source>File has been modified.
 Do you want to save changes?</source>
-        <translation>Fișierul a fost schimbat.
-Doriți să salvați a schimbari?</translation>
+        <translation>Fișierul a fost modificat.
+Doriți să salvați modificările?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="849"/>
@@ -349,17 +349,17 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Site</source>
-        <translation></translation>
+        <translation>Site</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Authors</source>
-        <translation></translation>
+        <translation>Autori</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation>Dacă vă place &lt;b&gt;EasyPaint&lt;/b&gt; și doriți să împărtășiți părerea dvs., să raportați o eroare, sau să sugerați noi funcții, vă așteptăm pe &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker-ul nostru&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -367,7 +367,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
-        <translation>Culoarea</translation>
+        <translation>Culori</translation>
     </message>
 </context>
 <context>
@@ -375,43 +375,43 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="44"/>
         <source>Resize</source>
-        <translation></translation>
+        <translation>Redimensionare</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="49"/>
         <source>Original size:</source>
-        <translation>Original dimensiunea:</translation>
+        <translation>Mărime originală:</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="51"/>
         <source>New size:</source>
-        <translation>Nou dimensiunea:</translation>
+        <translation>Mărime nouă:</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="54"/>
         <source>Pixels</source>
-        <translation></translation>
+        <translation>Pixeli</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="68"/>
         <location filename="../dialogs/resizedialog.cpp" line="86"/>
         <source>Width:</source>
-        <translation></translation>
+        <translation>Lăţime:</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="69"/>
         <source>x Height:</source>
-        <translation></translation>
+        <translation>x Înălţime:</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="71"/>
         <source>Percent</source>
-        <translation></translation>
+        <translation>Procent</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="87"/>
         <source>% x Height:</source>
-        <translation></translation>
+        <translation>% x Înălţime:</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="88"/>
@@ -421,7 +421,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="90"/>
         <source>Preserve Aspect Ratio</source>
-        <translation></translation>
+        <translation>Păstrează raportul de aspect</translation>
     </message>
 </context>
 <context>
@@ -429,7 +429,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="49"/>
         <source>Settings</source>
-        <translation>Setările</translation>
+        <translation>Setări</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="69"/>
@@ -439,83 +439,83 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="71"/>
         <source>&lt;System&gt;</source>
-        <translation>&lt;Sistemul&gt;</translation>
+        <translation>&lt;Sistem&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation></translation>
+        <translation>Notă: schimbarea limbii necesită repornirea aplicației</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Restaurează mărimea ferestrei la pornire</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Solicită dimensiunea pînzei la crearea unei noi imagini</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
         <source>User interface</source>
-        <translation></translation>
+        <translation>Interfață cu utilizatorul</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
-        <translation></translation>
+        <translation>Mărime de bază:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
         <source>History depth:</source>
-        <translation></translation>
+        <translation>Adîncime istoric:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="113"/>
         <source>Autosave</source>
-        <translation></translation>
+        <translation>Salvare automată</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="115"/>
         <source>Autosave Interval (sec):</source>
-        <translation></translation>
+        <translation>Interval salvare automată (sec):</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="130"/>
         <source>Image</source>
-        <translation>Imagini</translation>
+        <translation>Imagine</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="140"/>
         <source>General</source>
-        <translation></translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
         <source>Keyboard shortcuts</source>
-        <translation></translation>
+        <translation>Scurtături taste</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <source>Command</source>
-        <translation></translation>
+        <translation>Comandă</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <location filename="../dialogs/settingsdialog.cpp" line="160"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Scurtătură</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation>Secvență taste:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
         <source>Keyboard</source>
-        <translation>Tastatur</translation>
+        <translation>Tastă</translation>
     </message>
 </context>
 <context>
@@ -523,7 +523,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensitate</translation>
     </message>
 </context>
 <context>
@@ -531,7 +531,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../widgets/shortcutedit.cpp" line="44"/>
         <source>Clear</source>
-        <translation>Elimina</translation>
+        <translation>Golire</translation>
     </message>
 </context>
 <context>
@@ -544,7 +544,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
         <source>Select Font...</source>
-        <translation>Selectați fontului...</translation>
+        <translation>Selectare font...</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
@@ -554,7 +554,7 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation>Elimina text?</translation>
+        <translation>Golire text?</translation>
     </message>
 </context>
 <context>
@@ -562,25 +562,25 @@ Doriți să salvați a schimbari?</translation>
     <message>
         <location filename="../widgets/toolbar.cpp" line="37"/>
         <source>Instruments</source>
-        <translation></translation>
+        <translation>Instrumente</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="88"/>
         <location filename="../widgets/toolbar.cpp" line="89"/>
         <source>Primary color</source>
-        <translation></translation>
+        <translation>Culoare primară</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="93"/>
         <location filename="../widgets/toolbar.cpp" line="94"/>
         <source>Second color</source>
-        <translation></translation>
+        <translation>Culoare secundară</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
         <source>Pen size</source>
-        <translation></translation>
+        <translation>Mărime peniță</translation>
     </message>
 </context>
 </TS>
