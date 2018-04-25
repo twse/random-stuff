@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intenzitás</translation>
     </message>
 </context>
 <context>
@@ -250,12 +250,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation>Élesít</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Custom</source>
-        <translation></translation>
+        <translation>Szokás</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
@@ -275,7 +275,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
         <source>Rotate</source>
-        <translation></translation>
+        <translation>Pörög</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
@@ -290,7 +290,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>Zoom</source>
-        <translation></translation>
+        <translation>Függőleges</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Függőleges tényező:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -499,7 +499,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <source>Command</source>
-        <translation></translation>
+        <translation>Parancs</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
@@ -523,7 +523,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intenzitás</translation>
     </message>
 </context>
 <context>
