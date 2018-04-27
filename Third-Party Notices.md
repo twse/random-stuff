@@ -40,8 +40,7 @@ KidStuff Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
 Uses Kynapse, © 2003-2016 Kynapse.<br />
-Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserved.<br />
-See www.kynapse.com for more information.
+Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserved.
 
 Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
 
@@ -91,7 +90,7 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
-# Unsupported Freeware Licensed Software
+# Unsupported Free Software
 
 ## For use of Astrolog
 The graphics database and chart display routines used in this program are copyright (c) 1991-1996 by Walter D. Pullen. Permission is granted to freely use and distribute these routines provided one doesn't sell, restrict, or profit from them in any way. Modification is allowed provided these notices remain with any altered or edited versions of the program.
@@ -109,6 +108,53 @@ All changes and additions to the original code (Astrolog 5.40) are copyright (c)
 This customized and extended port of Astrolog for MS Windows to IBM OS/2 by Carl-Magnus Olsson (see top of file for contact information).
 
 None of these notices may be changed or removed for any reason.
+
+## For use of CapiTel
+Copyright © 1996-1998 Oche
+
+At this point the meaning of certain terms contained in the following provisions (of this agreement) shall be explained
+* authors: Werner Fehn, Carsten Wimmer
+* end user: the person, who uses, distributes, copies or sells the program or applies it in any other way, no matter if it concerns a natural person or a person at law
+* use: the appropriate employment of CapiTel, beginning at loading the executable program
+
+The end user is allowed to use the program according to the following regulations.
+
+The software is owned by the authors and is protected by copyright law. All rights are reserved. The software may only be sold, copied or distributed in unchanged version and with supplement of this license agreement. Sale, reproduction and distribution have to be free of charge. Sale, reproduction and application is not free, if CapiTel is distributed with other non-free objects, p.e. modems or journals. If this should take place the permission of the authors is necessary.
+
+The end user is not allowed to decompile or disassemble the program or create derivative works from the software without the permission of the authors.
+
+The end user is allowed to use the program for free within a 60-day trial period. A further use outside this period requires registration. A single user license for a natural person grants the right to use one copy of CapiTel on a single computer. A licensed user may use the software on different computers, but must not use it on more than one computer at the same time. Persons at law have to acquire one license for every natural persons who uses CapiTel.
+
+Registration follows after remittance of 55,00 DM (German Marks) to the account mentioned in ORDER.TXT. Within a following 4-week period the end user will receuve a registration code from the authors. If not, the end user has to contact the authors (at his own expense) to let them know.
+
+Registration guarantees the right to use the program as well as updates (for which the same conditions are valid). The authors are not obliged to develop the program or to adapt it to changed operating characteristics of computer hardware or systems.
+
+The end user is not entitled to developement or changes of CapiTel.
+
+The authors are only liable within the compass of german law's provisions.
+
+In case of errors or damage (including without limitation damages for loss of business profits, business interruption, loss of business information and equals) which do not base on missing program components, every kind of claim for damages is impossible. (Exept damages which occured because of the intention or gross negligement of the authors. If this should take place the end user has claim on program replacement or refund of license fee.)
+
+An end user's claim on improvement or an error-free program does not exist.
+
+The end user has to warrant on his own that CapiTel will be executable on his hard- and software. The authors give no guarantee that the program will be executable on every kind of hard- and software.
+
+The authors are not obliged to advise the end user or to support him in use of the program. Nevertheless the authors try to attend to messages concerning incompability or user problems as far as possible.
+
+This agreement will be governed by the laws of Germany. Any dispute in relation to this agreement will be determined by the court of Aachen, Germany and every licensed user expressly attorns to the exclusive jurisdiction of the german courts.
+
+If any provision of this agreement, including the breadth or scope of such provision will be held by any court of competent jurisdiction to be invalid or unenforceable, in whole or in part, such invalidity or unenforceability will not affect the validity or enforceability of the remaining provisions of this agreement. Such remaining provisions will remain enforceable and binding. Such invalid or unenforceable parts will be replaced by (valid or enforceable) corresponding parts or regulations.
+
+Provisions different to this license agreement have to be stipulated in writing. This is also possible by using a telefax.
+
+Thanks to all the users who sent us their bug reports and feature ideas, do not stop with your feedback!
+
+A special thanks goes to the following people:
+* Kerstin Glodzinski
+* Norbert Schulze
+* Kolja Nowak
+* Peter Franken
+* Dirk Schreiber
 
 ## For use of CFSPoker
 Copyright (c) 1995-1996 by C F S Nevada, Inc.<br />
@@ -241,6 +287,11 @@ This license is governed by the laws of Ontario, Canada.
 * Scott E. Garfinkle
 * Daniel Hellerstein
 * Tony Koker
+
+## For use of RXXMATH
+Copyright 1992, 1996 by John Brock
+
+RXXMATH is unsupported freeware, and is provided "as is", with no warranties of any sort, express or implied. RXXMATH may be freely distributed in any format, provided no alterations are made to the files (other than what may be necessary to port RXXMATH to a new environment) and no restrictions are placed on further distribution. Users may modify RXXMATH at their convenience, as long as the copyright notices are retained and the modified version is not distributed publicly.
 
 ## For use of Sound
 Not Copyrighted by the Frobozz Magic Software Company<br />
