@@ -2,7 +2,7 @@
 This repository contains random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
 * **Generic Menu**: TrueType Unicode font based on the Made in Wario font. Thanks goes to Jackster from Spriters Resource for ripping the font.
-* **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. (**Note:** Created with OS/2 Icon Editor. See below for commercial software credits; freeware, open source, public domain and shareware credits available at http://bobsgame.wikia.com/wiki/Extras)
+* **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. (**Note:** Created with OS/2 Icon Editor. See Third-Party Notices.md for commercial and unsupported freeware credits; freeware, open source, public domain and shareware credits available at http://bobsgame.wikia.com/wiki/Extras)
 * **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc. or SQUARE ENIX, Inc.
 * **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. If you need to add someone you have to use the form at the end of this page.
 * **PSF Contributor Signatories.htm**: Includes people who received the contributor form from the Python Software Foundation (partial list only).
@@ -15,16 +15,20 @@ This repository contains random stuff.
 ### Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). In the meantime, this font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
-This font covers the following diacritics:
+Pan-European Serif comes in four styles - Regular, Italic, Bold and Bold Italic.
+
+Pan-European Sans comes in two styles - Regular and Bold.
+
+This font family covers the following diacritics:
 1. All characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
-2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc. - see [Dr. Anthony Stone's ISO 15919 website](http://homepage.ntlworld.com/stone-catend/translit.htm)) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, etc. etc. etc.), etc. etc. etc.
+2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc. - see [Dr. Anthony Stone's ISO 15919 website](http://homepage.ntlworld.com/stone-catend/translit.htm)) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
 3. All diacritics required for ISO 9 ("Transliteration of Cyrillic languages into Latin characters": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 
 ## FontCreator Data Files and Registry Keys (HTM file)
-This file includes data files and registry keys for all versions of FontCreator. See the Version History on the High-Logic site.
+This file includes data files and registry keys for all versions of FontCreator.
 
-## Translations for various programs
+## Open source project translations
 **Moderator's note:** Most translations were done with Bing Translator.
-* **EasyPaint** by Nikita Grishko et al. to Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). In the distribution only Chinese (Simplified), Czech, French and Russian translations are spread.
-* **SPFig** by Pierre Santoni to Dutch (CP850). In the distribution only English and French translations are spread.
-* **Tinke** by Benito Palacios Sánchez to Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). In the distribution only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are spread.
+* **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
+* **SPFig** – Dutch (CP850). Only English and French translations are included.
+* **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
