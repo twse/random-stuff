@@ -1,5 +1,10 @@
 ﻿### Programs
-Ansis Ataols Bērziņš wrote Burti (2003) for typing Latvian in 10 encodings. Documentation is in Latvian, see [http://ansis.lv/burti/index.en.php](the author's site) for English documentation and download links.
+Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in 10 encodings. When downloaded you'll get the documentation in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
+
+### Fonts
+TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
+
+Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
 
 ### Available encodings (Use `/b#` to change the encoding.)
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
@@ -57,6 +62,76 @@ Ansis Ataols Bērziņš wrote Burti (2003) for typing Latvian in 10 encodings. D
 | u ogonek    | Alt-214 | Alt-216        | Alt-248  | Alt-249    | Alt-251                | Alt-151 |
 | u macron    | Alt-215 | Alt-251        | Alt-240  | Alt-254    | Alt-248                | Alt-150 |
 | z caron     | Alt-216 | Alt-254        | Alt-236  | Alt-190    | Alt-254                | Alt-145 |
+
+### Accented Lithuanian
+| Glyph             | Codes   | Windows CP1257  | Apple CE        | ISO Baltic      | TITUS Indo-Iranian | Unix    |
+|-------------------|---------|-----------------|-----------------|-----------------|--------------------|---------|
+| A grave           | Alt-160 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-194 |
+| A acute           | Alt-128 | No key assigned | Alt-231         | Alt-193         | No key assigned    | Alt-195 |
+| A tilde           | Alt-143 | No key assigned | No key assigned | Alt-195         | No key assigned    | Alt-197 |
+| A ogonek acute    | Alt-237 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-199 |
+| A ogonek tilde    | Alt-244 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-161 |
+| E grave           | Alt-141 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-202 |
+| E acute           | Alt-144 | Alt-201         | Alt-131         | Alt-201         | No key assigned    | Alt-201 |
+| E tilde           | Alt-149 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-204 |
+| E dot above acute | Alt-157 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-168 |
+| E dot above tilde | Alt-138 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-170 |
+| E ogonek acute    | Alt-150 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-162 |
+| E ogonek tilde    | Alt-163 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-163 |
+| I grave           | Alt-232 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-205 |
+| I acute           | Alt-161 | No key assigned | Alt-234         | Alt-205         | No key assigned    | Alt-206 |
+| I tilde           | Alt-248 | No key assigned | No key assigned | Alt-165         | No key assigned    | Alt-176 |
+| I ogonek acute    | Alt-234 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-207 |
+| I ogonek tilde    | Alt-227 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-209 |
+| L tilde           | Alt-166 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-165 |
+| M tilde           | Alt-167 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-166 |
+| N tilde           | Alt-168 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-169 |
+| O grave           | Alt-238 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-210 |
+| O acute           | Alt-224 | Alt-211         | Alt-238         | No key assigned | No key assigned    | Alt-211 |
+| O tilde           | Alt-229 | No key assigned | Alt-205         | No key assigned | No key assigned    | Alt-213 |
+| R tilde           | Alt-174 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-171 |
+| U grave           | Alt-173 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-217 |
+| U acute           | Alt-151 | No key assigned | Alt-242         | Alt-218         | No key assigned    | Alt-218 |
+| U tilde           | Alt-158 | No key assigned | Alt-221         | No key assigned | No key assigned    | Alt-215 |
+| U macron acute    | Alt-146 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-175 |
+| U macron tilde    | Alt-169 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-174 |
+| U ogonek acute    | Alt-170 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-172 |
+| U ogonek tilde    | Alt-171 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-189 |
+| Y acute           | Alt-246 | No key assigned | Alt-248         | No key assigned | No key assigned    | Alt-212 |
+| Y tilde           | Alt-163 | No key assigned | No key assigned | No key assigned | No key assigned    | Alt-221 |
+| a grave           | Alt-131 | No key assigned | No key assigned | No key assigned | Alt-133            | Alt-226 |
+| a acute           | Alt-135 | Alt-135         | Alt-231         | Alt-225         | Alt-160            | Alt-227 |
+| a tilde           | Alt-134 | No key assigned | No key assigned | Alt-227         | Alt-155            | Alt-229 |
+| a ogonek acute    | Alt-137 | No key assigned | No key assigned | No key assigned | Alt-202            | Alt-231 |
+| a ogonek tilde    | Alt-241 | No key assigned | No key assigned | No key assigned | Alt-201            | Alt-177 |
+| e grave           | Alt-141 | No key assigned | No key assigned | No key assigned | Alt-138            | Alt-234 |
+| e acute           | Alt-144 | Alt-233         | Alt-142         | Alt-233         | Alt-130            | Alt-233 |
+| e tilde           | Alt-149 | No key assigned | No key assigned | No key assigned | Alt-156            | Alt-236 |
+| e dot above acute | Alt-157 | No key assigned | No key assigned | No key assigned | Alt-206            | Alt-184 |
+| e dot above tilde | Alt-138 | No key assigned | No key assigned | No key assigned | Alt-205            | Alt-186 |
+| e ogonek acute    | Alt-150 | No key assigned | No key assigned | No key assigned | Alt-204            | Alt-178 |
+| e ogonek tilde    | Alt-163 | No key assigned | No key assigned | No key assigned | Alt-203            | Alt-179 |
+| i grave           | Alt-233 | No key assigned | No key assigned | No key assigned | Alt-141            | Alt-237 |
+| i acute           | Alt-140 | No key assigned | Alt-146         | Alt-237         | Alt-161            | Alt-238 |
+| i tilde           | Alt-159 | No key assigned | No key assigned | Alt-165         | Alt-157            | Alt-164 |
+| i ogonek acute    | Alt-235 | No key assigned | No key assigned | No key assigned | Alt-208            | Alt-239 |
+| i ogonek tilde    | Alt-231 | No key assigned | No key assigned | No key assigned | Alt-207            | Alt-241 |
+| l tilde           | Alt-230 | No key assigned | No key assigned | No key assigned | Alt-232            | Alt-181 |
+| m tilde           | Alt-245 | No key assigned | No key assigned | No key assigned | Alt-234            | Alt-167 |
+| n tilde           | Alt-251 | No key assigned | No key assigned | No key assigned | Alt-164            | Alt-185 |
+| o grave           | Alt-236 | No key assigned | No key assigned | No key assigned | Alt-149            | Alt-242 |
+| o acute           | Alt-162 | Alt-243         | Alt-151         | No key assigned | Alt-162            | Alt-243 |
+| o tilde           | Alt-228 | No key assigned | Alt-155         | No key assigned | Alt-158            | Alt-245 |
+| r tilde           | Alt-175 | No key assigned | No key assigned | No key assigned | Alt-245            | Alt-187 |
+| u grave           | Alt-136 | No key assigned | No key assigned | No key assigned | Alt-149            | Alt-249 |
+| u acute           | Alt-152 | No key assigned | Alt-156         | Alt-250         | Alt-162            | Alt-250 |
+| u tilde           | Alt-246 | No key assigned | No key assigned | No key assigned | Alt-253            | Alt-247 |
+| u macron acute    | Alt-145 | No key assigned | No key assigned | No key assigned | Alt-175            | Alt-191 |
+| u macron tilde    | Alt-243 | No key assigned | No key assigned | No key assigned | Alt-211            | Alt-190 |
+| u ogonek acute    | Alt-172 | No key assigned | No key assigned | No key assigned | Alt-210            | Alt-188 |
+| u ogonek tilde    | Alt-239 | No key assigned | No key assigned | No key assigned | Alt-209            | Alt-255 |
+| y acute           | Alt-147 | No key assigned | Alt-249         | No key assigned | Alt-213            | Alt-244 |
+| y tilde           | Alt-164 | No key assigned | No key assigned | No key assigned | Alt-212            | Alt-253 |
 
 ## Phonetic Symbols (Accented Lithuanian encoding)
 | Glyph            | Codes   |
