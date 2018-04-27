@@ -1,15 +1,23 @@
 ﻿The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
 ### Encodings with a set numerical value
-| File Name | Description     |
-|-----------|-----------------|
-| FILE      | File            |
+| File Name | Description                             |
+|-----------|-----------------------------------------|
+| CP668     | Polish letters on cp852 codepoints      |
+| CP952     | Yugoslavian letters on cp852 codepoints |
 
 ### Encodings without a set numerical value
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| GUARANI   | Guarani letters on cp30023 codepoints          |
+| HAUSA     | Hausa letters on African codepoints            |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
+| ILPROM    | ILPRumanianB100                                |
+| LT_UNIX   | Accented Lithuanian (Unix)                     |
+| MACPOL    | Polish letters on Apple CE codepoints          |
+| MALTESE   | Maltese letters on CP853 codepoints            |
+| PALM      | Palm OS Latin-1                                |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TMSEUS    | Times New Roman Basque                         |
