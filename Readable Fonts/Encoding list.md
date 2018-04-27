@@ -60,7 +60,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | PASKT     | URW Palladio SKT                                 |
 | PINYIN    | Chinese (Pinyin)                                 |
 | PKTC      | PKTC                                             |
-| SANSKRT   | Sanskrit                                         |
+| SANSKRIT  | Sanskrit transliteration font by Libor Sztemon   |
 | SEMTRAN1  | Semitic – Arabic                                 |
 | SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
