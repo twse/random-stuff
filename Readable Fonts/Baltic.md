@@ -1,10 +1,9 @@
-﻿### Programs
+﻿### Fonts and keyboards
 Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in 10 encodings. When downloaded you'll get the documentation in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
 
-### Fonts
-TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
-
 Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
+
+TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
 
 ### Available encodings (Use `/b#` to change the encoding.)
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
@@ -26,20 +25,20 @@ Skolar (2013), by David Březina, is an OpenType serif font designed for scholar
 ## Diacritical characters
 
 ### Estonian - Typed as usual on Estonian keyboards
-| Glyph      | Codes   | Windows CP1257 | Apple CE | ISO Baltic | TITUS Eastern European | CP770   |
-|------------|---------|----------------|----------|------------|------------------------|---------|
-| A dieresis | Alt-142 | Alt-196        | Alt-128  | Alt-196    | Alt-142                | Alt-142 |
-| O dieresis | Alt-153 | Alt-214        | Alt-133  | Alt-214    | Alt-153                | Alt-153 |
-| O tilde    | Alt-229 | Alt-213        | Alt-205  | Alt-213    | Alt-159                | Alt-149 |
-| S caron    | Alt-190 | Alt-208        | Alt-225  | Alt-169    | Alt-201                | Alt-159 |
-| U dieresis | Alt-154 | Alt-220        | Alt-134  | Alt-220    | Alt-154                | Alt-154 |
-| Z caron    | Alt-207 | Alt-222        | Alt-235  | Alt-174    | Alt-214                | Alt-146 |
-| a dieresis | Alt-132 | Alt-228        | Alt-138  | Alt-228    | Alt-132                | Alt-132 |
-| o dieresis | Alt-148 | Alt-246        | Alt-154  | Alt-246    | Alt-148                | Alt-148 |
-| o tilde    | Alt-228 | Alt-245        | Alt-155  | Alt-245    | Alt-158                | Alt-147 |
-| s caron    | Alt-213 | Alt-240        | Alt-228  | Alt-185    | Alt-244                | Alt-158 |
-| u dieresis | Alt-129 | Alt-252        | Alt-159  | Alt-252    | Alt-129                | Alt-129 |
-| z caron    | Alt-216 | Alt-254        | Alt-236  | Alt-190    | Alt-254                | Alt-145 |
+| Glyph      | Codes   | Windows CP1257 | Apple CE | ISO Baltic | TITUS Eastern European | CP770   | Cork    |
+|------------|---------|----------------|----------|------------|------------------------|---------|---------|
+| A dieresis | Alt-142 | Alt-196        | Alt-128  | Alt-196    | Alt-142                | Alt-142 | Alt-196 |
+| O dieresis | Alt-153 | Alt-214        | Alt-133  | Alt-214    | Alt-153                | Alt-153 | Alt-214 |
+| O tilde    | Alt-229 | Alt-213        | Alt-205  | Alt-213    | Alt-159                | Alt-149 | Alt-213 |
+| S caron    | Alt-190 | Alt-208        | Alt-225  | Alt-169    | Alt-201                | Alt-159 | Alt-146 |
+| U dieresis | Alt-154 | Alt-220        | Alt-134  | Alt-220    | Alt-154                | Alt-154 | Alt-220 |
+| Z caron    | Alt-207 | Alt-222        | Alt-235  | Alt-174    | Alt-214                | Alt-146 | Alt-154 |
+| a dieresis | Alt-132 | Alt-228        | Alt-138  | Alt-228    | Alt-132                | Alt-132 | Alt-228 |
+| o dieresis | Alt-148 | Alt-246        | Alt-154  | Alt-246    | Alt-148                | Alt-148 | Alt-246 |
+| o tilde    | Alt-228 | Alt-245        | Alt-155  | Alt-245    | Alt-158                | Alt-147 | Alt-245 |
+| s caron    | Alt-213 | Alt-240        | Alt-228  | Alt-185    | Alt-244                | Alt-158 | Alt-178 |
+| u dieresis | Alt-129 | Alt-252        | Alt-159  | Alt-252    | Alt-129                | Alt-129 | Alt-252 |
+| z caron    | Alt-216 | Alt-254        | Alt-236  | Alt-190    | Alt-254                | Alt-145 | Alt-186 |
 
 ### Lithuanian - Typed as usual on Lithuanian keyboards
 | Glyph       | Codes   | Windows CP1257 | Apple CE | ISO Baltic | TITUS Eastern European | CP770   |
