@@ -1,30 +1,37 @@
 ## Information
 The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
-### Encodings with a set numerical value
+### Encodings with a set numerical string
 | File Name | Description                             |
 |-----------|-----------------------------------------|
 | CP668     | Polish letters on cp852 codepoints      |
 | CP952     | Yugoslavian letters on cp852 codepoints |
 
-### Encodings without a set numerical value
+### Encodings without a set numerical string
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
+| CWI2      | Hungarian CWI-2                                |
 | CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
+| EDA_CODE  | EDA editor encoding                            |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
+| HUNGARIA  | LinguaFont Hungarian                           |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
+| MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACPOL    | Polish letters on Apple CE codepoints          |
-| MALTESE   | Maltese letters on CP853 codepoints            |
+| MALTESE   | Maltese letters on cp853 codepoints            |
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
+| TEXNANSI  | TeX & ANSI                                     |
 | TMSEUS    | Times New Roman Basque                         |
+| TNR_MGR   | Times New Roman Hungarian                      |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
