@@ -25,12 +25,13 @@ On OS/2 and MS-DOS, nine character sets are in common use:
 
 ## Fonts
 * Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* Cieszyn (2001), by Libor Sztemon, is a font derived from Times New Roman which contains diacritic characters for Polish in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
+* Cieszyn (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Polish characters in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
+* EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenicky but it replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
 * LinguaFont (1998), by Raymond Hickey, includes printer and screen fonts for Czech, Hungarian and Polish languages.
-* Times New Roman Hungarian (2001), by Libor Sztemon, is a font derived from Times New Roman which contains diacritic characters for Hungarian in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
+* Times New Roman Hungarian (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Hungarian characters in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
 * TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
 
 ## Diacritical characters
@@ -38,9 +39,9 @@ On OS/2 and MS-DOS, nine character sets are in common use:
 ### Czech - Typed as usual on Czech keyboards
 This language can be used when written with Kamenicky encoding.
 
-Pavel Ferda wrote the pay shareware program Trans-ASCII (1991), a program to convert Czech text in various encodings. The executable file and documentation is encoded either in ASCII, CP852 or Kamenicky.
+Czech Coding Convertor, by Zdeněk Kudrla, is a program to convert Czech text written in eight encodings. The program comes with source code included.
 
-Zdeněk Kudrla wrote Czech Coding Convertor, a program to convert Czech text written in eight encodings. The program comes with source code included.
+Trans-ASCII (1991), by Pavel Ferda, is a program to convert Czech text in various encodings. The executable file and documentation is encoded either in ASCII, CP852 or Kamenicky.
 
 ### Slovak - Typed as usual on Slovak keyboards
 This language can be used when written with Kamenicky encoding.
@@ -125,18 +126,14 @@ Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 | t cedilla    | Alt-238 | Alt-254        | Alt-223        | Alt-181 | right square bracket | Alt-247                |
 
 ### Albanian - Typed as usual on Albanian keyboards
-Mac users will appreciate that the Apple US encoding has to be used for writing.
+| Glyph      | Code    | Windows CP1250 | Cork    | TITUS Eastern European |
+|------------|---------|----------------|---------|------------------------|
+| C cedilla  | Alt-128 | Alt-199        | Alt-199 | Alt-128                |
+| E dieresis | Alt-211 | Alt-203        | Alt-203 | Alt-178                |
+| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135                |
+| e dieresis | Alt-137 | Alt-235        | Alt-235 | Alt-137                |
 
-| Glyph      | Code    | Windows CP1250 | Apple US | Cork    | TITUS Eastern European |
-|------------|---------|----------------|----------|---------|------------------------|
-| C cedilla  | Alt-128 | Alt-199        | Alt-130  | Alt-199 | Alt-128                |
-| E dieresis | Alt-211 | Alt-203        | Alt-232  | Alt-203 | Alt-178                |
-| c cedilla  | Alt-135 | Alt-231        | Alt-141  | Alt-231 | Alt-135                |
-| e dieresis | Alt-137 | Alt-235        | Alt-235  | Alt-235 | Alt-137                |
-
-### Turkmen (Latin)
-Mac users will appreciate that Mac OS X has to be used for writing with the Unicode encoding.
-
+### Turkmen
 | Glyph      | Code    | Windows CP1250 | Cork    | TITUS Eastern European | Turkic Latin |
 |------------|---------|----------------|---------|------------------------|--------------|
 | A dieresis | Alt-142 | Alt-196        | Alt-196 | Alt-142                | Alt-142      |
