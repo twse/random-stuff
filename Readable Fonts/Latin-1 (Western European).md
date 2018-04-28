@@ -82,6 +82,36 @@ See table on Catalan/Spanish language.
 | h dot below | Alt-189 |
 | l dot below | Alt-155 |
 
+### French - Typed as usual on French keyboards
+| Glyph        | CP859   | WST_Fren             | URW Palladio KUL | Windows CP1252 | Apple US | ABICOMP | Cork    |
+|--------------|---------|----------------------|------------------|----------------|----------|---------|---------|
+| A grave      | Alt-183 | No key assigned      | No key assigned  | Alt-192        | Alt-203  | Alt-161 | Alt-192 |
+| A circumflex | Alt-182 | No key assigned      | No key assigned  | Alt-194        | Alt-229  | Alt-163 | Alt-194 |
+| C cedilla    | Alt-128 | No key assigned      | No key assigned  | Alt-199        | Alt-130  | Alt-166 | Alt-199 |
+| E grave      | Alt-212 | No key assigned      | No key assigned  | Alt-200        | Alt-233  | Alt-167 | Alt-200 |
+| E acute      | Alt-144 | No key assigned      | No key assigned  | Alt-201        | Alt-131  | Alt-168 | Alt-201 |
+| E circumflex | Alt-210 | No key assigned      | No key assigned  | Alt-202        | Alt-230  | Alt-169 | Alt-202 |
+| E dieresis   | Alt-211 | No key assigned      | No key assigned  | Alt-203        | Alt-232  | Alt-170 | Alt-203 |
+| I circumflex | Alt-215 | No key assigned      | No key assigned  | Alt-206        | Alt-235  | Alt-173 | Alt-206 |
+| I dieresis   | Alt-216 | No key assigned      | No key assigned  | Alt-207        | Alt-236  | Alt-174 | Alt-207 |
+| O circumflex | Alt-226 | No key assigned      | No key assigned  | Alt-212        | Alt-239  | Alt-178 | Alt-212 |
+| OE           | Alt-172 | No key assigned      | No key assigned  | Alt-140        | Alt-206  | Alt-181 | Alt-215 |
+| U grave      | Alt-235 | No key assigned      | No key assigned  | Alt-217        | Alt-244  | Alt-182 | Alt-217 |
+| U circumflex | Alt-234 | No key assigned      | No key assigned  | Alt-219        | Alt-243  | Alt-184 | Alt-219 |
+| a grave      | Alt-133 | at                   | Alt-224          | Alt-224        | Alt-136  | Alt-193 | Alt-224 |
+| a circumflex | Alt-131 | left curly bracket   | Alt-226          | Alt-226        | Alt-137  | Alt-195 | Alt-226 |
+| c cedilla    | Alt-135 | tilde                | Alt-215          | Alt-231        | Alt-141  | Alt-198 | Alt-231 |
+| e grave      | Alt-138 | grave accent         | Alt-232          | Alt-232        | Alt-143  | Alt-199 | Alt-232 |
+| e acute      | Alt-130 | number sign          | Alt-233          | Alt-233        | Alt-142  | Alt-200 | Alt-233 |
+| e circumflex | Alt-136 | backslash            | Alt-247          | Alt-234        | Alt-144  | Alt-201 | Alt-234 |
+| e dieresis   | Alt-137 | left square bracket  | Alt-235          | Alt-235        | Alt-145  | Alt-202 | Alt-235 |
+| i circumflex | Alt-140 | circumflex accent    | Alt-238          | Alt-238        | Alt-148  | Alt-205 | Alt-238 |
+| i dieresis   | Alt-139 | dollar               | Alt-239          | Alt-239        | Alt-149  | Alt-206 | Alt-239 |
+| o circumflex | Alt-147 | vertical line        | Alt-212          | Alt-244        | Alt-153  | Alt-210 | Alt-244 |
+| oe           | Alt-171 | No key assigned      | No key assigned  | Alt-156        | Alt-207  | Alt-213 | Alt-247 |
+| u grave      | Alt-151 | right square bracket | Alt-249          | Alt-249        | Alt-157  | Alt-214 | Alt-249 |
+| u circumflex | Alt-150 | right curly bracket  | Alt-251          | Alt-251        | Alt-158  | Alt-216 | Alt-251 |
+
 ### German - Typed as usual on German keyboards
 | Glyph      | Codes           | WST_Germ             | Windows Latin-1 | Apple USA       | Cork    | ABICOMP         |
 |------------|-----------------|----------------------|-----------------|-----------------|---------|-----------------|
