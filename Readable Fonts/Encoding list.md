@@ -6,6 +6,9 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 |-----------|-----------------------------------------|
 | CP668     | Polish letters on cp852 codepoints      |
 | CP952     | Yugoslavian letters on cp852 codepoints |
+| CP1285    | Apple Romanian                          |
+| CP3845    | Hungarian                               |
+| CP30022   | Canadian First Nations                  |
 
 ### Encodings without a set numerical string
 | File Name | Description                                    |
@@ -28,6 +31,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
+| SIOUAN    | Siouan Languages                               |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMSEUS    | Times New Roman Basque                         |
@@ -35,6 +39,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
+| WNPS      | Washington Puget Salish                        |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
