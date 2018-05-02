@@ -167,13 +167,6 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 
 **Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
 
-## For use of File Hound
-Copyright © 1997 Aaron R. Gaalswyk
-
-Aaron R. Gaalswyk (the AUTHOR) grants you a non-exclusive, non-transferable license to the SOFTWARE (hereinafter defined), free of charge, provided that you adhere to the terms of this license agreement.
-
-The SOFTWARE is licensed, not sold. The AUTHOR does not transfer title to the SOFTWARE to you. No rights are granted to you other than those listed in this license agreement. By installing or USING (hereinafter defined) the SOFTWARE, you signify your agreement to the terms of this license agreement.
-
 ## For use of HTMLGen
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
