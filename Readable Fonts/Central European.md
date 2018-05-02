@@ -166,16 +166,17 @@ Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 | ogonek       | Alt-242 | Alt-178        | No key assigned | Alt-012 | No key assigned  | Alt-244           |
 
 ### Printer's Specials
-| Glyph              | Codes   | Windows CP1250 | Apple CE        | TITUS Eastern European |
-|--------------------|---------|----------------|-----------------|------------------------|
-| non-breaking space | Alt-255 | Alt-160        | Alt-202         | Alt-255                |
-| sharp s            | Alt-225 | Alt-223        | Alt-167         | Alt-225                |
-| Euro               | Alt-170 | Alt-128        | No key assigned | No key assigned        |
-| currency           | Alt-207 | Alt-164        | No key assigned | No key assigned        |
-| section            | Alt-245 | Alt-187        | Alt-164         | No key assigned        |
-| guillemotleft      | Alt-174 | Alt-171        | Alt-199         | No key assigned        |
-| guillemotright     | Alt-175 | Alt-187        | Alt-200         | No key assigned        |
-| degree             | Alt-248 | Alt-176        | Alt-161         | No key assigned        |
-| multiply           | Alt-158 | Alt-215        | No key assigned | No key assigned        |
-| division           | Alt-246 | Alt-247        | Alt-214         | No key assigned        |
-| soft hyphen        | Alt-240 | Alt-173        | No key assigned | No key assigned        |
+| Glyph              | Codes           | Windows CP1250  | Apple CE        | TITUS Eastern European | CP3845          |
+|--------------------|-----------------|-----------------|-----------------|------------------------|-----------------|
+| non-breaking space | Alt-255         | Alt-160         | Alt-202         | Alt-255                | Alt-255         |
+| sharp s            | Alt-225         | Alt-223         | Alt-167         | Alt-225                | Alt-225         |
+| Euro               | Alt-170         | Alt-128         | No key assigned | No key assigned        | No key assigned |
+| Ft                 | No key assigned | No key assigned | No key assigned | No key assigned        | Alt-159         |
+| currency           | Alt-207         | Alt-164         | No key assigned | No key assigned        | No key assigned |
+| section            | Alt-245         | Alt-187         | Alt-164         | No key assigned        | No key assigned |
+| guillemotleft      | Alt-174         | Alt-171         | Alt-199         | No key assigned        | Alt-174         |
+| guillemotright     | Alt-175         | Alt-187         | Alt-200         | No key assigned        | Alt-175         |
+| degree             | Alt-248         | Alt-176         | Alt-161         | No key assigned        | Alt-248         |
+| multiply           | Alt-158         | Alt-215         | No key assigned | No key assigned        | No key assigned |
+| division           | Alt-246         | Alt-247         | Alt-214         | No key assigned        | Alt-246         |
+| soft hyphen        | Alt-240         | Alt-173         | No key assigned | No key assigned        | No key assigned |
