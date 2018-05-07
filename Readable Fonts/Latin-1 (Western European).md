@@ -47,6 +47,42 @@ The old WST fonts discontinued with Windows 7 are designed for use with terminal
 | h dot below | Alt-189 |
 | l dot below | Alt-155 |
 
+### Dutch - Typed as usual on Dutch keyboards
+| Glyph        | Codes           | CP30020 | Windows CP1252  | Apple US        | ABICOMP         | Cork    | Times of the West I |
+|--------------|-----------------|---------|-----------------|-----------------|-----------------|---------|---------------------|
+| A grave      | Alt-183         | Alt-183 | Alt-192         | Alt-203         | Alt-161         | Alt-192 | Alt-192             |
+| A circumflex | Alt-182         | Alt-182 | Alt-194         | Alt-229         | Alt-162         | Alt-194 | Alt-194             |
+| A dieresis   | Alt-142         | Alt-142 | Alt-196         | Alt-128         | Alt-165         | Alt-196 | Alt-196             |
+| E grave      | Alt-212         | Alt-212 | Alt-200         | Alt-233         | Alt-167         | Alt-200 | Alt-200             |
+| E acute      | Alt-144         | Alt-144 | Alt-201         | Alt-131         | Alt-168         | Alt-201 | Alt-201             |
+| E circumflex | Alt-210         | Alt-210 | Alt-202         | Alt-230         | Alt-169         | Alt-202 | Alt-202             |
+| E dieresis   | Alt-211         | Alt-211 | Alt-203         | Alt-232         | Alt-170         | Alt-203 | Alt-203             |
+| I acute      | Alt-214         | Alt-214 | Alt-205         | Alt-234         | Alt-172         | Alt-205 | Alt-205             |
+| I dieresis   | Alt-216         | Alt-216 | Alt-207         | Alt-236         | Alt-174         | Alt-207 | Alt-207             |
+| IJ           | No key assigned | Alt-159 | No key assigned | No key assigned | No key assigned | Alt-156 | Alt-141             |
+| O acute      | Alt-224         | Alt-224 | Alt-211         | Alt-238         | Alt-177         | Alt-211 | Alt-211             |
+| O circumflex | Alt-226         | Alt-226 | Alt-212         | Alt-239         | Alt-178         | Alt-212 | Alt-212             |
+| O dieresis   | Alt-153         | Alt-153 | Alt-214         | Alt-133         | Alt-180         | Alt-214 | Alt-214             |
+| U acute      | Alt-233         | Alt-233 | Alt-218         | Alt-242         | Alt-183         | Alt-218 | Alt-218             |
+| U circumflex | Alt-234         | Alt-234 | Alt-219         | Alt-243         | Alt-184         | Alt-219 | Alt-219             |
+| U dieresis   | Alt-154         | Alt-154 | Alt-220         | Alt-134         | Alt-185         | Alt-220 | Alt-220             |
+| a grave      | Alt-133         | Alt-133 | Alt-224         | Alt-136         | Alt-193         | Alt-224 | Alt-224             |
+| a circumflex | Alt-131         | Alt-131 | Alt-226         | Alt-137         | Alt-195         | Alt-226 | Alt-226             |
+| a dieresis   | Alt-132         | Alt-132 | Alt-228         | Alt-138         | Alt-197         | Alt-228 | Alt-228             |
+| e grave      | Alt-138         | Alt-138 | Alt-232         | Alt-143         | Alt-199         | Alt-232 | Alt-232             |
+| e acute      | Alt-130         | Alt-130 | Alt-233         | Alt-142         | Alt-200         | Alt-233 | Alt-233             |
+| e circumflex | Alt-136         | Alt-136 | Alt-234         | Alt-144         | Alt-201         | Alt-234 | Alt-234             |
+| e dieresis   | Alt-137         | Alt-137 | Alt-235         | Alt-145         | Alt-202         | Alt-235 | Alt-235             |
+| i acute      | Alt-161         | Alt-161 | Alt-237         | Alt-146         | Alt-204         | Alt-237 | Alt-237             |
+| i dieresis   | Alt-139         | Alt-139 | Alt-239         | Alt-149         | Alt-206         | Alt-239 | Alt-239             |
+| ij           | No key assigned | Alt-158 | No key assigned | No key assigned | No key assigned | Alt-188 | Alt-157             |
+| o acute      | Alt-162         | Alt-162 | Alt-243         | Alt-151         | Alt-209         | Alt-243 | Alt-243             |
+| o circumflex | Alt-147         | Alt-147 | Alt-244         | Alt-153         | Alt-210         | Alt-244 | Alt-244             |
+| o dieresis   | Alt-148         | Alt-148 | Alt-246         | Alt-154         | Alt-212         | Alt-246 | Alt-246             |
+| u acute      | Alt-163         | Alt-163 | Alt-250         | Alt-156         | Alt-215         | Alt-250 | Alt-250             |
+| u circumflex | Alt-150         | Alt-150 | Alt-251         | Alt-158         | Alt-216         | Alt-251 | Alt-251             |
+| u dieresis   | Alt-129         | Alt-129 | Alt-252         | Alt-159         | Alt-217         | Alt-252 | Alt-252             |
+
 ### French - Typed as usual on French keyboards
 | Glyph        | CP859   | WST_Fren             | URW Palladio KUL | Windows CP1252 | Apple US | ABICOMP | Cork    |
 |--------------|---------|----------------------|------------------|----------------|----------|---------|---------|
