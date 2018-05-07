@@ -7,27 +7,38 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP668     | Polish letters on cp852 codepoints      |
 | CP952     | Yugoslavian letters on cp852 codepoints |
 | CP1285    | Apple Romanian                          |
+| CP3012    | Cyrillic Russian and Latvian ("RusLat") |
 | CP3845    | Hungarian                               |
+| CP30001   | Celtic                                  |
 | CP30022   | Canadian First Nations                  |
 
 ### Encodings without a set numerical string
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| CER-GS    | Celtic Extended Roman GS                       |
 | CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
 | CWI2      | Hungarian CWI-2                                |
 | CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
+| DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
+| GAEILGE1  | Gaeilge1                                       |
+| GAEILGE2  | Gaeilge2                                       |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | HUNGARIA  | LinguaFont Hungarian                           |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
+| LAT8EXT   | Extended Latin-8                               |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
+| MAC_LV    | Latvian letters on Apple CE codepoints         |
+| MACCEL    | Apple Celtic                                   |
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
+| MACIRISH  | Apple Irish Gaelic                             |
 | MACPOL    | Polish letters on Apple CE codepoints          |
 | MALTESE   | Maltese letters on cp853 codepoints            |
+| MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
