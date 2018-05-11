@@ -35,6 +35,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | ILPROM    | ILPRumanianB100                                |
 | LAT8EXT   | Extended Latin-8                               |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
+| LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MAC_LV    | Latvian letters on Apple CE codepoints         |
 | MACCEL    | Apple Celtic                                   |
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
@@ -88,10 +89,11 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
 | MONGTRAN  | Mongolian                                        |
-| NINATRAN  | IJTS transliteration font for Nina               |
+| NINATRAN  | Nina IJTS transliteration                        |
 | NORMYN    | Kenneth Roy Norman                               |
 | OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
 | PASKT     | URW Palladio SKT                                 |
+| PAUS      | URW Palladio US                                  |
 | PINYIN    | Chinese (Pinyin)                                 |
 | PKTC      | PKTC                                             |
 | SANSKRIT  | Sanskrit transliteration font by Libor Sztemon   |
@@ -100,7 +102,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
 | SINHTRAN  | Sinhala with ISO 15919 diacritics                |
 | SKTRAN    | Searchable Sanskrit Files                        |
-| SKTRANDE  | Searchable Sanskrit Files for German people      |
 | TAMILTRN  | Tamil with ISO 15919 diacritics                  |
 | TELUGTRN  | Telugu with ISO 15919 diacritics                 |
 | TITUSEO   | TITUS Eastern Oriental                           |
