@@ -10,6 +10,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP3012    | Cyrillic Russian and Latvian ("RusLat") |
 | CP3845    | Hungarian                               |
 | CP30001   | Celtic                                  |
+| CP30007   | Latin                                   |
 | CP30018   | Cyrillic Russian and Latin Tatar        |
 | CP30019   | Cyrillic Russian and Latin Chechen      |
 | CP30022   | Canadian First Nations                  |
@@ -118,5 +119,5 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MIXCASE   | MiXeD CaSe      |
 | REVERSE   | Inverted Screen |
 
-### Notice when loading fonts through LOADFONT
-LOADFONT (1993) from FNTCOL version 1.6 cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables at the beginning.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
+### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
+LOADFONT cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables at the beginning.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
