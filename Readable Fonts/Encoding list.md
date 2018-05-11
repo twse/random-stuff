@@ -5,6 +5,14 @@
 |-----------|-----------------------------------------|
 | CP668     | Polish letters on cp852 codepoints      |
 | CP952     | Yugoslavian letters on cp852 codepoints |
+| CP1285    | Apple Romanian                          |
+| CP3012    | Cyrillic Russian and Latvian ("RusLat") |
+| CP3845    | Hungarian                               |
+| CP30001   | Celtic                                  |
+| CP30018   | Cyrillic Russian and Latin Tatar        |
+| CP30019   | Cyrillic Russian and Latin Chechen      |
+| CP30022   | Canadian First Nations                  |
+| CP60258   | Cyrillic Russian and Latin Azeri        |
 
 ### Encodings without a set numerical value
 | File Name | Description                                    |
