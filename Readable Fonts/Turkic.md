@@ -1,25 +1,27 @@
 ## Fonts and keyboards
 Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Latin scripts.
 
-Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts for Chechen language. All other accented letters are replaced with bullet.
+Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
 ## Diacritical characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
-| Glyph       | Codes   | Balkan  | Times of the West II |
-|-------------|---------|---------|----------------------|
-| C cedilla   | Alt-128 | Alt-128 | Alt-199              |
-| Schwa       | Alt-232 | Alt-232 | Alt-144              |
-| I dot above | Alt-152 | Alt-152 | Alt-221              |
-| O dieresis  | Alt-153 | Alt-153 | Alt-214              |
-| S cedilla   | Alt-158 | Alt-242 | Alt-222              |
-| U dieresis  | Alt-154 | Alt-154 | Alt-220              |
-| c cedilla   | Alt-135 | Alt-135 | Alt-231              |
-| schwa       | Alt-246 | Alt-210 | Alt-129              |
-| i dotless   | Alt-141 | Alt-141 | Alt-253              |
-| o dieresis  | Alt-148 | Alt-148 | Alt-246              |
-| s cedilla   | Alt-159 | Alt-243 | Alt-254              |
-| u dieresis  | Alt-129 | Alt-129 | Alt-252              |
+| Glyph       | Codes   | Balkan  | Times of the West II | CP60258   |
+|-------------|---------|---------|----------------------|-----------|
+| C cedilla   | Alt-128 | Alt-128 | Alt-199              | Alt-253   |
+| Schwa       | Alt-232 | Alt-232 | Alt-144              | Alt-246   |
+| G breve     | Alt-166 | Alt-155 | Alt-208              | Alt-248   |
+| I dot above | Alt-152 | Alt-152 | Alt-221              | Capital I |
+| O dieresis  | Alt-153 | Alt-153 | Alt-214              | Alt-240   |
+| S cedilla   | Alt-158 | Alt-242 | Alt-222              | Alt-251   |
+| U dieresis  | Alt-154 | Alt-154 | Alt-220              | Alt-244   |
+| c cedilla   | Alt-135 | Alt-135 | Alt-231              | Alt-254   |
+| schwa       | Alt-246 | Alt-210 | Alt-129              | Alt-247   |
+| g breve     | Alt-167 | Alt-157 | Alt-248              | Alt-249   |
+| i dotless   | Alt-141 | Alt-141 | Alt-253              | Alt-243   |
+| o dieresis  | Alt-148 | Alt-148 | Alt-246              | Alt-241   |
+| s cedilla   | Alt-159 | Alt-243 | Alt-254              | Alt-252   |
+| u dieresis  | Alt-129 | Alt-129 | Alt-252              | Alt-245   |
 
 ### Bashkir
 | Glyph        | Codes   |
@@ -140,26 +142,38 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts for Chechen
 | u dieresis  | Alt-129 |
 
 ### Tatar
-| Glyph        | Codes   |
-|--------------|---------|
-| A dieresis   | Alt-142 |
-| C cedilla    | Alt-128 |
-| G breve      | Alt-166 |
-| I dieresis   | Alt-216 |
-| I dot above  | Alt-152 |
-| N tilde      | Alt-165 |
-| O dieresis   | Alt-153 |
-| S cedilla    | Alt-158 |
-| U dieresis   | Alt-154 |
-| a dieresis   | Alt-132 |
-| c cedilla    | Alt-135 |
-| g breve      | Alt-167 |
-| i dieresis   | Alt-139 |
-| i dotless    | Alt-141 |
-| n tilde      | Alt-164 |
-| o dieresis   | Alt-148 |
-| s cedilla    | Alt-159 |
-| u dieresis   | Alt-129 |
+| Glyph        | Codes   | CP30018         |
+|--------------|---------|-----------------|
+| A acute      | Alt-181 | Alt-207         |
+| A circumflex | Alt-182 | Alt-198         |
+| A dieresis   | Alt-142 | Alt-242         |
+| C cedilla    | Alt-128 | Alt-248         |
+| E acute      | Alt-144 | Alt-209         |
+| G breve      | Alt-166 | Alt-181         |
+| I acute      | Alt-214 | Alt-211         |
+| I dieresis   | Alt-216 | No key assigned |
+| I dot above  | Alt-152 | Alt-189         |
+| N tilde      | Alt-165 | Alt-183         |
+| O acute      | Alt-224 | Alt-213         |
+| O dieresis   | Alt-153 | Alt-244         |
+| S cedilla    | Alt-158 | Alt-250         |
+| U acute      | Alt-233 | Alt-215         |
+| U dieresis   | Alt-154 | No key assigned |
+| a acute      | Alt-160 | Alt-208         |
+| a circumflex | Alt-131 | Alt-199         |
+| a dieresis   | Alt-132 | Alt-243         |
+| c cedilla    | Alt-135 | Alt-249         |
+| e acute      | Alt-130 | Alt-210         |
+| g breve      | Alt-167 | Alt-182         |
+| i acute      | Alt-161 | Alt-212         |
+| i dieresis   | Alt-139 | No key assigned |
+| i dotless    | Alt-141 | Alt-190         |
+| n tilde      | Alt-164 | Alt-184         |
+| o acute      | Alt-162 | Alt-214         |
+| o dieresis   | Alt-148 | Alt-245         |
+| s cedilla    | Alt-159 | Alt-251         |
+| u acute      | Alt-163 | Alt-216         |
+| u dieresis   | Alt-129 | No key assigned |
 
 ### Turkish - Typed as usual on Turkish keyboards
 | Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | Apple Turkey | CP853   |
