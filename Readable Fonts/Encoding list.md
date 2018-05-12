@@ -62,6 +62,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMSEUS    | Times New Roman Basque                         |
+| TNR_CYM   | Pryd Euro-Cymraeg                              |
 | TNR_MGR   | Times New Roman Hungarian                      |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
