@@ -4,6 +4,7 @@
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1285    | Apple Romanian                             |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
@@ -45,6 +46,9 @@
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TMSEUS    | Times New Roman Basque                         |
+| TNR_CYM   | Pryd Euro-Cymraeg                              |
+| TNR_MGR   | Times New Roman Hungarian                      |
+| TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
