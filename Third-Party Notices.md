@@ -125,7 +125,7 @@ The end user is not allowed to decompile or disassemble the program or create de
 
 The end user is allowed to use the program for free within a 60-day trial period. A further use outside this period requires registration. A single user license for a natural person grants the right to use one copy of CapiTel on a single computer. A licensed user may use the software on different computers, but must not use it on more than one computer at the same time. Persons at law have to acquire one license for every natural persons who uses CapiTel.
 
-Registration follows after remittance of 55,00 DM (German Marks) to the account mentioned in ORDER.TXT. Within a following 4-week period the end user will receuve a registration code from the authors. If not, the end user has to contact the authors (at his own expense) to let them know.
+Registration follows after remittance of 55,00 DM (German Marks) to the account mentioned in ORDER.TXT. Within a following 4-week period the end user will receive a registration code from the authors. If not, the end user has to contact the authors (at his own expense) to let them know.
 
 Registration guarantees the right to use the program as well as updates (for which the same conditions are valid). The authors are not obliged to develop the program or to adapt it to changed operating characteristics of computer hardware or systems.
 
@@ -133,7 +133,7 @@ The end user is not entitled to developement or changes of CapiTel.
 
 The authors are only liable within the compass of german law's provisions.
 
-In case of errors or damage (including without limitation damages for loss of business profits, business interruption, loss of business information and equals) which do not base on missing program components, every kind of claim for damages is impossible. (Exept damages which occured because of the intention or gross negligement of the authors. If this should take place the end user has claim on program replacement or refund of license fee.)
+In case of errors or damage (including without limitation damages for loss of business profits, business interruption, loss of business information and equals) which do not base on missing program components, every kind of claim for damages is impossible. (Except damages which occured because of the intention or gross negligement of the authors. If this should take place the end user has claim on program replacement or refund of license fee.)
 
 An end user's claim on improvement or an error-free program does not exist.
 
