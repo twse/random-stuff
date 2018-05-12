@@ -1,13 +1,13 @@
 # Information
 This repository contains my random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
-* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare games made in 2003 through 2005. Thanks goes to the user Jackster from Spriters Resource for ripping the font.
+* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare games made in 2003-2005. Thanks goes to the user Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons based on the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. (**Note:** Created with OS/2 Icon Editor. See Third-Party Notices.md for commercial and unsupported freeware credits. Freeware, open source, public domain and shareware credits available at http://bobsgame.wikia.com/wiki/Extras)
 * **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc. or SQUARE ENIX, Inc.
 * **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
 * **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages.
-* **SitePal Forum Drug Words.htm**: Words for toothpastes, drugs, medicine and other stuff excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
+* **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine words excluding song artists – these were used to spam the legacy SitePal forums which no longer exists since March 2011.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
@@ -15,7 +15,7 @@ This repository contains my random stuff.
 ### Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). In the meantime, this font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
-Pan-European Serif comes in four styles - Regular, Italic, Bold and Bold Italic.
+Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
 
 Pan-European Sans comes in two styles - Regular and Bold.
 
