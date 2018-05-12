@@ -50,11 +50,10 @@ Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
 This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
 
+QwikSwitch Copyright © 1992-1993 C TechWare Ltd.<br />
+Written by Claude Biron
+
 Relish Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
-
-The software program accompanying this information is copyrighted by Sundial Systems Corporation. This information is subject to change without notice and does not represent a commitment on the part of Sundial Systems Corporation. The Relish Working Model may be freely copied and distributed. This information may be freely reproduced in total and distributed solely for use with the Relish Working Model.
-
-Under no circumstances will Sundial Systems Corporation be liable to you or to any other party for damages, including the loss of profits, savings, or other incidental or consequential damages, stemming from your use or misuse of the program - even if Sundial or an authorized Sundial representative has been advised of the possibility of any such damages. The only remedy available to you will be a refund of the purchase price of the program. Because some states do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.
 
 This software product includes Autodesk® Scaleform® software, © 2018 Autodesk, Inc. All rights reserved.
 
@@ -82,7 +81,7 @@ Tensor Copyright © 1997 QVision, Inc.
 
 THX is a trademark or registered trademark of THX Ltd. All rights reserved.
 
-Uses Umbra 2006 - 2018. See umbra3d.com for details.
+Uses Umbra 2006 - 2018.
 
 This program was created using Unity. Portions of this program © 2005-2018 Unity Technologies.
 
@@ -167,7 +166,7 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 
 **Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
 
-## For use of HTMLGen
+## For use of HTMLGen, RexxBase
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
 
@@ -248,10 +247,6 @@ Written by Joseph McVerry
 American Coders LTD of Raleigh N. Carolina grants you a license to use PM File Compare (PMFLCOMP) only in the country where you acquired it. PM File Compare is copyrighted and licensed (not sold). We do not transfer title of PM File Compare to you. You obtain no rights other than those granted you under this license.
 
 PM File Compare is supplied as is. The author disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use of PM File Compare.
-
-## For use of RexxBase
-Copyright © 1993-1999 American Coders Ltd.<br />
-Written by Joseph McVerry
 
 ## For use of RexxSem
 REXXSEM is distributed as licenced shareware.  REXXSEM ("the Program") is copyright 1997, 2000 by Darin McBride and all rights are reserved.
