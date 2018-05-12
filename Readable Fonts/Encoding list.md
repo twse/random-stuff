@@ -5,6 +5,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1285    | Apple Romanian                             |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
@@ -64,6 +65,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TMSEUS    | Times New Roman Basque                         |
 | TNR_CYM   | Pryd Euro-Cymraeg                              |
 | TNR_MGR   | Times New Roman Hungarian                      |
+| TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
