@@ -141,7 +141,7 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | s cedilla   | Alt-159 |
 | u dieresis  | Alt-129 |
 
-### Tatar
+### Tatar (Latin)
 | Glyph        | Codes   | CP30018         |
 |--------------|---------|-----------------|
 | A acute      | Alt-181 | Alt-207         |
@@ -174,6 +174,18 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | s cedilla    | Alt-159 | Alt-251         |
 | u acute      | Alt-163 | Alt-216         |
 | u dieresis   | Alt-129 | No key assigned |
+
+### Tatar/Uzbek (Cyrillic)
+| Glyph        | Codes   |
+|--------------|---------|
+| Ghe stroke   | Alt-242 |
+| Ka descender | Alt-244 |
+| U breve      | Alt-246 |
+| Ha descender | Alt-248 |
+| ghe stroke   | Alt-243 |
+| ka descender | Alt-245 |
+| u breve      | Alt-247 |
+| ha descender | Alt-249 |
 
 ### Turkish - Typed as usual on Turkish keyboards
 | Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | Apple Turkey | CP853   |
@@ -228,6 +240,36 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | e dieresis | Alt-137 |
 | o dieresis | Alt-148 |
 | u dieresis | Alt-154 |
+
+### Cyrillic Volga District - Turkic languages
+| Glyph          | Codes   |
+|----------------|---------|
+| A breve        | Alt-242 |
+| Ie breve       | Alt-246 |
+| Schwa          | Alt-207 |
+| Ghe stroke     | Alt-182 |
+| Ze descender   | Alt-213 |
+| Zhe descender  | Alt-209 |
+| Ka ghe         | Alt-189 |
+| En descender   | Alt-250 |
+| O barred       | Alt-244 |
+| Es descender   | Alt-215 |
+| Shha           | Alt-190 |
+| U double acute | Alt-211 |
+| U straight     | Alt-181 |
+| a breve        | Alt-243 |
+| ie breve       | Alt-247 |
+| schwa          | Alt-208 |
+| ghe stroke     | Alt-183 |
+| ze descender   | Alt-214 |
+| zhe descender  | Alt-210 |
+| ka ghe         | Alt-199 |
+| en descender   | Alt-251 |
+| o barred       | Alt-245 |
+| es descender   | Alt-216 |
+| shha           | Alt-198 |
+| u double acute | Alt-212 |
+| u straight     | Alt-184 |
 
 ### Zazaki
 | Glyph        | Codes   |
