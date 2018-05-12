@@ -3,7 +3,7 @@ Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Lat
 
 Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
-## Diacritical characters (in alphabetical order by language)
+## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
 | Glyph       | Codes   | Balkan  | Times of the West II | CP60258   |
@@ -125,6 +125,48 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | s cedilla    | Alt-159 |
 | u dieresis   | Alt-129 |
 
+### Kurdish (Cyrillic Kurmanjî)
+| Glyph        | Codes   |
+|--------------|---------|
+| Schwa        | Alt-189 |
+| Ghe acute    | Alt-207 |
+| I dieresis   | Alt-209 |
+| Ka acute     | Alt-213 |
+| O dieresis   | Alt-211 |
+| Er acute     | Alt-198 |
+| Shha         | Alt-181 |
+| Shha acute   | Alt-183 |
+| schwa        | Alt-190 |
+| ghe acute    | Alt-208 |
+| i dieresis   | Alt-210 |
+| ka acute     | Alt-214 |
+| o dieresis   | Alt-212 |
+| er acute     | Alt-199 |
+| shha         | Alt-182 |
+| shha acute   | Alt-184 |
+
+### Kurdish (Latin Yekgirtú & Kurmanjî)
+| Glyph        | Kurdish | Turkic  |
+|--------------|---------|---------|
+| C cedilla    | Alt-128 | Alt-128 |
+| E acute      | Alt-144 | Alt-144 |
+| E circumflex | Alt-210 | Alt-210 |
+| I acute      | Alt-214 | Alt-214 |
+| I circumflex | Alt-215 | Alt-215 |
+| S cedilla    | Alt-158 | Alt-158 |
+| U acute      | Alt-233 | Alt-233 |
+| U circumflex | Alt-234 | Alt-234 |
+| X dieresis   | Alt-189 | Alt-252 |
+| c cedilla    | Alt-135 | Alt-135 |
+| e acute      | Alt-130 | Alt-130 |
+| e circumflex | Alt-136 | Alt-136 |
+| i acute      | Alt-161 | Alt-161 |
+| i circumflex | Alt-140 | Alt-140 |
+| s cedilla    | Alt-159 | Alt-159 |
+| u acute      | Alt-163 | Alt-163 |
+| u circumflex | Alt-150 | Alt-150 |
+| x dieresis   | Alt-190 | Alt-251 |
+
 ### Kyrgyz
 | Glyph       | Codes   |
 |-------------|---------|
@@ -140,6 +182,22 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | o dieresis  | Alt-148 |
 | s cedilla   | Alt-159 |
 | u dieresis  | Alt-129 |
+
+### Tajik
+| Glyph         | Codes   |
+|---------------|---------|
+| Ghe stroke    | Alt-242 |
+| I macron      | Alt-244 |
+| Ka descender  | Alt-248 |
+| U macron      | Alt-246 |
+| Ha descender  | Alt-250 |
+| Che descender | Alt-221 |
+| ghe stroke    | Alt-243 |
+| i macron      | Alt-245 |
+| ka descender  | Alt-249 |
+| u macron      | Alt-247 |
+| ha descender  | Alt-251 |
+| che descender | Alt-222 |
 
 ### Tatar (Latin)
 | Glyph        | Codes   | CP30018         |
