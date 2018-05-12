@@ -1,9 +1,26 @@
 ﻿The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
-### Encodings with a set numerical value
-| File Name | Description     |
-|-----------|-----------------|
-| FILE      | File            |
+### Encodings with a set numerical string
+| File Name | Description                                |
+|-----------|--------------------------------------------|
+| CP1285    | Apple Romanian                             |
+| CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
+| CP3845    | Hungarian                                  |
+| CP30001   | Celtic                                     |
+| CP30002   | Cyrillic Tajik                             |
+| CP30007   | Latin                                      |
+| CP30013   | Cyrillic Volga District - Turkic languages |
+| CP30018   | Cyrillic Russian and Latin Tatar           |
+| CP30019   | Cyrillic Russian and Latin Chechen         |
+| CP30022   | Canadian First Nations                     |
+| CP30033   | Crimean Tatar with Hryvnia                 |
+| CP30034   | Cherokee                                   |
+| CP30040   | Cyrillic Russian with Hryvnia              |
+| CP59234   | Cyrillic Tatar                             |
+| CP59829   | Georgian                                   |
+| CP60258   | Cyrillic Russian and Latin Azeri           |
+| CP60853   | Georgian with capital letters              |
+| CP62306   | Cyrillic Uzbek                             |
 
 ### Encodings without a set numerical value
 | File Name | Description                                    |
