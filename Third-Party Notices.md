@@ -170,9 +170,29 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
 
-## For use of Icon Heaven
-Copyright © 1996 The Frobozz Magic Software Company<br />
-Written by Paul van Keep
+## For use of Icon Heaven, Sound
+Copyright © 1996 Paul van Keep
+
+## For use of InJoy Firewall
+Copyright © 1998-2004 F/X Communications
+Written by Bjarne Jensen
+
+F/X would like to thank ALL the people who helped during the development phase and the beta testing phase. Last, but not least, a thanks to our customers.
+
+The InJoy Firewall is copyrighted and licensed (not sold). Title is not transfer to you. You obtain no rights other than those granted you under this license.
+
+By installing and using this program you accept it as is and with the understanding that there is no representations or warranty as to the suitability of the InJoy Firewall for your particular purpose, and that to the extent you use or implement this program in your own setting, you do so at your own risk. In no event will I be held liable for any damages, whether consequential, incidental, or special, arising out of the use of or inability to use the program provided herewith.
+
+## For use of Internet Junkbuster Proxy
+Portions of this software are Internet Junkbuster Proxy Copyright (C) 1997-1998 Junkbusters Corp. used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
+
+## For use of LiveWire Communications
+Copyright 1990-1995 DataMirage Software<br />
+Written by Les Novell
+
+LiveWire is NOT free software! LiveWire is marketed under the shareware marketing concept. You may use LiveWire for 30 days, after which you are obligated to either register this software or discontinue use of this software.
+
+By using this software you are agreeing to the above terms.
 
 ## For use of LXOPT
 The LXOPT software and accompanying documentation may be distributed and used free of charge but are copyright (C) 1994-1997 Functional Software Limited. All rights reserved.
@@ -226,11 +246,9 @@ Copyright © 2000 Carl-Magnus Olsson
 
 Magnum is freeware, but is copyrighted and not in the public domain. Permission is granted to any individual or institution to use, copy, or redistribute this software so long as all of the original files are included unmodified, that it is not sold for profit, and that this copyright notice is retained.
 
-## For use of NetExtra
+## For use of NetExtra, Netwatch
 Copyright (c) 1999 Momotek Computer Specialties.<br />
 Written by Gene Akins
-
-Netwatch, is a trademark of Momotek Computer Specialties.
 
 This Software is licensed, not sold. Momotek Computer Specialties (hereinafter referred to as Momotek) grants you a license for Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
 
@@ -280,10 +298,6 @@ This license is governed by the laws of Ontario, Canada.
 Copyright 1992, 1996 by John Brock
 
 RXXMATH is unsupported freeware, and is provided "as is", with no warranties of any sort, express or implied. RXXMATH may be freely distributed in any format, provided no alterations are made to the files (other than what may be necessary to port RXXMATH to a new environment) and no restrictions are placed on further distribution. Users may modify RXXMATH at their convenience, as long as the copyright notices are retained and the modified version is not distributed publicly.
-
-## For use of Sound
-Not Copyrighted by the Frobozz Magic Software Company<br />
-Written by Paul van Keep
 
 ## For use of WarpCalc
 WarpCalc is Copyright (c) 1997-2012 by Carl-Magnus Olsson.<br />
