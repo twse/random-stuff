@@ -37,8 +37,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CZECHLF   | LinguaFont Czech                               |
 | DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
+| EVAFONT   | EVAFONT Encoding                               |
 | GAEILGE1  | Gaeilge1                                       |
 | GAEILGE2  | Gaeilge2                                       |
+| GEM       | GEM Encoding                                   |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | HUNGARIA  | LinguaFont Hungarian                           |
