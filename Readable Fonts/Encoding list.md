@@ -46,6 +46,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | HUNGARIA  | LinguaFont Hungarian                           |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
+| ISTROMEG  | Istro/Megleno-Romanian                         |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
