@@ -112,7 +112,36 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
-Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t which is inacceptable.
+Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses the old s and t cedilla.
+
+| Glyph        | Codes   | Windows CP1250 | Apple Romanian | ILPRumanianB100      | TITUS Eastern European |
+|--------------|---------|----------------|----------------|----------------------|------------------------|
+| A circumflex | Alt-182 | Alt-194        | Alt-229        | tilde                | Alt-167                |
+| A breve      | Alt-198 | Alt-195        | Alt-174        | Q                    | Alt-166                |
+| I circumflex | Alt-215 | Alt-206        | Alt-235        | vertical line        | Alt-183                |
+| S cedilla    | Alt-184 | Alt-170        | Alt-175        | left curly bracket   | Alt-202                |
+| T cedilla    | Alt-221 | Alt-222        | Alt-222        | right curly bracket  | Alt-204                |
+| a circumflex | Alt-131 | Alt-226        | Alt-137        | grave accent         | Alt-131                |
+| a breve      | Alt-199 | Alt-227        | Alt-190        | q                    | Alt-215                |
+| i circumflex | Alt-140 | Alt-238        | Alt-148        | backslash            | Alt-140                |
+| s cedilla    | Alt-173 | Alt-186        | Alt-191        | left square bracket  | Alt-245                |
+| t cedilla    | Alt-238 | Alt-254        | Alt-223        | right square bracket | Alt-247                |
+
+### Istro/Megleno-Romanian
+| Glyph         | Codes   |
+|---------------|---------|
+| A ring        | Alt-143 |
+| A breve       | Alt-198 |
+| N acute       | Alt-227 |
+| O ogonek      | Alt-226 |
+| S comma below | Alt-184 |
+| T comma below | Alt-221 |
+| a ring        | Alt-134 |
+| a breve       | Alt-199 |
+| n acute       | Alt-228 |
+| o ogonek      | Alt-147 |
+| s comma below | Alt-173 |
+| t comma below | Alt-238 |
 
 ### Albanian - Typed as usual on Albanian keyboards
 Mac users will appreciate that the Apple US encoding has to be used for writing.
