@@ -5,6 +5,10 @@ Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman a
 
 The old WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
 
+Operating systems that have their own encodings include:
+* GEM and OpenGEM
+* NextStep
+
 ## Diacritical characters
 
 ### Aragonese, Catalan, Galician, Spanish
