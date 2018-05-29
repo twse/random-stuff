@@ -35,6 +35,7 @@
 | HAUSA     | Hausa letters on African codepoints            |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
+| ISTROMEG  | Istro/Megleno-Romanian                         |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
