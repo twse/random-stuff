@@ -30,6 +30,13 @@
 | BASQUE    | Basque                                         |
 | ILPROM    | ILPRumanianB100                                |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
+| KURCYR    | Cyrillic Kurdish Kurmanjî                      |
+| KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
+| LAT8EXT   | Extended Latin-8                               |
+| LT_UNIX   | Accented Lithuanian (Unix)                     |
+| MACPOL    | Polish letters on Apple CE codepoints          |
+| MALTESE   | Maltese letters on CP853 codepoints            |
+| PALM      | Palm OS Latin-1                                |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TMSEUS    | Times New Roman Basque                         |
