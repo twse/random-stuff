@@ -131,7 +131,7 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 | z caron  | Alt-167 | Alt-158        | Alt-190        | Alt-186 | Alt-166 | Alt-158              | Alt-254                |
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
-Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
+Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses the old s and t cedilla.
 
 | Glyph        | Codes   | Windows CP1250 | Apple Romanian | Cork    | ILPRumanianB100      | TITUS Eastern European |
 |--------------|---------|----------------|----------------|---------|----------------------|------------------------|
@@ -145,6 +145,22 @@ Some programs as [UniPad](http://www.unipad.org/) use the cedilla in s and t.
 | i circumflex | Alt-140 | Alt-238        | Alt-148        | Alt-238 | backslash            | Alt-140                |
 | s cedilla    | Alt-173 | Alt-186        | Alt-191        | Alt-179 | left square bracket  | Alt-245                |
 | t cedilla    | Alt-238 | Alt-254        | Alt-223        | Alt-181 | right square bracket | Alt-247                |
+
+### Istro/Megleno-Romanian
+| Glyph         | Codes   |
+|---------------|---------|
+| A ring        | Alt-143 |
+| A breve       | Alt-198 |
+| N acute       | Alt-227 |
+| O ogonek      | Alt-226 |
+| S comma below | Alt-184 |
+| T comma below | Alt-221 |
+| a ring        | Alt-134 |
+| a breve       | Alt-199 |
+| n acute       | Alt-228 |
+| o ogonek      | Alt-147 |
+| s comma below | Alt-173 |
+| t comma below | Alt-238 |
 
 ### Albanian - Typed as usual on Albanian keyboards
 | Glyph      | Code    | Windows CP1250 | Cork    | TITUS Eastern European |
