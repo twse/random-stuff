@@ -49,6 +49,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
+| LFTR      | LinguaFont Turkish                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MAC_LV    | Latvian letters on Apple CE codepoints         |
