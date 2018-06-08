@@ -10,6 +10,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP1285    | Apple Romanian                             |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
+| CP30000   | Saami                                      |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30007   | Latin                                      |
@@ -46,6 +47,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | HUNGARIA  | LinguaFont Hungarian                           |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
+| IR-197    | ISO-IR 197 Saami                               |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
@@ -58,6 +60,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
 | MACPOL    | Polish letters on Apple CE codepoints          |
+| MACSAMI   | Apple Sámi/Lappish                             |
 | MALTESE   | Maltese letters on cp853 codepoints            |
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | PALM      | Palm OS Latin-1                                |
