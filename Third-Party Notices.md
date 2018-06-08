@@ -48,6 +48,8 @@ This game uses NaturalMotion morpheme animation technology.
 
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
+PM Designer Copyright © 1993-1994 VacNat Software Co. All rights reserved.
+
 This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
 
 QwikSwitch Copyright © 1992-1993 C TechWare Ltd.<br />
