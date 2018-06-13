@@ -53,6 +53,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
 | LFTR      | LinguaFont Turkish                             |
+| LSSLV     | Liborsoft Slavonia                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MAC_LV    | Latvian letters on Apple CE codepoints         |
@@ -72,6 +73,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TMSEUS    | Times New Roman Basque                         |
 | TNR_CYM   | Pryd Euro-Cymraeg                              |
 | TNR_MGR   | Times New Roman Hungarian                      |
+| TSLAVISK  | Times of Slavisk                               |
+| TSLAVS    | Times of Slavs                                 |
 | TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
