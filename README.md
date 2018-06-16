@@ -12,6 +12,13 @@ This repository contains my random stuff.
 * **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
+## Steps useful to bulk import names to Mozilla's credits list
+1. Clone the mozilla/community-data repository with any Git client
+2. Copy names of contributors from Mozilla-related websites such as translation projects
+3. Save the file as a .csv file (comma-separated value) in Unicode encoding
+4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the name of each file, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
+5. Commit the new names.csv file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
+
 ## Vector font: Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). In the meantime, this font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
