@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation>Intensidad</translation>
+        <translation>Intensidade</translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../imagearea.cpp" line="244"/>
         <source>Save image...</source>
-        <translation>Salvar imagen...</translation>
+        <translation>Salvar imagem...</translation>
     </message>
 </context>
 <context>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="195"/>
         <source>&amp;Exit</source>
-        <translation>&amp;Sair</translation>
+        <translation>Sai&amp;r</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="197"/>
@@ -444,17 +444,17 @@ Deseja salvar as modificações?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Nota: la mudança de idioma</translation>
+        <translation>Nota: o mudança de idioma</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation>Restaurar tamanho</translation>
+        <translation>Restaurar tamanho do</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Pergunta tamanho do</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
