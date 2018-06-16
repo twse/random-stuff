@@ -31,6 +31,14 @@
 | BASQUE    | Basque                                         |
 | CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
+| DSIRISH   | Dé Sathairn                                    |
+| EDA_CODE  | EDA editor encoding                            |
+| ERNS      | Euransi (old standard charset)                 |
+| EU_NRS    | Euransi e Nauromane                            |
+| EVAFONT   | EVAFONT Encoding                               |
+| GAEILGE1  | Gaeilge1                                       |
+| GAEILGE2  | Gaeilge2                                       |
+| GEM       | GEM Encoding                                   |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
@@ -46,6 +54,9 @@
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
+| TEXNANSI  | TeX & ANSI                                     |
+| TMS_EU    | Times New Roman Euransi                        |
+| TMSEA     | Euransi Times                                  |
 | TMSEUS    | Times New Roman Basque                         |
 | TNR_CYM   | Pryd Euro-Cymraeg                              |
 | TNR_MGR   | Times New Roman Hungarian                      |
