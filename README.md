@@ -1,15 +1,15 @@
 # Information
 This repository contains my random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
-* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare games made in 2003-2005. Thanks goes to the user Jackster from Spriters Resource for ripping the font.
+* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks goes to the user Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons based on the [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) lowercase alphabet for use with OS/2 programs of the past and present. Requires OS/2 2.0 or higher under a file system that supports long filenames, e.g. HPFS or FAT32. Created with OS/2 Icon Editor. See Third-Party Notices.md for commercial and unsupported freeware credits. See [Extras page on the bobsgame Wikia portal](http://bobsgame.wikia.com/wiki/Extras) for non-commercial software credits.
 * **LTROL Font**: TrueType Unicode font based on the font in the American version of Lufia: The Ruins of Lore (2003), excluding random glyphs which replaces portions of the Hiragana subset. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc. or SQUARE ENIX, Inc.
-* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
+* **names.csv**: Names for adding in the [Mozilla credits list](https://www.mozilla.org/credits). In the early days, Dawn Endico was responsible for updating the list through CVS. **Moderator's note:** We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or your name is added to this list is **name &lt;email&gt;: "comment (citation)"**.
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
 * **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages.
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine – these words were used to spam the old SitePal forums which no longer exists since March 2011.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
-* **Ubuntu Member Home Pages.htm**: Websites for all Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is inspired by the old Netscape people page which was closed in 2008.
+* **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is based on the old Netscape people page.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
 ## Steps useful to bulk import names to Mozilla's credits list
@@ -17,12 +17,12 @@ Follow these steps only if you don't need to fill in the Google Docs form or if 
 
 1. Clone the mozilla/community-data repository with any Git client
 2. Copy names of contributors from Mozilla-related websites such as translation projects
-3. Save the file as a .csv file (comma-separated value) in Unicode encoding
-4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the name of each file, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
-5. Commit the new names.csv file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
+3. Save the file with csv as the extension in Unicode encoding
+4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the filename, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
+5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
 
 ## Vector font: Pan-European fonts version 6.0
-This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). In the meantime, this font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
+This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
 Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
 
