@@ -13,6 +13,8 @@ This repository contains my random stuff.
 * **ZOE TFOM**: TrueType Unicode font based on the font in the American and European versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
 ## Steps useful to bulk import names to Mozilla's credits list
+Follow these steps only if you don't need to fill in the Google Docs form or if Google Docs does not work.
+
 1. Clone the mozilla/community-data repository with any Git client
 2. Copy names of contributors from Mozilla-related websites such as translation projects
 3. Save the file as a .csv file (comma-separated value) in Unicode encoding
@@ -40,7 +42,13 @@ Originally created with FontCreator 5.6 (2007) - This version can only create or
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for all versions of FontCreator.
 
-## Open source project translations
+## Protest pages
+These pages are available in four versions in htm format. Thanks to Norman De Forest for inspiring me to create the pages. His own protest page uses the index page.
+
+* **Web page not available** (Android browser) - This page is missing the Android logo at the top. The link refers to a page at Macarlo's site which the company closed its business and expired the domain on July 2013.
+* **Cannot find server** (Internet Explorer 6.0 - **Note:** for Windows 98 & above only) - This page uses resources from shdoclc.dll.
+
+## Open source program translations
 **Moderator's note:** Most translations were done with Bing Translator.
 * **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
 * **SPFig** – Dutch (CP850). Only English and French translations are included.
