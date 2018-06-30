@@ -21,7 +21,7 @@ Follow these steps only if you don't need to fill in the Google Docs form or if 
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the filename, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
 
-## Vector font: Pan-European fonts version 6.0
+## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
 Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
@@ -33,20 +33,20 @@ This font family covers the following diacritics:
 2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc. - see [Dr. Anthony Stone's ISO 15919 website](http://homepage.ntlworld.com/stone-catend/translit.htm)) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
 3. All diacritics required for ISO 9 ("Transliteration of Cyrillic languages into Latin characters": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 
-## Other vector fonts
-Originally created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. All fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
+## Other fonts
+Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. All fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
 * **Chicago Mega** - Indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Geneva Mega** - Native American languages using the Latin orthography. This font comes in one style only - Regular.
 * **New York Plus** - Native American languages using the Latin orthography. This font comes in one style only - Roman.
 
 ## FontCreator Data Files and Registry Keys (HTM file)
-This file includes data files and registry keys for all versions of FontCreator.
+This file includes data files and registry keys for all FontCreator versions.
 
-## Protest pages
-These pages are available in four versions in htm format. Thanks to Norman De Forest for inspiring me to create the pages. His own protest page uses the index page.
+## Protest pages (HTM files)
+These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page.
 
-* **Web page not available** (Android browser) - This page is missing the Android logo at the top. The link refers to a page at Macarlo's site which the company closed its business and expired the domain on July 2013.
-* **Cannot find server** (Internet Explorer 6.0 - **Note:** for Windows 98 & above only) - This page uses resources from shdoclc.dll.
+* **Web page not available** (Android browser) - The page is missing the Android logo at the top and is from an old version of Android. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
+* **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links and resources from shdoclc.dll.
 
 ## Open source program translations
 **Moderator's note:** Most translations were done with Bing Translator.
