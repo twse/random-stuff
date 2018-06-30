@@ -78,7 +78,6 @@
 | SINHTRAN  | Sinhala with ISO 15919 diacritics                |
 | TAMILTRN  | Tamil with ISO 15919 diacritics                  |
 | TELUGTRN  | Telugu with ISO 15919 diacritics                 |
-| TITUSEO   | TITUS Eastern Oriental                           |
 | TITUSHS   | TITUS Hebrew & Semitic                           |
 | TITUSII   | TITUS Indo-Iranian                               |
 | TITUSOC   | TITUS Oriental Christian                         |
