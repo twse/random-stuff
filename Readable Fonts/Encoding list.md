@@ -46,6 +46,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GEM       | GEM Encoding                                   |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
+| HELS_SYM  | LinguaFont Helsinki keyboard                   |
 | HUNGARIA  | LinguaFont Hungarian                           |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ILPROM    | ILPRumanianB100                                |
@@ -54,6 +55,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
+| LFEN_OLD  | LinguaFont Old English                         |
 | LFTR      | LinguaFont Turkish                             |
 | LSSLV     | Liborsoft Slavonia                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
@@ -87,6 +89,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | WINRUS    | Windows Accented Russian                       |
+| WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
 
 ### Transcription/Transliteration Font Encodings
