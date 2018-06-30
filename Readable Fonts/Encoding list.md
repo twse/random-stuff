@@ -63,12 +63,15 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
 | MACPOL    | Polish letters on Apple CE codepoints          |
+| MACRUS    | Apple Accented Russian                         |
 | MACSAMI   | Apple Sámi/Lappish                             |
 | MALTESE   | Maltese letters on cp853 codepoints            |
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
+| RUV4A     | DOS 4.0 Russian Academic                       |
+| RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEXNANSI  | TeX & ANSI                                     |
@@ -83,6 +86,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
+| WINRUS    | Windows Accented Russian                       |
 | WNPS      | Washington Puget Salish                        |
 
 ### Transcription/Transliteration Font Encodings
