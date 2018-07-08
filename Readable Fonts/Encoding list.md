@@ -5,10 +5,12 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP861     | Icelandic                                  |
 | CP687     | Czech Kamenicky                            |
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1285    | Apple Romanian (Win CP10010)               |
+| CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
 | CP30000   | Saami                                      |
