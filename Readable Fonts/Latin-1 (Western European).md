@@ -89,6 +89,30 @@ Operating systems that have their own encodings include:
 | u circumflex | Alt-150         | Alt-150 | Alt-251         | Alt-158         | Alt-216         | Alt-251 | Alt-251             |
 | u dieresis   | Alt-129         | Alt-129 | Alt-252         | Alt-159         | Alt-217         | Alt-252 | Alt-252             |
 
+### Faroese, Icelandic - Typed as usual on Icelandic keyboards
+| Glyph      | CP850   | CP861   | Windows Latin-1 | Apple Iceland |
+|------------|---------|---------|-----------------|---------------|
+| A acute    | Alt-181 | Alt-164 | Alt-193         | Alt-231       |
+| AE         | Alt-146 | Alt-146 | Alt-198         | Alt-174       |
+| Eth        | Alt-209 | Alt-139 | Alt-208         | Alt-220       |
+| E acute    | Alt-144 | Alt-144 | Alt-201         | Alt-131       |
+| I acute    | Alt-214 | Alt-165 | Alt-205         | Alt-234       |
+| O acute    | Alt-224 | Alt-166 | Alt-211         | Alt-238       |
+| O dieresis | Alt-153 | Alt-153 | Alt-214         | Alt-133       |
+| Thorn      | Alt-232 | Alt-141 | Alt-222         | Alt-222       |
+| U acute    | Alt-233 | Alt-167 | Alt-218         | Alt-242       |
+| Y acute    | Alt-237 | Alt-151 | Alt-221         | Alt-160       |
+| a acute    | Alt-160 | Alt-160 | Alt-225         | Alt-135       |
+| ae         | Alt-145 | Alt-145 | Alt-230         | Alt-190       |
+| eth        | Alt-208 | Alt-140 | Alt-240         | Alt-221       |
+| e acute    | Alt-130 | Alt-130 | Alt-233         | Alt-142       |
+| i acute    | Alt-161 | Alt-161 | Alt-237         | Alt-146       |
+| o acute    | Alt-162 | Alt-162 | Alt-243         | Alt-151       |
+| o dieresis | Alt-148 | Alt-148 | Alt-246         | Alt-154       |
+| thorn      | Alt-231 | Alt-149 | Alt-254         | Alt-223       |
+| u acute    | Alt-163 | Alt-163 | Alt-250         | Alt-156       |
+| y acute    | Alt-236 | Alt-152 | Alt-253         | Alt-224       |
+
 ### French - Typed as usual on French keyboards
 | Glyph        | CP859   | WST_Fren             | URW Palladio KUL | Windows CP1252 | Apple US | ABICOMP | Cork    |
 |--------------|---------|----------------------|------------------|----------------|----------|---------|---------|
