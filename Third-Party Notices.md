@@ -34,6 +34,9 @@ Uses Iggy. Copyright © 2009-2018 by RAD Game Tools, Inc.
 
 Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
 
+Image Alchemy Copyright © 1990-1996 Handmade Software, Inc. All rights reserved.<br />
+Written by Marcos H. Woehrmann, Allan N. Hessenflow, David Kettmann, Paul H. Yoshimune
+
 IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are the property of their respective owners.
 
 KidStuff Copyright © 2000 Aviar, Inc.<br />
@@ -45,6 +48,10 @@ Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserve
 Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
 
 This game uses NaturalMotion morpheme animation technology.
+
+NeoN Storybook Copyright © 1997 COMPO Software Corp.
+
+Object Desktop Copyright © 2018 Stardock Entertainment
 
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
@@ -61,7 +68,8 @@ This software product includes Autodesk® Scaleform® software, © 2018 Autodesk
 
 Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
 
-SimCity Copyright © 2013 Electronic Arts Inc.
+SimCity Copyright © 2013 Electronic Arts Inc.<br />
+OS/2 port: Stardock Entertainment
 
 Simplygon is © 2018 Microsoft. All rights reserved.
 
