@@ -5,6 +5,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP777     | Accented Lithuanian (old)                  |
+| CP778     | Accented Lithuanian                        |
 | CP861     | Icelandic                                  |
 | CP687     | Czech Kamenicky                            |
 | CP899     | Armenian                                   |
