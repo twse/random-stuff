@@ -6,7 +6,7 @@ This repository contains my random stuff.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc. or SQUARE ENIX, Inc.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"**.
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. Some characters modified. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages and their legal/warranty notices.
+* **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages and their legal/warranty notices.
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine – these words were used to spam the old SitePal forums which no longer exists since March 2011.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is based on the old Netscape people page.
@@ -43,13 +43,13 @@ Created with FontCreator 5.6 (2007) - This version can only create ordinary Unic
 This file includes data files and registry keys for all FontCreator versions.
 
 ## Protest pages (HTM files)
-These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page.
+These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
 
-* **Web page not available** (Android browser) - The page is missing the Android logo at the top and is from an old version of Android. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
+* **Web page not available** (Android browser old versions) - The page is missing the Android logo at the top. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links and resources from shdoclc.dll.
 
-## Open source program translations
-**Moderator's note:** Most translations were done with Bing Translator.
+## Translations
+* **Dual Module Player** - Czech (CP852) and German (CP850). Only Finnish and French are included.
 * **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
 * **SPFig** – Dutch (CP850). Only English and French translations are included.
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
