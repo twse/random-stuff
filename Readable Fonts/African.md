@@ -1,4 +1,6 @@
 ## Fonts
+AfroRoman is a commercial font package made by Linguist's Software. This font comes in two versions: ANSI and Unicode.
+
 fc by Jörg Knappen (University of Mainz, Germany) is a METAFONT package for African typesetting.
 
 Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with native languages of Gambia.
