@@ -5,12 +5,12 @@ Special thanks goes to the following people:
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
 * [Ken Borgendale](http://www.borgendale.com), for information about codepages.
 * Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
+* Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
 * Peter Cassetta, for information about Cyrillic character sets.
 * Miguel Civil, for his Nippur-Guti fonts, used on the Chicago Sumerian Sumerian Lexicon Archive site.
 * Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
-* Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
 * Roman Czyborra, for information about character sets.
 * Virginijus Dadurkevičius, for his accented Lithuanian font.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenicky.
@@ -24,6 +24,7 @@ Special thanks goes to the following people:
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
+* Hàn Thế Thành, for creating the vnr font family. He's also the author of pdfTeX.
 * Raymond Hickey, for maintaining the two DOS packages Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
 * Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
@@ -36,7 +37,7 @@ Special thanks goes to the following people:
 * John E. Koontz, for creating the Siouanist fonts.
 * Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
 * Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
-* Klaus Lagally, for writing ArabTeX. This program must be ran on TeX, and it writes Arabic/Hebrew text with standard scientific transliteration.
+* Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default.
 * Werner Lemberg, for writing FreeType. He also wrote the TeX T5 encoding designed for use with the Vietnamese language.
 * Iván Llanas, for writing FontEdit II and his font package.
@@ -106,9 +107,7 @@ The entire and exclusive liability and remedy for breach of this Limited Warrant
 Rimrock Software SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
 
 ### Credits for EVAfont
-Copyright (c) 1988,1989 by Pete I. Kvitek<br>
-Copyright (c) 1989 JV DIALOGUE, all rights reserved<br>
-JV DIALOGUE is a registered trademark of JV DIALOGUE, Moscow, USSR.
+Copyright (c) 1988,1989 by Pete I. Kvitek (JV Dialogue). All rights reserved.
 
 ### Credits for Greek VGA Utilities
 Copyright (c) Jul 1992  Angelos Karageorgiou all rights reserved
