@@ -1,18 +1,18 @@
 ## Fonts and keyboards
-B˙t ViÆt (1992), by Nguy≠n Do„n Vﬂ˛ng, is a Vietnamese product and editor compliant with VISCII. The program displays the about dialog on startup.
+B√∫t Vi·ªát (1992), by Nguy·ªÖn Do√£n V∆∞·ª£ng, is a Vietnamese product and editor compliant with VISCII. The program displays the about dialog on startup.
 
-VIET (1991), by Ho‡ G. Nguy≠n, is a DOS text editor for Vietnamese. This program comes with a font editor.
+VIET (1991), by Ho√† G. Nguy·ªÖn, is a DOS text editor for Vietnamese. This program comes with a font editor.
 
-vietdos (1992), by [http://trichlor.sourceforge.net](The TriChlor Group), is a Vietnamese keyboard for MS-DOS. Separate executable files are included for VGA and EGA cards.
+vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Separate executable files are included for VGA and EGA cards.
 
 ## Spacing accents
 | English name | Vietnamese name | TeX Vietnamese | URW Palladio KUL   | VIET    | VISCII          | VSCII   | Windows CP1258 |
 |--------------|-----------------|----------------|--------------------|---------|-----------------|---------|----------------|
-| grave        | huy´n           | Alt-000        | Alt-131            | Alt-029 | No key assigned | Alt-176 | Alt-204        |
-| acute        | s°c             | Alt-001        | Alt-180            | Alt-027 | No key assigned | Alt-179 | Alt-225        |
-| tilde        | ng„             | Alt-152        | Alt-152            | Alt-030 | No key assigned | Alt-178 | Alt-222        |
-| hook above   | hˆi             | Alt-012        | Alt-134 or Alt-181 | Alt-028 | No key assigned | Alt-177 | Alt-210        |
-| dot below    | n£ng            | Alt-005        | Alt-170            | Alt-031 | No key assigned | Alt-180 | Alt-242        |
+| grave        | huy·ªÅn           | Alt-000        | Alt-131            | Alt-029 | No key assigned | Alt-176 | Alt-204        |
+| acute        | s·∫Øc             | Alt-001        | Alt-180            | Alt-027 | No key assigned | Alt-179 | Alt-225        |
+| tilde        | ng√£             | Alt-152        | Alt-152            | Alt-030 | No key assigned | Alt-178 | Alt-222        |
+| hook above   | h·ªèi             | Alt-012        | Alt-134 or Alt-181 | Alt-028 | No key assigned | Alt-177 | Alt-210        |
+| dot below    | n·∫∑ng            | Alt-005        | Alt-170            | Alt-031 | No key assigned | Alt-180 | Alt-242        |
 
 ## Diacritical letters
 | Glyph        | TeX Vietnamese | URW Palladio KUL | VIET    | VISCII  | VSCII   | Windows CP1258 |
