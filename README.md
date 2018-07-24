@@ -2,22 +2,22 @@
 This repository contains my random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
 * **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from Spriters Resource for ripping the font.
-* **Icons.zip**: Icons based on the [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) lowercase alphabet for use with OS/2 programs. Created with OS/2 Icon Editor. See Third-Party Notices.md for commercial and unsupported freeware credits. See [Extras page on the bobsgame Wikia portal](http://bobsgame.wikia.com/wiki/Extras) for non-commercial software credits.
+* **Icons.zip**: Icons based on the [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) lowercase alphabet for use with OS/2 programs. Created with OS/2 Icon Editor. See Third-Party Notices.md for commercial and unsupported freeware credits. See [Extras page on the unofficial bobsgame Wikia portal](http://bobsgame.wikia.com/wiki/Extras) for non-commercial software credits.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc. or SQUARE ENIX, Inc.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"**.
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"**. This does not include the IRC or Mozilla Wiki usernames. (The usernames can be fetched in various profiles at Mozillians.)
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading font family based on the “System VIO” font from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages and their legal/warranty notices.
+* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages and their legal/warranty notices.
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is based on the old Netscape people page.
-* **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). A Japanese subset for this font was planned but was cancelled. This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
+* **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by Konami Digital Entertainment, Inc.
 
 ## Steps useful to bulk import names to Mozilla's credits list
 Follow these steps only if you don't need to fill in the Google Docs form or if Google Docs does not work.
 
-1. Clone the mozilla/community-data repository with any Git client
-2. Copy names of contributors from Mozilla-related websites such as translation projects
-3. Save the file with csv as the extension in Unicode encoding
+1. Clone the **mozilla/community-data** repository with any Git client, using the Git protocol.
+2. Copy names of contributors from Mozilla-related websites such as translation projects.
+3. Save the file in .csv encoded in Unicode.
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the filename, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
 
@@ -34,7 +34,7 @@ This font family covers the following diacritics:
 3. All diacritics required for ISO 9 ("Transliteration of Cyrillic languages into Latin characters": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 
 ## Other fonts
-Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. All fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark. I cancelled several font projects such as **Albertus Mega** (flare serif font).
+Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark. I cancelled several font projects such as **Albertus Mega** (flare serif font).
 * **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages using the Latin orthography. This font comes in one style only - Regular.
@@ -46,11 +46,11 @@ This file includes data files and registry keys for all FontCreator versions.
 ## Protest pages (HTM files)
 These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
 
-* **Web page not available** (Android browser old versions) - The page is missing the Android logo at the top. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
+* **Web page not available** (Old Android browser) - The page is missing the Android logo at the top. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links and resources from shdoclc.dll.
 
 ## Translations
-* **Dual Module Player** - Czech (CP852) and German (CP850). Only Finnish and French are included.
+* **Dual Module Player** - Czech (CP852) and German (CP850). Only Finnish and French translations are included.
 * **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
 * **SPFig** – Dutch (CP850). Only English and French translations are included.
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
