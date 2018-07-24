@@ -13,7 +13,7 @@ Special thanks goes to the following people:
 * Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
 * Roman Czyborra, for information about character sets.
 * Virginijus Dadurkevičius, for his accented Lithuanian font.
-* Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenicky.
+* Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
 * Miguel Farah, for his readable fonts. I never use his fonts as a base for creating them.
@@ -30,8 +30,10 @@ Special thanks goes to the following people:
 * Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
 * Reinhold Kainhofer, for his Ancient Font package. His transliteration fonts for Meroitic and Ugaritic have diacritics in lowercase only and is based on Arial.
 * Andrey V. Kalantarian, for writing VGAFONT.
+* Jiří and Marián Kamenický, for inventing the Kamenický encoding.
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
+* Jan Klimowicz for inventing the Mazovia encoding.
 * Jörg Knappen, for his TeX African Latin encoding.
 * Donald E. Knuth, for writing TeX and his own encodings.
 * John E. Koontz, for creating the Siouanist fonts.
@@ -47,7 +49,7 @@ Special thanks goes to the following people:
 * Hoà T. Nguyễn, for writing the Vietnamese text editor VIET. (All docs are in a different encoding.)
 * Anshuman Pandey, for maintaining the TeX package Washington Romanized Indic (2011).
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
-* Henrique Peron, for maintaining cpidos and his cpx files. I used his cpi/cpx files in the package as his base.
+* Henrique Peron, for maintaining cpidos and his cpx files.
 * Chris Pirillo, for maintaining his collection of MS-DOS VGA fonts (1995).
 * Thomas Ridgeway, for maintaining the TeX package Washington Romanized Indic (2011).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
@@ -83,18 +85,11 @@ These font files may bedistributed as freeware on condition that
 * that - as a mininum - either the complete Mac or the complete PC font set is included,
 * and that this Read Me document accompanies the font files unaltered.
 
-#### For use of Keys
-Keys is copyrighted. (P. Szászvári 1995-97)
-
-You are granted to use and distribute the software for free. You are not allowed to sell the software in original or any modified format or to incorporate it into products which you sell.
-
-Commercial use of the software need to be licensed, please contact the author.
-
-Employees of Microsoft (R) are not allowed to use this software without special licenses. Licenses for MS employees can be purchased on a per-keystroke basis from the author.
+### Credits for CPIDOS
+Portions of this software are CPIDOS Copyright (C) 2003-2011 Henrique Peron used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
 
 ### Credits for Display Font Editor
-Copyright (c) 1991 by Rimrock Software. All rights reserved.<br>
-Written by Michael Burton
+Copyright (c) 1991 Michael Burton (Rimrock Software). All rights reserved.
 
 #### Trial Use Warranty
 The Shareware evaluation (trial use) version is provided AS IS. Rimrock Software MAKES NO WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
