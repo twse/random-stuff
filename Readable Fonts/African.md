@@ -21,6 +21,30 @@ Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with n
 | W circumflex | Alt-239 |
 | w circumflex | Alt-247 |
 
+### Dinka
+| Glyph           | CP30024 | fc              |
+|-----------------|---------|-----------------|
+| A dieresis      | Alt-142 | No key assigned |
+| E dieresis      | Alt-211 | Alt-203         |
+| E open          | Alt-143 | Alt-130         |
+| E open dieresis | Alt-242 | No key assigned |
+| Gamma           | Alt-184 | Alt-134         |
+| I dieresis      | Alt-216 | No key assigned |
+| Eng             | Alt-245 | Alt-141         |
+| O dieresis      | Alt-153 | Alt-214         |
+| O open          | Alt-157 | Alt-138         |
+| O open dieresis | Alt-159 | No key assigned |
+| a dieresis      | Alt-132 | No key assigned |
+| e dieresis      | Alt-137 | Alt-235         |
+| e open          | Alt-134 | Alt-162         |
+| e open dieresis | Alt-241 | No key assigned |
+| gamma           | Alt-169 | Alt-166         |
+| i dieresis      | Alt-139 | No key assigned |
+| eng             | Alt-230 | Alt-173         |
+| o dieresis      | Alt-148 | Alt-246         |
+| o open          | Alt-155 | Alt-170         |
+| o open dieresis | Alt-158 | No key assigned |
+
 ### Edo/Bini, Yoruba
 | Glyph             | CP30005 | CP30027 | fc              |
 |-------------------|---------|---------|-----------------|
