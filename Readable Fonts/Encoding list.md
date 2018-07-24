@@ -7,6 +7,9 @@
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1285    | Apple Romanian                             |
+| CP1258    | Windows Vietnamese                         |
+| CP1285    | Apple Romanian (Win CP10010)               |
+| CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
 | CP30001   | Celtic                                     |
@@ -54,6 +57,7 @@
 | POLISHLF  | LinguaFont Polish                              |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
+| TEX_VI    | TeX Vietnamese                                 |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
@@ -63,6 +67,7 @@
 | TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
+| VIET      | VIET Encoding                                  |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 
 ### Transcription/Transliteration Font Encodings
