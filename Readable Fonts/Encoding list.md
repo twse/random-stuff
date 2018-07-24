@@ -11,6 +11,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP687     | Czech Kamenicky                            |
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
+| CP1258    | Windows Vietnamese                         |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
@@ -81,6 +82,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
+| TEX_VI    | TeX Vietnamese                                 |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
@@ -92,6 +94,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
+| VIET      | VIET Encoding                                  |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
