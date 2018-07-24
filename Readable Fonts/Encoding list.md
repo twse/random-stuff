@@ -19,6 +19,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30000   | Saami                                      |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
+| CP30006   | Vietnamese                                 |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30018   | Cyrillic Russian and Latin Tatar           |
@@ -82,7 +83,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
-| TEX_VI    | TeX Vietnamese                                 |
+| TEX_VI    | TeX Vietnamese (T5)                            |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
