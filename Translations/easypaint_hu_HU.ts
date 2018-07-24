@@ -731,49 +731,11 @@ Szeretné menteni a változásokat?</translation>
         <source>Clear text?</source>
         <translation>Törlése szöveg?</translation>
     </message>
+    <message>
 
         <location filename="../settingsdialog.cpp" line="127"/>
         <source>Main</source>
         <translation>Fő</translation>
-    </message>
-</context>
-<context>
-    <name>SharpenFilterSettings</name>
-    <message>
-        <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
-        <source>Intensity</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>ShortcutEdit</name>
-    <message>
-        <location filename="../widgets/shortcutedit.cpp" line="44"/>
-        <source>Clear</source>
-        <translation>Törlése</translation>
-    </message>
-</context>
-<context>
-    <name>TextDialog</name>
-    <message>
-        <location filename="../dialogs/textdialog.cpp" line="50"/>
-        <source>Text</source>
-        <translation>Szöveg</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/textdialog.cpp" line="55"/>
-        <source>Select Font...</source>
-        <translation>Válassza szöveg...</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/textdialog.cpp" line="100"/>
-        <source>Question</source>
-        <translation>Kérdés</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/textdialog.cpp" line="100"/>
-        <source>Clear text?</source>
-        <translation>Törlése szöveg?</translation>
     </message>
 </context>
 <context>
