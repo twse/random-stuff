@@ -8,14 +8,16 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP777     | Accented Lithuanian (old)                  |
 | CP778     | Accented Lithuanian                        |
 | CP861     | Icelandic                                  |
-| CP687     | Czech Kamenicky                            |
+| CP687     | Czech Kamenický                            |
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1258    | Windows Vietnamese                         |
+| CP1276    | Adobe PS Standard Encoding                 |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
+| CP3848    | Brazilian ABICOMP                          |
 | CP30000   | Saami                                      |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
@@ -25,6 +27,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30018   | Cyrillic Russian and Latin Tatar           |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
+| CP30026   | Central Africa                             |
 | CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
 | CP30040   | Cyrillic Russian with Hryvnia              |
@@ -97,6 +100,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
+| VSCII     | VSCII                                          |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
@@ -164,4 +168,4 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | REVERSE   | Inverted Screen |
 
 ### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
-LOADFONT cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables at the beginning.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
+LOADFONT cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables above.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
