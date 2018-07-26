@@ -15,8 +15,6 @@ FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
 
 FMOD Sound System, copyright © Firelight Technologies Pty, Ltd., 1994-2018
 
-FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 2012-2018
-
 This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2009 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
 
 This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
@@ -266,8 +264,6 @@ To the maximum extent permitted by applicable law, Momotek and its suppliers dis
 
 To the maximum extent permitted by applicable laws, in no event shall Momotek or its suppliers be liable for any damages whatsoever (including without limitation, damages for loss of business profits, business interruption, loss of information, or other pecuniary loss) arising out of the use of or inability to use this product, even if Momotek has been advised of the possibility of such damages.
 
-All other trademarks and service marks, registered or otherwise, are the property of their respective owners.
-
 ## For use of PM File Compare
 Copyright © 1994 American Coders Ltd.<br />
 Written by Joseph McVerry
@@ -324,7 +320,3 @@ The author would like to acknowledge the help of all the pre-release testers. Sp
 Written by Marianne Roderus
 
 This Software is licensed, not sold. InnoVal Systems Solutions, Inc. (hereinafter referred to as InnoVal) grants you a license for the Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
-
-WebWilly was packaged using Info-ZIP's compression utility. Info-ZIP's software (Zip, UnZip and related utilities) is free and can be obtained as source code or executables from various bulletin board services and anonymous-ftp sites.
-
-IBM, OS/2, and WebExplorer are registered trademarks of the IBM Corporation. Netscape and Navigator are registered trademarks of Netscape Communications Corporation. WebWilly and NetExtra are trademarks of InnoVal Systems Solutions, Inc. All other brands, both cited and not cited, are trademarks, registered trademarks, or service marks of their respective companies. WebWilly is licensed software and is copyrighted.
