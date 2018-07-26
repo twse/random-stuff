@@ -4,14 +4,21 @@
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP777     | Accented Lithuanian (old)                  |
+| CP778     | Accented Lithuanian                        |
+| CP861     | Icelandic                                  |
+| CP687     | Czech Kamenický                            |
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1285    | Apple Romanian                             |
 | CP1258    | Windows Vietnamese                         |
+| CP1276    | Adobe PS Standard Encoding                 |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
+| CP3848    | Brazilian ABICOMP                          |
+| CP30000   | Saami                                      |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30007   | Latin                                      |
@@ -19,6 +26,7 @@
 | CP30018   | Cyrillic Russian and Latin Tatar           |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
+| CP30026   | Central Africa                             |
 | CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
 | CP30040   | Cyrillic Russian with Hryvnia              |
@@ -69,6 +77,10 @@
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
+| VSCII     | VSCII                                          |
+| WINRUS    | Windows Accented Russian                       |
+| WNGB      | Washington Gerald Barnett Old English          |
+| WNPS      | Washington Puget Salish                        |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
@@ -131,5 +143,10 @@
 | MIXCASE   | MiXeD CaSe      |
 | REVERSE   | Inverted Screen |
 
+<<<<<<< HEAD
 ### Notice when loading fonts through LOADFONT
 LOADFONT (1993) from FNTCOL version 1.6 cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables at the beginning.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
+=======
+### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
+LOADFONT cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables above.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
+>>>>>>> 6a52040 (Added more screen fonts.)
