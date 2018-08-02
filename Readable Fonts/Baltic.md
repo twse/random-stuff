@@ -5,7 +5,9 @@ Skolar (2013), by David Březina, is an OpenType serif font designed for scholar
 
 TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
 
-### Available encodings (Use `/b#` to change the encoding.)
+### Available encodings
+The `/b#` switch changes the encoding whereas # is a digit.
+
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
 * 2 – CP775 (Not used in OS/2)
 * 3 – LVS 8-92/2
@@ -39,6 +41,36 @@ TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Rom
 | s caron    | Alt-213 | Alt-240        | Alt-228  | Alt-185    | Alt-244                | Alt-158 | Alt-178 |
 | u dieresis | Alt-129 | Alt-252        | Alt-159  | Alt-252    | Alt-129                | Alt-129 | Alt-252 |
 | z caron    | Alt-216 | Alt-254        | Alt-236  | Alt-190    | Alt-254                | Alt-145 | Alt-186 |
+
+### Latvian - Typed as usual on Latvian keyboards
+| Glyph     | Codes   | Windows CP1257 | Apple CE | ISO Baltic | Burti           | Mazusha         | RusLat          | TITUS Eastern European | CP770           |
+|-----------|---------|----------------|----------|------------|-----------------|-----------------|-----------------|------------------------|-----------------|
+| A macron  | Alt-160 | Alt-194        | Alt-129  | Alt-192    | Ctrl+A          | Alt-129         | Alt-181         | Alt-168                | Alt-160         |
+| C caron   | Alt-182 | Alt-200        | Alt-137  | Alt-200    | Ctrl+C          | Alt-130         | Alt-211         | Alt-170                | Alt-128         |
+| E macron  | Alt-237 | Alt-199        | Alt-148  | Alt-170    | Ctrl+E          | Alt-228         | Alt-240         | Alt-176                | Alt-137         |
+| G cedilla | Alt-149 | Alt-204        | Alt-254  | Alt-171    | Ctrl+G          | Alt-237         | Alt-242         | Alt-181                | Alt-168         |
+| I macron  | Alt-161 | Alt-206        | Alt-177  | Alt-207    | Ctrl+I          | Alt-207         | Alt-215         | Alt-185                | Alt-161         |
+| K cedilla | Alt-232 | Alt-205        | Alt-181  | Alt-211    | Ctrl+K          | Alt-240         | Alt-244         | Alt-187                | Alt-163         |
+| L cedilla | Alt-234 | Alt-207        | Alt-185  | Alt-166    | Ctrl+L          | Alt-241         | Alt-246         | Alt-191                | Alt-156         |
+| N cedilla | Alt-238 | Alt-210        | Alt-191  | Alt-209    | Ctrl+N          | Alt-246         | Alt-252         | Alt-194                | Alt-165         |
+| O macron  | Alt-226 | Alt-212        | Alt-207  | Alt-210    | Ctrl+O          | Alt-175         | Alt-189         | No key assigned        | No key assigned |
+| R cedilla | Alt-138 | Alt-170        | Alt-223  | Alt-163    | No key assigned | No key assigned | No key assigned | No key assigned        | No key assigned |
+| S caron   | Alt-190 | Alt-208        | Alt-225  | Alt-169    | Ctrl+S          | Alt-134         | Alt-208         | Alt-201                | Alt-159         |
+| U macron  | Alt-199 | Alt-237        | Alt-219  | Alt-222    | Ctrl+U          | Alt-232         | Alt-222         | Alt-206                | Alt-166         |
+| Z caron   | Alt-207 | Alt-222        | Alt-235  | Alt-174    | Ctrl+Z          | Alt-243         | Alt-248         | Alt-214                | Alt-146         |
+| a macron  | Alt-131 | Alt-226        | Alt-130  | Alt-224    | Ctrl+a          | Alt-140         | Alt-198         | Alt-216                | Alt-131         |
+| c caron   | Alt-209 | Alt-232        | Alt-139  | Alt-232    | Ctrl+c          | Alt-141         | Alt-210         | Alt-219                | Alt-135         |
+| e macron  | Alt-137 | Alt-231        | Alt-149  | Alt-186    | Ctrl+e          | Alt-142         | Alt-241         | Alt-223                | Alt-136         |
+| g cedilla | Alt-133 | Alt-174        | Alt-236  | Alt-187    | Ctrl+g          | Alt-169         | Alt-214         | Alt-238                | Alt-152         |
+| i macron  | Alt-140 | Alt-238        | Alt-180  | Alt-239    | Ctrl+i          | Alt-148         | Alt-216         | Alt-230                | Alt-140         |
+| k cedilla | Alt-233 | Alt-237        | Alt-250  | Alt-243    | Ctrl+k          | Alt-251         | Alt-243         | Alt-232                | Alt-162         |
+| l cedilla | Alt-235 | Alt-230        | Alt-186  | Alt-182    | Ctrl+l          | Alt-194         | Alt-245         | Alt-236                | Alt-134         |
+| n cedilla | Alt-236 | Alt-242        | Alt-192  | Alt-241    | Ctrl+n          | Alt-150         | Alt-183         | Alt-239                | Alt-164         |
+| o macron  | Alt-147 | Alt-244        | Alt-216  | Alt-242    | Ctrl+o          | Alt-190         | Alt-249         | No key assigned        | No key assigned |
+| r cedilla | Alt-139 | Alt-186        | Alt-224  | Alt-179    | No key assigned | No key assigned | No key assigned | No key assigned        | No key assigned |
+| s caron   | Alt-213 | Alt-240        | Alt-228  | Alt-185    | Ctrl+s          | Alt-167         | Alt-253         | Alt-244                | Alt-158         |
+| u macron  | Alt-215 | Alt-251        | Alt-240  | Alt-254    | Ctrl+u          | Alt-159         | Alt-221         | Alt-248                | Alt-150         |
+| z caron   | Alt-216 | Alt-254        | Alt-236  | Alt-190    | Ctrl+z          | Alt-189         | Alt-247         | Alt-254                | Alt-145         |
 
 ### Lithuanian - Typed as usual on Lithuanian keyboards
 | Glyph       | Codes   | Windows CP1257 | Apple CE | ISO Baltic | TITUS Eastern European | CP770   |
