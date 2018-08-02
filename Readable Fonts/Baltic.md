@@ -1,28 +1,23 @@
 ### Fonts and keyboards
-Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in 10 encodings. When downloaded you'll get the documentation in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
+Burti (2003), by Ansis Ataols Bērziņš, is a DOS Latvian product for typing Latvian in 10 encodings. The documentation is in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
 
 Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
 
 TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
 
-### Available encodings
-The `/b#` switch changes the encoding whereas # is a digit.
+### Available encodings in Burti
+The `/b#` switch changes the encoding whereas # is a digit. The same goes for the Ctrl-Number keyboard shortcut.
 
-* 1 – RST 1040-90 or RusLat DOS (Default encoding)
-* 2 – CP775 (Not used in OS/2)
-* 3 – LVS 8-92/2
+* 1 – RST 1040-90 or RusLat DOS, default encoding. Not supported in OS/2.
+* 2 – CP775, not supported in OS/2
+* 3 – LVS 8-92/2, not supported in OS/2
 * 4 – CP1257 - RIM or LVS 8-92/1 or Windows Baltic
 * 5 – Baltic
-* 6 – Mazuša encoding, used in Macintosh
-* 7 – CP1282 - Apple Central Europe, used in Mac Baltic localizations
-* 8 – LR or Fortech
-* 9 – NeoFont
-* 0 – Plus
-
-### Keyboard Shortcuts (Don't use keys on the numeric pad.)
-* Ctrl-PLUS – Add Latvian letters
-* Ctrl-HYPHEN – Remove Latvian letters
-* Ctrl-NUMBERS – Select character encoding
+* 6 – Mazuša encoding, used in macOS. Not supported in OS/2.
+* 7 – CP1282 - Apple Central Europe, used in macOS Baltic localizations
+* 8 – LR/Fortech, not supported in OS/2
+* 9 – NeoFont, not supported in OS/2
+* 0 – Plus, not supported in OS/2
 
 ## Diacritical characters
 
