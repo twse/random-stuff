@@ -1,9 +1,12 @@
 ## Fonts and keyboards
-Bút Việt (1992), by Nguyễn Doãn Vượng, is a Vietnamese product and editor compliant with VISCII. The program displays the about dialog on startup.
+Bút Việt (1992), by Nguyễn Doãn Vượng, is a Vietnamese editor for DOS. The program displays the about dialog on startup.
 
-VIET (1991), by Hoà G. Nguyễn, is a DOS text editor for Vietnamese. This program comes with a font editor.
+VIET (1991), by Hoà G. Nguyễn, is a Vietnamese editor for DOS. This program comes with a font editor.
 
-vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Separate executable files are included for VGA and EGA cards.
+vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Separate executable files are included for VGA and EGA graphics cards.
+
+## A note on Middle Vietnamese
+The b flourish and apex are not part of my readable fonts.
 
 ## Spacing accents
 | English name | Vietnamese name | TeX Vietnamese | URW Palladio KUL   | VIET    | VISCII          | VSCII   | Windows CP1258 |
