@@ -99,7 +99,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
-| VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | VSCII     | VSCII                                          |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
