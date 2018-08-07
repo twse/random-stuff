@@ -174,6 +174,24 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 
 **Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
 
+## For use of Comment Manager, TreeFolder
+(c) 1997 Alessandro Cantatore
+
+Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
+
+## For use of Editor+
+Copyright © 1996-1997 Christoph Bratschi
+
+This version is freeware, that means that you can give this program to other persons if you don't change this documentation, the program code and the zip file. It is not allowed to sell this program without my permission. If you want to distribute this program on a CD please let me know.
+
+You use this program at your own risk!
+
+## For use of File Browser
+Copyright © 1998-2004 Christoph Bratschi
+
+## For use of File Splitter and Joiner
+(c) 16 Jun 2006 - Alessandro Felice Cantatore
+
 ## For use of HTMLGen, RexxBase
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
@@ -193,6 +211,11 @@ By installing and using this program you accept it as is and with the understand
 
 ## For use of Internet Junkbuster Proxy
 Portions of this software are Internet Junkbuster Proxy Copyright (C) 1997-1998 Junkbusters Corp. used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
+
+## For use of Linear eXecutable Dump Facility/2
+Copyright (C) by Roman Stangl, 1999
+
+This Code may be freely distributed, provided the Copyright isn't removed, under the conditions indicated in the documentation.
 
 ## For use of LiveWire Communications
 Copyright 1990-1995 DataMirage Software<br />
@@ -253,6 +276,11 @@ If any provision of this agreement is unenforceable, all others shall remain in 
 Copyright © 2000 Carl-Magnus Olsson
 
 Magnum is freeware, but is copyrighted and not in the public domain. Permission is granted to any individual or institution to use, copy, or redistribute this software so long as all of the original files are included unmodified, that it is not sold for profit, and that this copyright notice is retained.
+
+## For use of Mixomat
+Copyright © 1997-1998 Christoph Bratschi
+
+You use this program at your own risk!
 
 ## For use of NetExtra, Netwatch
 Copyright (c) 1999 Momotek Computer Specialties.<br />
