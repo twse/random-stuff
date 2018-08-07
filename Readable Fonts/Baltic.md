@@ -1,5 +1,5 @@
 ### Fonts and keyboards
-Burti (2003), by Ansis Ataols Bērziņš, is a DOS Latvian product for typing Latvian in 10 encodings. The documentation is in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
+Burti (2003), by Ansis Ataols Bērziņš, is a Latvian product to type Latvian in 10 encodings but the docs are in Latvian. See [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
 
 Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
 
@@ -190,3 +190,30 @@ The `/b#` switch changes the encoding whereas # is a digit. The same goes for th
 | endash             | Alt-240         | Alt-150        | Alt-208         | No key assigned |
 | quotedblleft       | Alt-242         | Alt-147        | Alt-210         | No key assigned |
 | quotedblbase       | Alt-247         | Alt-132        | Alt-227         | No key assigned |
+
+## Characters not normally needed for Baltic
+| Glyph       | Code    | Windows CP1257 | Apple CE        | ISO Baltic      |
+|-------------|---------|----------------|-----------------|-----------------|
+| A ring      | Alt-143 | Alt-197        | No key assigned | Alt-197         |
+| AE          | Alt-146 | Alt-175        | No key assigned | Alt-198         |
+| C acute     | Alt-128 | Alt-195        | Alt-140         | No key assigned |
+| E acute     | Alt-144 | Alt-201        | Alt-131         | Alt-201         |
+| L slash     | Alt-173 | Alt-217        | Alt-252         | No key assigned |
+| N acute     | Alt-227 | Alt-209        | Alt-193         | No key assigned |
+| O acute     | Alt-224 | Alt-211        | Alt-238         | No key assigned |
+| O slash     | Alt-157 | Alt-168        | No key assigned | Alt-216         |
+| S acute     | Alt-151 | Alt-218        | Alt-229         | No key assigned |
+| Z acute     | Alt-141 | Alt-202        | Alt-143         | No key assigned |
+| Z dot above | Alt-163 | Alt-221        | Alt-251         | No key assigned |
+| a ring      | Alt-134 | Alt-229        | No key assigned | Alt-229         |
+| ae          | Alt-145 | Alt-191        | No key assigned | Alt-230         |
+| c acute     | Alt-135 | Alt-227        | Alt-141         | No key assigned |
+| e acute     | Alt-130 | Alt-233        | Alt-142         | Alt-233         |
+| l slash     | Alt-136 | Alt-249        | Alt-184         | No key assigned |
+| n acute     | Alt-231 | Alt-241        | Alt-196         | No key assigned |
+| o acute     | Alt-162 | Alt-243        | Alt-151         | No key assigned |
+| o slash     | Alt-155 | Alt-184        | No key assigned | Alt-248         |
+| s acute     | Alt-152 | Alt-250        | Alt-230         | No key assigned |
+| sharp s     | Alt-225 | Alt-223        | Alt-167         | Alt-223         |
+| z acute     | Alt-165 | Alt-234        | Alt-144         | No key assigned |
+| z dot above | Alt-164 | Alt-253        | Alt-253         | No key assigned |
