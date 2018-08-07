@@ -143,10 +143,5 @@
 | MIXCASE   | MiXeD CaSe      |
 | REVERSE   | Inverted Screen |
 
-<<<<<<< HEAD
-### Notice when loading fonts through LOADFONT
-LOADFONT (1993) from FNTCOL version 1.6 cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables at the beginning.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
-=======
 ### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
 LOADFONT cannot handle long filenames or directory names.  If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables above.  EG: **Atari ST Encoding.f16** is **ATARIS~1.F16** and that is what you would have to pass to LOADFONT.
->>>>>>> 6a52040 (Added more screen fonts.)
