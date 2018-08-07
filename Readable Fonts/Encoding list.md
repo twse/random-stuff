@@ -45,6 +45,11 @@
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
+| VSCII     | VSCII                                          |
+| WINRUS    | Windows Accented Russian                       |
+| WNGB      | Washington Gerald Barnett Old English          |
+| WNPS      | Washington Puget Salish                        |
+| ZN_DRS    | Zemanho ye Darseni                             |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
