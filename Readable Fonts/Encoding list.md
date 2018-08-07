@@ -74,6 +74,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACCEL    | Apple Celtic                                   |
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
+| MACLTN3   | Apple Latin-3 (Southern Europe)                |
 | MACPOL    | Polish letters on Apple CE codepoints          |
 | MACRUS    | Apple Accented Russian                         |
 | MACSAMI   | Apple Sámi/Lappish                             |
@@ -81,12 +82,15 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
+| RISCL1    | RISC OS Lati-1                                 |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
+| T2A       | TeX Cyrillic Encoding 1                        |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
+| TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
@@ -97,6 +101,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TSLAVS    | Times of Slavs                                 |
 | TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
+| TWEST1    | Times of the West I                            |
+| TWEST2    | Times of the West II                           |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VSCII     | VSCII                                          |
