@@ -106,6 +106,7 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 ### Kazakh
 | Glyph        | Codes   |
 |--------------|---------|
+| A acute      | Alt-181 |
 | A dieresis   | Alt-142 |
 | C cedilla    | Alt-128 |
 | E acute      | Alt-144 |
@@ -113,9 +114,12 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | I dieresis   | Alt-216 |
 | I dot above  | Alt-152 |
 | N tilde      | Alt-165 |
+| O acute      | Alt-224 |
 | O dieresis   | Alt-153 |
 | S cedilla    | Alt-158 |
+| U acute      | Alt-233 |
 | U dieresis   | Alt-154 |
+| a acute      | Alt-160 |
 | a dieresis   | Alt-132 |
 | c cedilla    | Alt-135 |
 | e acute      | Alt-130 |
@@ -123,29 +127,31 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | i dieresis   | Alt-139 |
 | i dotless    | Alt-141 |
 | n tilde      | Alt-164 |
+| o acute      | Alt-162 |
 | o dieresis   | Alt-148 |
 | s cedilla    | Alt-159 |
+| u acute      | Alt-163 |
 | u dieresis   | Alt-129 |
 
 ### Kurdish (Cyrillic Kurmanjî)
-| Glyph        | Codes   |
-|--------------|---------|
-| Schwa        | Alt-189 |
-| Ghe acute    | Alt-207 |
-| I dieresis   | Alt-209 |
-| Ka acute     | Alt-213 |
-| O dieresis   | Alt-211 |
-| Er acute     | Alt-198 |
-| Shha         | Alt-181 |
-| Shha acute   | Alt-183 |
-| schwa        | Alt-190 |
-| ghe acute    | Alt-208 |
-| i dieresis   | Alt-210 |
-| ka acute     | Alt-214 |
-| o dieresis   | Alt-212 |
-| er acute     | Alt-199 |
-| shha         | Alt-182 |
-| shha acute   | Alt-184 |
+| Glyph        | Codes   | T2A             |
+|--------------|---------|-----------------|
+| Schwa        | Alt-189 | Alt-154         |
+| Ghe acute    | Alt-207 | No key assigned |
+| I dieresis   | Alt-209 | Alt-136         |
+| Ka acute     | Alt-213 | No key assigned |
+| O dieresis   | Alt-211 | No key assigned |
+| Er acute     | Alt-198 | No key assigned |
+| Shha         | Alt-181 | Alt-132         |
+| Shha acute   | Alt-183 | No key assigned |
+| schwa        | Alt-190 | Alt-186         |
+| ghe acute    | Alt-208 | No key assigned |
+| i dieresis   | Alt-210 | Alt-168         |
+| ka acute     | Alt-214 | No key assigned |
+| o dieresis   | Alt-212 | No key assigned |
+| er acute     | Alt-199 | No key assigned |
+| shha         | Alt-182 | Alt-164         |
+| shha acute   | Alt-184 | No key assigned |
 
 ### Kurdish (Latin Yekgirtú & Kurmanjî)
 | Glyph        | Kurdish | Turkic  |
@@ -186,20 +192,20 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | u dieresis  | Alt-129 |
 
 ### Tajik
-| Glyph         | Codes   |
-|---------------|---------|
-| Ghe stroke    | Alt-242 |
-| I macron      | Alt-244 |
-| Ka descender  | Alt-248 |
-| U macron      | Alt-246 |
-| Ha descender  | Alt-250 |
-| Che descender | Alt-221 |
-| ghe stroke    | Alt-243 |
-| i macron      | Alt-245 |
-| ka descender  | Alt-249 |
-| u macron      | Alt-247 |
-| ha descender  | Alt-251 |
-| che descender | Alt-222 |
+| Glyph         | Codes   | T2A             |
+|---------------|---------|-----------------|
+| Ghe stroke    | Alt-242 | Alt-129         |
+| I macron      | Alt-244 | No key assigned |
+| Ka descender  | Alt-248 | Alt-137         |
+| U macron      | Alt-246 | No key assigned |
+| Ha descender  | Alt-250 | Alt-149         |
+| Che descender | Alt-221 | Alt-152         |
+| ghe stroke    | Alt-243 | Alt-161         |
+| i macron      | Alt-245 | No key assigned |
+| ka descender  | Alt-249 | Alt-169         |
+| u macron      | Alt-247 | No key assigned |
+| ha descender  | Alt-251 | Alt-181         |
+| che descender | Alt-222 | Alt-184         |
 
 ### Tatar (Latin)
 | Glyph        | Codes   | CP30018         |
@@ -236,16 +242,16 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | u dieresis   | Alt-129 | No key assigned |
 
 ### Tatar/Uzbek (Cyrillic)
-| Glyph        | Codes   |
-|--------------|---------|
-| Ghe stroke   | Alt-242 |
-| Ka descender | Alt-244 |
-| U breve      | Alt-246 |
-| Ha descender | Alt-248 |
-| ghe stroke   | Alt-243 |
-| ka descender | Alt-245 |
-| u breve      | Alt-247 |
-| ha descender | Alt-249 |
+| Glyph        | Codes   | T2A             |
+|--------------|---------|-----------------|
+| Ghe stroke   | Alt-242 | Alt-129         |
+| Ka descender | Alt-244 | Alt-137         |
+| U breve      | Alt-246 | No key assigned |
+| Ha descender | Alt-248 | Alt-149         |
+| ghe stroke   | Alt-243 | Alt-161         |
+| ka descender | Alt-245 | Alt-169         |
+| u breve      | Alt-247 | No key assigned |
+| ha descender | Alt-249 | Alt-181         |
 
 ### Turkish - Typed as usual on Turkish keyboards
 | Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | Apple Turkey | CP853   | LinguaFont      |
