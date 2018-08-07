@@ -59,13 +59,27 @@
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
+| LTMCBR    | Latin (macron-breve on circumflex vowels)      |
+| MAC_LV    | Latvian letters on Apple CE codepoints         |
+| MACCEL    | Apple Celtic                                   |
+| MACCS     | Czechoslovakian letters on Apple CE codepoints |
+| MACIRISH  | Apple Irish Gaelic                             |
+| MACLTN3   | Apple Latin-3 (Southern Europe)                |
 | MACPOL    | Polish letters on Apple CE codepoints          |
 | MALTESE   | Maltese letters on CP853 codepoints            |
 | PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
+| RISCL1    | RISC OS Lati-1                                 |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese                                 |
+| RUV4A     | DOS 4.0 Russian Academic                       |
+| RUV4NA    | DOS 4.0 Russian Non-Academic                   |
+| SIOUAN    | Siouan Languages                               |
+| T2A       | TeX Cyrillic Encoding 1                        |
+| TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
+| TEX_VI    | TeX Vietnamese (T5)                            |
+| TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
@@ -74,6 +88,8 @@
 | TNR_MGR   | Times New Roman Hungarian                      |
 | TURKLAT   | Turkic Latin                                   |
 | TURKMEN   | Turkmen letters on cp852 codepoints            |
+| TWEST1    | Times of the West I                            |
+| TWEST2    | Times of the West II                           |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
