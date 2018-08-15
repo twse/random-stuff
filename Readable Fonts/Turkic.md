@@ -25,6 +25,22 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | s cedilla   | Alt-159 | Alt-243 | Alt-254              | Alt-252   |
 | u dieresis  | Alt-129 | Alt-129 | Alt-252              | Alt-245   |
 
+### Azerbaijani Cyrillic
+| Glyph               | Codes   |
+|---------------------|---------|
+| Ghe stroke          | Alt-248 |
+| Schwa               | Alt-246 |
+| Ka vertical stroke  | Alt-244 |
+| O barred            | Alt-240 |
+| Shha                | Alt-252 |
+| Che vertical stroke | Alt-242 |
+| ghe stroke          | Alt-249 |
+| schwa               | Alt-247 |
+| ka vertical stroke  | Alt-245 |
+| o barred            | Alt-241 |
+| u straight          | Alt-253 |
+| che vertical stroke | Alt-243 |
+
 ### Bashkir
 | Glyph        | Codes   |
 |--------------|---------|
