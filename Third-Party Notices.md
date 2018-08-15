@@ -260,7 +260,7 @@ Written by Joseph McVerry
 Copyright © 1996 Paul van Keep
 
 ## For use of InJoy Firewall
-Copyright © 1998-2004 F/X Communications
+Copyright © 1998-2004 F/X Communications<br />
 Written by Bjarne Jensen
 
 F/X would like to thank ALL the people who helped during the development phase and the beta testing phase. Last, but not least, a thanks to our customers.
