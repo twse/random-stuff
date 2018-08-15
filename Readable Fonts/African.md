@@ -1,11 +1,18 @@
 ## Fonts
-AfroRoman is a commercial font package made by Linguist's Software. This font comes in two versions: ANSI and Unicode.
+AfroRoman by Linguist's Software is a commercial ANSI and Unicode font package for Windows and macOS.
 
 fc by Jörg Knappen (University of Mainz, Germany) is a METAFONT package for African typesetting.
 
 Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with native languages of Gambia.
 
 ## Diacritical characters
+
+### Afrikaans - cp30023
+This language can be written when used with cp850 or cp859. In that case, the n apostrophe will not be available.
+
+| Glyph        | Codes   |
+|--------------|---------|
+| n apostrophe | Alt-242 |
 
 ### Baule, Krio
 | Glyph  | CP30023 - CP30028 | fc      |
@@ -16,7 +23,7 @@ Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with n
 | o open | Alt-155           | Alt-170 |
 
 ### Chichewa/Nyanja - cp30023
-This language can be used when written with Celtic or Gaelic code pages.
+This language can be written when used with Celtic or Gaelic code pages.
 
 | Glyph        | Codes   |
 |--------------|---------|
