@@ -134,24 +134,24 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | u dieresis   | Alt-129 |
 
 ### Kurdish (Cyrillic Kurmanjî)
-| Glyph        | Codes   | T2A             |
-|--------------|---------|-----------------|
-| Schwa        | Alt-189 | Alt-154         |
-| Ghe acute    | Alt-207 | No key assigned |
-| I dieresis   | Alt-209 | Alt-136         |
-| Ka acute     | Alt-213 | No key assigned |
-| O dieresis   | Alt-211 | No key assigned |
-| Er acute     | Alt-198 | No key assigned |
-| Shha         | Alt-181 | Alt-132         |
-| Shha acute   | Alt-183 | No key assigned |
-| schwa        | Alt-190 | Alt-186         |
-| ghe acute    | Alt-208 | No key assigned |
-| i dieresis   | Alt-210 | Alt-168         |
-| ka acute     | Alt-214 | No key assigned |
-| o dieresis   | Alt-212 | No key assigned |
-| er acute     | Alt-199 | No key assigned |
-| shha         | Alt-182 | Alt-164         |
-| shha acute   | Alt-184 | No key assigned |
+| Glyph        | Codes   | T2A             | T2B             |
+|--------------|---------|-----------------|-----------------|
+| Schwa        | Alt-189 | Alt-154         | Alt-154         |
+| Ghe acute    | Alt-207 | No key assigned | No key assigned |
+| I dieresis   | Alt-209 | Alt-136         | No key assigned |
+| Ka acute     | Alt-213 | No key assigned | No key assigned |
+| O dieresis   | Alt-211 | No key assigned | No key assigned |
+| Er acute     | Alt-198 | No key assigned | No key assigned |
+| Shha         | Alt-181 | Alt-132         | Alt-132         |
+| Shha acute   | Alt-183 | No key assigned | No key assigned |
+| schwa        | Alt-190 | Alt-186         | Alt-186         |
+| ghe acute    | Alt-208 | No key assigned | No key assigned |
+| i dieresis   | Alt-210 | Alt-168         | No key assigned |
+| ka acute     | Alt-214 | No key assigned | No key assigned |
+| o dieresis   | Alt-212 | No key assigned | No key assigned |
+| er acute     | Alt-199 | No key assigned | No key assigned |
+| shha         | Alt-182 | Alt-164         | Alt-164         |
+| shha acute   | Alt-184 | No key assigned | No key assigned |
 
 ### Kurdish (Latin Yekgirtú & Kurmanjî)
 | Glyph        | Kurdish | Turkic  |
@@ -192,7 +192,7 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | u dieresis  | Alt-129 |
 
 ### Tajik
-| Glyph         | Codes   | T2A             |
+| Glyph         | Codes   | T2A and T2B     |
 |---------------|---------|-----------------|
 | Ghe stroke    | Alt-242 | Alt-129         |
 | I macron      | Alt-244 | No key assigned |
@@ -242,7 +242,7 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | u dieresis   | Alt-129 | No key assigned |
 
 ### Tatar/Uzbek (Cyrillic)
-| Glyph        | Codes   | T2A             |
+| Glyph        | Codes   | T2A and T2B     |
 |--------------|---------|-----------------|
 | Ghe stroke   | Alt-242 | Alt-129         |
 | Ka descender | Alt-244 | Alt-137         |
