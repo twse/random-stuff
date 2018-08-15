@@ -88,6 +88,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | T2A       | TeX Cyrillic Encoding 1                        |
+| T2B       | TeX Cyrillic Encoding 2                        |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
 | TEX-PL    | TeX Polish (T4)                                |
