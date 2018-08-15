@@ -125,6 +125,50 @@ Noxchi (1993), by Amina LLC, is a series of non-Unicode fonts for Chechen langua
 | s cedilla    | Alt-159 |
 | u dieresis   | Alt-129 |
 
+<<<<<<< HEAD
+=======
+### Kurdish (Cyrillic Kurmanjî)
+| Glyph        | Codes   | T2A             | T2B             |
+|--------------|---------|-----------------|-----------------|
+| Schwa        | Alt-189 | Alt-154         | Alt-154         |
+| Ghe acute    | Alt-207 | No key assigned | No key assigned |
+| I dieresis   | Alt-209 | Alt-136         | No key assigned |
+| Ka acute     | Alt-213 | No key assigned | No key assigned |
+| O dieresis   | Alt-211 | No key assigned | No key assigned |
+| Er acute     | Alt-198 | No key assigned | No key assigned |
+| Shha         | Alt-181 | Alt-132         | Alt-132         |
+| Shha acute   | Alt-183 | No key assigned | No key assigned |
+| schwa        | Alt-190 | Alt-186         | Alt-186         |
+| ghe acute    | Alt-208 | No key assigned | No key assigned |
+| i dieresis   | Alt-210 | Alt-168         | No key assigned |
+| ka acute     | Alt-214 | No key assigned | No key assigned |
+| o dieresis   | Alt-212 | No key assigned | No key assigned |
+| er acute     | Alt-199 | No key assigned | No key assigned |
+| shha         | Alt-182 | Alt-164         | Alt-164         |
+| shha acute   | Alt-184 | No key assigned | No key assigned |
+
+### Kurdish (Latin Yekgirtú & Kurmanjî)
+| Glyph        | Kurdish | Turkic  |
+|--------------|---------|---------|
+| C cedilla    | Alt-128 | Alt-128 |
+| E acute      | Alt-144 | Alt-144 |
+| E circumflex | Alt-210 | Alt-210 |
+| I acute      | Alt-214 | Alt-214 |
+| I circumflex | Alt-215 | Alt-215 |
+| S cedilla    | Alt-158 | Alt-158 |
+| U acute      | Alt-233 | Alt-233 |
+| U circumflex | Alt-234 | Alt-234 |
+| X dieresis   | Alt-189 | Alt-252 |
+| c cedilla    | Alt-135 | Alt-135 |
+| e acute      | Alt-130 | Alt-130 |
+| e circumflex | Alt-136 | Alt-136 |
+| i acute      | Alt-161 | Alt-161 |
+| i circumflex | Alt-140 | Alt-140 |
+| s cedilla    | Alt-159 | Alt-159 |
+| u acute      | Alt-163 | Alt-163 |
+| u circumflex | Alt-150 | Alt-150 |
+| x dieresis   | Alt-190 | Alt-251 |
+
 ### Kyrgyz
 | Glyph       | Codes   |
 |-------------|---------|
@@ -141,27 +185,67 @@ Noxchi (1993), by Amina LLC, is a series of non-Unicode fonts for Chechen langua
 | s cedilla   | Alt-159 |
 | u dieresis  | Alt-129 |
 
-### Tatar
-| Glyph        | Codes   |
-|--------------|---------|
-| A dieresis   | Alt-142 |
-| C cedilla    | Alt-128 |
-| G breve      | Alt-166 |
-| I dieresis   | Alt-216 |
-| I dot above  | Alt-152 |
-| N tilde      | Alt-165 |
-| O dieresis   | Alt-153 |
-| S cedilla    | Alt-158 |
-| U dieresis   | Alt-154 |
-| a dieresis   | Alt-132 |
-| c cedilla    | Alt-135 |
-| g breve      | Alt-167 |
-| i dieresis   | Alt-139 |
-| i dotless    | Alt-141 |
-| n tilde      | Alt-164 |
-| o dieresis   | Alt-148 |
-| s cedilla    | Alt-159 |
-| u dieresis   | Alt-129 |
+### Tajik
+| Glyph         | Codes   | T2A and T2B     |
+|---------------|---------|-----------------|
+| Ghe stroke    | Alt-242 | Alt-129         |
+| I macron      | Alt-244 | No key assigned |
+| Ka descender  | Alt-248 | Alt-137         |
+| U macron      | Alt-246 | No key assigned |
+| Ha descender  | Alt-250 | Alt-149         |
+| Che descender | Alt-221 | Alt-152         |
+| ghe stroke    | Alt-243 | Alt-161         |
+| i macron      | Alt-245 | No key assigned |
+| ka descender  | Alt-249 | Alt-169         |
+| u macron      | Alt-247 | No key assigned |
+| ha descender  | Alt-251 | Alt-181         |
+| che descender | Alt-222 | Alt-184         |
+
+### Tatar (Latin)
+| Glyph        | Codes   | CP30018         |
+|--------------|---------|-----------------|
+| A acute      | Alt-181 | Alt-207         |
+| A circumflex | Alt-182 | Alt-198         |
+| A dieresis   | Alt-142 | Alt-242         |
+| C cedilla    | Alt-128 | Alt-248         |
+| E acute      | Alt-144 | Alt-209         |
+| G breve      | Alt-166 | Alt-181         |
+| I acute      | Alt-214 | Alt-211         |
+| I dieresis   | Alt-216 | No key assigned |
+| I dot above  | Alt-152 | Alt-189         |
+| N tilde      | Alt-165 | Alt-183         |
+| O acute      | Alt-224 | Alt-213         |
+| O dieresis   | Alt-153 | Alt-244         |
+| S cedilla    | Alt-158 | Alt-250         |
+| U acute      | Alt-233 | Alt-215         |
+| U dieresis   | Alt-154 | No key assigned |
+| a acute      | Alt-160 | Alt-208         |
+| a circumflex | Alt-131 | Alt-199         |
+| a dieresis   | Alt-132 | Alt-243         |
+| c cedilla    | Alt-135 | Alt-249         |
+| e acute      | Alt-130 | Alt-210         |
+| g breve      | Alt-167 | Alt-182         |
+| i acute      | Alt-161 | Alt-212         |
+| i dieresis   | Alt-139 | No key assigned |
+| i dotless    | Alt-141 | Alt-190         |
+| n tilde      | Alt-164 | Alt-184         |
+| o acute      | Alt-162 | Alt-214         |
+| o dieresis   | Alt-148 | Alt-245         |
+| s cedilla    | Alt-159 | Alt-251         |
+| u acute      | Alt-163 | Alt-216         |
+| u dieresis   | Alt-129 | No key assigned |
+
+### Tatar/Uzbek (Cyrillic)
+| Glyph        | Codes   | T2A and T2B     |
+|--------------|---------|-----------------|
+| Ghe stroke   | Alt-242 | Alt-129         |
+| Ka descender | Alt-244 | Alt-137         |
+| U breve      | Alt-246 | No key assigned |
+| Ha descender | Alt-248 | Alt-149         |
+| ghe stroke   | Alt-243 | Alt-161         |
+| ka descender | Alt-245 | Alt-169         |
+| u breve      | Alt-247 | No key assigned |
+| ha descender | Alt-249 | Alt-181         |
 
 ### Turkish - Typed as usual on Turkish keyboards
 | Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | Apple Turkey | CP853   |

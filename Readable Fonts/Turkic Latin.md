@@ -1,5 +1,5 @@
 ## Fonts
-Noxchi Arial (unknown year) is a non-Unicode font designed for Chechen language. All other accented letters are replaced with bullet.
+Noxchi (1993), by Amina LLC, is a series of non-Unicode fonts for Chechen language. All other accented letters are replaced with bullet.
 
 ## Diacritical characters (in alphabetical order by language)
 
