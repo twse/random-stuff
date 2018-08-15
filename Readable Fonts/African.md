@@ -16,6 +16,8 @@ Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with n
 | o open | Alt-155           | Alt-170 |
 
 ### Chichewa/Nyanja - cp30023
+This language can be used when written with Celtic or Gaelic code pages.
+
 | Glyph        | Codes   |
 |--------------|---------|
 | W circumflex | Alt-239 |
