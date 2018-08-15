@@ -3,9 +3,9 @@ Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
-* [Ken Borgendale](http://www.borgendale.com), for information about codepages.
-* Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
+* [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
 * Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
+* Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
 * Peter Cassetta, for information about Cyrillic character sets.
@@ -25,10 +25,10 @@ Special thanks goes to the following people:
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Hàn Thế Thành, for creating the vnr font family. He's also the author of pdfTeX.
-* Raymond Hickey, for maintaining the two DOS packages Lexa and LinguaFont.
+* Raymond Hickey, for maintaining Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
 * Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
-* Reinhold Kainhofer, for his Ancient Font package. His transliteration fonts for Meroitic and Ugaritic have diacritics in lowercase only and is based on Arial.
+* Reinhold Kainhofer, for his Ancient Font package. His Meroitic and Ugaritic transliteration fonts have diacritics in lowercase only and is based on Arial.
 * Andrey V. Kalantarian, for writing VGAFONT.
 * Jiří and Marián Kamenický, for inventing the Kamenický encoding.
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
@@ -46,7 +46,7 @@ Special thanks goes to the following people:
 * Pádraig McCarthy, for creating the Gaeilge (1993) font. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
 * Sergey Menshikov, for maintaining Interpilot - this program changes the keyboard and fonts used for Palm OS to any language for using.
-* Hoà T. Nguyễn, for writing the Vietnamese text editor VIET. (All docs are in a different encoding.)
+* Hoà T. Nguyễn, for writing the Vietnamese text editor VIET.
 * Anshuman Pandey, for maintaining the TeX package Washington Romanized Indic (2011).
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
 * Henrique Peron, for maintaining cpidos and his cpx files.
@@ -79,10 +79,10 @@ I warmly thank Åse Ghasemi for technical assistance, and Nicolas Vanderroost fo
 
 All rights reserved © Bendt Alster, February, 2001
 
-These font files may bedistributed as freeware on condition that
+These font files may be distributed as freeware on condition that
 * no payment is charged,
 * that the font files remain unchanged,
-* that - as a mininum - either the complete Mac or the complete PC font set is included,
+* that - as a mininum - either the complete macOS or the complete PC font set is included,
 * and that this Read Me document accompanies the font files unaltered.
 
 ### Credits for CPIDOS
@@ -105,7 +105,7 @@ Rimrock Software SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED
 Copyright (c) 1988,1989 by Pete I. Kvitek (JV Dialogue). All rights reserved.
 
 ### Credits for Greek VGA Utilities
-Copyright (c) Jul 1992  Angelos Karageorgiou all rights reserved
+Copyright (c) 1992 Angelos Karageorgiou. All rights reserved.
 
 This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose.
 
@@ -124,7 +124,7 @@ Copyright © 1994-1996 Sławomir Stachniewicz
 ### Credits for readable fonts
 Copyright © 1993 Miguel Farah
 
-Since this is PD, there is no a warranty of any kind and I take no responsibility for the damage that these files may do to your computer/peripherals (although I'm 99.9999999999% sure that there can't possibly be any damage).
+Since this is PD, there is no warranty of any kind and I take no responsibility for the damage that these files may do to your computer/peripherals (although I'm 99.9999999999% sure that there can't possibly be any damage).
 
 ### Credits for Transliteration
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
