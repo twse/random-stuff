@@ -1,4 +1,4 @@
-# Commercial credits used in icon collection
+# Commercial Software
 This software product includes Autodesk™ Beast™ software, © 2018 Autodesk, Inc. All rights reserved.
 
 Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
@@ -40,7 +40,7 @@ IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are t
 KidStuff Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
-Uses Kynapse, © 2003-2016 Kynapse.<br />
+Uses Kynapse, © 2003-2017 Kynapse.<br />
 Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserved.
 
 Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
@@ -93,7 +93,50 @@ Uses Umbra 2006 - 2018.
 
 This program was created using Unity. Portions of this program © 2005-2018 Unity Technologies.
 
+## For use of Unreal Engine
 Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
+
+### Contributors
+* Aaron Jones
+* Andrew Scheidecker
+* Brett Holcomb
+* Dan Schoenblum
+* Daniel Vogel
+* Daniel Wright
+* Dave Burke
+* Derek Cornish
+* Gil Gribb
+* Jack Porter
+* James Golding
+* Jason Bestimt
+* Joe Graf - Technical Director
+* Joe Wilcox
+* John Mauney
+* John Scott
+* Josh Adams
+* Josh Marlow
+* Justin Hair
+* Keith Newton
+* Kerry Stover
+* Lina Song
+* Matt Kuhlenschmidt
+* Matt Williams
+* Max D. Bruckner III
+* Michael Noland
+* Mike Fricker
+* Nick Atamas
+* Nick Bullard-Bradley
+* Niklas Smedberg
+* Preston Thorne - Testing Manager
+* Ron Prestenback
+* Sam Zamani
+* Scott Sherman
+* Shelley Franklin
+* Steve Allison
+* Steven Polge
+* Terry Gilland
+* Tim Sweeney
+* Wesley Hunt
 
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
