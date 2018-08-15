@@ -20,30 +20,30 @@ On OS/2 and MS-DOS, nine character sets are in common use:
 * IBM CP775. Supports Baltic languages but not CE languages.
 * IBM CP852. Supports Czech, Slovak, Polish, Hungarian, Slovenian, Bosnian, Croatian, Serbian and Albanian languages. No support for Baltic languages.
 * IBM CP921. OS/2. Supports Baltic languages but not CE languages.
-* Kamenicky. Supports Czech and Slovak languages but not other CE languages.
+* Kamenický. Supports Czech and Slovak languages but not other CE languages.
 * Mazovia. Supports Polish language but not other CE languages.
 
 ## Fonts
 * Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* Cieszyn (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Polish characters in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
+* Cieszyn (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Polish characters in Windows CP1250 codepoints. The old PCL5 data is the original.
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenicky but it replaces characters for German and Slovak.
-* EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
+* EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
-* LinguaFont (1998), by Raymond Hickey, includes printer and screen fonts for Czech, Hungarian and Polish languages.
-* Times New Roman Hungarian (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Hungarian characters in Windows CP1250 codepoints. The old PCL5 data for this font refers to the original.
+* Lexa and LinguaFont (1998), by Raymond Hickey, includes printer and screen fonts for Czech, Hungarian and Polish languages.
+* Times New Roman Hungarian (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Hungarian characters in Windows CP1250 codepoints. The old PCL5 data is the original.
 * TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
 
 ## Diacritical characters
 
 ### Czech - Typed as usual on Czech keyboards
-This language can be used when written with Kamenicky encoding.
+This language can be used when written with Kamenický encoding.
 
 Czech Coding Convertor, by Zdeněk Kudrla, is a program to convert Czech text written in eight encodings. The program comes with source code included.
 
-Trans-ASCII (1991), by Pavel Ferda, is a program to convert Czech text in various encodings. The executable file and documentation is encoded either in ASCII, CP852 or Kamenicky.
+Trans-ASCII (1991), by Pavel Ferda, is a program to convert Czech text in various encodings. The executable file and documentation is available in three languages.
 
-| Glyph   | Codes   | Windows CP1250 | Apple CE | Cork    | Kamenicky | LinguaFont Czech | TITUS Eastern European |
+| Glyph   | Codes   | Windows CP1250 | Apple CE | Cork    | Kamenický | LinguaFont Czech | TITUS Eastern European |
 |---------|---------|----------------|----------|---------|-----------|------------------|------------------------|
 | A acute | Alt-181 | Alt-193        | Alt-231  | Alt-193 | Alt-143   | Alt-128          | Alt-165                |
 | C caron | Alt-172 | Alt-200        | Alt-137  | Alt-131 | Alt-128   | Alt-226          | Alt-170                |
@@ -259,6 +259,40 @@ Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses 
 | u dieresis | Alt-129 | Alt-252        | Alt-252 | Alt-129                | Alt-129      |
 | y acute    | Alt-236 | Alt-253        | Alt-253 | Alt-155                | Alt-134      |
 | z caron    | Alt-167 | Alt-158        | Alt-186 | Alt-254                | Alt-155      |
+
+### Kashubian - CP58335
+| Glyph        | Codes   |
+|--------------|---------|
+| A tilde      | Alt-142 |
+| A ogonek     | Alt-143 |
+| C acute      | Alt-149 |
+| E acute      | Alt-138 |
+| E dieresis   | Alt-132 |
+| E ogonek     | Alt-144 |
+| L slash      | Alt-156 |
+| N acute      | Alt-165 |
+| O grave      | Alt-153 |
+| O acute      | Alt-163 |
+| O circumflex | Alt-150 |
+| S acute      | Alt-152 |
+| U grave      | Alt-154 |
+| Z acute      | Alt-160 |
+| Z dot above  | Alt-161 |
+| a tilde      | Alt-133 |
+| a ogonek     | Alt-134 |
+| c acute      | Alt-141 |
+| e acute      | Alt-130 |
+| e dieresis   | Alt-137 |
+| e ogonek     | Alt-145 |
+| l slash      | Alt-146 |
+| n acute      | Alt-164 |
+| o grave      | Alt-148 |
+| o acute      | Alt-162 |
+| o circumflex | Alt-147 |
+| s acute      | Alt-158 |
+| u grave      | Alt-129 |
+| z acute      | Alt-166 |
+| z dot above  | Alt-167 |
 
 ### Spacing Accents
 | Glyph        | Codes   | Windows CP1250 | Apple CE        | Cork    | LinguaFont Czech | LinguaFont Polish |
