@@ -159,6 +159,23 @@ This customized and extended port of Astrolog for MS Windows to IBM OS/2 by Carl
 
 None of these notices may be changed or removed for any reason.
 
+## For use of Attribute Manager
+(c) 1997-1998 Alessandro Cantatore
+
+You are free to distribute the program on BBSs, FTP sites, CD ROMs, etc, provided that you enclose all the files in the archive without any modification.<br />
+You are not allowed to sell the program, but can charge a reasonable amount to cover the cost of the distribution media.
+
+Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
+
+## For use of Batch Editor
+Copyright © 1999-2004 Alessandro Cantatore
+
+Under no circumstances the author is liable for any loss or damage.
+* You are free to use this version of the program on as many machines as you like.
+* You are free to distribute the program provided that you include all the files in the archive without any modification.
+* You are not allowed to sell the program, but can charge a reasonable amount to cover the cost of the distribution media.
+* **The use of the program implies acceptance of the conditions stated above!**
+
 ## For use of CapiTel
 Copyright © 1996-1998 Oche
 
@@ -325,6 +342,16 @@ Copyright © 1997-1998 Christoph Bratschi
 
 You use this program at your own risk!
 
+## For use of Module Replacer
+(c) 1998 Alessandro Cantatore
+
+Under no circumstances the author is liable for any LOSS OR DAMAGE.
+* You are FREE TO USE this version of the program on as many machines as you like.
+* You are FREE TO DISTRIBUTE the program provided that you include all the files in the archive without any modification.
+* YOU ARE NOT ALLOWED TO SELL THE PROGRAM, but can charge a reasonable amount to cover the cost of the distribution media.
+
+THE USE OF THE PROGRAM IMPLIES ACCEPTANCE OF THE CONDITIONS STATED ABOVE!
+
 ## For use of NetExtra, Netwatch
 Copyright (c) 1999 Momotek Computer Specialties.<br />
 Written by Gene Akins
@@ -334,6 +361,11 @@ This Software is licensed, not sold. Momotek Computer Specialties (hereinafter r
 To the maximum extent permitted by applicable law, Momotek and its suppliers disclaim all warranties, either express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose, with regard to the Software and accompanying documentation.
 
 To the maximum extent permitted by applicable laws, in no event shall Momotek or its suppliers be liable for any damages whatsoever (including without limitation, damages for loss of business profits, business interruption, loss of information, or other pecuniary loss) arising out of the use of or inability to use this product, even if Momotek has been advised of the possibility of such damages.
+
+## For use of NEWLOOK
+Copyright (c) 1996 Alessandro Cantatore
+
+If you like this program, you are free to use, copy and modify it as you like. Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
 
 ## For use of PM File Compare
 Copyright © 1994 American Coders Ltd.<br />
@@ -376,9 +408,20 @@ Copyright 1992, 1996 by John Brock
 
 RXXMATH is unsupported freeware, and is provided "as is", with no warranties of any sort, express or implied. RXXMATH may be freely distributed in any format, provided no alterations are made to the files (other than what may be necessary to port RXXMATH to a new environment) and no restrictions are placed on further distribution. Users may modify RXXMATH at their convenience, as long as the copyright notices are retained and the modified version is not distributed publicly.
 
+## For use of Swap Monitor
+(c) 1996-1998 Alessandro Cantatore
+
+Under no circumstances the author is liable for any LOSS OR DAMAGE.
+* You are FREE TO USE this version of the program on as many machines as you like.
+* You are FREE TO MODIFY the program to suit your needs.
+* You are FREE TO DISTRIBUTE the program provided that you include all the files in the archive without any modification.
+* YOU ARE NOT ALLOWED TO SELL THE PROGRAM, but can charge a reasonable amount to cover the cost of the distribution media.
+* You can use the original ARTWORKS included in the archive as bitmaps, icons, or included in the executables as resources ONLY FOR PERSONAL USE! You are forbidden to use any of the above mentioned artworks in your programs without asking the author for permission.
+
+The use of the program implies acceptance of the conditions stated above!
+
 ## For use of WarpCalc
-WarpCalc is Copyright (c) 1997-2012 by Carl-Magnus Olsson.<br />
-All rights reserved.
+Copyright (c) 1997-2012 Carl-Magnus Olsson. All rights reserved.
 
 THIS PROGRAM IS PROVIDED AS IS AND COMES WITH NO WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED. IN NO EVENT WILL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DAMAGES RESULTING FROM THE USE OF THIS SOFTWARE.
 
@@ -391,3 +434,12 @@ The author would like to acknowledge the help of all the pre-release testers. Sp
 Written by Marianne Roderus
 
 This Software is licensed, not sold. InnoVal Systems Solutions, Inc. (hereinafter referred to as InnoVal) grants you a license for the Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
+
+## For use of WPS Class Manager
+* You are allowed to use this program for testing and evaluation until a next version is available.
+* The program, in its current version, may be installed on as many machines as you like.
+* You are free to distribute the program provided that you include all the files in the original archive without any modification.
+* You are not allowed to sell the program, but can charge a reasonable amount of cover the cost of the distribution media.
+* Under no circumstances will the author be liable for any loss or damage that may be derived from the use of the program.
+* WPS Class Manager is the copyrighted property of Alessandro Felice Cantatore, Bitonto, Bari, Italy.
+* The use of the program implies acceptance of the conditions stated above!
