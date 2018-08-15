@@ -30,6 +30,8 @@
 | CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
 | CP30040   | Cyrillic Russian with Hryvnia              |
+| CP58210   | Cyrillic Russian and Azeri                 |
+| CP58335   | Kashubian                                  |
 | CP59234   | Cyrillic Tatar                             |
 | CP59829   | Georgian                                   |
 | CP60258   | Cyrillic Russian and Latin Azeri           |
