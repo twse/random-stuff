@@ -19,7 +19,8 @@ This product contains software technology licensed from GameSpy Industries, Inc.
 
 This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
 
-Golden CommPass Copyright © 1998 Creative Services Programming Corporation<br />
+## For use of Golden CommPass
+Copyright © 1998 Creative Services Programming Corporation<br />
 Written by Donna S. Finkelstein
 
 Uses Granny Animation. Copyright © 1999-2018 by RAD Game Tools, Inc.
@@ -51,16 +52,19 @@ NeoN Storybook Copyright © 1997 COMPO Software Corp.
 
 Object Desktop Copyright © 2018 Stardock Entertainment
 
+## For use of Oodle
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
 
 PM Designer Copyright © 1993-1994 VacNat Software Co. All rights reserved.
 
 This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
 
-QwikSwitch Copyright © 1992-1993 C TechWare Ltd.<br />
+## For use of QwikSwitch
+Copyright © 1992-1993 C TechWare Ltd.<br />
 Written by Claude Biron
 
-Relish Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
+## For use of Relish
+Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
 This software product includes Autodesk® Scaleform® software, © 2018 Autodesk, Inc. All rights reserved.
 
@@ -75,7 +79,8 @@ Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
 
 Uses Telemetry. Copyright © 2010-2018 by RAD Game Tools, Inc.
 
-Tensor Copyright © 1997 QVision, Inc.
+## For use of Tensor
+Copyright © 1997 QVision, Inc.
 
 1. QVision, Inc. grants you the right to use one copy of the enclosed QVision software on a single computer. This does not permit you to: (a) use the software on a network, (b) rent or lease the software, (c) reverse-engineer, decompile, disassemble, or otherwise modify the software, (d) copy the software except to make a single copy for archival purposes or to transfer the software to hard disk.
 2. The enclosed software program and all written materials are owned by Qvision or its suppliers and are protected by U.S. copyright laws and international treaty provisions. You may not copy any of the written materials. You may sell or transfer the software and accompanying written materials on a permanent basis provided you retain no copies and the recipient agrees to the terms of this license.
@@ -136,9 +141,10 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 * Steve Allison
 * Steven Polge
 * Terry Gilland
-* Tim Sweeney
+* Tim Sweeney - Technical Director
 * Wesley Hunt
 
+## For use of Wwise
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
 # Unsupported Free Software
@@ -155,8 +161,6 @@ The extended accurate ephemeris databases and formulas are from the calculation 
 The use of that source code is subject to regulations made by Astrodienst Zurich, and the code is not in the public domain. This copyright notice must not be changed or removed by any user of this program.
 
 All changes and additions to the original code (Astrolog 5.40) are copyright (c) 1998-2007 by Carl-Magnus Olsson.
-
-This customized and extended port of Astrolog for MS Windows to IBM OS/2 by Carl-Magnus Olsson (see top of file for contact information).
 
 None of these notices may be changed or removed for any reason.
 
@@ -217,7 +221,7 @@ Provisions different to this license agreement have to be stipulated in writing.
 
 Thanks to all the users who sent us their bug reports and feature ideas, do not stop with your feedback!
 
-A special thanks goes to the following people:
+### Contributors
 * Kerstin Glodzinski
 * Norbert Schulze
 * Kolja Nowak
@@ -377,7 +381,7 @@ American Coders LTD of Raleigh N. Carolina grants you a license to use PM File C
 PM File Compare is supplied as is. The author disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use of PM File Compare.
 
 ## For use of RexxSem
-REXXSEM is distributed as licenced shareware.  REXXSEM ("the Program") is copyright 1997, 2000 by Darin McBride and all rights are reserved.
+REXXSEM ("the Program") is copyright 1997, 2000 by Darin McBride and all rights are reserved.
 
 Under this licence, you may:
 1. use the Program in binary form only.
