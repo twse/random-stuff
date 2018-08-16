@@ -85,6 +85,14 @@ These font files may be distributed as freeware on condition that
 * that - as a mininum - either the complete macOS or the complete PC font set is included,
 * and that this Read Me document accompanies the font files unaltered.
 
+### Credits for Code Page 852
+(c) 1995-2002 Henrich Fukna
+
+This software are provided "as-is", and you assume all risks when using it.
+You are granted the right to use and to make an unlimited number of copies of this software as you wish; and distribute the package in its unmodified.
+No warranty of any kind is expressed or implied. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software. You may not rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the software except as provided in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license.
+Any suggestions, feedback and comments are welcome.
+
 ### Credits for CPIDOS
 Portions of this software are CPIDOS Copyright (C) 2003-2011 Henrique Peron used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
 
@@ -116,7 +124,7 @@ This program may be freely distributed on a non profit basis, but you must inclu
 ### Credits for PLUTIL
 Copyright © 1994-1996 Sławomir Stachniewicz
 
-#### Contributors
+#### Font and keyboard driver authors
 * Andrzej Knapczyk
 * Jan Bobrowski
 * Maciej Guja
@@ -125,6 +133,11 @@ Copyright © 1994-1996 Sławomir Stachniewicz
 Copyright © 1993 Miguel Farah
 
 Since this is PD, there is no warranty of any kind and I take no responsibility for the damage that these files may do to your computer/peripherals (although I'm 99.9999999999% sure that there can't possibly be any damage).
+
+### Credits for TIPKA (Croatian)
+Copyright © 1992-1995 Tomislav Bronzin
+
+Zahvaljujem se bratu Ivanu, prijateljima Dubravku Gabeli, Reneu Vučetiću, Deanu Sekuliću i Damiru Vujkoviću, te Žulijanu Bjeliću i ostalima koji su svojim sugestijama doprinijeli razvoju programa TIPKA.
 
 ### Credits for Transliteration
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
