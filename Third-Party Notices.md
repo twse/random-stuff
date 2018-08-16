@@ -110,6 +110,7 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 * James Golding
 * Jason Bestimt
 * Joe Graf - Technical Director
+* Joe Kreiner
 * Joe Wilcox
 * John Mauney
 * John Scott
