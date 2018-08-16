@@ -33,12 +33,14 @@ Uses Iggy. Copyright © 2009-2018 by RAD Game Tools, Inc.
 
 Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
 
-Image Alchemy Copyright © 1990-1996 Handmade Software, Inc. All rights reserved.<br />
+## For use of Image Alchemy
+Copyright © 1990-1996 Handmade Software, Inc. All rights reserved.<br />
 Written by Marcos H. Woehrmann, Allan N. Hessenflow, David Kettmann, Paul H. Yoshimune
 
 IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are the property of their respective owners.
 
-KidStuff Copyright © 2000 Aviar, Inc.<br />
+## For use of KidStuff
+Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
 Uses Kynapse, © 2003-2017 Kynapse.<br />
@@ -48,9 +50,11 @@ Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
 
 This game uses NaturalMotion morpheme animation technology.
 
-NeoN Storybook Copyright © 1997 COMPO Software Corp.
+## For use of NeoN Storybook
+Copyright © 1997 COMPO Software Corp.
 
-Object Desktop Copyright © 2018 Stardock Entertainment
+## For use of Object Desktop
+Copyright © 1998-2018 Stardock Entertainment
 
 ## For use of Oodle
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
@@ -70,7 +74,8 @@ This software product includes Autodesk® Scaleform® software, © 2018 Autodesk
 
 Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
 
-SimCity Copyright © 2013 Electronic Arts Inc.<br />
+## For use of SimCity
+Copyright © 2013 Electronic Arts Inc.<br />
 OS/2 port: Stardock Entertainment
 
 Simplygon is © 2018 Microsoft. All rights reserved.
@@ -154,7 +159,7 @@ The graphics database and chart display routines used in this program are copyri
 
 The main planetary calculation routines used in this program are copyrighted and the core of this program is basically a conversion to C of routines created by James Neely. The copyright gives us permission to use the routines for personal use but not to sell them or financially profit from them in any way.
 
-The PostScript code within the core graphics routines are programmed and copyright (c) 1992-1993 by Brian D. Willoughby. Conditions are identical to those above.
+The PostScript code within the core graphics routines are programmed and copyright (c) 1992-1993 by Brian D. Willoughby.
 
 The extended accurate ephemeris databases and formulas are from the calculation routines in the program "Placalc" and are programmed and copyright (c) 1989, 1991, 1993 by Astrodienst AG and Alois Treindl
 
