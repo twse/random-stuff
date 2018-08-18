@@ -99,6 +99,24 @@ Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed fo
 | x dot above         | Alt-212         | Alt-229 |
 | z stroke            | Alt-216         | Alt-235 |
 
+### Chuvash (Latin)
+| Glyph          | Codes   |
+|----------------|---------|
+| A breve        | Alt-142 |
+| C cedilla      | Alt-128 |
+| E breve        | Alt-143 |
+| S caron        | Alt-165 |
+| S cedilla      | Alt-141 |
+| U double acute | Alt-152 |
+| Z caron        | Alt-167 |
+| a breve        | Alt-132 |
+| c cedilla      | Alt-135 |
+| e breve        | Alt-134 |
+| s caron        | Alt-164 |
+| s cedilla      | Alt-161 |
+| u double acute | Alt-150 |
+| z caron        | Alt-166 |
+
 ### Gagauz
 | Glyph        | Codes   |
 |--------------|---------|
