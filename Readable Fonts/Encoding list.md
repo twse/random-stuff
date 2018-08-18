@@ -17,6 +17,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
+| CP3846    | Turkish                                    |
 | CP3848    | Brazilian ABICOMP                          |
 | CP30000   | Saami                                      |
 | CP30001   | Celtic                                     |
