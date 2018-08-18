@@ -45,6 +45,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
 | CER-GS    | Celtic Extended Roman GS                       |
+| CHUVLAT   | Chuvash (Latin)                                |
 | CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
 | CWI2      | Hungarian CWI-2                                |
 | CZECH     | Czech letters on cp852 codepoints              |
