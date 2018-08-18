@@ -10,6 +10,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP861     | Icelandic                                  |
 | CP687     | Czech Kamenický                            |
 | CP899     | Armenian                                   |
+| CP922     | ISO Estonian                               |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1258    | Windows Vietnamese                         |
 | CP1276    | Adobe PS Standard Encoding                 |
