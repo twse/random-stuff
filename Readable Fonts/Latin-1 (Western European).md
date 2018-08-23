@@ -7,13 +7,11 @@ Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman a
 
 The old WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
 
-Operating systems that have their own encodings include:
-* GEM and OpenGEM
-* NextStep
-
 ## Diacritical characters
 
 ### Aragonese, Catalan, Galician, Spanish
+Catalan can be written when used with cp850 or cp859. In that case, the l middle dot will not be available.
+
 | Glyph                     | Western 2 | WST_Span             | Times of the West     | URW Palladio KUL | Windows CP1252  | Apple US        | Cork            | ABICOMP         |
 |---------------------------|-----------|----------------------|-----------------------|------------------|-----------------|-----------------|-----------------|-----------------|
 | inverted exclamation mark | Alt-173   | at                   | Alt-161               | No key assigned  | Alt-161         | Alt-193         | Alt-189         | Alt-192         |
@@ -54,6 +52,8 @@ Operating systems that have their own encodings include:
 | l dot below | Alt-155 |
 
 ### Dutch - Typed as usual on Dutch keyboards
+Dutch can be written when used with cp850 or cp859. In that case, the ij ligature will not be available.
+
 | Glyph        | Codes           | CP30020 | Windows CP1252  | Apple US        | ABICOMP         | Cork    | Times of the West I |
 |--------------|-----------------|---------|-----------------|-----------------|-----------------|---------|---------------------|
 | A grave      | Alt-183         | Alt-183 | Alt-192         | Alt-203         | Alt-161         | Alt-192 | Alt-192             |
@@ -114,6 +114,8 @@ Operating systems that have their own encodings include:
 | y acute    | Alt-236 | Alt-152 | Alt-253         | Alt-224       |
 
 ### French - Typed as usual on French keyboards
+French can be written when used with cp850. In that case, the oe ligature will not be available.
+
 | Glyph        | CP859   | WST_Fren             | URW Palladio KUL | Windows CP1252 | Apple US | ABICOMP | Cork    |
 |--------------|---------|----------------------|------------------|----------------|----------|---------|---------|
 | A grave      | Alt-183 | No key assigned      | No key assigned  | Alt-192        | Alt-203  | Alt-161 | Alt-192 |
@@ -192,7 +194,7 @@ The capital sharp s can only be accessed in my screen fonts for German-Polish Fr
 | spade   | Alt-144 |
 
 ### Characters for fonts used in games by KidStuff Software
-Pay shareware games by KidStuff Software (e.g. Preschool Pack) includes a font used for the settings window and uses their own encoding based on CP437. Box Drawing and other symbols are empty.
+Shareware games by KidStuff Software (e.g. Preschool Pack) includes a font used for the settings window and uses their own encoding based on CP437. Box Drawing and other symbols are empty.
 
 | Glyph     | Codes   |
 |-----------|---------|
