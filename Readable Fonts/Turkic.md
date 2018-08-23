@@ -3,6 +3,8 @@ Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Lat
 
 Lexa (1998) and LinguaFont (1998), by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
 
+Michael Everson created input utilities for macOS for Turkic languages.
+
 Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
