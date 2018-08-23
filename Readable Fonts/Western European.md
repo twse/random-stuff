@@ -1,5 +1,7 @@
-## Fonts
-ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icelandic keyboard which uses the CP 861 encoding.
+## Fonts and keyboard drivers
+ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icelandic font and keyboard which uses the CP 861 encoding.
+
+SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard.
 
 Times of the West I (2001), by Libor Sztemon, is derived from Times New Roman and includes special characters and letters with diacritics for Catalan, Greenlandic, Luxembourgian and Old Danish/Norwegian languages. The PCL5 data refers to the original Times New Roman font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
 
