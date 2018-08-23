@@ -19,7 +19,7 @@ Special thanks goes to the following people:
 * Miguel Farah, for his readable fonts. I never use his fonts as a base for creating them.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
-* Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation.
+* Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Windows installer Paleofonts.
@@ -54,11 +54,11 @@ Special thanks goes to the following people:
 * Thomas Ridgeway, for maintaining the TeX package Washington Romanized Indic (2011).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
 * Ulrich Seeger, for designing his fonts in the pre-Unicode-times - HaifaTimes, GalilTimes, Beyrut, UrmiTimes, Abbas, Assur, Pamuk, GalilWin, Bock, Nebe, Sima and Hatra. These fonts are for transcription of Accadic, Arabic, Aramaic, Persian and Turkish and many of them are for Windows and macOS. He's also the author of macOS keyboard driver SemicodeUS.
-* [http://www.uwe-sieber.de/](Uwe Sieber), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
+* [Uwe Sieber](http://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
 * Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in the .dok format and uses the Polish Mazovia encoding.)
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
-* Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the PCL tables from his own fonts.
+* Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the old PCL5 tables from his own fonts.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Conrad Taylor, for his book used to design fonts for African languages.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
