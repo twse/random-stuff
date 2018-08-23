@@ -54,3 +54,18 @@ These pages are available in four versions. Thanks to Norman De Forest for inspi
 * **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
 * **SPFig** – Dutch (CP850). Only English and French translations are included.
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
+
+## Palm OS Emulator skin for bob's game
+This skin can be used with the emulators listed below (collectively, "Third Party Code"). Robert Pelloni is not the original author of the Third Party Code. The original copyright notice and the license under which Robert Pelloni received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Robert Pelloni, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for bob's game. Robert Pelloni reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
+
+### CoPilot/2
+Provided for Informational Purposes Only
+
+### Palm Hardware Emulator
+Program available under a commercial license
+
+### Palm OS Emulator
+Provided for Informational Purposes Only
+
+#### Contributors
+* Provided for Informational Purposes Only
