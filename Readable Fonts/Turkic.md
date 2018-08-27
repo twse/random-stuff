@@ -7,6 +7,9 @@ Michael Everson created input utilities for macOS for Turkic languages.
 
 Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
+## A note on Mongolian script
+Although not part of my readable font series, this language is usually written in Cyrillic script.
+
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
