@@ -22,6 +22,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
+| CP3021    | Cyrillic MIK Bulgarian                     |
 | CP3845    | Hungarian                                  |
 | CP3846    | Turkish                                    |
 | CP3848    | Brazilian ABICOMP                          |
@@ -72,6 +73,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | ILPROM    | ILPRumanianB100                                |
 | IR-197    | ISO-IR 197 Saami                               |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
+| KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
