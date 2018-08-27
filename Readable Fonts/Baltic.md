@@ -1,7 +1,7 @@
 ### Fonts and keyboards
 Burti (2003), by Ansis Ataols Bērziņš, is a Latvian product to type Latvian in 10 encodings but the docs are in Latvian. See [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
 
-Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
+Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version contains accented Lithuanian letters in lowercase only.
 
 TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
 
@@ -228,3 +228,81 @@ The `/b#` switch or Ctrl-Number keyboard shortcut changes the encoding whereas #
 | dotaccent | No key assigned | Alt-255        | No key assigned | Alt-255         |
 | cedilla   | No key assigned | Alt-143        | No key assigned | Alt-184         |
 | ogonek    | No key assigned | Alt-158        | No key assigned | Alt-178         |
+
+## Printer's Specials
+| Glyph             | Codes   | Windows CP1257 | Apple CE        | ISO Baltic      | CP770           |
+|-------------------|---------|----------------|-----------------|-----------------|-----------------|
+| NBSP              | Alt-255 | Alt-160        | Alt-202         | Alt-160         | Alt-255         |
+| SHY               | Alt-240 | Alt-173        | No key assigned | Alt-173         | No key assigned |
+| currency          | Alt-159 | Alt-164        | No key assigned | Alt-164         | No key assigned |
+| cent              | Alt-150 | Alt-162        | No key assigned | No key assigned | Alt-155         |
+| sterling          | Alt-156 | Alt-163        | Alt-163         | No key assigned | No key assigned |
+| paragraph         | Alt-244 | Alt-182        | Alt-224         | No key assigned | No key assigned |
+| section           | Alt-245 | Alt-187        | Alt-164         | Alt-167         | No key assigned |
+| copyright         | Alt-168 | Alt-169        | Alt-169         | No key assigned | No key assigned |
+| registered        | Alt-169 | Alt-174        | Alt-168         | No key assigned | No key assigned |
+| quoteright        | Alt-239 | Alt-146        | Alt-213         | No key assigned | No key assigned |
+| quotedblleft      | Alt-242 | Alt-147        | Alt-210         | No key assigned | Alt-169         |
+| quotedblright     | Alt-166 | Alt-148        | Alt-211         | No key assigned | No key assigned |
+| quotedblbase      | Alt-247 | Alt-132        | Alt-227         | No key assigned | Alt-157         |
+| guillemotleft     | Alt-174 | Alt-171        | Alt-199         | No key assigned | Alt-174         |
+| guillemotright    | Alt-175 | Alt-187        | Alt-200         | No key assigned | Alt-175         |
+| plusminus         | Alt-241 | Alt-177        | No key assigned | No key assigned | Alt-241         |
+| logicalnot        | Alt-170 | Alt-172        | No key assigned | No key assigned | Alt-170         |
+| multiply          | Alt-158 | Alt-215        | No key assigned | Alt-215         | No key assigned |
+| divide            | Alt-246 | Alt-247        | Alt-214         | Alt-247         | Alt-246         |
+| mu                | Alt-230 | Alt-181        | No key assigned | No key assigned | Alt-230         |
+| degree            | Alt-248 | Alt-176        | Alt-161         | Alt-176         | Alt-248         |
+| brokenbar         | Alt-167 | Alt-166        | No key assigned | No key assigned | No key assigned |
+| periodcentered    | Alt-250 | Alt-183        | No key assigned | No key assigned | Alt-250         |
+| superscript one   | Alt-251 | Alt-185        | No key assigned | No key assigned | No key assigned |
+| superscript two   | Alt-253 | Alt-178        | No key assigned | No key assigned | Alt-253         |
+| superscript three | Alt-252 | Alt-179        | No key assigned | No key assigned | No key assigned |
+| one half          | Alt-171 | Alt-189        | No key assigned | No key assigned | Alt-171         |
+| one quarter       | Alt-172 | Alt-188        | No key assigned | No key assigned | Alt-174         |
+| three quarters    | Alt-243 | Alt-190        | No key assigned | No key assigned | No key assigned |
+
+## Non-essential glyphs not found in CP773 or CP775
+| Glyph          | Windows CP1257  | Apple CE        | CP770           |
+|----------------|-----------------|-----------------|-----------------|
+| Euro           | Alt-128         | No key assigned | No key assigned |
+| dagger         | Alt-134         | Alt-160         | No key assigned |
+| daggerdbl      | Alt-135         | No key assigned | No key assigned |
+| trademark      | Alt-153         | Alt-170         | No key assigned |
+| bullet         | Alt-149         | Alt-165         | No key assigned |
+| quoteleft      | Alt-145         | Alt-212         | No key assigned |
+| quotesinglbase | Alt-130         | Alt-226         | No key assigned |
+| guilsinglleft  | Alt-139         | Alt-220         | No key assigned |
+| guilsinglright | Alt-155         | Alt-221         | No key assigned |
+| not equal      | No key assigned | Alt-173         | No key assigned |
+| less equal     | No key assigned | Alt-178         | Alt-243         |
+| greater equal  | No key assigned | Alt-178         | Alt-242         |
+| partial diff   | No key assigned | Alt-182         | No key assigned |
+| summation      | No key assigned | Alt-183         | Alt-228         |
+| radical        | No key assigned | Alt-195         | Alt-251         |
+| Delta          | No key assigned | Alt-198         | No key assigned |
+| lozenge        | No key assigned | Alt-215         | No key assigned |
+
+## Non-essential DOS glyphs not found in CP773 or CP775
+| Glyph        | CP770   |
+|--------------|---------|
+| Gamma        | Alt-226 |
+| Theta        | Alt-233 |
+| Phi          | Alt-232 |
+| Omega        | Alt-234 |
+| alpha        | Alt-224 |
+| delta        | Alt-235 |
+| epsilon      | Alt-238 |
+| pi           | Alt-227 |
+| sigma        | Alt-229 |
+| tau          | Alt-231 |
+| phi          | Alt-237 |
+| equivalence  | Alt-240 |
+| infinity     | Alt-236 |
+| union        | Alt-239 |
+| integraltop  | Alt-244 |
+| integralbtm  | Alt-245 |
+| approx equal | Alt-247 |
+| middle dot   | Alt-249 |
+| nsuperior    | Alt-252 |
+| black square | Alt-254 |
