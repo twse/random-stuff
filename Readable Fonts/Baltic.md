@@ -1,5 +1,10 @@
 ﻿### Programs
-Ansis Ataols Bērziņš wrote Burti (2003) for typing Latvian in 10 encodings. Documentation is in Latvian, see [http://ansis.lv/burti/index.en.php](the author's site) for English documentation and download links.
+Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in 10 encodings. When downloaded you'll get the documentation in Latvian only, see [the author's site](http://ansis.lv/burti/index.en.php) for English documentation and download links. This program does not have a key set for r cedilla which is not used in everyday written Latvian.
+
+### Fonts
+TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
+
+Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version contains accented Lithuanian letters in lowercase only.
 
 ### Available encodings (Use `/b#` to change the encoding.)
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
