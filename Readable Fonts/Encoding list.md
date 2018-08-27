@@ -5,6 +5,9 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP770     | Baltic                                     |
+| CP773     | Latin-7 (Baltic - old standard)            |
+| CP775     | Latin-7 (Baltic)                           |
 | CP777     | Accented Lithuanian (old)                  |
 | CP778     | Accented Lithuanian                        |
 | CP861     | Icelandic                                  |
@@ -12,8 +15,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP899     | Armenian                                   |
 | CP922     | ISO Estonian                               |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
+| CP1257    | Windows Baltic                             |
 | CP1258    | Windows Vietnamese                         |
 | CP1276    | Adobe PS Standard Encoding                 |
+| CP1282    | Apple Central Europe (Win CP10029)         |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
