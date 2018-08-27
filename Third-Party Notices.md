@@ -5,7 +5,9 @@ Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
 
 “bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
 
-DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.
+## For use of DOOM
+DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.<br />
+OS/2 port: Juan José García Ripoll
 
 Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics Limited or its affiliates.
 
@@ -134,6 +136,7 @@ Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
 * Matt Williams
 * Max D. Bruckner III
 * Michael Noland
+* Michael W. Capps
 * Mike Fricker
 * Nick Atamas
 * Nick Bullard-Bradley
