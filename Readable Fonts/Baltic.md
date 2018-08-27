@@ -4,7 +4,7 @@ Ansis Ataols Bērziņš wrote the TSR program Burti (2003) for typing Latvian in
 ### Fonts
 TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work.
 
-Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at the [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version of this font contains accented Lithuanian letters in lowercase only.
+Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at [Rosetta Type Foundry website](https://www.rosettatype.com/). The Pan-European version contains accented Lithuanian letters in lowercase only.
 
 ### Available encodings (Use `/b#` to change the encoding.)
 * 1 – RST 1040-90 or RusLat DOS (Default encoding)
