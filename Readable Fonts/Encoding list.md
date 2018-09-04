@@ -15,9 +15,11 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP899     | Armenian                                   |
 | CP922     | ISO Estonian                               |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
+| CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
 | CP1258    | Windows Vietnamese                         |
 | CP1276    | Adobe PS Standard Encoding                 |
+| CP1281    | Apple Turkey (Win CP10081)                 |
 | CP1282    | Apple Central Europe (Win CP10029)         |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
@@ -59,6 +61,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CZECHLF   | LinguaFont Czech                               |
 | DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
+| EFFL1     | RISC OS Latin-1 (The Electronic Font Foundry)  |
 | ERNS      | Euransi (old standard charset)                 |
 | EU_NRS    | Euransi e Nauromane                            |
 | EVAFONT   | EVAFONT Encoding                               |
@@ -83,6 +86,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MAC_LV    | Latvian letters on Apple CE codepoints         |
+| MACALT    | Apple Latin 1 (Alternate encoding)             |
 | MACCEL    | Apple Celtic                                   |
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
@@ -93,6 +97,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MALTESE   | Maltese letters on cp853 codepoints            |
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | PALM      | Palm OS Latin-1                                |
+| PL_ISO2   | Polish letters on iso 8859-2 codepoints        |
 | POLISHLF  | LinguaFont Polish                              |
 | RISCL1    | RISC OS Lati-1                                 |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
