@@ -1,10 +1,12 @@
 ## Fonts and keyboards
 Esperanta Klavaro, by Yury Finkel, is a utility to replace an unused codepage. Download this utility at the [Esperanta Klavaro page](http://www.esperanto.mv.ru/Ek/) with source code, in Esperanto only.
 
+The DOS font collection by Joseph Gil includes a font for Esperanto characters in non-standard encoding.
+
 ## Diacritical characters
 
 ### Esperanto
-| Glyph        | Code    | Euransi Times | Hav¡ýov | Liborsoft International | Times New Roman Basque | Times New Roman Liberius | Times of Slavs | URW Palladio KUL | URW Palladio M |
+| Glyph        | Code    | Euransi Times | HavÃ­Å™ov | Liborsoft International | Times New Roman Basque | Times New Roman Liberius | Times of Slavs | URW Palladio KUL | URW Palladio M |
 |--------------|---------|---------------|---------|-------------------------|------------------------|--------------------------|----------------|------------------|----------------|
 | C circumflex | Alt-143 | Alt-135       | Alt-198 | Alt-198                 | Alt-198                | Alt-198                  | Alt-199        | No key assigned  | Alt-202        |
 | G circumflex | Alt-157 | Alt-136       | Alt-143 | Alt-208                 | Alt-216                | Alt-208                  | less than      | No key assigned  | Alt-163        |
@@ -63,3 +65,5 @@ Esperanta Klavaro, by Yury Finkel, is a utility to replace an unused codepage. D
 | breve     | Alt-244 |
 | dotaccent | Alt-250 |
 | cedilla   | Alt-247 |
+
+## Printer's Specials
