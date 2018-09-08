@@ -40,6 +40,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30026   | Central Africa                             |
 | CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
+| CP30039   | Cyrillic Ukrainian with Hryvnia            |
 | CP30040   | Cyrillic Russian with Hryvnia              |
 | CP58210   | Cyrillic Russian and Azeri                 |
 | CP58335   | Kashubian                                  |
@@ -99,7 +100,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | PALM      | Palm OS Latin-1                                |
 | PL_ISO2   | Polish letters on iso 8859-2 codepoints        |
 | POLISHLF  | LinguaFont Polish                              |
-| RISCL1    | RISC OS Lati-1                                 |
+| RISCL1    | RISC OS Latin-1                                |
 | ROMANIAN  | Romanian letters on cp852 codepoints           |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
@@ -144,7 +145,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CSX       | Classical Sanskrit Extended                      |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | DV1Y      | DV1-TTYogesh                                     |
-| GANDHARI  | Times Gandhari                                   |
+| GANDHARI  | Times Gāndhārī                                   |
 | GGM       | Gaudiya Grantha Mandira                          |
 | GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
 | GRETIL    | Ronald E. Emmerick                               |
