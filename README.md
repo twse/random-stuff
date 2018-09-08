@@ -4,9 +4,9 @@ This repository contains my random stuff.
 * **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons using the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for OS/2 programs (created with OS/2 Icon Editor). Requires OS/2 2.0 or higher on a file system that supports long filenames, e.g. HPFS or FAT32. See Third-Party Notices.md for commercial and unsupported freeware credits. See [Extras page on the unofficial bobsgame Wikia portal](http://bobsgame.wikia.com/wiki/Extras) for non-commercial software credits.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"**. This does not include the IRC or Mozilla Wiki usernames. (The usernames can be fetched in various profiles at Mozillians.)
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"** excluding the IRC (ircuser) or Mozilla Wiki username (wikiuser). (The usernames can be fetched in various profiles at Mozillians.)
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for a list of people contributing to old packages and their legal/warranty notices.
+* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for the authors of many old programs and their legal/warranty notices.
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is based on the old Netscape people page.
@@ -56,15 +56,15 @@ These pages are available in four versions. Thanks to Norman De Forest for inspi
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
 
 ## Palm OS Emulator skin for bob's game
-This skin can be used with the emulators listed below (collectively, "Third Party Code"). Robert Pelloni is not the original author of the Third Party Code. The original copyright notice and the license under which Robert Pelloni received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Robert Pelloni, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for bob's game. Robert Pelloni reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
+This skin can be used with the emulators listed below. Robert Pelloni is not the original author of the Third Party Code. The original copyright notice and the license under which Robert Pelloni received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Robert Pelloni, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for bob's game. Robert Pelloni reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
 
 ### CoPilot/2
 See Extras page on the unofficial bobsgame Wikia portal at the beginning above.
 
 ### Palm Hardware Emulator
-Program available on Google Play Store as expensive
+Program available as expensive in the Google Play Store
 
-Source code copyright: Portions of this software are Palm Hardware Emulator Copyright (C) 2013-2014 Perpendox Software LLC used under the terms of the GNU General Public License as published by the Free Software Foundation, Version 3.0. All rights reserved.
+Source code copyright: Portions of this software are Palm Hardware Emulator Copyright (C) 2013-2014 Perpendox Software LLC used under the terms of the GNU General Public License as published by the Free Software Foundation, Version 2.0. All rights reserved.
 
 ### Palm OS Emulator
 Provided for Informational Purposes Only
