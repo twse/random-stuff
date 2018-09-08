@@ -67,3 +67,18 @@ The DOS font collection by Joseph Gil includes a font for Esperanto characters i
 | cedilla   | Alt-247 |
 
 ## Printer's Specials
+| Glyph          | Code    |
+|----------------|---------|
+| nbspace        | Alt-255 |
+| guillemotleft  | Alt-174 |
+| guillemotright | Alt-175 |
+| section        | Alt-245 |
+| soft hyphen    | Alt-240 |
+| degree         | Alt-248 |
+| multiply       | Alt-158 |
+| divide         | Alt-246 |
+| mu             | Alt-230 |
+| twosuperior    | Alt-253 |
+| threesuperior  | Alt-252 |
+| one half       | Alt-171 |
+| blackbox       | Alt-254 |
