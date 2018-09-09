@@ -4,21 +4,21 @@ This repository contains my random stuff.
 * **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from Spriters Resource for ripping the font.
 * **Icons.zip**: Icons using the lowercase letters of [bob's game font](http://www.bobcorporation.com/fonts/bobsgame.ttf) for OS/2 programs (created with OS/2 Icon Editor). Requires OS/2 2.0 or higher on a file system that supports long filenames, e.g. HPFS or FAT32. See Third-Party Notices.md for commercial and unsupported freeware credits. See [Extras page on the unofficial bobsgame Wikia portal](http://bobsgame.wikia.com/wiki/Extras) for non-commercial software credits.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The message used in the names.csv file when someone or you gets added is **name &lt;email&gt;: "comment (citation)"** excluding the IRC (ircuser) or Mozilla Wiki username (wikiuser). (The usernames can be fetched in various profiles at Mozillians.)
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The commit message used when someone or you gets added is **name &lt;email&gt;: "comment (citation)"** excluding the IRC (ircuser) or Mozilla Wiki username (wikiuser). (The usernames can be fetched in various profiles at Mozillians.)
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew or Cherokee scripts. Created using utilities by Iván Llanas and Michael J. Mefford (PC Magazine). See Contributors.md for the authors of many old programs and their legal/warranty notices.
+* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. They cover many languages written in Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew or Cherokee scripts. Created using utilities by [Iván Llanas](http://www.geocities.ws/ivan_llanas/software/index.html) and Michael J. Mefford (see Contributors.md for the original authors of many old programs, copyright notices and licenses).
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
-* **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only). The beginning paragraph is based on the old Netscape people page.
+* **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only).
 * **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Steps useful to bulk import names to Mozilla's credits list
-Follow these steps only if you don't need to fill in the Google Docs form or if Google Docs does not work.
+Follow these steps if you don't need to fill in the Google Docs form or if Google Docs does not work.
 
 1. Clone the **mozilla/community-data** repository with any Git client.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (csv stands for comma separated value).
-4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with the filename, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
+4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with the commit message)
 
 ## Pan-European fonts version 6.0
