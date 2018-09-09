@@ -1,7 +1,7 @@
 ## Fonts and keyboard drivers
 ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icelandic font and keyboard which uses the CP 861 encoding.
 
-SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard.
+SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard. The docs are in Swedish.
 
 Times of the West I (2001), by Libor Sztemon, is derived from Times New Roman and includes special characters and letters with diacritics for Catalan, Greenlandic, Luxembourgian and Old Danish/Norwegian languages. The PCL5 data refers to the original Times New Roman font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
 
@@ -90,6 +90,9 @@ Dutch can be written when used with cp850 or cp859. In that case, the ij ligatur
 | u acute      | Alt-163         | Alt-163 | Alt-250         | Alt-156         | Alt-215         | Alt-250 | Alt-250             |
 | u circumflex | Alt-150         | Alt-150 | Alt-251         | Alt-158         | Alt-216         | Alt-251 | Alt-251             |
 | u dieresis   | Alt-129         | Alt-129 | Alt-252         | Alt-159         | Alt-217         | Alt-252 | Alt-252             |
+
+#### A note when writing this language with the URW Palladio KUL font
+One can easily type Dutch words within a Polish and/or German context with these fonts as (almost) all the diacritics necessary are provided. The only lowercase letter missing is the „ij-digraf” which can be easily (and very frequently is, in fact) replaced with the regular ij – two letters.
 
 ### Faroese, Icelandic - Typed as usual on Icelandic keyboards
 | Glyph      | CP850   | CP861   | Windows Latin-1 | Apple Iceland |
