@@ -1,4 +1,4 @@
-### Accented letters
+### Diacritic letters for languages other than Wakhi
 | Glyph       | Codes   |
 |-------------|---------|
 | A acute     | Alt-181 |
@@ -96,3 +96,6 @@
 | z dot above | Alt-190 |
 | ezh         | Alt-236 |
 | yeru        | Alt-251 |
+
+### Diacritic characters for Wakhi
+Hello world! Hello world! Hello world! Hello world! Hello world!
