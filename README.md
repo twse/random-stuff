@@ -56,7 +56,7 @@ These pages are available in four versions. Thanks to Norman De Forest for inspi
 * **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and English, French and Spanish translations for plugins are included.
 
 ## Palm OS Emulator skin for bob's game
-This skin can be used with the emulators listed below. Robert Pelloni is not the original author of the Third Party Code. The original copyright notice and the license under which Robert Pelloni received such Third Party Code, are set forth below. Such licenses and notices are provided for informational purposes only. Robert Pelloni, not the third party, licenses the Third Party Code to you under the terms set forth in the EULA for bob's game. Robert Pelloni reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
+This skin can be used with the emulators listed below. Robert Pelloni is not the original author of these emulators. The original copyright notice and the license under which Robert Pelloni received such emulators, are set forth below. Such licenses and notices are provided for informational purposes only. Robert Pelloni licenses these emulators to you under the terms set forth in the BobCorporation EULA. Robert Pelloni reserves all rights not expressly granted under this agreement, whether by implication, estoppel or otherwise.
 
 ### CoPilot/2
 See Extras page on the unofficial bobsgame Wikia portal at the beginning above.
