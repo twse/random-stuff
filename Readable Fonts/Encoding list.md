@@ -28,7 +28,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP3845    | Hungarian                                  |
 | CP3846    | Turkish                                    |
 | CP3848    | Brazilian ABICOMP                          |
-| CP30000   | Saami                                      |
+| CP30000   | Sámi/Lappish                               |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30006   | Vietnamese                                 |
@@ -125,6 +125,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VSCII     | VSCII                                          |
+| WAKHI     | Wakhi                                          |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
