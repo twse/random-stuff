@@ -1,3 +1,5 @@
+Two screen fonts are provided for Wakhi diacritics and one for languages other than Wakhi.
+
 ### Diacritic letters for languages other than Wakhi
 | Glyph       | Codes   |
 |-------------|---------|
@@ -98,4 +100,41 @@
 | yeru        | Alt-251 |
 
 ### Diacritic characters for Wakhi
-Hello world! Hello world! Hello world! Hello world! Hello world!
+| Glyph             | Codes   |
+|-------------------|---------|
+| C caron           | Alt-128 |
+| C dot below caron | Alt-172 |
+| D dot below       | Alt-209 |
+| Delta             | Alt-146 |
+| Schwa             | Alt-143 |
+| Gamma             | Alt-165 |
+| Gamma caron       | Alt-190 |
+| J caron           | Alt-211 |
+| J dot below caron | Alt-210 |
+| S caron           | Alt-221 |
+| S dot below caron | Alt-237 |
+| T dot below       | Alt-243 |
+| Theta             | Alt-232 |
+| X caron           | Alt-157 |
+| Z caron           | Alt-239 |
+| Z dot below caron | Alt-182 |
+| Ezh               | Alt-212 |
+| Yeru              | Alt-224 |
+| c caron           | Alt-135 |
+| c dot below caron | Alt-171 |
+| d dot below       | Alt-208 |
+| delta             | Alt-145 |
+| schwa             | Alt-134 |
+| gamma             | Alt-164 |
+| gamma caron       | Alt-189 |
+| j caron           | Alt-137 |
+| j dot below caron | Alt-136 |
+| s caron           | Alt-249 |
+| s dot below caron | Alt-236 |
+| t dot below       | Alt-152 |
+| theta             | Alt-231 |
+| x caron           | Alt-155 |
+| z caron           | Alt-247 |
+| z dot below caron | Alt-131 |
+| ezh               | Alt-138 |
+| yeru              | Alt-162 |
