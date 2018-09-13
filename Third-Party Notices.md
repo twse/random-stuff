@@ -9,15 +9,16 @@ Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
 DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.<br />
 OS/2 port: Juan José García Ripoll
 
+## For use of Enlighten
 Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics Limited or its affiliates.
 
-FaceFX © OC3 Entertainment, Inc. and its licensors.
+## For use of FaceFX
+FaceFX © 2002-2018 OC3 Entertainment, Inc. and its licensors.
 
 FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
 
-FMOD Sound System, copyright © Firelight Technologies Pty, Ltd., 1994-2018
-
-This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2009 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
+## For use of GameSpy
+This product contains software technology licensed from GameSpy Industries, Inc. © 1999-200915 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
 
 This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
 
@@ -56,7 +57,7 @@ This game uses NaturalMotion morpheme animation technology.
 Copyright © 1997 COMPO Software Corp.
 
 ## For use of Object Desktop
-Copyright © 1998-2018 Stardock Entertainment
+Copyright © 1998-2018 Stardock Systems
 
 ## For use of Oodle
 Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
@@ -82,7 +83,10 @@ OS/2 port: Stardock Entertainment
 
 Simplygon is © 2018 Microsoft. All rights reserved.
 
+## For use of Smacker Video Technology
 Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
+
+The library is available as **libsmacker**.
 
 Uses Telemetry. Copyright © 2010-2018 by RAD Game Tools, Inc.
 
