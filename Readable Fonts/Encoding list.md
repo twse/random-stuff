@@ -8,6 +8,8 @@
 | CP1285    | Apple Romanian                             |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
+| CP3848    | Brazilian ABICOMP                          |
+| CP30000   | Sámi/Lappish                               |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30007   | Latin                                      |
@@ -47,6 +49,7 @@
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | VSCII     | VSCII                                          |
+| WAKHI     | Wakhi                                          |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
