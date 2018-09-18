@@ -286,9 +286,6 @@ The InJoy Firewall is copyrighted and licensed (not sold). Title is not transfer
 
 By installing and using this program you accept it as is and with the understanding that there is no representations or warranty as to the suitability of the InJoy Firewall for your particular purpose, and that to the extent you use or implement this program in your own setting, you do so at your own risk. In no event will I be held liable for any damages, whether consequential, incidental, or special, arising out of the use of or inability to use the program provided herewith.
 
-## For use of Internet Junkbuster Proxy
-Portions of this software are Internet Junkbuster Proxy Copyright (C) 1997-1998 Junkbusters Corp. used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
-
 ## For use of Linear eXecutable Dump Facility/2
 Copyright (C) by Roman Stangl, 1999
 
