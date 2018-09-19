@@ -180,6 +180,44 @@ The capital sharp s can only be accessed in my screen fonts for German-Polish Fr
 | o grave | Alt-149 | Alt-149 | Alt-242          | Alt-242         | Alt-152  | vertical line       | Alt-208 | Alt-242 |
 | u grave | Alt-151 | Alt-151 | Alt-249          | Alt-249         | Alt-157  | grave accent        | Alt-214 | Alt-249 |
 
+### Greenlandic
+| Glyph        | Western 1 | ISO Baltic      | CP30004         |
+|--------------|-----------|-----------------|-----------------|
+| A acute      | Alt-181   | Alt-193         | Alt-181         |
+| A circumflex | Alt-182   | Alt-194         | Alt-182         |
+| A tilde      | Alt-199   | Alt-195         | Alt-199         |
+| A ring       | Alt-143   | Alt-197         | Alt-143         |
+| AE           | Alt-146   | Alt-198         | Alt-146         |
+| E acute      | Alt-144   | Alt-201         | Alt-144         |
+| E circumflex | Alt-210   | No key assigned | Alt-210         |
+| I acute      | Alt-214   | Alt-205         | Alt-214         |
+| I circumflex | Alt-215   | Alt-206         | Alt-215         |
+| I tilde      | Alt-222   | Alt-165         | Alt-222         |
+| Kra          | Alt-166   | No key assigned | No key assigned |
+| O circumflex | Alt-226   | Alt-212         | Alt-226         |
+| O stroke     | Alt-157   | Alt-216         | Alt-157         |
+| U acute      | Alt-233   | Alt-218         | Alt-233         |
+| U circumflex | Alt-234   | Alt-219         | Alt-234         |
+| U tilde      | Alt-235   | Alt-221         | Alt-235         |
+| U dieresis   | Alt-154   | Alt-220         | Alt-154         |
+| a acute      | Alt-160   | Alt-225         | Alt-160         |
+| a circumflex | Alt-131   | Alt-226         | Alt-131         |
+| a tilde      | Alt-198   | Alt-227         | Alt-198         |
+| a ring       | Alt-134   | Alt-229         | Alt-134         |
+| ae           | Alt-145   | Alt-230         | Alt-145         |
+| e acute      | Alt-130   | Alt-233         | Alt-130         |
+| e circumflex | Alt-136   | No key assigned | Alt-136         |
+| i acute      | Alt-161   | Alt-237         | Alt-161         |
+| i circumflex | Alt-140   | Alt-238         | Alt-140         |
+| i tilde      | Alt-141   | Alt-181         | Alt-141         |
+| kra          | Alt-167   | Alt-162         | Alt-242         |
+| o circumflex | Alt-147   | Alt-244         | Alt-147         |
+| o stroke     | Alt-155   | Alt-248         | Alt-155         |
+| u acute      | Alt-163   | Alt-250         | Alt-163         |
+| u circumflex | Alt-150   | Alt-251         | Alt-150         |
+| u tilde      | Alt-151   | Alt-253         | Alt-151         |
+| u dieresis   | Alt-129   | Alt-252         | Alt-129         |
+
 ### Luxembourgian
 | Glyph        | Western 1 |
 |--------------|-----------|
@@ -212,6 +250,28 @@ The capital sharp s can only be accessed in my screen fonts for German-Polish Fr
 | s sharp      | Alt-225   |
 | u circumflex | Alt-150   |
 | u dieresis   | Alt-129   |
+
+### Old Danish and Norwegian
+| Glyph          | Western 1 | CP30004 |
+|----------------|-----------|---------|
+| A ring acute   | Alt-165   | Alt-165 |
+| AE acute       | Alt-212   | Alt-212 |
+| O stroke acute | Alt-229   | Alt-229 |
+| a ring acute   | Alt-164   | Alt-164 |
+| ae acute       | Alt-138   | Alt-138 |
+| o stroke acute | Alt-228   | Alt-228 |
+
+### Old Icelandic (CP30004)
+| Glyph          | Codes   |
+|----------------|---------|
+| E ogonek       | Alt-216 |
+| E ogonek acute | Alt-211 |
+| O ogonek       | Alt-159 |
+| O ogonek acute | Alt-128 |
+| e ogonek       | Alt-137 |
+| e ogonek acute | Alt-139 |
+| o ogonek       | Alt-158 |
+| o ogonek acute | Alt-135 |
 
 ### Swedish - Typed as usual on Swedish keyboards
 | Glyph      | Codes   | WST_Swed             | Windows Latin-1 | Apple USA |
