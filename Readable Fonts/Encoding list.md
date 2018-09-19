@@ -55,6 +55,7 @@
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
+| ICELAND   | Icelandic letters on cp850 codepoints          |
 | ILPROM    | ILPRumanianB100                                |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
@@ -80,6 +81,7 @@
 | SIOUAN    | Siouan Languages                               |
 | T2A       | TeX Cyrillic Encoding 1                        |
 | T2B       | TeX Cyrillic Encoding 2                        |
+| T2C       | TeX Cyrillic Encoding 3                        |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
 | TEX-PL    | TeX Polish (T4)                                |
