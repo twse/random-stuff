@@ -12,6 +12,8 @@
 | CP30000   | Sámi/Lappish                               |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
+| CP30004   | Greenlandic                                |
+| CP30006   | Vietnamese                                 |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30018   | Cyrillic Russian and Latin Tatar           |
@@ -49,6 +51,7 @@
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | VSCII     | VSCII                                          |
 | WAKHI     | Wakhi                                          |
+| WESTERN1  | Western 1                                      |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
