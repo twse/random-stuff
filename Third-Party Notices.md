@@ -81,6 +81,48 @@ Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
 Copyright © 2013 Electronic Arts Inc.<br />
 OS/2 port: Stardock Entertainment
 
+### Main developers
+* Alex Peck
+* Aron Sogor
+* Brian Deppiesse
+* Chi Chan
+* Chris Tilton
+* Cody Murry
+* Cristian St. Aubyn
+* Dan Moskowitz
+* Derrick Schneider
+* Diane Pogorzelski
+* Ed Nanale
+* Eric Garay
+* Frances Ngai
+* Guillaume Pierre
+* Holly Ruark
+* Jason Haber
+* Jon Lee
+* Joshua Brockman
+* Kent Jolly
+* Kevin Shrapnell
+* Kip Kastarelis
+* Lucy Bradshaw
+* Matthew Wynne
+* Micha Nordegraaf
+* Michael Chrien
+* Mike Khoury
+* Mitchell Fisher
+* Morgan Roarty
+* Ocean Quigley
+* Pam Fusco
+* Patrick Buechner
+* Paul Terry
+* Rajan Tande
+* Renaud Ternynck
+* Scott Nagy
+* Sherry Hsieh
+* Steve Eng
+* Stone Librande
+* Toby Mast
+
+## For use of Simplygon
 Simplygon is © 2018 Microsoft. All rights reserved.
 
 ## For use of Smacker Video Technology
@@ -88,6 +130,7 @@ Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
 
 The library is available as **libsmacker**.
 
+## For use of Telemetry
 Uses Telemetry. Copyright © 2010-2018 by RAD Game Tools, Inc.
 
 ## For use of Tensor
@@ -105,56 +148,14 @@ Copyright © 1997 QVision, Inc.
 
 THX is a trademark or registered trademark of THX Ltd. All rights reserved.
 
+## For use of Umbra
 Uses Umbra 2006 - 2018.
 
+## For use of Unity
 This program was created using Unity. Portions of this program © 2005-2018 Unity Technologies.
 
 ## For use of Unreal Engine
 Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
-
-### Contributors
-* Aaron Jones
-* Andrew Scheidecker
-* Brett Holcomb
-* Dan Schoenblum
-* Daniel Vogel
-* Daniel Wright
-* Dave Burke
-* Derek Cornish
-* Gil Gribb
-* Jack Porter
-* James Golding
-* Jason Bestimt
-* Joe Graf - Technical Director
-* Joe Kreiner
-* Joe Wilcox
-* John Mauney
-* John Scott
-* Josh Adams
-* Josh Marlow
-* Justin Hair
-* Keith Newton
-* Kerry Stover
-* Lina Song
-* Matt Kuhlenschmidt
-* Matt Williams
-* Max D. Bruckner III
-* Michael Noland
-* Michael W. Capps
-* Mike Fricker
-* Nick Atamas
-* Nick Bullard-Bradley
-* Niklas Smedberg
-* Preston Thorne - Testing Manager
-* Ron Prestenback
-* Sam Zamani
-* Scott Sherman
-* Shelley Franklin
-* Steve Allison
-* Steven Polge
-* Terry Gilland
-* Tim Sweeney - Technical Director
-* Wesley Hunt
 
 ## For use of Wwise
 Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
