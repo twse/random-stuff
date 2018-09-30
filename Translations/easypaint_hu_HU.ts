@@ -42,7 +42,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Can&apos;t open file &quot;%1&quot;.</source>
-        <translation></translation>
+        <translation>Nem megnyitása fájl &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -54,7 +54,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
-        <translation></translation>
+        <translation>Nem mentése fájl &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
