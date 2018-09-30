@@ -235,7 +235,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation>Binarizació</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
