@@ -46,7 +46,7 @@ This file includes data files and registry keys for all FontCreator versions.
 These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
 
 * **Web page not available** (Old Android browser) - The page is missing the Android logo at the top. This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the company closed its business and the domain expired on July 2013.
-* **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links and resources from shdoclc.dll (the res:// protocol is used). Default encoding tag and HTML color setting removed.
+* **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 8.0 and 9.0 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when clicked it will do nothing. Default encoding tag removed.
 
 ## Translations
