@@ -3,9 +3,7 @@
 ### Encodings with a set numerical string
 | File Name | Description                                |
 |-----------|--------------------------------------------|
-| CP668     | Polish letters on cp852 codepoints         |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
-| CP1285    | Apple Romanian                             |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
 | CP3845    | Hungarian                                  |
 | CP3848    | Brazilian ABICOMP                          |
@@ -34,18 +32,8 @@
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
-| LAT8EXT   | Extended Latin-8                               |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
-| MACPOL    | Polish letters on Apple CE codepoints          |
-| MALTESE   | Maltese letters on CP853 codepoints            |
-| PALM      | Palm OS Latin-1                                |
-| ROMANIAN  | Romanian letters on cp852 codepoints           |
-| TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
-| TMSEUS    | Times New Roman Basque                         |
-| TNR_CYM   | Pryd Euro-Cymraeg                              |
-| TNR_MGR   | Times New Roman Hungarian                      |
 | TURKLAT   | Turkic Latin                                   |
-| TURKMEN   | Turkmen letters on cp852 codepoints            |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIETBOX   | Vietnamese (lowercase tones and box drawing)   |
 | VSCII     | VSCII                                          |
@@ -65,9 +53,7 @@
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
 | AVESTRAN  | Avestan                                          |
 | BHTITIME  | BharatiTimes                                     |
-| DV1Y      | DV1-TTYogesh                                     |
 | GANDHARI  | Times Gandhari                                   |
-| HOBOGIR   | Hobogirin                                        |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
 | ISOCYTRA  | ISO 9 (Cyrillic) – Slavic languages              |
 | KANNTRAN  | Kannada with ISO 15919 diacritics                |
