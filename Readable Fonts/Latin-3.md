@@ -6,20 +6,20 @@ The DOS font collection by Joseph Gil includes a font for Esperanto characters i
 ## Diacritical characters
 
 ### Esperanto
-| Glyph        | Code    | Euransi Times | Havířov | Liborsoft International | Times New Roman Basque | Times New Roman Liberius | Times of Slavs | URW Palladio KUL | URW Palladio M | Non-standard |
-|--------------|---------|---------------|---------|-------------------------|------------------------|--------------------------|----------------|------------------|----------------|--------------|
-| C circumflex | Alt-143 | Alt-135       | Alt-198 | Alt-198                 | Alt-198                | Alt-198                  | Alt-199        | No key assigned  | Alt-202        | Alt-230      |
-| G circumflex | Alt-157 | Alt-136       | Alt-143 | Alt-208                 | Alt-216                | Alt-208                  | less than      | No key assigned  | Alt-163        | Alt-231      |
-| H circumflex | Alt-168 | Alt-166       | Alt-188 | Alt-188                 | Alt-166                | Alt-166                  | Alt-222        | No key assigned  | Alt-209        | Alt-232      |
-| J circumflex | Alt-172 | Alt-161       | Alt-175 | Alt-143                 | Alt-172                | Alt-143                  | Alt-223        | No key assigned  | Alt-175        | Alt-233      |
-| S circumflex | Alt-198 | dollar        | Alt-140 | Alt-140                 | Alt-222                | Alt-140                  | Alt-170        | No key assigned  | Alt-198        | Alt-234      |
-| U breve      | Alt-236 | Alt-144       | Alt-163 | Alt-163                 | Alt-221                | Alt-163                  | Alt-129        | No key assigned  | Alt-178        | Alt-235      |
-| c circumflex | Alt-134 | Alt-151       | Alt-230 | Alt-230                 | Alt-230                | Alt-230                  | Alt-231        | No key assigned  | Alt-234        | Alt-224      |
-| g circumflex | Alt-155 | Alt-152       | Alt-159 | Alt-240                 | Alt-248                | Alt-240                  | Alt-152        | No key assigned  | Alt-179        | Alt-166      |
-| h circumflex | Alt-169 | Alt-182       | Alt-190 | Alt-190                 | Alt-182                | Alt-182                  | Alt-254        | No key assigned  | Alt-241        | Alt-226      |
-| j circumflex | Alt-159 | Alt-172       | Alt-191 | Alt-159                 | Alt-188                | Alt-159                  | Alt-255        | No key assigned  | Alt-191        | Alt-227      |
-| s circumflex | Alt-199 | Alt-127       | Alt-156 | Alt-156                 | Alt-254                | Alt-156                  | Alt-186        | No key assigned  | Alt-214        | Alt-228      |
-| u breve      | Alt-237 | Alt-129       | Alt-179 | Alt-179                 | Alt-253                | Alt-179                  | Alt-182        | Alt-178          | Alt-196        | Alt-229      |
+| Glyph        | Code    | Euransi Times | Havířov | Liborsoft International | macOS   | Times New Roman Basque | Times New Roman Liberius | Times of Slavs | URW Palladio KUL | URW Palladio M | Non-standard |
+|--------------|---------|---------------|---------|-------------------------|---------|------------------------|--------------------------|----------------|------------------|----------------|--------------|
+| C circumflex | Alt-143 | Alt-135       | Alt-198 | Alt-198                 | Alt-176 | Alt-198                | Alt-198                  | Alt-199        | No key assigned  | Alt-202        | Alt-230      |
+| G circumflex | Alt-157 | Alt-136       | Alt-143 | Alt-208                 | Alt-182 | Alt-216                | Alt-208                  | less than      | No key assigned  | Alt-163        | Alt-231      |
+| H circumflex | Alt-168 | Alt-166       | Alt-188 | Alt-188                 | Alt-184 | Alt-166                | Alt-166                  | Alt-222        | No key assigned  | Alt-209        | Alt-232      |
+| J circumflex | Alt-172 | Alt-161       | Alt-175 | Alt-143                 | Alt-186 | Alt-172                | Alt-143                  | Alt-223        | No key assigned  | Alt-175        | Alt-233      |
+| S circumflex | Alt-198 | dollar        | Alt-140 | Alt-140                 | Alt-188 | Alt-222                | Alt-140                  | Alt-170        | No key assigned  | Alt-198        | Alt-234      |
+| U breve      | Alt-236 | Alt-144       | Alt-163 | Alt-163                 | Alt-192 | Alt-221                | Alt-163                  | Alt-129        | No key assigned  | Alt-178        | Alt-235      |
+| c circumflex | Alt-134 | Alt-151       | Alt-230 | Alt-230                 | Alt-180 | Alt-230                | Alt-230                  | Alt-231        | No key assigned  | Alt-234        | Alt-224      |
+| g circumflex | Alt-155 | Alt-152       | Alt-159 | Alt-240                 | Alt-183 | Alt-248                | Alt-240                  | Alt-152        | No key assigned  | Alt-179        | Alt-166      |
+| h circumflex | Alt-169 | Alt-182       | Alt-190 | Alt-190                 | Alt-185 | Alt-182                | Alt-182                  | Alt-254        | No key assigned  | Alt-241        | Alt-226      |
+| j circumflex | Alt-159 | Alt-172       | Alt-191 | Alt-159                 | Alt-187 | Alt-188                | Alt-159                  | Alt-255        | No key assigned  | Alt-191        | Alt-227      |
+| s circumflex | Alt-199 | Alt-127       | Alt-156 | Alt-156                 | Alt-189 | Alt-254                | Alt-156                  | Alt-186        | No key assigned  | Alt-214        | Alt-228      |
+| u breve      | Alt-237 | Alt-129       | Alt-179 | Alt-179                 | Alt-193 | Alt-253                | Alt-179                  | Alt-182        | Alt-178          | Alt-196        | Alt-229      |
 
 ### Maltese
 | Glyph        | Code    | Balkan  | macOS   | Euransi e Nauromane | Euransi (old encoding) | Times New Roman Liberius |
@@ -46,39 +46,39 @@ The DOS font collection by Joseph Gil includes a font for Esperanto characters i
 | z dot above  | Alt-190 | Alt-190 | Alt-253 | Alt-191             | Alt-191                | Alt-191                  |
 
 ## Currencies
-| Glyph    | Code    |
-|----------|---------|
-| cent     | Alt-208 |
-| sterling | Alt-156 |
-| yen      | Alt-209 |
-| lira     | Alt-221 |
-| Euro     | Alt-170 |
-| spesmilo | Alt-251 |
-| currency | Alt-207 |
+| Glyph    | Code    | macOS           |
+|----------|---------|-----------------|
+| cent     | Alt-208 | Alt-162         |
+| sterling | Alt-156 | Alt-163         |
+| yen      | Alt-209 | No key assigned |
+| lira     | Alt-221 | No key assigned |
+| Euro     | Alt-170 | Alt-245         |
+| spesmilo | Alt-251 | No key assigned |
+| currency | Alt-207 | No key assigned |
 
 ## Spacing Accents
-| Glyph     | Code    |
-|-----------|---------|
-| acute     | Alt-239 |
-| dieresis  | Alt-249 |
-| macron    | Alt-238 |
-| breve     | Alt-244 |
-| dotaccent | Alt-250 |
-| cedilla   | Alt-247 |
+| Glyph     | Code    | macOS           |
+|-----------|---------|-----------------|
+| acute     | Alt-239 | Alt-171         |
+| dieresis  | Alt-249 | Alt-172         |
+| macron    | Alt-238 | No key assigned |
+| breve     | Alt-244 | Alt-249         |
+| dotaccent | Alt-250 | Alt-250         |
+| cedilla   | Alt-247 | Alt-252         |
 
 ## Printer's Specials
-| Glyph          | Code    |
-|----------------|---------|
-| nbspace        | Alt-255 |
-| guillemotleft  | Alt-174 |
-| guillemotright | Alt-175 |
-| section        | Alt-245 |
-| soft hyphen    | Alt-240 |
-| degree         | Alt-248 |
-| multiply       | Alt-158 |
-| divide         | Alt-246 |
-| mu             | Alt-230 |
-| twosuperior    | Alt-253 |
-| threesuperior  | Alt-252 |
-| one half       | Alt-171 |
-| blackbox       | Alt-254 |
+| Glyph          | Code    | macOS           |
+|----------------|---------|-----------------|
+| nbspace        | Alt-255 | Alt-202         |
+| guillemotleft  | Alt-174 | Alt-199         |
+| guillemotright | Alt-175 | Alt-200         |
+| section        | Alt-245 | Alt-164         |
+| soft hyphen    | Alt-240 | No key assigned |
+| degree         | Alt-248 | Alt-161         |
+| multiply       | Alt-158 | No key assigned |
+| divide         | Alt-246 | Alt-214         |
+| mu             | Alt-230 | Alt-181         |
+| twosuperior    | Alt-253 | No key assigned |
+| threesuperior  | Alt-252 | No key assigned |
+| one half       | Alt-171 | No key assigned |
+| blackbox       | Alt-254 | No key assigned |
