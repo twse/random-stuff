@@ -5,20 +5,26 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP668     | Polish letters on cp852 codepoints         |
+| CP687     | Czech Kamenický                            |
 | CP770     | Baltic                                     |
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
 | CP777     | Accented Lithuanian (old)                  |
 | CP778     | Accented Lithuanian                        |
+| CP851     | Greek (old codepage)                       |
 | CP861     | Icelandic                                  |
-| CP687     | Czech Kamenický                            |
+| CP865     | Nordic                                     |
+| CP869     | Greek                                      |
 | CP899     | Armenian                                   |
+| CP910     | ISO Latin-1 (Win CP28591)                  |
 | CP922     | ISO Estonian                               |
+| CP928     | ISO Greek (Win CP28597)                    |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
 | CP1258    | Windows Vietnamese                         |
 | CP1276    | Adobe PS Standard Encoding                 |
+| CP1280    | Apple Greece (Win CP10006)                 |
 | CP1281    | Apple Turkey (Win CP10081)                 |
 | CP1282    | Apple Central Europe (Win CP10029)         |
 | CP1285    | Apple Romanian (Win CP10010)               |
@@ -64,12 +70,14 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
 | EFFL1     | RISC OS Latin-1 (The Electronic Font Foundry)  |
+| EO853     | Esperanto letters on cp853 codepoints          |
 | ERNS      | Euransi (old standard charset)                 |
 | EU_NRS    | Euransi e Nauromane                            |
 | EVAFONT   | EVAFONT Encoding                               |
 | GAEILGE1  | Gaeilge1                                       |
 | GAEILGE2  | Gaeilge2                                       |
 | GEM       | GEM Encoding                                   |
+| GREEK     | Greek (ABCGRL encoding)                        |
 | GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | HELS_SYM  | LinguaFont Helsinki keyboard                   |
@@ -84,6 +92,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
 | LFEN_OLD  | LinguaFont Old English                         |
+| LFGREEK   | LinguaFont Monotonic Greek                     |
+| LFGRPL    | LinguaFont Polytonic Greek                     |
 | LFTR      | LinguaFont Turkish                             |
 | LSSLV     | Liborsoft Slavonia                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
@@ -99,6 +109,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACSAMI   | Apple Sámi/Lappish                             |
 | MALTESE   | Maltese letters on cp853 codepoints            |
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
+| NORDIC    | Nordic letters on cp859 codepoints             |
 | PALM      | Palm OS Latin-1                                |
 | PL_ISO2   | Polish letters on iso 8859-2 codepoints        |
 | POLISHLF  | LinguaFont Polish                              |
