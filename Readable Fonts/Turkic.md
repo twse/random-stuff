@@ -402,12 +402,22 @@ Although not part of my readable font series, this language is usually written i
 | u dieresis | Alt-154 |
 
 ### Uniform Turkic Alphabet
-| Glyph     | Codes   |
-|-----------|---------|
-| C cedilla | Alt-128 |
-| Schwa     | Alt-232 |
-| c cedilla | Alt-135 |
-| schwa     | Alt-246 |
+| Glyph       | Codes   |
+|-------------|---------|
+| C cedilla   | Alt-128 |
+| Schwa       | Alt-232 |
+| OI          | Alt-183 |
+| I dot above | Alt-152 |
+| N descender | Alt-184 |
+| O barred    | Alt-173 |
+| S cedilla   | Alt-158 |
+| c cedilla   | Alt-135 |
+| schwa       | Alt-246 |
+| oi          | Alt-133 |
+| i dotless   | Alt-141 |
+| n descender | Alt-169 |
+| o barred    | Alt-168 |
+| s cedilla   | Alt-159 |
 
 ### Cyrillic Volga District - Turkic languages
 | Glyph          | Codes   |
