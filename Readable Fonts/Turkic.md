@@ -122,6 +122,55 @@ Although not part of my readable font series, this language is usually written i
 | u double acute | Alt-150 |
 | z caron        | Alt-166 |
 
+### Common Turkic Alphabet
+| Glyph        | Codes   |
+|--------------|---------|
+| A circumflex | Alt-182 |
+| A dieresis   | Alt-142 |
+| C cedilla    | Alt-128 |
+| E circumflex | Alt-210 |
+| G breve      | Alt-166 |
+| I circumflex | Alt-214 |
+| I dot above  | Alt-152 |
+| N tilde      | Alt-165 |
+| O circumflex | Alt-226 |
+| O dieresis   | Alt-153 |
+| S cedilla    | Alt-158 |
+| U circumflex | Alt-234 |
+| U dieresis   | Alt-154 |
+| a circumflex | Alt-131 |
+| a dieresis   | Alt-132 |
+| c cedilla    | Alt-135 |
+| e circumflex | Alt-136 |
+| g breve      | Alt-167 |
+| i dotless    | Alt-141 |
+| n tilde      | Alt-164 |
+| o circumflex | Alt-147 |
+| o dieresis   | Alt-148 |
+| s cedilla    | Alt-159 |
+| u circumflex | Alt-150 |
+| u dieresis   | Alt-129 |
+
+### Crimean Tatar (Latin)
+| Glyph        | Codes   |
+|--------------|---------|
+| A circumflex | Alt-182 |
+| C cedilla    | Alt-128 |
+| G breve      | Alt-166 |
+| I dot above  | Alt-152 |
+| N tilde      | Alt-165 |
+| O dieresis   | Alt-153 |
+| S cedilla    | Alt-158 |
+| U dieresis   | Alt-154 |
+| a circumflex | Alt-131 |
+| c cedilla    | Alt-135 |
+| g breve      | Alt-167 |
+| i dotless    | Alt-141 |
+| n tilde      | Alt-164 |
+| o dieresis   | Alt-148 |
+| s cedilla    | Alt-159 |
+| u dieresis   | Alt-129 |
+
 ### Gagauz
 | Glyph        | Codes   |
 |--------------|---------|
@@ -149,28 +198,34 @@ Although not part of my readable font series, this language is usually written i
 | A dieresis   | Alt-142 |
 | C cedilla    | Alt-128 |
 | E acute      | Alt-144 |
+| G acute      | Alt-229 |
 | G breve      | Alt-166 |
 | I dieresis   | Alt-216 |
 | I dot above  | Alt-152 |
+| N acute      | Alt-199 |
 | N tilde      | Alt-165 |
 | O acute      | Alt-224 |
 | O dieresis   | Alt-153 |
 | S cedilla    | Alt-158 |
 | U acute      | Alt-233 |
 | U dieresis   | Alt-154 |
+| Y acute      | Alt-143 |
 | a acute      | Alt-160 |
 | a dieresis   | Alt-132 |
 | c cedilla    | Alt-135 |
 | e acute      | Alt-130 |
+| g acute      | Alt-228 |
 | g breve      | Alt-167 |
 | i dieresis   | Alt-139 |
 | i dotless    | Alt-141 |
+| n acute      | Alt-198 |
 | n tilde      | Alt-164 |
 | o acute      | Alt-162 |
 | o dieresis   | Alt-148 |
 | s cedilla    | Alt-159 |
 | u acute      | Alt-163 |
 | u dieresis   | Alt-129 |
+| y acute      | Alt-134 |
 
 ### Kurdish (Cyrillic Kurmanjî)
 | Glyph        | Codes   | T2A             | T2B             |
@@ -326,7 +381,7 @@ Although not part of my readable font series, this language is usually written i
 | S cedilla   | Alt-158 |
 | A dieresis  | Alt-142 |
 | z caron     | Alt-155 |
-| y acute     | Alt-143 |
+| y acute     | Alt-134 |
 | n caron     | Alt-236 |
 | o dieresis  | Alt-148 |
 | u dieresis  | Alt-129 |
