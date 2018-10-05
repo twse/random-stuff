@@ -411,6 +411,8 @@ Although not part of my readable font series, this language is usually written i
 | N descender | Alt-184 |
 | O barred    | Alt-173 |
 | S cedilla   | Alt-158 |
+| Z stroke    | Alt-227 |
+| Soft sign   | Alt-235 |
 | c cedilla   | Alt-135 |
 | schwa       | Alt-246 |
 | oi          | Alt-133 |
@@ -418,6 +420,8 @@ Although not part of my readable font series, this language is usually written i
 | n descender | Alt-169 |
 | o barred    | Alt-168 |
 | s cedilla   | Alt-159 |
+| z stroke    | Alt-149 |
+| soft sign   | Alt-151 |
 
 ### Cyrillic Volga District - Turkic languages
 | Glyph          | Codes   |
