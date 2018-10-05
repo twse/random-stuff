@@ -262,26 +262,26 @@ Noxchi (1993), by Amina LLC, is a series of non-Unicode fonts for Chechen langua
 | ha descender | Alt-249 | Alt-181         |
 
 ### Turkish - Typed as usual on Turkish keyboards
-| Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | Apple Turkey | CP853   | LinguaFont      | CP3846          |
-|--------------|---------|---------|-----------------|---------|--------------|---------|-----------------|-----------------|
-| A circumflex | Alt-182 | Alt-182 | Alt-194         | Alt-182 | Alt-229      | Alt-182 | No key assigned | No key assigned |
-| C cedilla    | Alt-128 | Alt-128 | Alt-199         | Alt-128 | Alt-130      | Alt-128 | Alt-128         | Alt-128         |
-| G breve      | Alt-166 | Alt-166 | Alt-208         | Alt-166 | Alt-218      | Alt-166 | Alt-226         | Alt-166         |
-| I circumflex | Alt-215 | Alt-155 | Alt-206         | Alt-215 | Alt-235      | Alt-215 | No key assigned | No key assigned |
-| I dot above  | Alt-152 | Alt-152 | Alt-221         | Alt-152 | Alt-220      | Alt-152 | No key assigned | Alt-152         |
-| O dieresis   | Alt-153 | Alt-153 | Alt-214         | Alt-153 | Alt-133      | Alt-153 | Alt-153         | Alt-153         |
-| S cedilla    | Alt-158 | Alt-242 | Alt-222         | Alt-158 | Alt-222      | Alt-184 | Alt-228         | Alt-158         |
-| U circumflex | Alt-234 | Alt-234 | Alt-219         | Alt-234 | Alt-243      | Alt-234 | No key assigned | No key assigned |
-| U dieresis   | Alt-154 | Alt-154 | Alt-220         | Alt-154 | Alt-134      | Alt-154 | Alt-154         | Alt-154         |
-| a circumflex | Alt-131 | Alt-131 | Alt-226         | Alt-131 | Alt-137      | Alt-131 | Alt-131         | Alt-131         |
-| c cedilla    | Alt-135 | Alt-135 | Alt-231         | Alt-135 | Alt-141      | Alt-135 | Alt-135         | Alt-135         |
-| g breve      | Alt-167 | Alt-157 | Alt-240         | Alt-167 | Alt-219      | Alt-167 | Alt-227         | Alt-167         |
-| i circumflex | Alt-140 | Alt-140 | Alt-238         | Alt-140 | Alt-148      | Alt-140 | Alt-140         | Alt-140         |
-| i dotless    | Alt-141 | Alt-141 | Alt-253         | Alt-141 | Alt-221      | Alt-213 | Alt-230         | Alt-141         |
-| o dieresis   | Alt-148 | Alt-148 | Alt-246         | Alt-148 | Alt-154      | Alt-148 | Alt-148         | Alt-148         |
-| s cedilla    | Alt-159 | Alt-243 | Alt-254         | Alt-159 | Alt-223      | Alt-173 | Alt-229         | Alt-159         |
-| u circumflex | Alt-150 | Alt-150 | Alt-251         | Alt-150 | Alt-158      | Alt-150 | Alt-150         | Alt-150         |
-| u dieresis   | Alt-129 | Alt-129 | Alt-252         | Alt-129 | Alt-159      | Alt-129 | Alt-129         | Alt-129         |
+| Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | macOS   | CP853   | LinguaFont      | CP3846          |
+|--------------|---------|---------|-----------------|---------|---------|---------|-----------------|-----------------|
+| A circumflex | Alt-182 | Alt-182 | Alt-194         | Alt-182 | Alt-229 | Alt-182 | No key assigned | No key assigned |
+| C cedilla    | Alt-128 | Alt-128 | Alt-199         | Alt-128 | Alt-130 | Alt-128 | Alt-128         | Alt-128         |
+| G breve      | Alt-166 | Alt-166 | Alt-208         | Alt-166 | Alt-218 | Alt-166 | Alt-226         | Alt-166         |
+| I circumflex | Alt-215 | Alt-155 | Alt-206         | Alt-215 | Alt-235 | Alt-215 | No key assigned | No key assigned |
+| I dot above  | Alt-152 | Alt-152 | Alt-221         | Alt-152 | Alt-220 | Alt-152 | No key assigned | Alt-152         |
+| O dieresis   | Alt-153 | Alt-153 | Alt-214         | Alt-153 | Alt-133 | Alt-153 | Alt-153         | Alt-153         |
+| S cedilla    | Alt-158 | Alt-242 | Alt-222         | Alt-158 | Alt-222 | Alt-184 | Alt-228         | Alt-158         |
+| U circumflex | Alt-234 | Alt-234 | Alt-219         | Alt-234 | Alt-243 | Alt-234 | No key assigned | No key assigned |
+| U dieresis   | Alt-154 | Alt-154 | Alt-220         | Alt-154 | Alt-134 | Alt-154 | Alt-154         | Alt-154         |
+| a circumflex | Alt-131 | Alt-131 | Alt-226         | Alt-131 | Alt-137 | Alt-131 | Alt-131         | Alt-131         |
+| c cedilla    | Alt-135 | Alt-135 | Alt-231         | Alt-135 | Alt-141 | Alt-135 | Alt-135         | Alt-135         |
+| g breve      | Alt-167 | Alt-157 | Alt-240         | Alt-167 | Alt-219 | Alt-167 | Alt-227         | Alt-167         |
+| i circumflex | Alt-140 | Alt-140 | Alt-238         | Alt-140 | Alt-148 | Alt-140 | Alt-140         | Alt-140         |
+| i dotless    | Alt-141 | Alt-141 | Alt-253         | Alt-141 | Alt-221 | Alt-213 | Alt-230         | Alt-141         |
+| o dieresis   | Alt-148 | Alt-148 | Alt-246         | Alt-148 | Alt-154 | Alt-148 | Alt-148         | Alt-148         |
+| s cedilla    | Alt-159 | Alt-243 | Alt-254         | Alt-159 | Alt-223 | Alt-173 | Alt-229         | Alt-159         |
+| u circumflex | Alt-150 | Alt-150 | Alt-251         | Alt-150 | Alt-158 | Alt-150 | Alt-150         | Alt-150         |
+| u dieresis   | Alt-129 | Alt-129 | Alt-252         | Alt-129 | Alt-159 | Alt-129 | Alt-129         | Alt-129         |
 
 ### Turkmen
 | Glyph       | Codes   |
@@ -314,6 +314,44 @@ Noxchi (1993), by Amina LLC, is a series of non-Unicode fonts for Chechen langua
 | e dieresis | Alt-137 |
 | o dieresis | Alt-148 |
 | u dieresis | Alt-154 |
+
+### Uniform Turkic Alphabet
+| Glyph     | Codes   |
+|-----------|---------|
+| C cedilla | Alt-128 |
+| Schwa     | Alt-232 |
+| c cedilla | Alt-135 |
+| schwa     | Alt-246 |
+
+### Cyrillic Volga District - Turkic languages
+| Glyph          | Codes   |
+|----------------|---------|
+| A breve        | Alt-242 |
+| Ie breve       | Alt-246 |
+| Schwa          | Alt-207 |
+| Ghe stroke     | Alt-182 |
+| Ze descender   | Alt-213 |
+| Zhe descender  | Alt-209 |
+| Ka ghe         | Alt-189 |
+| En descender   | Alt-250 |
+| O barred       | Alt-244 |
+| Es descender   | Alt-215 |
+| Shha           | Alt-190 |
+| U double acute | Alt-211 |
+| U straight     | Alt-181 |
+| a breve        | Alt-243 |
+| ie breve       | Alt-247 |
+| schwa          | Alt-208 |
+| ghe stroke     | Alt-183 |
+| ze descender   | Alt-214 |
+| zhe descender  | Alt-210 |
+| ka ghe         | Alt-199 |
+| en descender   | Alt-251 |
+| o barred       | Alt-245 |
+| es descender   | Alt-216 |
+| shha           | Alt-198 |
+| u double acute | Alt-212 |
+| u straight     | Alt-184 |
 
 ### Zazaki
 | Glyph        | Codes   |
