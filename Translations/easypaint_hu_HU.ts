@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Gauss-elmosás</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation>Függőleges tényező:</translation>
+        <translation>Nagyítási arány:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -444,7 +444,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation></translation>
+        <translation>Not:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -580,7 +580,7 @@ Szeretné menteni a változásokat?</translation>
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
         <source>Pen size</source>
-        <translation>Toll méret:</translation>
+        <translation>Toll méret</translation>
     </message>
 </context>
 </TS>
