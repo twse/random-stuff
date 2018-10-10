@@ -1,6 +1,7 @@
 # Commercial Software
 This software product includes Autodesk™ Beast™ software, © 2018 Autodesk, Inc. All rights reserved.
 
+## For use of Bink Video
 Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
 
 “bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
@@ -18,7 +19,7 @@ FaceFX © 2002-2018 OC3 Entertainment, Inc. and its licensors.
 FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
 
 ## For use of GameSpy
-This product contains software technology licensed from GameSpy Industries, Inc. © 1999-200915 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
+This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2015 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
 
 This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
 
