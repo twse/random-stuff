@@ -1,5 +1,5 @@
 ## Fonts and keyboards
-Esperanta Klavaro, by Yury Finkel, is a utility to replace an unused codepage. Download this utility at the [Esperanta Klavaro page](http://www.esperanto.mv.ru/Ek/) with source code, in Esperanto only.
+Esperanta Klavaro (2010), by Yury Finkel, is a utility to replace an unused codepage. Esperanta Klavaro is licensed under the GNU GPL 2.0 license. Download this utility at the [Esperanta Klavaro page](http://www.esperanto.mv.ru/Ek/) with source code, in Esperanto only. Ignore the interstitial ads in this website.
 
 The DOS font collection by Joseph Gil includes a font for Esperanto characters in non-standard encoding.
 
