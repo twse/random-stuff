@@ -147,3 +147,8 @@ This software is copyrighted by the TriChlor Group. All rights reserved. You can
 
 #### Thanks
 * Ánh Minh
+
+### Credits for VNKey
+Copyright (c) 1992-2010 The TriChlor Software Group. All Rights Reserved.
+
+Permission to use, copy, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies and that both this copyright notice and this permission notice appear in supporting documentation, and that the name of The TriChlor Software Group not be used in advertising or publicity pertaining to distribution of the software without specific prior, written permission. This software is supplied as is without expressed or implied warranties of any kind.
