@@ -43,7 +43,7 @@ Created with FontCreator 5.6 (2007) - This version can only create ordinary Unic
 This file includes data files and registry keys for all FontCreator versions.
 
 ## Protest pages (HTM files)
-These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
+These pages are available in four versions. Thanks to [http://www.chebucto.ns.ca/~af380/Profile.html](Norman De Forest) for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
 
 * **Web page not available** (Old Android browser) - This page is missing the Android logo at the top but the original page does have it. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
