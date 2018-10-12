@@ -43,7 +43,7 @@ Created with FontCreator 5.6 (2007) - This version can only create ordinary Unic
 This file includes data files and registry keys for all FontCreator versions.
 
 ## Protest pages based on dnserror (HTM files)
-These pages are available in four versions. Thanks to [http://www.chebucto.ns.ca/~af380/Profile.html](Norman De Forest) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
+These pages are available in four versions. Thanks to [Norman De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
 
 On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar.
 
