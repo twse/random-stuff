@@ -42,12 +42,14 @@ Created with FontCreator 5.6 (2007) - This version can only create ordinary Unic
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for all FontCreator versions.
 
-## Protest pages (HTM files)
-These pages are available in four versions. Thanks to [http://www.chebucto.ns.ca/~af380/Profile.html](Norman De Forest) for inspiring me to create the pages (see his index page for the descriptions). His own protest page uses the index page and are available in seven versions.
+## Protest pages based on dnserror (HTM files)
+These pages are available in four versions. Thanks to [http://www.chebucto.ns.ca/~af380/Profile.html](Norman De Forest) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
 
-* **Web page not available** (Old Android browser) - This page is missing the Android logo at the top but the original page does have it. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol) however the company closed its business and the domain expired on July 2013.
+On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar.
+
+* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 8.0 and 9.0 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing. The original page opens up the Windows network diagnostic program when pressed. Default encoding tag removed.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 8.0 and 9.0 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing. The original opens up the Windows network diagnostic program for each Windows version. Default encoding tag removed.
 
 ## Translations
 * **Dual Module Player** - Czech (IBM-852) and German (IBM-850). Only Finnish and French translations are included.
