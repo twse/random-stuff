@@ -15,8 +15,8 @@ Special thanks goes to the following people:
 * Virginijus Dadurkevičius, for his accented Lithuanian font.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
-* Michael Everson, for developing the ISO Latin-8 encoding standard. He's also the author of Rupakara, Everson Mono, CeltScript and many macOS input utilities.
-* Miguel Farah, for his readable fonts. I never use his fonts as a base for creating them.
+* Michael Everson ([Evertype](http://www.evertype.com]), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
+* Miguel Farah, for his readable fonts. I never used his fonts as the base font.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
@@ -45,7 +45,7 @@ Special thanks goes to the following people:
 * Iván Llanas, for writing FontEdit II and his font package.
 * Pádraig McCarthy, for creating the Gaeilge (1993) font. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
-* Sergey Menshikov, for maintaining Interpilot - this program changes the keyboard and fonts used for Palm OS to any language for using.
+* Sergey Menshikov, for maintaining Interpilot - Palm OS internationalization program. This program changes the keyboard and fonts used for Palm OS to whatever language you want.
 * Hoà T. Nguyễn, for writing the Vietnamese text editor VIET.
 * Anshuman Pandey, for maintaining the TeX package Washington Romanized Indic (2011).
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
