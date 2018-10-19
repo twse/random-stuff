@@ -27,6 +27,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP1280    | Apple Greece (Win CP10006)                 |
 | CP1281    | Apple Turkey (Win CP10081)                 |
 | CP1282    | Apple Central Europe (Win CP10029)         |
+| CP1284    | Apple Croatian (Win CP10082)               |
 | CP1285    | Apple Romanian (Win CP10010)               |
 | CP1286    | Apple Iceland (Win CP10079)                |
 | CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
