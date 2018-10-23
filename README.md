@@ -1,7 +1,7 @@
 # Information
 This repository contains my random stuff.
 * **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
-* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from Spriters Resource for ripping the font.
+* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The commit message used for names.csv file in the Mozilla community-data GIT repository is **name &lt;email&gt;: "comment (citation)"**.
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
