@@ -94,7 +94,7 @@ No warranty of any kind is expressed or implied. The author will not be liable f
 Any suggestions, feedback and comments are welcome.
 
 ### Credits for CPIDOS
-Portions of this software are CPIDOS Copyright (C) 2003-2011 Henrique Peron used under the terms of the GNU General Public License as published by the Free Software Foundation. All rights reserved.
+Portions of this software are CPIDOS Copyright (C) 2003-2011 Henrique Peron used under the terms of the GNU General Public License as published by the Free Software Foundation, Version 2.0. All rights reserved.
 
 ### Credits for Display Font Editor
 Copyright (c) 1991 Michael Burton (Rimrock Software). All rights reserved.
