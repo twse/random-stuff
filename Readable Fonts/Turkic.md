@@ -30,7 +30,7 @@ Although not part of my readable font series, this language is usually written i
 | s cedilla   | Alt-159 | Alt-243 | Alt-254              | Alt-252   |
 | u dieresis  | Alt-129 | Alt-129 | Alt-252              | Alt-245   |
 
-### Azerbaijani Cyrillic
+### Azerbaijani (Cyrillic)
 | Glyph               | Codes   |
 |---------------------|---------|
 | Ghe stroke          | Alt-248 |
@@ -228,22 +228,24 @@ Although not part of my readable font series, this language is usually written i
 | y acute      | Alt-134 |
 
 ### Kazakh (Cyrillic)
-| Glyph        | Codes    |
-|--------------|----------|
-| Ghe stroke   | Alt-210  |
-| Schwa        | Alt-208  |
-| Ka descender | Alt-212  |
-| En descender | Alt-214  |
-| O barred     | Alt-242  |
-| U straight   | Alt-220  |
-| Shha         | Alt-222  |
-| ghe stroke   | Alt-211  |
-| schwa        | Alt-209  |
-| ka descender | Alt-213  |
-| en descender | Alt-215  |
-| o barred     | Alt-243  |
-| u straight   | Alt-221  |
-| shha         | Alt-223  |
+| Glyph             | Codes    |
+|-------------------|----------|
+| Ghe stroke        | Alt-210  |
+| Schwa             | Alt-208  |
+| Ka descender      | Alt-212  |
+| En descender      | Alt-214  |
+| O barred          | Alt-242  |
+| U straight        | Alt-220  |
+| U straight stroke | Alt-246  |
+| Shha              | Alt-222  |
+| ghe stroke        | Alt-211  |
+| schwa             | Alt-209  |
+| ka descender      | Alt-213  |
+| en descender      | Alt-215  |
+| o barred          | Alt-243  |
+| u straight        | Alt-221  |
+| u straight stroke | Alt-247  |
+| shha              | Alt-223  |
 
 ### Kurdish (Cyrillic Kurmanjî)
 | Glyph        | Codes   | T2A             | T2B             |
