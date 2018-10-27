@@ -227,6 +227,24 @@ Although not part of my readable font series, this language is usually written i
 | u dieresis   | Alt-129 |
 | y acute      | Alt-134 |
 
+### Kazakh (Cyrillic)
+| Glyph        | Codes    |
+|--------------|----------|
+| Ghe stroke   | Alt-210  |
+| Schwa        | Alt-208  |
+| Ka descender | Alt-212  |
+| En descender | Alt-214  |
+| O barred     | Alt-242  |
+| U straight   | Alt-220  |
+| Shha         | Alt-222  |
+| ghe stroke   | Alt-211  |
+| schwa        | Alt-209  |
+| ka descender | Alt-213  |
+| en descender | Alt-215  |
+| o barred     | Alt-243  |
+| u straight   | Alt-221  |
+| shha         | Alt-223  |
+
 ### Kurdish (Cyrillic Kurmanjî)
 | Glyph        | Codes   | T2A             | T2B             |
 |--------------|---------|-----------------|-----------------|
