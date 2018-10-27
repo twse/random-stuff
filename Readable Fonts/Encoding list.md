@@ -12,6 +12,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP777     | Accented Lithuanian (old)                  |
 | CP778     | Accented Lithuanian                        |
 | CP851     | Greek (old codepage)                       |
+| CP858     | Latin-1 with Euro                          |
 | CP861     | Icelandic                                  |
 | CP865     | Nordic                                     |
 | CP869     | Greek                                      |
@@ -20,6 +21,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP922     | ISO Estonian                               |
 | CP928     | ISO Greek (Win CP28597)                    |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
+| CP1250    | Windows Latin 2                            |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
 | CP1258    | Windows Vietnamese                         |
@@ -50,6 +52,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30034   | Cherokee                                   |
 | CP30039   | Cyrillic Ukrainian with Hryvnia            |
 | CP30040   | Cyrillic Russian with Hryvnia              |
+| CP58152   | Cyrillic Kazakh with Euro                  |
 | CP58210   | Cyrillic Russian and Azeri                 |
 | CP58335   | Kashubian                                  |
 | CP59234   | Cyrillic Tatar                             |
