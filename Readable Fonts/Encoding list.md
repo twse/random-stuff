@@ -22,6 +22,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP928     | ISO Greek (Win CP28597)                    |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1250    | Windows Latin 2                            |
+| CP1253    | Windows Greece                             |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
 | CP1258    | Windows Vietnamese                         |
