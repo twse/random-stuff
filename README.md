@@ -1,6 +1,6 @@
 # Information
 This repository contains my random stuff.
-* **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after Cyrano de Bergerac.
+* **Cyrano Text**: TrueType Unicode font based on Cyrano Nouveau (2009) from the Typophile forums by MrMoto with some glyphs modified. Created using FontCreator 5.6 (2007). **Moderator's note:** Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
 * **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore (2003). Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. The commit message used for names.csv file in the Mozilla community-data GIT repository is **name &lt;email&gt;: "comment (citation)"**.
@@ -31,13 +31,14 @@ This font family covers the following diacritics:
 1. All characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
 2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc. - see [Dr. Anthony Stone's ISO 15919 website](http://homepage.ntlworld.com/stone-catend/translit.htm)) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
 3. All diacritics required for ISO 9 ("Transliteration of Cyrillic languages into Latin characters": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
+4. All special letters and diacritics required for Pan-African languages with Latin script (Yoruba, Hausa, Edo-Bini, Fulfulde, Lingala, Shona, Ndebele, etc. etc. etc.)
 
 ## Other fonts
 Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark. I cancelled several font projects such as **Albertus Mega** (flare serif font).
 * **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Tutchone, etc. etc. etc.). This font comes in one style only - Regular.
-* **New York Plus** is for Native American languages with Latin script (Navajo, Tutchone, etc. etc. etc.). This font comes in one style only - Roman.
+* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Regular.
+* **New York Plus** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Roman.
 
 ## FontCreator Data Files and Registry Keys (HTM file)
 This file includes data files and registry keys for all FontCreator versions.
