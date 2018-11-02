@@ -12,7 +12,7 @@ This repository contains my random stuff.
 * **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 (2010) and FontCreator 5.6 (2007). This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## How to do a bulk addition of names to Mozilla's credits list
-Follow these steps if you don't need to fill in the form or if Google Docs does not work.
+Follow these steps if you don't need to fill in the form or if Google Docs does not work. Editing the names.csv file only works when you're logged in as @gurumukhi.
 
 1. Clone the **mozilla/community-data** repository with any Git client.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
