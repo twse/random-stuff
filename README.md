@@ -9,7 +9,7 @@ This repository contains my random stuff.
 * **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only).
-* **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars (2002), excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
+* **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## How to do a bulk addition of names to Mozilla's credits list
 Follow these steps if you don't need to fill in the form or if Google Docs does not work. Editing the names.csv file only works when you're logged in as @gurumukhi.
