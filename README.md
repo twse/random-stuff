@@ -48,9 +48,9 @@ These pages are available in four versions. Thanks to [Norman De Forest](http://
 
 On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar.
 
-* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol) however the company closed its business and the domain expired on July 2013.
+* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol, i.e. for use with nonsecure websites) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run Internet Explorer 7 through 9
+* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
 
 ## Translations
 * **Dual Module Player** - Czech (IBM-852) and German (IBM-850). Only Finnish and French translations are included.
