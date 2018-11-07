@@ -155,3 +155,61 @@ This document represents the data files and registry keys in FontCreator.
 * **MetricsAndKerningTextEnabled** – This corresponds to **Show text before and after glyph** in the Comparison toolbar. Default is off.
 * **MetricsAndKerningTextLeft** – This corresponds to **Before** text box in the Comparison toolbar. Default is empty.
 * **MetricsAndKerningTextRight** – This corresponds to **After** text box in the Comparison toolbar. Default is empty.
+
+### Most Recently Used Files
+* **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted.
+
+### Options
+* **AlwaysCreateBackupCopy** – This corresponds to the **When Saving Font Files: Always create backup copy (bak)** option in the Font tab. If disabled, no backup copy is created on saving. (Available in the Options window)
+* **AutoFitGlyphInWindow** – This corresponds to the **Zoom Simple Glyph Edit Window: Auto Fit Glyph in Window** option in Options: Glyph. Default is on.
+* **AutoNamingUseFontRevision** – This corresponds to the **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** option in Options: Naming. Default is on.
+* **CompressHmtxTable** – This corresponds to the **When Saving Font Files: Compress hmtx table** option in the Font tab. (Available in the Options window)
+* **CompressNameTable** – This corresponds to the **When Saving Font Files: Optimize name table** option in the Font tab. (Available in the Options window)
+* **DefaultNamingCopyrightIncluded** – This corresponds to the **Default Naming for New Fonts: Copyright** checkbox in Options: Naming. Default is on.
+* **DefaultNamingCopyrightText** – This corresponds to the **Default Naming for New Fonts: Copyright** option in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
+* **DefaultNamingFontDesignerIncluded** – This corresponds to the **Default Naming for New Fonts: Font Designer** checkbox in Options: Naming.
+* **DefaultNamingFontDesignerLinkText** – This corresponds to the **Default Naming for New Fonts: Font Designer Link** option in Options: Naming.
+* **DefaultNamingFontDesignerText** – This corresponds to the **Default Naming for New Fonts: Font Designer** option in Options: Naming. Default is empty.
+* **DefaultNamingLicenseAgreementIncluded** – This corresponds to the **Default Naming for New Fonts: License Agreement** checkbox in Options: Naming.
+* **DefaultNamingLicenseAgreementLinkIncluded** – This corresponds to the **Default Naming for New Fonts: License Agr. Link** checkbox in Options: Naming.
+* **DefaultNamingLicenseAgreementLinkText** – This corresponds to the **Default Naming for New Fonts: License Agr. Link** option in Options: Naming.
+* **DefaultNamingLicenseAgreementText** – This corresponds to the **Default Naming for New Fonts: License Agreement** option in Options: Naming. Default is empty.
+* **DefaultNamingTrademarkIncluded** – This corresponds to the **Default Naming for New Fonts: Trademark** checkbox in Options: Naming.
+* **DefaultNamingTrademarkText** – This corresponds to the **Default Naming for New Fonts: Trademark** option in Options: Naming. Default is &lt;font family&gt;® Trademark of (your company).
+* **DefaultZoomFactor** – This corresponds to the **Zoom Simple Glyph Edit Window: Open with Default Zoom Factor** option in Options: Glyph.
+* **ExcludeMonospacedFonts** – This corresponds to the **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. If enabled, it will omit all monospace fonts on saving. If disabled, no monospace fonts are omitted during saving. (Available in the Options window)
+* **IgnoreHintingData** – This corresponds to the **When Opening Font Files: Remove hinting data** option in the Font tab. If enabled, hinting data is removed. If disabled, hinting data is kept. (Available in the Options window)
+* **IgnoreUnsupportedTables** – This corresponds to the **When Opening Font Files: Remove unsupported tables** option in the Font tab. If enabled, unsupported tables are removed. If disabled, unsupported tables are kept. (Available in the Options window)
+* **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
+* **LeftSideBearingExcludeLargeFonts** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** option in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
+* **LongAlignedLocalOffsets** – This corresponds to the **When Saving Font Files: Long-aligned local offsets** option in the Font tab. (Available in the Options window)
+* **OnStartupOpenFonts** – This corresponds to the **Startup: On start open fonts from last time** option in the General tab. Default is on. (Available in the Options window)
+* **OnStartupShowUpdateReminder** – This corresponds to the **Startup: Show update reminder** option in the General tab. Default is Once a year. (Available in the Options window)
+* **OnStartupShowWelcome** – This corresponds to the **Startup: On start show Welcome dialog** option in the General tab. Default is on. (Available in the Options window)
+* **PanoseValueHexadecimal** – This corresponds to the **PANOSE: HEX** option in the Classification tab. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal. (Available in the Font Settings window)
+* **RecalcAverageCharWidth** – This corresponds to the **When Saving Font Files: Recalc average char width** option in the Font tab. (Available in the Options window)
+* **RecalcGlyphBoundingBoxes** – This corresponds to the **When Saving Font Files: Recalc glyph bounding boxes** option in the Font tab. (Available in the Options window)
+* **RemoveDSIGTable** – This corresponds to the **When Opening Font Files: Remove DSIG table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.2 only)
+* **RemoveHdmxTable** – This corresponds to the **When Opening Font Files: Remove hdmx table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.2 only)
+* **RemoveLTSHTable** – This corresponds to the **When Opening Font Files: Remove LTSH table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.2 only)
+* **RemoveVDMXTable** – This corresponds to the **When Opening Font Files: Remove VDMX table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.2 only)
+* **SetLeftSideBearingPointAtX0** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
+* **UnicodeEnabledGUI** – In version 5.5 through 6.5 only. This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. If disabled, it will use the current codepage according to the Language For Non-Unicode Programs variable. If you run it on Windows 9x/ME or compatibility mode, this option will appear dimmed.
+* **UpdateModifiedDateTimeField** – This corresponds to the **When Saving Font Files: Update Modified DateTime field** option in the Font tab. Default is on. (Available in the Options window)
+* **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
+
+### Preview
+* **PreviewFontSize** – This corresponds to the size in the Test Font window.
+* **PreviewSampleFontSize** – This corresponds to the size in the Preview window.
+* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
+* **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
+* **ShowToolbarWindowPreview** – Default is on.
+* **StrikeThrough** – Used for **Strikeout** in the Test Font window.
+* **Underline** – Used for **Underline** in the Test Font window.
+
+### Reg
+The license is deactivated and program is started in unregistered mode if this key is removed.
+* **V5D#** – Created when registering the program whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu and button in **TTIPOFTHEDAYFORM**. Version 6.0 and newer places your name on the title bar.
+
+### Themes
+* **ActiveTheme** – No meaning
