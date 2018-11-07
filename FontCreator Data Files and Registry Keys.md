@@ -213,3 +213,38 @@ The license is deactivated and program is started in unregistered mode if this k
 
 ### Themes
 * **ActiveTheme** – No meaning
+
+### Tip of the Day
+* **CurrentTip** – Current line number in FontCreator.tip, used when opening the **Tip of the Day** window.
+* **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
+
+### Validation
+* **DiagonalRedundantOffCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** option in the Validation tab. (Available in the Settings window)
+* **DiagonalRedundantOnCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** option in the Validation tab. (Available in the Settings window)
+* **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
+* **LocalExtremeCoordinatesDetection** – This corresponds to the **Off-curve extreme coordinates: Local detection** option in the Validation tab. (Available in the Settings window)
+* **MaximumRedundantOffCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** spinner in the Validation tab. (Available in the Settings window)
+* **MaximumRedundantOnCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** spinner in the Validation tab. (Available in the Settings window)
+* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If too complex, the button will appear dimmed.
+* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. If enabled, warning points are shown for each glyph. If disabled, no warning points are shown for each glyph. If too complex, the button will appear dimmed.
+* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar.
+* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
+* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
+* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard and **Remove Duplicate Contours** in the Validation toolbar.
+* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard and **Remove Duplicate Knots** in the Validation toolbar.
+* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
+* **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard.
+* **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard.
+* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
+* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
+* **ValidationMaxNumberOfCompositeGlyphMembers** – This corresponds to the **Real-time glyph validation: Disable when number of members exceeds** option in the Validation tab. (Available in the Settings window)
+* **ValidationMaxNumberOfContours** – This corresponds to the **Real-time glyph validation: Disable when number of contours exceeds** option in the Validation tab. (Available in the Settings window)
+* **ValidationMaxNumberOfPoints** – This corresponds to the **Real-time glyph validation: Disable when number of points exceeds** option in the Validation tab. (Available in the Settings window)
+
+### Warn – Default is on for all options
+* **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** setting in the Advanced tab.
+* **WarnBeforeActivatingRemoveFeature** – Used with **Warn before activating a remove feature from the Options → Font page** setting in the Advanced tab.
+* **WarnBeforeAddCharacters** – Used with **Warn before adding characters** setting in the Advanced tab.
+* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script** setting in the Advanced tab.
+* **WarnBeforeSortingGlyphs** – Used with **Warn before sorting glyphs** setting in the Advanced tab.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** setting in the Advanced tab.
