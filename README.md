@@ -20,6 +20,12 @@ Follow these steps if you don't need to fill in the form or if Google Docs does 
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv is a list of contributors for the old Mozilla Czech community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want)
 
+Or if you are using web-flow:
+1. Edit the names.csv file by clicking the pencil at the top-right corner.
+2. Copy names of contributors from Mozilla-related websites such as translation projects.
+3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
+4. Commit directly to the master branch but do not create a pull request.
+
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
 
