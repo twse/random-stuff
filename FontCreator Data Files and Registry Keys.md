@@ -248,3 +248,62 @@ The license is deactivated and program is started in unregistered mode if this k
 * **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script** setting in the Advanced tab.
 * **WarnBeforeSortingGlyphs** – Used with **Warn before sorting glyphs** setting in the Advanced tab.
 * **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** setting in the Advanced tab.
+
+## Cursors in the executable file (Delphi resources omitted)
+* **CZCANCEL** – Used when canceling actions. This resource uses the Argentinian Spanish language.
+* **CZMOVE** – Used by the **Hand** feature. This resource uses the Argentinian Spanish language.
+* **HLADDCONTOUR** – Used when adding contours.
+* **HLDUPLICATE** – Used when duplicating contours.
+* **HLFREEHAND** – Used by the **Freehand** feature in the Drawing toolbar
+* **HLGUIDELINED** – Used by the **Guideline** feature in the Drawing toolbar
+* **HLKNIFE** – Used by the **Knife** feature in the Drawing toolbar. This resource uses the German language.
+* **HLMEASURE** – Used by the **Measure** feature in the Drawing toolbar
+* **HLMOVECONTOUR** – Used when moving contours. This resource uses the German language.
+* **HLMOVEPOINT** – Used when moving points. This resource uses the German language.
+* **HLNEWELLIPSE** – Used by the **Ellipse** feature in the Drawing toolbar
+* **HLNEWRECTANGLE** – Used by the **Rectangle** feature in the Drawing toolbar
+* **HLROTATE** – Used by the **Rotate** feature in the Drawing toolbar. This resource uses the German language.
+* **HLSELECT** – Used when selecting anything. This resource uses the German language.
+* **HLSELECTCONTOUR** – Used when selecting contours. This resource uses the German language.
+* **HLSELECTPOINT** – Used when selecting points. This resource uses the German language.
+* **HLZOOMIN** – Used by the **Zoom In** feature in the Drawing toolbar. This resource uses the German language.
+* **HLZOOMOUT** – Used by the **Zoom Out** feature in the Drawing toolbar
+* **RV_JUMP_CURSOR** – Inverted jump cursor
+* **VT_HEADERSPLIT** – No meaning
+* **VT_MOVEALL** – Used when moving contours in simple glyphs.
+* **VT_MOVEE** – Used when moving contours in simple glyphs.
+* **VT_MOVEEW** – Used when moving contours in simple glyphs.
+* **VT_MOVEN** – Used when moving contours in simple glyphs.
+* **VT_MOVENE** – Used when moving contours in simple glyphs.
+* **VT_MOVENS** – Used when moving contours in simple glyphs.
+* **VT_MOVENW** – Used when moving contours in simple glyphs.
+* **VT_MOVES** – Used when moving contours in simple glyphs.
+* **VT_MOVESE** – Used when moving contours in simple glyphs.
+* **VT_MOVESW** – Used when moving contours in simple glyphs.
+* **VT_MOVEW** – Used when moving contours in simple glyphs.
+
+## Bitmaps in the executable file (Delphi resources omitted)
+* **HLCSPINDOWN** – Used in the spinner control.
+* **HLCSPINUP** – Used in the spinner control.
+* **RZCMBOBX_DEVICE** – Used in the font dropdown list.
+* **RZCMBOBX_FIXEDPITCH** – Used in the font dropdown list.
+* **RZCMBOBX_PRINTER** – Used in the font dropdown list.
+* **RZCMBOBX_TRUETYPE** – Used in the font dropdown list.
+* **RZCMBOBX_TRUETYPEFIXED** – Used in the font dropdown list.
+* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview. This resource uses the Argentinian Spanish language.
+* **TB2SYSMENUGLYPHS** – Used by the toolbars.
+* **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
+* **TBXSYSMENUIMAGES** – Used by the toolbars.
+* **TCOLORSELECTOR** – Used in the color selection dialog.
+* **VT_CHECK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_CHECK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_FLAT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_MOVEALL** – Cursor used for scrolling.
+* **VT_MOVEEW** – Cursor used for scrolling.
+* **VT_MOVENS** – Cursor used for scrolling.
+* **VT_TICK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_TICK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_UTILITIES** – Additional arrows.
+* **VT_XP** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_XPBUTTONMINUS** – No meaning
+* **VT_XPBUTTONPLUS** – No meaning
