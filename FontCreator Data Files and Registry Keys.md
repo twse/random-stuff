@@ -99,3 +99,59 @@ This document represents the data files and registry keys in FontCreator.
 * **Multiplier** – This corresponds to the **Size: Multiplier** option in the Image tab. (Available in Import Image)
 * **SmoothFilter** – This corresponds to the **Smooth Filter** option in the Image tab. Default is Smooth. (Available in Import Image)
 * **Threshold** – This corresponds to the **Threshold** option in the Image tab. Default is 150. (Available in Import Image)
+
+### Install
+* **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. When used with Windows Vista and above, you must have administrator privileges to install the font in Windows Fonts folder.
+
+### Interface Settings
+* **GlyphCaptionType** – Used with Caption radio buttons in the Overview tab. (Available in the Options window)
+* **KerningFolderExport** – Directory for exporting the legacy kerning tables.
+* **KerningFolderImport** – Directory for importing the legacy kerning tables.
+* **OpenDialogInitialDir** – Directory used in Open dialog.
+* **OpenDialogInitialDirAutoKerning** – Directory used in AutoKern Open dialog.
+* **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
+* **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
+* **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
+* **OverviewSampleFont** – Used with **Font overview: Font used by samples** option in the Overview tab. Default is Arial. If empty, all glyphs are displayed using MS Sans Serif with all glyphs shifted to other position. (Available in the Options window)
+* **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
+* **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
+* **OverviewSingleWidth** – Used with **Font overview: Glyph width** option in the Overview tab. Default is 70. (Available in the Options window)
+* **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** option in the Overview tab. (Available in the Options window)
+* **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** option in the Edit tab. Default is 1. (Available in the Options window)
+* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** option in the Edit tab. Default is 1. (Available in the Options window)
+* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** option in the Font tab. If enabled, glyph captions are shown in different colors. If disabled, glyph captions are shown in black. (Available in the Options window)
+* **SampleFileName** – Used with **Samples Toolbar: Filename** option in the Sample tab. Default is blank. (Available in the Options window)
+* **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** option in the Sample tab. Default is 55. (Available in the Options window)
+* **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** option in the Sample tab. Default is 62. (Available in the Options window)
+
+### Kerning (Versions 5.0 through 6.5)
+* **AutoKerningAllowForPositiveKerningValues** – This corresponds to the **Additional Options: Allow for positive kerning values** option in the AutoKern window.
+* **AutoKerningImportFilename** – This corresponds to the disabled text box with the filename string.
+* **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** option in the AutoKern window.
+* **AutoKerningReplaceKerning** – This corresponds to the **Additional Options: Replace existing kerning when** dropdown box in the AutoKern window.
+* **AutoKerningReplacePercentage** – This corresponds to the **Additional Options: Replace existing kerning when** slider in the AutoKern window.
+* **AutoKerningWhiteSpace** – This corresponds to the **Additional Options: White space between characters** option in the AutoKern window.
+* **KerningColorGridLines** – Select the color used for the Grid Lines.
+* **KerningColorLeft** – Select the color used for the left glyph. Default is dark blue.
+* **KerningColorRight** – Select the color used for the right glyph.
+* **KerningShowBearingLines** – Display bearing lines in Kerning window.
+* **KerningShowGridLines** – Display grid lines in Kerning window.
+
+### Last Time
+* **File_#** – Include last time used fonts whereas # is a number. When **OnStartupOpenFonts** is enabled, no fonts are opened if this file is deleted.
+
+### Metrics
+* **AutoMetricsExcludeEmptyGlyphs** – This corresponds to the **Additional Options: Exclude empty glyphs (recommended)** option in the AutoMetrics window.
+* **AutoMetricsFixedAW** – This corresponds to the **Fixed: Change Advance Width** spinner in the AutoMetrics window.
+* **AutoMetricsFixedChangeAW** – This corresponds to the **Fixed: Change Advance Width** option in the AutoMetrics window.
+* **AutoMetricsFixedChangeLSB** – This corresponds to the **Fixed: Change Left Side Bearing** option in the AutoMetrics window.
+* **AutoMetricsFixedLSB** – This corresponds to the **Fixed: Change Left Side Bearing** spinner in the AutoMetrics window.
+* **AutoMetricsOptionIndex** – This corresponds to the radio buttons in the AutoMetrics window.
+* **AutoMetricsWhiteSpaceAfter** – This corresponds to the **Calculated: White space after characters** option in the AutoMetrics window.
+* **AutoMetricsWhiteSpaceBefore** – This corresponds to the **Calculated: White space before characters** option in the AutoMetrics window.
+
+### MetricsAndKerning
+* **MetricsAndKerningKerningEnabled** – This corresponds to **Kerning** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningTextEnabled** – This corresponds to **Show text before and after glyph** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningTextLeft** – This corresponds to **Before** text box in the Comparison toolbar. Default is empty.
+* **MetricsAndKerningTextRight** – This corresponds to **After** text box in the Comparison toolbar. Default is empty.
