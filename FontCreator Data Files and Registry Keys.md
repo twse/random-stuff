@@ -1,6 +1,7 @@
 # FontCreator Data Files and Registry Keys
 This document represents the data files and registry keys in FontCreator.
 
+## Notes
 * Complete Composites slows down the first time using in simple and composite glyphs.
 * Glyphs and glyph outlines stored in the clipboard will have either the text "Glyph Contours" or "Glyph Data".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -17,7 +18,7 @@ This document represents the data files and registry keys in FontCreator.
 * Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * Versions from 5.0 through 6.0 makes **Complete Composites** dimmed in empty glyph(s).
 * Versions from 5.0 through 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
-* Versions prior 7.0 includes a built-in PostScript name list designed for Adobe fonts. The glyph *xi** assigns a codepoint of U+0000.
+* Versions prior 7.0 includes a built-in PostScript name list designed for Adobe fonts. The glyph **xi** assigns a codepoint of U+0000.
 
 ### User Data (Glyph Transformer scripts and Unicode data files omitted)
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview window for each Unicode codepoint.
