@@ -29,9 +29,10 @@ This document represents the data files and registry keys in FontCreator.
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program.
 * **FontCreator.tip** – Located in the program folder to store tips in the Tip of the Day Window. If removed, this window appears blank.
+* **glyphnames.dat** – For versions 7.0 and newer, includes the postscript names for each glyph.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
-* **previewtext.dat** – Includes text used in Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed.
+* **previewtext.dat** – Includes the text used in Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed.
 * **SubFamily.dat** – Located in the program folder to store naming fields for different languages.
 * **TableOffsetOrder.dat** – Located in the program folder as used by Font Tables: Supported. All tables are moved to Unsupported if removed.
 
