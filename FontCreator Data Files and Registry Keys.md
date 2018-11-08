@@ -5,7 +5,7 @@ This document represents the data files and registry keys in FontCreator.
 * Complete Composites slows down the first time using in simple and composite glyphs.
 * Glyphs and glyph outlines stored in the clipboard will have either the text "Glyph Contours" or "Glyph Data".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
-* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner ($) (tested with latest version) or UPX (tested with the version distributed with FreeDOS from late 2006) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
+* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner ($) (tested with latest version) or UPX (tested with version 2.01 from 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
