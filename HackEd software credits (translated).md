@@ -58,6 +58,13 @@ LE PRÉSENT LOGICIEL EST FOURNI "EN L’ÉTAT" SANS GARANTIE D'AUCUNE SORTE, NI�
 Copyright (c) 2002-2006 Marcus Geelnard<br />
 Copyright (c) 2006-2016 Camilla Löwy
 
+Ce logiciel est fourni "en l'état" sans garantie expresse ou implicite. EN aucun cas les auteurs ne seront tenus responsables pour tous dommages liés à l’utilisation du logiciel.
+
+Toute personne est autorisée à utiliser ce logiciel à quelque fin que ce soit pour n’importe quelle application commerciale et à le modifier et le redistribuer librement à condition de respecter les limitations suivantes :
+1. L'origine de ce logiciel ne doit pas être faussement représentée ; vous ne devez pas prétendre avoir écrit le logiciel original. Si vous utilisez ce logiciel dans un produit, une mention de reconnaissance à cet effet dans la documentation du produit serait appréciée, quoique non requise.
+2. Les versions avec une source altérée doivent être clairement indiquées comme telles et ne doivent pas être faussement présentées comme étant le logiciel original.
+3. Cet avis ne peut être enlevé, ni modifié, d'aucune distribution de source. 
+
 ## Spanish
 
 ### Información de derechos de autor y licencias para InkyBlackness - HackEd y imgui
