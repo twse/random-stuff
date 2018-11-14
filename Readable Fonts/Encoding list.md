@@ -70,6 +70,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CER-GS    | Celtic Extended Roman GS                       |
 | CHUVLAT   | Chuvash (Latin)                                |
 | CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
+| CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
 | CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
@@ -91,7 +92,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | IBERIAN   | Iberian letters on cp850 codepoints            |
 | ICELAND   | Icelandic letters on cp850 codepoints          |
 | ILPROM    | ILPRumanianB100                                |
-| IR-197    | ISO-IR 197 Saami                               |
+| IR-197    | ISO-IR 197 Sámi                                |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
 | KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
@@ -129,6 +130,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | T2C       | TeX Cyrillic Encoding 3                        |
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
+| TEX-GR    | TeX Greek                                      |
 | TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
 | TMS_EU    | Times New Roman Euransi                        |
