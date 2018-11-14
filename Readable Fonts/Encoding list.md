@@ -4,6 +4,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 ### Encodings with a set numerical string
 | File Name | Description                                |
 |-----------|--------------------------------------------|
+| CP113     | Yugoslavian                                |
 | CP668     | Polish letters on cp852 codepoints         |
 | CP687     | Czech Kamenický                            |
 | CP770     | Baltic                                     |
