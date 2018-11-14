@@ -65,6 +65,25 @@ Toute personne est autorisée à utiliser ce logiciel à quelque fin que ce soit
 2. Les versions avec une source altérée doivent être clairement indiquées comme telles et ne doivent pas être faussement présentées comme étant le logiciel original.
 3. Cet avis ne peut être enlevé, ni modifié, d'aucune distribution de source. 
 
+### Droit d'auteur et information sur l'octroi de licence pour MinGW-w64
+À l'exception de certaines parties qui sont clairement identifiées comme appartenant au domaine public, à BSD ou à LGPL, ce logiciel est fourni sous la version 2 1 de la licence publique Zope (ZPL).
+
+Copyright (c) 2009 - 2013 pour le projet mingw-w64
+
+Voir la fichier AUTHORS pour la liste des contributeura au projet mingw-w64.
+
+Cette licence a été certifiée en open source. Il a également été désigné comme compatible GPL par la Free Software Foundation (FSF).
+
+La La redistribution et l’utilisation des formes source et binaire, avec ou sans modification, sont permises dans la mesure où les conditions suivantes sont respectées :
+1. Les redistributions du code source doivent conserver l’avis de droit d’auteur ci-dessus, la présente liste des modalités et l’avis de non-responsabilité suivant.
+2. Les redistributions en forme binaire doivent reproduire l’avis de droit d’auteur ci-dessus, la présente liste des modalités et l’avis de non-responsabilité suivant dans la documentation et/ou les autres matériaux fournis avec la distribution.
+3. Les noms des détenteurs des droits d'auteur ne doiv ent pasêtre utilisés pour endosser ou promouvoir des produits dérivés de ce logiciel sans une autorisation écrite préalable spécifique des détenteurs des droits d'auteur.
+4. Le droit de distribuer ce logiciel ou de l'utiliser à quelque fin que ce soit ne vous donne pas le droit d'utiliser des marques de service (sm) ou des marques commerciales (tm) des détenteurs des droits d'auteur. Leur utilisation est couverte par un accord séparé avec les détenteurs des droits d'auteur.
+5. Si des fichiers sont modifiés, vous devez faire en sorte que les fichiers modifiés comportent des avis bien visibles indiquant que vous avez modifié les fichiers et la date de toute modification.
+
+Avis de non-responsabilité<br />
+LE PRÉSENT LOGICIEL EST FOURNI PAR LES DÉTENTEURS DES DROITS D’AUTEURS "EN L’ÉTAT" ET TOUTE GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS, SANS EN EXCLURE D’AUTRES, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET D’ADÉQUATION À UN OBJECTIF PARTICULIER, EST REFUSÉE. EN AUCUN CAS LES DÉTENTEURS DES DROITS D’AUTEURS NE SERONT RESPONSABLES DE TOUT DOMMAGE DIRECT, INDIRECT, ACCESSOIRE, SPÉCIAL, EXEMPLAIRE OU CONSÉCUTIF (Y COMPRIS, SANS EN EXCLURE D’AUTRES, L’ACQUISITION DE PRODUITS OU DE SERVICES SUBSTITUTS, LA PERTE D’UTILISATION, DE DONNÉES OU DE PROFITS OU L’INTERRUPTION D’ACTIVITÉS) CAUSÉ DE QUELQUE FAÇON QUE CE SOIT ET EN FONCTION DE QUELQUE THÉORIE DE RESPONSABILITÉ QUE CE SOIT, QU’IL S’AGISSE D’UN CONTRAT, D’UNE RESPONSABILITÉ OBJECTIVE OU D’UN DÉLIT CIVIL (Y COMPRIS NÉGLIGENCE OU AUTRE) QUI S’ENSUIT DE QUELQUE FAÇON QUE CE SOIT DE L’UTILISATION DU PRÉSENT LOGICIEL, MÊME S’IL Y A EU AVERTISSEMENT DE LA POSSIBILITÉ DE PAREIL DOMMAGE.
+
 ## Spanish
 
 ### Información de derechos de autor y licencias para InkyBlackness - HackEd y imgui
