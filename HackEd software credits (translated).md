@@ -107,3 +107,36 @@ Se permite la redistribución y el uso de las formas fuentes y binaria, con o si
 3. Ni el nombre de Google Inc. ni los nombres de sus colaboradores pueden usarse para respaldar o promocionar productos derivados de este software sin un permiso previo específico por escrito.
 
 ESTE SOFTWARE SE PROPORCIONA "TAL COMO ESTÁ" POR PARTE DE LOS TITULARES DR DERECHOS DE AUTOR Y CONTRIBUYENTES, Y CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIALIZACIÓN Y ADECUACIÓN PARA UN PROPÓSITO PARTICULAR, SE NIEGA. BAJO NINGUNA CIRCUNSTANCIA LOS TITULARES DE DERECHOS DE AUTOR Y LOS CONTRIBUYENTES SERÁN RESPONSABLES DE CUALQUIER DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENTE (QUE IMCLUYE), ENTRE OTROS, LA ADQUISICIÓN DE PRODUCTOS O SERVICIOS SUSTITUTOS, PÉRDIDA DE USO, DATOS O GANANCIAS O INTERRUPCIÓN DEL NEGOCIO) CAUSADA DE CUALQUIER MANERA Y SOBRE AL BASE DE CUALQUIER TEORÍA DE RESPONSABILIDAD ESTRICTA O RESPONSABILIDAD EXTRACONTRACTUAL (INCLUIDA NEGLIGENCIA U OTRO) QUE ESTO DE ALCUNA MANERA DEL USO DE ESTE SOFTWARE, INCLUSO SI HA HABIDO UNA ADVERTENCIA DE LA POSIBILIDAD DE TAL DAÑO.
+
+### Información de derechos de autor y licencias para go-gl/mathgl
+Copyright ©2013 El autores de go-gl. Todos los derechos reservados.
+
+Se permite la redistribución y el uso de las formas fuentes y binaria, con o sin modificación, en la medida que cumplan las siguientes condiciones:
+
+1. Las redistribuciones del código fuente deben conservar el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad.
+2. Las redistribuciones en formato binario deben reproducir el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad en la documentación y/u otros materiales proporcionadas con la distribución.
+3. Ni el nombre de Google Inc. ni los nombres de sus colaboradores pueden usarse para respaldar o promocionar productos derivados de este software sin un permiso previo específico por escrito.
+
+ESTE SOFTWARE SE PROPORCIONA "TAL COMO ESTÁ" POR PARTE DE LOS TITULARES DR DERECHOS DE AUTOR Y CONTRIBUYENTES, Y CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIALIZACIÓN Y ADECUACIÓN PARA UN PROPÓSITO PARTICULAR, SE NIEGA. BAJO NINGUNA CIRCUNSTANCIA LOS TITULARES DE DERECHOS DE AUTOR Y LOS CONTRIBUYENTES SERÁN RESPONSABLES DE CUALQUIER DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENTE (QUE IMCLUYE), ENTRE OTROS, LA ADQUISICIÓN DE PRODUCTOS O SERVICIOS SUSTITUTOS, PÉRDIDA DE USO, DATOS O GANANCIAS O INTERRUPCIÓN DEL NEGOCIO) CAUSADA DE CUALQUIER MANERA Y SOBRE AL BASE DE CUALQUIER TEORÍA DE RESPONSABILIDAD ESTRICTA O RESPONSABILIDAD EXTRACONTRACTUAL (INCLUIDA NEGLIGENCIA U OTRO) QUE ESTO DE ALCUNA MANERA DEL USO DE ESTE SOFTWARE, INCLUSO SI HA HABIDO UNA ADVERTENCIA DE LA POSIBILIDAD DE TAL DAÑO.
+
+### Información de derechos de autor y licencias para go-gl/opengl
+El licencia MIT (MIT)
+
+Copyright (c) 2014 Eric Woroshow
+
+Por la presente se otorga el permiso, sin cargo, a cualquier persona que obtenga una copia de este software y los archivos de documentación relacionados (el "Software") para manejar el Software sin restricciones, incluidos, entre otros, los derechos para usar, modificar, copiar, agrupar, publicar, distribuir y sub-licenciar y/o vender copias del Software y permitir que las personas a quienes se proporciona el Software lo hagan, en la medida en que se cumplan las siguientes condiciones:
+
+El aviso o avisos de copyright anteriores y este aviso de permiso deben aparecer en todas las copias del Software o en partes sustanciales del Software.
+
+ESTE SOFTWARE SE PROPORCIONA "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO O GARANTÍA, YA SE EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN DE DERECHOS. BAJO NINGUNA CIRCUNSTANCIA LOS AUTORES O LOS TITULARES DE DERECHOS DE AUTOR SERÁN RESPONSABLES DE QUALQUIER RECLAMO, DAÑO U OTRO RECLAMO QUE RESULTE DE UN INCUMPLIMIENTO DE CONTRATO, AGRAVIO O DE OTRA MANERA QUE SURJA DIRECTA O INDIRECTAMENTE DEL SOFTWARE, SU USO O DE SU MANIPULACIÓN.
+
+### Información de derechos de autor y licencias para Dear ImGui
+El licencia MIT (MIT)
+
+Copyright (c) 2014-2018 Omar Cornut
+
+Por la presente se otorga el permiso, sin cargo, a cualquier persona que obtenga una copia de este software y los archivos de documentación relacionados (el "Software") para manejar el Software sin restricciones, incluidos, entre otros, los derechos para usar, modificar, copiar, agrupar, publicar, distribuir y sub-licenciar y/o vender copias del Software y permitir que las personas a quienes se proporciona el Software lo hagan, en la medida en que se cumplan las siguientes condiciones:
+
+El aviso o avisos de copyright anteriores y este aviso de permiso deben aparecer en todas las copias del Software o en partes sustanciales del Software.
+
+ESTE SOFTWARE SE PROPORCIONA "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO O GARANTÍA, YA SE EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN DE DERECHOS. BAJO NINGUNA CIRCUNSTANCIA LOS AUTORES O LOS TITULARES DE DERECHOS DE AUTOR SERÁN RESPONSABLES DE QUALQUIER RECLAMO, DAÑO U OTRO RECLAMO QUE RESULTE DE UN INCUMPLIMIENTO DE CONTRATO, AGRAVIO O DE OTRA MANERA QUE SURJA DIRECTA O INDIRECTAMENTE DEL SOFTWARE, SU USO O DE SU MANIPULACIÓN.
