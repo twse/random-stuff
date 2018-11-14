@@ -10,8 +10,9 @@ On the PC platform, three character sets are in common use:
 * Windows CP1250. Supports Czech, Slovak, Polish, Hungarian, Slovenian, Bosnian, Croatian, Serbian and Albanian languages. No support for Baltic languages.
 * Windows CP1257. Supports Polish, Slovenian, Estonian, Latvian and Lithuanian languages. No support for Czech, Slovak, Hungarian, Bosnian, Croatian nor Serbian languages.
 
-On Linux and Unix, one character set is in common use:
+On Linux and Unix, two character sets are in common use:
 * ISO 8859-2. Supports CE languages but not Baltic languages.
+* ISO 8859-5. Supports Baltic languages but not CE languages.
 
 On OS/2 and MS-DOS, nine character sets are in common use:
 * CP113. Supports Slovenian, Bosnian, Croatian and Serbian languages.
@@ -23,6 +24,9 @@ On OS/2 and MS-DOS, nine character sets are in common use:
 * IBM CP921. OS/2. Supports Baltic languages but not CE languages.
 * Kamenický. Supports Czech and Slovak languages but not other CE languages.
 * Mazovia. Supports Polish language but not other CE languages.
+
+On TeX, one character set is in common use:
+* Cork. Supports Western and Central European languages in Latin script.
 
 ## Fonts
 * Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
