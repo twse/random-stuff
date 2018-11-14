@@ -32,6 +32,17 @@ La redistribution et l’utilisation des formes source et binaire, avec ou sans 
 
 LE PRÉSENT LOGICIEL EST FOURNI PAR LES DÉTENTEURS DES DROITS D’AUTEUR ET LES CONTRIBUTEURS "EN L’ÉTAT" ET TOUTE GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS, SANS EN EXCLURE D’AUTRES, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET D’ADÉQUATION À UN OBJECTIF PARTICULIER, EST REFUSÉE. EN AUCUN CAS LES DÉTENTEURS DES DROITS D’AUTEUR OU LES CONTRIBUTEURS NE SERONT RESPONSABLES DE TOUT DOMMAGE DIRECT, INDIRECT, ACCESSOIRE, SPÉCIAL, EXEMPLAIRE OU CONSÉCUTIF (Y COMPRIS, SANS EN EXCLURE D’AUTRES, L’ACQUISITION DE PRODUITS OU DE SERVICES SUBSTITUTS, LA PERTE D’UTILISATION, DE DONNÉES OU DE PROFITS OU L’INTERRUPTION D’ACTIVITÉS) CAUSÉ DE QUELQUE FAÇON QUE CE SOIT ET EN FONCTION DE QUELQUE THÉORIE DE RESPONSABILITÉ QUE CE SOIT, QU’IL S’AGISSE D’UN CONTRAT, D’UNE RESPONSABILITÉ OBJECTIVE OU D’UN DÉLIT CIVIL (Y COMPRIS NÉGLIGENCE OU AUTRE) QUI S’ENSUIT DE QUELQUE FAÇON QUE CE SOIT DE L’UTILISATION DU PRÉSENT LOGICIEL, MÊME S’IL Y A EU AVERTISSEMENT DE LA POSSIBILITÉ DE PAREIL DOMMAGE.
 
+### Droit d'auteur et information sur l'octroi de licence pour go-gl/opengl
+La licence MIT (MIT)
+
+Copyright (c) 2014 Eric Woroshow
+
+La permission est par la présente accordée, sans frais, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation connexes (le "Logiciel") de manipuler le Logiciel sans restriction, incluant, sans s'y limiter, le droit d'utiliser, de modifier, de copier, de grouper, de publier, de distribuer, d'attribuer en sous-licence et/ou de vendre des copies du Logiciel et de permettre aux personnes à qui le Logiciel est fourni de le faire, dans la mesure où les conditions suivantes sont respectées :
+
+L'avis ou les avis de droit d'auteur susmentionné(s) et cet avis de permission doivent apparaître sur toutes les copies du Logiciel ou dans des portions substantielles du Logiciel.
+
+LE PRÉSENT LOGICIEL EST FOURNI "EN L’ÉTAT" SANS GARANTIE D'AUCUNE SORTE, NI GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS, SANS EN EXCLURE D’AUTRES, LES GARANTIES DE QUALITÉ MARCHANDE, D’ADÉQUATION À UN OBJECTIF PARTICULIER ET DE NON-VIOLATION DES DROITS. EN AUCUN CAS LES AUTEURS OU LES DÉTENTEURS DE DROITS D’AUTEUR NE SERONT TENUS RESPONSABLES POUR TOUTES RÉCLAMATIONS, TOUS DOMMAGES OU AUTRES DEMANDES RÉSULTANT D'UN BRIS DE CONTRAT, DE DÉLIT CIVIL OU AUTRE DÉCOULANT DIRECTEMENT OU INDIRECTEMENT DU LOGICIEL, DE SON UTILISATION OU DE SA MANIPULATION.
+
 ### Droit d'auteur et information sur l'octroi de licence pour Dear ImGui
 La licence MIT (MIT)
 
