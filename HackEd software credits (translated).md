@@ -140,3 +140,23 @@ Por la presente se otorga el permiso, sin cargo, a cualquier persona que obtenga
 El aviso o avisos de copyright anteriores y este aviso de permiso deben aparecer en todas las copias del Software o en partes sustanciales del Software.
 
 ESTE SOFTWARE SE PROPORCIONA "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO O GARANTÍA, YA SE EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN DE DERECHOS. BAJO NINGUNA CIRCUNSTANCIA LOS AUTORES O LOS TITULARES DE DERECHOS DE AUTOR SERÁN RESPONSABLES DE QUALQUIER RECLAMO, DAÑO U OTRO RECLAMO QUE RESULTE DE UN INCUMPLIMIENTO DE CONTRATO, AGRAVIO O DE OTRA MANERA QUE SURJA DIRECTA O INDIRECTAMENTE DEL SOFTWARE, SU USO O DE SU MANIPULACIÓN.
+
+### Información de derechos de autor y licencias para GLFW
+Copyright (c) 2002-2006 Marcus Geelnard<br />
+Copyright (c) 2006-2016 Camilla Löwy
+
+Este software se proporciona "tal cual" sin ningun garantía tanto expresa como implícita. Bajo ninguna circunstancia los autores serán responsables de los daños relacionados con el uso del software.
+
+Cualquier persona está autorizada para usar este software para cualquier aplicación comercial y para modificarlo y redistribuirlo libremente siempre que se cumplan las siguientes limitaciones:
+1. El origen de este software no debe ser tergiversado; no debe reclamar hacer escrito el software original. Si utiliza este software en un producto, se agradecería una nota de reconocimiento a tal efecto en la documentación del producto, aunque no sea necesario.
+2. Las versiones con una fuente alterada deben estar claramente marcadas como tales y no deben tergiversarse como el software original.
+3. Este aviso no se puede eliminar ni modificar de ninguna distribución de origen.
+
+### Información de derechos de autor y licencias para MinGW-w64
+Con la excepción de ciertas partes que están marcadas de forma destacada como de dominio público, BSD o LGPL, este software se proporciona bajo la licencia pública de Zope (ZPL) versión 2.1.
+
+Copyright (c) 2009 - 2013 por el proyecto mingw-w64
+
+Consulte el archivo AUTHORS para ver la lista de colaboradores del proyecto mingw-w64.
+
+Esta licencia ha sido certificada como fuente abierta. También ha sido designado como compatible con GPL por la Free Software Foundation (FSF).
