@@ -30,7 +30,18 @@
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
+| CER-GS    | Celtic Extended Roman GS                       |
+| CHUVLAT   | Chuvash (Latin)                                |
+| CORK      | TeX Cork                                       |
+| CWI2      | Hungarian CWI-2                                |
+| CZECH     | Czech letters on cp852 codepoints              |
+| CZECHLF   | LinguaFont Czech                               |
+| GUARANI   | Guarani letters on cp30023 codepoints          |
+| HAUSA     | Hausa letters on African codepoints            |
 | IBERIAN   | Iberian letters on cp850 codepoints            |
+| ILPROM    | ILPRumanianB100                                |
+| IR-197    | ISO-IR 197 Sámi                                |
+| ISTROMEG  | Istro/Megleno-Romanian                         |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
