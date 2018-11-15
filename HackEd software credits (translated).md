@@ -112,7 +112,6 @@ ESTE SOFTWARE SE PROPORCIONA "TAL COMO ESTÁ" POR PARTE DE LOS TITULARES DR DERE
 Copyright ©2013 El autores de go-gl. Todos los derechos reservados.
 
 Se permite la redistribución y el uso de las formas fuentes y binaria, con o sin modificación, en la medida que cumplan las siguientes condiciones:
-
 1. Las redistribuciones del código fuente deben conservar el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad.
 2. Las redistribuciones en formato binario deben reproducir el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad en la documentación y/u otros materiales proporcionadas con la distribución.
 3. Ni el nombre de Google Inc. ni los nombres de sus colaboradores pueden usarse para respaldar o promocionar productos derivados de este software sin un permiso previo específico por escrito.
@@ -160,3 +159,13 @@ Copyright (c) 2009 - 2013 por el proyecto mingw-w64
 Consulte el archivo AUTHORS para ver la lista de colaboradores del proyecto mingw-w64.
 
 Esta licencia ha sido certificada como fuente abierta. También ha sido designado como compatible con GPL por la Free Software Foundation (FSF).
+
+Se permite la redistribución y el uso de las formas fuentes y binaria, con o sin modificación, en la medida que cumplan las siguientes condiciones:
+1. Las redistribuciones del código fuente deben conservar el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad.
+2. Las redistribuciones en formato binario deben reproducir el aviso de copyright anterior, esta lista de términos y el siguiente cláusula de exención de responsabilidad en la documentación y/u otros materiales proporcionadas con la distribución.
+3. Los nombres de los titulares de derechos de autor no deben usarse para respaldar o promocionar productos derivados de este software sin un permiso previo específico por escrito por los titulares de derechos de autor.
+4. El derecho a distribuir este software o utilizarlo para cualquier propósito no le otorga el derecho de usar marcas de servicio (sm) o marcas comerciales (tm) de los proprietarios de los derechos de autor. El uso de ellos está cubierto por un acuerdo separado con los titulares de los derechos de autor.
+5. Si se modifica algún archivo, debe hacer que los archivos modificados contengan los avisos prominentes indiquen que cambió y los archivos y la fecha de cualquier cambio.
+
+Cláusula de exención de responsabilidad<br />
+ESTE SOFTWARE SE PROPORCIONA "TAL COMO ESTÁ" POR PARTE DE LOS TITULARES DR DERECHOS DE AUTORES, Y CUALQUIER GARANTÍA EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIALIZACIÓN Y ADECUACIÓN PARA UN PROPÓSITO PARTICULAR, SE NIEGA. BAJO NINGUNA CIRCUNSTANCIA LOS TITULARES DE DERECHOS DE AUTORES SERÁN RESPONSABLES DE CUALQUIER DAÑO DIRECTO, INDIRECTO, INCIDENTAL, ESPECIAL, EJEMPLAR O CONSECUENTE (QUE IMCLUYE), ENTRE OTROS, LA ADQUISICIÓN DE PRODUCTOS O SERVICIOS SUSTITUTOS, PÉRDIDA DE USO, DATOS O GANANCIAS O INTERRUPCIÓN DEL NEGOCIO) CAUSADA DE CUALQUIER MANERA Y SOBRE AL BASE DE CUALQUIER TEORÍA DE RESPONSABILIDAD ESTRICTA O RESPONSABILIDAD EXTRACONTRACTUAL (INCLUIDA NEGLIGENCIA U OTRO) QUE ESTO DE ALCUNA MANERA DEL USO DE ESTE SOFTWARE, INCLUSO SI HA HABIDO UNA ADVERTENCIA DE LA POSIBILIDAD DE TAL DAÑO.
