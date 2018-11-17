@@ -3,7 +3,7 @@
 ### Droit d'auteur et information sur l'octroi de licence pour InkyBlackness - HackEd et imgui
 Nouveau licence BSD
 
-© 2018, Christian Haas. Tous droits résérves.
+© 2018, Christian Haas. Tous droits réservés.
 
 La redistribution et l’utilisation des formes source et binaire, avec ou sans modification, sont permises dans la mesure où les conditions suivantes sont respectées :
 1. Les redistributions du code source doivent conserver l’avis de droit d’auteur ci-dessus, la présente liste des modalités et l’avis de non-responsabilité suivant.
