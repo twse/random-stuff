@@ -74,7 +74,7 @@ Voir la fichier AUTHORS pour la liste des contributeura au projet mingw-w64.
 
 Cette licence a été certifiée en open source. Il a également été désigné comme compatible GPL par la Free Software Foundation (FSF).
 
-La La redistribution et l’utilisation des formes source et binaire, avec ou sans modification, sont permises dans la mesure où les conditions suivantes sont respectées :
+La redistribution et l’utilisation des formes source et binaire, avec ou sans modification, sont permises dans la mesure où les conditions suivantes sont respectées :
 1. Les redistributions du code source doivent conserver l’avis de droit d’auteur ci-dessus, la présente liste des modalités et l’avis de non-responsabilité suivant.
 2. Les redistributions en forme binaire doivent reproduire l’avis de droit d’auteur ci-dessus, la présente liste des modalités et l’avis de non-responsabilité suivant dans la documentation et/ou les autres matériaux fournis avec la distribution.
 3. Les noms des détenteurs des droits d'auteur ne doiv ent pasêtre utilisés pour endosser ou promouvoir des produits dérivés de ce logiciel sans une autorisation écrite préalable spécifique des détenteurs des droits d'auteur.
@@ -83,6 +83,19 @@ La La redistribution et l’utilisation des formes source et binaire, avec ou sa
 
 Avis de non-responsabilité<br />
 LE PRÉSENT LOGICIEL EST FOURNI PAR LES DÉTENTEURS DES DROITS D’AUTEURS "EN L’ÉTAT" ET TOUTE GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS, SANS EN EXCLURE D’AUTRES, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET D’ADÉQUATION À UN OBJECTIF PARTICULIER, EST REFUSÉE. EN AUCUN CAS LES DÉTENTEURS DES DROITS D’AUTEURS NE SERONT RESPONSABLES DE TOUT DOMMAGE DIRECT, INDIRECT, ACCESSOIRE, SPÉCIAL, EXEMPLAIRE OU CONSÉCUTIF (Y COMPRIS, SANS EN EXCLURE D’AUTRES, L’ACQUISITION DE PRODUITS OU DE SERVICES SUBSTITUTS, LA PERTE D’UTILISATION, DE DONNÉES OU DE PROFITS OU L’INTERRUPTION D’ACTIVITÉS) CAUSÉ DE QUELQUE FAÇON QUE CE SOIT ET EN FONCTION DE QUELQUE THÉORIE DE RESPONSABILITÉ QUE CE SOIT, QU’IL S’AGISSE D’UN CONTRAT, D’UNE RESPONSABILITÉ OBJECTIVE OU D’UN DÉLIT CIVIL (Y COMPRIS NÉGLIGENCE OU AUTRE) QUI S’ENSUIT DE QUELQUE FAÇON QUE CE SOIT DE L’UTILISATION DU PRÉSENT LOGICIEL, MÊME S’IL Y A EU AVERTISSEMENT DE LA POSSIBILITÉ DE PAREIL DOMMAGE.
+
+## Italian
+
+### Informazioni su copyright e licenze per GLFW
+Copyright (c) 2002-2006 Marcus Geelnard<br />
+Copyright (c) 2006-2016 Camilla Löwy
+
+Questo software è fornito "così com'è" senza alcuna garanzia espressa o implicita. In nessun caso gli autori saranno ritenuti responsabili per eventuali danni connessi all'uso del software.
+
+Chiunque è autorizzato a utilizzare questo software per qualsiasi scopo per qualsiasi applicazione commerciale e a modificarlo e ridistribuirlo liberamente, a condizione che siano soddisfatte le seguenti limitazioni:
+1. L'origine di questo software non dovrebbe essere travisata; non devi pretendere di aver scritto il software originale. Se si utilizza questo software in un prodotto, una nota di riconoscimento in tal senso nella documentazione del prodotto sarebbe apprezzata, sebbene non necessaria.
+2. Le versioni con una fonte modificata dovrebbero essere chiaramente contrassegnate come tali e non dovrebbero essere travisate come il software originale.
+3. Questo avviso non può essere rimosso o modificato da alcuna distribuzione di origine.
 
 ## Spanish
 
