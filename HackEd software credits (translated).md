@@ -86,6 +86,18 @@ LE PRÉSENT LOGICIEL EST FOURNI PAR LES DÉTENTEURS DES DROITS D’AUTEURS "EN L
 
 ## Italian
 
+### Informazioni su copyright e licenze per InkyBlackness - HackEd e imgui
+Novo licenze BSD
+
+© 2018, Christian Haas. Tutti i diritti riservati.
+
+La ridistribuzione e l'uso di moduli sorgente e binari, con o senza modifiche, sono consentiti nella misura in cui sono soddisfatte le seguenti condizioni:
+1. Le ridistribuzioni del codice sorgente devono conservare la suddetta nota sul copyright, questa elenco di termini e il seguente disclaimer.
+2. Le ridistribuzioni in formato binario devono riprodurre la suddetta nota sul copyright, questo elenco di termini e il disclaimer nella documentazione e/o in altri materiali forniti con la distribuzione.
+3  Né il nome "InkyBlackness" né i nomi dei suoi contributori possono essere utilizzati per sostenere o promuovere prodotti derivati ​​da questo software senza previa autorizzazione scritta.
+
+QUESTO SOFTWARE È FORNITO "COSÌ COM'È" SENZA ALCUNA GARANZIA ESPRESSA O IMPLICITA, INCLUSE MA NON LIMITATE ALLE GARANZIE IMPLICITE DI COMMERCIABILITÀ, IDONEITÀ PER UNO SCOPPO PARTICOLARE E VIOLAZIONE DELL'INFRAZIONE. IN NESSUNA CIRCOSTANZA IL DETENTORE DEI DIRITTI DI CUI SOPRA SARÀ RITENUTO RESPONSABILE PER DANNI DIRETTI, INDIRETTI, INCIDENTALI, SPECIALI, ESEMPLARI O CONSEQUENZIALI (INCLUSA, A TITOLO ESSEMPLIFICATIVO MA NON ESAUSTIVO, L'ACQUISTO DI PRODOTTI O SERVIZI SOSTITUTI, LA PERDITA DI USO, DATI O PROFITTI, O L'INTERRUZIONE DI ATTIVITÀ) CAUSATI IN QUALSIASI MODO E SECONDO QUALSIASI TEORIA DI RESPONSABILITÀ DI QUALSIASI TIPO, SIA ESSO UN CONTRATTO, DI QUALSIASI RESPONSABILITÀ OGGETTIVA O ILLECITO (INCLUSA NA NEGLIGENZA O ALTRO) CHE POSSA DERIVARE IN QUALSIASI MODO DALL'USO DI QUESTO SOFTWARE, ANCHE SE C'È STATO UN AVVERIMENTO SULLA POSSIBILITÀ DI TALE DANNO.
+
 ### Informazioni su copyright e licenze per GLFW
 Copyright (c) 2002-2006 Marcus Geelnard<br />
 Copyright (c) 2006-2016 Camilla Löwy
