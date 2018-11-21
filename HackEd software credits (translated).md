@@ -70,7 +70,7 @@ Toute personne est autorisée à utiliser ce logiciel à quelque fin que ce soit
 
 Copyright (c) 2009 - 2013 pour le projet mingw-w64
 
-Voir la fichier AUTHORS pour la liste des contributeura au projet mingw-w64.
+Voir la fichier AUTHORS pour la liste des contributeurs au projet mingw-w64.
 
 Cette licence a été certifiée en open source. Il a également été désigné comme compatible GPL par la Free Software Foundation (FSF).
 
@@ -93,7 +93,7 @@ Novo licenze BSD
 
 La ridistribuzione e l'uso di moduli sorgente e binari, con o senza modifiche, sono consentiti nella misura in cui sono soddisfatte le seguenti condizioni:
 1. Le ridistribuzioni del codice sorgente devono conservare la suddetta nota sul copyright, questa elenco di termini e il seguente disclaimer.
-2. Le ridistribuzioni in formato binario devono riprodurre la suddetta nota sul copyright, questo elenco di termini e il disclaimer nella documentazione e/o in altri materiali forniti con la distribuzione.
+2. Le ridistribuzioni in formato binario devono riprodurre la suddetta nota sul copyright, questo elenco di termini e il seguente disclaimer nella documentazione e/o in altri materiali forniti con la distribuzione.
 3. Né il nome "InkyBlackness" né i nomi dei suoi contributori possono essere utilizzati per sostenere o promuovere prodotti derivati da questo software senza previa autorizzazione scritta.
 
 QUESTO SOFTWARE È FORNITO "COSÌ COM'È" SENZA ALCUNA GARANZIA ESPRESSA O IMPLICITA, INCLUSE MA NON LIMITATE ALLE GARANZIE IMPLICITE DI COMMERCIABILITÀ, IDONEITÀ PER UNO SCOPPO PARTICOLARE E VIOLAZIONE DELL'INFRAZIONE. IN NESSUNA CIRCOSTANZA IL DETENTORE DEI DIRITTI DI CUI SOPRA SARÀ RITENUTO RESPONSABILE PER DANNI DIRETTI, INDIRETTI, INCIDENTALI, SPECIALI, ESEMPLARI O CONSEQUENZIALI (INCLUSA, A TITOLO ESSEMPLIFICATIVO MA NON ESAUSTIVO, L'ACQUISTO DI PRODOTTI O SERVIZI SOSTITUTI, LA PERDITA DI USO, DATI O PROFITTI, O L'INTERRUZIONE DI ATTIVITÀ) CAUSATI IN QUALSIASI MODO E SECONDO QUALSIASI TEORIA DI RESPONSABILITÀ DI QUALSIASI TIPO, SIA ESSO UN CONTRATTO, DI QUALSIASI RESPONSABILITÀ OGGETTIVA O ILLECITO (INCLUSA NA NEGLIGENZA O ALTRO) CHE POSSA DERIVARE IN QUALSIASI MODO DALL'USO DI QUESTO SOFTWARE, ANCHE SE C'È STATO UN AVVERIMENTO SULLA POSSIBILITÀ DI TALE DANNO.
