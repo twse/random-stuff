@@ -133,6 +133,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TEX-GR    | TeX Greek                                      |
 | TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
+| TITUSEE   | TITUS Eastern European                         |
 | TMS_EU    | Times New Roman Euransi                        |
 | TMSEA     | Euransi Times                                  |
 | TMSEUS    | Times New Roman Basque                         |
