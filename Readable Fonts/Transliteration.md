@@ -3,7 +3,7 @@ Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transl
 
 avesta.orgtranscription (2010), a font in OpenType PostScript format, is based on Mithra (2000) and designed for use with Avestan and Pahlavi transliteration. The font was created using FontCreator 6.2 (2010) and edited with FontForge. Many numbers and punctuation marks are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
 
-Michael Best (Murari Dasa) wrote a keyboard driver and created EGA and VGA fonts for Classical Sanskrit transliteration, ca. 1997.
+Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
 
 Gudrun Bühnemann created a set of GPL licensed CSX fonts based on Courier, New Century Schoolbook or Times and a Norman encoding font based on Times. Download the fonts from [here](http://imp.ls.wisc.edu/~gbuhnema/macfonts.html) or [here](http://lca.wisc.edu/~gbuhnema/~fonts.html).
 
@@ -239,7 +239,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | z dieresis below    | Alt-246         | No key assigned |
 | z line below        | Alt-247         | No key assigned |
 
-### ALA-LC transliteration fonts (UniEdit) codes - Printer's Specials
+### ALA-LC transliteration fonts (UniEdit) codes – Printer's Specials
 | Glyph                | First              | Second             |
 |----------------------|--------------------|--------------------|
 | candrabindu          | No key assigned    | Alt-183 or Alt-247 |
@@ -318,7 +318,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | ezh               | Alt-145 |
 | ezh caron         | Alt-150 |
 
-### Armenian/Georgian transcription font codes - Printer's Specials
+### Armenian/Georgian transcription font codes – Printer's Specials
 | Glyph           | Codes   |
 |-----------------|---------|
 | cent            | Alt-158 |
@@ -413,7 +413,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | left half ring    | Alt-174 | less than       | Alt-174       |
 | right half ring   | Alt-175 | greater than    | Alt-175       |
 
-### Avestan/Pahlavi transliteration font codes - Printer's Specials
+### Avestan/Pahlavi transliteration font codes – Printer's Specials
 | Glyph           | Codes   |
 |-----------------|---------|
 | sterling        | Alt-156 |
@@ -543,7 +543,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | u breve           | Alt-231 | Alt-178          |
 | u ring            | Alt-243 | No key assigned  |
 
-### Chinese transliteration font codes - Floating accents and Printer's Specials
+### Chinese transliteration font codes – Floating accents and Printer's Specials
 | Glyph          | Codes   | URW Palladio KUL |
 |----------------|---------|------------------|
 | macron         | Alt-238 | Alt-137          |
@@ -554,7 +554,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | trademark      | Alt-242 | No key assigned  |
 | reversed comma | Alt-247 | No key assigned  |
 
-### CSX codes - Classical Sanskrit diacritics
+### CSX codes – Classical Sanskrit diacritics
 | Glyph              | Codes   |
 |--------------------|---------|
 | A macron           | Alt-226 |
@@ -592,7 +592,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | t dot below        | Alt-241 |
 | u macron           | Alt-229 |
 
-### CSX codes - Extended Indic diacritics
+### CSX codes – Extended Indic diacritics
 | Glyph          | Codes   |
 |----------------|---------|
 | a tilde        | Alt-208 |
@@ -609,7 +609,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | u tilde        | Alt-210 |
 | u macron breve | Alt-170 |
 
-### CSX codes - ISO 15919 diacritics and Printer's Specials for use with TT/PS fonts only
+### CSX codes – ISO 15919 diacritics and Printer's Specials for use with TT/PS fonts only
 | Glyph                     | Codes   |
 |---------------------------|---------|
 | AE macron                 | Alt-203 |
@@ -652,7 +652,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | nbspace (Windows)         | Alt-160 |
 | nbspace (macOS)           | Alt-202 |
 
-### CSX codes - Printer's Specials for use with VGA/EGA screen fonts only
+### CSX codes – Printer's Specials for use with VGA/EGA screen fonts only
 | Glyph           | Codes   |
 |-----------------|---------|
 | cent            | Alt-155 |
@@ -665,7 +665,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | guillemot right | Alt-175 |
 | radical         | Alt-251 |
 
-### CSX codes - Vedic Sanskrit
+### CSX codes – Vedic Sanskrit
 | Glyph                    | Codes   |
 |--------------------------|---------|
 | a grave                  | Alt-133 |
@@ -692,3 +692,882 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | u dieresis               | Alt-129 |
 | u macron grave           | Alt-190 |
 | u macron acute           | Alt-189 |
+
+### DV1TT-Yogesh codes for use with VGA/EGA screen fonts only
+| Glyph               | Codes   |
+|---------------------|---------|
+| A macron            | Alt-183 |
+| D circumflex        | Alt-224 |
+| D dot below         | Alt-234 |
+| D line below        | Alt-215 |
+| E circumflex        | Alt-210 |
+| E macron            | Alt-212 |
+| G line below        | Alt-213 |
+| H dot below         | Alt-249 |
+| H line below        | Alt-225 |
+| I macron            | Alt-222 |
+| K line below        | Alt-209 |
+| L dot below         | Alt-142 |
+| L dot below macron  | Alt-157 |
+| L line below        | Alt-211 |
+| L line below macron | Alt-190 |
+| M dot above         | Alt-181 |
+| M candrabindu       | Alt-158 |
+| M dot below         | Alt-233 |
+| N tilde             | Alt-165 |
+| N candrabindu       | Alt-167 |
+| N dot above         | Alt-144 |
+| N dot below         | Alt-128 |
+| N line below        | Alt-199 |
+| O circumflex        | Alt-226 |
+| O macron            | Alt-227 |
+| R dot above         | Alt-214 |
+| R dot below         | Alt-143 |
+| R dot below macron  | Alt-153 |
+| R line below        | Alt-229 |
+| S acute             | Alt-146 |
+| S dot below         | Alt-154 |
+| T dot below         | Alt-232 |
+| T line below        | Alt-216 |
+| U macron            | Alt-235 |
+| Y dot above         | Alt-237 |
+| Z line below        | Alt-182 |
+| a macron            | Alt-133 |
+| d circumflex        | Alt-162 |
+| d dot below         | Alt-150 |
+| d line below        | Alt-140 |
+| e circumflex        | Alt-136 |
+| e macron            | Alt-138 |
+| g line below        | Alt-242 |
+| h dot below         | Alt-239 |
+| h line below        | Alt-152 |
+| i macron            | Alt-141 |
+| k line below        | Alt-208 |
+| l dot below         | Alt-132 |
+| l dot below macron  | Alt-155 |
+| l line below        | Alt-137 |
+| l line below macron | Alt-189 |
+| m dot above         | Alt-160 |
+| m candrabindu       | Alt-246 |
+| m dot below         | Alt-163 |
+| n tilde             | Alt-164 |
+| n candrabindu       | Alt-166 |
+| n dot above         | Alt-130 |
+| n dot below         | Alt-135 |
+| n line below        | Alt-198 |
+| o circumflex        | Alt-147 |
+| o macron            | Alt-149 |
+| r dot above         | Alt-161 |
+| r dot below         | Alt-134 |
+| r dot below macron  | Alt-148 |
+| r line below        | Alt-228 |
+| s acute             | Alt-145 |
+| s dot below         | Alt-129 |
+| t dot below         | Alt-231 |
+| t line below        | Alt-139 |
+| u macron            | Alt-151 |
+| y dot above         | Alt-236 |
+| z line below        | Alt-131 |
+| rupee               | Alt-207 |
+
+### TITUS Eastern Oriental codes – Accented letters
+| Glyph               | Codes   |
+|---------------------|---------|
+| A grave             | Alt-165 |
+| A acute             | Alt-164 |
+| A circumflex        | Alt-167 |
+| A dieresis          | Alt-142 |
+| A macron            | Alt-168 |
+| A breve             | Alt-166 |
+| A ring              | Alt-143 |
+| AE                  | Alt-146 |
+| B line below        | Alt-169 |
+| C acute             | Alt-170 |
+| C caron             | Alt-171 |
+| C cedilla           | Alt-128 |
+| D dot below         | Alt-174 |
+| D line below        | Alt-173 |
+| D stroke            | Alt-172 |
+| E grave             | Alt-175 |
+| E acute             | Alt-144 |
+| E circumflex        | Alt-176 |
+| E dieresis          | Alt-155 |
+| E macron            | Alt-178 |
+| E breve             | Alt-179 |
+| G caron             | Alt-181 |
+| G dot above         | Alt-180 |
+| G breve             | Alt-179 |
+| G line below        | Alt-182 |
+| Gamma               | Alt-226 |
+| H dot below         | Alt-183 |
+| H breve below       | Alt-184 |
+| I grave             | Alt-186 |
+| I acute             | Alt-185 |
+| I circumflex        | Alt-187 |
+| I macron            | Alt-189 |
+| I breve             | Alt-188 |
+| I dot above         | Alt-188 |
+| J caron             | Alt-191 |
+| K line below        | Alt-192 |
+| N tilde             | Alt-157 |
+| O grave             | Alt-194 |
+| O acute             | Alt-193 |
+| O circumflex        | Alt-195 |
+| O dieresis          | Alt-153 |
+| O macron            | Alt-196 |
+| O breve             | Alt-197 |
+| P line below        | Alt-198 |
+| R macron            | Alt-199 |
+| S acute             | Alt-200 |
+| S caron             | Alt-202 |
+| S dot below         | Alt-201 |
+| S cedilla           | Alt-203 |
+| T cedilla           | Alt-204 |
+| T dot below         | Alt-205 |
+| T line below        | Alt-206 |
+| U grave             | Alt-208 |
+| U acute             | Alt-207 |
+| U circumflex        | Alt-209 |
+| U dieresis          | Alt-154 |
+| U macron            | Alt-210 |
+| U breve             | Alt-211 |
+| Z caron             | Alt-213 |
+| Z dot below         | Alt-212 |
+| a grave             | Alt-133 |
+| a acute             | Alt-160 |
+| a circumflex        | Alt-131 |
+| a dieresis          | Alt-215 |
+| a macron            | Alt-166 |
+| a breve             | Alt-214 |
+| a ring              | Alt-134 |
+| ae                  | Alt-145 |
+| b line below        | Alt-216 |
+| c acute             | Alt-217 |
+| c caron             | Alt-218 |
+| c cedilla           | Alt-135 |
+| d dot below         | Alt-221 |
+| d line below        | Alt-220 |
+| d stroke            | Alt-219 |
+| e grave             | Alt-138 |
+| e acute             | Alt-130 |
+| e circumflex        | Alt-136 |
+| e dieresis          | Alt-137 |
+| e macron            | Alt-223 |
+| e breve             | Alt-222 |
+| schwa               | Alt-224 |
+| g caron             | Alt-229 |
+| g dot above         | Alt-228 |
+| g breve             | Alt-227 |
+| g line below        | Alt-230 |
+| h dot below         | Alt-231 |
+| h breve below       | Alt-232 |
+| i grave             | Alt-141 |
+| i acute             | Alt-161 |
+| i circumflex        | Alt-140 |
+| i dieresis          | Alt-139 |
+| i macron            | Alt-234 |
+| i breve             | Alt-235 |
+| i dotless           | Alt-233 |
+| j caron             | Alt-236 |
+| n tilde             | Alt-156 |
+| o grave             | Alt-149 |
+| o acute             | Alt-162 |
+| o circumflex        | Alt-147 |
+| o dieresis          | Alt-148 |
+| o macron            | Alt-238 |
+| o breve             | Alt-239 |
+| p line below        | Alt-240 |
+| r macron            | Alt-241 |
+| s acute             | Alt-242 |
+| s caron             | Alt-244 |
+| s dot below         | Alt-243 |
+| s cedilla           | Alt-245 |
+| t cedilla           | Alt-246 |
+| t dot below         | Alt-247 |
+| t line below        | Alt-248 |
+| u grave             | Alt-151 |
+| u acute             | Alt-163 |
+| u circumflex        | Alt-150 |
+| u dieresis          | Alt-129 |
+| u macron            | Alt-249 |
+| u breve             | Alt-250 |
+| y dieresis          | Alt-152 |
+| z caron             | Alt-252 |
+| z dot below         | Alt-251 |
+
+### TITUS Eastern Oriental codes – Printer's Specials
+| Glyph           | Codes   |
+|-----------------|---------|
+| exclamdown      | Alt-159 |
+| questiondown    | Alt-158 |
+| left half ring  | Alt-254 |
+| right half ring | Alt-253 |
+
+### Ronald E. Emmerick encoding codes
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-249 |
+| D dot below        | Alt-214 |
+| H dot below        | Alt-234 |
+| I macron           | Alt-253 |
+| M dot below        | Alt-245 |
+| N tilde            | Alt-165 |
+| N dot above        | Alt-167 |
+| N dot below        | Alt-215 |
+| R dot below        | Alt-227 |
+| S acute            | Alt-193 |
+| S dot below        | Alt-229 |
+| T dot below        | Alt-232 |
+| U macron           | Alt-244 |
+| a macron           | Alt-195 |
+| d dot below        | Alt-172 |
+| h dot below        | Alt-247 |
+| i macron           | Alt-197 |
+| l dot below        | Alt-202 |
+| l dot below macron | Alt-203 |
+| m dot below        | Alt-230 |
+| n tilde            | Alt-164 |
+| n dot above        | Alt-199 |
+| n dot below        | Alt-239 |
+| r dot below macron | Alt-204 |
+| s acute            | Alt-211 |
+| s dot below        | Alt-171 |
+| t dot below        | Alt-194 |
+| u macron           | Alt-198 |
+
+### Times Gandhari font codes
+| Glyph               | Codes   |
+|---------------------|---------|
+| a double ring below | Alt-197 |
+| c macron            | Alt-186 |
+| d acute             | Alt-209 |
+| d dot below acute   | Alt-218 |
+| g acute             | Alt-178 |
+| g acute macron      | Alt-217 |
+| gamma               | Alt-211 |
+| h acute             | Alt-206 |
+| k acute             | Alt-210 |
+| l dot below         | Alt-215 |
+| m macron            | Alt-208 |
+| n macron            | Alt-203 |
+| p acute             | Alt-221 |
+| s acute macron      | Alt-196 |
+| s macron            | Alt-188 |
+| s dot below macron  | Alt-200 |
+| s line below        | Alt-201 |
+| t dot below acute   | Alt-194 |
+| u double ring below | Alt-171 |
+| v acute             | Alt-223 |
+| y acute             | Alt-222 |
+| z acute             | Alt-172 |
+
+### Times Gandhari font codes – Printer's Specials
+| Glyph           | Codes   |
+|-----------------|---------|
+| quoteleft       | Alt-145 |
+| quoteright      | Alt-146 |
+| quotedblleft    | Alt-147 |
+| quotedblright   | Alt-148 |
+| guillemot left  | Alt-174 |
+| guillemot right | Alt-175 |
+| section         | Alt-177 |
+| cent            | Alt-155 |
+| peseta          | Alt-158 |
+| middle dot      | Alt-216 |
+| radical         | Alt-251 |
+| short           | Alt-191 |
+| long            | Alt-193 |
+| short or long   | Alt-212 |
+
+### IndoSkript font codes – Accented letters
+| Glyph               | Codes   |
+|---------------------|---------|
+| A grave             | Alt-192 |
+| A acute             | Alt-193 |
+| A circumflex        | Alt-194 |
+| A tilde             | Alt-195 |
+| A dieresis          | Alt-196 |
+| A macron            | Alt-197 |
+| A macron grave      | Alt-137 |
+| A macron acute      | Alt-199 |
+| A macron tilde      | Alt-198 |
+| D dot below         | Alt-151 |
+| E grave             | Alt-200 |
+| E acute             | Alt-201 |
+| E circumflex        | Alt-202 |
+| E tilde             | Alt-138 |
+| E macron            | Alt-203 |
+| E macron grave      | Alt-139 |
+| E macron acute      | Alt-140 |
+| H dot below         | Alt-149 |
+| I grave             | Alt-204 |
+| I acute             | Alt-205 |
+| I circumflex        | Alt-206 |
+| I tilde             | Alt-131 |
+| I macron            | Alt-207 |
+| I macron grave      | Alt-133 |
+| I macron acute      | Alt-134 |
+| I macron tilde      | Alt-132 |
+| Kh line below       | Alt-255 |
+| L dot below         | Alt-221 |
+| L dot below macron  | Alt-222 |
+| L ring below        | Alt-145 |
+| L ring below macron | Alt-146 |
+| L line below        | Alt-142 |
+| M dot above         | Alt-155 |
+| M dot below         | Alt-154 |
+| N tilde             | Alt-209 |
+| N dot above         | Alt-156 |
+| N dot below         | Alt-157 |
+| N line below        | Alt-158 |
+| O grave             | Alt-210 |
+| O acute             | Alt-211 |
+| O circumflex        | Alt-212 |
+| O tilde             | Alt-213 |
+| O dieresis          | Alt-214 |
+| O macron            | Alt-208 |
+| R dot below         | Alt-129 |
+| R dot below macron  | Alt-130 |
+| R ring below        | Alt-127 |
+| R ring below        | Alt-191 |
+| R ring below macron | Alt-128 |
+| R line below        | Alt-141 |
+| S acute             | Alt-152 |
+| S dot below         | Alt-513 |
+| T dot below         | Alt-150 |
+| U grave             | Alt-217 |
+| U acute             | Alt-218 |
+| U circumflex        | Alt-219 |
+| U tilde             | Alt-216 |
+| U dieresis          | Alt-220 |
+| U macron            | Alt-215 |
+| U macron tilde      | Alt-143 |
+| a grave             | Alt-224 |
+| a acute             | Alt-225 |
+| a circumflex        | Alt-226 |
+| a tilde             | Alt-227 |
+| a dieresis          | Alt-228 |
+| a macron            | Alt-229 |
+| a macron grave      | Alt-169 |
+| a macron acute      | Alt-152 |
+| a macron tilde      | Alt-230 |
+| d dot below         | Alt-183 |
+| e grave             | Alt-232 |
+| e acute             | Alt-233 |
+| e circumflex        | Alt-234 |
+| e tilde             | Alt-170 |
+| e macron            | Alt-235 |
+| e macron grave      | Alt-171 |
+| e macron acute      | Alt-172 |
+| h dot below         | Alt-181 |
+| i grave             | Alt-236 |
+| i acute             | Alt-237 |
+| i circumflex        | Alt-238 |
+| i tilde             | Alt-163 |
+| i macron            | Alt-239 |
+| i macron grave      | Alt-165 |
+| i macron acute      | Alt-166 |
+| i macron tilde      | Alt-164 |
+| kh line below       | Alt-135 |
+| l dot below         | Alt-253 |
+| l dot below macron  | Alt-254 |
+| l ring below        | Alt-177 |
+| l ring below macron | Alt-178 |
+| l line below        | Alt-174 |
+| m dot above         | Alt-187 |
+| m dot below         | Alt-186 |
+| n tilde             | Alt-241 |
+| n dot above         | Alt-188 |
+| n dot below         | Alt-189 |
+| n line below        | Alt-190 |
+| o grave             | Alt-242 |
+| o acute             | Alt-243 |
+| o circumflex        | Alt-244 |
+| o tilde             | Alt-245 |
+| o dieresis          | Alt-246 |
+| o macron            | Alt-240 |
+| r dot below         | Alt-161 |
+| r dot below macron  | Alt-162 |
+| r ring below        | Alt-159 |
+| r ring below macron | Alt-136 |
+| r ring below macron | Alt-160 |
+| r line below        | Alt-173 |
+| s acute             | Alt-184 |
+| s dot below         | Alt-185 |
+| sharp s             | Alt-223 |
+| t dot below         | Alt-182 |
+| u grave             | Alt-249 |
+| u acute             | Alt-250 |
+| u circumflex        | Alt-251 |
+| u tilde             | Alt-248 |
+| u dieresis          | Alt-252 |
+| u macron            | Alt-247 |
+| u macron tilde      | Alt-175 |
+
+### TITUS Indo-Iranian codes – Accented letters
+| Glyph                      | Codes   |
+|----------------------------|---------|
+| A dieresis                 | Alt-142 |
+| O dieresis                 | Alt-153 |
+| U dieresis                 | Alt-154 |
+| a grave                    | Alt-133 |
+| a acute                    | Alt-160 |
+| a circumflex               | Alt-131 |
+| a tilde                    | Alt-155 |
+| a dieresis                 | Alt-132 |
+| a macron                   | Alt-166 |
+| a macron grave             | Alt-176 |
+| a macron acute             | Alt-171 |
+| a macron ring              | Alt-182 |
+| a ring                     | Alt-134 |
+| a ogonek                   | Alt-191 |
+| a ogonek acute             | Alt-202 |
+| a ogonek tilde             | Alt-201 |
+| a ogonek dot above         | Alt-181 |
+| ae                         | Alt-145 |
+| b stroke                   | Alt-215 |
+| beta                       | Alt-214 |
+| c caron                    | Alt-216 |
+| c cedilla                  | Alt-135 |
+| d dot below                | Alt-217 |
+| d stroke                   | Alt-218 |
+| delta                      | Alt-219 |
+| e grave                    | Alt-138 |
+| e acute                    | Alt-130 |
+| e circumflex               | Alt-136 |
+| e caron                    | Alt-177 |
+| e tilde                    | Alt-156 |
+| e dieresis                 | Alt-137 |
+| e macron                   | Alt-167 |
+| e dot above                | Alt-144 |
+| e dot above acute          | Alt-206 |
+| e dot above tilde          | Alt-205 |
+| e ogonek                   | Alt-192 |
+| e ogonek acute             | Alt-204 |
+| e ogonek tilde             | Alt-203 |
+| schwa                      | Alt-198 |
+| schwa macron               | Alt-199 |
+| schwa inverted breve below | Alt-200 |
+| g acute                    | Alt-220 |
+| g dot above                | Alt-221 |
+| g stroke                   | Alt-222 |
+| gamma                      | Alt-223 |
+| h dot below                | Alt-226 |
+| h breve below              | Alt-224 |
+| hwair                      | Alt-227 |
+| i grave                    | Alt-141 |
+| i acute                    | Alt-161 |
+| i circumflex               | Alt-140 |
+| i tilde                    | Alt-157 |
+| i dieresis                 | Alt-139 |
+| i macron                   | Alt-168 |
+| i macron grave             | Alt-178 |
+| i macron acute             | Alt-173 |
+| i breve                    | Alt-188 |
+| i ogonek                   | Alt-193 |
+| i ogonek acute             | Alt-208 |
+| i ogonek tilde             | Alt-207 |
+| i inverted breve below     | Alt-196 |
+| i dotless                  | Alt-179 |
+| j caron                    | Alt-172 |
+| k acute                    | Alt-228 |
+| l tilde                    | Alt-232 |
+| l dot below                | Alt-229 |
+| l dot below acute          | Alt-230 |
+| l dot below macron         | Alt-231 |
+| l stroke                   | Alt-174 |
+| m tilde                    | Alt-234 |
+| m candrabindu              | Alt-235 |
+| m dot below                | Alt-233 |
+| m ogonek                   | Alt-236 |
+| n acute                    | Alt-238 |
+| n tilde                    | Alt-164 |
+| n dot above                | Alt-237 |
+| n dot below                | Alt-240 |
+| eng                        | Alt-165 |
+| eng acute                  | Alt-239 |
+| o grave                    | Alt-149 |
+| o acute                    | Alt-162 |
+| o circumflex               | Alt-147 |
+| o tilde                    | Alt-158 |
+| o dieresis                 | Alt-148 |
+| o macron                   | Alt-169 |
+| o ogonek                   | Alt-194 |
+| o stroke                   | Alt-143 |
+| oe                         | Alt-146 |
+| r tilde                    | Alt-245 |
+| r macron                   | Alt-189 |
+| r dot below                | Alt-241 |
+| r dot below grave          | Alt-187 |
+| r dot below acute          | Alt-242 |
+| r dot below macron         | Alt-243 |
+| r dot below macron acute   | Alt-244 |
+| s acute                    | Alt-246 |
+| s caron                    | Alt-248 |
+| s caron acute              | Alt-249 |
+| s dot below                | Alt-247 |
+| s dot below caron          | Alt-250 |
+| s sharp                    | Alt-225 |
+| t dot below                | Alt-252 |
+| t tilde below              | Alt-251 |
+| theta                      | Alt-253 |
+| thorn                      | Alt-254 |
+| u grave                    | Alt-151 |
+| u acute                    | Alt-163 |
+| u circumflex               | Alt-150 |
+| u tilde                    | Alt-159 |
+| u dieresis                 | Alt-129 |
+| u macron                   | Alt-170 |
+| u macron grave             | Alt-180 |
+| u macron acute             | Alt-175 |
+| u macron tilde             | Alt-211 |
+| u breve                    | Alt-190 |
+| u ogonek                   | Alt-195 |
+| u ogonek acute             | Alt-210 |
+| u ogonek tilde             | Alt-209 |
+| u inverted breve below     | Alt-197 |
+| u superscript              | Alt-186 |
+| v superscript              | Alt-184 |
+| x acute                    | Alt-183 |
+| y acute                    | Alt-213 |
+| y tilde                    | Alt-212 |
+| y dot abve                 | Alt-152 |
+| z caron                    | Alt-185 |
+
+### TITUS Indo-Iranian codes – Printer's Specials
+| Glyph        | Codes   |
+|--------------|---------|
+| dagger       | dollar  |
+| radical      | at      |
+| approx equal | Alt-127 |
+| therefore    | Alt-128 |
+
+### IndoSkript font codes – Printer's Specials
+| Glyph         | Codes   |
+|---------------|---------|
+| quoteleft     | Alt-179 |
+| quoteright    | Alt-180 |
+| quotedblleft  | Alt-147 |
+| quotedblright | Alt-148 |
+| quotedblbase  | Alt-144 |
+| Euro          | Alt-168 |
+| section       | Alt-167 |
+| degree        | Alt-176 |
+
+### Iranian – Arabic & Hebrew transliteration codes
+| Glyph             | Codes   |
+|-------------------|---------|
+| A grave           | Alt-242 |
+| A circumflex      | Alt-182 |
+| A dieresis        | Alt-142 |
+| A macron          | Alt-181 |
+| C caron           | Alt-211 |
+| C cedilla         | Alt-128 |
+| D dot below       | Alt-222 |
+| E grave           | Alt-189 |
+| E acute           | Alt-144 |
+| E circumflex      | Alt-210 |
+| Schwa             | Alt-183 |
+| G acute           | Alt-212 |
+| G breve           | Alt-172 |
+| H dot below       | Alt-216 |
+| I grave           | Alt-252 |
+| I circumflex      | Alt-215 |
+| I macron          | Alt-214 |
+| I dot above       | Alt-213 |
+| N tilde           | Alt-165 |
+| N dot below       | Alt-229 |
+| O grave           | Alt-227 |
+| O circumflex      | Alt-226 |
+| O dieresis        | Alt-153 |
+| R dot below       | Alt-158 |
+| S caron           | Alt-221 |
+| S cedilla         | Alt-224 |
+| S dot below       | Alt-237 |
+| S dot below caron | Alt-235 |
+| S line below      | Alt-143 |
+| T dot below       | Alt-168 |
+| T line below      | Alt-146 |
+| U circumflex      | Alt-234 |
+| U dieresis        | Alt-154 |
+| U macron          | Alt-233 |
+| X caron           | Alt-209 |
+| Z acute           | Alt-199 |
+| Z caron           | Alt-239 |
+| Z dot above       | Alt-225 |
+| Z dot below caron | Alt-232 |
+| Z line below      | Alt-157 |
+| a grave           | Alt-253 |
+| a circumflex      | Alt-131 |
+| a dieresis        | Alt-132 |
+| a macron          | Alt-160 |
+| c caron           | Alt-137 |
+| c cedilla         | Alt-135 |
+| d dot below       | Alt-141 |
+| e grave           | Alt-190 |
+| e acute           | Alt-130 |
+| e circumflex      | Alt-136 |
+| schwa             | Alt-133 |
+| g acute           | Alt-138 |
+| g breve           | Alt-243 |
+| h dot below       | Alt-139 |
+| i grave           | Alt-251 |
+| i circumflex      | Alt-140 |
+| i macron          | Alt-161 |
+| i dotless         | Alt-171 |
+| n tilde           | Alt-164 |
+| n dot below       | Alt-228 |
+| o grave           | Alt-149 |
+| o circumflex      | Alt-147 |
+| o dieresis        | Alt-148 |
+| r dot below       | Alt-246 |
+| s caron           | Alt-249 |
+| s dot below       | Alt-236 |
+| s dot below caron | Alt-151 |
+| s cedilla         | Alt-162 |
+| s line below      | Alt-134 |
+| t dot below       | Alt-173 |
+| t line below      | Alt-145 |
+| u circumflex      | Alt-150 |
+| u dieresis        | Alt-129 |
+| u macron          | Alt-163 |
+| x caron           | Alt-208 |
+| z acute           | Alt-198 |
+| z caron           | Alt-247 |
+| z dot above       | Alt-152 |
+| z dot below       | Alt-169 |
+| z dot below caron | Alt-231 |
+| z line below      | Alt-155 |
+
+### ISO 9 Slavic Cyrillic transliteration font codes
+| Glyph       | Codes   |
+|-------------|---------|
+| A breve     | Alt-199 |
+| C acute     | Alt-154 |
+| C caron     | Alt-215 |
+| D stroke    | Alt-209 |
+| E dieresis  | Alt-211 |
+| E dot above | Alt-210 |
+| E breve     | Alt-252 |
+| E ogonek    | Alt-235 |
+| F dot above | Alt-157 |
+| G acute     | Alt-153 |
+| G dot above | Alt-128 |
+| I dieresis  | Alt-216 |
+| I macron    | Alt-214 |
+| K acute     | Alt-172 |
+| O ogonek    | Alt-165 |
+| S caron     | Alt-221 |
+| U breve     | Alt-234 |
+| Y dot above | Alt-243 |
+| Z caron     | Alt-239 |
+| a breve     | Alt-198 |
+| c acute     | Alt-129 |
+| c caron     | Alt-140 |
+| d stroke    | Alt-208 |
+| e dieresis  | Alt-137 |
+| e dot above | Alt-136 |
+| e breve     | Alt-251 |
+| e ogonek    | Alt-151 |
+| f dot above | Alt-155 |
+| g acute     | Alt-148 |
+| g dot above | Alt-135 |
+| i dieresis  | Alt-139 |
+| i macron    | Alt-161 |
+| k acute     | Alt-171 |
+| o ogonek    | Alt-164 |
+| s caron     | Alt-249 |
+| u breve     | Alt-150 |
+| y dot above | Alt-152 |
+| z caron     | Alt-247 |
+
+### ITimesSkRom codes – Accented letters
+| Glyph              | Codes   |
+|--------------------|---------|
+| A grave            | Alt-203 |
+| A tilde            | Alt-204 |
+| A dieresis         | Alt-128 |
+| A macron           | Alt-129 |
+| AE                 | Alt-174 |
+| C caron            | Alt-236 |
+| C cedilla          | Alt-130 |
+| D dot below        | Alt-235 |
+| E grave            | Alt-233 |
+| E acute            | Alt-131 |
+| E macron           | Alt-228 |
+| H dot below        | Alt-238 |
+| I acute            | Alt-208 |
+| I circumflex       | Alt-179 |
+| I macron           | Alt-231 |
+| J caron            | Alt-239 |
+| L dot below        | Alt-241 |
+| M dot above        | Alt-218 |
+| M dot below        | Alt-247 |
+| N dot above        | Alt-245 |
+| N tilde            | Alt-132 |
+| N dot below        | Alt-248 |
+| O circumflex       | Alt-178 |
+| O tilde            | Alt-205 |
+| O dieresis         | Alt-133 |
+| O macron           | Alt-175 |
+| OE                 | Alt-206 |
+| R dot below        | Alt-229 |
+| R dot below macron | Alt-221 |
+| R ring below       | Alt-184 |
+| S acute            | Alt-234 |
+| S caron            | Alt-237 |
+| S dot below        | Alt-227 |
+| T dot below        | Alt-230 |
+| U grave            | Alt-244 |
+| U acute            | Alt-242 |
+| U circumflex       | Alt-243 |
+| U dieresis         | Alt-134 |
+| U macron           | Alt-240 |
+| Y dieresis         | Alt-217 |
+| Z caron            | Alt-215 |
+| a grave            | Alt-136 |
+| a acute            | Alt-135 |
+| a circumflex       | Alt-137 |
+| a tilde            | Alt-139 |
+| a dieresis         | Alt-138 |
+| a macron           | Alt-140 |
+| ae                 | Alt-190 |
+| c caron            | Alt-196 |
+| c cedilla          | Alt-141 |
+| d dot below        | Alt-182 |
+| e grave            | Alt-143 |
+| e acute            | Alt-142 |
+| e circumflex       | Alt-144 |
+| e dieresis         | Alt-145 |
+| e macron           | Alt-166 |
+| e flipped          | Alt-163 |
+| schwa              | Alt-220 |
+| h dot below        | Alt-250 |
+| i grave            | Alt-147 |
+| i acute            | Alt-146 |
+| i circumflex       | Alt-148 |
+| i dieresis         | Alt-149 |
+| i macron           | Alt-180 |
+| j caron            | Alt-198 |
+| l dot below        | Alt-194 |
+| m dot above        | Alt-193 |
+| m dot below        | Alt-181 |
+| n tilde            | Alt-150 |
+| n dot above        | Alt-186 |
+| n dot below        | Alt-246 |
+| o grave            | Alt-152 |
+| o acute            | Alt-151 |
+| o circumflex       | Alt-153 |
+| o dieresis         | Alt-154 |
+| o macron           | Alt-191 |
+| o slash            | Alt-232 |
+| oe                 | Alt-207 |
+| r dot below        | Alt-168 |
+| r dot below macron | Alt-162 |
+| r ring below       | Alt-185 |
+| s acute            | Alt-167 |
+| s caron            | Alt-169 |
+| s dot below        | Alt-183 |
+| t dot below        | Alt-160 |
+| u grave            | Alt-157 |
+| u acute            | Alt-156 |
+| u circumflex       | Alt-158 |
+| u dieresis         | Alt-159 |
+| u macron           | Alt-251 |
+| y dieresis         | Alt-216 |
+| z acute            | Alt-189 |
+| z caron            | Alt-195 |
+
+### ITimesSkRom codes – Floating accents
+| Glyph            | Codes   |
+|------------------|---------|
+| acute            | Alt-171 |
+| caron            | Alt-255 |
+| dieresis         | Alt-172 |
+| breve            | Alt-249 |
+| hungarumlaut     | Alt-253 |
+| cedilla          | Alt-252 |
+| circumflex below | Alt-201 |
+| ogonek           | Alt-254 |
+
+### ITimesSkRom codes – Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| fi                 | Alt-222 |
+| fl                 | Alt-223 |
+| Euro               | Alt-219 |
+| degree             | Alt-161 |
+| dagger             | Alt-214 |
+| daggerdbl          | Alt-224 |
+| section            | Alt-164 |
+| feminine ordinal   | Alt-187 |
+| em dash            | Alt-209 |
+| quoteleft          | Alt-212 |
+| quoteright         | Alt-213 |
+| quotedblleft       | Alt-210 |
+| quotedblright      | Alt-211 |
+| guilsinglleft      | Alt-188 |
+| guillemot left     | Alt-199 |
+| guillemot right    | Alt-200 |
+| bullet             | Alt-165 |
+| plus minus         | Alt-177 |
+| infinity           | Alt-176 |
+| not equal          | Alt-173 |
+| approx equal       | Alt-197 |
+| non-breaking space | Alt-202 |
+
+### Itranslator transliteration font codes
+| Glyph                | Codes   |
+|----------------------|---------|
+| A macron             | Alt-195 |
+| D dot below          | Alt-210 |
+| G dot above          | Alt-218 |
+| H dot below          | Alt-217 |
+| H line below         | Alt-219 |
+| H breve below        | Alt-222 |
+| I macron             | Alt-201 |
+| K line below         | Alt-215 |
+| KH line below        | Alt-254 |
+| Kh line below        | Alt-219 |
+| kh line below        | Alt-251 |
+| L dot below          | Alt-223 |
+| L dot below macron   | Alt-221 |
+| L line below         | Alt-216 |
+| M dot above          | Alt-192 |
+| M candrabindu        | Alt-208 |
+| N tilde              | Alt-207 |
+| N dot above          | Alt-204 |
+| N dot below          | Alt-203 |
+| R breve              | Alt-213 |
+| R dot below          | Alt-197 |
+| R dot below macron   | Alt-200 |
+| S acute              | Alt-199 |
+| S dot below          | Alt-209 |
+| T dot below          | Alt-214 |
+| U macron             | Alt-220 |
+| a macron             | Alt-227 |
+| d dot below          | Alt-242 |
+| g dot above          | Alt-250 |
+| h dot below          | Alt-249 |
+| h line below         | Alt-251 |
+| h breve below        | Alt-254 |
+| i macron             | Alt-233 |
+| k line below         | Alt-247 |
+| l dot below          | Alt-255 |
+| l dot below macron   | Alt-253 |
+| l line below         | Alt-248 |
+| m dot above          | Alt-224 |
+| m candrabindu        | Alt-240 |
+| n tilde              | Alt-239 |
+| n dot above          | Alt-236 |
+| n dot below          | Alt-235 |
+| r breve              | Alt-245 |
+| r dot below          | Alt-229 |
+| r dot below macron   | Alt-232 |
+| s acute              | Alt-231 |
+| s dot below          | Alt-241 |
+| t dot below          | Alt-246 |
+| u macron             | Alt-252 |
+| vertical line        | Alt-215 |
+| double vertical line | Alt-247 |
+| line below           | Alt-222 |
