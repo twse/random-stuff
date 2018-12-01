@@ -59,6 +59,7 @@ On Windows XP Service Pack 2 and above, Internet Explorer will block active cont
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
 * **DNS error** (Wii Internet Channel) - The links for the list entries use https links (i.e. for use with secure websites) for the Opera website.
+* Mozilla credits page translated to French - Instead of the contributor list it will show a translated message.
 
 ## Translations
 * **Dual Module Player** - Czech (IBM-852) and German (IBM-850). Only Finnish and French translations are included.
