@@ -2339,3 +2339,208 @@ The font can be used for Azerbaijani and Turkish languages.
 | s dot below        | Alt-163 |
 | t dot below        | Alt-150 |
 | u macron           | Alt-236 |
+
+### First Semitic transliteration font codes
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-143 |
+| C caron            | Alt-157 |
+| D cedilla          | Alt-209 |
+| D dot below        | Alt-214 |
+| D line below       | Alt-172 |
+| G caron            | Alt-232 |
+| G macron           | Alt-215 |
+| G dot above        | Alt-153 |
+| H dot below        | Alt-146 |
+| H line below       | Alt-222 |
+| H breve below      | Alt-235 |
+| I macron           | Alt-210 |
+| K dot below        | Alt-229 |
+| S caron            | Alt-221 |
+| S dot below        | Alt-221 |
+| T dieresis         | Alt-216 |
+| T cedilla          | Alt-199 |
+| T dot below        | Alt-212 |
+| T line below       | Alt-182 |
+| U macron           | Alt-234 |
+| W macron           | Alt-224 |
+| Y grave            | Alt-237 |
+| Y circumflex       | Alt-158 |
+| Y macron           | Alt-243 |
+| Z caron            | Alt-239 |
+| Z dot below        | Alt-154 |
+| a macron           | Alt-134 |
+| c caron            | Alt-155 |
+| d cedilla          | Alt-208 |
+| d dot below        | Alt-161 |
+| d line below       | Alt-171 |
+| g caron            | Alt-131 |
+| g macron           | Alt-140 |
+| g dot above        | Alt-148 |
+| h dot below        | Alt-145 |
+| h line below       | Alt-141 |
+| h breve below      | Alt-151 |
+| i macron           | Alt-136 |
+| k dot below        | Alt-228 |
+| s caron            | Alt-249 |
+| s dot below        | Alt-137 |
+| t dieresis         | Alt-139 |
+| t cedilla          | Alt-198 |
+| t dot below        | Alt-138 |
+| t line below       | Alt-131 |
+| u macron           | Alt-150 |
+| w macron           | Alt-162 |
+| y grave            | Alt-236 |
+| y circumflex       | Alt-246 |
+| y macron           | Alt-152 |
+| z caron            | Alt-247 |
+| z dot below        | Alt-129 |
+| left half ring     | Alt-170 |
+| right half ring    | Alt-169 |
+| left single quote  | Alt-242 |
+| right single quote | Alt-253 |
+
+### Second Semitic transliteration font codes
+| Glyph                  | Codes   | TITUS Hebrew/Semitic | Evyoni Megawriter           |
+|------------------------|---------|----------------------|-----------------------------|
+| A macron               | Alt-182 | No key assigned      | A or Alt-192                |
+| A breve                | Alt-170 | No key assigned      | number sign or Alt-194      |
+| B line below           | Alt-159 | No key assigned      | B                           |
+| C caron                | Alt-233 | No key assigned      | No key assigned             |
+| D dot below            | Alt-173 | No key assigned      | No key assigned             |
+| D line below           | Alt-209 | No key assigned      | D                           |
+| E circumflex           | Alt-184 | No key assigned      | dollar or Alt-202           |
+| E macron               | Alt-210 | No key assigned      | circumflex or Alt-200       |
+| E breve                | Alt-144 | No key assigned      | percent or Alt-204          |
+| E dot below circumflex | Alt-172 | No key assigned      | No key assigned             |
+| G acute                | Alt-212 | No key assigned      | No key assigned             |
+| G caron                | Alt-190 | No key assigned      | No key assigned             |
+| G dot above            | Alt-235 | No key assigned      | No key assigned             |
+| G macron               | Alt-166 | No key assigned      | No key assigned             |
+| G line below           | Alt-229 | No key assigned      | G                           |
+| H dieresis             | Alt-237 | No key assigned      | No key assigned             |
+| H dot below            | Alt-227 | No key assigned      | H or Alt-220                |
+| H line below           | Alt-165 | No key assigned      | No key assigned             |
+| H breve below          | Alt-211 | No key assigned      | vertical line               |
+| I circumflex           | Alt-222 | No key assigned      | left parenthesis or Alt-206 |
+| I macron               | Alt-215 | No key assigned      | No key assigned             |
+| K line below           | Alt-199 | No key assigned      | K                           |
+| N tilde                | Alt-216 | No key assigned      | No key assigned             |
+| N reversed             | Alt-251 | No key assigned      | No key assigned             |
+| O circumflex           | Alt-213 | No key assigned      | ampersand or Alt-212        |
+| O macron               | Alt-226 | No key assigned      | asterisk or Alt-210         |
+| O breve                | Alt-153 | No key assigned      | at or Alt-214               |
+| O dot below circumflex | Alt-207 | No key assigned      | No key assigned             |
+| P macron               | Alt-158 | No key assigned      | No key assigned             |
+| P line below           | Alt-232 | No key assigned      | No key assigned             |
+| S acute                | Alt-214 | No key assigned      | C or Alt-253                |
+| S caron                | Alt-221 | No key assigned      | S or Alt-255                |
+| S dot below            | Alt-181 | No key assigned      | X or Alt-222                |
+| S dot below macron     | Alt-224 | No key assigned      | No key assigned             |
+| T dot below            | Alt-157 | No key assigned      | plus or Alt-208             |
+| T line below           | Alt-183 | No key assigned      | T                           |
+| U circumflex           | Alt-146 | No key assigned      | underline or Alt-219        |
+| U macron               | Alt-234 | No key assigned      | No key assigned             |
+| Z caron                | Alt-239 | No key assigned      | No key assigned             |
+| Z dot below            | Alt-143 | No key assigned      | No key assigned             |
+| a macron               | Alt-131 | Alt-158              | grave accent or Alt-193     |
+| a breve                | Alt-171 | No key assigned      | three or Alt-195            |
+| b line below           | Alt-156 | Alt-166              | b                           |
+| c caron                | Alt-163 | Alt-165              | No key assigned             |
+| d dot below            | Alt-168 | vertical line        | No key assigned             |
+| d line below           | Alt-208 | ampersand or Alt-188 | d                           |
+| e circumflex           | Alt-169 | No key assigned      | four or Alt-203             |
+| e macron               | Alt-136 | Alt-157              | six or Alt-201              |
+| e breve                | Alt-130 | No key assigned      | five or Alt-205             |
+| e dot below circumflex | Alt-243 | No key assigned      | No key assigned             |
+| g acute                | Alt-138 | No key assigned      | No key assigned             |
+| g caron                | Alt-189 | right curly bracket  | No key assigned             |
+| g dot above            | Alt-151 | left curly bracket   | No key assigned             |
+| g macron               | Alt-167 | Alt-167              | g                           |
+| g line below           | Alt-228 | No key assigned      | No key assigned             |
+| h dieresis             | Alt-236 | No key assigned      | No key assigned             |
+| h dot below            | Alt-149 | Alt-143              | h or Alt-104                |
+| h line below           | Alt-164 | No key assigned      | No key assigned             |
+| h breve below          | Alt-137 | Alt-146              | backslash                   |
+| i circumflex           | Alt-152 | No key assigned      | nine or Alt-207             |
+| i macron               | Alt-140 | No key assigned      | No key assigned             |
+| k line below           | Alt-198 | Alt-189              | k                           |
+| n tilde                | Alt-139 | No key assigned      | No key assigned             |
+| n reversed             | Alt-241 | No key assigned      | No key assigned             |
+| o circumflex           | Alt-152 | No key assigned      | seven or Alt-213            |
+| o macron               | Alt-147 | Alt-155              | eight or Alt-211            |
+| o breve                | Alt-148 | No key assigned      | two or Alt-215              |
+| o dot below circumflex | Alt-242 | No key assigned      | No key assigned             |
+| p macron               | Alt-246 | Alt-170              | No key assigned             |
+| p line below           | Alt-231 | No key assigned      | No key assigned             |
+| s acute                | Alt-161 | grave accent         | c or Alt-252                |
+| s caron                | Alt-249 | dollar               | s or Alt-254                |
+| s dot below            | Alt-160 | Alt-134              | x or Alt-253                |
+| s dot below macron     | Alt-162 | No key assigned      | No key assigned             |
+| t dot below            | Alt-155 | number sign          | equal or Alt-209            |
+| t line below           | Alt-133 | percent or Alt-171   | t                           |
+| u circumflex           | Alt-145 | No key assigned      | Alt-251                     |
+| u macron               | Alt-150 | Alt-159              | No key assigned             |
+| z caron                | Alt-247 | tilde                | No key assigned             |
+| z dot below            | Alt-134 | circumflex accent    | No key assigned             |
+| left half ring         | Alt-252 | Alt-152              | grave or Alt-218            |
+| right half ring        | Alt-253 | Alt-145              | apostrophe or Alt-217       |
+
+### Third Semitic transliteration font codes
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-181 |
+| D dot below        | Alt-243 |
+| D line below       | Alt-158 |
+| E macron           | Alt-240 |
+| G breve            | Alt-232 |
+| G dot above        | Alt-239 |
+| H circumflex below | Alt-156 |
+| H dot below        | Alt-241 |
+| H line below       | Alt-222 |
+| H breve below      | Alt-229 |
+| I macron           | Alt-214 |
+| I egyptological    | Alt-210 |
+| K dot below        | Alt-209 |
+| O macron           | Alt-224 |
+| S acute            | Alt-238 |
+| S caron            | Alt-221 |
+| S dot below        | Alt-165 |
+| T circumflex below | Alt-216 |
+| T dot below        | Alt-166 |
+| T line below       | Alt-227 |
+| U macron           | Alt-233 |
+| Z dot below        | Alt-173 |
+| Ayn                | Alt-237 |
+| Ayn                | Alt-159 |
+| a macron           | Alt-160 |
+| d dot below        | Alt-152 |
+| d line below       | Alt-246 |
+| d superscript      | Alt-169 |
+| e macron           | Alt-253 |
+| g breve            | Alt-231 |
+| g dot above        | Alt-247 |
+| h circumflex below | Alt-155 |
+| h dot below        | Alt-170 |
+| h line below       | Alt-141 |
+| h breve below      | Alt-228 |
+| i macron           | Alt-161 |
+| i egyptological    | Alt-136 |
+| i dotless          | Alt-252 |
+| k dot below        | Alt-208 |
+| eng                | Alt-230 |
+| o macron           | Alt-162 |
+| s acute            | Alt-168 |
+| s caron            | Alt-249 |
+| s dot below        | Alt-164 |
+| t circumflex below | Alt-139 |
+| t dot below        | Alt-167 |
+| t line below       | Alt-149 |
+| u macron           | Alt-163 |
+| z dot below        | Alt-251 |
+| ayn                | Alt-236 |
+| ayn                | Alt-248 |
+| left half ring     | Alt-198 |
+| right half ring    | Alt-199 |
+| left half bracket  | Alt-189 |
+| right half bracket | Alt-190 |
