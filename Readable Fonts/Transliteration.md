@@ -2544,3 +2544,71 @@ The font can be used for Azerbaijani and Turkish languages.
 | right half ring    | Alt-199 |
 | left half bracket  | Alt-189 |
 | right half bracket | Alt-190 |
+
+### Sinhala transliteration font codes
+| Glyph               | Codes   | URW Palladio Pali |
+|---------------------|---------|-------------------|
+| A dieresis          | Alt-142 | Alt-196           |
+| A dieresis macron   | Alt-144 | Alt-159           |
+| A macron            | Alt-182 | Alt-193           |
+| AE                  | Alt-146 | Alt-198           |
+| AE macron           | Alt-158 | Alt-158           |
+| D dot below         | Alt-153 | Alt-208           |
+| E macron            | Alt-210 | Alt-215           |
+| H dot below         | Alt-207 | Alt-221           |
+| I macron            | Alt-215 | Alt-204           |
+| L dot below         | Alt-173 | Alt-175           |
+| L dot below macron  | Alt-229 | Alt-142           |
+| L ring below        | Alt-232 | No key assigned   |
+| L ring below macron | Alt-157 | No key assigned   |
+| L line below        | Alt-199 | No key assigned   |
+| M breve             | Alt-237 | No key assigned   |
+| M dot above         | Alt-235 | No key assigned   |
+| M dot below         | Alt-166 | Alt-205           |
+| N tilde             | Alt-165 | Alt-209           |
+| N breve             | Alt-209 | No key assigned   |
+| N dot above         | Alt-171 | Alt-210           |
+| N dot below         | Alt-214 | Alt-211           |
+| N line below        | Alt-172 | No key assigned   |
+| O macron            | Alt-226 | Alt-213           |
+| R dot below         | Alt-224 | Alt-170           |
+| R dot below macron  | Alt-154 | Alt-138           |
+| R ring below        | Alt-227 | No key assigned   |
+| R ring below macron | Alt-143 | No key assigned   |
+| R line below        | Alt-253 | No key assigned   |
+| S acute             | Alt-190 | Alt-216           |
+| S dot below         | Alt-128 | Alt-197           |
+| T dot below         | Alt-216 | Alt-222           |
+| U macron            | Alt-234 | Alt-218           |
+| a dieresis          | Alt-132 | Alt-228           |
+| a dieresis macron   | Alt-130 | Alt-255           |
+| a macron            | Alt-131 | Alt-225           |
+| ae                  | Alt-145 | Alt-230           |
+| ae macron           | Alt-246 | Alt-227           |
+| d dot below         | Alt-148 | Alt-240           |
+| e macron            | Alt-136 | Alt-247           |
+| h dot below         | Alt-156 | Alt-253           |
+| i macron            | Alt-140 | Alt-236           |
+| l dot below         | Alt-148 | Alt-191           |
+| l dot below macron  | Alt-228 | Alt-158           |
+| l ring below        | Alt-231 | No key assigned   |
+| l ring below macron | Alt-155 | No key assigned   |
+| l line below        | Alt-198 | No key assigned   |
+| m breve             | Alt-236 | Alt-184           |
+| m dot above         | Alt-151 | No key assigned   |
+| m dot below         | Alt-167 | Alt-237           |
+| n tilde             | Alt-164 | Alt-241           |
+| n breve             | Alt-208 | Alt-185           |
+| n dot above         | Alt-251 | Alt-242           |
+| n dot below         | Alt-161 | Alt-243           |
+| n line below        | Alt-243 | No key assigned   |
+| o macron            | Alt-147 | Alt-245           |
+| r dot below         | Alt-162 | Alt-186           |
+| r dot below macron  | Alt-129 | Alt-154           |
+| r ring below        | Alt-149 | No key assigned   |
+| r ring below macron | Alt-134 | No key assigned   |
+| r line below        | Alt-252 | No key assigned   |
+| s acute             | Alt-189 | Alt-248           |
+| s dot below         | Alt-135 | Alt-229           |
+| t dot below         | Alt-239 | Alt-254           |
+| u macron            | Alt-150 | Alt-250           |
