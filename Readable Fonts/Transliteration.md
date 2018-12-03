@@ -27,7 +27,7 @@ The Hobogirin font is identical to the Kenneth Ray Norman encoding.
 
 iitmipa (2004), by IIT Madras, is a transliteration font based on Garamond for use with Indic languages. Download the font from [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php).
 
-IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. IndUni is released under the GNU GPL 3.0 license.
+IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. The lack of box and shade characters in IndUni Courier makes it unsuitable for text mode programs like Midnight Commander. IndUni is released under the GNU GPL 3.0 license.
 
 Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop. Included legacy products: OrientFont – Sumertime/Akkadica, IndoFont – SouthAsia (Fonts and Keyboard Drivers developed by Rainer Kimmig), SinoFont – EastAsia/Pinyin. Cancelled font project: IndoFont – IndoIranian (Fonts intended for transliteration of languages in Indo-Iranian family).
 
