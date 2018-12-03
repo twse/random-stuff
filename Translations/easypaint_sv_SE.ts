@@ -16,7 +16,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
         <source>Apply</source>
-        <translation></translation>
+        <translation>Tillämpa</translation>
     </message>
 </context>
 <context>
@@ -160,7 +160,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
         <source>Selection</source>
-        <translation></translation>
+        <translation>Markering</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="249"/>
@@ -170,7 +170,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Color picker</source>
-        <translation></translation>
+        <translation>Färgväljare</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
@@ -250,7 +250,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation>Skärpa</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
@@ -280,12 +280,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
-        <translation></translation>
+        <translation>Motsols</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>Clockwise</source>
-        <translation></translation>
+        <translation>Medurs</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
@@ -295,7 +295,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="392"/>
         <source>Zoom In</source>
-        <translation></translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="398"/>
@@ -504,7 +504,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
         <source>Keyboard shortcuts</source>
-        <translation></translation>
+        <translation>Kortkommandon</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
@@ -515,7 +515,7 @@ Vill du spara ändringarna?</translation>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <location filename="../dialogs/settingsdialog.cpp" line="160"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Kommando</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
@@ -541,7 +541,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../widgets/shortcutedit.cpp" line="44"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Rensa</translation>
     </message>
 </context>
 <context>
@@ -564,7 +564,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation></translation>
+        <translation>Rensa text?</translation>
     </message>
 </context>
 <context>
