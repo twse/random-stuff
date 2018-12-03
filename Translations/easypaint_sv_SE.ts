@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensitet</translation>
     </message>
 </context>
 <context>
@@ -325,12 +325,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation>Ange zoomningsfakt</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Zoomningsfakt:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -459,7 +459,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Återställ fönsterstorlek på startskärmen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
