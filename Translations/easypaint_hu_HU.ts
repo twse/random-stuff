@@ -449,7 +449,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Ablak méretének visszaállítása a kezdőképernyőn</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
