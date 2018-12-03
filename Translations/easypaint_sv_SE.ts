@@ -377,7 +377,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
-        <translation></translation>
+        <translation>Färg</translation>
     </message>
 </context>
 <context>
@@ -533,7 +533,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Intensitet</translation>
     </message>
 </context>
 <context>
