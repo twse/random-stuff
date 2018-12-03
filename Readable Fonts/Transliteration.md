@@ -1,11 +1,11 @@
 ## Fonts and keyboards
-Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL and has a bunch of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
+Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a bunch of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
 
-avesta.orgtranscription (2010), a font in OpenType PostScript format, is based on Mithra (2000) and designed for use with Avestan and Pahlavi transliteration. The font was created using FontCreator 6.2 (2010). Many numbers and punctuation marks are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
+avesta.orgtranscription (2010), a font in OpenType PostScript format, is based on Mithra (2000) and designed for use with Avestan and Pahlavi transliteration. The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
 
 Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
 
-Gudrun Bühnemann created a set of GPL licensed CSX fonts based on Courier, New Century Schoolbook or Times and a Norman encoding font based on Times. Download the fonts from [here](http://imp.ls.wisc.edu/~gbuhnema/macfonts.html) or [here](http://lca.wisc.edu/~gbuhnema/~fonts.html).
+Gudrun Bühnemann created a set of CSX fonts based on Courier, New Century Schoolbook or Times and a Norman encoding font based on Times. Download the fonts from [here](http://imp.ls.wisc.edu/~gbuhnema/macfonts.html) or [here](http://lca.wisc.edu/~gbuhnema/~fonts.html). The fonts are released under the GNU GPL 2.0 license.
 
 Miguel Civil created a set of fonts for Semitic etymologies – Nippur-Guti. These fonts are only compatible with Windows.
 
@@ -13,7 +13,7 @@ DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transli
 
 Euransi e Nauromane (2001), by Libor Sztemon, is a font based on Times New Roman for Euransi, old Latin and Greek transliteration, Maltese, Mongolian and Turkish.
 
-Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription. See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info. The Olympia transliteration keyboard has some macOS symbols.
+Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription. See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info. The Olympia transliteration keyboard has some macOS symbols but does not have the Euro sign.
 
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
 
@@ -23,13 +23,13 @@ Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Reg
 
 Gāndharī Unicode (2008), by [Andrew Glass](http://www.andrewglass.org/), is a font based on Times Gāndharī. The font includes keyboard drivers for use with Windows and Word.
 
-The Hobogirin font is identical to the Kenneth Ray Norman encoding.
+The Hobogirin font is identical to the Kenneth Ray Norman encoding but uses a different designer.
 
 iitmipa (2004), by IIT Madras, is a transliteration font based on Garamond for use with Indic languages. Download the font from [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php).
 
 IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. The lack of box and shade characters in IndUni Courier makes it unsuitable for text mode programs like Midnight Commander. IndUni is released under the GNU GPL 3.0 license.
 
-Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop. Included legacy products: OrientFont – Sumertime/Akkadica, IndoFont – SouthAsia (Fonts and Keyboard Drivers developed by Rainer Kimmig), SinoFont – EastAsia/Pinyin. Cancelled font project: IndoFont – IndoIranian (Fonts intended for transliteration of languages in Indo-Iranian family).
+Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop but were no longer sold.
 
 Minion Indologist is a font derived from Minion and contains accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
 
@@ -2003,3 +2003,339 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | u macron grave           | Alt-172 |
 | u macron acute           | Alt-170 |
 | u macron breve           | Alt-166 |
+
+### Kenneth Roy Norman codes – Accented letters
+| Glyph                    | Codes   |
+|--------------------------|---------|
+| A grave                  | Alt-203 |
+| A dieresis               | Alt-128 |
+| A tilde                  | Alt-204 |
+| A macron                 | Alt-238 |
+| A ring                   | Alt-129 |
+| AE                       | Alt-174 |
+| C cedilla                | Alt-130 |
+| D dot below              | Alt-223 |
+| E acute                  | Alt-131 |
+| H dot below              | Alt-222 |
+| I macron                 | Alt-231 |
+| L dot below              | Alt-226 |
+| M dot below              | Alt-200 |
+| N tilde                  | Alt-132 |
+| N dot above              | Alt-220 |
+| N dot below              | Alt-239 |
+| O tilde                  | Alt-205 |
+| O dieresis               | Alt-133 |
+| OE                       | Alt-206 |
+| R dot below              | Alt-244 |
+| S acute                  | Alt-234 |
+| S dot below              | Alt-221 |
+| T dot below              | Alt-233 |
+| U dieresis               | Alt-134 |
+| U macron                 | Alt-242 |
+| Z acute                  | Alt-243 |
+| a grave                  | Alt-136 |
+| a acute                  | Alt-135 |
+| a circumflex             | Alt-137 |
+| a tilde                  | Alt-139 |
+| a dieresis               | Alt-138 |
+| a macron                 | Alt-140 |
+| a macron acute           | Alt-178 |
+| a macron tilde           | Alt-198 |
+| a macron breve           | Alt-193 |
+| a breve                  | Alt-196 |
+| ae                       | Alt-190 |
+| c cedilla                | Alt-141 |
+| d dot below              | Alt-182 |
+| e grave                  | Alt-143 |
+| e acute                  | Alt-142 |
+| e circumflex             | Alt-144 |
+| e tilde                  | Alt-162 |
+| e dieresis               | Alt-145 |
+| e macron                 | Alt-227 |
+| e macron acute           | Alt-184 |
+| e macron breve           | Alt-187 |
+| e breve                  | Alt-236 |
+| h dot below              | Alt-250 |
+| i grave                  | Alt-147 |
+| i acute                  | Alt-146 |
+| i circumflex             | Alt-148 |
+| i tilde                  | Alt-176 |
+| i dieresis               | Alt-149 |
+| i macron                 | Alt-180 |
+| i macron acute           | Alt-199 |
+| i macron breve           | Alt-228 |
+| i breve                  | Alt-251 |
+| j macron                 | Alt-195 |
+| l dot below              | Alt-194 |
+| l line below             | Alt-241 |
+| l ring below             | Alt-214 |
+| m dot above              | Alt-215 |
+| m dot below              | Alt-181 |
+| n tilde                  | Alt-150 |
+| n dot above              | Alt-186 |
+| n dot below              | Alt-245 |
+| n line below             | Alt-246 |
+| o grave                  | Alt-152 |
+| o acute                  | Alt-151 |
+| o circumflex             | Alt-153 |
+| o tilde                  | Alt-155 |
+| o dieresis               | Alt-154 |
+| o macron                 | Alt-175 |
+| o macron breve           | Alt-188 |
+| o breve                  | Alt-237 |
+| o slash                  | Alt-191 |
+| oe                       | Alt-207 |
+| r dot below              | Alt-168 |
+| r dot below acute        | Alt-252 |
+| r dot below macron       | Alt-165 |
+| r dot below macron acute | Alt-218 |
+| r dieresis below         | Alt-230 |
+| r ring below             | Alt-219 |
+| r line below             | Alt-229 |
+| s acute                  | Alt-167 |
+| s caron                  | Alt-169 |
+| s dot below              | Alt-183 |
+| t dot below              | Alt-160 |
+| u grave                  | Alt-157 |
+| u acute                  | Alt-156 |
+| u circumflex             | Alt-158 |
+| u tilde                  | Alt-189 |
+| u dieresis               | Alt-159 |
+| u macron                 | Alt-232 |
+| u macron acute           | Alt-179 |
+| u macron breve           | Alt-170 |
+| u breve                  | Alt-197 |
+| y dieresis               | Alt-216 |
+| z acute                  | Alt-185 |
+
+### Kenneth Roy Norman codes – Floating accents
+| Glyph        | Codes   |
+|--------------|---------|
+| acute        | Alt-171 |
+| caron        | Alt-255 |
+| tilde        | Alt-247 |
+| macron       | Alt-248 |
+| macron breve | Alt-192 |
+| breve        | Alt-249 |
+| hungarumlaut | Alt-253 |
+| cedilla      | Alt-252 |
+| ogonek       | Alt-254 |
+
+### Kenneth Roy Norman codes – Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| degree             | Alt-161 |
+| sterling           | Alt-163 |
+| dagger             | Alt-235 |
+| daggerdbl          | Alt-224 |
+| section            | Alt-164 |
+| paragraph          | Alt-166 |
+| en dash            | Alt-208 |
+| em dash            | Alt-209 |
+| quoteleft          | Alt-212 |
+| quoteright         | Alt-213 |
+| quotedblleft       | Alt-210 |
+| quotedblright      | Alt-211 |
+| ellipsis           | Alt-201 |
+| plus minus         | Alt-177 |
+| multiply           | Alt-217 |
+| not equal          | Alt-173 |
+| non-breaking space | Alt-160 |
+
+### Old-Latin and Greek
+| Glyph          | URW Palladio KUL | CP30007          | Macron breve | Euransi e Nauromane |
+|----------------|------------------|------------------|--------------|---------------------|
+| A macron       | No key assigned  | Alt-199          | Alt-199      | Alt-194             |
+| A macron breve | No key assigned  | No key assigned  | Alt-182      | No key assigned     |
+| A breve        | No key assigned  | Alt-209          | Alt-209      | Alt-193             |
+| E macron       | No key assigned  | Alt-190          | Alt-190      | Alt-202             |
+| E macron breve | No key assigned  | No key assigned  | Alt-210      | No key assigned     |
+| E breve        | No key assigned  | Alt-249          | Alt-249      | Alt-201             |
+| I macron       | No key assigned  | Alt-157          | Alt-157      | Alt-206             |
+| I macron breve | No key assigned  | No key assigned  | Alt-215      | No key assigned     |
+| I breve        | No key assigned  | Alt-207          | Alt-207      | Alt-205             |
+| O macron       | No key assigned  | Alt-159          | Alt-159      | Alt-212             |
+| O macron breve | No key assigned  | No key assigned  | Alt-226      | No key assigned     |
+| O breve        | No key assigned  | Alt-232          | Alt-232      | Alt-211             |
+| U macron       | No key assigned  | Alt-184          | Alt-184      | Alt-219             |
+| U macron breve | No key assigned  | No key assigned  | Alt-234      | No key assigned     |
+| U breve        | No key assigned  | Alt-247          | Alt-247      | Alt-218             |
+| a macron       | Alt-192          | Alt-198          | Alt-198      | Alt-226             |
+| a macron breve | No key assigned  | No key assigned  | Alt-131      | No key assigned     |
+| a breve        | Alt-176          | Alt-208          | Alt-208      | Alt-225             |
+| e macron       | Alt-188          | Alt-189          | Alt-189      | Alt-234             |
+| e macron breve | No key assigned  | No key assigned  | Alt-136      | No key assigned     |
+| e breve        | Alt-206          | Alt-221          | Alt-221      | Alt-233             |
+| i macron       | Alt-193          | Alt-155          | Alt-155      | Alt-238             |
+| i macron breve | No key assigned  | No key assigned  | Alt-140      | No key assigned     |
+| i breve        | Alt-177          | Alt-156          | Alt-156      | Alt-237             |
+| o macron       | Alt-189          | Alt-158          | Alt-158      | Alt-244             |
+| o macron breve | No key assigned  | No key assigned  | Alt-147      | No key assigned     |
+| o breve        | Alt-207          | Alt-231          | Alt-231      | Alt-243             |
+| u macron       | Alt-194          | Alt-169          | Alt-169      | Alt-251             |
+| u macron breve | No key assigned  | No key assigned  | Alt-150      | No key assigned     |
+| u breve        | Alt-178          | Alt-239          | Alt-239      | Alt-250             |
+
+### TITUS Oriental Christian font codes
+| Glyph                  | Codes   |
+|------------------------|---------|
+| A macron               | Alt-155 |
+| C caron                | Alt-168 |
+| C dot below            | Alt-166 |
+| C dot below caron      | Alt-169 |
+| D dot below            | Alt-171 |
+| E macron               | Alt-156 |
+| E reversed             | Alt-152 |
+| G caron                | Alt-173 |
+| G dot above            | Alt-172 |
+| H dot below            | Alt-174 |
+| H breve below          | Alt-175 |
+| I macron               | Alt-157 |
+| J caron                | Alt-176 |
+| K dot below            | Alt-177 |
+| L stroke               | Alt-179 |
+| O macron               | Alt-158 |
+| P dot below            | Alt-180 |
+| Q dot below            | Alt-182 |
+| R macron               | Alt-183 |
+| S caron                | Alt-184 |
+| S dot below            | Alt-185 |
+| T dot below            | Alt-186 |
+| U macron               | Alt-159 |
+| Z caron                | Alt-188 |
+| Z dot below            | Alt-189 |
+| Ezh                    | Alt-190 |
+| Ezh caron              | Alt-191 |
+| a macron               | Alt-192 |
+| a dieresis macron      | Alt-193 |
+| c acute                | Alt-135 |
+| c caron                | Alt-196 |
+| c dot below            | Alt-194 |
+| c dot below caron      | Alt-197 |
+| c cedilla              | Alt-128 |
+| d dot below            | Alt-199 |
+| delta                  | Alt-200 |
+| e macron               | Alt-201 |
+| schwa                  | Alt-202 |
+| schwa macron           | Alt-203 |
+| g acute                | Alt-206 |
+| g caron                | Alt-205 |
+| g dot above            | Alt-204 |
+| gamma                  | Alt-207 |
+| h dot below            | Alt-208 |
+| h breve below          | Alt-209 |
+| i macron               | Alt-210 |
+| i inverted breve below | Alt-211 |
+| j acute                | Alt-213 |
+| j caron                | Alt-212 |
+| k acute                | Alt-214 |
+| k dot below            | Alt-216 |
+| l dot below            | Alt-218 |
+| l stroke               | Alt-217 |
+| m candrabindu          | Alt-220 |
+| m dot below            | Alt-219 |
+| n acute                | Alt-222 |
+| n dot above            | Alt-223 |
+| n dot below            | Alt-221 |
+| eng                    | Alt-224 |
+| eng acute              | Alt-226 |
+| o macron               | Alt-227 |
+| o dieresis macron      | Alt-228 |
+| p dot below            | Alt-229 |
+| q dot below            | Alt-231 |
+| r dot below            | Alt-232 |
+| r macron               | Alt-233 |
+| s acute                | Alt-238 |
+| s caron                | Alt-234 |
+| s caron acute          | Alt-235 |
+| s dot below            | Alt-237 |
+| s dot below caron      | Alt-236 |
+| t dot below            | Alt-239 |
+| t tilde below          | Alt-240 |
+| theta                  | Alt-242 |
+| u dieresis macron      | Alt-246 |
+| u macron               | Alt-243 |
+| u inverted breve below | Alt-244 |
+| x acute                | Alt-247 |
+| y dot above            | Alt-249 |
+| z acute                | Alt-252 |
+| z caron                | Alt-250 |
+| z dot below            | Alt-251 |
+| ezh                    | Alt-253 |
+| ezh caron              | Alt-254 |
+
+### TITUS Oriental Christian font codes – Printer's Specials for use with VGA/EGA screen fonts only
+| Glyph                              | Codes     |
+|------------------------------------|-----------|
+| left half ring                     | percent   |
+| right half ring                    | ampersand |
+| sterling                           | Alt-170   |
+| Euro                               | Alt-187   |
+| section                            | Alt-178   |
+| degree                             | Alt-241   |
+| copyright                          | Alt-167   |
+| multiply                           | Alt-195   |
+| divide                             | Alt-198   |
+| guillemotleft                      | Alt-215   |
+| guillemotright                     | Alt-230   |
+| superscript c                      | Alt-181   |
+| superscript u inverted breve below | Alt-245   |
+| superscript v                      | Alt-248   |
+
+### Ottoman Turkish font codes
+The font can be used for Azerbaijani and Turkish languages.
+
+| Glyph           | Codes   |
+|-----------------|---------|
+| G dot above     | Alt-229 |
+| H dot below     | Alt-237 |
+| K dot below     | Alt-168 |
+| S dot below     | Alt-143 |
+| S line below    | Alt-209 |
+| T dot below     | Alt-199 |
+| Z line below    | Alt-183 |
+| g dot above     | Alt-228 |
+| h dot below     | Alt-236 |
+| k dot below     | Alt-168 |
+| s dot below     | Alt-134 |
+| s line below    | Alt-208 |
+| t dot below     | Alt-198 |
+| z line below    | Alt-216 |
+| left half ring  | Alt-252 |
+| right half ring | Alt-253 |
+
+### PKTC font codes
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-143 |
+| D dot below        | Alt-128 |
+| H dot below        | Alt-210 |
+| I macron           | Alt-211 |
+| L dot below        | Alt-222 |
+| L dot below macron | Alt-214 |
+| M dot below        | Alt-215 |
+| N tilde            | Alt-165 |
+| N dot above        | Alt-209 |
+| N dot below        | Alt-216 |
+| R dot below        | Alt-226 |
+| R dot below macron | Alt-229 |
+| S acute            | Alt-233 |
+| S dot below        | Alt-235 |
+| T dot below        | Alt-234 |
+| U macron           | Alt-237 |
+| a macron           | Alt-134 |
+| d dot below        | Alt-135 |
+| h dot below        | Alt-136 |
+| i macron           | Alt-137 |
+| l dot below        | Alt-141 |
+| l dot below macron | Alt-161 |
+| m dot below        | Alt-140 |
+| n tilde            | Alt-164 |
+| n dot above        | Alt-208 |
+| n dot below        | Alt-139 |
+| r dot below        | Alt-147 |
+| r dot below macron | Alt-228 |
+| s acute            | Alt-151 |
+| s dot below        | Alt-163 |
+| t dot below        | Alt-150 |
+| u macron           | Alt-236 |
