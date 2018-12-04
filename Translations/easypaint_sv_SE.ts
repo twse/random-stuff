@@ -11,7 +11,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Gaussiska oskärpa</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -454,7 +454,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation></translation>
+        <translation>Not: språkbyte kräver omstart av program</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
@@ -464,7 +464,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Fråga duk storlek på nytt bild skaparde</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
@@ -525,7 +525,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
         <source>Keyboard</source>
-        <translation></translation>
+        <translation>Tangentbord</translation>
     </message>
 </context>
 <context>
