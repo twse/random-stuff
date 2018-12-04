@@ -315,12 +315,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation>Introduzca el factor zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Factor zoom:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -359,7 +359,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation>Si te gusta &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión, o enviar un informe de fallos, o quieres sugerir nuevas características, te estamos esperando en nuestro &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;Tracker&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -449,12 +449,12 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation>Restaurar el tamaño de la ventana al inicio</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation>Pida el tamaño del lienzo en la nueva creación de imágenes</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
