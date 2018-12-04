@@ -182,6 +182,10 @@ URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with
 ### Yugoslavian - Typed as usual on Yugoslavian keyboards
 These can be written when used with CP113.
 
+Antonio Bakula wrote the TSR program Wprint (1993) to convert Croatian characters from a printer. The documentation is in Croatian only.
+
+Arminio Grgić wrote the TSR program CNVPRN (1993) to convert Croatian characters used in documents from a printer. The documentation is in Croatian only.
+
 Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. The documentation is in Croatian only.
 
 Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
