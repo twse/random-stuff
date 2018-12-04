@@ -359,7 +359,7 @@ Deseja salvar as modificações?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Se você gosta o &lt;b&gt;EasyPaint&lt;/b&gt; e você</translation>
+        <translation>Se você gosta o &lt;b&gt;EasyPaint&lt;/b&gt; e você quer compartir seu opinião ou enviar relatórios de bugs ou sugerir novas</translation>
     </message>
 </context>
 <context>
@@ -454,7 +454,7 @@ Deseja salvar as modificações?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation>Pergunta tamanho do</translation>
+        <translation>Pergunta tamanho do lona em criar novas imagems</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
