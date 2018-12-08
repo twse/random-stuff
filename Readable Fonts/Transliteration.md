@@ -2612,3 +2612,221 @@ The font can be used for Azerbaijani and Turkish languages.
 | s dot below         | Alt-135 | Alt-229           |
 | t dot below         | Alt-239 | Alt-254           |
 | u macron            | Alt-150 | Alt-250           |
+
+### Codes for Sanskrit transliteration font by Libor Sztemon
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-193 |
+| D dot below        | Alt-207 |
+| E macron           | Alt-201 |
+| G dot above        | Alt-208 |
+| H dot below        | Alt-192 |
+| I tilde            | Alt-143 |
+| I macron           | Alt-205 |
+| L dot below        | Alt-188 |
+| L line below       | Alt-197 |
+| M dot above        | Alt-204 |
+| N tilde            | Alt-210 |
+| N dot above        | Alt-209 |
+| N dot below        | Alt-198 |
+| O macron           | Alt-211 |
+| R dot below        | Alt-216 |
+| R dot below macron | Alt-217 |
+| S acute            | Alt-140 |
+| S dot below        | Alt-138 |
+| T dot below        | Alt-141 |
+| U tilde            | Alt-144 |
+| U macron           | Alt-218 |
+| V dot below        | Alt-221 |
+| a macron           | Alt-225 |
+| d dot below        | Alt-239 |
+| e macron           | Alt-233 |
+| g dot above        | Alt-240 |
+| h dot below        | Alt-224 |
+| i tilde            | Alt-127 |
+| i macron           | Alt-237 |
+| l dot below        | Alt-190 |
+| l line below       | Alt-229 |
+| m dot above        | Alt-236 |
+| n tilde            | Alt-242 |
+| n dot above        | Alt-241 |
+| n dot below        | Alt-230 |
+| o macron           | Alt-243 |
+| r dot below        | Alt-248 |
+| r dot below macron | Alt-249 |
+| s acute            | Alt-156 |
+| s dot below        | Alt-154 |
+| t dot below        | Alt-157 |
+| u tilde            | Alt-129 |
+| u macron           | Alt-250 |
+| v dot below        | Alt-253 |
+
+### Tamil transliteration font codes
+| Glyph        | Codes   | URW Palladio SKT |
+|--------------|---------|------------------|
+| A macron     | Alt-142 | Alt-176          |
+| D dot below  | Alt-209 | Alt-247          |
+| E macron     | Alt-211 | No key assigned  |
+| H line below | Alt-183 | No key assigned  |
+| I macron     | Alt-216 | Alt-177          |
+| K line below | Alt-199 | No key assigned  |
+| L dot below  | Alt-128 | Alt-226          |
+| L line below | Alt-157 | Alt-238          |
+| N tilde      | Alt-165 | Alt-208          |
+| N dot above  | Alt-146 | Alt-212          |
+| N dot below  | Alt-222 | Alt-213          |
+| N line below | Alt-229 | No key assigned  |
+| O macron     | Alt-153 | No key assigned  |
+| R dot below  | Alt-224 | Alt-227          |
+| R line below | Alt-232 | No key assigned  |
+| S acute      | Alt-182 | Alt-140          |
+| S dot below  | Alt-143 | Alt-216          |
+| T dot below  | Alt-234 | Alt-215          |
+| T line below | Alt-172 | No key assigned  |
+| U macron     | Alt-154 | Alt-178          |
+| Z dot below  | Alt-226 | No key assigned  |
+| a macron     | Alt-132 | Alt-192          |
+| d dot below  | Alt-208 | Alt-231          |
+| e macron     | Alt-137 | No key assigned  |
+| h line below | Alt-133 | Alt-161          |
+| i macron     | Alt-139 | Alt-193          |
+| k line below | Alt-198 | Alt-172          |
+| l dot below  | Alt-135 | Alt-210          |
+| l line below | Alt-155 | Alt-222          |
+| n tilde      | Alt-164 | Alt-240          |
+| n dot above  | Alt-145 | Alt-244          |
+| n dot below  | Alt-141 | Alt-245          |
+| n line below | Alt-228 | Alt-184          |
+| o macron     | Alt-148 | No key assigned  |
+| r dot below  | Alt-162 | Alt-195          |
+| r line below | Alt-231 | Alt-186          |
+| s acute      | Alt-131 | Alt-156          |
+| s dot below  | Alt-134 | Alt-200          |
+| t dot below  | Alt-150 | Alt-199          |
+| t line below | Alt-243 | Alt-174          |
+| u macron     | Alt-129 | Alt-194          |
+| z dot below  | Alt-147 | No key assigned  |
+
+### Telugu transliteration font codes
+| Glyph               | Codes   |
+|---------------------|---------|
+| A macron            | Alt-182 |
+| C circumflex        | Alt-199 |
+| D dot below         | Alt-216 |
+| E macron            | Alt-210 |
+| H dot below         | Alt-142 |
+| I macron            | Alt-215 |
+| L dot below         | Alt-181 |
+| L dot below macron  | Alt-235 |
+| L ring below        | Alt-189 |
+| L ring below macron | Alt-184 |
+| L line below        | Alt-237 |
+| M dot above         | Alt-253 |
+| M candrabindu       | Alt-167 |
+| M dot below         | Alt-233 |
+| N tilde             | Alt-165 |
+| N dot above         | Alt-222 |
+| N breve             | Alt-209 |
+| N dot below         | Alt-212 |
+| O macron            | Alt-226 |
+| R dot below         | Alt-183 |
+| R dot below macron  | Alt-224 |
+| R ring below        | Alt-156 |
+| R ring below macron | Alt-211 |
+| R line below        | Alt-232 |
+| S acute             | Alt-229 |
+| S dot below         | Alt-225 |
+| T dot below         | Alt-214 |
+| U macron            | Alt-234 |
+| a macron            | Alt-131 |
+| c circumflex        | Alt-198 |
+| d dot below         | Alt-139 |
+| e macron            | Alt-136 |
+| h dot below         | Alt-132 |
+| i macron            | Alt-140 |
+| l dot below         | Alt-160 |
+| l dot below macron  | Alt-151 |
+| l ring below        | Alt-190 |
+| l ring below macron | Alt-169 |
+| l line below        | Alt-236 |
+| m dot above         | Alt-252 |
+| m candrabindu       | Alt-166 |
+| m dot below         | Alt-163 |
+| n tilde             | Alt-164 |
+| n dot above         | Alt-141 |
+| n breve             | Alt-208 |
+| n dot below         | Alt-138 |
+| o macron            | Alt-147 |
+| r dot below         | Alt-133 |
+| r dot below macron  | Alt-162 |
+| r ring below        | Alt-207 |
+| r ring below macron | Alt-137 |
+| r line below        | Alt-231 |
+| s acute             | Alt-228 |
+| s dot below         | Alt-152 |
+| t dot below         | Alt-161 |
+| u macron            | Alt-150 |
+
+### Transliteration font codes
+| Glyph        | Codes                        |
+|--------------|------------------------------|
+| D line below | Q                            |
+| E macron     | I                            |
+| G line below | number sign or Alt-162       |
+| H dieresis   | A                            |
+| H dot below  | asterisk or Alt-167          |
+| P macron     | plus or Alt-169              |
+| S caron      | circumflex accent or Alt-165 |
+| d dot below  | c                            |
+| d line below | q                            |
+| e macron     | i                            |
+| g line below | x                            |
+| h dot below  | T                            |
+| n tilde      | v                            |
+| p macron     | D                            |
+| s caron      | S                            |
+| t dot below  | V                            |
+
+### URW Palladio KUL codes – Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| quoteleft          | Alt-145 |
+| quoteright         | Alt-146 |
+| quotedblleft       | Alt-147 |
+| quotedblright      | Alt-148 |
+| quotesinglbase     | Alt-130 |
+| quotedblbase       | Alt-132 |
+| guilsinglleft      | Alt-139 |
+| guilsinglright     | Alt-155 |
+| guillemot left     | Alt-171 |
+| guillemot right    | Alt-187 |
+| soft hyphen        | Alt-173 |
+| en dash            | Alt-150 |
+| non-breaking space | Alt-160 |
+| middle dot         | Alt-183 |
+| paragraph          | Alt-182 |
+| bullet             | Alt-149 |
+| Euro               | Alt-164 |
+
+### URW Palladio KUL codes – Extended Indic diacritics (Sanskrit, Pali, Tamil, Sinhala and other)
+| Glyph        | Codes   |
+|--------------|---------|
+| a circumflex | Alt-226 |
+| a tilde      | Alt-227 |
+| a dieresis   | Alt-228 |
+| e circumflex | Alt-247 |
+| e tilde      | Alt-203 |
+| e dieresis   | Alt-235 |
+| e macron     | Alt-188 |
+| e breve      | Alt-206 |
+| i circumflex | Alt-238 |
+| i tilde      | Alt-204 |
+| i dieresis   | Alt-239 |
+| o circumflex | Alt-212 |
+| o tilde      | Alt-213 |
+| o dieresis   | Alt-246 |
+| o macron     | Alt-189 |
+| o breve      | Alt-206 |
+| u circumflex | Alt-251 |
+| u tilde      | Alt-217 |
+| u dieresis   | Alt-252 |
