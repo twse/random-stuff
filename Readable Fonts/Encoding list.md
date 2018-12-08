@@ -184,7 +184,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | ITRANSL   | Itranslator                                      |
 | KANNTRAN  | Kannada with ISO 15919 diacritics                |
 | KASHMIRI  | Kashmiri                                         |
-| KULMIX    | Catholic University Lublin Mixed Font            |
+| KULMIX    | Catholic University Lublin Mixed                 |
 | KULTRAN   | Catholic University Lublin Transliteration       |
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
