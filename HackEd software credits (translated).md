@@ -98,6 +98,15 @@ La ridistribuzione e l'uso di moduli sorgente e binari, con o senza modifiche, s
 
 QUESTO SOFTWARE È FORNITO "COSÌ COM'È" SENZA ALCUNA GARANZIA ESPRESSA O IMPLICITA, INCLUSE MA NON LIMITATE ALLE GARANZIE IMPLICITE DI COMMERCIABILITÀ, IDONEITÀ PER UNO SCOPPO PARTICOLARE E VIOLAZIONE DELL'INFRAZIONE. IN NESSUNA CIRCOSTANZA IL DETENTORE DEI DIRITTI DI CUI SOPRA SARÀ RITENUTO RESPONSABILE PER DANNI DIRETTI, INDIRETTI, INCIDENTALI, SPECIALI, ESEMPLARI O CONSEQUENZIALI (INCLUSA, A TITOLO ESSEMPLIFICATIVO MA NON ESAUSTIVO, L'ACQUISTO DI PRODOTTI O SERVIZI SOSTITUTI, LA PERDITA DI USO, DATI O PROFITTI, O L'INTERRUZIONE DI ATTIVITÀ) CAUSATI IN QUALSIASI MODO E SECONDO QUALSIASI TEORIA DI RESPONSABILITÀ DI QUALSIASI TIPO, SIA ESSO UN CONTRATTO, DI QUALSIASI RESPONSABILITÀ OGGETTIVA O ILLECITO (INCLUSA NA NEGLIGENZA O ALTRO) CHE POSSA DERIVARE IN QUALSIASI MODO DALL'USO DI QUESTO SOFTWARE, ANCHE SE C'È STATO UN AVVERIMENTO SULLA POSSIBILITÀ DI TALE DANNO.
 
+### Informazioni su copyright e licenze per go-gl/glfw
+
+### Informazioni su copyright e licenze per go-gl/mathgl
+
+### Informazioni su copyright e licenze per go-gl/opengl
+
+### Informazioni su copyright e licenze per Dear ImGui
+Il licenze MIT (MIT)
+
 ### Informazioni su copyright e licenze per GLFW
 Copyright (c) 2002-2006 Marcus Geelnard<br />
 Copyright (c) 2006-2016 Camilla Löwy
@@ -108,6 +117,8 @@ Chiunque è autorizzato a utilizzare questo software per qualsiasi scopo per qua
 1. L'origine di questo software non dovrebbe essere travisata; non devi pretendere di aver scritto il software originale. Se si utilizza questo software in un prodotto, una nota di riconoscimento in tal senso nella documentazione del prodotto sarebbe apprezzata, sebbene non necessaria.
 2. Le versioni con una fonte modificata dovrebbero essere chiaramente contrassegnate come tali e non dovrebbero essere travisate come il software originale.
 3. Questo avviso non può essere rimosso o modificato da alcuna distribuzione di origine.
+
+### Informazioni su copyright e licenze per MinGW-w64
 
 ## Spanish
 
