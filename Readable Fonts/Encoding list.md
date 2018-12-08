@@ -110,6 +110,7 @@
 | VSCII     | VSCII                                          |
 | WAKHI     | Wakhi                                          |
 | WESTERN1  | Western 1                                      |
+| WESTERN2  | Western 2                                      |
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
