@@ -37,7 +37,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Error opening file</source>
-        <translation></translation>
+        <translation>Fel öppna arkiv</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="214"/>
@@ -48,7 +48,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Error saving file</source>
-        <translation></translation>
+        <translation>Fel lagra arkiv</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -305,7 +305,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Avancerad zoom...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -520,7 +520,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation>Kort sekvens:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
