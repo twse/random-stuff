@@ -16,7 +16,7 @@
     <message>
         <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
         <source>Apply</source>
-        <translation></translation>
+        <translation>Alkamaz</translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../imagearea.cpp" line="244"/>
         <source>Save image...</source>
-        <translation>Mentése kep...</translation>
+        <translation>Mentése kép...</translation>
     </message>
 </context>
 <context>
@@ -295,7 +295,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Haladó függőleges...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation>Nagyítási arány:</translation>
+        <translation>Függőleges arány:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -494,7 +494,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
         <source>Keyboard shortcuts</source>
-        <translation></translation>
+        <translation>Billentyűzet omlós torta</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
@@ -505,12 +505,12 @@ Szeretné menteni a változásokat?</translation>
         <location filename="../dialogs/settingsdialog.cpp" line="148"/>
         <location filename="../dialogs/settingsdialog.cpp" line="160"/>
         <source>Shortcut</source>
-        <translation></translation>
+        <translation>Omlós torta</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation>Kulcs következés:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
