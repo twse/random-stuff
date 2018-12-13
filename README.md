@@ -61,8 +61,17 @@ On Windows XP Service Pack 2 and above, Internet Explorer will block active cont
 * **DNS error** (Wii Internet Channel) - The links for the list entries use https links (i.e. for use with secure websites) for the Opera website.
 * Mozilla credits page translated to French - Instead of the contributor list it will show a translated message.
 
-## Translations
-* **Dual Module Player** - Czech (IBM-852) and German (IBM-850). Only Finnish and French translations are included.
-* **EasyPaint** – Danish, Dutch, Finnish, German, Hungarian, Italian, Korean, Polish, Portuguese (Brazil), Romanian, Spanish, Swedish and Turkish (UTF-8). Only Chinese (Simplified), Czech, French and Russian translations are included.
-* **SPFig** – Dutch (IBM-850). Only English and French translations are included.
-* **Tinke** – Czech, Dutch, Korean, Portuguese (Brazil) and Russian (UTF-8). Only English, French, Italian and Spanish translations for user interface and plugins are included.
+## Translations of EasyPaint into multiple languages
+* Danish (da_DK)
+* Dutch (nl_NL)
+* Finnish (fi_FI)
+* German (de_DE)
+* Hungarian (hu_HU)
+* Italian (it_IT)
+* Korean (ko_KR)
+* Polish (pl_PL)
+* Portuguese, as spoken in Brazil (pt_BR)
+* Romanian (ro_RO) - Contributed by Nicolae Oprea
+* Spanish, as spoken in Spain (es_ES)
+* Swedish, as spoken in Sweden (sv_SE)
+* Turkish (tr_TR)
