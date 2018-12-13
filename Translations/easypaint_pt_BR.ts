@@ -290,12 +290,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>Zoom</source>
-        <translation></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Zoom avançada...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -315,12 +315,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation>Insira o fator de zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Fator de zoom:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -449,7 +449,7 @@ Deseja salvar as modificações?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation>Restaurar tamanho do</translation>
+        <translation>Restaurar o tamanho da janela no início</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
