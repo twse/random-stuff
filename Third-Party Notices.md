@@ -1,5 +1,4 @@
 # Commercial Software
-This software product includes Autodesk™ Beast™ software, © 2018 Autodesk, Inc. All rights reserved.
 
 ## For use of Bink Video
 Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
@@ -20,8 +19,6 @@ FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
 
 ## For use of GameSpy
 This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2015 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
-
-This software product includes Autodesk® Gameware Navigation® software, © 2018 Autodesk, Inc. All rights reserved.
 
 ## For use of Golden CommPass
 Copyright © 1998 Creative Services Programming Corporation<br />
@@ -47,9 +44,6 @@ IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are t
 Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
-Uses Kynapse, © 2003-2017 Kynapse.<br />
-Kynapse and Kynogon are registered trademarks of Kynogon S.A. All rights reserved.
-
 Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
 
 This game uses NaturalMotion morpheme animation technology.
@@ -74,54 +68,11 @@ Written by Claude Biron
 ## For use of Relish
 Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
-This software product includes Autodesk® Scaleform® software, © 2018 Autodesk, Inc. All rights reserved.
-
 Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
 
 ## For use of SimCity
 Copyright © 2013 Electronic Arts Inc.<br />
 OS/2 port: Stardock Entertainment
-
-### Main developers
-* Alex Peck
-* Aron Sogor
-* Brian Deppiesse
-* Chi Chan
-* Chris Tilton
-* Cody Murry
-* Cristian St. Aubyn
-* Dan Moskowitz
-* Derrick Schneider
-* Diane Pogorzelski
-* Ed Nanale
-* Eric Garay
-* Frances Ngai
-* Guillaume Pierre
-* Holly Ruark
-* Jason Haber
-* Jon Lee
-* Joshua Brockman
-* Kent Jolly
-* Kevin Shrapnell
-* Kip Kastarelis
-* Lucy Bradshaw
-* Matthew Wynne
-* Micha Nordegraaf
-* Michael Chrien
-* Mike Khoury
-* Mitchell Fisher
-* Morgan Roarty
-* Ocean Quigley
-* Pam Fusco
-* Patrick Buechner
-* Paul Terry
-* Rajan Tande
-* Renaud Ternynck
-* Scott Nagy
-* Sherry Hsieh
-* Steve Eng
-* Stone Librande
-* Toby Mast
 
 ## For use of Simplygon
 Simplygon is © 2018 Microsoft. All rights reserved.
