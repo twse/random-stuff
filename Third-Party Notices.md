@@ -6,8 +6,13 @@ Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
 “bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
 
 ## For use of DOOM
-DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.<br />
-OS/2 port: Juan José García Ripoll
+DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.
+
+### OS/2 port contributors
+* Craig Ballantyne
+* Juan José García Ripoll
+* Dimitris Michelinakis
+* Jim Thomas
 
 ## For use of Enlighten
 Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics Limited or its affiliates.
@@ -129,16 +134,8 @@ All changes and additions to the original code (Astrolog 5.40) are copyright (c)
 
 None of these notices may be changed or removed for any reason.
 
-## For use of Attribute Manager
-(c) 1997-1998 Alessandro Cantatore
-
-You are free to distribute the program on BBSs, FTP sites, CD ROMs, etc, provided that you enclose all the files in the archive without any modification.<br />
-You are not allowed to sell the program, but can charge a reasonable amount to cover the cost of the distribution media.
-
-Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
-
-## For use of Batch Editor
-Copyright © 1999-2004 Alessandro Cantatore
+## For use of Attribute Manager, Batch Editor, Comment Manager, File Splitter and Joiner, Module Replacer, NEWLOOK, TreeFolder, WPS Class Manager
+Copyright © 1996-2006 Alessandro Cantatore
 
 Under no circumstances the author is liable for any loss or damage.
 * You are free to use this version of the program on as many machines as you like.
@@ -204,11 +201,6 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 
 **Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
 
-## For use of Comment Manager, TreeFolder
-(c) 1997 Alessandro Cantatore
-
-Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
-
 ## For use of Editor+
 Copyright © 1996-1997 Christoph Bratschi
 
@@ -218,9 +210,6 @@ You use this program at your own risk!
 
 ## For use of File Browser
 Copyright © 1998-2004 Christoph Bratschi
-
-## For use of File Splitter and Joiner
-(c) 16 Jun 2006 - Alessandro Felice Cantatore
 
 ## For use of HTMLGen, RexxBase
 Copyright © 1993-1999 American Coders Ltd.<br />
@@ -309,16 +298,6 @@ Copyright © 1997-1998 Christoph Bratschi
 
 You use this program at your own risk!
 
-## For use of Module Replacer
-(c) 1998 Alessandro Cantatore
-
-Under no circumstances the author is liable for any LOSS OR DAMAGE.
-* You are FREE TO USE this version of the program on as many machines as you like.
-* You are FREE TO DISTRIBUTE the program provided that you include all the files in the archive without any modification.
-* YOU ARE NOT ALLOWED TO SELL THE PROGRAM, but can charge a reasonable amount to cover the cost of the distribution media.
-
-THE USE OF THE PROGRAM IMPLIES ACCEPTANCE OF THE CONDITIONS STATED ABOVE!
-
 ## For use of NetExtra, Netwatch
 Copyright (c) 1999 Momotek Computer Specialties.<br />
 Written by Gene Akins
@@ -328,11 +307,6 @@ This Software is licensed, not sold. Momotek Computer Specialties (hereinafter r
 To the maximum extent permitted by applicable law, Momotek and its suppliers disclaim all warranties, either express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose, with regard to the Software and accompanying documentation.
 
 To the maximum extent permitted by applicable laws, in no event shall Momotek or its suppliers be liable for any damages whatsoever (including without limitation, damages for loss of business profits, business interruption, loss of information, or other pecuniary loss) arising out of the use of or inability to use this product, even if Momotek has been advised of the possibility of such damages.
-
-## For use of NEWLOOK
-Copyright (c) 1996 Alessandro Cantatore
-
-If you like this program, you are free to use, copy and modify it as you like. Under no circumstances the author is liable for any loss or damage. The use of the program implies acceptance of the conditions stated above.
 
 ## For use of PM File Compare
 Copyright © 1994 American Coders Ltd.<br />
@@ -401,12 +375,3 @@ The author would like to acknowledge the help of all the pre-release testers. Sp
 Written by Marianne Roderus
 
 This Software is licensed, not sold. InnoVal Systems Solutions, Inc. (hereinafter referred to as InnoVal) grants you a license for the Software in the country where you received the Software. You obtain no other rights other than those granted under this license.
-
-## For use of WPS Class Manager
-* You are allowed to use this program for testing and evaluation until a next version is available.
-* The program, in its current version, may be installed on as many machines as you like.
-* You are free to distribute the program provided that you include all the files in the original archive without any modification.
-* You are not allowed to sell the program, but can charge a reasonable amount of cover the cost of the distribution media.
-* Under no circumstances will the author be liable for any loss or damage that may be derived from the use of the program.
-* WPS Class Manager is the copyrighted property of Alessandro Felice Cantatore, Bitonto, Bari, Italy.
-* The use of the program implies acceptance of the conditions stated above!
