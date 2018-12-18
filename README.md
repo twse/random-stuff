@@ -35,13 +35,13 @@ Pan-European Sans comes in two styles - Regular and Bold.
 
 This font family covers the following diacritics:
 1. All characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
-2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc. - see [Dr. Anthony Stone's ISO 15919 website](http://homepage.ntlworld.com/stone-catend/translit.htm)) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
+2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
 3. All diacritics required for ISO 9 ("Transliteration of Cyrillic languages into Latin characters": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 4. All special letters and diacritics required for Pan-African languages with Latin script (Yoruba, Hausa, Edo-Bini, Fulfulde, Lingala, Krio, Chichewa, Baule, Igbo, Twi, etc. etc. etc. - see Conrad Taylor's Typesetting African languages)
-5. All special letters and diacritics required for Native American languages with Latin script (Navajo, Haisla, Dogrib, Tutchone, Lakota, Dakota, Cayuga, etc. etc. etc.)
+5. All special letters and diacritics required for Native American languages with Latin script (Navajo, Hän, Haisla, Dogrib, Tutchone, Lakota, Dakota, Cayuga, etc. etc. etc.)
 
 ## Other fonts
-Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark. I cancelled several font projects such as **Albertus Mega** (flare serif font).
+Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
 * **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Regular.
@@ -53,13 +53,13 @@ This file includes data files and registry keys for all FontCreator versions.
 ## Protest pages based on dnserror (HTM files)
 These pages are available in four versions. Thanks to [Norman De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
 
-On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar.
+On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar at the top.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol, i.e. for use with nonsecure websites) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
 * **DNS error** (Wii Internet Channel) - The links for the list entries use https links (i.e. for use with secure websites) for the Opera website.
-* Mozilla credits page translated to French - Instead of the contributor list it will show a translated message.
+* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it will show a translated message.
 
 ## Translations of EasyPaint into multiple languages
 * Danish (da_DK)
