@@ -201,17 +201,12 @@ Editorial assistance in preparing the documentation was provided by **David Mosk
 
 **Factoid:** Of the thousands of hands played during testing, three resulted in Royal Flushes. The first was by the program's author, Dick Goran, on December 20, 1995 (a one card draw). The second Royal was made by Sharon Moskowitz (and certified by her father, David). Goran made another Royal on April 26, 1996 while preparing the final beta version of the program (a three card draw).
 
-## For use of Editor+
-Copyright © 1996-1997 Christoph Bratschi
-
-This version is freeware, that means that you can give this program to other persons if you don't change this documentation, the program code and the zip file. It is not allowed to sell this program without my permission. If you want to distribute this program on a CD please let me know.
+## For use of Editor+, File Browser, Mixomat
+Copyright © 1996-2004 Christoph Bratschi
 
 You use this program at your own risk!
 
-## For use of File Browser
-Copyright © 1998-2004 Christoph Bratschi
-
-## For use of HTMLGen, RexxBase
+## For use of HTMLGen, PM File Compare, RexxBase
 Copyright © 1993-1999 American Coders Ltd.<br />
 Written by Joseph McVerry
 
@@ -293,11 +288,6 @@ Copyright © 2000 Carl-Magnus Olsson
 
 Magnum is freeware, but is copyrighted and not in the public domain. Permission is granted to any individual or institution to use, copy, or redistribute this software so long as all of the original files are included unmodified, that it is not sold for profit, and that this copyright notice is retained.
 
-## For use of Mixomat
-Copyright © 1997-1998 Christoph Bratschi
-
-You use this program at your own risk!
-
 ## For use of NetExtra, Netwatch
 Copyright (c) 1999 Momotek Computer Specialties.<br />
 Written by Gene Akins
@@ -307,14 +297,6 @@ This Software is licensed, not sold. Momotek Computer Specialties (hereinafter r
 To the maximum extent permitted by applicable law, Momotek and its suppliers disclaim all warranties, either express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose, with regard to the Software and accompanying documentation.
 
 To the maximum extent permitted by applicable laws, in no event shall Momotek or its suppliers be liable for any damages whatsoever (including without limitation, damages for loss of business profits, business interruption, loss of information, or other pecuniary loss) arising out of the use of or inability to use this product, even if Momotek has been advised of the possibility of such damages.
-
-## For use of PM File Compare
-Copyright © 1994 American Coders Ltd.<br />
-Written by Joseph McVerry
-
-American Coders LTD of Raleigh N. Carolina grants you a license to use PM File Compare (PMFLCOMP) only in the country where you acquired it. PM File Compare is copyrighted and licensed (not sold). We do not transfer title of PM File Compare to you. You obtain no rights other than those granted you under this license.
-
-PM File Compare is supplied as is. The author disclaims all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use of PM File Compare.
 
 ## For use of RexxSem
 REXXSEM ("the Program") is copyright 1997, 2000 by Darin McBride and all rights are reserved.
