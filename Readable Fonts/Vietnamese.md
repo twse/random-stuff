@@ -1,9 +1,9 @@
 ## Fonts and keyboards
-Bút Việt (1992), by Nguyễn Doãn Vượng, is a Vietnamese editor for DOS. The program displays the about dialog on startup.
+Bút Việt (1992), by Nguyễn Doãn Vượng, is a Vietnamese text editor for DOS. On startup it will display the about dialog.
 
-VIET (1991), by Hoà G. Nguyễn, is a Vietnamese editor for DOS. This program comes with a font editor.
+VIET (1991), by Hoà G. Nguyễn, is a Vietnamese text editor for DOS. This program comes with a font editor.
 
-vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Separate executable files are included for VGA and EGA graphics cards.
+vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Executable files are available for VGA or EGA. The screen fonts keeps the tittle if the small i has a grave, acute, tilde or hook above it.
 
 ## A note on Middle Vietnamese
 The b flourish and apex are not part of my readable fonts.
