@@ -2900,3 +2900,107 @@ The font can be used for Azerbaijani and Turkish languages.
 | u circumflex | Alt-251 |
 | u tilde      | Alt-217 |
 | u dieresis   | Alt-252 |
+
+### URW Palladio Pali codes - Classical Sanskrit and Pali
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-193 |
+| D dot below        | Alt-208 |
+| H dot below        | Alt-221 |
+| I macron           | Alt-204 |
+| L dot below        | Alt-221 |
+| L dot below macron | Alt-222 |
+| M dot below        | Alt-205 |
+| N tilde            | Alt-209 |
+| N dot above        | Alt-210 |
+| N dot below        | Alt-211 |
+| R dot below        | Alt-170 |
+| R dot below macron | Alt-138 |
+| S acute            | Alt-216 |
+| S dot below        | Alt-197 |
+| T dot below        | Alt-222 |
+| U macron           | Alt-218 |
+| a macron           | Alt-225 |
+| d dot below        | Alt-240 |
+| h dot below        | Alt-253 |
+| i macron           | Alt-236 |
+| l dot below        | Alt-191 |
+| l dot below macron | Alt-158 |
+| m dot below        | Alt-237 |
+| n tilde            | Alt-241 |
+| n dot above        | Alt-242 |
+| n dot below        | Alt-243 |
+| r dot below        | Alt-170 |
+| r dot below macron | Alt-154 |
+| s acute            | Alt-248 |
+| s dot below        | Alt-229 |
+| t dot below        | Alt-254 |
+| u macron           | Alt-250 |
+
+### URW Palladio Pali codes - Old Latin and Sinhala
+| Glyph             | Codes   |
+|-------------------|---------|
+| A dieresis        | Alt-196 |
+| A dieresis macron | Alt-159 |
+| AE                | Alt-198 |
+| AE macron         | Alt-195 |
+| E macron          | Alt-215 |
+| O macron          | Alt-204 |
+| a dieresis        | Alt-228 |
+| a dieresis macron | Alt-255 |
+| a macron breve    | Alt-161 |
+| a breve           | Alt-177 |
+| ae                | Alt-230 |
+| ae macron         | Alt-227 |
+| e macron          | Alt-247 |
+| e macron breve    | Alt-162 |
+| e breve           | Alt-178 |
+| i macron breve    | Alt-165 |
+| i breve           | Alt-179 |
+| m breve           | Alt-184 |
+| n breve           | Alt-185 |
+| o macron          | Alt-245 |
+| o macron breve    | Alt-166 |
+| o breve           | Alt-180 |
+| u macron breve    | Alt-172 |
+| u breve           | Alt-181 |
+
+### URW Palladio Pali codes - Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| quoteleft          | Alt-145 |
+| quoteright         | Alt-146 |
+| quotedblleft       | Alt-147 |
+| quotedblright      | Alt-148 |
+| quotesinglbase     | Alt-130 |
+| quotedblbase       | Alt-132 |
+| guilsinglleft      | Alt-139 |
+| guilsinglright     | Alt-155 |
+| guillemot left     | Alt-171 |
+| guillemot right    | Alt-187 |
+| soft hyphen        | Alt-173 |
+| en dash            | Alt-150 |
+| em dash            | Alt-151 |
+| ellipsis           | Alt-133 |
+| middle dot         | Alt-183 |
+| dagger             | Alt-134 |
+| daggerdbl          | Alt-135 |
+| section            | Alt-167 |
+| paragraph          | Alt-182 |
+| registered         | Alt-174 |
+| copyright          | Alt-169 |
+| trademark          | Alt-153 |
+| bullet             | Alt-149 |
+| sterling           | Alt-163 |
+| Euro               | Alt-128 |
+| currency           | Alt-164 |
+| per thousand       | Alt-137 |
+| degree             | Alt-176 |
+| radical            | Alt-131 |
+| one half           | Alt-189 |
+| one quarter        | Alt-188 |
+| three quarters     | Alt-190 |
+| short              | Alt-136 |
+| long               | Alt-137 |
+| short or long      | Alt-168 |
+| non-breaking space | Alt-160 |
