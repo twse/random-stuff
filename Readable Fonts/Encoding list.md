@@ -1,7 +1,7 @@
 ## Information
 The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
-### Encodings with a set numerical string
+### Encodings with numerical strings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP113     | Yugoslavian                                |
@@ -13,6 +13,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP777     | Accented Lithuanian (old)                  |
 | CP778     | Accented Lithuanian                        |
 | CP851     | Greek (old codepage)                       |
+| CP857     | Latin 5 (Turkey)                           |
 | CP858     | Latin-1 with Euro                          |
 | CP861     | Icelandic                                  |
 | CP865     | Nordic                                     |
@@ -63,7 +64,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP60853   | Georgian with capital letters              |
 | CP62306   | Cyrillic Uzbek                             |
 
-### Encodings without a set numerical string
+### Encodings without numerical strings
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | BASQUE    | Basque                                         |
