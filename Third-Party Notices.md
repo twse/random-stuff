@@ -1,8 +1,5 @@
 # Commercial Software
 
-## For use of Bink Video
-Uses Bink Video. Copyright © 1997-2018 by RAD Game Tools, Inc.
-
 “bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
 
 ## For use of DOOM
@@ -29,13 +26,8 @@ This product contains software technology licensed from GameSpy Industries, Inc.
 Copyright © 1998 Creative Services Programming Corporation<br />
 Written by Donna S. Finkelstein
 
-Uses Granny Animation. Copyright © 1999-2018 by RAD Game Tools, Inc.
-
+## For use of Havok
 Havok software is © 2017 Microsoft. All rights reserved.
-
-This software product includes Autodesk® HumanIK® software, © 2018 Autodesk, Inc. All rights reserved.
-
-Uses Iggy. Copyright © 2009-2018 by RAD Game Tools, Inc.
 
 Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
 
@@ -59,10 +51,8 @@ Copyright © 1997 COMPO Software Corp.
 ## For use of Object Desktop
 Copyright © 1998-2018 Stardock Systems
 
-## For use of Oodle
-Uses Oodle. Copyright © 2008-2018 by RAD Game Tools, Inc.
-
-PM Designer Copyright © 1993-1994 VacNat Software Co. All rights reserved.
+## For use of PM Designer
+Copyright © 1993-1994 VacNat Software Co. All rights reserved.
 
 This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
 
@@ -81,14 +71,6 @@ OS/2 port: Stardock Entertainment
 
 ## For use of Simplygon
 Simplygon is © 2018 Microsoft. All rights reserved.
-
-## For use of Smacker Video Technology
-Uses Smacker Video Technology. Copyright © 1994-2006 by RAD Game Tools, Inc.
-
-The library is available as **libsmacker**.
-
-## For use of Telemetry
-Uses Telemetry. Copyright © 2010-2018 by RAD Game Tools, Inc.
 
 ## For use of Tensor
 Copyright © 1997 QVision, Inc.
