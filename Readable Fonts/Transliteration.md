@@ -31,13 +31,13 @@ IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration
 
 Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop but were no longer sold.
 
-Minion Indologist is an unreleased font derived from Minion and contains accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
+Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
 
 Mithra (2000), is a version of Times New Roman modified for transliteration of Avestan and Pahlavi (the diacritics are in lowercase only).
 
 Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliteration.
 
-SPAtlantis (1998), by James R. Adair, is a transliteration font based on Times for use with Semitic transliteration. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
+SPAtlantis (1998), by James R. Adair, is a transliteration font based on Times for Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
 
 Libor Sztemon created a set of non-Unicode transliteration fonts for Classical Sanskrit, ca. 2001.
 
@@ -2766,6 +2766,76 @@ The font can be used for Azerbaijani and Turkish languages.
 | s dot below         | Alt-152 |
 | t dot below         | Alt-161 |
 | u macron            | Alt-150 |
+
+### Codes for Tibetan transliterated according to Michael Hahn's system
+| Glyph       | Codes   | URW Palladio KUL |
+|-------------|---------|------------------|
+| A macron    | Alt-182 | No key assigned  |
+| C acute     | Alt-128 | Alt-198          |
+| J acute     | Alt-209 | No key assigned  |
+| N tilde     | Alt-165 | No key assigned  |
+| N dot above | Alt-157 | No key assigned  |
+| S acute     | Alt-221 | Alt-140          |
+| Y dot above | Alt-243 | No key assigned  |
+| Z acute     | Alt-239 | Alt-190          |
+| a macron    | Alt-131 | Alt-192          |
+| c acute     | Alt-135 | Alt-230          |
+| j acute     | Alt-208 | Alt-229          |
+| n tilde     | Alt-164 | Alt-240          |
+| n dot above | Alt-155 | Alt-244          |
+| s acute     | Alt-249 | Alt-156          |
+| y dot above | Alt-152 | Alt-174          |
+| z acute     | Alt-247 | Alt-159          |
+
+### Phonetically transcribed Tibetan codes
+| Glyph        | Codes   | URW Palladio KUL |
+|--------------|---------|------------------|
+| A dieresis   | Alt-142 | Alt-196          |
+| O dieresis   | Alt-153 | Alt-214          |
+| U dieresis   | Alt-154 | Alt-220          |
+| A macron     | Alt-182 | No key assigned  |
+| E macron     | Alt-210 | No key assigned  |
+| I macron     | Alt-215 | No key assigned  |
+| O macron     | Alt-226 | No key assigned  |
+| U macron     | Alt-234 | No key assigned  |
+| A line below | Alt-199 | No key assigned  |
+| E line below | Alt-211 | No key assigned  |
+| I line below | Alt-216 | No key assigned  |
+| O line below | Alt-229 | No key assigned  |
+| U line below | Alt-237 | No key assigned  |
+| A acute      | Alt-181 | No key assigned  |
+| E acute      | Alt-144 | No key assigned  |
+| I acute      | Alt-214 | No key assigned  |
+| O acute      | Alt-224 | Alt-211          |
+| U acute      | Alt-233 | No key assigned  |
+| A grave      | Alt-183 | No key assigned  |
+| E grave      | Alt-212 | No key assigned  |
+| I grave      | Alt-222 | No key assigned  |
+| O grave      | Alt-227 | Alt-211          |
+| U grave      | Alt-235 | No key assigned  |
+| a dieresis   | Alt-132 | Alt-228          |
+| o dieresis   | Alt-148 | Alt-246          |
+| u dieresis   | Alt-129 | Alt-252          |
+| a macron     | Alt-131 | Alt-192          |
+| e macron     | Alt-136 | Alt-188          |
+| i macron     | Alt-148 | Alt-193          |
+| o macron     | Alt-147 | Alt-189          |
+| u macron     | Alt-150 | Alt-194          |
+| a line below | Alt-197 | No key assigned  |
+| e line below | Alt-137 | No key assigned  |
+| i line below | Alt-139 | No key assigned  |
+| o line below | Alt-228 | No key assigned  |
+| u line below | Alt-236 | No key assigned  |
+| a acute      | Alt-160 | Alt-225          |
+| e acute      | Alt-130 | Alt-233          |
+| i acute      | Alt-161 | Alt-237          |
+| o acute      | Alt-162 | Alt-243          |
+| u acute      | Alt-163 | Alt-250          |
+| a grave      | Alt-133 | Alt-224          |
+| e grave      | Alt-138 | Alt-232          |
+| i grave      | Alt-141 | Alt-236          |
+| o grave      | Alt-149 | Alt-242          |
+| u grave      | Alt-151 | Alt-249          |
 
 ### Transliteration font codes
 | Glyph        | Codes                        |
