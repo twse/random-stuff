@@ -67,6 +67,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 ### Encodings without numerical strings
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
+| ATARIST   | Atari ST Encoding                              |
 | BASQUE    | Basque                                         |
 | CER-GS    | Celtic Extended Roman GS                       |
 | CHUVLAT   | Chuvash (Latin)                                |
