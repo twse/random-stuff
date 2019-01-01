@@ -1,7 +1,7 @@
 ## Fonts and keyboards
 Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a bunch of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
 
-avesta.orgtranscription (2010), a font in OpenType PostScript format, is based on Mithra (2000) and designed for use with Avestan and Pahlavi transliteration. The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
+avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font for Avestan and Pahlavi transliteration based on Mithra (2000). The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
 
 Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
 
@@ -21,7 +21,7 @@ Michael Forgey (Unitype Inc.) created a set of non-Unicode and Unicode fonts for
 
 Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Regular for Mongolian transcription. It relocates some ASCII characters.
 
-Gāndharī Unicode (2008), by [Andrew Glass](http://www.andrewglass.org/), is a font based on Times Gāndharī. The font includes keyboard drivers for use with Windows and Word.
+Gāndhārī Unicode (2008), by [Andrew Glass](http://www.andrewglass.org/), is a font based on Times Gāndhārī. The font includes keyboard drivers for use with Windows and Word.
 
 The Hobogirin font is identical to the Kenneth Ray Norman encoding but uses a different designer.
 
@@ -31,9 +31,9 @@ IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration
 
 Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop but were no longer sold.
 
-Minion Indologist is a font derived from Minion and contains accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
+Minion Indologist is an unreleased font derived from Minion and contains accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
 
-Mithra (2000), is a version of Times New Roman modified for transliteration of Avestan and Pahlavi. This font contains diacritics for Avestan and Pahlavi in lowercase only.
+Mithra (2000), is a version of Times New Roman modified for transliteration of Avestan and Pahlavi (the diacritics are in lowercase only).
 
 Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliteration.
 
@@ -935,7 +935,7 @@ Chandra Yenco created a set of Pali transliteration fonts. Download the fonts fr
 | t dot below        | Alt-194 |
 | u macron           | Alt-198 |
 
-### Times Gandhari font codes
+### Times Gāndhārī font codes
 | Glyph               | Codes   |
 |---------------------|---------|
 | a double ring below | Alt-197 |
