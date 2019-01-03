@@ -5,6 +5,9 @@
 ## For use of DOOM
 DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.
 
+### BeOS port contributor
+* Chris Herborth
+
 ### OS/2 port contributors
 * Craig Ballantyne
 * Juan José García Ripoll
@@ -332,7 +335,11 @@ THIS PROGRAM IS PROVIDED AS IS AND COMES WITH NO WARRANTY OF ANY KIND, EITHER EX
 
 BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
 
-The author would like to acknowledge the help of all the pre-release testers. Special thanks to Tim Lomas, Marcelo Chiapparini, Andreas Ludwig and Erik Bracke for their enthusiastic support of WarpCalc and for suggesting useful improvements now included in this version.
+### Contributors
+* Tim Lomas
+* Marcelo Chiapparini
+* Andreas Ludwig
+* Erik Bracke
 
 ## For use of Web Willy Watch
 (c) 1996, 1997, 1998 InnoVal Systems Solutions, Inc. All Rights Reserved.<br />
