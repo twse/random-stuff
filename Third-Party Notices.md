@@ -22,9 +22,6 @@ FaceFX © 2002-2018 OC3 Entertainment, Inc. and its licensors.
 
 FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
 
-## For use of GameSpy
-This product contains software technology licensed from GameSpy Industries, Inc. © 1999-2015 GameSpy Industries, Inc. GameSpy and the “Powered by GameSpy” design are trademarks of GameSpy Industries, Inc. All rights reserved.
-
 ## For use of Golden CommPass
 Copyright © 1998 Creative Services Programming Corporation<br />
 Written by Donna S. Finkelstein
@@ -44,7 +41,7 @@ IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are t
 Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
-Uses Miles Sound System. Copyright © 1991-2015 by RAD Game Tools, Inc.
+Uses Miles Sound System. Copyright © 1991-2016 by RAD Game Tools, Inc.
 
 This game uses NaturalMotion morpheme animation technology.
 
