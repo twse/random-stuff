@@ -1,4 +1,4 @@
-## Fonts and keyboards
+﻿## Fonts and keyboards
 Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a bunch of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
 
 avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font for Avestan and Pahlavi transliteration based on Mithra (2000). The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
@@ -3004,3 +3004,23 @@ The font can be used for Azerbaijani and Turkish languages.
 | long               | Alt-137 |
 | short or long      | Alt-168 |
 | non-breaking space | Alt-160 |
+
+### URW Palladio S codes - Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| quoteleft          | Alt-145 |
+| quoteright         | Alt-146 |
+| quotedblleft       | Alt-147 |
+| quotedblright      | Alt-148 |
+| quotesinglbase     | Alt-130 |
+| quotedblbase       | Alt-132 |
+| guilsinglleft      | Alt-139 |
+| guilsinglright     | Alt-155 |
+| guillemot left     | Alt-171 |
+| guillemot right    | Alt-187 |
+| soft hyphen        | Alt-173 |
+| en dash            | Alt-150 |
+| em dash            | Alt-151 |
+| non-breaking space | Alt-160 |
+| middle dot         | Alt-183 |
+| bullet             | Alt-149 |
