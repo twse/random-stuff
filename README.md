@@ -12,11 +12,12 @@ This repository contains my random stuff.
 * **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Bulk adding names to Mozilla's credits list (command line)
-1. Clone the **mozilla/community-data** repository.
+1. Clone the **mozilla/community-data** repository via git clone.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv contains the names of all contributors for the old Mozilla Czech speaking community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want)
+6. Push the master branch via git push. (Please make sure that your account has write access for the mozilla/community-data repository.)
 
 ## Bulk adding names to Mozilla's credits list (website interface, logged in as @gurumukhi)
 1. Click the pencil at the top-right corner to edit names.csv.
@@ -48,15 +49,13 @@ Created with FontCreator 5.6 (2007) - This version can only create ordinary Unic
 ## FontCreator Data Files and Registry Keys (Markdown file)
 This file includes data files and registry keys for all FontCreator versions.
 
-## Protest pages based on dnserror (HTM files)
+## Protest pages
 These pages are available in four versions. Thanks to [Norman De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
-
-On Internet Explorer 6 or above (Windows XP Service Pack 2 and newer), will block active content and show the information bar at the top. On Internet Explorer 11 you have to press **Allow Blocked Content** when the information bar appears at the bottom.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol, i.e. for use with nonsecure websites) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
-* **DNS error** (Wii Internet Channel) - The links for the list entries use https links (i.e. for use with secure websites) for the Opera website.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
+* **DNS error** (Wii Internet Channel) - The links for the list entries use https (i.e. secure) for the Opera website.
 * **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it will show a translated message.
 
 ## Translations of EasyPaint into multiple languages
