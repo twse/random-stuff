@@ -1,4 +1,4 @@
-# Information
+﻿# Information
 This repository contains my random stuff.
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
@@ -11,17 +11,15 @@ This repository contains my random stuff.
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only).
 * **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
-## How to do a bulk addition of names to Mozilla's credits list
-Follow these steps if you don't need to fill in the form or if Google Docs does not work. Editing the names.csv file only works when you're logged in as @gurumukhi.
-
-1. Clone the **mozilla/community-data** repository with any Git client.
+## Bulk adding names to Mozilla's credits list (command line)
+1. Clone the **mozilla/community-data** repository.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv contains the names of all contributors for the old Mozilla Czech speaking community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want)
 
-Or if you are using web-flow:
-1. Edit the names.csv file by clicking the pencil at the top-right corner.
+## Bulk adding names to Mozilla's credits list (website interface, logged in as @gurumukhi)
+1. Click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
@@ -53,7 +51,7 @@ This file includes data files and registry keys for all FontCreator versions.
 ## Protest pages based on dnserror (HTM files)
 These pages are available in four versions. Thanks to [Norman De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) for inspiring me to create the pages (see his index page for the descriptions). His own protest page is the index page and are available in seven versions.
 
-On Windows XP Service Pack 2 and above, Internet Explorer will block active content and show the information bar at the top.
+On Internet Explorer 6 or above (Windows XP Service Pack 2 and newer), will block active content and show the information bar at the top. On Internet Explorer 11 you have to press **Allow Blocked Content** when the information bar appears at the bottom.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol, i.e. for use with nonsecure websites) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
