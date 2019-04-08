@@ -11,7 +11,7 @@ This document represents the data files and registry keys in FontCreator.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
 * Versions from 1.0 through 6.5 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
@@ -80,7 +80,7 @@ This document represents the data files and registry keys in FontCreator.
 * **ShowBearings** – Used when pressing **Show Metrics** in the Grid toolbar.
 * **ShowFixedGridLines** – This corresponds to the **Show reference lines at x = 0, y = 0** option in Grid Options.
 * **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar.
-* **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is active, the checkbox in the Guidelines Options window will read the ampersand.
+* **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is running, the checkbox in the Guidelines Options window will read the ampersand.
 * **SnapToGrid** – Used when pressing **Snap to Grid** in the Grid toolbar.
 * **SnapToUserDefinedGuidelines** – Used when pressing **Snap to Guidelines** in the Grid toolbar.
 
@@ -102,7 +102,7 @@ This document represents the data files and registry keys in FontCreator.
 * **Threshold** – This corresponds to the **Threshold** option in the Image tab. Default is 150. (Available in Import Image)
 
 ### Install
-* **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. When used with Windows Vista and above, you must have administrator privileges to install the font in Windows Fonts folder.
+* **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### Interface Settings
 * **GlyphCaptionType** – Used with Caption radio buttons in the Overview tab. (Available in the Options window)
@@ -365,8 +365,8 @@ The license is deactivated and program is started in unregistered mode if this k
 * **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options. The default push button is **OK**. The **Help** button does nothing in old versions.
 * **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), Glyph Outline Data and Glyph Metrics (i.e. the first two items) are checked by default.
 * **TPCLTFORM** – For versions 3.0 through 6.5 only, displays a dialog where you can include the old PCL5 data for legacy printers. The default push button is **OK**.
-* **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 through latest only, displays the Glyph Transformer. The default push button is **OK**.
-* **TPLATFORMMANAGERFORM** – For old versions of FontCreator, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
+* **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
+* **TPLATFORMMANAGERFORM** – For version 2.0 through 6.5 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
 * **TPOSTSCRIPTNAMESFORM** – Used when changing PostScript names for glyphs in the font. The default push button is **OK**.
 * **TPRINTABORTFORM** – Used when canceling the font printing process.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
