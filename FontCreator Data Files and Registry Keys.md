@@ -3,9 +3,9 @@ This document represents the data files and registry keys in FontCreator.
 
 ## Notes
 * Complete Composites slows down the first time using in simple and composite glyphs.
-* Glyphs and glyph outlines stored in the clipboard will have either the text "Glyph Contours" or "Glyph Data".
+* Glyphs and glyph outlines stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
-* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner ($) (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version dates from about 2006 and was distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
+* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version dates from about 2006 and was distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
@@ -14,7 +14,7 @@ This document represents the data files and registry keys in FontCreator.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
-* Versions from 1.0 through 6.5 use Latin-1 as the output encoding. Korean users will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
+* Versions from 1.0 through 6.5 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 * Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * Versions from 5.0 through 6.0 makes **Complete Composites** dimmed in empty glyph(s).
 * Versions from 5.0 through 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
@@ -24,7 +24,7 @@ This document represents the data files and registry keys in FontCreator.
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview window for each Unicode codepoint.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**. If you get any errors, edit the file and restart the program.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Located in temporary folder when opening the Test Font Window (##### is a string of five numbers). The font name is FC Test Font ###### (###### is a string of six numbers).
+* **FC#####.ttf** – Located in temporary folder when opening the Test Font Window (##### is five numbers). The font name is FC Test Font ###### (###### is six numbers).
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed. (See previewtext.dat in recent versions)
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program.
@@ -125,7 +125,7 @@ This document represents the data files and registry keys in FontCreator.
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** option in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** option in the Sample tab. Default is 62. (Available in the Options window)
 
-### Kerning (Versions 5.0 through 6.5)
+### Kerning (Version 3.0 through 6.5)
 * **AutoKerningAllowForPositiveKerningValues** – This corresponds to the **Additional Options: Allow for positive kerning values** option in the AutoKern window.
 * **AutoKerningImportFilename** – This corresponds to the disabled text box with the filename string.
 * **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** option in the AutoKern window.
@@ -213,7 +213,7 @@ The license is deactivated and program is started in unregistered mode if this k
 * **V5D#** – Created when registering the program whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu and button in **TTIPOFTHEDAYFORM**. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
-* **ActiveTheme** – No meaning
+* **ActiveTheme**
 
 ### Tip of the Day
 * **CurrentTip** – Current line number in FontCreator.tip, used when opening the **Tip of the Day** window.
@@ -341,7 +341,7 @@ The license is deactivated and program is started in unregistered mode if this k
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing the opened font. Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in old versions only supports the Basic Latin range of Unicode while other characters are printed with a system font. (If trial period is exceeded or using unregistered recent versions, see TDISABLEDFORM)
+* **TFONTTESTFORM** – Used when testing the opened font. Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports the Basic Latin range of Unicode while other characters are printed with a system font. Version 7.0 and newer displays the font name in square brackets with numbers at the end. (See TDISABLEDFORM for the used form when the trial period is exceeded or using most unregistered old versions)
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
