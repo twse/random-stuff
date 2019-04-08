@@ -1,9 +1,9 @@
 ﻿## Notes
-* Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
 * Versions from 5.0 through 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
+* Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
 * Complete Composites slows down the first time using in simple and composite glyphs.
 * Versions from 5.0 through 6.0 makes **Complete Composites** dimmed in empty glyph(s).
@@ -18,9 +18,9 @@
 
 ### User Data (Glyph Transformer scripts and Unicode data files omitted)
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview window for each Unicode codepoint.
-* **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**. If you get any errors, edit the file and restart the program.
+* **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Located in temporary folder when opening the Test Font Window (##### is five numbers). The font name is FC Test Font ###### (###### is six numbers).
+* **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed. (See previewtext.dat in recent versions)
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website).
@@ -29,7 +29,7 @@
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For versions 3.0 through 6.0, controls the text used in Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed.
-* **preview.txt – For version 7.0 and newer, contains the standard preview texts for the Preview toolbar.
+* **preview.txt** – For version 7.0 and newer, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
 * **SubFamily.dat** – Includes naming fields for different languages.
 * **TableOffsetOrder.dat** – Contains the tables supported by any existing fonts. All tables are moved to Unsupported if removed.
 * **tags.txt** – For versions 7.0 and newer, controls the names of the five tags that can be assigned to each glyph.
@@ -37,8 +37,8 @@
 ## Registry Keys
 
 ### AddCharacters
-* **SelectedCharacter** – Character used in the **Insert Characters** dialog. Default is beginning of Basic Latin Unicode block.
-* **SelectedFont** – Font used in the **Insert Characters** dialog. Default is **Arial Unicode MS** if you have the Microsoft Office suite installed.
+* **SelectedCharacter** – Character used in the **Insert Characters** dialog. Default is U+0000 NULL.
+* **SelectedFont** – Font used in the **Insert Characters** dialog. Default is **Arial Unicode MS**.
 
 ### Columns
 * **Open Installed Fonts** – This is a binary value.
