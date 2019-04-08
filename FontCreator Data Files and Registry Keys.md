@@ -1,17 +1,17 @@
-# FontCreator Data Files and Registry Keys
+﻿# FontCreator Data Files and Registry Keys
 This document represents the data files and registry keys in FontCreator.
 
 ## Notes
 * Complete Composites slows down the first time using in simple and composite glyphs.
 * Glyphs and glyph outlines stored in the clipboard will have either the text "Glyph Contours" or "Glyph Data".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
-* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner ($) (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version is from 2006 and was distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
+* If you want to change resources in non-standard resource layout versions, you would have to use Resource Tuner ($) (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version dates from about 2006 and was distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
 * Versions from 1.0 through 6.5 use Latin-1 as the output encoding. Korean users will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
@@ -341,7 +341,7 @@ The license is deactivated and program is started in unregistered mode if this k
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing the opened font. In old versions, it has a dropdown list to choose the encoding, which this is implemented with Windows 95. In versions 5.0 through 6.0 the Sample Text list is predefined and cannot be edited. Printing in old versions only supports the Basic Latin range of Unicode while other characters are printed with a system font. (If trial period is exceeded or using unregistered recent versions, see TDISABLEDFORM)
+* **TFONTTESTFORM** – Used when testing the opened font. Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in old versions only supports the Basic Latin range of Unicode while other characters are printed with a system font. (If trial period is exceeded or using unregistered recent versions, see TDISABLEDFORM)
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
