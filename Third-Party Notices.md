@@ -1,6 +1,4 @@
-# Commercial Software
-
-“bob’s game” uses Coherent UI™ user interface technology. Copyright 2012-2018 Coherent Labs. All Rights Reserved.
+﻿# Commercial Software
 
 ## For use of DOOM
 DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.
@@ -14,22 +12,9 @@ DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Sof
 * Dimitris Michelinakis
 * Jim Thomas
 
-## For use of Enlighten
-Copyright in Enlighten is owned by or licensed to Geomerics Limited. All rights reserved. Enlighten is a trademark or registered trademark of Geomerics Limited or its affiliates.
-
-## For use of FaceFX
-FaceFX © 2002-2018 OC3 Entertainment, Inc. and its licensors.
-
-FaceGen from Singular Inversions, Inc. 1998-2016. All rights reserved.
-
 ## For use of Golden CommPass
 Copyright © 1998 Creative Services Programming Corporation<br />
 Written by Donna S. Finkelstein
-
-## For use of Havok
-Havok software is © 2017 Microsoft. All rights reserved.
-
-Copyright in IKinema Runtime is owned by or licensed to IKinema Ltd. All rights reserved.
 
 ## For use of Image Alchemy
 Copyright © 1990-1996 Handmade Software, Inc. All rights reserved.<br />
@@ -41,10 +26,6 @@ IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are t
 Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
 
-Uses Miles Sound System. Copyright © 1991-2016 by RAD Game Tools, Inc.
-
-This game uses NaturalMotion morpheme animation technology.
-
 ## For use of NeoN Storybook
 Copyright © 1997 COMPO Software Corp.
 
@@ -54,8 +35,6 @@ Copyright © 1998-2018 Stardock Systems
 ## For use of PM Designer
 Copyright © 1993-1994 VacNat Software Co. All rights reserved.
 
-This product contains copyrighted material owned and/or distributed under authority by QUAZAL Technologies, Inc. Copyright 1998-2011, QUAZAL Technologies Inc. All Rights Reserved.
-
 ## For use of QwikSwitch
 Copyright © 1992-1993 C TechWare Ltd.<br />
 Written by Claude Biron
@@ -63,14 +42,9 @@ Written by Claude Biron
 ## For use of Relish
 Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
-Uses Shroud™ Copyright © 2010 CloakWorks Inc. All rights reserved.
-
 ## For use of SimCity
 Copyright © 2013 Electronic Arts Inc.<br />
 OS/2 port: Stardock Entertainment
-
-## For use of Simplygon
-Simplygon is © 2018 Microsoft. All rights reserved.
 
 ## For use of Tensor
 Copyright © 1997 QVision, Inc.
@@ -84,20 +58,6 @@ Copyright © 1997 QVision, Inc.
 7. In no case will QVision, Inc. or its suppliers be held liable for direct or incidental damages resulting from any defect or omission in the software, written materials or other related items and processes, including, but not limited to, any interruption of service, loss of business, anticipated profit, or other consequential damages. Some states do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.
 8. This warranty gives you specific legal rights, and you may also have other rights which vary from state to state.
 9. The above warranty does not apply if you make any unauthorized attempt to modify or duplicate the product, or if the product has been damaged by accident or abuse.
-
-THX is a trademark or registered trademark of THX Ltd. All rights reserved.
-
-## For use of Umbra
-Uses Umbra 2006 - 2018.
-
-## For use of Unity
-This program was created using Unity. Portions of this program © 2005-2018 Unity Technologies.
-
-## For use of Unreal Engine
-Unreal ® Engine, Copyright 1998-2018, Epic Games, Inc. All rights reserved.
-
-## For use of Wwise
-Powered by Wwise © 2006 – 2018 Audiokinetic Inc. All rights reserved.
 
 # Unsupported Free Software
 
