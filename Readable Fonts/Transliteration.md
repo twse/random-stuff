@@ -3115,3 +3115,105 @@ When used with URW Palladio KUL, the lowercase diacritics are same but does not 
 | s dot below         | Alt-200 |
 | t dot below         | Alt-199 |
 | u macron            | Alt-194 |
+
+### URW Palladio SKT codes - Vedic Sanskrit
+| Glyph                    | Codes   |
+|--------------------------|---------|
+| a grave                  | Alt-224 |
+| a acute                  | Alt-225 |
+| a dieresis               | Alt-228 |
+| a macron grave           | Alt-136 |
+| a macron acute           | Alt-152 |
+| e grave                  | Alt-232 |
+| e acute                  | Alt-233 |
+| e dieresis               | Alt-235 |
+| i grave                  | Alt-236 |
+| i acute                  | Alt-237 |
+| i dieresis               | Alt-239 |
+| i macron grave           | Alt-137 |
+| i macron acute           | Alt-153 |
+| o grave                  | Alt-242 |
+| o acute                  | Alt-243 |
+| o dieresis               | Alt-246 |
+| r dot below grave        | Alt-168 |
+| r dot below acute        | Alt-169 |
+| r dot below macron acute | Alt-170 |
+| u grave                  | Alt-249 |
+| u acute                  | Alt-250 |
+| u dieresis               | Alt-252 |
+| u macron grave           | Alt-138 |
+| u macron acute           | Alt-154 |
+
+### URW Palladio SKT codes - Printer's Specials
+| Glyph              | Codes   |
+|--------------------|---------|
+| quoteleft          | Alt-145 |
+| quoteright         | Alt-146 |
+| quotedblleft       | Alt-147 |
+| quotedblright      | Alt-148 |
+| quotesinglbase     | Alt-130 |
+| quotedblbase       | Alt-132 |
+| guilsinglleft      | Alt-139 |
+| guilsinglright     | Alt-155 |
+| guillemot left     | Alt-171 |
+| guillemot right    | Alt-187 |
+| acute              | Alt-180 |
+| soft hyphen        | Alt-173 |
+| en dash            | Alt-150 |
+| em dash            | Alt-151 |
+| non-breaking space | Alt-160 |
+| middle dot         | Alt-183 |
+| paragraph          | Alt-182 |
+| bullet             | Alt-149 |
+| Euro               | Alt-164 |
+
+### Washington Romanized Indic codes
+| Glyph            | Codes   |
+|------------------|---------|
+| A dot above      | Alt-150 |
+| C caron          | Alt-177 |
+| D line below     | Alt-185 |
+| E macron         | Alt-156 |
+| G dot above      | Alt-143 |
+| Gamma            | Alt-216 |
+| H breve below    | Alt-195 |
+| J caron          | Alt-223 |
+| K dot below      | Alt-175 |
+| K line below     | Alt-147 |
+| L dieresis below | Alt-148 |
+| L line below     | Alt-204 |
+| N line below     | Alt-203 |
+| O macron         | Alt-158 |
+| R dieresis below | Alt-152 |
+| R line below     | Alt-206 |
+| S caron          | Alt-219 |
+| S line below     | Alt-186 |
+| T line below     | Alt-187 |
+| Y dot above      | Alt-200 |
+| Z caron          | Alt-172 |
+| Z dot below      | Alt-221 |
+| Z line below     | Alt-188 |
+| a dot above      | Alt-217 |
+| c caron          | Alt-176 |
+| d line below     | Alt-196 |
+| e macron         | Alt-155 |
+| e macron breve   | Alt-192 |
+| g dot above      | Alt-134 |
+| gamma            | Alt-216 |
+| h line below     | Alt-136 |
+| h breve below    | Alt-195 |
+| j caron          | Alt-220 |
+| k dot below      | Alt-174 |
+| k line below     | Alt-131 |
+| l dieresis below | Alt-197 |
+| m candrabindu    | Alt-191 |
+| o macron         | Alt-157 |
+| o macron breve   | Alt-193 |
+| r dieresis below | Alt-179 |
+| s caron          | Alt-178 |
+| s line below     | Alt-202 |
+| t line below     | Alt-180 |
+| y dot above      | Alt-205 |
+| z caron          | Alt-171 |
+| z dot below      | Alt-218 |
+| z line below     | Alt-201 |
