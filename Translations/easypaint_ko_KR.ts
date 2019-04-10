@@ -2,108 +2,153 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="ko_KR">
 <context>
+    <name>EffectSettingsDialog</name>
+    <message>
+        <location filename="../dialogs/effectsettingsdialog.cpp" line="40"/>
+        <source>Ok</source>
+        <translation>확인</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/effectsettingsdialog.cpp" line="43"/>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/effectsettingsdialog.cpp" line="45"/>
+        <source>Apply</source>
+        <translation>적용</translation>
+    </message>
+</context>
+<context>
+    <name>GaussianBlurFilterSettings</name>
+    <message>
+        <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
+        <source>Intensity</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
     <name>ImageArea</name>
     <message>
-        <location filename="../imagearea.cpp" line="107"/>
+        <location filename="../imagearea.cpp" line="178"/>
         <source>Open image...</source>
         <translation>이미지 열기...</translation>
     </message>
     <message>
-        <location filename="../imagearea.cpp" line="155"/>
+        <location filename="../imagearea.cpp" line="214"/>
+        <source>Error opening file</source>
+        <translation>파일 열는 중 오류 받았음</translation>
+    </message>
+    <message>
+        <location filename="../imagearea.cpp" line="214"/>
+        <source>Can&apos;t open file &quot;%1&quot;.</source>
+        <translation>파일 &quot;%1&quot; 열 수 없음.</translation>
+    </message>
+    <message>
+        <location filename="../imagearea.cpp" line="227"/>
+        <location filename="../imagearea.cpp" line="277"/>
+        <source>Error saving file</source>
+        <translation>파일 저장하는 중 오류 받았음</translation>
+    </message>
+    <message>
+        <location filename="../imagearea.cpp" line="227"/>
+        <location filename="../imagearea.cpp" line="277"/>
+        <source>Can&apos;t save file &quot;%1&quot;.</source>
+        <translation>파일 &quot;%1&quot; 저장할 수 없음.</translation>
+    </message>
+    <message>
+        <location filename="../imagearea.cpp" line="242"/>
         <source>Untitled image</source>
         <translation>제목 없는 이미지</translation>
     </message>
     <message>
-        <location filename="../imagearea.cpp" line="157"/>
+        <location filename="../imagearea.cpp" line="244"/>
         <source>Save image...</source>
-        <translation>이미지 저장</translation>
-    </message>
-    <message>
-        <location filename="../imagearea.cpp" line="158"/>
-        <source>*.png;;*.jpg;;*.jpeg;;*.bmp;;*.xbm;;*.xpm</source>
-        <translation>*.png;;*.jpg;;*.jpeg;;*.bmp;;*.xbm;;*.xpm</translation>
+        <translation>이미지 저장...</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.cpp" line="83"/>
-        <location filename="../mainwindow.cpp" line="398"/>
+        <location filename="../mainwindow.cpp" line="101"/>
+        <location filename="../mainwindow.cpp" line="489"/>
+        <location filename="../mainwindow.cpp" line="537"/>
+        <location filename="../mainwindow.cpp" line="544"/>
         <source>Untitled Image</source>
         <translation>제목 없는 이미지</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="124"/>
+        <location filename="../mainwindow.cpp" line="147"/>
         <source>&amp;File</source>
         <translation>파일(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="149"/>
         <source>&amp;New</source>
         <translation>새로 만들기(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="134"/>
+        <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
         <translation>열기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="142"/>
+        <location filename="../mainwindow.cpp" line="161"/>
         <source>&amp;Save</source>
         <translation>저장(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="167"/>
         <source>Save as...</source>
         <translation>다른 이름으로 저장...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="173"/>
         <source>&amp;Close</source>
         <translation>닫기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="168"/>
+        <location filename="../mainwindow.cpp" line="189"/>
         <source>&amp;Print</source>
         <translation>인쇄(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="178"/>
+        <location filename="../mainwindow.cpp" line="195"/>
         <source>&amp;Exit</source>
         <translation>끝내기(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="186"/>
+        <location filename="../mainwindow.cpp" line="197"/>
         <source>&amp;Edit</source>
         <translation>편집(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="188"/>
+        <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Undo</source>
         <translation>실행 취소(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="196"/>
+        <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Redo</source>
         <translation>반복(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="206"/>
+        <location filename="../mainwindow.cpp" line="211"/>
         <source>&amp;Copy</source>
         <translation>복사(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="214"/>
+        <location filename="../mainwindow.cpp" line="218"/>
         <source>&amp;Paste</source>
         <translation>붙여놓기(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="222"/>
+        <location filename="../mainwindow.cpp" line="224"/>
         <source>C&amp;ut</source>
         <translation>잘라내기(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="232"/>
+        <location filename="../mainwindow.cpp" line="233"/>
         <source>&amp;Settings</source>
         <translation>설정(&amp;S)</translation>
     </message>
@@ -118,204 +163,263 @@
         <translation>화살표</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="247"/>
-        <source>Lastic</source>
-        <translation>래스틱</translation>
+        <location filename="../mainwindow.cpp" line="249"/>
+        <source>Eraser</source>
+        <translation>지우기</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="252"/>
-        <source>Pipette</source>
-        <translation>피펫</translation>
+        <location filename="../mainwindow.cpp" line="256"/>
+        <source>Color picker</source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="257"/>
-        <source>Loupe</source>
-        <translation>루페</translation>
+        <location filename="../mainwindow.cpp" line="263"/>
+        <source>Magnifier</source>
+        <translation>돋보기</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="262"/>
+        <location filename="../mainwindow.cpp" line="270"/>
         <source>Pen</source>
         <translation>연필</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="267"/>
+        <location filename="../mainwindow.cpp" line="277"/>
         <source>Line</source>
         <translation>줄</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="274"/>
         <source>Spray</source>
         <translation>뿌리기</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="277"/>
+        <location filename="../mainwindow.cpp" line="291"/>
         <source>Fill</source>
         <translation>색 칠하기</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="282"/>
-        <source>Rect</source>
+        <location filename="../mainwindow.cpp" line="298"/>
+        <source>Rectangle</source>
         <translation>직사각형</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="287"/>
+        <location filename="../mainwindow.cpp" line="305"/>
         <source>Ellipse</source>
         <translation>타원</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="292"/>
+        <location filename="../mainwindow.cpp" line="312"/>
+        <source>Curve</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="319"/>
+        <source>Text</source>
+        <translation>텍스트</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="327"/>
         <source>E&amp;ffects</source>
         <translation>효과(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="294"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>Gray</source>
         <translation>그레이</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="299"/>
+        <location filename="../mainwindow.cpp" line="334"/>
         <source>Negative</source>
         <translation>반전</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="304"/>
+        <location filename="../mainwindow.cpp" line="339"/>
+        <source>Binarization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <source>Gaussian Blur</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="349"/>
+        <source>Gamma</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="354"/>
+        <source>Sharpen</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="359"/>
+        <source>Custom</source>
+        <translation>사용자 지정</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="364"/>
         <source>&amp;Tools</source>
         <translation>도구(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="306"/>
-        <source>Image size</source>
-        <translation>이미지 크기</translation>
+        <location filename="../mainwindow.cpp" line="366"/>
+        <source>Image size...</source>
+        <translation>이미지 크기...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <source>Canvas size</source>
-        <translation>캔버스 크기</translation>
+        <location filename="../mainwindow.cpp" line="370"/>
+        <source>Canvas size...</source>
+        <translation>캔버스 크기...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="316"/>
+        <location filename="../mainwindow.cpp" line="374"/>
         <source>Rotate</source>
         <translation>회전</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Left</source>
-        <translation>왼쪽</translation>
+        <location filename="../mainwindow.cpp" line="376"/>
+        <source>Counter-clockwise</source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="325"/>
-        <source>Right</source>
-        <translation>오른쪽</translation>
+        <location filename="../mainwindow.cpp" line="382"/>
+        <source>Clockwise</source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="334"/>
+        <location filename="../mainwindow.cpp" line="390"/>
+        <source>Zoom</source>
+        <translation>확대</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="404"/>
+        <source>Advanced Zoom...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="411"/>
         <source>&amp;About</source>
         <translation>정보(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="413"/>
         <source>&amp;About EasyPaint</source>
         <translation>EasyPaint 정보(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="240"/>
         <source>About Qt</source>
         <translation>Qt 정보</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="491"/>
-        <location filename="../mainwindow.cpp" line="539"/>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Enter zoom factor</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Zoom factor:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="674"/>
+        <location filename="../mainwindow.cpp" line="728"/>
         <source>Closing Tab...</source>
         <translation>탭 닫는중...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="492"/>
-        <location filename="../mainwindow.cpp" line="540"/>
+        <location filename="../mainwindow.cpp" line="672"/>
+        <location filename="../mainwindow.cpp" line="729"/>
         <source>File has been modified.
 Do you want to save changes?</source>
         <translation>파일은 변경되었습니다.
 변경을 저장하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="820"/>
+        <location filename="../mainwindow.cpp" line="849"/>
         <source>About EasyPaint</source>
         <translation>EasyPaint 정보</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>version</source>
         <translation>버젼</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>Site</source>
         <translation>사이트</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="830"/>
-        <source>Copyright</source>
-        <translation>저작권</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>Authors</source>
         <translation>만든 사람들</translation>
     </message>
     <message>
-        <source>0.0.1</source>
-        <translation type="obsolete">0.0.1</translation>
+        <location filename="../mainwindow.cpp" line="861"/>
+        <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
+        <translation>&lt;b&gt;EasyPaint&lt;/b&gt;를 좋아하고</translation>
+    </message>
+</context>
+<context>
+    <name>PaletteBar</name>
+    <message>
+        <location filename="../widgets/palettebar.cpp" line="30"/>
+        <source>Colors</source>
+        <translation>색깔</translation>
     </message>
 </context>
 <context>
     <name>ResizeDialog</name>
     <message>
-        <location filename="../resizedialog.cpp" line="42"/>
+        <location filename="../dialogs/resizedialog.cpp" line="44"/>
         <source>Resize</source>
         <translation>크기 바꾸기</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="47"/>
+        <location filename="../dialogs/resizedialog.cpp" line="49"/>
         <source>Original size:</source>
         <translation>원래 크기:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="49"/>
+        <location filename="../dialogs/resizedialog.cpp" line="51"/>
         <source>New size:</source>
         <translation>새로운 크기:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="52"/>
+        <location filename="../dialogs/resizedialog.cpp" line="54"/>
         <source>Pixels</source>
         <translation>픽셀</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="66"/>
-        <location filename="../resizedialog.cpp" line="84"/>
+        <location filename="../dialogs/resizedialog.cpp" line="68"/>
+        <location filename="../dialogs/resizedialog.cpp" line="86"/>
         <source>Width:</source>
         <translation>너비:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="67"/>
+        <location filename="../dialogs/resizedialog.cpp" line="69"/>
         <source>x Height:</source>
         <translation>x 높이:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="69"/>
+        <location filename="../dialogs/resizedialog.cpp" line="71"/>
         <source>Percent</source>
         <translation>백분</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="85"/>
+        <location filename="../dialogs/resizedialog.cpp" line="87"/>
         <source>% x Height:</source>
         <translation>% x 높이:</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="86"/>
+        <location filename="../dialogs/resizedialog.cpp" line="88"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../resizedialog.cpp" line="88"/>
+        <location filename="../dialogs/resizedialog.cpp" line="90"/>
         <source>Preserve Aspect Ratio</source>
         <translation>화상비 유지</translation>
     </message>
@@ -323,19 +427,24 @@ Do you want to save changes?</source>
 <context>
     <name>SettingsDialog</name>
     <message>
-        <location filename="../settingsdialog.cpp" line="45"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="49"/>
         <source>Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="65"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="69"/>
         <source>Language:</source>
         <translation>언어:</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="67"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="71"/>
         <source>&lt;System&gt;</source>
         <translation>&lt;시스템&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="82"/>
+        <source>Note: language changing requires application restart</source>
+        <translation>참고: 언어 바꾸기는 프로그램 다시 시작 필요합니다</translation>
     </message>
     <message>
         <location filename="../settingsdialog.cpp" line="76"/>
@@ -343,54 +452,138 @@ Do you want to save changes?</source>
         <translation>사용자 인터페이스</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="79"/>
-        <source>Base size:</source>
+        <location filename="../dialogs/settingsdialog.cpp" line="84"/>
+        <source>Restore window size on start</source>
+        <translation>시작할때 창 크기 복원하기</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="93"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="87"/>
+        <source>Ask canvas size on new image creation</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="91"/>
+        <source>User interface</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="94"/>
+        <source>Base size:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="107"/>
         <source>History depth:</source>
         <translation>기록 높이:</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="101"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="113"/>
         <source>Autosave</source>
         <translation>자동 저장</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="103"/>
-        <source>Interval (msec):</source>
-        <translation>간격 (밀리세컨드):</translation>
+        <location filename="../dialogs/settingsdialog.cpp" line="115"/>
+        <source>Autosave Interval (msec):</source>
+        <translation>자동 저장 간격 (세컨드):</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="117"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="130"/>
         <source>Image</source>
         <translation>그림</translation>
     </message>
     <message>
-        <location filename="../settingsdialog.cpp" line="127"/>
-        <source>Main</source>
-        <translation>메인</translation>
+        <location filename="../dialogs/settingsdialog.cpp" line="140"/>
+        <source>General</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="142"/>
+        <source>Keyboard shortcuts</source>
+        <translation>키보드 바로 가기</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
+        <source>Command</source>
+        <translation>명령</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="160"/>
+        <source>Shortcut</source>
+        <translation>바로 가기</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="164"/>
+        <source>Key sequence:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="178"/>
+        <source>Keyboard</source>
+        <translation>키보드</translation>
+    </message>
+</context>
+<context>
+    <name>SharpenFilterSettings</name>
+    <message>
+        <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
+        <source>Intensity</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>ShortcutEdit</name>
+    <message>
+        <location filename="../widgets/shortcutedit.cpp" line="44"/>
+        <source>Clear</source>
+        <translation>지우기</translation>
+    </message>
+</context>
+<context>
+    <name>TextDialog</name>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="50"/>
+        <source>Text</source>
+        <translation>택스트</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="55"/>
+        <source>Select Font...</source>
+        <translation>글꼴 선택하기...</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="100"/>
+        <source>Question</source>
+        <translation>문제</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="100"/>
+        <source>Clear text?</source>
+        <translation>텍스트 지우시겠습니까?</translation>
     </message>
 </context>
 <context>
     <name>ToolBar</name>
     <message>
-        <location filename="../toolbar.cpp" line="35"/>
+        <location filename="../widgets/toolbar.cpp" line="37"/>
         <source>Instruments</source>
         <translation>기구</translation>
     </message>
     <message>
-        <location filename="../toolbar.cpp" line="102"/>
-        <source>First color</source>
+        <location filename="../widgets/toolbar.cpp" line="88"/>
+        <location filename="../widgets/toolbar.cpp" line="89"/>
+        <source>Primary color</source>
         <translation>첫번째 색깔</translation>
     </message>
     <message>
-        <location filename="../toolbar.cpp" line="106"/>
+        <location filename="../widgets/toolbar.cpp" line="93"/>
+        <location filename="../widgets/toolbar.cpp" line="94"/>
         <source>Second color</source>
         <translation>두번째 색깔</translation>
     </message>
     <message>
-        <location filename="../toolbar.cpp" line="112"/>
+        <location filename="../widgets/toolbar.cpp" line="100"/>
+        <location filename="../widgets/toolbar.cpp" line="101"/>
         <source>Pen size</source>
         <translation>연필 크기</translation>
     </message>

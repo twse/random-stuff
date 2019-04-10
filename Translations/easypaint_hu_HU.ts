@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="hu_HU">
 <context>
@@ -170,7 +170,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Color picker</source>
-        <translation></translation>
+        <translation>Válassza szín</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
