@@ -110,7 +110,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="189"/>
         <source>&amp;Print</source>
-        <translation></translation>
+        <translation>&amp;Tuko</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="195"/>
@@ -333,7 +333,8 @@
         <location filename="../mainwindow.cpp" line="729"/>
         <source>File has been modified.
 Do you want to save changes?</source>
-        <translation></translation>
+        <translation>Tiedostoa on muokattu.
+Haluatko tallentaa muutokset?</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="849"/>
