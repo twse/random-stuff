@@ -63,7 +63,7 @@ URW Palladio ITU (2003), by Ulrich Stiehl, is a font derived from URW Palladio f
 
 URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
 
-URW Palladio Pali (2002), by Ulrich Stiehl, is a font derived from URW Palladio and contains accented letters for Pali/Classical Sanskrit and Sinhala. The encoding is based on the fonts used in Buddhist Publication Society and duplicates curly single quotes to apostrophe and grave accent for compatibility with Sri Lanka keyboard macros.
+URW Palladio Pali (2002), by Ulrich Stiehl, is a font derived from URW Palladio and contains diacritics for Pali, Classical Sanskrit and Sinhala. The encoding is based on the fonts used in Buddhist Publication Society and duplicates curly single quotes to apostrophe and grave accent for compatibility with Sri Lanka keyboard macros.
 
 URW Palladio REE (2002), by Ulrich Stiehl, is a font using the Ronald E. Emmerick encoding used in GRETIL archive files by the University of Göttingen for Sanskrit documents.
 
@@ -3004,6 +3004,37 @@ The font can be used for Azerbaijani and Turkish languages.
 | long               | Alt-137 |
 | short or long      | Alt-168 |
 | non-breaking space | Alt-160 |
+
+### URW Palladio S/US codes
+| Glyph              | Codes   | S font macro    |
+|--------------------|---------|-----------------|
+| a macron           | Alt-192 | Alt-a           |
+| i macron           | Alt-193 | Alt-i           |
+| u macron           | Alt-194 | Alt-u           |
+| r dot below        | Alt-195 | Alt-r           |
+| r dot below macron | Alt-197 | Ctrl-Alt-r      |
+| l dot below        | Alt-198 | Alt-l           |
+| n dot above        | Alt-199 | Ctrl-Alt-n      |
+| n tilde            | Alt-200 | Ctrl-n          |
+| n dot below        | Alt-201 | Alt-n           |
+| t dot below        | Alt-202 | Alt-t           |
+| d dot below        | Alt-203 | Alt-d           |
+| s acute            | Alt-204 | Alt-s           |
+| s dot below        | Alt-205 | Ctrl-Alt-s      |
+| m dot below        | Alt-206 | Alt-m           |
+| h dot below        | Alt-207 | Alt-h           |
+| l tilde            | Alt-208 | No key assigned |
+| N tilde            | Alt-209 | No key assigned |
+| l line below       | Alt-210 | No key assigned |
+| A macron           | Alt-211 | No key assigned |
+| I macron           | Alt-212 | No key assigned |
+| U macron           | Alt-213 | No key assigned |
+| R dot below        | Alt-216 | No key assigned |
+| m candrabindu      | Alt-217 | No key assigned |
+| T dot below        | Alt-218 | No key assigned |
+| D dot below        | Alt-219 | No key assigned |
+| S dot below        | Alt-221 | No key assigned |
+| S acute            | Alt-222 | No key assigned |
 
 ### URW Palladio S codes - Printer's Specials
 | Glyph              | Codes   |
