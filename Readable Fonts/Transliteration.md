@@ -57,9 +57,9 @@ URW Palladio GGM (2002), by Ulrich Stiehl, is a font using the Balaram encoding 
 
 URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from Harry Falk and is included with the 2003 IndoSkript CD.
 
-URW Palladio IT (2003), by Ulrich Stiehl, is a font derived from URW Palladio for use with Itranslator 99. This font is bundled with Itranslator 99 build 1.3.0.72 and the encoding is described in the Itranslator 99 technical manual.
+URW Palladio IT (2003), by Ulrich Stiehl, is a font derived from URW Palladio for use with Itranslator 99. This font is bundled with Itranslator 99 build 1.3.0.72 and also describes the encoding in the Itranslator 99 technical manual.
 
-URW Palladio ITU (2003), by Ulrich Stiehl, is a font derived from URW Palladio for use with Itranslator 2003. The font includes all Windows Latin-1 and URW Palladio IT characters and several additional diacritics of modern and medieval Indic languages.
+URW Palladio ITU (2007), by Ulrich Stiehl, is a font derived from URW Palladio for use with Itranslator 2003. The font includes all Windows Latin-1 and URW Palladio IT characters and several additional diacritics of modern and medieval Indic languages.
 
 URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
 
@@ -3055,3 +3055,63 @@ The font can be used for Azerbaijani and Turkish languages.
 | non-breaking space | Alt-160 |
 | middle dot         | Alt-183 |
 | bullet             | Alt-149 |
+
+### URW Palladio SKT codes - Classical Sanskrit/Pali
+When used with URW Palladio KUL, the lowercase diacritics are same but does not have old visargas and anunasika.
+
+| Glyph               | Codes   |
+|---------------------|---------|
+| A macron            | Alt-146 |
+| D dot below         | Alt-247 |
+| H dot below         | Alt-221 |
+| I macron            | Alt-177 |
+| L tilde             | Alt-255 |
+| L candrabindu       | Alt-253 |
+| L dot below         | Alt-226 |
+| L dot below macron  | Alt-248 |
+| L ring below        | Alt-133 |
+| L line below        | Alt-238 |
+| M dot above         | Alt-219 |
+| M candrabindu       | Alt-204 |
+| M dot below         | Alt-217 |
+| N tilde             | Alt-208 |
+| N dot above         | Alt-212 |
+| N dot below         | Alt-213 |
+| R dot below         | Alt-227 |
+| R dot below macron  | Alt-181 |
+| R ring below        | Alt-134 |
+| R ring below macron | Alt-135 |
+| S acute             | Alt-140 |
+| S dot below         | Alt-216 |
+| T dot below         | Alt-215 |
+| U macron            | Alt-178 |
+| a macron            | Alt-192 |
+| d dot below         | Alt-231 |
+| e macron            | Alt-188 |
+| e breve             | Alt-207 |
+| h dot below         | Alt-205 |
+| h line below        | Alt-161 |
+| h breve below       | Alt-162 |
+| i macron            | Alt-193 |
+| l tilde             | Alt-254 |
+| l candrabindu       | Alt-252 |
+| l dot below         | Alt-210 |
+| l dot below macron  | Alt-229 |
+| l ring below        | Alt-131 |
+| l line below        | Alt-222 |
+| m dot above         | Alt-218 |
+| m candrabindu       | Alt-203 |
+| m dot below         | Alt-201 |
+| n tilde             | Alt-240 |
+| n dot above         | Alt-244 |
+| n dot below         | Alt-245 |
+| o macron            | Alt-189 |
+| o breve             | Alt-206 |
+| r dot below         | Alt-195 |
+| r dot below macron  | Alt-197 |
+| r ring below        | Alt-166 |
+| r ring below macron | Alt-167 |
+| s acute             | Alt-156 |
+| s dot below         | Alt-200 |
+| t dot below         | Alt-199 |
+| u macron            | Alt-194 |
