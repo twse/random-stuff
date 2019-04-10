@@ -11,18 +11,30 @@ This repository contains my random stuff.
 * **Ubuntu Member Home Pages.htm**: Websites for Ubuntu members who have explicitly signed the Ubuntu Code of Conduct (partial list only).
 * **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
-## Bulk adding names to Mozilla's credits list (command line)
-1. Clone the **mozilla/community-data** repository via git clone.
+## Bulk adding names to Mozilla credits list via command line
+1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv contains the names of all contributors for the old Mozilla Czech speaking community)
-5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want)
-6. Push the master branch via git push. (Please make sure that your account has write access for the mozilla/community-data repository.)
+5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want).
+6. Push the master branch via git push. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
 
-## Bulk adding names to Mozilla's credits list (website interface, logged in as @gurumukhi)
-1. Click the pencil at the top-right corner to edit names.csv.
+## Bulk adding names to Mozilla credits list via web user interface (logged in as @gurumukhi)
+1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
+4. Commit directly to the master branch but do not create a pull request.
+
+## Adding one name to Mozilla credits list via command line
+1. Clone the **mozilla/community-data** repository via `git clone`.
+2. Edit the names.csv file to add your name at the end.
+3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
+4. Push the master branch via `git push`. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
+
+## Adding one name to Mozilla credits list via web user interface (logged in as @gurumukhi)
+1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
+2. Add your name at the end.
+3. Use the name &lt;email&gt;: "citation" format for the commit message.
 4. Commit directly to the master branch but do not create a pull request.
 
 ## Pan-European fonts version 6.0
@@ -56,7 +68,7 @@ These pages are available in four versions. Thanks to [Norman De Forest](http://
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
 * **DNS error** (Wii Internet Channel) - The links for the list entries use https (i.e. secure) for the Opera website.
-* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it will show a translated message.
+* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
 * Danish (da_DK)
