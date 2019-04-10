@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="sv_SE">
 <context>
@@ -255,7 +255,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Custom</source>
-        <translation></translation>
+        <translation>Egendefinierad</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
@@ -300,7 +300,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="398"/>
         <source>Zoom Out</source>
-        <translation></translation>
+        <translation>Zooma av</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
@@ -554,7 +554,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
         <source>Select Font...</source>
-        <translation></translation>
+        <translation>Markering typsnitt...</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
