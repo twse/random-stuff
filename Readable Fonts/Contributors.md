@@ -1,4 +1,4 @@
-## Acknowledgements
+﻿## Acknowledgements
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
@@ -60,14 +60,14 @@ Special thanks goes to the following people:
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the old PCL5 tables from his own fonts.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
-* Conrad Taylor, for his book used to design fonts for African languages.
+* Conrad Taylor, for his book used to design fonts for African languages. This book duplicated Kikuyu in the language list.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
 * Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
-## Third-Party Fonts and Software
+## Third-Party Notices
 
 ### Credits for ASCR
 (C)Copyright Andrey Kogan, 1989-1991
@@ -88,13 +88,16 @@ These font files may be distributed as freeware on condition that
 ### Credits for Code Page 852
 (c) 1995-2002 Henrich Fukna
 
-This software are provided "as-is", and you assume all risks when using it.
-You are granted the right to use and to make an unlimited number of copies of this software as you wish; and distribute the package in its unmodified.
-No warranty of any kind is expressed or implied. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software. You may not rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the software except as provided in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license.
-Any suggestions, feedback and comments are welcome.
+This software are provided "as-is", and you assume all risks when using it. You are granted the right to use and to make an unlimited number of copies of this software as you wish; and distribute the package in its unmodified. No warranty of any kind is expressed or implied. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software. You may not rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the software except as provided in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license. Any suggestions, feedback and comments are welcome.
 
 ### Credits for CPIDOS
-Portions of this software are CPIDOS Copyright (C) 2003-2011 Henrique Peron used under the terms of the GNU General Public License as published by the Free Software Foundation, Version 2.0. All rights reserved.
+Copyright © 2003-2011 Henrique Peron
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see .
 
 ### Credits for Display Font Editor
 Copyright (c) 1991 Michael Burton (Rimrock Software). All rights reserved.
@@ -142,13 +145,7 @@ Zahvaljujem se bratu Ivanu, prijateljima Dubravku Gabeli, Reneu Vučetiću, Dean
 ### Credits for Transliteration
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
 
-### Credits for vietdos
-This software is copyrighted by the TriChlor Group. All rights reserved. You can freely use, copy, distribute vietdos in any form, as long as you do not charge a fee for it, and include this file. No modification allowed.
-
-#### Thanks
-* Ánh Minh
-
-### Credits for VNKey
+### Credits for vietdos, VNKey
 Copyright (c) 1992-2010 The TriChlor Software Group. All Rights Reserved.
 
 Permission to use, copy, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies and that both this copyright notice and this permission notice appear in supporting documentation, and that the name of The TriChlor Software Group not be used in advertising or publicity pertaining to distribution of the software without specific prior, written permission. This software is supplied as is without expressed or implied warranties of any kind.
