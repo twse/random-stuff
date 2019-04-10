@@ -77,7 +77,7 @@ These pages are available in four versions. Thanks to [Norman De Forest](http://
 * **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format meaning that it can be edited with Qt Linguist.
+All translations are in ts format meaning that it can be edited with Qt Linguist. The list of generated translations can be found in Gr1N/EasyPaint/CMakeLists.txt in line 109.
 
 * Danish (da_DK)
 * Dutch (nl_NL)
