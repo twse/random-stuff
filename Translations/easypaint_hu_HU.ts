@@ -444,7 +444,7 @@ Szeretné menteni a változásokat?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation>Not:</translation>
+        <translation>Not: a nyelvváltozáshoz az alkalmazások újraindítása szükséges</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
