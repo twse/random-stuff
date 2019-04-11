@@ -110,7 +110,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="189"/>
         <source>&amp;Print</source>
-        <translation>&amp;Tuko</translation>
+        <translation>&amp;Tulosta</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="195"/>
