@@ -50,6 +50,9 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30018   | Cyrillic Russian and Latin Tatar           |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
+| CP30023   | Southern Africa                            |
+| CP30024   | Northern and Eastern Africa                |
+| CP30025   | Western Africa                             |
 | CP30026   | Central Africa                             |
 | CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
