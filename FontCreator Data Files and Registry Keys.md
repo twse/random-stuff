@@ -18,10 +18,15 @@
 
 ## Unregistered version limitations
 The unregistered version works for 30 days with the following limitations based on the major version number.
+* 3.0 - It shows a nag screen when pressing Start.
+* 4.0 - It shows a nag screen when it is expired.
+* 5.0 and 5.6 - It disables certain features like saving fonts after expiration and executing it five times.
+* 6.0 and above - It disables certain features like saving fonts (not projects) and automatic hinting in font etsting.
+* 7.0 - It creates subsetted versions when saving, testing, exporting or installing fonts.
 
 Under the Help menu is an item labeled Register and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
 
-### User Data (Glyph Transformer scripts and Unicode data files omitted)
+## User Data (Glyph Transformer scripts and Unicode data files omitted)
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview window for each Unicode codepoint.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
