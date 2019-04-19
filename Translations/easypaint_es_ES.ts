@@ -89,7 +89,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="147"/>
-
         <location filename="../mainwindow.cpp" line="124"/>
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
