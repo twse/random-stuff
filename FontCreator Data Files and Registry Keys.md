@@ -16,6 +16,11 @@
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
 * Versions from 1.0 through 6.5 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
+## Unregistered version limitations
+The unregistered version works for 30 days with the following limitations based on the major version number.
+
+Under the Help menu is an item labeled Register and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
+
 ### User Data (Glyph Transformer scripts and Unicode data files omitted)
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview window for each Unicode codepoint.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
