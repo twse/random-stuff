@@ -339,6 +339,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
         <location filename="../mainwindow.cpp" line="304"/>
+
         <source>&amp;Tools</source>
         <translation>&amp;Narzędzia</translation>
     </message>
@@ -354,7 +355,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
-
         <location filename="../mainwindow.cpp" line="306"/>
     </message>
     <message>
@@ -546,7 +546,6 @@ Czy chcesz zapisać zmiany?</translation>
         <translation>Szerokość:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/resizedialog.cpp" line="69"/>
 
         <location filename="../resizedialog.cpp" line="67"/>
@@ -554,15 +553,13 @@ Czy chcesz zapisać zmiany?</translation>
         <translation>x Wysokość:</translation>
     </message>
     <message>
-        <location filename="../dialogs/resizedialog.cpp" line="71"/>
-
+        <location filename="../dialogs/resizedialog.cpp" line="71"/>
         <location filename="../resizedialog.cpp" line="69"/>
         <source>Percent</source>
         <translation>Procent</translation>
     </message>
     <message>
-        <location filename="../dialogs/resizedialog.cpp" line="87"/>
-
+        <location filename="../dialogs/resizedialog.cpp" line="87"/>
         <location filename="../resizedialog.cpp" line="85"/>
         <source>% x Height:</source>
         <translation>% x Wysokość:</translation>
@@ -632,7 +629,6 @@ Czy chcesz zapisać zmiany?</translation>
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
 
         <location filename="../settingsdialog.cpp" line="79"/>
-        <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
         <translation>Rozmiar bazowy:</translation>
     </message>
@@ -749,7 +745,6 @@ Czy chcesz zapisać zmiany?</translation>
         <location filename="../widgets/toolbar.cpp" line="37"/>
 
         <location filename="../toolbar.cpp" line="35"/>
-        <location filename="../widgets/toolbar.cpp" line="37"/>
         <source>Instruments</source>
         <translation>Instrumenty</translation>
     </message>
@@ -762,7 +757,6 @@ Czy chcesz zapisać zmiany?</translation>
     <message>
         <location filename="../widgets/toolbar.cpp" line="93"/>
         <location filename="../widgets/toolbar.cpp" line="94"/>
-
         <location filename="../toolbar.cpp" line="102"/>
         <source>First color</source>
         <translation>Pierwszy kolor</translation>
