@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Voimakkuus</translation>
     </message>
 </context>
 <context>
@@ -155,7 +155,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="240"/>
         <source>&amp;Instruments</source>
-        <translation></translation>
+        <translation>&amp;Välineet</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
@@ -175,12 +175,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
         <source>Magnifier</source>
-        <translation></translation>
+        <translation>Suurennuslasi</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
         <source>Pen</source>
-        <translation></translation>
+        <translation>Kynä</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="277"/>
@@ -190,7 +190,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="284"/>
         <source>Spray</source>
-        <translation></translation>
+        <translation>Ruisku</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="291"/>
@@ -210,7 +210,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation></translation>
+        <translation>Käyrä</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
@@ -220,7 +220,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
         <source>E&amp;ffects</source>
-        <translation></translation>
+        <translation>&amp;Tehosteet</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="329"/>
@@ -235,22 +235,22 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation>Binaarinen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Gauss-pehmennys</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>Gamma</source>
-        <translation></translation>
+        <translation>Gamma</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation>Terävöitä</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
@@ -270,7 +270,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="370"/>
         <source>Canvas size...</source>
-        <translation></translation>
+        <translation>Kuva koko...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
@@ -280,12 +280,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
-        <translation></translation>
+        <translation>Vastapäivään</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>Clockwise</source>
-        <translation></translation>
+        <translation>Myötäpäivään</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation>Zoomauskertoimen:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -406,7 +406,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="71"/>
         <source>Percent</source>
-        <translation></translation>
+        <translation>Prosenttia</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="87"/>
@@ -469,7 +469,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
         <source>History depth:</source>
-        <translation></translation>
+        <translation>Historiia syvyys:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="113"/>
@@ -479,7 +479,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="115"/>
         <source>Autosave Interval (sec):</source>
-        <translation></translation>
+        <translation>Automaattisesti tallenna aikaväli (minuuttia):</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="130"/>
@@ -523,7 +523,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation>Voimakkuus</translation>
     </message>
 </context>
 <context>
@@ -562,7 +562,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../widgets/toolbar.cpp" line="37"/>
         <source>Instruments</source>
-        <translation></translation>
+        <translation>Välineet</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="88"/>
