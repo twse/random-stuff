@@ -14,21 +14,21 @@ This repository contains my random stuff.
 4. Add the contents to names.csv file: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv contains the names of all contributors for the old Mozilla Czech speaking community)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want).
 6. Push the master branch via git push. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
-7. Visit the credits page via `about:credits` (Mozilla browser) or by clicking the link above and the names you added will appear or be removed live straight away with the last updated date being changed.
+7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list via web user interface (logged in as @gurumukhi)
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or by clicking the link above and the names you added will appear or be removed live straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list via command line
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Edit the names.csv file to add your name at the end.
 3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
 4. Push the master branch via `git push`. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
-5. Visit the credits page via `about:credits` (Mozilla browser) or by clicking the link above and the name you added wil appear straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list via web user interface (logged in as @gurumukhi)
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
@@ -51,8 +51,8 @@ This font family covers the following diacritics:
 4. All special letters and diacritics required for Pan-African languages with Latin script (Yoruba, Hausa, Edo-Bini, Fulfulde, Lingala, Krio, Chichewa, Baule, Igbo, Twi, etc. etc. etc. - see Conrad Taylor's Typesetting African languages)
 5. All special letters and diacritics required for Native American languages with Latin script (Navajo, Hän, Haisla, Dogrib, Tutchone, Lakota, Dakota, Cayuga, etc. etc. etc.)
 
-## Other vector fonts
-Created with FontCreator 5.6 (2007) - This version can only create ordinary Unicode fonts for non-OpenType-savvy word processors. Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
+## Other vector fonts (ordinary Unicode)
+Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer disables most features for unregistered users). Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
 * **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Regular.
@@ -70,11 +70,11 @@ This file includes data files and registry keys for all FontCreator versions.
 ## Protest pages
 These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages.
 
-* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http protocol, i.e. for use with nonsecure websites) however the company closed its business and the domain expired on July 2013.
+* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http for insecure websites) however the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic program for each Windows version). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
-* **DNS error** (Wii Internet Channel) - The links for the list entries use https (i.e. secure) for the Opera website.
-* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page it shows a translated message.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
+* **DNS error** (Wii Internet Channel) - The links for the list entries use https for the Opera website.
+* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format meaning that it can be edited with Qt Linguist. The list of generated translations can be found in Gr1N/EasyPaint/CMakeLists.txt in line 109.
