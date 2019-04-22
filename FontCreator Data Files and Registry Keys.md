@@ -43,7 +43,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** – For versions 3.0 through 6.0, controls the text used in Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed.
 * **preview.txt** – For version 7.0 and newer, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
 * **SubFamily.dat** – Includes naming fields for different languages.
-* **TableOffsetOrder.dat** – Contains the tables supported by any existing fonts. All tables are moved to Unsupported if removed.
+* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed.
 * **tags.txt** – For versions 7.0 and newer, controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when these executed the program will perform either the two operations to copy most files to the user data folder or open it.
@@ -353,7 +353,7 @@ The program is unregistered if this key is removed.
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing the opened font. Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports the Basic Latin range of Unicode while other characters are printed with a system font. Version 7.0 and newer displays the font name in square brackets with numbers at the end. (See TDISABLEDFORM for the used form when the trial period is exceeded or using most unregistered old versions)
+* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports ASCII characters while others are printed with a system font. (See TDISABLEDFORM for the used form when the trial period is exceeded or using most unregistered old versions)
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
