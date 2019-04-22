@@ -18,11 +18,6 @@
         <source>Save image...</source>
         <translation>Gem billede...</translation>
     </message>
-    <message>
-        <location filename="../imagearea.cpp" line="158"/>
-        <source>*.png;;*.jpg;;*.jpeg;;*.bmp;;*.xbm;;*.xpm</source>
-        <translation>*.png;;*.jpg;;*.jpeg;;*.bmp;;*.xbm;;*.xpm</translation>
-    </message>
 </context>
 <context>
     <name>MainWindow</name>
@@ -260,10 +255,6 @@ Vil du gemme ændringerne?</translation>
         <location filename="../mainwindow.cpp" line="830"/>
         <source>Authors</source>
         <translation>Forfattare</translation>
-    </message>
-    <message>
-        <source>0.0.1</source>
-        <translation type="obsolete">0.0.1</translation>
     </message>
 </context>
 <context>
