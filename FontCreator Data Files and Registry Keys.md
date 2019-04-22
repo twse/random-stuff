@@ -10,7 +10,7 @@
 * Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version dates from about 2006 and was distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
+* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
@@ -29,7 +29,7 @@ Under the Help menu is an item labeled Register and in the Tip of the Day is a b
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed.
 
-* **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview for each Unicode codepoint.
+* **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
 * **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
@@ -146,7 +146,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **AutoKerningWhiteSpace** – This corresponds to the **Additional Options: White space between characters** option in the AutoKern window.
 * **KerningColorGridLines** – Select the color used for the Grid Lines.
 * **KerningColorLeft** – Select the color used for the left glyph. Default is dark blue.
-* **KerningColorRight** – Select the color used for the right glyph.
+* **KerningColorRight** – Select the color used for the right glyph. Default is dark green.
 * **KerningShowBearingLines** – Display bearing lines in Kerning window.
 * **KerningShowGridLines** – Display grid lines in Kerning window.
 
@@ -221,7 +221,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **Underline** – Used for **Underline** in the Test Font window.
 
 ### Reg
-The program is unregistered if this key is removed.
+The program starts in unregistered mode if it is installed or this key is removed.
 * **V5D#** – Created when registering the program whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu and button in **TTIPOFTHEDAYFORM**. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
@@ -263,24 +263,24 @@ The program is unregistered if this key is removed.
 * **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** setting in the Advanced tab.
 
 ## Cursors in the executable file (Delphi resources omitted)
-* **CZCANCEL** – Used when canceling actions. This resource uses the Argentinian Spanish language.
-* **CZMOVE** – Used by the **Hand** feature. This resource uses the Argentinian Spanish language.
+* **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
+* **CZMOVE** – Used by the **Hand** feature. This resource uses Argentinian Spanish language.
 * **HLADDCONTOUR** – Used when adding contours.
 * **HLDUPLICATE** – Used when duplicating contours.
-* **HLFREEHAND** – Used by the **Freehand** feature in the Drawing toolbar
-* **HLGUIDELINED** – Used by the **Guideline** feature in the Drawing toolbar
-* **HLKNIFE** – Used by the **Knife** feature in the Drawing toolbar. This resource uses the German language.
-* **HLMEASURE** – Used by the **Measure** feature in the Drawing toolbar
-* **HLMOVECONTOUR** – Used when moving contours. This resource uses the German language.
-* **HLMOVEPOINT** – Used when moving points. This resource uses the German language.
-* **HLNEWELLIPSE** – Used by the **Ellipse** feature in the Drawing toolbar
-* **HLNEWRECTANGLE** – Used by the **Rectangle** feature in the Drawing toolbar
-* **HLROTATE** – Used by the **Rotate** feature in the Drawing toolbar. This resource uses the German language.
-* **HLSELECT** – Used when selecting anything. This resource uses the German language.
-* **HLSELECTCONTOUR** – Used when selecting contours. This resource uses the German language.
-* **HLSELECTPOINT** – Used when selecting points. This resource uses the German language.
-* **HLZOOMIN** – Used by the **Zoom In** feature in the Drawing toolbar. This resource uses the German language.
-* **HLZOOMOUT** – Used by the **Zoom Out** feature in the Drawing toolbar
+* **HLFREEHAND** – Used by **Freehand**
+* **HLGUIDELINED** – Used by **Guideline**
+* **HLKNIFE** – Used by **Knife**. This resource uses German language.
+* **HLMEASURE** – Used by **Measure**
+* **HLMOVECONTOUR** – Used when moving contours. This resource uses German language.
+* **HLMOVEPOINT** – Used when moving points. This resource uses German language.
+* **HLNEWELLIPSE** – Used by **Ellipse**
+* **HLNEWRECTANGLE** – Used by **Rectangle**
+* **HLROTATE** – Used by **Rotate**. This resource uses German language.
+* **HLSELECT** – Used when selecting anything. This resource uses German language.
+* **HLSELECTCONTOUR** – Used when selecting contours. This resource uses German language.
+* **HLSELECTPOINT** – Used when selecting points. This resource uses German language.
+* **HLZOOMIN** – Used by **Zoom In**. This resource uses German language.
+* **HLZOOMOUT** – Used by **Zoom Out**
 * **RV_JUMP_CURSOR** – Inverted jump cursor
 * **VT_HEADERSPLIT** – No meaning
 * **VT_MOVEALL** – Used when moving contours in simple glyphs.
@@ -303,7 +303,7 @@ The program is unregistered if this key is removed.
 * **RZCMBOBX_PRINTER** – Used in the font dropdown list.
 * **RZCMBOBX_TRUETYPE** – Used in the font dropdown list.
 * **RZCMBOBX_TRUETYPEFIXED** – Used in the font dropdown list.
-* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview. This resource uses the Argentinian Spanish language.
+* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview. This resource uses Argentinian Spanish language.
 * **TB2SYSMENUGLYPHS** – Used by the toolbars.
 * **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
 * **TBXSYSMENUIMAGES** – Used by the toolbars.
@@ -340,7 +340,7 @@ The program is unregistered if this key is removed.
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font. The default push button is **OK**.
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Used when importing bitmap files to convert into contours. The default push button is **OK**.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
 * **TDISABLEDFORM** – For unregistered copies of FontCreator, displays this form when trying to save/test/install fonts or extract TrueType font collections or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
@@ -349,7 +349,7 @@ The program is unregistered if this key is removed.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when setting embedding and licensing rights in the font. The default push button is **OK**.
 * **TFONTHEADERFLAGSFORM** – Used when setting the header flags in the font. The default push button is **OK**.
 * **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications. The default push button is **Next** or **Finish**. The path for Arial font in "dummy will be located at" is displayed in lowercase. In Windows Vista and up, the Install button includes an icon to show the UAC prompt. (See TDISABLEDFORM for the used form when the trial period is exceeded or using unregistered recent versions)
-* **TFONTOVERVIEWFORM** – Shows all glyphs available in the font after opening one or more font(s).
+* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
@@ -358,7 +358,7 @@ The program is unregistered if this key is removed.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
 * **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The default push button is **Yes**.
-* **TGLYPHEDITFORM** – Used when opening glyphs from the Font Overview.
+* **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHPROPERTIESFORM** – For old versions of FontCreator, displays a dialog where you can change various properties for the selected glyph. Pressing Alt-Enter opens up this form without reading when a screen reader is running. The **Help** button does nothing in old versions.
 * **TGRIDFORM** – Used when changing grid settings. The default push button is **OK**. The **Help** button does nothing in old versions.
 * **TGUIDELINEMODIFYFORM** – Used when modifying guidelines. The default push button is **OK**.
@@ -367,10 +367,10 @@ The program is unregistered if this key is removed.
 * **TIMPORTGLYPHDATAFORM** – Used when importing glyph data. The default push button is **OK**.
 * **TINSERTGLYPHFORM** – Used when inserting glyphs. The default push button is **OK**. The **Help** button does nothing in old versions.
 * **TINSTALLEDFONTSFORM** – Displays a dialog to open installed fonts in the computer. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TKERNINGFORM** – For old versions of FontCreator, displays a dialog where you can view or edit the legacy kerning tables in the font. See the OpenType Designer in recent versions to edit the GPOS kerning tables.
+* **TKERNINGFORM** – Used in old versions when viewing or editing the legacy kerning tables (not the GPOS kerning tables). See the OpenType Designer in recent versions to edit the GPOS kerning tables.
 * **TKERNINGNEWPAIRFORM** – Used when adding a kerning pair in the legacy kerning tables. The default push button is **OK**.
-* **TMAINFORMFCP3** – Version 3.0 only. Used when starting FontCreator. Maximizing each window changes the title bar. (See TMAINFORMFONTCREATOR in recent versions)
-* **TMAINFORMFONTCREATOR** – Used when starting FontCreator. Maximizing each window changes the title bar.
+* **TMAINFORMFCP3** – Version 3.0 only. Used when starting FontCreator. Maximizing changes the title bar. (See TMAINFORMFONTCREATOR in recent versions)
+* **TMAINFORMFONTCREATOR** – Used when starting FontCreator. Maximizing changes the title bar.
 * **TMETRICSFORM** – Used when configuring metrics options. The default push button is **OK**.
 * **TNAMINGFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can manually change the naming fields of a font. The default push button is **OK**. See TFONTPROPERTIESFORM in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font. The default push button is **OK**.
@@ -378,13 +378,13 @@ The program is unregistered if this key is removed.
 * **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), Glyph Outline Data and Glyph Metrics (i.e. the first two items) are checked by default.
 * **TPCLTFORM** – For versions 3.0 through 6.5 only, displays a dialog where you can include the old PCL5 data for legacy printers. The default push button is **OK**.
 * **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
-* **TPLATFORMMANAGERFORM** – For version 2.0 through 6.5 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
+* **TPLATFORMMANAGERFORM** – For versions 2.0 through 6.5 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
 * **TPOSTSCRIPTNAMESFORM** – Used when changing PostScript names for glyphs in the font. The default push button is **OK**.
-* **TPRINTABORTFORM** – Used when canceling the font printing process.
+* **TPRINTABORTFORM** – Used when the font printing is cancelled.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSFORM** – Progress window. The cursor for this form is **Busy**. The default push button is **Cancel**.
-* **TREGISTERFORM** – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help: Register**). This removes the splash screen on startup and enables several disabled features in some versions.
+* **TREGISTERFORM** – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help: Register**). This removes the splash screen on startup and enables most features disabled in version 6.0 and newer for unregistered users.
 * **TRESOURCEEDITORDLG** – In old versions only, used when editing resources.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph. The default push button is **OK**.
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after the trial period is exceeded. (Only in old versions)
