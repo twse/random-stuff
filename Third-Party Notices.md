@@ -86,10 +86,9 @@ Under no circumstances the author is liable for any loss or damage.
 * **The use of the program implies acceptance of the conditions stated above!**
 
 ## For use of CapiTel
-Copyright © 1996-1998 Oche
+Copyright © 1996-1998 Werner Fehn and Carsten Wimmer
 
 At this point the meaning of certain terms contained in the following provisions (of this agreement) shall be explained
-* authors: Werner Fehn, Carsten Wimmer
 * end user: the person, who uses, distributes, copies or sells the program or applies it in any other way, no matter if it concerns a natural person or a person at law
 * use: the appropriate employment of CapiTel, beginning at loading the executable program
 
