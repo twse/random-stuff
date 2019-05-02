@@ -10,7 +10,7 @@
 * Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or UPX (tested with the DOS version of 2.01 running on a DOS session with Windows XP Pro SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX halts with "not packed by UPX".
+* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says that it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
@@ -46,12 +46,12 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed.
 * **tags.txt** – For versions 7.0 and newer, controls the names of the five tags that can be assigned to each glyph.
 
-In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when these executed the program will perform either the two operations to copy most files to the user data folder or open it.
+In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when these executed the program will either copy most files to the user data folder or open it.
 
 ## Registry Keys
 
 ### AddCharacters
-* **SelectedCharacter** – Character used in the **Insert Characters** dialog. Default is U+0000 NULL.
+* **SelectedCharacter** – Character used in the **Insert Characters** dialog. Default is beginning of Basic Latin Unicode block.
 * **SelectedFont** – Font used in the **Insert Characters** dialog. Default is **Arial Unicode MS**.
 
 ### Columns
@@ -151,7 +151,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **KerningShowGridLines** – Display grid lines in Kerning window.
 
 ### Last Time
-* **File_#** – Include last time used fonts whereas # is a number. When **OnStartupOpenFonts** is enabled, no fonts are opened if this file is deleted.
+* **File_#** – Include last time used fonts whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
 
 ### Metrics
 * **AutoMetricsExcludeEmptyGlyphs** – This corresponds to the **Additional Options: Exclude empty glyphs (recommended)** option in the AutoMetrics window.
@@ -164,10 +164,10 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **AutoMetricsWhiteSpaceBefore** – This corresponds to the **Calculated: White space before characters** option in the AutoMetrics window.
 
 ### MetricsAndKerning
-* **MetricsAndKerningKerningEnabled** – This corresponds to **Kerning** in the Comparison toolbar. Default is off.
-* **MetricsAndKerningTextEnabled** – This corresponds to **Show text before and after glyph** in the Comparison toolbar. Default is off.
-* **MetricsAndKerningTextLeft** – This corresponds to **Before** text box in the Comparison toolbar. Default is empty.
-* **MetricsAndKerningTextRight** – This corresponds to **After** text box in the Comparison toolbar. Default is empty.
+* **MetricsAndKerningKerningEnabled** – Used by **Kerning** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningTextEnabled** – Used by **Show text before and after glyph** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningTextLeft** – Used by **Before** text box in the Comparison toolbar. Default is empty.
+* **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
 ### Most Recently Used Files
 * **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted.
