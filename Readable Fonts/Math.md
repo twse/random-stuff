@@ -34,3 +34,31 @@ Dov Grobgeld created a VGA and EGA font based on the TeX encoding from the FNTCO
 | omega   | Alt-157 |
 
 ### Printer's Specials
+| Glyph                  | Codes   |
+|------------------------|---------|
+| parenleft long         | Alt-001 |
+| parenright long        | Alt-002 |
+| bracketleft long       | Alt-003 |
+| bracketright long      | Alt-004 |
+| braceleft long         | Alt-005 |
+| braceright long        | Alt-006 |
+| dotted braceleft long  | Alt-007 |
+| dotted braceright long | Alt-008 |
+| left bar long          | Alt-210 |
+| right bar long         | Alt-211 |
+| less long              | Alt-212 |
+| greater long           | Alt-213 |
+| guillemotleft          | Alt-012 |
+| guillemotright         | Alt-014 |
+| threesuperior          | Alt-252 |
+| arrowright             | Alt-019 |
+| universal              | Alt-009 |
+| increment              | Alt-173 |
+| existential            | Alt-011 |
+| summation              | Alt-215 |
+| integral               | Alt-244 |
+| volume integral        | Alt-245 |
+| h diagonal bar         | Alt-216 |
+| therefore              | Alt-018 |
+| minus plus             | Alt-209 |
+| end of file            | Alt-026 |
