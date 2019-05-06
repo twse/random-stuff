@@ -136,6 +136,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
 | TEX-GR    | TeX Greek                                      |
+| TEX-MATH  | TeX Math                                       |
 | TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
 | TITUSEE   | TITUS Eastern European                         |
