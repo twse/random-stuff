@@ -15,7 +15,7 @@ Special thanks goes to the following people:
 * Virginijus Dadurkevičius, for his accented Lithuanian font.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
-* Michael Everson ([Evertype](http://www.evertype.com]), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
+* Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
 * Miguel Farah, for his readable fonts. I never used his fonts as the base font.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
