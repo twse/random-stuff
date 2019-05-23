@@ -75,8 +75,18 @@ These pages are available in four versions. Thanks to Norman De Forest for inspi
 * **DNS error** (Wii Internet Channel) - The links for the list entries use https for the Opera website.
 * **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
+## Translations of Knotter into multiple languages
+The list of generated translations can be found in [translations.pri](https://gitlab.com/mattia.basaglia/Knotter/blob/master/translations.pri) in line 18. The qm files are not included.
+
+* Danish (da)
+* Esperanto (eo)
+* Finnish (fi)
+* Norwegian Bokmål (nb_NO)
+* Norwegian Nynorsk (nn_NO)
+* Swedish (sv)
+
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format meaning that it can be edited with Qt Linguist. The list of generated translations can be found in Gr1N/EasyPaint/CMakeLists.txt in line 109.
+All translations are in ts format meaning that it can be edited with Qt Linguist. The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) in line 109.
 
 * Danish (da_DK)
 * Dutch (nl_NL)
@@ -85,6 +95,8 @@ All translations are in ts format meaning that it can be edited with Qt Linguist
 * Hungarian (hu_HU)
 * Italian (it_IT)
 * Korean (ko_KR)
+* Norwegian Bokmål (nb_NO)
+* Norwegian Nynorsk (nn_NO)
 * Polish (pl_PL)
 * Portuguese, as spoken in Brazil (pt_BR)
 * Romanian (ro_RO) - Contributed by Nicolae Oprea
