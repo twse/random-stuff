@@ -1,7 +1,7 @@
 ﻿## Information
 The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
-### Encodings with numerical strings
+### Numbered encodings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP113     | Yugoslavian                                |
@@ -67,7 +67,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP60853   | Georgian with capital letters              |
 | CP62306   | Cyrillic Uzbek                             |
 
-### Encodings without numerical strings
+### Unnumbered encodings
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
 | ATARIST   | Atari ST Encoding                              |
@@ -112,6 +112,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MAC_LV    | Latvian letters on Apple CE codepoints         |
 | MACALT    | Apple Latin 1 (Alternate encoding)             |
+| MACBACYR  | Apple Barents Cyrillic                         |
 | MACCEL    | Apple Celtic                                   |
 | MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
@@ -119,6 +120,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACPOL    | Polish letters on Apple CE codepoints          |
 | MACRUS    | Apple Accented Russian                         |
 | MACSAMI   | Apple Sámi/Lappish                             |
+| MACTRCYR  | Apple Turkic Cyrillic                          |
 | MALTESE   | Maltese letters on cp853 codepoints            |
 | MAZUSHA   | Latvian letters on Mazuša codepoints           |
 | NORDIC    | Nordic letters on cp859 codepoints             |
