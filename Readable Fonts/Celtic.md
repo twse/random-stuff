@@ -1,7 +1,5 @@
 ﻿## Character sets and keyboard layouts
-See [related page](http://www.smo.uhi.ac.uk/~oduibhin/mearchlar/fonts.htm) written by Ciarán Ó Duibhín for fonts and encodings on Windows and macOS. This page has a date stamp of 2015 at the end but was last modified in 2016.
-
-See the related page on the [Evertype site](http://www.evertype.com/celtscript/celt-keys.html) for more info, with special keyboards for French and German users.
+See the related page on the [Evertype site](http://www.evertype.com/celtscript/celt-keys.html) for more info with keyboards for use with macOS and typewriters.
 
 Free public-domain fonts using custom character sets include:
 * Celtic Gaeilge (Symbol font). Supports most Irish dotted consonants and Welsh accented W and Y from Celtic Extended Roman GS.
