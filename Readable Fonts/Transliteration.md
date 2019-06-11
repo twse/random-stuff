@@ -21,9 +21,9 @@ Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Reg
 
 The Hobogirin font is identical to the Kenneth Ray Norman encoding but uses a different designer.
 
-iitmipa (2004), by IIT Madras, is a transliteration font based on Garamond for use with Indic languages. Download the font from [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php).
+iitmipa (2004), by IIT Madras, is a transliteration font based on Garamond for use with Indic languages. Download the fonts in TTF, BDF, PFB, HQX or TAB from [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php).
 
-IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. The lack of box and shade characters in IndUni Courier makes it unsuitable for text mode programs like Midnight Commander. IndUni is released under the GNU GPL 3.0 license.
+IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. The lack of box and shade characters in IndUni-C makes it unsuitable for text mode programs like Midnight Commander. IndUni is released under the GNU GPL 3.0 license. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
 
 Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop but were no longer sold.
 
