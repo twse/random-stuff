@@ -5,8 +5,6 @@ avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font 
 
 Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
 
-Gudrun Bühnemann created a set of CSX fonts based on Courier, New Century Schoolbook or Times and a Norman encoding font based on Times. Download the fonts from [here](http://imp.ls.wisc.edu/~gbuhnema/macfonts.html) or [here](http://lca.wisc.edu/~gbuhnema/~fonts.html). The fonts are released under the GNU GPL 2.0 license.
-
 Miguel Civil created a set of fonts for Semitic etymologies – Nippur-Guti. These fonts are only compatible with Windows.
 
 DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
@@ -20,8 +18,6 @@ Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript 
 Michael Forgey (Unitype Inc.) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme. These are bundled with the text editor UniEdit.
 
 Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Regular for Mongolian transcription. It relocates some ASCII characters.
-
-Gāndhārī Unicode (2008), by [Andrew Glass](http://www.andrewglass.org/), is a font based on Times Gāndhārī. The font includes keyboard drivers for use with Windows and Word.
 
 The Hobogirin font is identical to the Kenneth Ray Norman encoding but uses a different designer.
 
@@ -37,11 +33,9 @@ Mithra (2000), is a version of Times New Roman modified for transliteration of A
 
 Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliteration.
 
-SPAtlantis (1998), by James R. Adair, is a transliteration font based on Times for Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
+SPAtlantis (1998), by James R. Adair, is a transliteration font for Windows and macOS based on Times for use with Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
 
 Libor Sztemon created a set of non-Unicode transliteration fonts for Classical Sanskrit, ca. 2001.
-
-Times Gāndharī, by [Andrew Glass](http://www.andrewglass.org/), is a font derived from Times for use with Gāndharī. The encoding is based on Classical Sanskrit Extended.
 
 TITUS Eastern Oriental (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Hebrew and Arabic. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode Private Use Area, which has the side-effect that word-wrap may not work. The Garamond-looking style font for WordCruncher has no word-wrap problems.
 
@@ -51,7 +45,7 @@ TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Rom
 
 Transliteration (1998) is a TrueType font derived from Times New Roman Italic from Glyph for Windows for Egyptian transliteration created by the Centre for Computer-aided Egyptological Research, Utrecht University. It relocates some ASCII characters and removes mappings for other symbols.
 
-URW Palladio CSX (2002), a font in either TrueType or OpenType PostSciript formats, by Ulrich Stiehl, is a font derived from URW Palladio using the CSX encoding.
+URW Palladio CSX (2002), a font in either TrueType or OpenType PostScript formats, by Ulrich Stiehl, is a font derived from URW Palladio using the CSX encoding.
 
 URW Palladio GGM (2002), by Ulrich Stiehl, is a font using the Balaram encoding designed for Sanskrit documents of the Gaudiya Grantha Mandira website.
 
@@ -77,7 +71,7 @@ Michael Witzel (Harvard University) modified the Original Garamond font in 1996 
 
 Dominik Wujastyk created a set of EGA and VGA screen fonts using the CS or CSX encodings.
 
-Chandra Yenco created a set of Pali transliteration fonts. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
+Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Unicode. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
 
 ### ALA-LC transliteration fonts (UniEdit) codes
 | Glyph               | First           | Second          |
