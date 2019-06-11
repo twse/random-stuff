@@ -1,10 +1,10 @@
 ## Fonts and keyboards
-Libor Sztemon created a number of non-Unicode TrueType fonts that support Inari, Lule, Northern and Southern Saami but not Skolt Saami, Latvian or Livonian.
+Libor Sztemon created a number of non-Unicode TrueType fonts that support Inari, Lule, Northern and Southern Sámi but not Skolt Sámi, Latvian or Livonian.
 
-Michael Everson (Evertype) created TrueType and bitmap fonts based on Everson Mono and Thomas for use with Saami. See the Saami test page on the [Evertype site](http://www.evertype.com/standards/se/sami-teastabaiki.html) for more info with links to the keyboard layouts, many documents and various encoding proposals. Includes a Saami and Cyrillic test page designed for Netscape. No characters for Latvian or Livonian exist in the fonts.
+Michael Everson (Evertype) created TrueType and bitmap fonts based on Everson Mono and Thomas for use with Sámi. See the Sámi test page on the [Evertype site](http://www.evertype.com/standards/se/sami-teastabaiki.html) (pages last updated in 2001 and 2002) for more info with links to the Windows and macOS keyboard layouts, many documents, test pages for Netscape and various encoding proposals. No characters for Latvian or Livonian exist in the fonts.
 
-### A note on Kildin Saami
-Although not part of my screen fonts, Kildin Saami is usually written in Cyrillic script.
+### A note on Kildin Sámi
+Although not part of my screen fonts, this language is usually written in Cyrillic script.
 
 ## Diacritical characters
 | Glyph              | Codes   | Apple Lappish   | ISO-IR 197      |
