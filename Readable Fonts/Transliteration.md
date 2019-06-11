@@ -929,50 +929,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | t dot below        | Alt-194 |
 | u macron           | Alt-198 |
 
-### Times Gāndhārī font codes
-| Glyph               | Codes   |
-|---------------------|---------|
-| a double ring below | Alt-197 |
-| c macron            | Alt-186 |
-| d acute             | Alt-209 |
-| d dot below acute   | Alt-218 |
-| g acute             | Alt-178 |
-| g acute macron      | Alt-217 |
-| gamma               | Alt-211 |
-| h acute             | Alt-206 |
-| k acute             | Alt-210 |
-| l dot below         | Alt-215 |
-| m macron            | Alt-208 |
-| n macron            | Alt-203 |
-| p acute             | Alt-221 |
-| s acute macron      | Alt-196 |
-| s macron            | Alt-188 |
-| s dot below macron  | Alt-200 |
-| s line below        | Alt-201 |
-| t dot below acute   | Alt-194 |
-| u double ring below | Alt-171 |
-| v acute             | Alt-223 |
-| y acute             | Alt-222 |
-| z acute             | Alt-172 |
-
-### Times Gandhari font codes – Printer's Specials
-| Glyph           | Codes   |
-|-----------------|---------|
-| quoteleft       | Alt-145 |
-| quoteright      | Alt-146 |
-| quotedblleft    | Alt-147 |
-| quotedblright   | Alt-148 |
-| guillemot left  | Alt-174 |
-| guillemot right | Alt-175 |
-| section         | Alt-177 |
-| cent            | Alt-155 |
-| peseta          | Alt-158 |
-| middle dot      | Alt-216 |
-| radical         | Alt-251 |
-| short           | Alt-191 |
-| long            | Alt-193 |
-| short or long   | Alt-212 |
-
 ### IndoSkript font codes – Accented letters
 | Glyph               | Codes   |
 |---------------------|---------|
