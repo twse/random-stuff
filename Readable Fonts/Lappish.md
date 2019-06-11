@@ -1,7 +1,9 @@
 ## Fonts and keyboards
+Everson Mono Sami/Latin 9 and Thomas Sami/Latin 9 are fonts supporting the Sámi and Latin 9 character sets. The fonts were originally hosted in the [Dansk Unix User Group](http://www.dkuug.dk/) FTP server. No characters for Latvian or Livonian exist in the fonts.
+
 Libor Sztemon created a number of non-Unicode TrueType fonts that support Inari, Lule, Northern and Southern Sámi but not Skolt Sámi, Latvian or Livonian.
 
-Michael Everson (Evertype) created TrueType and bitmap fonts based on Everson Mono and Thomas for use with Sámi. See the Sámi test page on the [Evertype site](http://www.evertype.com/standards/se/sami-teastabaiki.html) (pages last updated in 2001 and 2002) for more info with links to the Windows and macOS keyboard layouts, many documents, test pages for Netscape and various encoding proposals. No characters for Latvian or Livonian exist in the fonts.
+Michael Everson (Evertype) created a Sámi test page on the [Evertype site](http://www.evertype.com/standards/se/sami-teastabaiki.html) (pages last updated in 2001 and 2002) which has more info with links to the Windows and macOS keyboard layouts, many documents, test pages for Netscape and various encoding proposals.
 
 ### A note on Kildin Sámi
 Although not part of my screen fonts, this language is usually written in Cyrillic script.
