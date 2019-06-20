@@ -90,7 +90,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GAEILGE2  | Gaeilge2                                       |
 | GEM       | GEM Encoding                                   |
 | GREEK     | Greek (ABCGRL encoding)                        |
-| GUARANI   | Guarani letters on cp30023 codepoints          |
 | HAUSA     | Hausa letters on African codepoints            |
 | HELS_SYM  | LinguaFont Helsinki keyboard                   |
 | HUNGARIA  | LinguaFont Hungarian                           |
