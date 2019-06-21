@@ -1,6 +1,6 @@
-Two screen fonts are provided for Wakhi diacritics and one for languages other than Wakhi.
+Two screen fonts are provided for Wakhi and one for languages other than Wakhi.
 
-### Diacritic letters for languages other than Wakhi
+### Diacritics for languages other than Wakhi
 | Glyph       | Codes   |
 |-------------|---------|
 | A acute     | Alt-181 |
@@ -99,7 +99,7 @@ Two screen fonts are provided for Wakhi diacritics and one for languages other t
 | ezh         | Alt-236 |
 | yeru        | Alt-251 |
 
-### Diacritic characters for Wakhi
+### Diacritics for Wakhi
 | Glyph             | Codes   |
 |-------------------|---------|
 | C caron           | Alt-128 |
