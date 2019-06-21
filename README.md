@@ -53,7 +53,6 @@ Created with FontCreator 5.6 (2007) - Last fully functional version for unregist
 * **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Regular.
-* **New York Plus** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Roman.
 
 ## Pixel fonts
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
