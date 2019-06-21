@@ -191,7 +191,7 @@ Arminio Grgić wrote the TSR program CNVPRN (1993) to convert Croatian character
 
 Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. The documentation is in Croatian only.
 
-Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. (There is a version of TIPKA for Windows called TipkaWin.)
+Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. (A version of Windows exists called TipkaWin.)
 
 Vedran Gačo wrote the pay shareware font editor GWD Font Editor (1995). This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
 
@@ -215,7 +215,7 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
 Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
 
-One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by using ṣ (#200) and ṭ (#199).
+One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by using ṣ (#200) and ṭ (#199) or overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
 | Glyph        | Codes   | Windows CP1250 | Apple Romanian | Cork    | ILPRumanianB100      | TITUS Eastern European |
 |--------------|---------|----------------|----------------|---------|----------------------|------------------------|

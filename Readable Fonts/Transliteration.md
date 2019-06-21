@@ -1,5 +1,5 @@
 ﻿## Fonts and keyboards
-Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a bunch of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
+Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a large number of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
 
 avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font for Avestan and Pahlavi transliteration based on Mithra (2000). The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
 
@@ -9,7 +9,7 @@ Miguel Civil created a set of fonts for Semitic etymologies – Nippur-Guti. The
 
 DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
 
-Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription. See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info. The Olympia transliteration keyboard has some macOS symbols but does not have the Euro sign.
+Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription as shown in [this image](http://www.evertype.com/standards/hy/ArmTrans.gif). See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info.
 
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
 
