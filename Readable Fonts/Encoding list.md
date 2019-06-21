@@ -77,12 +77,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
-| CZECH     | Czech letters on cp852 codepoints              |
 | CZECHLF   | LinguaFont Czech                               |
 | DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
 | EFFL1     | RISC OS Latin-1 (The Electronic Font Foundry)  |
-| EO853     | Esperanto letters on cp853 codepoints          |
 | ERNS      | Euransi (old standard charset)                 |
 | EU_NRS    | Euransi e Nauromane                            |
 | EVAFONT   | EVAFONT Encoding                               |
@@ -90,11 +88,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GAEILGE2  | Gaeilge2                                       |
 | GEM       | GEM Encoding                                   |
 | GREEK     | Greek (ABCGRL encoding)                        |
-| HAUSA     | Hausa letters on African codepoints            |
 | HELS_SYM  | LinguaFont Helsinki keyboard                   |
 | HUNGARIA  | LinguaFont Hungarian                           |
-| IBERIAN   | Iberian letters on cp850 codepoints            |
-| ICELAND   | Icelandic letters on cp850 codepoints          |
 | ILPROM    | ILPRumanianB100                                |
 | IR-197    | ISO-IR 197 Sámi                                |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
@@ -109,32 +104,23 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LSSLV     | Liborsoft Slavonia                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
-| MAC_LV    | Latvian letters on Apple CE codepoints         |
 | MACALT    | Apple Latin 1 (Alternate encoding)             |
 | MACBACYR  | Apple Barents Cyrillic                         |
 | MACCEL    | Apple Celtic                                   |
-| MACCS     | Czechoslovakian letters on Apple CE codepoints |
 | MACIRISH  | Apple Irish Gaelic                             |
 | MACLTN3   | Apple Latin-3 (Southern Europe)                |
-| MACPOL    | Polish letters on Apple CE codepoints          |
 | MACRUS    | Apple Accented Russian                         |
 | MACSAMI   | Apple Sámi/Lappish                             |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
-| MALTESE   | Maltese letters on cp853 codepoints            |
-| MAZUSHA   | Latvian letters on Mazuša codepoints           |
-| NORDIC    | Nordic letters on cp859 codepoints             |
 | PALM      | Palm OS Latin-1                                |
-| PL_ISO2   | Polish letters on iso 8859-2 codepoints        |
 | POLISHLF  | LinguaFont Polish                              |
 | RISCL1    | RISC OS Latin-1                                |
-| ROMANIAN  | Romanian letters on cp852 codepoints           |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | T2A       | TeX Cyrillic Encoding 1                        |
 | T2B       | TeX Cyrillic Encoding 2                        |
 | T2C       | TeX Cyrillic Encoding 3                        |
-| TAMAZIGH  | Tamazight/Berber letters on cp30028 codepoints |
 | TEX_VI    | TeX Vietnamese (T5)                            |
 | TEX-GR    | TeX Greek                                      |
 | TEX-MATH  | TeX Math                                       |
@@ -149,7 +135,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TSLAVISK  | Times of Slavisk                               |
 | TSLAVS    | Times of Slavs                                 |
 | TURKLAT   | Turkic Latin                                   |
-| TURKMEN   | Turkmen letters on cp852 codepoints            |
 | TWEST1    | Times of the West I                            |
 | TWEST2    | Times of the West II                           |
 | VGAF_HY   | VGAFONT Armenian                               |
@@ -178,7 +163,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CSX       | Classical Sanskrit Extended                      |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | DV1Y      | DV1-TTYogesh                                     |
-| GANDHARI  | Times Gāndhārī                                   |
 | GGM       | Gaudiya Grantha Mandira                          |
 | GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
 | GRETIL    | Ronald Emmerick                                  |

@@ -3,11 +3,11 @@ ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icel
 
 SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard. The docs are in Swedish.
 
-Times of the West I (2001), by Libor Sztemon, is derived from Times New Roman and includes letters with diacritics for Catalan, Greenlandic, Luxembourgian and Old Danish/Norwegian languages. The PCL5 data refers to the original font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
+Times of the West I (2001), by Libor Sztemon, is derived from Times New Roman and includes letters with diacritics for Catalan, Greenlandic, Luxembourgian and Old Danish/Norwegian languages. The PCL5 data refers to the original font.
 
-Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and includes letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. The PCL5 data refers to the original font. Download the font from [here](http://ls78.sweb.cz/fonts.htm).
+Times of the West II (2001), by Libor Sztemon, is derived from Times New Roman and includes letters with diacritics for Azerbaijani, Catalan, Kurdish, Slovenian and Turkish languages. The PCL5 data refers to the original font.
 
-The old WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
+The WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
 
 ## Diacritical characters
 
