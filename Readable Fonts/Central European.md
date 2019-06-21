@@ -29,14 +29,12 @@ On TeX, one character set is in common use:
 * Cork. Supports Western and Central European languages in Latin script.
 
 ## Fonts
-* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* Cieszyn (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Polish characters in Windows CP1250 codepoints. The old PCL5 data is the original.
+* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware Windows keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický but it replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
 * Lexa and LinguaFont (1998), by Raymond Hickey, includes printer and screen fonts for Czech, Hungarian and Polish languages.
-* Times New Roman Hungarian (2001), by Libor Sztemon, is a font derived from Times New Roman which contains Hungarian characters in Windows CP1250 codepoints. The old PCL5 data is the original.
 * TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
 
 ## Diacritical characters
@@ -115,7 +113,7 @@ Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change 
 | i acute      | Alt-161 | Alt-237        | Alt-146  | Alt-237 | Alt-161   | Alt-161          | Alt-161                |
 | l acute      | Alt-146 | Alt-229        | Alt-190  | Alt-168 | Alt-141   | No key assigned  | Alt-233                |
 | l caron      | Alt-150 | Alt-190        | Alt-188  | Alt-169 | Alt-140   | No key assigned  | Alt-235                |
-| n caron      | Alt-229 | Alt-242        | Alt-203  | Alt-172 | Alt-164   | Alt-239          | Alt-238                |
+| n caron      | Alt-229 | Alt-242        | Alt-203  | Alt-172 | Alt-164   | Alt-239          | Alt-238                
 | o acute      | Alt-162 | Alt-243        | Alt-151  | Alt-243 | Alt-162   | Alt-162          | Alt-162                |
 | o circumflex | Alt-147 | Alt-244        | Alt-153  | Alt-244 | Alt-147   | Alt-147          | Alt-147                |
 | r acute      | Alt-234 | Alt-224        | Alt-218  | Alt-175 | Alt-170   | No key assigned  | Alt-241                |
@@ -132,9 +130,9 @@ Adam Marczewski wrote a page containing shortcuts for Polish standard/programmer
 
 Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format. When launched using the la encoding, the section sign (§) is placed in #167 which is used for lowercase z caron.
 
-[Piotr Walewski-Salecki](http://www.walewski-salecki.pl/) wrote the program Gżegżółka (2009) which converts text in various encodings. [Home page for Gżegżółka](http://www.gzegzolka.com/), in Polish only / tylko w Polski.
+[Piotr Walewski-Salecki](http://www.walewski-salecki.pl/) wrote the program Gżegżółka (2009) which converts text in various encodings. The program was originally called Convert 1.x through 4.x (1997-1999). [Home page for Gżegżółka](http://www.gzegzolka.com/), in Polish only / tylko w Polski.
 
-URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with Adobe Standard Encoding, which is used for the Slovak diacritic small l caron. Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
+URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with Adobe Standard Encoding. This codepoint is used for the Slovak diacritic small l caron. Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
 
 | Glyph       | Codes   | Windows CP1250 | Apple CE | Cork    | CSK     | CYfromat | DHN     | IEA     | LinguaFont Polish | Logic   | Mazovia | Microvex | TITUS Eastern European |
 |-------------|---------|----------------|----------|---------|---------|----------|---------|---------|-------------------|---------|---------|----------|------------------------|
@@ -179,6 +177,11 @@ URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with
 | u dieresis     | Alt-129 | Alt-252        | Alt-159  | Alt-252 | Alt-129 | Alt-129         | Alt-129              | Alt-129                |
 | u double acute | Alt-251 | Alt-251        | Alt-245  | Alt-182 | Alt-150 | Alt-150         | Alt-150              | Alt-250                |
 
+#### Notes when writing Hungarian with URW Palladio KUL
+**Note 1**: Double acute o and u are accessible ONLY through the free floating accent ˝ (#135) e.g. via the overstrike utility of WordPerfect.
+
+**Note 2**: ö and ü which serves also as German diacritics and ó which serves also as a Polish diacritic are accessible in fact in both lower and uppercase.
+
 ### Yugoslavian - Typed as usual on Yugoslavian keyboards
 These can be written when used with CP113.
 
@@ -196,21 +199,23 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
-| Glyph    | Codes   | Windows CP1250 | Apple Croatian | Cork    | CP113   | Times of the West II | TITUS Eastern European |
-|----------|---------|----------------|----------------|---------|---------|----------------------|------------------------|
-| C acute  | Alt-143 | Alt-198        | Alt-198        | Alt-130 | Alt-143 | No key assigned      | Alt-171                |
-| C caron  | Alt-172 | Alt-200        | Alt-200        | Alt-131 | Alt-146 | Alt-141              | Alt-170                |
-| D stroke | Alt-209 | Alt-208        | Alt-208        | Alt-208 | Alt-157 | No key assigned      | Alt-172                |
-| S caron  | Alt-230 | Alt-238        | Alt-169        | Alt-146 | Alt-165 | Alt-138              | Alt-201                |
-| Z caron  | Alt-166 | Alt-142        | Alt-174        | Alt-154 | Alt-167 | Alt-152              | Alt-214                |
-| c acute  | Alt-134 | Alt-230        | Alt-232        | Alt-162 | Alt-134 | No key assigned      | Alt-219                |
-| c caron  | Alt-159 | Alt-232        | Alt-230        | Alt-163 | Alt-145 | Alt-157              | Alt-218                |
-| d stroke | Alt-208 | Alt-240        | Alt-240        | Alt-158 | Alt-155 | No key assigned      | Alt-220                |
-| s caron  | Alt-231 | Alt-154        | Alt-185        | Alt-178 | Alt-164 | Alt-154              | Alt-244                |
-| z caron  | Alt-167 | Alt-158        | Alt-190        | Alt-186 | Alt-166 | Alt-158              | Alt-254                |
+| Glyph    | Codes   | Windows CP1250 | Apple Croatian | Cork    | CP113   | TITUS Eastern European |
+|----------|---------|----------------|----------------|---------|---------|------------------------|
+| C acute  | Alt-143 | Alt-198        | Alt-198        | Alt-130 | Alt-143 | Alt-171                |
+| C caron  | Alt-172 | Alt-200        | Alt-200        | Alt-131 | Alt-146 | Alt-170                |
+| D stroke | Alt-209 | Alt-208        | Alt-208        | Alt-208 | Alt-157 | Alt-172                |
+| S caron  | Alt-230 | Alt-238        | Alt-169        | Alt-146 | Alt-165 | Alt-201                |
+| Z caron  | Alt-166 | Alt-142        | Alt-174        | Alt-154 | Alt-167 | Alt-214                |
+| c acute  | Alt-134 | Alt-230        | Alt-232        | Alt-162 | Alt-134 | Alt-219                |
+| c caron  | Alt-159 | Alt-232        | Alt-230        | Alt-163 | Alt-145 | Alt-218                |
+| d stroke | Alt-208 | Alt-240        | Alt-240        | Alt-158 | Alt-155 | Alt-220                |
+| s caron  | Alt-231 | Alt-154        | Alt-185        | Alt-178 | Alt-164 | Alt-244                |
+| z caron  | Alt-167 | Alt-158        | Alt-190        | Alt-186 | Alt-166 | Alt-254                |
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
-Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses the old s and t cedilla.
+Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
+
+One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by using ṣ (#200) and ṭ (#199).
 
 | Glyph        | Codes   | Windows CP1250 | Apple Romanian | Cork    | ILPRumanianB100      | TITUS Eastern European |
 |--------------|---------|----------------|----------------|---------|----------------------|------------------------|
@@ -219,7 +224,7 @@ Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses 
 | I circumflex | Alt-215 | Alt-206        | Alt-235        | Alt-206 | vertical line        | Alt-183                |
 | S cedilla    | Alt-184 | Alt-170        | Alt-175        | Alt-147 | left curly bracket   | Alt-202                |
 | T cedilla    | Alt-221 | Alt-222        | Alt-222        | Alt-149 | right curly bracket  | Alt-204                |
-| a circumflex | Alt-131 | Alt-226        | Alt-137        | Alt-226 | grave accent         | Alt-131                |
+| a circumflex | Alt-131 | Alt-226        | Alt-137        | Alt-226 | grave accent         | Alt-131                |
 | a breve      | Alt-199 | Alt-227        | Alt-190        | Alt-160 | q                    | Alt-215                |
 | i circumflex | Alt-140 | Alt-238        | Alt-148        | Alt-238 | backslash            | Alt-140                |
 | s cedilla    | Alt-173 | Alt-186        | Alt-191        | Alt-179 | left square bracket  | Alt-245                |
@@ -246,7 +251,7 @@ Some programs as [UniPad](http://www.unipad.org/) include a keyboard which uses 
 |------------|---------|----------------|---------|------------------------|
 | C cedilla  | Alt-128 | Alt-199        | Alt-199 | Alt-128                |
 | E dieresis | Alt-211 | Alt-203        | Alt-203 | Alt-178                |
-| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135                |
+| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135                |
 | e dieresis | Alt-137 | Alt-235        | Alt-235 | Alt-137                |
 
 ### Turkmen

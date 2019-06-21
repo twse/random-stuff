@@ -9,8 +9,6 @@ Miguel Civil created a set of fonts for Semitic etymologies – Nippur-Guti. The
 
 DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
 
-Euransi e Nauromane (2001), by Libor Sztemon, is a font based on Times New Roman for Euransi, old Latin and Greek transliteration, Maltese, Mongolian and Turkish.
-
 Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription. See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info. The Olympia transliteration keyboard has some macOS symbols but does not have the Euro sign.
 
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
@@ -34,8 +32,6 @@ Mithra (2000), is a version of Times New Roman modified for transliteration of A
 Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliteration.
 
 SPAtlantis (1998), by James R. Adair, is a transliteration font for Windows and macOS based on Times for use with Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
-
-Libor Sztemon created a set of non-Unicode transliteration fonts for Classical Sanskrit, ca. 2001.
 
 TITUS Eastern Oriental (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Hebrew and Arabic. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode Private Use Area, which has the side-effect that word-wrap may not work. The Garamond-looking style font for WordCruncher has no word-wrap problems.
 
@@ -2562,54 +2558,6 @@ The font can be used for Azerbaijani and Turkish languages.
 | s dot below         | Alt-135 | Alt-229           |
 | t dot below         | Alt-239 | Alt-254           |
 | u macron            | Alt-150 | Alt-250           |
-
-### Codes for Sanskrit transliteration font by Libor Sztemon
-| Glyph              | Codes   |
-|--------------------|---------|
-| A macron           | Alt-193 |
-| D dot below        | Alt-207 |
-| E macron           | Alt-201 |
-| G dot above        | Alt-208 |
-| H dot below        | Alt-192 |
-| I tilde            | Alt-143 |
-| I macron           | Alt-205 |
-| L dot below        | Alt-188 |
-| L line below       | Alt-197 |
-| M dot above        | Alt-204 |
-| N tilde            | Alt-210 |
-| N dot above        | Alt-209 |
-| N dot below        | Alt-198 |
-| O macron           | Alt-211 |
-| R dot below        | Alt-216 |
-| R dot below macron | Alt-217 |
-| S acute            | Alt-140 |
-| S dot below        | Alt-138 |
-| T dot below        | Alt-141 |
-| U tilde            | Alt-144 |
-| U macron           | Alt-218 |
-| V dot below        | Alt-221 |
-| a macron           | Alt-225 |
-| d dot below        | Alt-239 |
-| e macron           | Alt-233 |
-| g dot above        | Alt-240 |
-| h dot below        | Alt-224 |
-| i tilde            | Alt-127 |
-| i macron           | Alt-237 |
-| l dot below        | Alt-190 |
-| l line below       | Alt-229 |
-| m dot above        | Alt-236 |
-| n tilde            | Alt-242 |
-| n dot above        | Alt-241 |
-| n dot below        | Alt-230 |
-| o macron           | Alt-243 |
-| r dot below        | Alt-248 |
-| r dot below macron | Alt-249 |
-| s acute            | Alt-156 |
-| s dot below        | Alt-154 |
-| t dot below        | Alt-157 |
-| u tilde            | Alt-129 |
-| u macron           | Alt-250 |
-| v dot below        | Alt-253 |
 
 ### Tamil transliteration font codes
 | Glyph        | Codes   | URW Palladio SKT |

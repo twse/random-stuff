@@ -4,7 +4,7 @@ Special thanks goes to the following people:
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
-* Bùi Minh Cương, for writing vietdos. The bundled screen fonts adds a dot in the small "i" with accents, which is unacceptable.
+* Bùi Minh Cương, for writing vietdos. The bundled screen fonts leaves the tittle in small i with accent above, which is unacceptable.
 * Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
@@ -16,7 +16,6 @@ Special thanks goes to the following people:
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
-* Miguel Farah, for his readable fonts. I never used his fonts as the base font.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
@@ -40,9 +39,9 @@ Special thanks goes to the following people:
 * Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
 * Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
 * Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.
-* Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default.
+* Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
 * Werner Lemberg, for writing FreeType. He also wrote the TeX T5 encoding designed for use with the Vietnamese language.
-* Iván Llanas, for writing FontEdit II and his font package.
+* [Iván Llanas](http://www.geocities.ws/ivan_llanas), for writing FontEdit II and his font package.
 * Pádraig McCarthy, for creating the Gaeilge (1993) font. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
 * Sergey Menshikov, for maintaining Interpilot - Palm OS internationalization program. This program changes the keyboard and fonts used for Palm OS to whatever language you want.
@@ -58,7 +57,6 @@ Special thanks goes to the following people:
 * Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in the .dok format and uses the Polish Mazovia encoding.)
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
-* Libor Sztemon, for his fonts with custom encodings based on the Microsoft Core Fonts for his software, Liborsoft. As of 2004/01/29, no new fonts are added to the page. He didn't change the old PCL5 tables from his own fonts.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Conrad Taylor, for his book used to design fonts for African languages. This book duplicated Kikuyu in the language list.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
@@ -131,11 +129,6 @@ Copyright © 1994-1996 Sławomir Stachniewicz
 * Andrzej Knapczyk
 * Jan Bobrowski
 * Maciej Guja
-
-### Credits for readable fonts
-Copyright © 1993 Miguel Farah
-
-Since this is PD, there is no warranty of any kind and I take no responsibility for the damage that these files may do to your computer/peripherals (although I'm 99.9999999999% sure that there can't possibly be any damage).
 
 ### Credits for TIPKA (Croatian)
 Copyright © 1992-1995 Tomislav Bronzin

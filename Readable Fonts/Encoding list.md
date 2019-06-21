@@ -74,15 +74,11 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | BASQUE    | Basque                                         |
 | CER-GS    | Celtic Extended Roman GS                       |
 | CHUVLAT   | Chuvash (Latin)                                |
-| CIESZYN   | Cieszyn (Polish letters on cp1250 codepoints)  |
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
 | CZECHLF   | LinguaFont Czech                               |
-| DSIRISH   | Dé Sathairn                                    |
 | EDA_CODE  | EDA editor encoding                            |
 | EFFL1     | RISC OS Latin-1 (The Electronic Font Foundry)  |
-| ERNS      | Euransi (old standard charset)                 |
-| EU_NRS    | Euransi e Nauromane                            |
 | EVAFONT   | EVAFONT Encoding                               |
 | GAEILGE1  | Gaeilge1                                       |
 | GAEILGE2  | Gaeilge2                                       |
@@ -97,11 +93,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LAT8EXT   | Extended Latin-8                               |
-| LFEN_OLD  | LinguaFont Old English                         |
+| LFEN_OLD  | LinguaFont Old English                        |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LFTR      | LinguaFont Turkish                             |
-| LSSLV     | Liborsoft Slavonia                             |
 | LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACALT    | Apple Latin 1 (Alternate encoding)             |
@@ -127,16 +122,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TEX-PL    | TeX Polish (T4)                                |
 | TEXNANSI  | TeX & ANSI                                     |
 | TITUSEE   | TITUS Eastern European                         |
-| TMS_EU    | Times New Roman Euransi                        |
-| TMSEA     | Euransi Times                                  |
-| TMSEUS    | Times New Roman Basque                         |
-| TNR_CYM   | Pryd Euro-Cymraeg                              |
-| TNR_MGR   | Times New Roman Hungarian                      |
-| TSLAVISK  | Times of Slavisk                               |
-| TSLAVS    | Times of Slavs                                 |
 | TURKLAT   | Turkic Latin                                   |
-| TWEST1    | Times of the West I                            |
-| TWEST2    | Times of the West II                           |
 | VGAF_HY   | VGAFONT Armenian                               |
 | VIET      | VIET Encoding                                  |
 | VSCII     | VSCII                                          |
@@ -146,7 +132,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
-| ZN_DRS    | Zemanho ye Darseni                             |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
@@ -187,7 +172,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | PAUS      | URW Palladio US                                  |
 | PINYIN    | Chinese (Pinyin)                                 |
 | PKTC      | PKTC                                             |
-| SANSKRIT  | Sanskrit transliteration font by Libor Sztemon   |
 | SEMTRAN1  | Semitic – Arabic                                 |
 | SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
