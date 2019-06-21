@@ -1,5 +1,5 @@
-## Fonts and keyboards
-Everson Mono Sami/Latin 9 and Thomas Sami/Latin 9 are fonts supporting the Sámi and Latin 9 character sets. Hex is a macOS keyboard driver. These originally hosted in the [Dansk Unix User Group](http://www.dkuug.dk/) FTP server. No characters for Latvian or Livonian exist in the fonts.
+## Fonts
+Everson Mono Sami/Latin 9 and Thomas Sami/Latin 9 are fonts supporting the Sámi and Latin 9 character sets. These fonts originally hosted in the [Dansk Unix User Group](http://www.dkuug.dk/) FTP server. No characters for Latvian or Livonian exist in the fonts.
 
 Michael Everson (Evertype) created a Sámi test page on the [Evertype site](http://www.evertype.com/standards/se/sami-teastabaiki.html) which has links to the Windows and macOS keyboards, encodings, locales, comparison between encodings, proposal for an ISO 8859 encoding, user guide (written only for Windows) and test pages designed for Netscape. The pages were last updated in 2001 and 2002.
 

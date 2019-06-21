@@ -84,7 +84,7 @@ This language can be used when written with Kamenicky encoding.
 
 Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to CP852. The keyboard shortcuts play beeps from the PC speakers.
 
-Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change the keyboard into Slovak. When pressing Shift-F11 it shows the setup menu in Slovak where the user can change the keyboard layout and enable diacritics.
+Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change the keyboard into Slovak. When pressing `Shift-F11` it shows the setup menu in Slovak where the user can change the keyboard layout and enable diacritics.
 
 | Glyph        | Codes   | Windows CP1250 | Apple CE | Cork    | Kamenicky | LinguaFont Czech | TITUS Eastern European |
 |--------------|---------|----------------|----------|---------|-----------|------------------|------------------------|
