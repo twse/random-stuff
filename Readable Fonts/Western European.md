@@ -49,7 +49,7 @@ Catalan can be written when used with cp850 or cp859. In that case, the l middle
 | h dot below | Alt-189 |
 | l dot below | Alt-155 |
 
-## Danish, Norwegian - Typed as usual on Danish and Norwegian keyboards
+### Danish, Norwegian - Typed as usual on Danish and Norwegian keyboards
 | Glyph   | Codes   | Windows | macOS   |
 |---------|---------|---------|---------|
 | A ring  | Alt-143 | Alt-197 | Alt-129 |
@@ -293,6 +293,16 @@ The capital sharp s is accessed in my screen fonts for German-Polish Friendship 
 | s caron    | Alt-249 | No key assigned      | Alt-154 | No key assigned |
 | z caron    | Alt-247 | No key assigned      | Alt-158 | No key assigned |
 
+### Notes when writing this language with URW Palladio KUL
+**Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
+
+**Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
+
+
+### Notes when writing this language with URW Palladio KUL
+**Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
+
+**Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
 ### Playing card symbols for use with Palm OS only
 The symbols appear as one color in the built-in fonts used for the operating system.
 
