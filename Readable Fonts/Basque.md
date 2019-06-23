@@ -13,3 +13,6 @@ The font company [MacCampus](http://www.maccampus.de) originally sold a set of c
 | n tilde  | Alt-164 | Alt-164           |
 | r acute  | Alt-255 | Alt-132           |
 | t macron | Alt-139 | Alt-148           |
+
+### Note when writing this language with URW Palladio KUL
+In order to obtain r acute, one should place a free-floating acute ´ (#180) (overstrike this with it). In order to obtain d l t macron one should place a free-floating macron ˉ (#137) on these letters.
