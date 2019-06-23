@@ -1,103 +1,80 @@
-﻿# Information
-This repository contains my random stuff.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This might include former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added using the form at the bottom of this page as mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. Can be used for languages partially supported by System VIO, including Vietnamese, Kazakh, Yoruba, Azerbaijani and Esperanto or those not supported by System VIO, including Armenian and Cherokee. Created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses).
-* **SitePal Forum Drug Words.htm**: Toothpastes, drugs and medicine used to spam the old SitePal forum.
-* **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
+﻿# Index
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language; there is no regard to the `Accept-Language` HTTP request header. Only paragraphs for languages with Latin, Greek and Cyrillic script are included (see the list of languages in the zipped archive itself). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language (either credited or uncredited in-game). **NB!** Swearing is everywhere in the font-specific pages so readers should be 12 or older.
+* **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). "We know there are many Mozillians, past and present, who do not have Mozilla Bugzilla or Pontoon profiles. This includes legacy contributors and translators who have not updated their email address on Mozilla Bugzilla and Pontoon." (**Source:** Monument page in the Mozilla Wiki) The list is sorted by Unicode codepoint.
+* **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* (Not present in this repository) [Uninstall Character Map](https://drive.google.com/uc?id=1n3loPDWQTVfGjk2l4dQSMB1mYBlzjNxl&export=download) (Windows command line script). Character Map is a core component of Windows 2000 and Vista and higher and cannot be removed with **Add/Remove Windows Components** on Windows 2000 or **Optional Features** on Windows Vista and higher. Use this script to get rid of the program (remove the `rem` parts if you're running Windows 2000). CMD files are presented with a virus scan warning before using the direct Google Drive download links.
+* (Not present in this repository) VENDINFO.DIZ files for [Bloček - Y2K versions](https://drive.google.com/uc?id=1E3fWU3Zc5pdCBq1-wE_qLNMJjkHnfDXm&export=download), [Bloček - Y2K10 versions](https://drive.google.com/uc?id=1hned8JUF8jGUZQbN9ypBwwz3_0QuhKbv&export=download) and [Kašmár](https://drive.google.com/uc?id=1nhUnhLejYjWrN_E_ywygXPMyfOz9Jseh&export=download). Created with VENDEDIT v1.30-053 by Rams' Island Software.
 
-## Bulk adding names to Mozilla credits list using command line
-1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Copy names of contributors from Mozilla-related websites such as translation projects.
-3. Save the file as .csv (csv stands for comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech)
-5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want).
-6. Push the master branch via git push. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
-7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
+## Software Data Files and Registry Keys
+* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
+* **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data, e.g. history and cookies).
 
-## Bulk adding names to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
-1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
-2. Copy names of contributors from Mozilla-related websites such as translation projects.
-3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
-4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
+## Fonts
+Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the font files). All fonts have only a regular type style, so don't apply bold or italic attributes, otherwise the OS will synthesise styles, which will bloat PDF files.
+* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs.
+* **Generic Menu**: Adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font.
+* **LTROL Font**: Adapted and converted from the US version of *Lufia: The Ruins of Lore*.
+* (Not present in this repository) [Uninstall MS Shell Dlg](https://drive.google.com/uc?id=1rAvLseIK4UEYbIe3l8ihXW_0t8xrc9eW&export=download) (Windows command line script). Use this script to uninstall Microsoft Sans Serif (linked to MS Shell Dlg) and Tahoma (linked to MS Shell Dlg 2) on Windows 2000 and XP if Windows File Protection is disabled or Windows Vista & above. The script takes ownership of both fonts, modifies the permission list entries and deletes the font files as well. The fonts are copyrighted by Microsoft. CMD files are presented with a virus scan warning before using the direct Google Drive download links.
+* (Not present in this repository) [ReactOS Font Hack](https://drive.google.com/uc?id=14gt8XYCDnO441Wa-h8aqgxUJ8qPrL76P&export=download) (Windows registry entries). Apply this hack only to ReactOS if the Pan-European Supplementary Fonts from Windows 10 and 11 are installed. It modifies the `FontSubstitutes` to change existing or add new string values.
+* **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs. The fonts were created in 2014 as self-loading fonts and most characters were placed in a Unicode TrueType font from [the Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) by VileR derived from the IBM VGA 8×14 and 8×16 PxPlus fonts.
+* (Not present in this repository) [SuperTux fonts in ROT-13](https://drive.google.com/uc?id=1tIPEov7J_wG8tZAN4QgNnqIqzKN6GD4Q&export=download). Only languages with Latin script are affected. Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for converting his old ANSICHRW font.
+* **ZOE TFOM**: Adapted and converted from the US/EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original characters in the game ROM horizontally flips two rows.
 
-## Adding one name to Mozilla credits list using command line
-1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Edit the names.csv file to add your name at the end.
-3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
-4. Push the master branch via `git push`. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
+## Otter Browser User Agents (Not present in this repository)
+Adding these user agents in the files below will show them in the Otter Browser user agent menu. The browser itself is mentioned in [my document on how to change the user agent in web browsers](https://docs.google.com/document/d/1hzVWH-akdXdz8cP12RGRekNvbcgmBWZHKtbWec8MTzE/edit?usp=sharing).
+* [Windows browsers](https://drive.google.com/uc?id=1bEsVLJyEyM5RVKcNjMB3A_ngmB2WInzf&export=download)
+* [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download)
+* [Linux browsers](https://drive.google.com/uc?id=1bSLxqPve3CCqsXb25u9rfI8mE0-yEwYc&export=download)
+* [Mobile platforms](https://drive.google.com/uc?id=1VRSVtj_AxrrD-jaKYhk5xZ1S-g_MauvJ&export=download)
+* [Game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
-## Adding one name to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
-1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
-2. Add your name at the end.
-3. Use the name &lt;email&gt;: "citation" format for the commit message.
-4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or by clicking the link above and the name you added wil appear straight away with the last updated date being changed.
+## Mozilla credits list module info
+* **Description:** Shows a list of all those who contributed to Mozilla. The original list was created in August 1999.
+* **Owners:** Ram Dayal Vaishnav (2017-present – GIT), Mohammad Shahbaz Alam (2019-present – GIT)
+* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN)
+* **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
+* **URL:** See second file entry in the index above.
+* **Note:** Please do not add your name/someone else's names or modify existing entries to the abovementioned file in the source repository without filling in the form or replying to the form's application acceptance message via direct pull requests as they will be closed by the owner.
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Still has spammy entries to this day.
 
-## Pan-European fonts version 6.0
-This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2016). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Haansoft Hangul NEO).
+## Index of protest pages (requires JavaScript)
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages based on his profile page and the protest images for graphical browsers.
+* **Web page not available** (Android) – The link in the paragraph refers to a page in the **@Macarlo, Inc** website (the domain was expired on July 1st, 2013).
+* **Cannot find server** (Internet Explorer 6 – Windows XP Service Pack 3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool if it is installed and present).
+* **This page can't be displayed** (Internet Explorer 11) – The domain in the paragraph refers to a page in the **@Macarlo, Inc** website (the domain was expired on July 1st, 2013). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror(diagoff).htm` opens the network diagnostic tool if it is installed and enables the option from the **Tools** menu).
+* **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is from Splashtop Browser.
+* **Error** (Otter Browser) – The same text is used in the Presto version of Opera.
 
-Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
+The protest pages are as follows:
+* **protest.htm** replaces HTML link tags with LINK in square brackets.
+* **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
+* **protest3.htm** protests against sites that use JavaScript URLs.
+* **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
+* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list - the sites are listed in alphabetical order).
 
-Pan-European Sans comes in two styles - Regular and Bold.
+**NB!** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
 
-This font family covers the following diacritics:
-1. All characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
-2. All diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
-3. All diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
+## Brief description of Sobreclick and German/Polish translation info
+Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. Sobreclick is said to work with Windows XP & above.
 
-## Other vector fonts (ordinary Unicode)
-Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer disables most features if the program is not registered). Use FontCreator 7.0 or higher to create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
-* **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
-* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Regular.
-* **New York Plus** is for Native American languages with Latin script (Navajo, Hän, Tutchone, etc.). This font comes in one style only - Roman.
+The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
 
-## Pixel fonts
-* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: TrueType Unicode font based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
-* **LTROL Font**: TrueType Unicode font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **ZOE TFOM**: TrueType Unicode font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
+## Brief description of Sobreloader and German/Polish translation info
+Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above.
 
-## FontCreator Data Files and Registry Keys (Markdown file)
-This file includes data files and registry keys for all FontCreator versions.
+The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator.
 
-## Protest pages
-These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages.
-
-* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site (using http for insecure websites) however the company closed its business and the domain expired on July 2013.
-* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 8 and 9 - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. The user has to run these versions at the beginning of this entry for this to work.
-* **DNS error** (Wii Internet Channel) - The links for the list entries use https for the Opera website.
-* **Mozilla credits page** (translated to French) - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
-
-## Translations of Knotter into multiple languages
-The list of generated translations can be found in [translations.pri](https://gitlab.com/mattia.basaglia/Knotter/blob/master/translations.pri) in line 18. The qm files are not included.
-
-* Danish (da)
-* Esperanto (eo)
-* Finnish (fi)
-* Norwegian Bokmål (nb_NO)
-* Norwegian Nynorsk (nn_NO)
-* Swedish (sv)
-
-## Translations of EasyPaint into multiple languages
-All translations are in ts format meaning that it can be edited with Qt Linguist. The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) in line 109.
-
-* Danish (da_DK)
-* Dutch (nl_NL)
-* Finnish (fi_FI)
-* German (de_DE)
-* Hungarian (hu_HU)
-* Italian (it_IT)
-* Korean (ko_KR)
-* Norwegian Bokmål (nb_NO)
-* Norwegian Nynorsk (nn_NO)
-* Polish (pl_PL)
-* Portuguese, as spoken in Brazil (pt_BR)
-* Romanian (ro_RO) - Contributed by Nicolae Oprea
-* Spanish, as spoken in Spain (es_ES)
-* Swedish, as spoken in Sweden (sv_SE)
-* Turkish (tr_TR)
+## Translations of EasyPaint in multiple languages
+All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
+* Danish (`da_DK`)
+* Esperanto (`eo`)
+* Finnish (`fi_FI`)
+* German (`de_DE`) – Contributed by freddii. **Note:** Unmerged pull request created
+* Hungarian (`hu_HU`)
+* Korean (`ko_KR`)
+* Polish (`pl_PL`) – **Note:** Unmerged pull request created
+* Portuguese, as spoken in Brazil (`pt_BR`)
+* Romanian (`ro_RO`) – Contributed by Nicolae Oprea
+* Spanish (`es_ES`)
+* Swedish (`sv_SE`)
