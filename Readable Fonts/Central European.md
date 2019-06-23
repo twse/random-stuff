@@ -215,7 +215,7 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
 Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
 
-One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by using ṣ (#200) and ṭ (#199) or overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
+One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
 | Glyph        | Codes   | Windows CP1250 | Apple Romanian | Cork    | ILPRumanianB100      | TITUS Eastern European |
 |--------------|---------|----------------|----------------|---------|----------------------|------------------------|
@@ -224,7 +224,7 @@ One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (
 | I circumflex | Alt-215 | Alt-206        | Alt-235        | Alt-206 | vertical line        | Alt-183                |
 | S cedilla    | Alt-184 | Alt-170        | Alt-175        | Alt-147 | left curly bracket   | Alt-202                |
 | T cedilla    | Alt-221 | Alt-222        | Alt-222        | Alt-149 | right curly bracket  | Alt-204                |
-| a circumflex | Alt-131 | Alt-226        | Alt-137        | Alt-226 | grave accent         | Alt-131                |
+| a circumflex | Alt-131 | Alt-226        | Alt-137        | Alt-226 | grave accent         | Alt-131                |
 | a breve      | Alt-199 | Alt-227        | Alt-190        | Alt-160 | q                    | Alt-215                |
 | i circumflex | Alt-140 | Alt-238        | Alt-148        | Alt-238 | backslash            | Alt-140                |
 | s cedilla    | Alt-173 | Alt-186        | Alt-191        | Alt-179 | left square bracket  | Alt-245                |
