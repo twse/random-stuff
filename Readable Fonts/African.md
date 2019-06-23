@@ -92,6 +92,9 @@ This language can be written when used with Celtic or Gaelic code pages.
 | u grave           | Alt-151 | Alt-151 | No key assigned |
 | u acute           | Alt-163 | Alt-163 | No key assigned |
 
+#### Notes when writing these languages with URW Palladio KUL
+Use the underdot ̣ (#170) for è é ò ó.
+
 ### Fulfulde/Pular
 | Glyph  | CP30025 | fc      |
 |--------|---------|---------|
