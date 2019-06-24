@@ -20,13 +20,13 @@ This repository contains my random stuff.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using command line
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Edit the names.csv file to add your name at the end.
 3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
-4. Push the master branch via `git push`. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
+4. Push the master branch via `git push`. (Make sure that your GitHub account has both commit and write access for the **mozilla/community-data** repository.)
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
