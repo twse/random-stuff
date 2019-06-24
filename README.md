@@ -12,7 +12,7 @@ This repository contains my random stuff.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech)
 5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want).
-6. Push the master branch via git push. (Make sure that your GitHub account has write access for the **mozilla/community-data** repository.)
+6. Push the master branch via `git push`. (Make sure that your GitHub account has both commit and write access for the **mozilla/community-data** repository.)
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
