@@ -3,7 +3,7 @@ ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icel
 
 SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard. The docs are in Swedish.
 
-The WST fonts discontinued with Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
+The WST fonts included up until Windows 7 are designed for use with terminal programs. The encoding is MS Symbol but the fonts work fine with word wrapping. The range 128-255 includes a set of Braille characters.
 
 ## Diacritical characters
 
@@ -298,11 +298,6 @@ The capital sharp s is accessed in my screen fonts for German-Polish Friendship 
 
 **Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
 
-
-### Notes when writing this language with URW Palladio KUL
-**Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
-
-**Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
 ### Playing card symbols for use with Palm OS only
 The symbols appear as one color in the built-in fonts used for the operating system.
 
