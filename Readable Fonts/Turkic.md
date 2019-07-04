@@ -1,5 +1,5 @@
 ## Fonts and keyboards
-Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Latin scripts.
+Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Latin scripts.Download the fonts and keyboards for Windows XP & above from [here](https://www.skytower.org/~ernstjtremel/OpenTypeFont_KurdishAllAlphabets.htm).
 
 Lexa (1998) and LinguaFont (1998), by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
 

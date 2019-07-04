@@ -59,7 +59,7 @@ Special thanks goes to the following people:
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Conrad Taylor, for his book used to design fonts for African languages. This book duplicated Kikuyu in the language list.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
-* Ernst Tremel, for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
+* [Ernst Tremel](https://www.skytower.org/~ernstjtremel/index.htm), for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
 * Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 * Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
