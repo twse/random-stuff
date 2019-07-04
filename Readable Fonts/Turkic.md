@@ -13,22 +13,22 @@ Although not part of my readable font series, this language is usually written i
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
-| Glyph       | Codes   | Balkan  | Times of the West II | CP60258   | TITUS           |
-|-------------|---------|---------|----------------------|-----------|-----------------|
-| C cedilla   | Alt-128 | Alt-128 | Alt-199              | Alt-253   | Alt-128         |
-| Schwa       | Alt-232 | Alt-232 | Alt-144              | Alt-246   | No key assigned |
-| G breve     | Alt-166 | Alt-155 | Alt-208              | Alt-248   | Alt-180         |
-| I dot above | Alt-152 | Alt-152 | Alt-221              | Capital I | Alt-184         |
-| O dieresis  | Alt-153 | Alt-153 | Alt-214              | Alt-240   | Alt-153         |
-| S cedilla   | Alt-158 | Alt-242 | Alt-222              | Alt-251   | Alt-202         |
-| U dieresis  | Alt-154 | Alt-154 | Alt-220              | Alt-244   | Alt-154         |
-| c cedilla   | Alt-135 | Alt-135 | Alt-231              | Alt-254   | Alt-135         |
-| schwa       | Alt-246 | Alt-210 | Alt-129              | Alt-247   | Alt-226         |
-| g breve     | Alt-167 | Alt-157 | Alt-248              | Alt-249   | Alt-227         |
-| i dotless   | Alt-141 | Alt-141 | Alt-253              | Alt-243   | Alt-229         |
-| o dieresis  | Alt-148 | Alt-148 | Alt-246              | Alt-241   | Alt-148         |
-| s cedilla   | Alt-159 | Alt-243 | Alt-254              | Alt-252   | Alt-245         |
-| u dieresis  | Alt-129 | Alt-129 | Alt-252              | Alt-245   | Alt-129         |
+| Glyph       | Codes   | Balkan  | CP60258  | TITUS           |
+|-------------|---------|---------|----------|-----------------|
+| C cedilla   | Alt-128 | Alt-128 | Alt-253  | Alt-128         |
+| Schwa       | Alt-232 | Alt-232 | Alt-246  | No key assigned |
+| G breve     | Alt-166 | Alt-155 | Alt-248  | Alt-180         |
+| I dot above | Alt-152 | Alt-152 | I        | Alt-184         |
+| O dieresis  | Alt-153 | Alt-153 | Alt-240  | Alt-153         |
+| S cedilla   | Alt-158 | Alt-242 | Alt-251  | Alt-202         |
+| U dieresis  | Alt-154 | Alt-154 | Alt-244  | Alt-154         |
+| c cedilla   | Alt-135 | Alt-135 | Alt-254  | Alt-135         |
+| schwa       | Alt-246 | Alt-210 | Alt-247  | Alt-226         |
+| g breve     | Alt-167 | Alt-157 | Alt-249  | Alt-227         |
+| i dotless   | Alt-141 | Alt-141 | Alt-243  | Alt-229         |
+| o dieresis  | Alt-148 | Alt-148 | Alt-241  | Alt-148         |
+| s cedilla   | Alt-159 | Alt-243 | Alt-252  | Alt-245         |
+| u dieresis  | Alt-129 | Alt-129 | Alt-245  | Alt-129         |
 
 ### Azerbaijani (Cyrillic)
 | Glyph               | Codes   |
