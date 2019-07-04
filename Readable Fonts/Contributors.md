@@ -35,7 +35,6 @@ Special thanks goes to the following people:
 * Jan Klimowicz for inventing the Mazovia encoding.
 * Jörg Knappen, for his TeX African Latin encoding.
 * Donald E. Knuth, for writing TeX and his own encodings.
-* John E. Koontz, for creating the Siouanist fonts.
 * Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
 * Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
 * Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.

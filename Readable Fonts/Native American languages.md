@@ -1,147 +1,112 @@
 ## Fonts
-John Koontz created a set of Siouan fonts, ca. 2001. [Home page for Siouan fonts](http://spot.colorado.edu/~koontz/fonts/ssfonts.htm). Includes Doulos and Sophia fonts on the main download.
+John Koontz created a set of Siouan fonts, ca. 2001.
 
 LaserNavajo (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Navajo language. The fonts are based on Latin-1 encoding. By buying the Windows version you have dll files for keyboards.
 
 ## Codes
 
 ### Siouan
-| Glyph            | Codes           | LaserNavajo     | Siouan          |
-|------------------|-----------------|-----------------|-----------------|
-| A grave          | Alt-183         | No key assigned | No key assigned |
-| A acute          | Alt-181         | Alt-193         | Alt-181         |
-| A circumflex     | Alt-182         | No key assigned | No key assigned |
-| A macron         | Alt-199         | No key assigned | No key assigned |
-| A ogonek         | Alt-142         | Alt-192         | Alt-183         |
-| A ogonek grave   | Alt-251         | No key assigned | No key assigned |
-| A ogonek acute   | Alt-143         | Alt-194         | Alt-182         |
-| AE               | Alt-146         | Alt-198         | No key assigned |
-| C caron          | No key assigned | No key assigned | Alt-142         |
-| C cedilla        | Alt-128         | Alt-199         | Alt-221         |
-| E grave          | Alt-212         | No key assigned | No key assigned |
-| E acute          | Alt-144         | Alt-201         | Alt-144         |
-| E circumflex     | Alt-210         | No key assigned | No key assigned |
-| E dieresis       | Alt-211         | Alt-203         | No key assigned |
-| E macron         | Alt-237         | Alt-237         | No key assigned |
-| E ogonek         | Alt-159         | Alt-200         | Alt-212         |
-| E ogonek grave   | Alt-242         | No key assigned | No key assigned |
-| E ogonek acute   | Alt-190         | Alt-202         | Alt-210         |
-| Schwa            | No key assigned | No key assigned | Alt-172         |
-| G caron          | No key assigned | No key assigned | Alt-216         |
-| G line below     | No key assigned | Alt-216         | Alt-184         |
-| Gamma            | No key assigned | No key assigned | Alt-199         |
-| H caron          | No key assigned | No key assigned | Alt-153         |
-| H dot below      | No key assigned | No key assigned | Alt-229         |
-| I grave          | Alt-222         | No key assigned | No key assigned |
-| I acute          | Alt-214         | Alt-205         | Alt-214         |
-| I circumflex     | Alt-215         | No key assigned | No key assigned |
-| I dieresis       | Alt-216         | Alt-207         | No key assigned |
-| I macron         | Alt-246         | No key assigned | No key assigned |
-| I ogonek         | Alt-167         | Alt-204         | Alt-222         |
-| I ogonek grave   | Alt-238         | No key assigned | No key assigned |
-| I ogonek acute   | Alt-238         | Alt-206         | Alt-215         |
-| J caron          | No key assigned | No key assigned | Alt-237         |
-| L slash          | Alt-209         | Alt-195         | Alt-209         |
-| N acute          | No key assigned | Alt-213         | Alt-158         |
-| N caron          | No key assigned | No key assigned | Alt-211         |
-| N tilde          | Alt-165         | Alt-209         | Alt-165         |
-| N line below     | No key assigned | Alt-197         | Alt-189         |
-| O grave          | Alt-227         | No key assigned | No key assigned |
-| O acute          | Alt-224         | Alt-211         | Alt-224         |
-| O circumflex     | Alt-226         | No key assigned | No key assigned |
-| O macron         | Alt-229         | No key assigned | No key assigned |
-| O ogonek         | Alt-153         | Alt-210         | Alt-227         |
-| O ogonek grave   | Alt-253         | No key assigned | No key assigned |
-| O ogonek acute   | Alt-157         | Alt-212         | Alt-226         |
-| OE               | Alt-172         | Alt-140         | No key assigned |
-| S caron          | No key assigned | No key assigned | Alt-128         |
-| Theta            | No key assigned | No key assigned | Alt-232         |
-| U grave          | Alt-235         | No key assigned | No key assigned |
-| U acute          | Alt-233         | Alt-218         | Alt-233         |
-| U circumflex     | Alt-234         | No key assigned | No key assigned |
-| U dieresis       | Alt-154         | Alt-220         | Alt-154         |
-| U dieresis acute | No key assigned | No key assigned | Alt-143         |
-| U ogonek         | Alt-169         | Alt-217         | Alt-235         |
-| U ogonek grave   | Alt-239         | No key assigned | No key assigned |
-| U ogonek acute   | Alt-173         | Alt-219         | Alt-234         |
-| Y dieresis       | Alt-243         | Alt-159         | No key assigned |
-| Z caron          | No key assigned | No key assigned | Alt-239         |
-| Glottal stop     | Alt-232         | No key assigned | Alt-157         |
-| a grave          | Alt-133         | No key assigned | No key assigned |
-| a acute          | Alt-160         | Alt-225         | Alt-160         |
-| a circumflex     | Alt-131         | No key assigned | No key assigned |
-| a macron         | Alt-198         | No key assigned | No key assigned |
-| a ogonek         | Alt-132         | Alt-224         | Alt-133         |
-| a ogonek grave   | Alt-250         | No key assigned | No key assigned |
-| a ogonek acute   | Alt-134         | Alt-226         | Alt-131         |
-| ae               | Alt-145         | Alt-230         | No key assigned |
-| c caron          | No key assigned | No key assigned | Alt-132         |
-| c cedilla        | Alt-135         | Alt-231         | Alt-149         |
-| e grave          | Alt-138         | No key assigned | No key assigned |
-| e acute          | Alt-130         | Alt-233         | Alt-130         |
-| e circumflex     | Alt-136         | No key assigned | No key assigned |
-| e dieresis       | Alt-137         | Alt-235         | No key assigned |
-| e macron         | Alt-236         | No key assigned | No key assigned |
-| e ogonek         | Alt-158         | Alt-232         | Alt-138         |
-| e ogonek grave   | Alt-241         | No key assigned | No key assigned |
-| e ogonek acute   | Alt-189         | Alt-234         | Alt-136         |
-| schwa            | No key assigned | No key assigned | Alt-171         |
-| g caron          | No key assigned | No key assigned | Alt-139         |
-| g line below     | No key assigned | Alt-248         | Alt-169         |
-| gamma            | No key assigned | No key assigned | Alt-198         |
-| h caron          | No key assigned | No key assigned | Alt-148         |
-| h dot below      | No key assigned | No key assigned | Alt-228         |
-| i grave          | Alt-141         | No key assigned | No key assigned |
-| i acute          | Alt-161         | Alt-237         | Alt-161         |
-| i circumflex     | Alt-140         | No key assigned | No key assigned |
-| i dieresis       | Alt-139         | Alt-239         | No key assigned |
-| i macron         | Alt-244         | No key assigned | No key assigned |
-| i ogonek         | Alt-166         | Alt-236         | Alt-141         |
-| i ogonek grave   | Alt-225         | No key assigned | No key assigned |
-| i ogonek acute   | Alt-249         | Alt-238         | Alt-140         |
-| j caron          | No key assigned | No key assigned | Alt-236         |
-| l slash          | Alt-208         | Alt-227         | Alt-208         |
-| n acute          | No key assigned | Alt-245         | Alt-246         |
-| n caron          | No key assigned | No key assigned | Alt-152         |
-| n tilde          | Alt-164         | Alt-241         | Alt-164         |
-| n line below     | No key assigned | Alt-229         | Alt-190         |
-| eng              | No key assigned | No key assigned | Alt-225         |
-| o grave          | Alt-149         | No key assigned | No key assigned |
-| o acute          | Alt-162         | Alt-243         | Alt-162         |
-| o circumflex     | Alt-147         | Alt-244         | No key assigned |
-| o macron         | Alt-228         | No key assigned | No key assigned |
-| o ogonek         | Alt-148         | Alt-242         | Alt-149         |
-| o ogonek grave   | Alt-252         | No key assigned | No key assigned |
-| o ogonek acute   | Alt-155         | Alt-244         | Alt-147         |
-| oe               | Alt-171         | Alt-156         | No key assigned |
-| s caron          | No key assigned | No key assigned | Alt-135         |
-| theta            | No key assigned | No key assigned | Alt-231         |
-| u grave          | Alt-151         | No key assigned | No key assigned |
-| u acute          | Alt-163         | Alt-250         | Alt-163         |
-| u circumflex     | Alt-150         | No key assigned | No key assigned |
-| u dieresis       | Alt-129         | Alt-252         | Alt-129         |
-| u dieresis acute | No key assigned | No key assigned | Alt-134         |
-| u ogonek         | Alt-168         | Alt-249         | Alt-151         |
-| u ogonek grave   | Alt-247         | No key assigned | No key assigned |
-| u ogonek acute   | Alt-184         | Alt-251         | Alt-150         |
-| y dieresis       | Alt-152         | Alt-255         | No key assigned |
-| z caron          | No key assigned | No key assigned | Alt-247         |
-| glottal stop     | Alt-231         | No key assigned | No key assigned |
-
-### Printer's Specials (Siouan)
-| Glyph          | Codes   |
-|----------------|---------|
-| currency       | Alt-207 |
-| sterling       | Alt-156 |
-| euro           | Alt-213 |
-| section        | Alt-245 |
-| guillemotleft  | Alt-174 |
-| guillemotright | Alt-175 |
-| logical not    | Alt-170 |
-| mu             | Alt-230 |
-| degree         | Alt-248 |
-| soft hyphen    | Alt-240 |
-
+| Glyph            | Codes           | LaserNavajo     |
+|------------------|-----------------|-----------------|
+| A grave          | Alt-183         | No key assigned |
+| A acute          | Alt-181         | Alt-193         |
+| A circumflex     | Alt-182         | No key assigned |
+| A macron         | Alt-199         | No key assigned |
+| A ogonek         | Alt-142         | Alt-192         |
+| A ogonek grave   | Alt-251         | No key assigned |
+| A ogonek acute   | Alt-143         | Alt-194         |
+| AE               | Alt-146         | Alt-198         |
+| C caron          | No key assigned | No key assigned |
+| C cedilla        | Alt-128         | Alt-199         |
+| E grave          | Alt-212         | No key assigned |
+| E acute          | Alt-144         | Alt-201         |
+| E circumflex     | Alt-210         | No key assigned |
+| E dieresis       | Alt-211         | Alt-203         |
+| E macron         | Alt-237         | Alt-237         |
+| E ogonek         | Alt-159         | Alt-200         |
+| E ogonek grave   | Alt-242         | No key assigned |
+| E ogonek acute   | Alt-190         | Alt-202         |
+| G line below     | No key assigned | Alt-216         |
+| I grave          | Alt-222         | No key assigned |
+| I acute          | Alt-214         | Alt-205         |
+| I circumflex     | Alt-215         | No key assigned |
+| I dieresis       | Alt-216         | Alt-207         |
+| I macron         | Alt-246         | No key assigned |
+| I ogonek         | Alt-167         | Alt-204         |
+| I ogonek grave   | Alt-238         | No key assigned |
+| I ogonek acute   | Alt-238         | Alt-206         |
+| L slash          | Alt-209         | Alt-195         |
+| N acute          | No key assigned | Alt-213         |
+| N tilde          | Alt-165         | Alt-209         |
+| N line below     | No key assigned | Alt-197         |
+| O grave          | Alt-227         | No key assigned |
+| O acute          | Alt-224         | Alt-211         |
+| O circumflex     | Alt-226         | No key assigned |
+| O macron         | Alt-229         | No key assigned |
+| O ogonek         | Alt-153         | Alt-210         |
+| O ogonek grave   | Alt-253         | No key assigned |
+| O ogonek acute   | Alt-157         | Alt-212         |
+| OE               | Alt-172         | Alt-140         |
+| U grave          | Alt-235         | No key assigned |
+| U acute          | Alt-233         | Alt-218         |
+| U circumflex     | Alt-234         | No key assigned |
+| U dieresis       | Alt-154         | Alt-220         |
+| U dieresis acute | No key assigned | No key assigned |
+| U ogonek         | Alt-169         | Alt-217         |
+| U ogonek grave   | Alt-239         | No key assigned |
+| U ogonek acute   | Alt-173         | Alt-219         |
+| Y dieresis       | Alt-243         | Alt-159         |
+| Glottal stop     | Alt-232         | No key assigned |
+| a grave          | Alt-133         | No key assigned |
+| a acute          | Alt-160         | Alt-225         |
+| a circumflex     | Alt-131         | No key assigned |
+| a macron         | Alt-198         | No key assigned |
+| a ogonek         | Alt-132         | Alt-224         |
+| a ogonek grave   | Alt-250         | No key assigned |
+| a ogonek acute   | Alt-134         | Alt-226         |
+| ae               | Alt-145         | Alt-230         |
+| c caron          | No key assigned | No key assigned |
+| c cedilla        | Alt-135         | Alt-231         |
+| e grave          | Alt-138         | No key assigned |
+| e acute          | Alt-130         | Alt-233         |
+| e circumflex     | Alt-136         | No key assigned |
+| e dieresis       | Alt-137         | Alt-235         |
+| e macron         | Alt-236         | No key assigned |
+| e ogonek         | Alt-158         | Alt-232         |
+| e ogonek grave   | Alt-241         | No key assigned |
+| e ogonek acute   | Alt-189         | Alt-234         |
+| g line below     | No key assigned | Alt-248         |
+| i grave          | Alt-141         | No key assigned |
+| i acute          | Alt-161         | Alt-237         |
+| i circumflex     | Alt-140         | No key assigned |
+| i dieresis       | Alt-139         | Alt-239         |
+| i macron         | Alt-244         | No key assigned |
+| i ogonek         | Alt-166         | Alt-236         |
+| i ogonek grave   | Alt-225         | No key assigned |
+| i ogonek acute   | Alt-249         | Alt-238         |
+| l slash          | Alt-208         | Alt-227         |
+| n acute          | No key assigned | Alt-245         |
+| n tilde          | Alt-164         | Alt-241         |
+| n line below     | No key assigned | Alt-229         |
+| o grave          | Alt-149         | No key assigned |
+| o acute          | Alt-162         | Alt-243         |
+| o circumflex     | Alt-147         | Alt-244         |
+| o macron         | Alt-228         | No key assigned |
+| o ogonek         | Alt-148         | Alt-242         |
+| o ogonek grave   | Alt-252         | No key assigned |
+| o ogonek acute   | Alt-155         | Alt-244         |
+| oe               | Alt-171         | Alt-156         |
+| u grave          | Alt-151         | No key assigned |
+| u acute          | Alt-163         | Alt-250         |
+| u circumflex     | Alt-150         | No key assigned |
+| u dieresis       | Alt-129         | Alt-252         |
+| u dieresis acute | No key assigned | No key assigned |
+| u ogonek         | Alt-168         | Alt-249         |
+| u ogonek grave   | Alt-247         | No key assigned |
+| u ogonek acute   | Alt-184         | Alt-251         |
+| y dieresis       | Alt-152         | Alt-255         |
+| glottal stop     | Alt-231         | No key assigned |
+
 ### Washington Puget Salish
 | Glyph                     | Codes   |
 |---------------------------|---------|
