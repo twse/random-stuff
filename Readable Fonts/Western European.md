@@ -10,36 +10,36 @@ The WST fonts included up until Windows 7 are designed for use with terminal pro
 ### Aragonese, Catalan, Galician, Spanish
 Catalan can be written when used with cp850 or cp859. In that case, the l middle dot will not be available.
 
-| Glyph                     | Western 1       | Western 2 | WST_Span             | URW Palladio KUL | Windows         | macOS           | Cork            | ABICOMP         |
-|---------------------------|-----------------|-----------|----------------------|------------------|-----------------|-----------------|-----------------|-----------------|
-| inverted exclamation mark | No key assigned | Alt-173   | at                   | No key assigned  | Alt-161         | Alt-193         | Alt-189         | Alt-192         |
-| inverted question mark    | No key assigned | Alt-168   | grave accent         | No key assigned  | Alt-191         | Alt-192         | Alt-190         | Alt-222         |
-| feminine ordinal          | No key assigned | Alt-166   | No key assigned      | No key assigned  | Alt-170         | Alt-187         | No key assigned | Alt-220         |
-| masculine ordinal         | No key assigned | Alt-167   | No key assigned      | No key assigned  | Alt-186         | Alt-188         | No key assigned | Alt-221         |
-| A grave                   | Alt-183         | Alt-183   | No key assigned      | No key assigned  | Alt-192         | Alt-203         | Alt-192         | Alt-161         |
-| A acute                   | Alt-181         | Alt-181   | No key assigned      | No key assigned  | Alt-193         | Alt-231         | Alt-193         | Alt-166         |
-| C cedilla                 | Alt-128         | Alt-128   | No key assigned      | No key assigned  | Alt-199         | Alt-130         | Alt-199         | Alt-166         |
-| E grave                   | Alt-190         | Alt-212   | No key assigned      | No key assigned  | Alt-200         | Alt-233         | Alt-200         | Alt-167         |
-| E acute                   | Alt-144         | Alt-144   | No key assigned      | No key assigned  | Alt-201         | Alt-131         | Alt-201         | Alt-168         |
-| I acute                   | Alt-214         | Alt-214   | No key assigned      | No key assigned  | Alt-205         | Alt-234         | Alt-205         | Alt-172         |
-| L middle dot              | Alt-252         | Alt-242   | No key assigned      | No key assigned  | No key assigned | No key assigned | No key assigned | No key assigned |
-| N tilde                   | No key assigned | Alt-165   | No key assigned      | No key assigned  | Alt-209         | Alt-132         | Alt-209         | Alt-175         |
-| O grave                   | Alt-227         | Alt-227   | No key assigned      | No key assigned  | Alt-210         | Alt-241         | Alt-210         | Alt-176         |
-| O acute                   | Alt-224         | Alt-244   | No key assigned      | Alt-211          | Alt-211         | Alt-238         | Alt-211         | Alt-177         |
-| U acute                   | Alt-233         | Alt-233   | No key assigned      | No key assigned  | Alt-218         | Alt-242         | Alt-218         | Alt-183         |
-| U dieresis                | Alt-154         | Alt-154   | No key assigned      | No key assigned  | Alt-220         | Alt-134         | Alt-220         | Alt-185         |
-| a grave                   | Alt-133         | Alt-133   | tilde                | Alt-224          | Alt-224         | Alt-136         | Alt-224         | Alt-193         |
-| a acute                   | Alt-160         | Alt-160   | left square bracket  | Alt-225          | Alt-225         | Alt-135         | Alt-225         | Alt-194         |
-| c cedilla                 | Alt-135         | Alt-135   | number sign          | Alt-215          | Alt-231         | Alt-141         | Alt-231         | Alt-198         |
-| e grave                   | Alt-189         | Alt-138   | right curly bracket  | Alt-232          | Alt-232         | Alt-143         | Alt-232         | Alt-199         |
-| e acute                   | Alt-130         | Alt-130   | backslash            | Alt-233          | Alt-233         | Alt-142         | Alt-233         | Alt-200         |
-| i acute                   | Alt-161         | Alt-161   | right square bracket | Alt-237          | Alt-237         | Alt-146         | Alt-237         | Alt-204         |
-| l middle dot              | Alt-251         | Alt-246   | No key assigned      | No key assigned  | No key assigned | No key assigned | No key assigned | No key assigned |
-| n tilde                   | No key assigned | Alt-164   | vertical line        | Alt-240          | Alt-241         | Alt-150         | Alt-241         | Alt-207         |
-| o grave                   | Alt-149         | Alt-149   | No key assigned      | Alt-242          | Alt-242         | Alt-152         | Alt-242         | Alt-208         |
-| o acute                   | Alt-162         | Alt-162   | circumflex accent    | Alt-243          | Alt-243         | Alt-151         | Alt-243         | Alt-209         |
-| u acute                   | Alt-163         | Alt-163   | underscore           | Alt-250          | Alt-250         | Alt-156         | Alt-250         | Alt-215         |
-| u dieresis                | Alt-129         | Alt-129   | left curly bracket   | Alt-252          | Alt-252         | Alt-159         | Alt-252         | Alt-217         |
+| Glyph                     | WST_Span             | URW Palladio KUL | Windows         | macOS           | Cork            | ABICOMP         |
+|---------------------------|----------------------|------------------|-----------------|-----------------|-----------------|-----------------|
+| inverted exclamation mark | at                   | No key assigned  | Alt-161         | Alt-193         | Alt-189         | Alt-192         |
+| inverted question mark    | grave accent         | No key assigned  | Alt-191         | Alt-192         | Alt-190         | Alt-222         |
+| feminine ordinal          | No key assigned      | No key assigned  | Alt-170         | Alt-187         | No key assigned | Alt-220         |
+| masculine ordinal         | No key assigned      | No key assigned  | Alt-186         | Alt-188         | No key assigned | Alt-221         |
+| A grave                   | No key assigned      | No key assigned  | Alt-192         | Alt-203         | Alt-192         | Alt-161         |
+| A acute                   | No key assigned      | No key assigned  | Alt-193         | Alt-231         | Alt-193         | Alt-166         |
+| C cedilla                 | No key assigned      | No key assigned  | Alt-199         | Alt-130         | Alt-199         | Alt-166         |
+| E grave                   | No key assigned      | No key assigned  | Alt-200         | Alt-233         | Alt-200         | Alt-167         |
+| E acute                   | No key assigned      | No key assigned  | Alt-201         | Alt-131         | Alt-201         | Alt-168         |
+| I acute                   | No key assigned      | No key assigned  | Alt-205         | Alt-234         | Alt-205         | Alt-172         |
+| L middle dot              | No key assigned      | No key assigned  | No key assigned | No key assigned | No key assigned | No key assigned |
+| N tilde                   | No key assigned      | No key assigned  | Alt-209         | Alt-132         | Alt-209         | Alt-175         |
+| O grave                   | No key assigned      | No key assigned  | Alt-210         | Alt-241         | Alt-210         | Alt-176         |
+| O acute                   | No key assigned      | Alt-211          | Alt-211         | Alt-238         | Alt-211         | Alt-177         |
+| U acute                   | No key assigned      | No key assigned  | Alt-218         | Alt-242         | Alt-218         | Alt-183         |
+| U dieresis                | No key assigned      | No key assigned  | Alt-220         | Alt-134         | Alt-220         | Alt-185         |
+| a grave                   | tilde                | Alt-224          | Alt-224         | Alt-136         | Alt-224         | Alt-193         |
+| a acute                   | left square bracket  | Alt-225          | Alt-225         | Alt-135         | Alt-225         | Alt-194         |
+| c cedilla                 | number sign          | Alt-215          | Alt-231         | Alt-141         | Alt-231         | Alt-198         |
+| e grave                   | right curly bracket  | Alt-232          | Alt-232         | Alt-143         | Alt-232         | Alt-199         |
+| e acute                   | backslash            | Alt-233          | Alt-233         | Alt-142         | Alt-233         | Alt-200         |
+| i acute                   | right square bracket | Alt-237          | Alt-237         | Alt-146         | Alt-237         | Alt-204         |
+| l middle dot              | No key assigned      | No key assigned  | No key assigned | No key assigned | No key assigned | No key assigned |
+| n tilde                   | vertical line        | Alt-240          | Alt-241         | Alt-150         | Alt-241         | Alt-207         |
+| o grave                   | No key assigned      | Alt-242          | Alt-242         | Alt-152         | Alt-242         | Alt-208         |
+| o acute                   | circumflex accent    | Alt-243          | Alt-243         | Alt-151         | Alt-243         | Alt-209         |
+| u acute                   | underscore           | Alt-250          | Alt-250         | Alt-156         | Alt-250         | Alt-215         |
+| u dieresis                | left curly bracket   | Alt-252          | Alt-252         | Alt-159         | Alt-252         | Alt-217         |
 
 ### Asturian
 | Glyph       | Iberian |
@@ -48,16 +48,6 @@ Catalan can be written when used with cp850 or cp859. In that case, the l middle
 | L dot below | Alt-157 |
 | h dot below | Alt-189 |
 | l dot below | Alt-155 |
-
-### Danish, Norwegian - Typed as usual on Danish and Norwegian keyboards
-| Glyph   | Codes   | Windows | macOS   |
-|---------|---------|---------|---------|
-| A ring  | Alt-143 | Alt-197 | Alt-129 |
-| AE      | Alt-146 | Alt-198 | Alt-174 |
-| O slash | Alt-157 | Alt-216 | Alt-175 |
-| a ring  | Alt-134 | Alt-229 | Alt-140 |
-| ae      | Alt-145 | Alt-230 | Alt-190 |
-| o slash | Alt-155 | Alt-248 | Alt-191 |
 
 ### Dutch - Typed as usual on Dutch keyboards
 Dutch can be written when used with cp850 or cp859. In that case, the ij ligature will not be available.
@@ -186,86 +176,58 @@ The capital sharp s is accessed in my screen fonts for German-Polish Friendship 
 | o grave | Alt-149 | Alt-149 | Alt-242          | Alt-242 | Alt-152 | vertical line       | Alt-208 | Alt-242 |
 | u grave | Alt-151 | Alt-151 | Alt-249          | Alt-249 | Alt-157 | grave accent        | Alt-214 | Alt-249 |
 
-### Greenlandic
-| Glyph        | Western 1 | ISO Baltic      | CP30004         |
-|--------------|-----------|-----------------|-----------------|
-| A acute      | Alt-181   | Alt-193         | Alt-181         |
-| A circumflex | Alt-182   | Alt-194         | Alt-182         |
-| A tilde      | Alt-199   | Alt-195         | Alt-199         |
-| A ring       | Alt-143   | Alt-197         | Alt-143         |
-| AE           | Alt-146   | Alt-198         | Alt-146         |
-| E acute      | Alt-144   | Alt-201         | Alt-144         |
-| E circumflex | Alt-210   | No key assigned | Alt-210         |
-| I acute      | Alt-214   | Alt-205         | Alt-214         |
-| I circumflex | Alt-215   | Alt-206         | Alt-215         |
-| I tilde      | Alt-222   | Alt-165         | Alt-222         |
-| Kra          | Alt-166   | No key assigned | No key assigned |
-| O circumflex | Alt-226   | Alt-212         | Alt-226         |
-| O stroke     | Alt-157   | Alt-216         | Alt-157         |
-| U acute      | Alt-233   | Alt-218         | Alt-233         |
-| U circumflex | Alt-234   | Alt-219         | Alt-234         |
-| U tilde      | Alt-235   | Alt-221         | Alt-235         |
-| U dieresis   | Alt-154   | Alt-220         | Alt-154         |
-| a acute      | Alt-160   | Alt-225         | Alt-160         |
-| a circumflex | Alt-131   | Alt-226         | Alt-131         |
-| a tilde      | Alt-198   | Alt-227         | Alt-198         |
-| a ring       | Alt-134   | Alt-229         | Alt-134         |
-| ae           | Alt-145   | Alt-230         | Alt-145         |
-| e acute      | Alt-130   | Alt-233         | Alt-130         |
-| e circumflex | Alt-136   | No key assigned | Alt-136         |
-| i acute      | Alt-161   | Alt-237         | Alt-161         |
-| i circumflex | Alt-140   | Alt-238         | Alt-140         |
-| i tilde      | Alt-141   | Alt-181         | Alt-141         |
-| kra          | Alt-167   | Alt-162         | Alt-242         |
-| o circumflex | Alt-147   | Alt-244         | Alt-147         |
-| o stroke     | Alt-155   | Alt-248         | Alt-155         |
-| u acute      | Alt-163   | Alt-250         | Alt-163         |
-| u circumflex | Alt-150   | Alt-251         | Alt-150         |
-| u tilde      | Alt-151   | Alt-253         | Alt-151         |
-| u dieresis   | Alt-129   | Alt-252         | Alt-129         |
+### Greenlandic, Nordic
+| Glyph        | ISO Baltic      | CP30004         |
+|--------------|-----------------|-----------------|
+| A acute      | Alt-193         | Alt-181         |
+| A circumflex | Alt-194         | Alt-182         |
+| A tilde      | Alt-195         | Alt-199         |
+| A ring       | Alt-197         | Alt-143         |
+| AE           | Alt-198         | Alt-146         |
+| E acute      | Alt-201         | Alt-144         |
+| E circumflex | No key assigned | Alt-210         |
+| I acute      | Alt-205         | Alt-214         |
+| I circumflex | Alt-206         | Alt-215         |
+| I tilde      | Alt-165         | Alt-222         |
+| Kra          | No key assigned | No key assigned |
+| O circumflex | Alt-212         | Alt-226         |
+| O stroke     | Alt-216         | Alt-157         |
+| U acute      | Alt-218         | Alt-233         |
+| U circumflex | Alt-219         | Alt-234         |
+| U tilde      | Alt-221         | Alt-235         |
+| U dieresis   | Alt-220         | Alt-154         |
+| a acute      | Alt-225         | Alt-160         |
+| a circumflex | Alt-226         | Alt-131         |
+| a tilde      | Alt-227         | Alt-198         |
+| a ring       | Alt-229         | Alt-134         |
+| ae           | Alt-230         | Alt-145         |
+| e acute      | Alt-233         | Alt-130         |
+| e circumflex | No key assigned | Alt-136         |
+| i acute      | Alt-237         | Alt-161         |
+| i circumflex | Alt-238         | Alt-140         |
+| i tilde      | Alt-181         | Alt-141         |
+| kra          | Alt-162         | Alt-242         |
+| o circumflex | Alt-244         | Alt-147         |
+| o stroke     | Alt-248         | Alt-155         |
+| u acute      | Alt-250         | Alt-163         |
+| u circumflex | Alt-251         | Alt-150         |
+| u tilde      | Alt-253         | Alt-151         |
+| u dieresis   | Alt-252         | Alt-129         |
 
-### Luxembourgian
-| Glyph        | Western 1 |
-|--------------|-----------|
-| A circumflex | Alt-182   |
-| A dieresis   | Alt-142   |
-| C cedilla    | Alt-128   |
-| E grave      | Alt-190   |
-| E acute      | Alt-144   |
-| E circumflex | Alt-210   |
-| E dieresis   | Alt-211   |
-| I circumflex | Alt-215   |
-| M circumflex | Alt-173   |
-| N circumflex | Alt-243   |
-| O circumflex | Alt-226   |
-| O dieresis   | Alt-153   |
-| U circumflex | Alt-234   |
-| U dieresis   | Alt-154   |
-| a circumflex | Alt-131   |
-| a dieresis   | Alt-132   |
-| c cedilla    | Alt-135   |
-| e grave      | Alt-189   |
-| e acute      | Alt-130   |
-| e circumflex | Alt-136   |
-| e dieresis   | Alt-137   |
-| i circumflex | Alt-140   |
-| m circumflex | Alt-168   |
-| n circumflex | Alt-152   |
-| o circumflex | Alt-147   |
-| o dieresis   | Alt-148   |
-| s sharp      | Alt-225   |
-| u circumflex | Alt-150   |
-| u dieresis   | Alt-129   |
+### Notes when writing Nordic languages in URW Palladio KUL
+**Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
+
+**Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
 
 ### Old Danish and Norwegian
-| Glyph          | Western 1 | CP30004 |
-|----------------|-----------|---------|
-| A ring acute   | Alt-165   | Alt-165 |
-| AE acute       | Alt-212   | Alt-212 |
-| O stroke acute | Alt-229   | Alt-229 |
-| a ring acute   | Alt-164   | Alt-164 |
-| ae acute       | Alt-138   | Alt-138 |
-| o stroke acute | Alt-228   | Alt-228 |
+| Glyph          | CP30004 |
+|----------------|---------|
+| A ring acute   | Alt-165 |
+| AE acute       | Alt-212 |
+| O stroke acute | Alt-229 |
+| a ring acute   | Alt-164 |
+| ae acute       | Alt-138 |
+| o stroke acute | Alt-228 |
 
 ### Old Icelandic (CP30004)
 | Glyph          | Codes   |
@@ -279,27 +241,8 @@ The capital sharp s is accessed in my screen fonts for German-Polish Friendship 
 | o ogonek       | Alt-158 |
 | o ogonek acute | Alt-135 |
 
-### Swedish, Finnish - Typed as usual on Swedish keyboards
-| Glyph      | CP859   | WST_Swed             | Windows | macOS           |
-|------------|---------|----------------------|---------|-----------------|
-| A dieresis | Alt-142 | left square bracket  | Alt-196 | Alt-128         |
-| A ring     | Alt-143 | right square bracket | Alt-197 | Alt-129         |
-| O dieresis | Alt-153 | backslash            | Alt-214 | Alt-133         |
-| S caron    | Alt-221 | No key assigned      | Alt-138 | No key assigned |
-| Z caron    | Alt-239 | No key assigned      | Alt-142 | No key assigned |
-| a dieresis | Alt-132 | left curly bracket   | Alt-228 | Alt-138         |
-| a ring     | Alt-134 | right curly bracket  | Alt-229 | Alt-140         |
-| o dieresis | Alt-148 | vertical bracket     | Alt-252 | Alt-159         |
-| s caron    | Alt-249 | No key assigned      | Alt-154 | No key assigned |
-| z caron    | Alt-247 | No key assigned      | Alt-158 | No key assigned |
-
-### Notes when writing this language with URW Palladio KUL
-**Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
-
-**Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
-
-### Playing card symbols for use with Palm OS only
-The symbols appear as one color in the built-in fonts used for the operating system.
+### Playing card symbols for Palm OS
+The symbols are monochrome in the built-in fonts.
 
 | Glyph   | Codes   |
 |---------|---------|
