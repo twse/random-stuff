@@ -3,7 +3,7 @@ Bút Việt (1992), by Nguyễn Doãn Vượng, is a Vietnamese text editor for 
 
 VIET (1991), by Hoà G. Nguyễn, is a Vietnamese text editor for DOS. This program comes with a font editor.
 
-vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for MS-DOS. Executable files are available for VGA or EGA. The screen fonts keeps the tittle if the small i has a grave, acute, tilde or hook above it.
+vietdos (1992), by [The TriChlor Group](http://trichlor.sourceforge.net), is a Vietnamese keyboard for DOS with executable files for VGA or EGA. The screen fonts keeps the tittle if the small i has a grave, acute, tilde or hook above it.
 
 ## A note on Middle Vietnamese
 The b flourish and apex are not part of my readable fonts.
