@@ -29,7 +29,7 @@ On TeX, one character set is in common use:
 * Cork. Supports Western and Central European languages in Latin script.
 
 ## Fonts
-* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware Windows keyboard which comes with a bitmap font for keycaps and two TrueType fonts, Timesse and Couriere. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
+* Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware Windows keyboard which comes with a bitmap font and two TrueType fonts. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický but it replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
@@ -191,13 +191,13 @@ Arminio Grgić wrote the TSR program CNVPRN (1993) to convert Croatian character
 
 Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion of text encodings in Croatian language. The documentation is in Croatian only.
 
-Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for changing the VGA font to add Croatian characters and changing the keyboard. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. (A version of Windows exists called TipkaWin.)
+Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for DOS and Windows. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. 
 
 Vedran Gačo wrote the pay shareware font editor GWD Font Editor (1995). This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
 
 Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of text encodings written in Croatian language. The documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
 
-[hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with file, font, keyboard, printer and screen utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
+[hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
 | Glyph    | Codes   | Windows CP1250 | Apple Croatian | Cork    | CP113   | TITUS Eastern European |
 |----------|---------|----------------|----------------|---------|---------|------------------------|
