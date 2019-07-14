@@ -5,8 +5,6 @@ avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font 
 
 Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
 
-Miguel Civil created a set of fonts for Semitic etymologies – Nippur-Guti. These fonts are only compatible with Windows.
-
 DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
 
 Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription as shown in [this image](http://www.evertype.com/standards/hy/ArmTrans.gif). See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info.
@@ -17,17 +15,15 @@ Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Un
 
 Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Regular for Mongolian transcription. It relocates some ASCII characters.
 
-The Hobogirin font is identical to the Kenneth Ray Norman encoding but uses a different designer.
+The Hobogirin font is identical to the Kenneth Ray Norman encoding.
 
-iitmipa (2004), by IIT Madras, is a transliteration font based on Garamond for use with Indic languages. Download the fonts in TTF, BDF, PFB, HQX or TAB from [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php).
+iitmipa (2004), by IIT Madras, is a transliteration font in TTF, BDF, PFB, HQX or TAB available [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php) and is based on Garamond for use with Indic languages.
 
-IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts based on Courier, Helvetica, New Century Schoolbook, Palatino or Times. The fonts includes TeX character encodings and keyboards for double byte Windows. The lack of box and shade characters in IndUni-C makes it unsuitable for text mode programs like Midnight Commander. IndUni is released under the GNU GPL 3.0 license. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
-
-Sebastian Kempgen ([MacCampus](http://www.maccampus.de/)) created many legacy non-Unicode fonts ca. 1998 for transliteration of Chinese, Semitic and Indic languages. Some of them were hosted at FontShop but were no longer sold.
+IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts released under the GPL 2.0 license based on URW fonts. The fonts includes TeX character encodings and keyboards. The lack of box and shade characters in IndUni-C and IndUni-CMono makes it unsuitable for some text mode programs like Midnight Commander. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
 
 Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
 
-Mithra (2000), is a version of Times New Roman modified for transliteration of Avestan and Pahlavi (the diacritics are in lowercase only).
+Mithra (2000), is a modified version of Times New Roman for transliteration of Avestan and Pahlavi (the diacritics are in lowercase only).
 
 Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliteration.
 
@@ -61,7 +57,7 @@ URW Palladio S and URW Palladio US, by Ulrich Stiehl, are two fonts derived from
 
 URW Palladio SKT (2002), by Ulrich Stiehl, is a font derived from URW Palladio. It contains diacritics used for transliteration of Classical Sanskrit, Vedic Sanskrit, Pali and Tamil languages. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
 
-Washington Romanized Indic (2011), by Anshuman Pandey, is a program to write Indic languages in Latin script under TeX. The font resembles the CSX encoding. Washington Romanized Indic is released under the GNU GPL 2.0 license. Originally created by Thomas Ridgeway.
+Washington Romanized Indic (2011), by Anshuman Pandey and originally created by Thomas Ridgeway, is a TeX program released under GPL 2.0 license to write Indic languages in Latin script. The font resembles the CSX encoding.
 
 Michael Witzel (Harvard University) modified the Original Garamond font in 1996 by naming it **Nina** and adding transliteration glyphs used for Malayalam, Pali, Prakrit, Classical/Vedic Sanskrit and Tamil.
 
@@ -69,7 +65,7 @@ Dominik Wujastyk created a set of EGA and VGA screen fonts using the CS or CSX e
 
 Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Unicode. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
 
-### ALA-LC transliteration fonts (UniEdit) codes
+### ALA-LC transliteration font codes
 | Glyph               | First           | Second          |
 |---------------------|-----------------|-----------------|
 | A acute             | Alt-128         | No key assigned |

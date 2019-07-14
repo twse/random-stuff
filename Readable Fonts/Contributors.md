@@ -47,7 +47,6 @@ Special thanks goes to the following people:
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
 * Henrique Peron, for maintaining cpidos and his cpx files.
 * Chris Pirillo, for maintaining his collection of MS-DOS VGA fonts (1995).
-* Thomas Ridgeway, for maintaining Washington Romanized Indic (2011).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
 * Ulrich Seeger, for designing his fonts in the pre-Unicode-times - HaifaTimes, GalilTimes, Beyrut, UrmiTimes, Abbas, Assur, Pamuk, GalilWin, Bock, Nebe, Sima and Hatra. These fonts are for transcription of Accadic, Arabic, Aramaic, Persian and Turkish and many of them are for Windows and macOS. He's also the author of macOS keyboard driver SemicodeUS.
 * [Uwe Sieber](https://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.

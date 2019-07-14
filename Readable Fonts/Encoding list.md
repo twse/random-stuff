@@ -93,7 +93,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LFTR      | LinguaFont Turkish                             |
-| LT_UNIX   | Accented Lithuanian (Unix)                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACALT    | Apple Latin 1 (Alternate encoding)             |
 | MACBACYR  | Apple Barents Cyrillic                         |
