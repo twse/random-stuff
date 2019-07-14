@@ -1,5 +1,5 @@
 ## Fonts and keyboards
-ABCGRL (1998), by Tasos Lambrakis, is a TSR driver for DOS. This program has three encodings: IBM 737 (Alt-1), IBM 851 (Alt-2) or Elot 928/ISO Greek (Alt-3). The built-in font using IBM 737 encoding replaces middle dot with sterling.
+ABCGRL (1998), by Tasos Lambrakis, is a TSR driver for DOS and is available [here](http://www.hyper.gr/greek-fonts.html). This program has three encodings: IBM 737 (Alt-1), IBM 851 (Alt-2) or Elot 928/ISO Greek (Alt-3). The built-in font using IBM 737 encoding replaces middle dot with sterling. Press Alt-Enter to switch between English and Greek input.
 
 GRKEYB (1995), by Pouliadis & Associates, is a TSR driver for DOS.
 
