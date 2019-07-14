@@ -13,7 +13,7 @@ Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Ar
 
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
 
-Michael Forgey (Unitype Inc.) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme. These are bundled with the text editor UniEdit.
+Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
 
 Galig (1999), by Akira Kamimura, is a TrueType font based on Times New Roman Regular for Mongolian transcription. It relocates some ASCII characters.
 

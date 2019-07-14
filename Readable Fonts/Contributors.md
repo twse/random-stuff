@@ -1,4 +1,4 @@
-﻿## Acknowledgements
+## Acknowledgements
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
@@ -17,7 +17,7 @@ Special thanks goes to the following people:
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
-* Michael Forgey, for his transliteration fonts intended for the ALA-LC scheme (Unitype Inc.). The fonts have diacritics in uppercase and lowercase.
+* Michael Forgey / [Unitype Inc.](http://www.unitype.com/), for his transliteration fonts intended for the ALA-LC scheme.
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
