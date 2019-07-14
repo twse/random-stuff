@@ -2,7 +2,7 @@
 Special thanks goes to the following people:
 * Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
-* Ansis Ataols Bērziņš, for his Burti program (2002). This TSR changes the VGA font to add Latvian letters.
+* Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
 * Bùi Minh Cương, for writing vietdos. The bundled screen fonts leaves the tittle in small i with accent above, which is unacceptable.
 * Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
@@ -21,7 +21,7 @@ Special thanks goes to the following people:
 * Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
 * Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
-* Vasil Glagolov, for creating the Windows installer Paleofonts.
+* Vasil Glagolov, for creating the Paleofonts installer.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Hàn Thế Thành, for creating the vnr font family. He's also the author of pdfTeX.
 * Raymond Hickey, for maintaining Lexa and LinguaFont.
@@ -32,11 +32,10 @@ Special thanks goes to the following people:
 * Jiří and Marián Kamenický, for inventing the Kamenický encoding.
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
-* Jan Klimowicz for inventing the Mazovia encoding.
+* Jan Klimowicz, for inventing the Mazovia encoding.
 * Jörg Knappen, for his TeX African Latin encoding.
 * Donald E. Knuth, for writing TeX and his own encodings.
-* Petr I. Kvitek, for writing EVAfont. This font editor for DOS includes a keyboard driver and font drivers for the Russian language.
-* Ladislav Lacina, for releasing Bloček 1.5c and newer. Quote from the author: “Very nice but not 100% because they use the 7.bit of char definition so they are a bit wider.”
+* Petr I. Kvitek, for writing EVAfont. This DOS font editor includes a keyboard and fonts for Russian language.
 * Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
 * Werner Lemberg, for writing FreeType. He also wrote the TeX T5 encoding designed for use with the Vietnamese language.
@@ -45,15 +44,14 @@ Special thanks goes to the following people:
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
 * Sergey Menshikov, for maintaining Interpilot - Palm OS internationalization program. This program changes the keyboard and fonts used for Palm OS to whatever language you want.
 * Hoà T. Nguyễn, for writing the Vietnamese text editor VIET.
-* Anshuman Pandey, for maintaining the TeX package Washington Romanized Indic (2011).
 * Thomas T. Pedersen, for his transliteration tables of foreign scripts.
 * Henrique Peron, for maintaining cpidos and his cpx files.
 * Chris Pirillo, for maintaining his collection of MS-DOS VGA fonts (1995).
-* Thomas Ridgeway, for maintaining the TeX package Washington Romanized Indic (2011).
+* Thomas Ridgeway, for maintaining Washington Romanized Indic (2011).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
 * Ulrich Seeger, for designing his fonts in the pre-Unicode-times - HaifaTimes, GalilTimes, Beyrut, UrmiTimes, Abbas, Assur, Pamuk, GalilWin, Bock, Nebe, Sima and Hatra. These fonts are for transcription of Accadic, Arabic, Aramaic, Persian and Turkish and many of them are for Windows and macOS. He's also the author of macOS keyboard driver SemicodeUS.
 * [Uwe Sieber](https://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
-* Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in the .dok format and uses the Polish Mazovia encoding.)
+* Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in .dok format and uses the Polish Mazovia encoding.)
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
