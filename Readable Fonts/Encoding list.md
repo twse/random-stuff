@@ -103,7 +103,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACRUS    | Apple Accented Russian                         |
 | MACSAMI   | Apple Sámi/Lappish                             |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
-| PALM      | Palm OS Latin-1                                |
 | POLISHLF  | LinguaFont Polish                              |
 | RISCL1    | RISC OS Latin-1                                |
 | RUV4A     | DOS 4.0 Russian Academic                       |
