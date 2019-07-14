@@ -19,9 +19,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP865     | Nordic                                     |
 | CP869     | Greek                                      |
 | CP899     | Armenian                                   |
-| CP910     | ISO Latin-1 (Win CP28591)                  |
-| CP922     | ISO Estonian                               |
-| CP928     | ISO Greek (Win CP28597)                    |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1250    | Windows Latin 2                            |
 | CP1253    | Windows Greece                             |
@@ -154,7 +151,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
-| ISOCYTRA  | ISO 9 (Cyrillic) – Slavic languages              |
 | IT98      | Itranslator 98                                   |
 | ITIMESSK  | ITimesSkRom                                      |
 | ITRANSL   | Itranslator                                      |
