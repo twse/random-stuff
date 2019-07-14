@@ -1,46 +1,42 @@
 ## Character sets and keyboard layouts
 See the related page on the [Evertype site](http://www.evertype.com/celtscript/celt-keys.html) for more info with keyboards for use with macOS and typewriters.
 
-Free public-domain fonts using custom character sets include:
-* Celtic Gaeilge (Symbol font). Supports most Irish dotted consonants and Welsh accented W and Y from Celtic Extended Roman GS.
-* Gaeilge1 and Gaeilge2 (Symbol fonts). Derived from American Uncial. Supports Irish dotted consonants in a non-standard encoding but not Welsh accented W and Y. Also includes old style numbers.
-
 ## Keyboard layouts
 See CeltScript page on the Evertype site for more info with download links to the keyboards for both languages.
 
 ## Diacritical characters
 
 ### Irish
-| Glyph       | Codes   | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 | Gaeilge1 | Gaeilge2 |
-|-------------|---------|--------------------|--------------------------|------------------|----------|----------|
-| A acute     | Alt-181 | Alt-231            | Alt-193                  | Alt-193          | Alt-193  | Alt-193  |
-| B dot above | Alt-169 | Alt-176            | Alt-130                  | Alt-161          | Alt-197  | Alt-197  |
-| C dot above | Alt-184 | Alt-181            | Alt-131                  | Alt-164          | Alt-199  | Alt-199  |
-| D dot above | Alt-209 | Alt-183            | Alt-183                  | Alt-166          | Alt-208  | Alt-208  |
-| E acute     | Alt-144 | Alt-131            | Alt-201                  | Alt-201          | Alt-201  | Alt-201  |
-| F dot above | Alt-190 | Alt-185            | Alt-165                  | Alt-176          | Alt-202  | Alt-202  |
-| G dot above | Alt-246 | Alt-187            | Alt-134                  | Alt-178          | Alt-203  | Alt-203  |
-| I acute     | Alt-214 | Alt-234            | Alt-205                  | Alt-205          | Alt-205  | Alt-205  |
-| M dot above | Alt-251 | Alt-189            | Alt-135                  | Alt-180          | Alt-207  | Alt-207  |
-| O acute     | Alt-224 | Alt-238            | Alt-211                  | Alt-211          | Alt-211  | Alt-211  |
-| P dot above | Alt-173 | Alt-193            | Alt-137                  | Alt-183          | Alt-212  | Alt-212  |
-| S dot above | Alt-225 | Alt-198            | Alt-138                  | Alt-138          | Alt-213  | Alt-213  |
-| T dot above | Alt-232 | Alt-218            | Alt-215                  | Alt-215          | Alt-222  | Alt-216  |
-| U acute     | Alt-233 | Alt-242            | Alt-218                  | Alt-218          | Alt-218  | Alt-218  |
-| a acute     | Alt-160 | Alt-135            | Alt-225                  | Alt-225          | Alt-225  | Alt-225  |
-| b dot above | Alt-242 | Alt-180            | Alt-178                  | Alt-162          | Alt-229  | Alt-229  |
-| c dot above | Alt-189 | Alt-182            | Alt-179                  | Alt-165          | Alt-231  | Alt-231  |
-| d dot above | Alt-208 | Alt-184            | Alt-164                  | Alt-171          | Alt-240  | Alt-240  |
-| e acute     | Alt-130 | Alt-142            | Alt-233                  | Alt-233          | Alt-233  | Alt-233  |
-| f dot above | Alt-159 | Alt-186            | Alt-181                  | Alt-177          | Alt-234  | Alt-234  |
-| g dot above | Alt-158 | Alt-188            | Alt-176                  | Alt-179          | Alt-235  | Alt-235  |
-| i acute     | Alt-161 | Alt-146            | Alt-237                  | Alt-237          | Alt-237  | Alt-237  |
-| m dot above | Alt-172 | Alt-192            | Alt-183                  | Alt-181          | Alt-239  | Alt-239  |
-| o acute     | Alt-162 | Alt-151            | Alt-243                  | Alt-243          | Alt-243  | Alt-243  |
-| p dot above | Alt-168 | Alt-194            | Alt-185                  | Alt-185          | Alt-244  | Alt-244  |
-| s dot above | Alt-244 | Alt-214            | Alt-154                  | Alt-191          | Alt-245  | Alt-245  |
-| t dot above | Alt-231 | Alt-224            | Alt-247                  | Alt-247          | Alt-248  | Alt-248  |
-| u acute     | Alt-163 | Alt-156            | Alt-250                  | Alt-250          | Alt-250  | Alt-250  |
+| Glyph       | Codes   | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 |
+|-------------|---------|--------------------|--------------------------|------------------|
+| A acute     | Alt-181 | Alt-231            | Alt-193                  | Alt-193          |
+| B dot above | Alt-169 | Alt-176            | Alt-130                  | Alt-161          |
+| C dot above | Alt-184 | Alt-181            | Alt-131                  | Alt-164          |
+| D dot above | Alt-209 | Alt-183            | Alt-183                  | Alt-166          |
+| E acute     | Alt-144 | Alt-131            | Alt-201                  | Alt-201          |
+| F dot above | Alt-190 | Alt-185            | Alt-165                  | Alt-176          |
+| G dot above | Alt-246 | Alt-187            | Alt-134                  | Alt-178          |
+| I acute     | Alt-214 | Alt-234            | Alt-205                  | Alt-205          |
+| M dot above | Alt-251 | Alt-189            | Alt-135                  | Alt-180          |
+| O acute     | Alt-224 | Alt-238            | Alt-211                  | Alt-211          |
+| P dot above | Alt-173 | Alt-193            | Alt-137                  | Alt-183          |
+| S dot above | Alt-225 | Alt-198            | Alt-138                  | Alt-138          |
+| T dot above | Alt-232 | Alt-218            | Alt-215                  | Alt-215          |
+| U acute     | Alt-233 | Alt-242            | Alt-218                  | Alt-218          |
+| a acute     | Alt-160 | Alt-135            | Alt-225                  | Alt-225          |
+| b dot above | Alt-242 | Alt-180            | Alt-178                  | Alt-162          |
+| c dot above | Alt-189 | Alt-182            | Alt-179                  | Alt-165          |
+| d dot above | Alt-208 | Alt-184            | Alt-164                  | Alt-171          |
+| e acute     | Alt-130 | Alt-142            | Alt-233                  | Alt-233          |
+| f dot above | Alt-159 | Alt-186            | Alt-181                  | Alt-177          |
+| g dot above | Alt-158 | Alt-188            | Alt-176                  | Alt-179          |
+| i acute     | Alt-161 | Alt-146            | Alt-237                  | Alt-237          |
+| m dot above | Alt-172 | Alt-192            | Alt-183                  | Alt-181          |
+| o acute     | Alt-162 | Alt-151            | Alt-243                  | Alt-243          |
+| p dot above | Alt-168 | Alt-194            | Alt-185                  | Alt-185          |
+| s dot above | Alt-244 | Alt-214            | Alt-154                  | Alt-191          |
+| t dot above | Alt-231 | Alt-224            | Alt-247                  | Alt-247          |
+| u acute     | Alt-163 | Alt-156            | Alt-250                  | Alt-250          |
 
 ### Welsh
 When used with Apple Irish Gaelic, this language is the same.
@@ -105,34 +101,34 @@ When used with Apple Irish Gaelic, this language is the same.
 | y dieresis   | Alt-152 | Alt-216      | Alt-255                  | Alt-255          |
 
 ### Characters not normally needed for Gaelic
-| Glyph     | Codes   | Apple Celtic    | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 | Gaeilge1        | Gaeilge2        |
-|-----------|---------|-----------------|--------------------|--------------------------|------------------|-----------------|-----------------|
-| C cedilla | Alt-128 | Alt-130         | Alt-130            | Alt-199                  | Alt-199          | No key assigned | No key assigned |
-| N tilde   | Alt-165 | Alt-132         | Alt-132            | Alt-209                  | Alt-209          | Alt-209         | Alt-209         |
-| Yogh      | Alt-164 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | No key assigned |
-| c cedilla | Alt-135 | Alt-141         | Alt-141            | Alt-231                  | Alt-231          | Alt-231         | Alt-231         |
-| n tilde   | Alt-164 | Alt-150         | Alt-150            | Alt-241                  | Alt-241          | Alt-241         | Alt-241         |
-| yogh      | Alt-249 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | No key assigned |
+| Glyph     | Codes   | Apple Celtic    | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 |
+|-----------|---------|-----------------|--------------------|--------------------------|------------------|
+| C cedilla | Alt-128 | Alt-130         | Alt-130            | Alt-199                  | Alt-199          |
+| N tilde   | Alt-165 | Alt-132         | Alt-132            | Alt-209                  | Alt-209          |
+| Yogh      | Alt-164 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| c cedilla | Alt-135 | Alt-141         | Alt-141            | Alt-231                  | Alt-231          |
+| n tilde   | Alt-164 | Alt-150         | Alt-150            | Alt-241                  | Alt-241          |
+| yogh      | Alt-249 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
 
 ### Printer's Specials
-| Glyph              | Codes   | Apple Celtic    | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 | Gaeilge1        | Gaeilge2        |
-|--------------------|---------|-----------------|--------------------|--------------------------|------------------|-----------------|-----------------|
-| non-breaking space | Alt-255 | Alt-224         | Alt-224            | Alt-160                  | Alt-160          | Alt-160         | No key assigned |
-| acute              | Alt-239 | Alt-171         | Alt-161            | Alt-180                  | Alt-180          | Alt-142         | Alt-142         |
-| cedilla            | Alt-247 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | No key assigned |
-| currency           | Alt-207 | No key assigned | No key assigned    | No key assigned          | No key assigned  | Alt-164         | Alt-164         |
-| sterling           | Alt-156 | Alt-163         | Alt-163            | Alt-163                  | Alt-163          | Alt-163         | Alt-163         |
-| Euro               | Alt-213 | Alt-219         | Alt-219            | No key assigned          | Alt-128          | No key assigned | No key assigned |
-| section            | Alt-245 | Alt-164         | Alt-164            | Alt-167                  | Alt-167          | Alt-167         | Alt-167         |
-| guillemot left     | Alt-174 | Alt-199         | Alt-199            | Alt-171                  | Alt-171          | Alt-171         | Alt-171         |
-| guillemot right    | Alt-175 | Alt-200         | Alt-200            | Alt-187                  | Alt-187          | Alt-187         | Alt-187         |
-| plus minus         | Alt-241 | Alt-177         | No key assigned    | Alt-177                  | Alt-177          | Alt-175         | Alt-175         |
-| logical not        | Alt-170 | Alt-194         | Alt-194            | No key assigned          | No key assigned  | Alt-172         | Alt-172         |
-| mu                 | Alt-230 | Alt-181         | No key assigned    | No key assigned          | No key assigned  | No key assigned | No key assigned |
-| degree             | Alt-248 | Alt-161         | Alt-161            | No key assigned          | Alt-130	    | Alt-176         | Alt-176         |
-| macron             | Alt-238 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | No key assigned |
-| broken bar         | Alt-221 | No key assigned | No key assigned    | No key assigned          | No key assigned  | Alt-166         | Alt-166         |
-| superscript two    | Alt-253 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | Alt-158         |
-| superscript three  | Alt-252 | No key assigned | No key assigned    | No key assigned          | No key assigned  | No key assigned | Alt-160         |
-| one half           | Alt-171 | No key assigned | No key assigned    | No key assigned          | No key assigned  | Alt-189         | Alt-189         |
-| soft hyphen        | Alt-240 | No key assigned | No key assigned    | Alt-173                  | Alt-173          | Alt-173         | Alt-173         |
+| Glyph              | Codes   | Apple Celtic    | Apple Irish Gaelic | Celtic Extended Roman GS | Extended Latin-8 |
+|--------------------|---------|-----------------|--------------------|--------------------------|------------------|
+| non-breaking space | Alt-255 | Alt-224         | Alt-224            | Alt-160                  | Alt-160          |
+| acute              | Alt-239 | Alt-171         | Alt-161            | Alt-180                  | Alt-180          |
+| cedilla            | Alt-247 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| currency           | Alt-207 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| sterling           | Alt-156 | Alt-163         | Alt-163            | Alt-163                  | Alt-163          |
+| Euro               | Alt-213 | Alt-219         | Alt-219            | No key assigned          | Alt-128          |
+| section            | Alt-245 | Alt-164         | Alt-164            | Alt-167                  | Alt-167          |
+| guillemot left     | Alt-174 | Alt-199         | Alt-199            | Alt-171                  | Alt-171          |
+| guillemot right    | Alt-175 | Alt-200         | Alt-200            | Alt-187                  | Alt-187          |
+| plus minus         | Alt-241 | Alt-177         | No key assigned    | Alt-177                  | Alt-177          |
+| logical not        | Alt-170 | Alt-194         | Alt-194            | No key assigned          | No key assigned  |
+| mu                 | Alt-230 | Alt-181         | No key assigned    | No key assigned          | No key assigned  |
+| degree             | Alt-248 | Alt-161         | Alt-161            | No key assigned          | Alt-130          |
+| macron             | Alt-238 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| broken bar         | Alt-221 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| superscript two    | Alt-253 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| superscript three  | Alt-252 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| one half           | Alt-171 | No key assigned | No key assigned    | No key assigned          | No key assigned  |
+| soft hyphen        | Alt-240 | No key assigned | No key assigned    | Alt-173                  | Alt-173          |
