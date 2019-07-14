@@ -75,7 +75,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CWI2      | Hungarian CWI-2                                |
 | CZECHLF   | LinguaFont Czech                               |
 | EDA_CODE  | EDA editor encoding                            |
-| EFFL1     | RISC OS Latin-1 (The Electronic Font Foundry)  |
 | EVAFONT   | EVAFONT Encoding                               |
 | GAEILGE1  | Gaeilge1                                       |
 | GAEILGE2  | Gaeilge2                                       |
