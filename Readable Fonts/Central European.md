@@ -1,6 +1,6 @@
 ﻿## Character sets
-On the Macintosh platform, four character sets are in common use:
-* Unicode. Mac OS X. Supports all the needs of the Central European languages.
+On the macOS platform, four character sets are in common use:
+* Unicode. macOS. Supports all the needs of the Central European languages.
 * macOS Central Europe. Supports Czech, Slovak, Polish, Hungarian, Slovenian, Estonian, Latvian and Lithuanian languages. No support for Romanian, Yugoslavian nor Albanian languages.
 * macOS Croatian. Supports Albanian and Yugoslavian languages as well as all languages from the macOS US Roman character set.
 * macOS Romanian. Supports Albanian and Romanian languages as well as all languages from the macOS US Roman character set.
@@ -30,7 +30,7 @@ On TeX, one character set is in common use:
 
 ## Fonts
 * Central European Starter Kit (1997), by Peter Cassetta (Fingertip Software), is a pay shareware Windows keyboard which comes with a bitmap font and two TrueType fonts. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický but it replaces characters for German and Slovak.
+* EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický which replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
@@ -42,9 +42,9 @@ On TeX, one character set is in common use:
 ### Czech - Typed as usual on Czech keyboards
 This language can be used when written with Kamenický encoding.
 
-Czech Coding Convertor, by Zdeněk Kudrla, is a program to convert Czech text written in eight encodings. The program comes with source code included.
+Czech Coding Convertor, by Zdeněk Kudrla, is a DOS program to convert Czech text written in eight encodings. The program comes with source code included.
 
-Trans-ASCII (1991), by Pavel Ferda, is a program to convert Czech text in various encodings. The executable file and documentation is available in three languages.
+Trans-ASCII (1991), by Pavel Ferda, is a DOS program to convert Czech text in various encodings. The executable file and documentation is available in three languages.
 
 | Glyph   | Codes   | Windows CP1250 | Apple CE | Cork    | Kamenický | LinguaFont Czech | TITUS Eastern European |
 |---------|---------|----------------|----------|---------|-----------|------------------|------------------------|
