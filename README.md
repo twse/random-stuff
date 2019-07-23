@@ -1,8 +1,8 @@
 ﻿# Information
 This repository contains my random stuff.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This might include former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added using the form at the bottom of this page as mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added using the form at the bottom of this page as mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. Can be used for languages partially supported by System VIO, including Vietnamese, Kazakh, Yoruba, Azerbaijani and Esperanto or those not supported by System VIO, including Armenian and Cherokee. Created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses). The TrueType version is not from the [Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) which is licensed under a Creative Commons style license.
+* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Vietnamese, Kazakh, Armenian and Cherokee. Created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses). The TrueType version is not from the [Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) which is licensed under a Creative Commons style license.
 * **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
@@ -24,14 +24,14 @@ This repository contains my random stuff.
 
 ## Adding one name to Mozilla credits list using command line
 1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Edit the names.csv file to add your name at the end.
+2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
 3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
 4. Push the master branch via `git push`. (Make sure that your GitHub account has both commit and write access for the **mozilla/community-data** repository.)
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
-2. Add your name at the end.
+2. Add your name at the end or use `echo name >> names.csv`.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
 4. Commit directly to the master branch but do not create a pull request.
 5. Visit the credits page via `about:credits` (Mozilla browser) or by clicking the link above and the name you added wil appear straight away with the last updated date being changed.
