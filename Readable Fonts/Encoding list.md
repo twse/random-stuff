@@ -19,10 +19,8 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP899     | Armenian                                   |
 | CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1250    | Windows Latin 2                            |
-| CP1253    | Windows Greece                             |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
-| CP1258    | Windows Vietnamese                         |
 | CP1276    | Adobe PS Standard Encoding                 |
 | CP1280    | Apple Greece (Win CP10006)                 |
 | CP1281    | Apple Turkey (Win CP10081)                 |
@@ -39,7 +37,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30004   | Greenlandic                                |
-| CP30006   | Vietnamese                                 |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30018   | Cyrillic Russian and Latin Tatar           |
@@ -108,7 +105,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | T2A       | TeX Cyrillic Encoding 1                        |
 | T2B       | TeX Cyrillic Encoding 2                        |
 | T2C       | TeX Cyrillic Encoding 3                        |
-| TEX_VI    | TeX Vietnamese (T5)                            |
 | TEX-GR    | TeX Greek                                      |
 | TEX-MATH  | TeX Math                                       |
 | TEX-PL    | TeX Polish (T4)                                |
