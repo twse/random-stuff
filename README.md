@@ -50,7 +50,6 @@ This font family covers the following diacritics:
 
 ## Other vector fonts (ordinary Unicode)
 Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer disables most features if the program is not registered). FontCreator 7.0 or higher can create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
-* **Chicago Mega** is for indigenous languages in Central and South America. The font is best viewed at 9 or 18 points. This font comes in one style only - Regular.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular.
 
