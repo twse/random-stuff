@@ -1,5 +1,5 @@
 ## Fonts and keyboards
-Ernst Tremel created fonts and keyboards for Kurdish in Arabic, Cyrillic and Latin scripts.Download the fonts and keyboards for Windows XP & above from [here](https://www.skytower.org/~ernstjtremel/OpenTypeFont_KurdishAllAlphabets.htm).
+Ernst Tremel created fonts and keyboards for Windows XP & above for writing Kurdish in Arabic, Cyrillic and Latin scripts.Download these from [here](https://www.skytower.org/~ernstjtremel/OpenTypeFont_KurdishAllAlphabets.htm).
 
 Lexa (1998) and LinguaFont (1998), by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
 
@@ -368,25 +368,25 @@ Although not part of my readable font series, this language is usually written i
 | ha descender | Alt-249 | Alt-181         |
 
 ### Turkish - Typed as usual on Turkish keyboards
-| Glyph        | Codes   | Balkan  | Windows Turkish | CP857   | CP853   | CP3846          | TITUS   |
-|--------------|---------|---------|-----------------|---------|---------|-----------------|---------|
-| A circumflex | Alt-182 | Alt-182 | Alt-194         | Alt-182 | Alt-182 | No key assigned | Alt-167 |
-| C cedilla    | Alt-128 | Alt-128 | Alt-199         | Alt-128 | Alt-128 | Alt-128         | Alt-128 |
-| G breve      | Alt-166 | Alt-166 | Alt-208         | Alt-166 | Alt-166 | Alt-166         | Alt-180 |
-| I circumflex | Alt-215 | Alt-155 | Alt-206         | Alt-215 | Alt-215 | No key assigned | Alt-183 |
-| I dot above  | Alt-152 | Alt-152 | Alt-221         | Alt-152 | Alt-152 | Alt-152         | Alt-184 |
-| O dieresis   | Alt-153 | Alt-153 | Alt-214         | Alt-153 | Alt-153 | Alt-153         | Alt-153 |
-| S cedilla    | Alt-158 | Alt-242 | Alt-222         | Alt-158 | Alt-184 | Alt-158         | Alt-202 |
-| U circumflex | Alt-234 | Alt-234 | Alt-219         | Alt-234 | Alt-234 | No key assigned | Alt-210 |
-| U dieresis   | Alt-154 | Alt-154 | Alt-220         | Alt-154 | Alt-131 | Alt-131         | Alt-131 |
-| c cedilla    | Alt-135 | Alt-135 | Alt-231         | Alt-135 | Alt-135 | Alt-135         | Alt-135 |
-| g breve      | Alt-167 | Alt-157 | Alt-240         | Alt-167 | Alt-167 | Alt-167         | Alt-227 |
-| i circumflex | Alt-140 | Alt-140 | Alt-238         | Alt-140 | Alt-140 | Alt-140         | Alt-140 |
-| i dotless    | Alt-141 | Alt-141 | Alt-253         | Alt-141 | Alt-213 | Alt-141         | Alt-229 |
-| o dieresis   | Alt-148 | Alt-148 | Alt-246         | Alt-148 | Alt-148 | Alt-148         | Alt-148 |
-| s cedilla    | Alt-159 | Alt-243 | Alt-254         | Alt-159 | Alt-173 | Alt-159         | Alt-245 |
-| u circumflex | Alt-150 | Alt-150 | Alt-251         | Alt-150 | Alt-150 | Alt-150         | Alt-150 |
-| u dieresis   | Alt-129 | Alt-129 | Alt-252         | Alt-129 | Alt-129 | Alt-129         | Alt-129 |
+| Glyph        | Codes   | Balkan  | CP857   | CP853   | TITUS   |
+|--------------|---------|---------|---------|---------|---------|
+| A circumflex | Alt-182 | Alt-182 | Alt-182 | Alt-182 | Alt-167 |
+| C cedilla    | Alt-128 | Alt-128 | Alt-128 | Alt-128 | Alt-128 |
+| G breve      | Alt-166 | Alt-166 | Alt-166 | Alt-166 | Alt-180 |
+| I circumflex | Alt-215 | Alt-155 | Alt-215 | Alt-215 | Alt-183 |
+| I dot above  | Alt-152 | Alt-152 | Alt-152 | Alt-152 | Alt-184 |
+| O dieresis   | Alt-153 | Alt-153 | Alt-153 | Alt-153 | Alt-153 |
+| S cedilla    | Alt-158 | Alt-242 | Alt-158 | Alt-184 | Alt-202 |
+| U circumflex | Alt-234 | Alt-234 | Alt-234 | Alt-234 | Alt-210 |
+| U dieresis   | Alt-154 | Alt-154 | Alt-154 | Alt-131 | Alt-131 |
+| c cedilla    | Alt-135 | Alt-135 | Alt-135 | Alt-135 | Alt-135 |
+| g breve      | Alt-167 | Alt-157 | Alt-167 | Alt-167 | Alt-227 |
+| i circumflex | Alt-140 | Alt-140 | Alt-140 | Alt-140 | Alt-140 |
+| i dotless    | Alt-141 | Alt-141 | Alt-141 | Alt-213 | Alt-229 |
+| o dieresis   | Alt-148 | Alt-148 | Alt-148 | Alt-148 | Alt-148 |
+| s cedilla    | Alt-159 | Alt-243 | Alt-159 | Alt-173 | Alt-245 |
+| u circumflex | Alt-150 | Alt-150 | Alt-150 | Alt-150 | Alt-150 |
+| u dieresis   | Alt-129 | Alt-129 | Alt-129 | Alt-129 | Alt-129 |
 
 ### Turkmen
 | Glyph       | Codes   |
