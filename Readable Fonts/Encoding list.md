@@ -10,8 +10,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP770     | Baltic                                     |
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
-| CP777     | Accented Lithuanian (old)                  |
-| CP778     | Accented Lithuanian                        |
 | CP851     | Greek (old codepage)                       |
 | CP857     | Latin 5 (Turkey)                           |
 | CP858     | Latin-1 with Euro                          |
