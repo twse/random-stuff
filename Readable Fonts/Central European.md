@@ -4,8 +4,6 @@
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
-* Lexa and LinguaFont (1998), by Raymond Hickey, includes printer and screen fonts for Czech, Hungarian and Polish languages.
-* TITUS Eastern European (1995), by Jost Gippert, is a font derived from Times New Roman and contains letters for Baltic languages, accented Lithuanian and Slavic languages in Latin script. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font from the WordCruncher font package has no word-wrap problems.
 
 ## Diacritical characters
 
@@ -16,38 +14,38 @@ Czech Coding Convertor, by Zdeněk Kudrla, is a DOS program to convert Czech tex
 
 Trans-ASCII (1991), by Pavel Ferda, is a DOS program to convert Czech text in various encodings. The executable file and documentation is available in three languages.
 
-| Glyph   | Codes   | Windows CP1250 | Apple CE | Cork    | Kamenický | LinguaFont Czech | TITUS Eastern European |
-|---------|---------|----------------|----------|---------|-----------|------------------|------------------------|
-| A acute | Alt-181 | Alt-193        | Alt-231  | Alt-193 | Alt-143   | Alt-128          | Alt-165                |
-| C caron | Alt-172 | Alt-200        | Alt-137  | Alt-131 | Alt-128   | Alt-226          | Alt-170                |
-| D caron | Alt-210 | Alt-207        | Alt-145  | Alt-132 | Alt-133   | Alt-236          | Alt-173                |
-| E acute | Alt-144 | Alt-201        | Alt-131  | Alt-201 | Alt-144   | Alt-144          | Alt-144                |
-| E caron | Alt-183 | Alt-204        | Alt-157  | Alt-133 | Alt-137   | Alt-134          | Alt-175                |
-| I acute | Alt-214 | Alt-205        | Alt-234  | Alt-205 | Alt-139   | Alt-136          | Alt-182                |
-| N caron | Alt-213 | Alt-210        | Alt-197  | Alt-140 | Alt-165   | Alt-238          | Alt-193                |
-| O acute | Alt-224 | Alt-211        | Alt-238  | Alt-211 | Alt-149   | Alt-137          | Alt-195                |
-| R caron | Alt-252 | Alt-216        | Alt-219  | Alt-144 | Alt-158   | Alt-230          | Alt-199                |
-| S caron | Alt-230 | Alt-238        | Alt-225  | Alt-146 | Alt-155   | Alt-228          | Alt-201                |
-| T caron | Alt-155 | Alt-141        | Alt-232  | Alt-148 | Alt-134   | Alt-234          | Alt-203                |
-| U acute | Alt-233 | Alt-218        | Alt-242  | Alt-218 | Alt-151   | Alt-143          | Alt-205                |
-| U ring  | Alt-222 | Alt-217        | Alt-241  | Alt-151 | Alt-166   | Alt-145          | Alt-207                |
-| Y acute | Alt-237 | Alt-221        | Alt-248  | Alt-221 | Alt-157   | Alt-139          | Alt-211                |
-| Z caron | Alt-166 | Alt-142        | Alt-235  | Alt-154 | Alt-146   | Alt-232          | Alt-214                |
-| a acute | Alt-160 | Alt-225        | Alt-135  | Alt-225 | Alt-160   | Alt-160          | Alt-160                |
-| c caron | Alt-159 | Alt-232        | Alt-139  | Alt-163 | Alt-135   | Alt-227          | Alt-218                |
-| d caron | Alt-212 | Alt-212        | Alt-147  | Alt-164 | Alt-131   | Alt-237          | Alt-211                |
-| e acute | Alt-130 | Alt-233        | Alt-142  | Alt-233 | Alt-130   | Alt-130          | Alt-130                |
-| e caron | Alt-216 | Alt-236        | Alt-158  | Alt-165 | Alt-136   | Alt-135          | Alt-222                |
-| i acute | Alt-161 | Alt-237        | Alt-146  | Alt-237 | Alt-161   | Alt-161          | Alt-161                |
-| n caron | Alt-229 | Alt-242        | Alt-203  | Alt-172 | Alt-164   | Alt-239          | Alt-238                |
-| o acute | Alt-162 | Alt-243        | Alt-151  | Alt-162 | Alt-243   | Alt-162          | Alt-162                |
-| r caron | Alt-253 | Alt-248        | Alt-222  | Alt-169 | Alt-176   | Alt-231          | Alt-242                |
-| s caron | Alt-231 | Alt-154        | Alt-228  | Alt-168 | Alt-178   | Alt-229          | Alt-244                |
-| t caron | Alt-156 | Alt-157        | Alt-233  | Alt-159 | Alt-180   | Alt-235          | Alt-246                |
-| u acute | Alt-163 | Alt-163        | Alt-156  | Alt-250 | Alt-163   | Alt-163          | Alt-163                |
-| u ring  | Alt-133 | Alt-249        | Alt-243  | Alt-183 | Alt-150   | Alt-152          | Alt-249                |
-| y acute | Alt-236 | Alt-253        | Alt-249  | Alt-152 | Alt-253   | Alt-140          | Alt-155                |
-| z caron | Alt-167 | Alt-158        | Alt-236  | Alt-145 | Alt-186   | Alt-233          | Alt-254                |
+| Glyph   | Codes   | Windows CP1250 | Cork    |
+|---------|---------|----------------|---------|
+| A acute | Alt-181 | Alt-193        | Alt-193 |
+| C caron | Alt-172 | Alt-200        | Alt-131 |
+| D caron | Alt-210 | Alt-207        | Alt-132 |
+| E acute | Alt-144 | Alt-201        | Alt-201 |
+| E caron | Alt-183 | Alt-204        | Alt-133 |
+| I acute | Alt-214 | Alt-205        | Alt-205 |
+| N caron | Alt-213 | Alt-210        | Alt-140 |
+| O acute | Alt-224 | Alt-211        | Alt-211 |
+| R caron | Alt-252 | Alt-216        | Alt-144 |
+| S caron | Alt-230 | Alt-238        | Alt-146 |
+| T caron | Alt-155 | Alt-141        | Alt-148 |
+| U acute | Alt-233 | Alt-218        | Alt-218 |
+| U ring  | Alt-222 | Alt-217        | Alt-151 |
+| Y acute | Alt-237 | Alt-221        | Alt-221 |
+| Z caron | Alt-166 | Alt-142        | Alt-154 |
+| a acute | Alt-160 | Alt-225        | Alt-225 |
+| c caron | Alt-159 | Alt-232        | Alt-163 |
+| d caron | Alt-212 | Alt-212        | Alt-164 |
+| e acute | Alt-130 | Alt-233        | Alt-233 |
+| e caron | Alt-216 | Alt-236        | Alt-165 |
+| i acute | Alt-161 | Alt-237        | Alt-237 |
+| n caron | Alt-229 | Alt-242        | Alt-172 |
+| o acute | Alt-162 | Alt-243        | Alt-162 |
+| r caron | Alt-253 | Alt-248        | Alt-169 |
+| s caron | Alt-231 | Alt-154        | Alt-168 |
+| t caron | Alt-156 | Alt-157        | Alt-159 |
+| u acute | Alt-163 | Alt-163        | Alt-250 |
+| u ring  | Alt-133 | Alt-249        | Alt-183 |
+| y acute | Alt-236 | Alt-253        | Alt-152 |
+| z caron | Alt-167 | Alt-158        | Alt-145 |
 
 ### Slovak - Typed as usual on Slovak keyboards
 This language can be used when written with Kamenicky encoding.
@@ -56,42 +54,42 @@ Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to
 
 Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change the keyboard into Slovak. When pressing `Shift-F11` it shows the setup menu in Slovak where the user can change the keyboard layout and enable diacritics.
 
-| Glyph        | Codes   | Windows CP1250 | Cork    | Kamenicky | LinguaFont Czech | TITUS Eastern European |
-|--------------|---------|----------------|---------|-----------|------------------|------------------------|
-| A acute      | Alt-181 | Alt-193        | Alt-193 | Alt-143   | Alt-128          | Alt-165                |
-| A dieresis   | Alt-142 | Alt-196        | Alt-196 | Alt-142   | Alt-142          | Alt-142                |
-| C caron      | Alt-172 | Alt-200        | Alt-131 | Alt-128   | Alt-226          | Alt-170                |
-| D caron      | Alt-210 | Alt-207        | Alt-132 | Alt-133   | Alt-236          | Alt-173                |
-| E acute      | Alt-144 | Alt-201        | Alt-201 | Alt-144   | Alt-144          | Alt-144                |
-| I acute      | Alt-214 | Alt-205        | Alt-205 | Alt-139   | Alt-136          | Alt-182                |
-| L acute      | Alt-145 | Alt-197        | Alt-136 | Alt-138   | No key assigned  | Alt-189                |
-| L caron      | Alt-149 | Alt-188        | Alt-137 | Alt-156   | No key assigned  | Alt-190                |
-| N caron      | Alt-213 | Alt-210        | Alt-140 | Alt-165   | Alt-238          | Alt-193                |
-| O acute      | Alt-224 | Alt-211        | Alt-221 | Alt-149   | Alt-137          | Alt-195                |
-| O circumflex | Alt-226 | Alt-226        | Alt-212 | Alt-167   | Alt-155          | Alt-196                |
-| R acute      | Alt-232 | Alt-192        | Alt-143 | Alt-171   | No key assigned  | Alt-198                |
-| S caron      | Alt-230 | Alt-238        | Alt-146 | Alt-155   | Alt-228          | Alt-201                |
-| T caron      | Alt-155 | Alt-141        | Alt-148 | Alt-134   | Alt-234          | Alt-203                |
-| U acute      | Alt-233 | Alt-218        | Alt-218 | Alt-151   | Alt-143          | Alt-205                |
-| Y acute      | Alt-237 | Alt-221        | Alt-221 | Alt-157   | Alt-139          | Alt-211                |
-| Z caron      | Alt-166 | Alt-142        | Alt-154 | Alt-146   | Alt-232          | Alt-214                |
-| a acute      | Alt-160 | Alt-225        | Alt-225 | Alt-160   | Alt-160          | Alt-160                |
-| a dieresis   | Alt-132 | Alt-228        | Alt-228 | Alt-138   | Alt-138          | Alt-138                |
-| c caron      | Alt-159 | Alt-232        | Alt-163 | Alt-135   | Alt-227          | Alt-218                |
-| d caron      | Alt-212 | Alt-212        | Alt-164 | Alt-131   | Alt-237          | Alt-221                |
-| e acute      | Alt-130 | Alt-233        | Alt-233 | Alt-142   | Alt-142          | Alt-142                |
-| i acute      | Alt-161 | Alt-237        | Alt-237 | Alt-161   | Alt-161          | Alt-161                |
-| l acute      | Alt-146 | Alt-229        | Alt-168 | Alt-141   | No key assigned  | Alt-233                |
-| l caron      | Alt-150 | Alt-190        | Alt-169 | Alt-140   | No key assigned  | Alt-235                |
-| n caron      | Alt-229 | Alt-242        | Alt-172 | Alt-164   | Alt-239          | Alt-238                |
-| o acute      | Alt-162 | Alt-243        | Alt-243 | Alt-162   | Alt-162          | Alt-162                |
-| o circumflex | Alt-147 | Alt-244        | Alt-244 | Alt-147   | Alt-147          | Alt-147                |
-| r acute      | Alt-234 | Alt-224        | Alt-175 | Alt-170   | No key assigned  | Alt-241                |
-| s caron      | Alt-231 | Alt-154        | Alt-178 | Alt-168   | Alt-229          | Alt-244                |
-| t caron      | Alt-156 | Alt-157        | Alt-180 | Alt-159   | Alt-235          | Alt-246                |
-| u acute      | Alt-163 | Alt-163        | Alt-250 | Alt-163   | Alt-163          | Alt-163                |
-| y acute      | Alt-236 | Alt-253        | Alt-253 | Alt-152   | Alt-140          | Alt-155                |
-| z caron      | Alt-167 | Alt-158        | Alt-186 | Alt-145   | Alt-233          | Alt-254                |
+| Glyph        | Codes   | Windows CP1250 | Cork    |
+|--------------|---------|----------------|---------|
+| A acute      | Alt-181 | Alt-193        | Alt-193 |
+| A dieresis   | Alt-142 | Alt-196        | Alt-196 |
+| C caron      | Alt-172 | Alt-200        | Alt-131 |
+| D caron      | Alt-210 | Alt-207        | Alt-132 |
+| E acute      | Alt-144 | Alt-201        | Alt-201 |
+| I acute      | Alt-214 | Alt-205        | Alt-205 |
+| L acute      | Alt-145 | Alt-197        | Alt-136 |
+| L caron      | Alt-149 | Alt-188        | Alt-137 |
+| N caron      | Alt-213 | Alt-210        | Alt-140 |
+| O acute      | Alt-224 | Alt-211        | Alt-221 |
+| O circumflex | Alt-226 | Alt-226        | Alt-212 |
+| R acute      | Alt-232 | Alt-192        | Alt-143 |
+| S caron      | Alt-230 | Alt-238        | Alt-146 |
+| T caron      | Alt-155 | Alt-141        | Alt-148 |
+| U acute      | Alt-233 | Alt-218        | Alt-218 |
+| Y acute      | Alt-237 | Alt-221        | Alt-221 |
+| Z caron      | Alt-166 | Alt-142        | Alt-154 |
+| a acute      | Alt-160 | Alt-225        | Alt-225 |
+| a dieresis   | Alt-132 | Alt-228        | Alt-228 |
+| c caron      | Alt-159 | Alt-232        | Alt-163 |
+| d caron      | Alt-212 | Alt-212        | Alt-164 |
+| e acute      | Alt-130 | Alt-233        | Alt-233 |
+| i acute      | Alt-161 | Alt-237        | Alt-237 |
+| l acute      | Alt-146 | Alt-229        | Alt-168 |
+| l caron      | Alt-150 | Alt-190        | Alt-169 |
+| n caron      | Alt-229 | Alt-242        | Alt-172 |
+| o acute      | Alt-162 | Alt-243        | Alt-243 |
+| o circumflex | Alt-147 | Alt-244        | Alt-244 |
+| r acute      | Alt-234 | Alt-224        | Alt-175 |
+| s caron      | Alt-231 | Alt-154        | Alt-178 |
+| t caron      | Alt-156 | Alt-157        | Alt-180 |
+| u acute      | Alt-163 | Alt-163        | Alt-250 |
+| y acute      | Alt-236 | Alt-253        | Alt-253 |
+| z caron      | Alt-167 | Alt-158        | Alt-186 |
 
 ### Polish - Typed as usual on Polish keyboards
 This language can be written when used with CP775 (Mazovia encoding).
@@ -104,48 +102,48 @@ Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities
 
 URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with Adobe Standard Encoding. This codepoint is used for the Slovak diacritic small l caron. Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
 
-| Glyph       | Codes   | Windows CP1250 | Cork    | CSK     | CYfromat | DHN     | IEA     | LinguaFont Polish | Logic   | Mazovia | Microvex | TITUS Eastern European |
-|-------------|---------|----------------|---------|---------|----------|---------|---------|-------------------|---------|---------|----------|------------------------|
-| A ogonek    | Alt-164 | Alt-165        | Alt-129 | Alt-128 | Alt-128  | Alt-128 | Alt-143 | Alt-238           | Alt-128 | Alt-143 | Alt-143  | Alt-169                |
-| C acute     | Alt-143 | Alt-198        | Alt-130 | Alt-129 | Alt-129  | Alt-129 | Alt-128 | Alt-226           | Alt-129 | Alt-149 | Alt-128  | Alt-171                |
-| E ogonek    | Alt-168 | Alt-202        | Alt-134 | Alt-130 | Alt-130  | Alt-130 | Alt-144 | Alt-240           | Alt-130 | Alt-144 | Alt-144  | Alt-179                |
-| L stroke    | Alt-157 | Alt-163        | Alt-138 | Alt-131 | Alt-131  | Alt-131 | Alt-156 | Alt-236           | Alt-131 | Alt-156 | Alt-156  | Alt-188                |
-| N acute     | Alt-227 | Alt-209        | Alt-139 | Alt-132 | Alt-132  | Alt-132 | Alt-165 | Alt-234           | Alt-132 | Alt-165 | Alt-165  | Alt-192                |
-| O acute     | Alt-224 | Alt-211        | Alt-211 | Alt-133 | Alt-133  | Alt-133 | Alt-147 | Alt-242           | Alt-133 | Alt-163 | Alt-147  | Alt-195                |
-| S acute     | Alt-151 | Alt-140        | Alt-145 | Alt-134 | Alt-134  | Alt-134 | Alt-152 | Alt-228           | Alt-134 | Alt-152 | Alt-152  | Alt-200                |
-| Z acute     | Alt-141 | Alt-143        | Alt-153 | Alt-136 | Alt-136  | Alt-136 | Alt-157 | Alt-232           | Alt-135 | Alt-160 | Alt-157  | Alt-212                |
-| Z dot above | Alt-189 | Alt-175        | Alt-155 | Alt-135 | Alt-135  | Alt-135 | Alt-146 | Alt-230           | Alt-136 | Alt-161 | Alt-146  | Alt-213                |
-| a ogonek    | Alt-165 | Alt-185        | Alt-161 | Alt-160 | Alt-144  | Alt-137 | Alt-160 | Alt-239           | Alt-137 | Alt-134 | Alt-160  | Alt-217                |
-| c acute     | Alt-134 | Alt-230        | Alt-162 | Alt-161 | Alt-145  | Alt-138 | Alt-155 | Alt-227           | Alt-138 | Alt-141 | Alt-155  | Alt-219                |
-| e ogonek    | Alt-169 | Alt-234        | Alt-166 | Alt-162 | Alt-146  | Alt-139 | Alt-130 | Alt-241           | Alt-139 | Alt-145 | Alt-130  | Alt-164                |
-| l stroke    | Alt-136 | Alt-136        | Alt-170 | Alt-163 | Alt-147  | Alt-140 | Alt-159 | Alt-237           | Alt-140 | Alt-146 | Alt-159  | Alt-234                |
-| n acute     | Alt-228 | Alt-228        | Alt-171 | Alt-164 | Alt-148  | Alt-141 | Alt-164 | Alt-235           | Alt-141 | Alt-164 | Alt-164  | Alt-237                |
-| o acute     | Alt-162 | Alt-243        | Alt-243 | Alt-165 | Alt-149  | Alt-142 | Alt-162 | Alt-243           | Alt-142 | Alt-162 | Alt-162  | Alt-162                |
-| s acute     | Alt-152 | Alt-156        | Alt-177 | Alt-166 | Alt-150  | Alt-143 | Alt-135 | Alt-229           | Alt-143 | Alt-158 | Alt-135  | Alt-243                |
-| z acute     | Alt-171 | Alt-159        | Alt-185 | Alt-168 | Alt-152  | Alt-145 | Alt-168 | Alt-233           | Alt-144 | Alt-166 | Alt-168  | Alt-252                |
-| z dot above | Alt-190 | Alt-191        | Alt-187 | Alt-167 | Alt-151  | Alt-144 | Alt-145 | Alt-231           | Alt-145 | Alt-167 | Alt-145  | Alt-253                |
+| Glyph       | Codes   | Windows CP1250 | Cork    | CSK     | CYfromat | DHN     | IEA     | Logic   | Mazovia | Microvex |
+|-------------|---------|----------------|---------|---------|----------|---------|---------|---------|---------|----------|
+| A ogonek    | Alt-164 | Alt-165        | Alt-129 | Alt-128 | Alt-128  | Alt-128 | Alt-143 | Alt-128 | Alt-143 | Alt-143  |
+| C acute     | Alt-143 | Alt-198        | Alt-130 | Alt-129 | Alt-129  | Alt-129 | Alt-128 | Alt-129 | Alt-149 | Alt-128  |
+| E ogonek    | Alt-168 | Alt-202        | Alt-134 | Alt-130 | Alt-130  | Alt-130 | Alt-144 | Alt-130 | Alt-144 | Alt-144  |
+| L stroke    | Alt-157 | Alt-163        | Alt-138 | Alt-131 | Alt-131  | Alt-131 | Alt-156 | Alt-131 | Alt-156 | Alt-156  |
+| N acute     | Alt-227 | Alt-209        | Alt-139 | Alt-132 | Alt-132  | Alt-132 | Alt-165 | Alt-132 | Alt-165 | Alt-165  |
+| O acute     | Alt-224 | Alt-211        | Alt-211 | Alt-133 | Alt-133  | Alt-133 | Alt-147 | Alt-133 | Alt-163 | Alt-147  |
+| S acute     | Alt-151 | Alt-140        | Alt-145 | Alt-134 | Alt-134  | Alt-134 | Alt-152 | Alt-134 | Alt-152 | Alt-152  |
+| Z acute     | Alt-141 | Alt-143        | Alt-153 | Alt-136 | Alt-136  | Alt-136 | Alt-157 | Alt-135 | Alt-160 | Alt-157  |
+| Z dot above | Alt-189 | Alt-175        | Alt-155 | Alt-135 | Alt-135  | Alt-135 | Alt-146 | Alt-136 | Alt-161 | Alt-146  |
+| a ogonek    | Alt-165 | Alt-185        | Alt-161 | Alt-160 | Alt-144  | Alt-137 | Alt-160 | Alt-137 | Alt-134 | Alt-160  |
+| c acute     | Alt-134 | Alt-230        | Alt-162 | Alt-161 | Alt-145  | Alt-138 | Alt-155 | Alt-138 | Alt-141 | Alt-155  |
+| e ogonek    | Alt-169 | Alt-234        | Alt-166 | Alt-162 | Alt-146  | Alt-139 | Alt-130 | Alt-139 | Alt-145 | Alt-130  |
+| l stroke    | Alt-136 | Alt-136        | Alt-170 | Alt-163 | Alt-147  | Alt-140 | Alt-159 | Alt-140 | Alt-146 | Alt-159  |
+| n acute     | Alt-228 | Alt-228        | Alt-171 | Alt-164 | Alt-148  | Alt-141 | Alt-164 | Alt-141 | Alt-164 | Alt-164  |
+| o acute     | Alt-162 | Alt-243        | Alt-243 | Alt-165 | Alt-149  | Alt-142 | Alt-162 | Alt-142 | Alt-162 | Alt-162  |
+| s acute     | Alt-152 | Alt-156        | Alt-177 | Alt-166 | Alt-150  | Alt-143 | Alt-135 | Alt-143 | Alt-158 | Alt-135  |
+| z acute     | Alt-171 | Alt-159        | Alt-185 | Alt-168 | Alt-152  | Alt-145 | Alt-168 | Alt-144 | Alt-166 | Alt-168  |
+| z dot above | Alt-190 | Alt-191        | Alt-187 | Alt-167 | Alt-151  | Alt-144 | Alt-145 | Alt-145 | Alt-167 | Alt-145  |
 
 ### Hungarian - Typed as usual on Hungarian keyboards
-| Glyph          | Codes   | Windows CP1250 | Cork    | CP3845  | CWI-2           | LinguaFont Hungarian | TITUS Eastern European |
-|----------------|---------|----------------|---------|---------|-----------------|----------------------|------------------------|
-| A acute        | Alt-181 | Alt-193        | Alt-193 | Alt-143 | Alt-143         | Alt-226              | Alt-165                |
-| E acute        | Alt-144 | Alt-201        | Alt-201 | Alt-144 | Alt-144         | Alt-144              | Alt-144                |
-| I acute        | Alt-214 | Alt-205        | Alt-205 | Alt-141 | No key assigned | Alt-237              | Alt-182                |
-| O acute        | Alt-224 | Alt-211        | Alt-211 | Alt-149 | Alt-149         | Alt-231              | Alt-195                |
-| O dieresis     | Alt-153 | Alt-214        | Alt-214 | Alt-153 | Alt-153         | Alt-153              | Alt-153                |
-| O double acute | Alt-138 | Alt-213        | Alt-142 | Alt-167 | Alt-248         | Alt-233              | Alt-197                |
-| U acute        | Alt-233 | Alt-218        | Alt-218 | Alt-151 | No key assigned | Alt-236              | Alt-205                |
-| U dieresis     | Alt-154 | Alt-220        | Alt-220 | Alt-154 | Alt-154         | Alt-154              | Alt-154                |
-| U double acute | Alt-235 | Alt-219        | Alt-150 | Alt-152 | Alt-152         | Alt-235              | Alt-208                |
-| a acute        | Alt-160 | Alt-225        | Alt-225 | Alt-160 | Alt-160         | Alt-160              | Alt-160                |
-| e acute        | Alt-130 | Alt-233        | Alt-233 | Alt-130 | Alt-130         | Alt-130              | Alt-130                |
-| i acute        | Alt-161 | Alt-237        | Alt-237 | Alt-161 | Alt-161         | Alt-161              | Alt-161                |
-| o acute        | Alt-162 | Alt-243        | Alt-243 | Alt-162 | Alt-162         | Alt-162              | Alt-162                |
-| o dieresis     | Alt-148 | Alt-246        | Alt-246 | Alt-148 | Alt-148         | Alt-148              | Alt-148                |
-| o double acute | Alt-139 | Alt-245        | Alt-174 | Alt-240 | Alt-147         | Alt-147              | Alt-240                |
-| u acute        | Alt-163 | Alt-163        | Alt-250 | Alt-163 | Alt-163         | Alt-163              | Alt-163                |
-| u dieresis     | Alt-129 | Alt-252        | Alt-252 | Alt-129 | Alt-129         | Alt-129              | Alt-129                |
-| u double acute | Alt-251 | Alt-251        | Alt-182 | Alt-150 | Alt-150         | Alt-150              | Alt-250                |
+| Glyph          | Codes   | Windows CP1250 | Cork    | CP3845  | CWI-2           |
+|----------------|---------|----------------|---------|---------|-----------------|
+| A acute        | Alt-181 | Alt-193        | Alt-193 | Alt-143 | Alt-143         |
+| E acute        | Alt-144 | Alt-201        | Alt-201 | Alt-144 | Alt-144         |
+| I acute        | Alt-214 | Alt-205        | Alt-205 | Alt-141 | No key assigned |
+| O acute        | Alt-224 | Alt-211        | Alt-211 | Alt-149 | Alt-149         |
+| O dieresis     | Alt-153 | Alt-214        | Alt-214 | Alt-153 | Alt-153         |
+| O double acute | Alt-138 | Alt-213        | Alt-142 | Alt-167 | Alt-248         |
+| U acute        | Alt-233 | Alt-218        | Alt-218 | Alt-151 | No key assigned |
+| U dieresis     | Alt-154 | Alt-220        | Alt-220 | Alt-154 | Alt-154         |
+| U double acute | Alt-235 | Alt-219        | Alt-150 | Alt-152 | Alt-152         |
+| a acute        | Alt-160 | Alt-225        | Alt-225 | Alt-160 | Alt-160         |
+| e acute        | Alt-130 | Alt-233        | Alt-233 | Alt-130 | Alt-130         |
+| i acute        | Alt-161 | Alt-237        | Alt-237 | Alt-161 | Alt-161         |
+| o acute        | Alt-162 | Alt-243        | Alt-243 | Alt-162 | Alt-162         |
+| o dieresis     | Alt-148 | Alt-246        | Alt-246 | Alt-148 | Alt-148         |
+| o double acute | Alt-139 | Alt-245        | Alt-174 | Alt-240 | Alt-147         |
+| u acute        | Alt-163 | Alt-163        | Alt-250 | Alt-163 | Alt-163         |
+| u dieresis     | Alt-129 | Alt-252        | Alt-252 | Alt-129 | Alt-129         |
+| u double acute | Alt-251 | Alt-251        | Alt-182 | Alt-150 | Alt-150         |
 
 #### Notes when writing Hungarian with URW Palladio KUL
 **Note 1**: Double acute o and u are accessible ONLY through the free floating accent ˝ (#135) e.g. via the overstrike utility of WordPerfect.
@@ -169,36 +167,36 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
 
-| Glyph    | Codes   | Windows CP1250 | Cork    | CP113   | TITUS Eastern European |
-|----------|---------|----------------|---------|---------|------------------------|
-| C acute  | Alt-143 | Alt-198        | Alt-130 | Alt-143 | Alt-171                |
-| C caron  | Alt-172 | Alt-200        | Alt-131 | Alt-146 | Alt-170                |
-| D stroke | Alt-209 | Alt-208        | Alt-208 | Alt-157 | Alt-172                |
-| S caron  | Alt-230 | Alt-238        | Alt-146 | Alt-165 | Alt-201                |
-| Z caron  | Alt-166 | Alt-142        | Alt-154 | Alt-167 | Alt-214                |
-| c acute  | Alt-134 | Alt-230        | Alt-162 | Alt-134 | Alt-219                |
-| c caron  | Alt-159 | Alt-232        | Alt-163 | Alt-145 | Alt-218                |
-| d stroke | Alt-208 | Alt-240        | Alt-158 | Alt-155 | Alt-220                |
-| s caron  | Alt-231 | Alt-154        | Alt-178 | Alt-164 | Alt-244                |
-| z caron  | Alt-167 | Alt-158        | Alt-186 | Alt-166 | Alt-254                |
+| Glyph    | Codes   | Windows CP1250 | Cork    | CP113   |
+|----------|---------|----------------|---------|---------|
+| C acute  | Alt-143 | Alt-198        | Alt-130 | Alt-143 |
+| C caron  | Alt-172 | Alt-200        | Alt-131 | Alt-146 |
+| D stroke | Alt-209 | Alt-208        | Alt-208 | Alt-157 |
+| S caron  | Alt-230 | Alt-238        | Alt-146 | Alt-165 |
+| Z caron  | Alt-166 | Alt-142        | Alt-154 | Alt-167 |
+| c acute  | Alt-134 | Alt-230        | Alt-162 | Alt-134 |
+| c caron  | Alt-159 | Alt-232        | Alt-163 | Alt-145 |
+| d stroke | Alt-208 | Alt-240        | Alt-158 | Alt-155 |
+| s caron  | Alt-231 | Alt-154        | Alt-178 | Alt-164 |
+| z caron  | Alt-167 | Alt-158        | Alt-186 | Alt-166 |
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
 Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
 
 One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
-| Glyph        | Codes   | Windows CP1250 | Cork    | ILPRumanianB100      | TITUS Eastern European |
-|--------------|---------|----------------|---------|----------------------|------------------------|
-| A circumflex | Alt-182 | Alt-194        | Alt-194 | tilde                | Alt-167                |
-| A breve      | Alt-198 | Alt-195        | Alt-128 | Q                    | Alt-166                |
-| I circumflex | Alt-215 | Alt-206        | Alt-206 | vertical line        | Alt-183                |
-| S cedilla    | Alt-184 | Alt-170        | Alt-147 | left curly bracket   | Alt-202                |
-| T cedilla    | Alt-221 | Alt-222        | Alt-149 | right curly bracket  | Alt-204                |
-| a circumflex | Alt-131 | Alt-226        | Alt-226 | grave accent         | Alt-131                |
-| a breve      | Alt-199 | Alt-227        | Alt-160 | q                    | Alt-215                |
-| i circumflex | Alt-140 | Alt-238        | Alt-238 | backslash            | Alt-140                |
-| s cedilla    | Alt-173 | Alt-186        | Alt-179 | left square bracket  | Alt-245                |
-| t cedilla    | Alt-238 | Alt-254        | Alt-181 | right square bracket | Alt-247                |
+| Glyph        | Codes   | Windows CP1250 | Cork    | ILPRumanianB100      |
+|--------------|---------|----------------|---------|----------------------|
+| A circumflex | Alt-182 | Alt-194        | Alt-194 | tilde                |
+| A breve      | Alt-198 | Alt-195        | Alt-128 | Q                    |
+| I circumflex | Alt-215 | Alt-206        | Alt-206 | vertical line        |
+| S cedilla    | Alt-184 | Alt-170        | Alt-147 | left curly bracket   |
+| T cedilla    | Alt-221 | Alt-222        | Alt-149 | right curly bracket  |
+| a circumflex | Alt-131 | Alt-226        | Alt-226 | grave accent         |
+| a breve      | Alt-199 | Alt-227        | Alt-160 | q                    |
+| i circumflex | Alt-140 | Alt-238        | Alt-238 | backslash            |
+| s cedilla    | Alt-173 | Alt-186        | Alt-179 | left square bracket  |
+| t cedilla    | Alt-238 | Alt-254        | Alt-181 | right square bracket |
 
 ### Istro/Megleno-Romanian
 | Glyph         | Codes   |
@@ -217,32 +215,32 @@ One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (
 | t comma below | Alt-238 |
 
 ### Albanian - Typed as usual on Albanian keyboards
-| Glyph      | Code    | Windows CP1250 | Cork    | TITUS Eastern European |
-|------------|---------|----------------|---------|------------------------|
-| C cedilla  | Alt-128 | Alt-199        | Alt-199 | Alt-128                |
-| E dieresis | Alt-211 | Alt-203        | Alt-203 | Alt-178                |
-| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135                |
-| e dieresis | Alt-137 | Alt-235        | Alt-235 | Alt-137                |
+| Glyph      | Code    | Windows CP1250 | Cork    |
+|------------|---------|----------------|---------|
+| C cedilla  | Alt-128 | Alt-199        | Alt-199 |
+| E dieresis | Alt-211 | Alt-203        | Alt-203 |
+| c cedilla  | Alt-135 | Alt-231        | Alt-231 |
+| e dieresis | Alt-137 | Alt-235        | Alt-235 |
 
 ### Turkmen
-| Glyph      | Code    | Windows CP1250 | Cork    | TITUS Eastern European | Turkic Latin |
-|------------|---------|----------------|---------|------------------------|--------------|
-| A dieresis | Alt-142 | Alt-196        | Alt-196 | Alt-142                | Alt-142      |
-| C cedilla  | Alt-128 | Alt-199        | Alt-199 | Alt-128                | Alt-128      |
-| N caron    | Alt-213 | Alt-210        | Alt-140 | Alt-193                | Alt-222      |
-| O dieresis | Alt-153 | Alt-214        | Alt-214 | Alt-153                | Alt-153      |
-| S cedilla  | Alt-184 | Alt-170        | Alt-147 | Alt-202                | Alt-158      |
-| U dieresis | Alt-154 | Alt-220        | Alt-220 | Alt-154                | Alt-154      |
-| Y acute    | Alt-237 | Alt-221        | Alt-221 | Alt-211                | Alt-143      |
-| Z caron    | Alt-166 | Alt-142        | Alt-154 | Alt-214                | Alt-157      |
-| a dieresis | Alt-132 | Alt-228        | Alt-228 | Alt-132                | Alt-132      |
-| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135                | Alt-135      |
-| n caron    | Alt-229 | Alt-242        | Alt-172 | Alt-238                | Alt-236      |
-| o dieresis | Alt-148 | Alt-246        | Alt-246 | Alt-148                | Alt-148      |
-| s cedilla  | Alt-173 | Alt-186        | Alt-179 | Alt-245                | Alt-159      |
-| u dieresis | Alt-129 | Alt-252        | Alt-252 | Alt-129                | Alt-129      |
-| y acute    | Alt-236 | Alt-253        | Alt-253 | Alt-155                | Alt-134      |
-| z caron    | Alt-167 | Alt-158        | Alt-186 | Alt-254                | Alt-155      |
+| Glyph      | Code    | Windows CP1250 | Cork    | Turkic Latin |
+|------------|---------|----------------|---------|--------------|
+| A dieresis | Alt-142 | Alt-196        | Alt-196 | Alt-142      |
+| C cedilla  | Alt-128 | Alt-199        | Alt-199 | Alt-128      |
+| N caron    | Alt-213 | Alt-210        | Alt-140 | Alt-222      |
+| O dieresis | Alt-153 | Alt-214        | Alt-214 | Alt-153      |
+| S cedilla  | Alt-184 | Alt-170        | Alt-147 | Alt-158      |
+| U dieresis | Alt-154 | Alt-220        | Alt-220 | Alt-154      |
+| Y acute    | Alt-237 | Alt-221        | Alt-221 | Alt-143      |
+| Z caron    | Alt-166 | Alt-142        | Alt-154 | Alt-157      |
+| a dieresis | Alt-132 | Alt-228        | Alt-228 | Alt-132      |
+| c cedilla  | Alt-135 | Alt-231        | Alt-231 | Alt-135      |
+| n caron    | Alt-229 | Alt-242        | Alt-172 | Alt-236      |
+| o dieresis | Alt-148 | Alt-246        | Alt-246 | Alt-148      |
+| s cedilla  | Alt-173 | Alt-186        | Alt-179 | Alt-159      |
+| u dieresis | Alt-129 | Alt-252        | Alt-252 | Alt-129      |
+| y acute    | Alt-236 | Alt-253        | Alt-253 | Alt-134      |
+| z caron    | Alt-167 | Alt-158        | Alt-186 | Alt-155      |
 
 ### Kashubian - CP58335
 | Glyph        | Codes   |
@@ -279,29 +277,29 @@ One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (
 | z dot above  | Alt-167 |
 
 ### Spacing Accents
-| Glyph        | Codes   | Windows CP1250 | Cork    | LinguaFont Czech | LinguaFont Polish |
-|--------------|---------|----------------|---------|------------------|-------------------|
-| acute        | Alt-239 | Alt-180        | Alt-001 | No key assigned  | Alt-245           |
-| diaeresis    | Alt-249 | Alt-168        | Alt-004 | No key assigned  | No key assigned   |
-| háček/caron  | Alt-243 | Alt-161        | Alt-007 | Alt-241          | No key assigned   |
-| breve        | Alt-244 | Alt-162        | Alt-008 | No key assigned  | No key assigned   |
-| double acute | Alt-241 | Alt-189        | Alt-005 | No key assigned  | No key assigned   |
-| dot above    | Alt-250 | Alt-255        | Alt-010 | No key assigned  | No key assigned   |
-| cedilla      | Alt-247 | Alt-168        | Alt-011 | No key assigned  | No key assigned   |
-| ogonek       | Alt-242 | Alt-178        | Alt-012 | No key assigned  | Alt-244           |
+| Glyph        | Codes   | Windows CP1250 | Cork    |
+|--------------|---------|----------------|---------|
+| acute        | Alt-239 | Alt-180        | Alt-001 |
+| diaeresis    | Alt-249 | Alt-168        | Alt-004 |
+| háček/caron  | Alt-243 | Alt-161        | Alt-007 |
+| breve        | Alt-244 | Alt-162        | Alt-008 |
+| double acute | Alt-241 | Alt-189        | Alt-005 |
+| dot above    | Alt-250 | Alt-255        | Alt-010 |
+| cedilla      | Alt-247 | Alt-168        | Alt-011 |
+| ogonek       | Alt-242 | Alt-178        | Alt-012 |
 
 ### Printer's Specials
-| Glyph              | Codes           | Windows CP1250  | TITUS Eastern European | CP3845          |
-|--------------------|-----------------|-----------------|------------------------|-----------------|
-| non-breaking space | Alt-255         | Alt-160         | Alt-255                | Alt-255         |
-| sharp s            | Alt-225         | Alt-223         | Alt-225                | Alt-225         |
-| Euro               | Alt-170         | Alt-128         | No key assigned        | No key assigned |
-| Ft                 | No key assigned | No key assigned | No key assigned        | Alt-159         |
-| currency           | Alt-207         | Alt-164         | No key assigned        | No key assigned |
-| section            | Alt-245         | Alt-187         | No key assigned        | No key assigned |
-| guillemotleft      | Alt-174         | Alt-171         | No key assigned        | Alt-174         |
-| guillemotright     | Alt-175         | Alt-187         | No key assigned        | Alt-175         |
-| degree             | Alt-248         | Alt-176         | No key assigned        | Alt-248         |
-| multiply           | Alt-158         | Alt-215         | No key assigned        | No key assigned |
-| division           | Alt-246         | Alt-247         | No key assigned        | Alt-246         |
-| soft hyphen        | Alt-240         | Alt-173         | No key assigned        | No key assigned |
+| Glyph              | Codes           | Windows CP1250  | CP3845          |
+|--------------------|-----------------|-----------------|-----------------|
+| non-breaking space | Alt-255         | Alt-160         | Alt-255         |
+| sharp s            | Alt-225         | Alt-223         | Alt-225         |
+| Euro               | Alt-170         | Alt-128         | No key assigned |
+| Ft                 | No key assigned | No key assigned | Alt-159         |
+| currency           | Alt-207         | Alt-164         | No key assigned |
+| section            | Alt-245         | Alt-187         | No key assigned |
+| guillemotleft      | Alt-174         | Alt-171         | Alt-174         |
+| guillemotright     | Alt-175         | Alt-187         | Alt-175         |
+| degree             | Alt-248         | Alt-176         | Alt-248         |
+| multiply           | Alt-158         | Alt-215         | No key assigned |
+| division           | Alt-246         | Alt-247         | Alt-246         |
+| soft hyphen        | Alt-240         | Alt-173         | No key assigned |

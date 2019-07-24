@@ -57,15 +57,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CHUVLAT   | Chuvash (Latin)                                |
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
-| CZECHLF   | LinguaFont Czech                               |
 | EDA_CODE  | EDA editor encoding                            |
 | EVAFONT   | EVAFONT Encoding                               |
-| GAEILGE1  | Gaeilge1                                       |
-| GAEILGE2  | Gaeilge2                                       |
 | GEM       | GEM Encoding                                   |
-| GREEK     | Greek (ABCGRL encoding)                        |
 | HELS_SYM  | LinguaFont Helsinki keyboard                   |
-| HUNGARIA  | LinguaFont Hungarian                           |
 | ILPROM    | ILPRumanianB100                                |
 | IR-197    | ISO-IR 197 Sámi                                |
 | ISTROMEG  | Istro/Megleno-Romanian                         |
@@ -76,14 +71,12 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LFEN_OLD  | LinguaFont Old English                        |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
-| LFTR      | LinguaFont Turkish                             |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACBACYR  | Apple Barents Cyrillic                         |
 | MACCEL    | Apple Celtic                                   |
 | MACIRISH  | Apple Irish Gaelic                             |
 | MACRUS    | Apple Accented Russian                         |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
-| POLISHLF  | LinguaFont Polish                              |
 | RISCL1    | RISC OS Latin-1                                |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
@@ -93,9 +86,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | T2C       | TeX Cyrillic Encoding 3                        |
 | TEX-GR    | TeX Greek                                      |
 | TEX-MATH  | TeX Math                                       |
-| TEX-PL    | TeX Polish (T4)                                |
-| TEXNANSI  | TeX & ANSI                                     |
-| TITUSEE   | TITUS Eastern European                         |
 | TURKLAT   | Turkic Latin                                   |
 | VGAF_HY   | VGAFONT Armenian                               |
 | WAKHI     | Wakhi                                          |
