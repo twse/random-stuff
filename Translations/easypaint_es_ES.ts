@@ -101,8 +101,6 @@
         <translation>&amp;Nuevo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="155"/>
-
         <location filename="../mainwindow.cpp" line="134"/>
         <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
@@ -151,9 +149,8 @@
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="203"/>
-
         <location filename="../mainwindow.cpp" line="188"/>
+        <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Undo</source>
         <translation>&amp;Deshacer</translation>
     </message>
@@ -219,6 +216,31 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
+        <source>Cursor</source>
+        <translation>Cursora</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="242"/>
+        <source>Selection</source>
+        <translation>Selección</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="249"/>
+        <source>Eraser</source>
+        <translation>Lastico</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="256"/>
+        <source>Color picker</source>
+        <translation>Selecionnar color</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="263"/>
+        <source>Magnifier</source>
+        <translation>Lupa</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="270"/>
         <source>Pen</source>
         <translation>Pluma</translation>
     </message>
@@ -227,7 +249,7 @@
 
         <location filename="../mainwindow.cpp" line="267"/>
         <source>Line</source>
-        <translation>Lina</translation>
+        <translation>Linia</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="284"/>
@@ -458,7 +480,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Si ustedes gusta &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o</translation>
+        <translation>Si ustedes gustar a &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o reportar una error, o sugestir nuevos características, estamos esperandos para vos en el</translation>
     </message>
 </context>
 <context>
