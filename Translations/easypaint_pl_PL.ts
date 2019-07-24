@@ -45,10 +45,6 @@
         <location filename="../imagearea.cpp" line="214"/>
         <source>Can&apos;t open file &quot;%1&quot;.</source>
         <translation>Nie można otworzyć pliku „%1”.</translation>
-<<<<<<< HEAD
-        <translation>Nie można otworzyć pliku &quot;%1&quot;.</translation>
-=======
->>>>>>> 11c8a60 (Use curly quotes on Polish translation.)
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -61,15 +57,12 @@
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
         <translation>Nie można zapisać pliku „%1”.</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
 
         <location filename="../imagearea.cpp" line="155"/>
         <translation>Nie można zapisać pliku &quot;%1&quot;.</translation>
-=======
->>>>>>> 11c8a60 (Use curly quotes on Polish translation.)
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
@@ -77,11 +70,6 @@
         <translation>Obraz bez tytułu</translation>
     </message>
     <message>
-        <location filename="../imagearea.cpp" line="244"/>
-        <source>Save image...</source>
-        <translation>Zapisz obraz...</translation>
-    </message>
-
         <location filename="../imagearea.cpp" line="157"/>
         <location filename="../imagearea.cpp" line="244"/>
         <source>Save image...</source>
@@ -266,7 +254,7 @@
         <location filename="../mainwindow.cpp" line="272"/>
         <location filename="../mainwindow.cpp" line="284"/>
         <source>Spray</source>
-        <translation>Spray</translation>
+        <translation>Mgiełka</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="277"/>
@@ -293,7 +281,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation>Kurv</translation>
+        <translation>Krzywa</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
@@ -350,17 +338,11 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="364"/>
-
-
         <location filename="../mainwindow.cpp" line="304"/>
-
-
         <source>&amp;Tools</source>
         <translation>&amp;Narzędzia</translation>
     </message>
     <message>
-
-
         <location filename="../mainwindow.cpp" line="366"/>
         <source>Image size...</source>
         <translation>Rozmiar obrazu...</translation>
@@ -376,16 +358,6 @@
         <location filename="../mainwindow.cpp" line="306"/>
         <source>Image size</source>
         <translation>Rozmiar obrazu</translation>
-
-        <location filename="../mainwindow.cpp" line="366"/>
-        <source>Image size...</source>
-        <translation>Rozmiar obrazu...</translation>
-
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="370"/>
-        <source>Canvas size...</source>
-        <translation>Rozmiar płótna...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="374"/>
@@ -430,6 +402,8 @@
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Left</source>
         <translation>Lewo</translation>
+    </message>
+    <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
         <translation>W lewo</translation>
@@ -491,22 +465,12 @@
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
         <translation>Współczynnik powiększenia:</translation>
-
-        <translation>Współczynnik powiększenia</translation>
-
-=======
-        <translation>Współczynnik powiększenia:</translation>
->>>>>>> 11c8a60 (Use curly quotes on Polish translation.)
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
         <location filename="../mainwindow.cpp" line="728"/>
-
-
         <location filename="../mainwindow.cpp" line="491"/>
         <location filename="../mainwindow.cpp" line="539"/>
-
-
         <source>Closing Tab...</source>
         <translation>Zakładka zamykanie...</translation>
     </message>
@@ -518,10 +482,8 @@
 
         <location filename="../mainwindow.cpp" line="492"/>
         <location filename="../mainwindow.cpp" line="540"/>
-
         <location filename="../mainwindow.cpp" line="672"/>
         <location filename="../mainwindow.cpp" line="729"/>
-
         <source>File has been modified.
 Do you want to save changes?</source>
         <translation>Plik został zmodyfikowany.
@@ -576,8 +538,8 @@ Czy chcesz zapisać zmiany?</translation>
         <location filename="../widgets/palettebar.cpp" line="30"/>
         <source>Colors</source>
         <translation>Kolory</translation>
-
-
+    </message>
+    <message>
         <source>0.0.1</source>
         <translation type="obsolete">0.0.1</translation>
     </message>
@@ -585,113 +547,74 @@ Czy chcesz zapisać zmiany?</translation>
 <context>
     <name>ResizeDialog</name>
     <message>
-
-
         <location filename="../dialogs/resizedialog.cpp" line="44"/>
 
         <location filename="../resizedialog.cpp" line="42"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="44"/>
-
         <source>Resize</source>
         <translation>Zmiana rozmiaru</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="49"/>
 
         <location filename="../resizedialog.cpp" line="47"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="49"/>
-
         <source>Original size:</source>
         <translation>Rozmiar oryginalny:</translation>
     </message>
     <message>
-
-
         <location filename="../dialogs/resizedialog.cpp" line="51"/>
 
         <location filename="../resizedialog.cpp" line="49"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="51"/>
-
         <source>New size:</source>
         <translation>Nowy rozmiar:</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="54"/>
 
         <location filename="../resizedialog.cpp" line="52"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="54"/>
-
         <source>Pixels</source>
         <translation>Piksely</translation>
     </message>
     <message>
-
 
         <location filename="../dialogs/resizedialog.cpp" line="68"/>
         <location filename="../dialogs/resizedialog.cpp" line="86"/>
 
         <location filename="../resizedialog.cpp" line="66"/>
         <location filename="../resizedialog.cpp" line="84"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="68"/>
-        <location filename="../dialogs/resizedialog.cpp" line="86"/>
-
         <source>Width:</source>
         <translation>Szerokość:</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="69"/>
 
         <location filename="../resizedialog.cpp" line="67"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="69"/>
-
         <source>x Height:</source>
         <translation>x Wysokość:</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="71"/>
 
         <location filename="../resizedialog.cpp" line="69"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="71"/>
-
         <source>Percent</source>
         <translation>Procent</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="87"/>
 
         <location filename="../resizedialog.cpp" line="85"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="87"/>
-
         <source>% x Height:</source>
         <translation>% x Wysokość:</translation>
     </message>
     <message>
 
-
         <location filename="../dialogs/resizedialog.cpp" line="88"/>
 
         <location filename="../resizedialog.cpp" line="86"/>
-
-        <location filename="../dialogs/resizedialog.cpp" line="88"/>
-
         <source>%</source>
         <translation>%</translation>
     </message>
@@ -762,7 +685,6 @@ Czy chcesz zapisać zmiany?</translation>
         <translation>Rozmiar bazowy:</translation>
     </message>
     <message>
-
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
 
         <location filename="../settingsdialog.cpp" line="93"/>
@@ -867,13 +789,11 @@ Czy chcesz zapisać zmiany?</translation>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
         <translation>Czy usunąć tekst?</translation>
-
-
+    </message>
+    <message>
         <location filename="../settingsdialog.cpp" line="127"/>
         <source>Main</source>
         <translation>Główny</translation>
-
-
     </message>
 </context>
 <context>
@@ -898,10 +818,6 @@ Czy chcesz zapisać zmiany?</translation>
 
         <location filename="../toolbar.cpp" line="102"/>
         <source>First color</source>
-        <location filename="../widgets/toolbar.cpp" line="88"/>
-        <location filename="../widgets/toolbar.cpp" line="89"/>
-        <source>Primary color</source>
-        <translation>Pierwszy kolor</translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="93"/>
