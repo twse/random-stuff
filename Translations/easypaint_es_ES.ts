@@ -99,8 +99,6 @@
         <translation>&amp;Nuevo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="155"/>
-
         <location filename="../mainwindow.cpp" line="134"/>
         <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
@@ -114,134 +112,69 @@
         <translation>&amp;Guardar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
         <location filename="../mainwindow.cpp" line="167"/>
 
         <location filename="../mainwindow.cpp" line="150"/>
-=======
-        <location filename="../mainwindow.cpp" line="167"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>Save as...</source>
         <translation>Guardar como...</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="173"/>
-
         <location filename="../mainwindow.cpp" line="158"/>
-=======
         <location filename="../mainwindow.cpp" line="173"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Close</source>
         <translation>&amp;Cerrar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="189"/>
-
         <location filename="../mainwindow.cpp" line="168"/>
-=======
         <location filename="../mainwindow.cpp" line="189"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Print</source>
         <translation>&amp;Imprimir</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="195"/>
-
         <location filename="../mainwindow.cpp" line="178"/>
-=======
         <location filename="../mainwindow.cpp" line="195"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Exit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="197"/>
-
         <location filename="../mainwindow.cpp" line="186"/>
-=======
         <location filename="../mainwindow.cpp" line="197"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Edit</source>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="203"/>
-
         <location filename="../mainwindow.cpp" line="188"/>
-=======
         <location filename="../mainwindow.cpp" line="203"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Undo</source>
         <translation>&amp;Deshacer</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="203"/>
-
         <location filename="../mainwindow.cpp" line="196"/>
-=======
         <location filename="../mainwindow.cpp" line="203"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Redo</source>
         <translation>&amp;Rehacer</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="211"/>
-
         <location filename="../mainwindow.cpp" line="206"/>
-=======
         <location filename="../mainwindow.cpp" line="211"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Copy</source>
         <translation>&amp;Copiar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="218"/>
-
         <location filename="../mainwindow.cpp" line="214"/>
-=======
         <location filename="../mainwindow.cpp" line="218"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Paste</source>
         <translation>&amp;Pegar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="224"/>
-
         <location filename="../mainwindow.cpp" line="222"/>
-=======
         <location filename="../mainwindow.cpp" line="224"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>C&amp;ut</source>
         <translation>C&amp;ortar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="233"/>
-
         <location filename="../mainwindow.cpp" line="232"/>
-=======
         <location filename="../mainwindow.cpp" line="233"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>&amp;Settings</source>
         <translation>&amp;Opciones</translation>
     </message>
@@ -252,8 +185,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
-<<<<<<< HEAD
-
         <source>Selection</source>
         <translation>Selección</translation>
     </message>
@@ -277,10 +208,11 @@
 
         <source>Cursor</source>
         <translation>Cursora</translation>
-=======
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="242"/>
         <source>Selection</source>
         <translation>Selección</translation>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="249"/>
@@ -303,44 +235,24 @@
         <translation>Pluma</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="277"/>
-
         <location filename="../mainwindow.cpp" line="267"/>
-=======
         <location filename="../mainwindow.cpp" line="277"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>Line</source>
-        <translation>Lina</translation>
+        <translation>Linia</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="284"/>
-
         <location filename="../mainwindow.cpp" line="272"/>
-=======
         <location filename="../mainwindow.cpp" line="284"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>Spray</source>
         <translation>Aerosol</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="291"/>
-
         <location filename="../mainwindow.cpp" line="277"/>
-=======
         <location filename="../mainwindow.cpp" line="291"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>Fill</source>
         <translation>Terraplén</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
         <location filename="../mainwindow.cpp" line="298"/>
         <source>Rectangle</source>
         <translation>Rectangulo</translation>
@@ -350,10 +262,8 @@
 
         <location filename="../mainwindow.cpp" line="282"/>
         <source>Rect</source>
-=======
         <location filename="../mainwindow.cpp" line="298"/>
         <source>Rectangle</source>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <translation>Rectangulo</translation>
     </message>
     <message>
@@ -362,10 +272,6 @@
         <translation>Ellipso</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
         <translation>Curva</translation>
@@ -377,33 +283,20 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
-<<<<<<< HEAD
-
         <location filename="../mainwindow.cpp" line="292"/>
-=======
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>E&amp;ffects</source>
         <translation>E&amp;fectos</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
-        <location filename="../mainwindow.cpp" line="329"/>
-
         <location filename="../mainwindow.cpp" line="294"/>
-=======
         <location filename="../mainwindow.cpp" line="329"/>
->>>>>>> 1ca4611 (Updated Spanish translation of EasyPaint.)
         <source>Gray</source>
         <translation>Gris</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
         <location filename="../mainwindow.cpp" line="334"/>
 
         <location filename="../mainwindow.cpp" line="299"/>
-        <location filename="../mainwindow.cpp" line="334"/>
         <source>Negative</source>
         <translation>Negativo</translation>
     </message>
@@ -585,7 +478,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Si ustedes gusta &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o</translation>
+        <translation>Si ustedes gustar a &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o reportar una error, o sugestir nuevos características,</translation>
     </message>
 </context>
 <context>

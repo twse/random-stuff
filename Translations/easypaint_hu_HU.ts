@@ -300,7 +300,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation>Kurva</translation>
+        <translation>Görbe</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
