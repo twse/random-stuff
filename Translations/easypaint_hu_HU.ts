@@ -233,21 +233,6 @@
         <translation>Kurzor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="249"/>
-        <source>Eraser</source>
-        <translation>Lastic</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="256"/>
-        <source>Color picker</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="263"/>
-        <source>Magnifier</source>
-        <translation>Loupa</translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="262"/>
 
         <location filename="../mainwindow.cpp" line="270"/>
@@ -288,11 +273,6 @@
         <translation>Téglalap</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="287"/>
-
-        <translation>Téglalap</translation>
-    </message>
-    <message>
         <location filename="../mainwindow.cpp" line="305"/>
         <source>Ellipse</source>
         <translation>Ellipszis</translation>
@@ -300,7 +280,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation>Kurva</translation>
+        <translation>Görbe</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
@@ -732,7 +712,6 @@ Szeretné menteni a változásokat?</translation>
         <translation>Törlése szöveg?</translation>
     </message>
     <message>
-
         <location filename="../settingsdialog.cpp" line="127"/>
         <source>Main</source>
         <translation>Fő</translation>
@@ -758,12 +737,8 @@ Szeretné menteni a változásokat?</translation>
         <location filename="../widgets/toolbar.cpp" line="94"/>
 
         <location filename="../toolbar.cpp" line="102"/>
-        <source>First color</source>
-        <translation>Első szín</translation>
-    </message>
-    <message>
         <location filename="../toolbar.cpp" line="106"/>
-
+        <source>First color</source>
         <translation>Első szín</translation>
     </message>
     <message>
