@@ -4,7 +4,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 ### Numbered encodings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
-| CP668     | Polish letters on cp852 codepoints         |
 | CP770     | Baltic                                     |
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
@@ -24,7 +23,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP3845    | Hungarian                                  |
 | CP3846    | Turkish                                    |
 | CP3848    | Brazilian ABICOMP                          |
-| CP30000   | Sámi/Lappish                               |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
 | CP30004   | Greenlandic                                |
