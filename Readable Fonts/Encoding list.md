@@ -4,9 +4,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 ### Numbered encodings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
-| CP113     | Yugoslavian                                |
 | CP668     | Polish letters on cp852 codepoints         |
-| CP687     | Czech Kamenický                            |
 | CP770     | Baltic                                     |
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
@@ -17,7 +15,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP865     | Nordic                                     |
 | CP869     | Greek                                      |
 | CP899     | Armenian                                   |
-| CP952     | Yugoslavian letters on cp852 codepoints    |
 | CP1250    | Windows Latin 2                            |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
@@ -83,13 +80,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LFTR      | LinguaFont Turkish                             |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
-| MACALT    | Apple Latin 1 (Alternate encoding)             |
 | MACBACYR  | Apple Barents Cyrillic                         |
 | MACCEL    | Apple Celtic                                   |
 | MACIRISH  | Apple Irish Gaelic                             |
-| MACLTN3   | Apple Latin-3 (Southern Europe)                |
 | MACRUS    | Apple Accented Russian                         |
-| MACSAMI   | Apple Sámi/Lappish                             |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
 | POLISHLF  | LinguaFont Polish                              |
 | RISCL1    | RISC OS Latin-1                                |
@@ -106,8 +100,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TITUSEE   | TITUS Eastern European                         |
 | TURKLAT   | Turkic Latin                                   |
 | VGAF_HY   | VGAFONT Armenian                               |
-| VIET      | VIET Encoding                                  |
-| VSCII     | VSCII                                          |
 | WAKHI     | Wakhi                                          |
 | WESTERN1  | Western 1                                      |
 | WESTERN2  | Western 2                                      |
