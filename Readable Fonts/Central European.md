@@ -185,34 +185,18 @@ Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
 
 One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
-| Glyph        | Codes   | Windows CP1250 | Cork    | ILPRumanianB100      |
-|--------------|---------|----------------|---------|----------------------|
-| A circumflex | Alt-182 | Alt-194        | Alt-194 | tilde                |
-| A breve      | Alt-198 | Alt-195        | Alt-128 | Q                    |
-| I circumflex | Alt-215 | Alt-206        | Alt-206 | vertical line        |
-| S cedilla    | Alt-184 | Alt-170        | Alt-147 | left curly bracket   |
-| T cedilla    | Alt-221 | Alt-222        | Alt-149 | right curly bracket  |
-| a circumflex | Alt-131 | Alt-226        | Alt-226 | grave accent         |
-| a breve      | Alt-199 | Alt-227        | Alt-160 | q                    |
-| i circumflex | Alt-140 | Alt-238        | Alt-238 | backslash            |
-| s cedilla    | Alt-173 | Alt-186        | Alt-179 | left square bracket  |
-| t cedilla    | Alt-238 | Alt-254        | Alt-181 | right square bracket |
-
-### Istro/Megleno-Romanian
-| Glyph         | Codes   |
-|---------------|---------|
-| A ring        | Alt-143 |
-| A breve       | Alt-198 |
-| N acute       | Alt-227 |
-| O ogonek      | Alt-226 |
-| S comma below | Alt-184 |
-| T comma below | Alt-221 |
-| a ring        | Alt-134 |
-| a breve       | Alt-199 |
-| n acute       | Alt-228 |
-| o ogonek      | Alt-147 |
-| s comma below | Alt-173 |
-| t comma below | Alt-238 |
+| Glyph        | Codes   | Windows CP1250 | Cork    |
+|--------------|---------|----------------|---------|
+| A circumflex | Alt-182 | Alt-194        | Alt-194 |
+| A breve      | Alt-198 | Alt-195        | Alt-128 |
+| I circumflex | Alt-215 | Alt-206        | Alt-206 |
+| S cedilla    | Alt-184 | Alt-170        | Alt-147 |
+| T cedilla    | Alt-221 | Alt-222        | Alt-149 |
+| a circumflex | Alt-131 | Alt-226        | Alt-226 |
+| a breve      | Alt-199 | Alt-227        | Alt-160 |
+| i circumflex | Alt-140 | Alt-238        | Alt-238 |
+| s cedilla    | Alt-173 | Alt-186        | Alt-179 |
+| t cedilla    | Alt-238 | Alt-254        | Alt-181 |
 
 ### Albanian - Typed as usual on Albanian keyboards
 | Glyph      | Code    | Windows CP1250 | Cork    |

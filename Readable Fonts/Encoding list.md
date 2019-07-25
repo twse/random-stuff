@@ -7,19 +7,13 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP770     | Baltic                                     |
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
-| CP851     | Greek (old codepage)                       |
 | CP857     | Latin 5 (Turkey)                           |
 | CP858     | Latin-1 with Euro                          |
-| CP861     | Icelandic                                  |
-| CP865     | Nordic                                     |
-| CP869     | Greek                                      |
 | CP899     | Armenian                                   |
 | CP1250    | Windows Latin 2                            |
 | CP1254    | Windows Turkish                            |
 | CP1257    | Windows Baltic                             |
 | CP1276    | Adobe PS Standard Encoding                 |
-| CP3012    | Cyrillic Russian and Latvian ("RusLat")    |
-| CP3021    | Cyrillic MIK Bulgarian                     |
 | CP3845    | Hungarian                                  |
 | CP30001   | Celtic                                     |
 | CP30002   | Cyrillic Tajik                             |
@@ -51,7 +45,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 |-----------|------------------------------------------------|
 | ATARIST   | Atari ST Encoding                              |
 | BASQUE    | Basque                                         |
-| CER-GS    | Celtic Extended Roman GS                       |
 | CHUVLAT   | Chuvash (Latin)                                |
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
@@ -59,20 +52,15 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | EVAFONT   | EVAFONT Encoding                               |
 | GEM       | GEM Encoding                                   |
 | HELS_SYM  | LinguaFont Helsinki keyboard                   |
-| ILPROM    | ILPRumanianB100                                |
 | IR-197    | ISO-IR 197 Sámi                                |
-| ISTROMEG  | Istro/Megleno-Romanian                         |
 | KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
-| LAT8EXT   | Extended Latin-8                               |
 | LFEN_OLD  | LinguaFont Old English                        |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACBACYR  | Apple Barents Cyrillic                         |
-| MACCEL    | Apple Celtic                                   |
-| MACIRISH  | Apple Irish Gaelic                             |
 | MACRUS    | Apple Accented Russian                         |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
 | RISCL1    | RISC OS Latin-1                                |
