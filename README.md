@@ -10,12 +10,13 @@ This repository contains my random stuff.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (csv stands for comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` (replace **file.csv** with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech)
-5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` (replace **message** with whatever message you want).
-6. Push the master branch via `git push`. (Make sure that your GitHub account has both commit and write access for the **mozilla/community-data** repository.)
+4. Add the contents to names.csv: `echo file.csv >> ../names.csv` with the first filename replaced with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
+5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` with the message replaced with whatever message you want.
+6. Push your changes with `git push` once you have granted commit and write access for the **mozilla/community-data** repository.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or be removed live straight away with the last updated date being changed.
 
-## Bulk adding names to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
+## Bulk adding names to Mozilla credits list using GitHub's web user interface
+Only @gurumukhi may manage the list.
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
@@ -25,11 +26,12 @@ This repository contains my random stuff.
 ## Adding one name to Mozilla credits list using command line
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
-3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` (replace these strings with your name, email and citation).
-4. Push the master branch via `git push`. (Make sure that your GitHub account has both commit and write access for the **mozilla/community-data** repository.)
+3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` replaced with your name, email and citation.
+4. Push your changes with `git push` once you have granted commit and write access for the **mozilla/community-data** repository.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
-## Adding one name to Mozilla credits list using GitHub's web user interface (logged in as @gurumukhi which is managing the list)
+## Adding one name to Mozilla credits list using GitHub's web user interface
+Only @gurumukhi may manage the list.
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Add your name at the end or use `echo name >> names.csv`.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
@@ -49,9 +51,9 @@ This font family covers the following diacritics:
 3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 
 ## Other vector fonts (ordinary Unicode)
-Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer disables most features if the program is not registered). FontCreator 7.0 or higher can create OpenType fonts. Some fonts should be renamed to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
+Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer goes to reduced functionality mode where e.g. fonts cannot be installed if not registered). FontCreator 7.0 or higher can create OpenType fonts.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular.
+* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
 
 ## Pixel fonts (ordinary Unicode)
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
