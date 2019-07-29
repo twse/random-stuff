@@ -5,8 +5,6 @@ avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font 
 
 [Michael Best / Murari Dasa](http://www.dasya.com/~mbest/freeware/) wrote DiacDos (1993), a collection of TSR programs for writing Classical Sanskrit diacritics on DOS and his screen fonts.
 
-DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
-
 Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription as shown in [this image](http://www.evertype.com/standards/hy/ArmTrans.gif). See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info.
 
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
@@ -678,83 +676,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | u dieresis               | Alt-129 |
 | u macron grave           | Alt-190 |
 | u macron acute           | Alt-189 |
-
-### DV1TT-Yogesh codes for use with VGA/EGA screen fonts only
-| Glyph               | Codes   |
-|---------------------|---------|
-| A macron            | Alt-183 |
-| D circumflex        | Alt-224 |
-| D dot below         | Alt-234 |
-| D line below        | Alt-215 |
-| E circumflex        | Alt-210 |
-| E macron            | Alt-212 |
-| G line below        | Alt-213 |
-| H dot below         | Alt-249 |
-| H line below        | Alt-225 |
-| I macron            | Alt-222 |
-| K line below        | Alt-209 |
-| L dot below         | Alt-142 |
-| L dot below macron  | Alt-157 |
-| L line below        | Alt-211 |
-| L line below macron | Alt-190 |
-| M dot above         | Alt-181 |
-| M candrabindu       | Alt-158 |
-| M dot below         | Alt-233 |
-| N tilde             | Alt-165 |
-| N candrabindu       | Alt-167 |
-| N dot above         | Alt-144 |
-| N dot below         | Alt-128 |
-| N line below        | Alt-199 |
-| O circumflex        | Alt-226 |
-| O macron            | Alt-227 |
-| R dot above         | Alt-214 |
-| R dot below         | Alt-143 |
-| R dot below macron  | Alt-153 |
-| R line below        | Alt-229 |
-| S acute             | Alt-146 |
-| S dot below         | Alt-154 |
-| T dot below         | Alt-232 |
-| T line below        | Alt-216 |
-| U macron            | Alt-235 |
-| Y dot above         | Alt-237 |
-| Z line below        | Alt-182 |
-| a macron            | Alt-133 |
-| d circumflex        | Alt-162 |
-| d dot below         | Alt-150 |
-| d line below        | Alt-140 |
-| e circumflex        | Alt-136 |
-| e macron            | Alt-138 |
-| g line below        | Alt-242 |
-| h dot below         | Alt-239 |
-| h line below        | Alt-152 |
-| i macron            | Alt-141 |
-| k line below        | Alt-208 |
-| l dot below         | Alt-132 |
-| l dot below macron  | Alt-155 |
-| l line below        | Alt-137 |
-| l line below macron | Alt-189 |
-| m dot above         | Alt-160 |
-| m candrabindu       | Alt-246 |
-| m dot below         | Alt-163 |
-| n tilde             | Alt-164 |
-| n candrabindu       | Alt-166 |
-| n dot above         | Alt-130 |
-| n dot below         | Alt-135 |
-| n line below        | Alt-198 |
-| o circumflex        | Alt-147 |
-| o macron            | Alt-149 |
-| r dot above         | Alt-161 |
-| r dot below         | Alt-134 |
-| r dot below macron  | Alt-148 |
-| r line below        | Alt-228 |
-| s acute             | Alt-145 |
-| s dot below         | Alt-129 |
-| t dot below         | Alt-231 |
-| t line below        | Alt-139 |
-| u macron            | Alt-151 |
-| y dot above         | Alt-236 |
-| z line below        | Alt-131 |
-| rupee               | Alt-207 |
 
 ### TITUS Eastern Oriental codes – Accented letters
 | Glyph               | Codes   |
