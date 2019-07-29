@@ -41,7 +41,7 @@ URW Palladio CSX (2002), a font in either TrueType or OpenType PostScript format
 
 URW Palladio GGM (2002), by Ulrich Stiehl, is a font using the Balaram encoding designed for Sanskrit documents of the Gaudiya Grantha Mandira website.
 
-URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from Harry Falk and is included with the 2003 IndoSkript CD.
+URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from [Harry Falk](http://userpage.fu-berlin.de/~falk/index.htm) and is included with the 2003 IndoSkript CD.
 
 URW Palladio IT (2003), by Ulrich Stiehl, is a font derived from URW Palladio for use with Itranslator 99. This font is bundled with Itranslator 99 build 1.3.0.72 and also describes the encoding in the Itranslator 99 technical manual.
 
