@@ -3,7 +3,7 @@ Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transl
 
 avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font for Avestan and Pahlavi transliteration based on Mithra (2000). The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
 
-Michael Best (Murari Dasa) wrote a keyboard driver and created screen fonts for Classical Sanskrit transliteration, ca. 1997.
+[Michael Best / Murari Dasa](http://www.dasya.com/~mbest/freeware/) wrote DiacDos (1993), a collection of TSR programs for writing Classical Sanskrit diacritics on DOS and his screen fonts.
 
 DV1-TTYogesh, a font in TrueType format, is based on Helvetica Light for transliteration of Indic languages.
 
