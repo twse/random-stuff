@@ -8,44 +8,25 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP773     | Latin-7 (Baltic - old standard)            |
 | CP775     | Latin-7 (Baltic)                           |
 | CP857     | Latin 5 (Turkey)                           |
-| CP858     | Latin-1 with Euro                          |
 | CP899     | Armenian                                   |
-| CP1250    | Windows Latin 2                            |
-| CP1254    | Windows Turkish                            |
-| CP1257    | Windows Baltic                             |
-| CP1276    | Adobe PS Standard Encoding                 |
 | CP3845    | Hungarian                                  |
 | CP30001   | Celtic                                     |
-| CP30002   | Cyrillic Tajik                             |
 | CP30004   | Greenlandic                                |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
-| CP30018   | Cyrillic Russian and Latin Tatar           |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
 | CP30023   | Southern Africa                            |
 | CP30024   | Northern and Eastern Africa                |
 | CP30025   | Western Africa                             |
 | CP30026   | Central Africa                             |
-| CP30033   | Crimean Tatar with Hryvnia                 |
 | CP30034   | Cherokee                                   |
-| CP30039   | Cyrillic Ukrainian with Hryvnia            |
-| CP30040   | Cyrillic Russian with Hryvnia              |
-| CP58152   | Cyrillic Kazakh with Euro                  |
-| CP58210   | Cyrillic Russian and Azeri                 |
-| CP58335   | Kashubian                                  |
-| CP59234   | Cyrillic Tatar                             |
 | CP59829   | Georgian                                   |
-| CP60258   | Cyrillic Russian and Latin Azeri           |
 | CP60853   | Georgian with capital letters              |
-| CP62306   | Cyrillic Uzbek                             |
 
 ### Unnumbered encodings
 | File Name | Description                                    |
 |-----------|------------------------------------------------|
-| ATARIST   | Atari ST Encoding                              |
-| BASQUE    | Basque                                         |
-| CHUVLAT   | Chuvash (Latin)                                |
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
 | EDA_CODE  | EDA editor encoding                            |
@@ -63,7 +44,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | MACBACYR  | Apple Barents Cyrillic                         |
 | MACRUS    | Apple Accented Russian                         |
 | MACTRCYR  | Apple Turkic Cyrillic                          |
-| RISCL1    | RISC OS Latin-1                                |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
@@ -92,12 +72,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
 | BPSTRAN   | Buddhist Publication Society                     |
-| CS        | Classical Sanskrit                               |
 | CSX       | Classical Sanskrit Extended                      |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | DV1Y      | DV1-TTYogesh                                     |
 | GGM       | Gaudiya Grantha Mandira                          |
-| GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
 | GRETIL    | Ronald Emmerick                                  |
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |

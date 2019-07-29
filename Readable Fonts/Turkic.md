@@ -30,22 +30,6 @@ Although not part of my readable font series, this language is usually written i
 | s cedilla   | Alt-159 | Alt-243 | Alt-252  | Alt-245         |
 | u dieresis  | Alt-129 | Alt-129 | Alt-245  | Alt-129         |
 
-### Azerbaijani (Cyrillic)
-| Glyph               | Codes   |
-|---------------------|---------|
-| Ghe stroke          | Alt-248 |
-| Schwa               | Alt-246 |
-| Ka vertical stroke  | Alt-244 |
-| O barred            | Alt-240 |
-| Shha                | Alt-252 |
-| Che vertical stroke | Alt-242 |
-| ghe stroke          | Alt-249 |
-| schwa               | Alt-247 |
-| ka vertical stroke  | Alt-245 |
-| o barred            | Alt-241 |
-| u straight          | Alt-253 |
-| che vertical stroke | Alt-243 |
-
 ### Bashkir
 | Glyph        | Codes   |
 |--------------|---------|
@@ -103,24 +87,6 @@ Although not part of my readable font series, this language is usually written i
 | uo                  | Alt-222         | Alt-238 |
 | x dot above         | Alt-212         | Alt-229 |
 | z stroke            | Alt-216         | Alt-235 |
-
-### Chuvash (Latin)
-| Glyph          | Codes   |
-|----------------|---------|
-| A breve        | Alt-142 |
-| C cedilla      | Alt-128 |
-| E breve        | Alt-143 |
-| S caron        | Alt-165 |
-| S cedilla      | Alt-141 |
-| U double acute | Alt-152 |
-| Z caron        | Alt-167 |
-| a breve        | Alt-132 |
-| c cedilla      | Alt-135 |
-| e breve        | Alt-134 |
-| s caron        | Alt-164 |
-| s cedilla      | Alt-161 |
-| u double acute | Alt-150 |
-| z caron        | Alt-166 |
 
 ### Common Turkic Alphabet
 | Glyph        | Codes   |
@@ -227,26 +193,6 @@ Although not part of my readable font series, this language is usually written i
 | u dieresis   | Alt-129 |
 | y acute      | Alt-134 |
 
-### Kazakh (Cyrillic)
-| Glyph             | Codes    |
-|-------------------|----------|
-| Ghe stroke        | Alt-210  |
-| Schwa             | Alt-208  |
-| Ka descender      | Alt-212  |
-| En descender      | Alt-214  |
-| O barred          | Alt-242  |
-| U straight        | Alt-220  |
-| U straight stroke | Alt-246  |
-| Shha              | Alt-222  |
-| ghe stroke        | Alt-211  |
-| schwa             | Alt-209  |
-| ka descender      | Alt-213  |
-| en descender      | Alt-215  |
-| o barred          | Alt-243  |
-| u straight        | Alt-221  |
-| u straight stroke | Alt-247  |
-| shha              | Alt-223  |
-
 ### Kurdish (Cyrillic Kurmanjî)
 | Glyph        | Codes   | T2A             | T2B             |
 |--------------|---------|-----------------|-----------------|
@@ -304,22 +250,6 @@ Although not part of my readable font series, this language is usually written i
 | o dieresis  | Alt-148 |
 | s cedilla   | Alt-159 |
 | u dieresis  | Alt-129 |
-
-### Tajik
-| Glyph         | Codes   | T2A and T2B     |
-|---------------|---------|-----------------|
-| Ghe stroke    | Alt-242 | Alt-129         |
-| I macron      | Alt-244 | No key assigned |
-| Ka descender  | Alt-248 | Alt-137         |
-| U macron      | Alt-246 | No key assigned |
-| Ha descender  | Alt-250 | Alt-149         |
-| Che descender | Alt-221 | Alt-152         |
-| ghe stroke    | Alt-243 | Alt-161         |
-| i macron      | Alt-245 | No key assigned |
-| ka descender  | Alt-249 | Alt-169         |
-| u macron      | Alt-247 | No key assigned |
-| ha descender  | Alt-251 | Alt-181         |
-| che descender | Alt-222 | Alt-184         |
 
 ### Tatar (Latin)
 | Glyph        | Codes   | CP30018         |
