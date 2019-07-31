@@ -10,13 +10,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP857     | Latin 5 (Turkey)                           |
 | CP899     | Armenian                                   |
 | CP3845    | Hungarian                                  |
-| CP30001   | Celtic                                     |
-| CP30004   | Greenlandic                                |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
-| CP30023   | Southern Africa                            |
 | CP30024   | Northern and Eastern Africa                |
 | CP30025   | Western Africa                             |
 | CP30026   | Central Africa                             |
@@ -32,18 +29,13 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | EDA_CODE  | EDA editor encoding                            |
 | EVAFONT   | EVAFONT Encoding                               |
 | GEM       | GEM Encoding                                   |
-| HELS_SYM  | LinguaFont Helsinki keyboard                   |
-| IR-197    | ISO-IR 197 Sámi                                |
 | KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
-| LFEN_OLD  | LinguaFont Old English                        |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACBACYR  | Apple Barents Cyrillic                         |
-| MACRUS    | Apple Accented Russian                         |
-| MACTRCYR  | Apple Turkic Cyrillic                          |
 | RUV4A     | DOS 4.0 Russian Academic                       |
 | RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
@@ -55,9 +47,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | TURKLAT   | Turkic Latin                                   |
 | VGAF_HY   | VGAFONT Armenian                               |
 | WAKHI     | Wakhi                                          |
-| WESTERN1  | Western 1                                      |
-| WESTERN2  | Western 2                                      |
-| WINRUS    | Windows Accented Russian                       |
 | WNGB      | Washington Gerald Barnett Old English          |
 | WNPS      | Washington Puget Salish                        |
 
@@ -72,7 +61,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
 | BPSTRAN   | Buddhist Publication Society                     |
-| CSX       | Classical Sanskrit Extended                      |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | DV1Y      | DV1-TTYogesh                                     |
 | GGM       | Gaudiya Grantha Mandira                          |
@@ -80,33 +68,22 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
-| IT98      | Itranslator 98                                   |
 | ITIMESSK  | ITimesSkRom                                      |
-| ITRANSL   | Itranslator                                      |
 | KANNTRAN  | Kannada with ISO 15919 diacritics                |
 | KASHMIRI  | Kashmiri                                         |
 | KULMIX    | Catholic University Lublin Mixed                 |
 | KULTRAN   | Catholic University Lublin Transliteration       |
 | MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
-| MONGTRAN  | Mongolian                                        |
 | NINATRAN  | Nina IJTS transliteration                        |
 | NORMYN    | Kenneth Roy Norman                               |
 | OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
-| PASKT     | URW Palladio SKT                                 |
-| PAUS      | URW Palladio US                                  |
 | PINYIN    | Chinese (Pinyin)                                 |
-| PKTC      | PKTC                                             |
-| SEMTRAN1  | Semitic – Arabic                                 |
-| SEMTRAN2  | Semitic – Hebrew, Meroitic, Ugaritic             |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
 | SINHTRAN  | Sinhala with ISO 15919 diacritics                |
-| SKTRAN    | Searchable Sanskrit Files                        |
 | TAMILTRN  | Tamil with ISO 15919 diacritics                  |
 | TELUGTRN  | Telugu with ISO 15919 diacritics                 |
 | TIBTRANS  | Tibetan Transliteration                          |
-| TITUSEO   | TITUS Eastern Oriental                           |
-| TITUSHS   | TITUS Hebrew & Semitic                           |
 | TITUSII   | TITUS Indo-Iranian                               |
 | TITUSOC   | TITUS Oriental Christian                         |
 | WNRI      | Washington Romanized Indic                       |

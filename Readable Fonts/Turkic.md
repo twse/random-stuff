@@ -193,48 +193,6 @@ Although not part of my readable font series, this language is usually written i
 | u dieresis   | Alt-129 |
 | y acute      | Alt-134 |
 
-### Kurdish (Cyrillic Kurmanjî)
-| Glyph        | Codes   | T2A             | T2B             |
-|--------------|---------|-----------------|-----------------|
-| Schwa        | Alt-189 | Alt-154         | Alt-154         |
-| Ghe acute    | Alt-207 | No key assigned | No key assigned |
-| I dieresis   | Alt-209 | Alt-136         | No key assigned |
-| Ka acute     | Alt-213 | No key assigned | No key assigned |
-| O dieresis   | Alt-211 | No key assigned | No key assigned |
-| Er acute     | Alt-198 | No key assigned | No key assigned |
-| Shha         | Alt-181 | Alt-132         | Alt-132         |
-| Shha acute   | Alt-183 | No key assigned | No key assigned |
-| schwa        | Alt-190 | Alt-186         | Alt-186         |
-| ghe acute    | Alt-208 | No key assigned | No key assigned |
-| i dieresis   | Alt-210 | Alt-168         | No key assigned |
-| ka acute     | Alt-214 | No key assigned | No key assigned |
-| o dieresis   | Alt-212 | No key assigned | No key assigned |
-| er acute     | Alt-199 | No key assigned | No key assigned |
-| shha         | Alt-182 | Alt-164         | Alt-164         |
-| shha acute   | Alt-184 | No key assigned | No key assigned |
-
-### Kurdish (Latin Yekgirtú & Kurmanjî)
-| Glyph        | Kurdish | Turkic  |
-|--------------|---------|---------|
-| C cedilla    | Alt-128 | Alt-128 |
-| E acute      | Alt-144 | Alt-144 |
-| E circumflex | Alt-210 | Alt-210 |
-| I acute      | Alt-214 | Alt-214 |
-| I circumflex | Alt-215 | Alt-215 |
-| S cedilla    | Alt-158 | Alt-158 |
-| U acute      | Alt-233 | Alt-233 |
-| U circumflex | Alt-234 | Alt-234 |
-| X dieresis   | Alt-189 | Alt-252 |
-| c cedilla    | Alt-135 | Alt-135 |
-| e acute      | Alt-130 | Alt-130 |
-| e circumflex | Alt-136 | Alt-136 |
-| i acute      | Alt-161 | Alt-161 |
-| i circumflex | Alt-140 | Alt-140 |
-| s cedilla    | Alt-159 | Alt-159 |
-| u acute      | Alt-163 | Alt-163 |
-| u circumflex | Alt-150 | Alt-150 |
-| x dieresis   | Alt-190 | Alt-251 |
-
 ### Kyrgyz
 | Glyph       | Codes   |
 |-------------|---------|

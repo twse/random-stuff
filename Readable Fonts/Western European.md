@@ -216,37 +216,3 @@ The capital sharp s is accessed in my screen fonts for German-Polish Friendship 
 **Note 1**: In order to obtain the a ring, one should put ˚ (#169) on them (overstrike method).
 
 **Note 2**: ä and ö which also serve as German diacritics are in fact accessible in both forms: uppercase and lowercase.
-
-### Old Danish and Norwegian
-| Glyph          | CP30004 |
-|----------------|---------|
-| A ring acute   | Alt-165 |
-| AE acute       | Alt-212 |
-| O stroke acute | Alt-229 |
-| a ring acute   | Alt-164 |
-| ae acute       | Alt-138 |
-| o stroke acute | Alt-228 |
-
-### Old Icelandic (CP30004)
-| Glyph          | Codes   |
-|----------------|---------|
-| E ogonek       | Alt-216 |
-| E ogonek acute | Alt-211 |
-| O ogonek       | Alt-159 |
-| O ogonek acute | Alt-128 |
-| e ogonek       | Alt-137 |
-| e ogonek acute | Alt-139 |
-| o ogonek       | Alt-158 |
-| o ogonek acute | Alt-135 |
-
-### Characters for fonts used in games by KidStuff Software
-Shareware games by KidStuff Software (e.g. Preschool Pack, 1998) includes a font used for the settings window and uses their own encoding based on CP437. Box Drawing and other symbols are empty.
-
-| Glyph     | Codes   |
-|-----------|---------|
-| sharp s   | Alt-170 |
-| o slash   | Alt-176 |
-| O slash   | Alt-177 |
-| copyright | Alt-178 |
-
-If non-ASCII characters are entered in the address in Preschool Pack, the mailing box font in the last activity shows up as blank.
