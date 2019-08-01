@@ -3,14 +3,14 @@
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický which replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
-* LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Latvian localizations of Windows and macOS.
+* LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by [Linguist's Software](https://www.linguistsoftware.com/) for use with Latvian localizations of Windows and macOS.
 
 ## Diacritical characters
 
 ### Czech - Typed as usual on Czech keyboards
 This language can be used when written with Kamenický encoding.
 
-Czech Coding Convertor, by Zdeněk Kudrla, is a DOS program to convert Czech text written in eight encodings. The program comes with source code included.
+Czech Coding Convertor (1991), by Zdeněk Kudrla, is a DOS program to convert Czech text written in eight encodings. The program comes with source code included.
 
 Trans-ASCII (1991), by Pavel Ferda, is a DOS program to convert Czech text in various encodings. The executable file and documentation is available in three languages.
 
@@ -50,7 +50,7 @@ Trans-ASCII (1991), by Pavel Ferda, is a DOS program to convert Czech text in va
 ### Slovak - Typed as usual on Slovak keyboards
 This language can be used when written with Kamenicky encoding.
 
-Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to CP852. The keyboard shortcuts play beeps from the PC speakers.
+Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to CP852. The keyboard shortcuts play beeps from the PC speakers.The TSR is available for download in the [Slovak Antivirus Center](https://www.sac.sk/).
 
 Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change the keyboard into Slovak. When pressing `Shift-F11` it shows the setup menu in Slovak where the user can change the keyboard layout and enable diacritics.
 
@@ -94,9 +94,9 @@ Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change 
 ### Polish - Typed as usual on Polish keyboards
 This language can be written when used with CP775 (Mazovia encoding).
 
-Adam Marczewski wrote a page containing shortcuts for Polish standard/programmer keyboards (no Apple Central Europe shortcuts). Find the shortcut list with a Microsoft Word macro in [this page](http://adsorption.org/awm/info/pl-codes.htm).
+Adam W. Marczewski wrote a page containing shortcuts for Polish standard/programmer keyboards (no Apple Central Europe shortcuts). Find the shortcut list with a Microsoft Word macro in [this page](http://adsorption.org/awm/info/pl-codes.htm).
 
-Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format. When launched using the la encoding, the section sign (§) is placed in #167 which is used for lowercase z caron.
+Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format. When launched using the `la` encoding, the section sign (§) is placed in #167 which is used for lowercase z caron.
 
 [Piotr Walewski-Salecki](http://www.walewski-salecki.pl/) wrote the program Gżegżółka (2009) which converts text in various encodings. The program was originally called Convert 1.x through 4.x (1997-1999). [Home page for Gżegżółka](http://www.gzegzolka.com/), in Polish only / tylko w Polski.
 
