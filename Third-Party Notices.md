@@ -20,8 +20,6 @@ Written by Donna S. Finkelstein
 Copyright © 1990-1996 Handmade Software, Inc. All rights reserved.<br />
 Written by Marcos H. Woehrmann, Allan N. Hessenflow, David Kettmann, Paul H. Yoshimune
 
-IP2Location™ is a registered trademark of HEXASOFT. All other trademarks are the property of their respective owners.
-
 ## For use of KidStuff
 Copyright © 2000 Aviar, Inc.<br />
 Written by John J. Urbaniak, Ph.D.
