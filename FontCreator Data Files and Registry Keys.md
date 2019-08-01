@@ -10,21 +10,22 @@
 * Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says that it's not packed.
+* If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Versions from 1.0 through 6.5 only has one icon for the executable file.
 * Versions from 1.0 through 6.5 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
-The unregistered version works for 30 days with the following limitations based on the major version number.
-* 3.0 - It shows a nag screen when pressing Start.
-* 4.0 - It shows a nag screen when it is expired.
-* 5.0 and 5.6 - It disables certain features like saving fonts after expiration and executing it five times.
-* 6.0 and above - It disables certain features like saving fonts (not projects) and automatic hinting in font testing.
-* 7.0 - It creates subsetted versions when saving, testing, exporting or installing fonts.
+The unregistered version works for 30 days with the following limitations based on the version number.
+* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**.
+* 4.0 (2003-05-16) until 4.5 (2004-08-17) - After a grace period of 30 days, a nag screen is shown.
+* 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and running the program 5 times, the program will enter a reduced functionality mode where e.g. fonts cannot be saved or tested.
+* 6.0 (2009-06-17) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode where e.g. tested fonts won't be automatically hinted.
+* 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
+* 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
 
-Under the Help menu is an item labeled Register and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
+Under the Help menu is an item labeled **Register** and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed.
@@ -35,12 +36,12 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See previewtext.dat in recent versions)
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
-* **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address).
+* **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
-* **glyphnames.dat** – For versions 7.0 and newer, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Before that, it includes the same list but **xi** assigns a codepoint of U+0000.
+* **glyphnamesnew.dat** – For versions 7.0 and newer, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Old versions have the same list but duplicates **xi** to U+0000.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
-* **previewtext.dat** – For versions 3.0 through 6.0, controls the text used in Test Font Window. Text in TFONTTESTFORM is restored to factory defaults if removed.
+* **previewtext.dat** – For versions 3.0 through 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – For version 7.0 and newer, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
 * **SubFamily.dat** – Includes naming fields for different languages.
 * **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed.
@@ -125,7 +126,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
 * **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
 * **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
-* **OverviewSampleFont** – Used with **Font overview: Font used by samples** option in the Overview tab. Default is Arial. If empty, all glyphs are displayed using MS Sans Serif with all glyphs shifted to other position. (Available in the Options window)
+* **OverviewSampleFont** – Used with **Font overview: Font used by samples** option in the Overview tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
 * **OverviewSingleWidth** – Used with **Font overview: Glyph width** option in the Overview tab. Default is 70. (Available in the Options window)
@@ -188,11 +189,11 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **DefaultNamingLicenseAgreementLinkText** – This corresponds to the **Default Naming for New Fonts: License Agr. Link** option in Options: Naming.
 * **DefaultNamingLicenseAgreementText** – This corresponds to the **Default Naming for New Fonts: License Agreement** option in Options: Naming. Default is empty.
 * **DefaultNamingTrademarkIncluded** – This corresponds to the **Default Naming for New Fonts: Trademark** checkbox in Options: Naming.
-* **DefaultNamingTrademarkText** – This corresponds to the **Default Naming for New Fonts: Trademark** option in Options: Naming. Default is &lt;font family&gt;® Trademark of (your company).
+* **DefaultNamingTrademarkText** – This corresponds to the **Default Naming for New Fonts: Trademark** option in Options: Naming. Default is **&lt;font family&gt;® Trademark of (your company)**.
 * **DefaultZoomFactor** – This corresponds to the **Zoom Simple Glyph Edit Window: Open with Default Zoom Factor** option in Options: Glyph.
-* **ExcludeMonospacedFonts** – This corresponds to the **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. If enabled, it will omit all monospace fonts on saving. If disabled, no monospace fonts are omitted during saving. (Available in the Options window)
-* **IgnoreHintingData** – This corresponds to the **When Opening Font Files: Remove hinting data** option in the Font tab. If enabled, hinting data is removed. If disabled, hinting data is kept. (Available in the Options window)
-* **IgnoreUnsupportedTables** – This corresponds to the **When Opening Font Files: Remove unsupported tables** option in the Font tab. If enabled, unsupported tables are removed. If disabled, unsupported tables are kept. (Available in the Options window)
+* **ExcludeMonospacedFonts** – This corresponds to the **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
+* **IgnoreHintingData** – This corresponds to the **When Opening Font Files: Remove hinting data** option in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
+* **IgnoreUnsupportedTables** – This corresponds to the **When Opening Font Files: Remove unsupported tables** option in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
 * **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
 * **LeftSideBearingExcludeLargeFonts** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** option in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
 * **LongAlignedLocalOffsets** – This corresponds to the **When Saving Font Files: Long-aligned local offsets** option in the Font tab. (Available in the Options window)
@@ -202,12 +203,12 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **PanoseValueHexadecimal** – This corresponds to the **PANOSE: HEX** option in the Classification tab. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal. (Available in the Font Settings window)
 * **RecalcAverageCharWidth** – This corresponds to the **When Saving Font Files: Recalc average char width** option in the Font tab. (Available in the Options window)
 * **RecalcGlyphBoundingBoxes** – This corresponds to the **When Saving Font Files: Recalc glyph bounding boxes** option in the Font tab. (Available in the Options window)
-* **RemoveDSIGTable** – This corresponds to the **When Opening Font Files: Remove DSIG table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – This corresponds to the **When Opening Font Files: Remove hdmx table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – This corresponds to the **When Opening Font Files: Remove LTSH table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – This corresponds to the **When Opening Font Files: Remove VDMX table** option in the Font tab. If enabled, this table is removed. If disabled, this table is kept. (Available in version 5.5 through 6.5 only)
+* **RemoveDSIGTable** – This corresponds to the **When Opening Font Files: Remove DSIG table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveHdmxTable** – This corresponds to the **When Opening Font Files: Remove hdmx table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveLTSHTable** – This corresponds to the **When Opening Font Files: Remove LTSH table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveVDMXTable** – This corresponds to the **When Opening Font Files: Remove VDMX table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **SetLeftSideBearingPointAtX0** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
-* **UnicodeEnabledGUI** – In version 5.5 through 6.5 only. This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. If disabled, it will use the current codepage according to the Language For Non-Unicode Programs variable. If you run it on Windows 9x/ME or compatibility mode, this option will appear dimmed.
+* **UnicodeEnabledGUI** – In version 5.5 through 6.1 only. This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – This corresponds to the **When Saving Font Files: Update Modified DateTime field** option in the Font tab. Default is on. (Available in the Options window)
 * **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
 
@@ -221,14 +222,14 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **Underline** – Used for **Underline** in the Test Font window.
 
 ### Reg
-The program starts in unregistered mode if it is installed or this key is removed.
+The program is started in unregistered mode after installation or if this key is removed.
 * **V5D#** – Created when registering the program whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu and button in **TTIPOFTHEDAYFORM**. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
 * **ActiveTheme**
 
 ### Tip of the Day
-* **CurrentTip** – Current line number in FontCreator.tip, used when opening the **Tip of the Day** window.
+* **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
 * **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
 
 ### Validation
@@ -326,7 +327,7 @@ The program starts in unregistered mode if it is installed or this key is remove
 * **DVCLAL** – This data is binary.
 * **PACKAGEINFO** – This data is binary.
 * **TABOUTFORM** – Used by **Help: About...**. The dialog resembles the one used in Windows. The default push button is **OK**.
-* **TADDCHARACTERSFORM** – Used when adding characters to the font. In the dialog, Sorted is checked by default according to the **Go to Unicode Block** form.
+* **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Displays a dialog when you press **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**. It allows you to select Unicode values for each glyph. The default push button is **OK**.
 * **TADDGASPFORM** – Used when adding a gasp range to the font. The default push button is **OK**.
 * **TADDLOCALLANGUAGEDATAFORM** – Used when adding language data to the font. The default push button is **OK**.
