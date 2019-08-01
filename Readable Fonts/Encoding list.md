@@ -24,8 +24,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CORK      | TeX Cork                                       |
 | CWI2      | Hungarian CWI-2                                |
 | EDA_CODE  | EDA editor encoding                            |
-| EVAFONT   | EVAFONT Encoding                               |
-| GEM       | GEM Encoding                                   |
 | KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
@@ -56,30 +54,19 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | BHTITIME  | BharatiTimes                                     |
 | BPSTRAN   | Buddhist Publication Society                     |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
-| DV1Y      | DV1-TTYogesh                                     |
-| GGM       | Gaudiya Grantha Mandira                          |
 | GRETIL    | Ronald Emmerick                                  |
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
 | ITIMESSK  | ITimesSkRom                                      |
-| KANNTRAN  | Kannada with ISO 15919 diacritics                |
 | KASHMIRI  | Kashmiri                                         |
 | KULMIX    | Catholic University Lublin Mixed                 |
 | KULTRAN   | Catholic University Lublin Transliteration       |
-| MALATRAN  | Malayalam with ISO 15919 diacritics              |
 | MININD    | Minion Indologist                                |
 | NINATRAN  | Nina IJTS transliteration                        |
 | NORMYN    | Kenneth Roy Norman                               |
-| OTTOMAN   | Ottoman Turkish (ALA-LC)                         |
 | PINYIN    | Chinese (Pinyin)                                 |
 | SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
-| SINHTRAN  | Sinhala with ISO 15919 diacritics                |
-| TAMILTRN  | Tamil with ISO 15919 diacritics                  |
-| TELUGTRN  | Telugu with ISO 15919 diacritics                 |
-| TIBTRANS  | Tibetan Transliteration                          |
-| TITUSII   | TITUS Indo-Iranian                               |
-| TITUSOC   | TITUS Oriental Christian                         |
 | WNRI      | Washington Romanized Indic                       |
 
 ### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
