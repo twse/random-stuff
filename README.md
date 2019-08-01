@@ -11,7 +11,7 @@ This repository contains my random stuff.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` with the first filename replaced with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
-5. Commit the new file with the added names: `git commit ../names.csv -m 'message'` with the message replaced with whatever message you want.
+5. Commit the new file with the added names: `git commit -a -m 'message'` with the message replaced with whatever message you want.
 6. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
@@ -26,7 +26,7 @@ Only @gurumukhi may manage the list.
 ## Adding one name to Mozilla credits list using command line
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
-3. Commit the new file using `git commit ../names.csv -m 'name <email>: "citation"'` replaced with your name, email and citation.
+3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
 4. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
