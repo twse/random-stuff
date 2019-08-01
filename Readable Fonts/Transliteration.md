@@ -1,4 +1,4 @@
-﻿## Fonts and keyboards
+## Fonts and keyboards
 Bendt Alster created a set of non-Unicode fonts for Akkadian and Sumerian transliteration ca. 2001 – bafonts. The BaTimesAkkad font includes undocumented glyphs from macOS and WGL but does not have the Euro sign and has a large number of kerning pairs. The font includes Keys 2.1 mapping solutions for English (US International) and Danish keyboards. The fonts relocated some ASCII characters to extended ASCII codepoints.
 
 avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font for Avestan and Pahlavi transliteration based on Mithra (2000). The font was created using FontCreator 6.2 (2010). Many numbers and symbols are shown in Garava. Download this font from [here](http://www.avesta.org/fonts/index.html).
@@ -27,10 +27,6 @@ Pinyin OK is a TrueType font based on Code2000 for Chinese (Pinyin) transliterat
 
 SPAtlantis (1998), by James R. Adair, is a transliteration font for Windows and macOS based on Times for use with Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
 
-TITUS Eastern Oriental (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Hebrew and Arabic. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode Private Use Area, which has the side-effect that word-wrap may not work. The Garamond-looking style font for WordCruncher has no word-wrap problems.
-
-TITUS Hebrew/Semitic (1995), by Jost Gippert, is a font derived from Times New Roman and contains Hebrew and Semitic transliteration characters. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font for WordCruncher has no word-wrap problems.
-
 TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, old Gothic, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking style font for WordCruncher has no word-wrap problems.
 
 Transliteration (1998) is a TrueType font derived from Times New Roman Italic from Glyph for Windows for Egyptian transliteration created by the Centre for Computer-aided Egyptological Research, Utrecht University. It relocates some ASCII characters and removes mappings for other symbols.
@@ -51,15 +47,11 @@ URW Palladio Pali (2002), by Ulrich Stiehl, is a font derived from URW Palladio 
 
 URW Palladio REE (2002), by Ulrich Stiehl, is a font using the Ronald E. Emmerick encoding used in GRETIL archive files by the University of Göttingen for Sanskrit documents.
 
-URW Palladio S and URW Palladio US, by Ulrich Stiehl, are two fonts derived from URW Palladio and specifically designed for creating very compact searchable PDF files of Sanskrit texts. These fonts are restricted to the 15 essential Sanskrit lowercase diacritics and a few uppercase diacritics to speed up and ease searching of PDF files. The second font has no Euro sign but has a Word macro and docs in German only.
-
 URW Palladio SKT (2002), by Ulrich Stiehl, is a font derived from URW Palladio. It contains diacritics used for transliteration of Classical Sanskrit, Vedic Sanskrit, Pali and Tamil languages. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
 
 Washington Romanized Indic (2011), by Anshuman Pandey and originally created by Thomas Ridgeway, is a TeX program released under GPL 2.0 license to write Indic languages in Latin script. The font resembles the CSX encoding.
 
 Michael Witzel (Harvard University) modified the Original Garamond font in 1996 by naming it **Nina** and adding transliteration glyphs used for Malayalam, Pali, Prakrit, Classical/Vedic Sanskrit and Tamil.
-
-Dominik Wujastyk created a set of EGA and VGA screen fonts using the CS or CSX encodings.
 
 Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Unicode. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
 
@@ -1352,94 +1344,130 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | u macron            | Alt-150 |
 | u breve             | Alt-208 |
 
-### Minion Indologist codes
+### Minion Indologist codes - Avestan
+| Glyph              | Codes   |
+|--------------------|---------|
+| a ring             | Alt-158 |
+| a macron ring      | Alt-163 |
+| a ogonek           | Alt-159 |
+| a ogonek dot above | Alt-164 |
+| beta               | Alt-166 |
+| delta              | Alt-169 |
+| schwa              | Alt-178 |
+| schwa macron       | Alt-179 |
+| gamma              | Alt-180 |
+| m ogonek           | Alt-200 |
+| n acute            | Alt-202 |
+| eng                | Alt-207 |
+| eng acute          | Alt-208 |
+| eng v superscript  | Alt-209 |
+| s caron            | Alt-228 |
+| s caron acute      | Alt-230 |
+| s dot below caron  | Alt-231 |
+| t tilde below      | Alt-234 |
+| theta              | Alt-235 |
+| x acute            | Alt-247 |
+| x v superscript    | Alt-248 |
+| y dot above        | Alt-249 |
+| z caron            | Alt-250 |
+
+### Minion Indologist codes - Classical Sanskrit/Pali
+| Glyph              | Codes   |
+|--------------------|---------|
+| A macron           | Alt-128 |
+| D dot below        | Alt-132 |
+| H dot below        | Alt-133 |
+| I macron           | Alt-134 |
+| L dot below        | Alt-135 |
+| L line below       | Alt-136 |
+| M dot above        | Alt-137 |
+| M dot below        | Alt-138 |
+| N dot above        | Alt-139 |
+| N tilde            | Alt-140 |
+| N dot below        | Alt-141 |
+| R dot below        | Alt-143 |
+| R dot below macron | Alt-144 |
+| S acute            | Alt-145 |
+| S dot below        | Alt-147 |
+| T dot below        | Alt-148 |
+| U macron           | Alt-149 |
+| a macron           | Alt-157 |
+| d dot below        | Alt-168 |
+| h dot below        | Alt-181 |
+| i macron           | Alt-189 |
+| l dot below        | Alt-194 |
+| l dot below macron | Alt-198 |
+| l line below       | Alt-195 |
+| m dot below        | Alt-199 |
+| m candrabindu      | Alt-201 |
+| n tilde            | Alt-203 |
+| n dot above        | Alt-204 |
+| n dot below        | Alt-205 |
+| r dot below        | Alt-221 |
+| r dot below macron | Alt-224 |
+| s acute            | Alt-227 |
+| s dot below        | Alt-229 |
+| t dot below        | Alt-233 |
+| u macron           | Alt-241 |
+
+### Minion Indologist codes - Vedic Sanskrit
 | Glyph                    | Codes   |
 |--------------------------|---------|
-| A macron                 | Alt-128 |
+| a grave                  | Alt-153 |
+| a acute                  | Alt-152 |
+| a dieresis               | Alt-155 |
+| a macron grave           | Alt-161 |
+| a macron acute           | Alt-160 |
+| e grave                  | Alt-171 |
+| e acute                  | Alt-170 |
+| e dieresis               | Alt-173 |
+| i grave                  | Alt-185 |
+| i acute                  | Alt-184 |
+| i dieresis               | Alt-187 |
+| i macron grave           | Alt-191 |
+| i macron acute           | Alt-190 |
+| l dot below grave        | Alt-197 |
+| l dot below acute        | Alt-196 |
+| o grave                  | Alt-211 |
+| o acute                  | Alt-210 |
+| o dieresis               | Alt-213 |
+| r dot below grave        | Alt-223 |
+| r dot below acute        | Alt-222 |
+| r dot below macron grave | Alt-226 |
+| r dot below macron acute | Alt-225 |
+| u grave                  | Alt-237 |
+| u acute                  | Alt-236 |
+| u dieresis               | Alt-239 |
+| u macron grave           | Alt-243 |
+| u macron acute           | Alt-242 |
+
+### Minion Indologist codes - Extended Indic diacritics (Sanskrit, Pali, Tamil, Sinhala and other) and more
+| Glyph                    | Codes   |
+|--------------------------|---------|
 | A dieresis               | Alt-129 |
 | A ring                   | Alt-130 |
 | C cedilla                | Alt-131 |
-| D dot below              | Alt-132 |
-| H dot below              | Alt-133 |
-| I macron                 | Alt-134 |
-| L dot below              | Alt-135 |
-| L line below             | Alt-136 |
-| M dot above              | Alt-137 |
-| M dot below              | Alt-138 |
-| N dot above              | Alt-139 |
-| N tilde                  | Alt-140 |
-| N dot below              | Alt-141 |
 | O dieresis               | Alt-142 |
-| R dot below              | Alt-143 |
-| R dot below macron       | Alt-144 |
-| S acute                  | Alt-145 |
 | S caron                  | Alt-146 |
-| S dot below              | Alt-147 |
-| T dot below              | Alt-148 |
-| U macron                 | Alt-149 |
 | U dieresis               | Alt-150 |
-| a acute                  | Alt-152 |
-| a grave                  | Alt-153 |
 | a circumflex             | Alt-154 |
-| a dieresis               | Alt-155 |
 | a tilde                  | Alt-156 |
-| a macron                 | Alt-157 |
-| a macron acute           | Alt-160 |
-| a macron grave           | Alt-161 |
 | a macron tilde           | Alt-162 |
-| a macron ring            | Alt-163 |
-| a ring                   | Alt-158 |
-| a ogonek                 | Alt-159 |
-| a ogonek dot above       | Alt-164 |
 | ae                       | Alt-165 |
-| beta                     | Alt-166 |
 | c cedilla                | Alt-167 |
-| d dot below              | Alt-168 |
-| delta                    | Alt-169 |
-| e acute                  | Alt-170 |
-| e grave                  | Alt-171 |
 | e circumflex             | Alt-172 |
-| e dieresis               | Alt-173 |
 | e tilde                  | Alt-174 |
 | e macron                 | Alt-175 |
 | e open                   | Alt-176 |
 | e open macron            | Alt-177 |
-| schwa                    | Alt-178 |
-| schwa macron             | Alt-179 |
-| gamma                    | Alt-180 |
-| h dot below              | Alt-181 |
 | h line below             | Alt-182 |
 | h circumflex below       | Alt-183 |
-| i acute                  | Alt-184 |
-| i grave                  | Alt-185 |
 | i circumflex             | Alt-186 |
-| i dieresis               | Alt-187 |
 | i tilde                  | Alt-188 |
-| i macron                 | Alt-189 |
-| i macron acute           | Alt-190 |
-| i macron grave           | Alt-191 |
 | i macron tilde           | Alt-192 |
 | i dotless                | Alt-193 |
-| l dot below              | Alt-194 |
-| l dot below acute        | Alt-196 |
-| l dot below grave        | Alt-197 |
-| l dot below macron       | Alt-198 |
-| l line below             | Alt-195 |
-| m dot below              | Alt-199 |
-| m ogonek                 | Alt-200 |
-| m candrabindu            | Alt-201 |
-| n acute                  | Alt-202 |
-| n tilde                  | Alt-203 |
-| n dot above              | Alt-204 |
-| n dot below              | Alt-205 |
 | n line below             | Alt-206 |
-| eng                      | Alt-207 |
-| eng acute                | Alt-208 |
-| eng v superscript        | Alt-209 |
-| o acute                  | Alt-210 |
-| o grave                  | Alt-211 |
 | o circumflex             | Alt-212 |
-| o dieresis               | Alt-213 |
 | o tilde                  | Alt-214 |
 | o macron                 | Alt-215 |
 | o macron grave           | Alt-216 |
@@ -1447,36 +1475,12 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | oe                       | Alt-218 |
 | o open                   | Alt-219 |
 | o open macron            | Alt-220 |
-| r dot below              | Alt-221 |
-| r dot below acute        | Alt-222 |
-| r dot below grave        | Alt-223 |
-| r dot below macron       | Alt-224 |
-| r dot below macron acute | Alt-225 |
-| r dot below macron grave | Alt-226 |
-| s acute                  | Alt-227 |
-| s caron                  | Alt-228 |
-| s caron acute            | Alt-230 |
-| s dot below              | Alt-229 |
-| s dot below caron        | Alt-231 |
 | s sharp                  | Alt-232 |
-| t dot below              | Alt-233 |
-| t tilde below            | Alt-234 |
-| theta                    | Alt-235 |
-| u acute                  | Alt-236 |
-| u grave                  | Alt-237 |
 | u circumflex             | Alt-238 |
-| u dieresis               | Alt-239 |
 | u tilde                  | Alt-240 |
-| u macron                 | Alt-241 |
-| u macron acute           | Alt-242 |
-| u macron grave           | Alt-243 |
 | u macron tilde           | Alt-244 |
 | v turned                 | Alt-245 |
 | v turned macron          | Alt-246 |
-| x acute                  | Alt-247 |
-| x v superscript          | Alt-248 |
-| y dot above              | Alt-249 |
-| z caron                  | Alt-250 |
 
 ### Minion Indologist codes – Printer's Specials
 | Glyph         | Codes   |
@@ -1689,38 +1693,38 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | non-breaking space | Alt-160 |
 
 ### Old-Latin and Greek
-| Glyph          | URW Palladio KUL | CP30007          | Macron breve | Euransi e Nauromane |
-|----------------|------------------|------------------|--------------|---------------------|
-| A macron       | No key assigned  | Alt-199          | Alt-199      | Alt-194             |
-| A macron breve | No key assigned  | No key assigned  | Alt-182      | No key assigned     |
-| A breve        | No key assigned  | Alt-209          | Alt-209      | Alt-193             |
-| E macron       | No key assigned  | Alt-190          | Alt-190      | Alt-202             |
-| E macron breve | No key assigned  | No key assigned  | Alt-210      | No key assigned     |
-| E breve        | No key assigned  | Alt-249          | Alt-249      | Alt-201             |
-| I macron       | No key assigned  | Alt-157          | Alt-157      | Alt-206             |
-| I macron breve | No key assigned  | No key assigned  | Alt-215      | No key assigned     |
-| I breve        | No key assigned  | Alt-207          | Alt-207      | Alt-205             |
-| O macron       | No key assigned  | Alt-159          | Alt-159      | Alt-212             |
-| O macron breve | No key assigned  | No key assigned  | Alt-226      | No key assigned     |
-| O breve        | No key assigned  | Alt-232          | Alt-232      | Alt-211             |
-| U macron       | No key assigned  | Alt-184          | Alt-184      | Alt-219             |
-| U macron breve | No key assigned  | No key assigned  | Alt-234      | No key assigned     |
-| U breve        | No key assigned  | Alt-247          | Alt-247      | Alt-218             |
-| a macron       | Alt-192          | Alt-198          | Alt-198      | Alt-226             |
-| a macron breve | No key assigned  | No key assigned  | Alt-131      | No key assigned     |
-| a breve        | Alt-176          | Alt-208          | Alt-208      | Alt-225             |
-| e macron       | Alt-188          | Alt-189          | Alt-189      | Alt-234             |
-| e macron breve | No key assigned  | No key assigned  | Alt-136      | No key assigned     |
-| e breve        | Alt-206          | Alt-221          | Alt-221      | Alt-233             |
-| i macron       | Alt-193          | Alt-155          | Alt-155      | Alt-238             |
-| i macron breve | No key assigned  | No key assigned  | Alt-140      | No key assigned     |
-| i breve        | Alt-177          | Alt-156          | Alt-156      | Alt-237             |
-| o macron       | Alt-189          | Alt-158          | Alt-158      | Alt-244             |
-| o macron breve | No key assigned  | No key assigned  | Alt-147      | No key assigned     |
-| o breve        | Alt-207          | Alt-231          | Alt-231      | Alt-243             |
-| u macron       | Alt-194          | Alt-169          | Alt-169      | Alt-251             |
-| u macron breve | No key assigned  | No key assigned  | Alt-150      | No key assigned     |
-| u breve        | Alt-178          | Alt-239          | Alt-239      | Alt-250             |
+| Glyph          | URW Palladio KUL | CP30007          | Macron breve |
+|----------------|------------------|------------------|--------------|
+| A macron       | No key assigned  | Alt-199          | Alt-199      |
+| A macron breve | No key assigned  | No key assigned  | Alt-182      |
+| A breve        | No key assigned  | Alt-209          | Alt-209      |
+| E macron       | No key assigned  | Alt-190          | Alt-190      |
+| E macron breve | No key assigned  | No key assigned  | Alt-210      |
+| E breve        | No key assigned  | Alt-249          | Alt-249      |
+| I macron       | No key assigned  | Alt-157          | Alt-157      |
+| I macron breve | No key assigned  | No key assigned  | Alt-215      |
+| I breve        | No key assigned  | Alt-207          | Alt-207      |
+| O macron       | No key assigned  | Alt-159          | Alt-159      |
+| O macron breve | No key assigned  | No key assigned  | Alt-226      |
+| O breve        | No key assigned  | Alt-232          | Alt-232      |
+| U macron       | No key assigned  | Alt-184          | Alt-184      |
+| U macron breve | No key assigned  | No key assigned  | Alt-234      |
+| U breve        | No key assigned  | Alt-247          | Alt-247      |
+| a macron       | Alt-192          | Alt-198          | Alt-198      |
+| a macron breve | No key assigned  | No key assigned  | Alt-131      |
+| a breve        | Alt-176          | Alt-208          | Alt-208      |
+| e macron       | Alt-188          | Alt-189          | Alt-189      |
+| e macron breve | No key assigned  | No key assigned  | Alt-136      |
+| e breve        | Alt-206          | Alt-221          | Alt-221      |
+| i macron       | Alt-193          | Alt-155          | Alt-155      |
+| i macron breve | No key assigned  | No key assigned  | Alt-140      |
+| i breve        | Alt-177          | Alt-156          | Alt-156      |
+| o macron       | Alt-189          | Alt-158          | Alt-158      |
+| o macron breve | No key assigned  | No key assigned  | Alt-147      |
+| o breve        | Alt-207          | Alt-231          | Alt-231      |
+| u macron       | Alt-194          | Alt-169          | Alt-169      |
+| u macron breve | No key assigned  | No key assigned  | Alt-150      |
+| u breve        | Alt-178          | Alt-239          | Alt-239      |
 
 ### TITUS Oriental Christian font codes
 | Glyph                  | Codes   |
