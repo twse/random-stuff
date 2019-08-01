@@ -7,13 +7,6 @@ Gam Bia SIL SophiaL (1995), is a non-Unicode font based on Sophia for use with n
 
 ## Diacritical characters
 
-### Afrikaans - cp30023
-This language can be written when used with cp850 or cp859. In that case, the n apostrophe will not be available.
-
-| Glyph        | Codes   |
-|--------------|---------|
-| n apostrophe | Alt-242 |
-
 ### Baule, Krio
 | Glyph  | CP30023 - CP30028 | fc      |
 |--------|-------------------|---------|
@@ -21,14 +14,6 @@ This language can be written when used with cp850 or cp859. In that case, the n 
 | O open | Alt-157           | Alt-138 |
 | e open | Alt-134           | Alt-162 |
 | o open | Alt-155           | Alt-170 |
-
-### Chichewa/Nyanja - cp30023
-This language can be written when used with Celtic or Gaelic code pages.
-
-| Glyph        | Codes   |
-|--------------|---------|
-| W circumflex | Alt-239 |
-| w circumflex | Alt-247 |
 
 ### Dinka
 | Glyph           | CP30024 | fc              |
@@ -189,20 +174,6 @@ Use the underdot ̣ (#170) for è é ò ó.
 | o open acute      | Alt-236 | No key assigned |
 | o open circumflex | Alt-250 | No key assigned |
 | o open caron      | Alt-252 | No key assigned |
-
-### Venda
-| Glyph              | CP30023 | fc              |
-|--------------------|---------|-----------------|
-| D circumflex below | Alt-209 | No key assigned |
-| L circumflex below | Alt-157 | No key assigned |
-| N dot above        | Alt-238 | Alt-147         |
-| N circumflex below | Alt-159 | No key assigned |
-| T circumflex below | Alt-232 | No key assigned |
-| d circumflex below | Alt-208 | No key assigned |
-| l circumflex below | Alt-155 | No key assigned |
-| n dot above        | Alt-189 | Alt-179         |
-| n circumflex below | Alt-158 | No key assigned |
-| t circumflex below | Alt-231 | No key assigned |
 
 ### fc codes - Spacing Accents
 | Glyph                | Codes   |
