@@ -1488,38 +1488,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | quoteleft     | Alt-254 |
 | quoteright    | Alt-255 |
 
-### Mongolian transliteration font codes
-| Glyph             | Codes   | Galig                              |
-|-------------------|---------|------------------------------------|
-| A macron          | Alt-182 | Alt-195                            |
-| C caron           | Alt-128 | C                                  |
-| E macron          | Alt-210 | Alt-202                            |
-| G dot above       | Alt-143 | No key assigned                    |
-| Gamma             | Alt-157 | tilde                              |
-| J caron           | Alt-165 | J                                  |
-| O dieresis        | Alt-153 | plus                               |
-| O macron          | Alt-226 | Alt-213                            |
-| O dot above       | Alt-224 | No key assigned                    |
-| S acute           | Alt-211 | No key assigned                    |
-| S caron           | Alt-221 | percent                            |
-| U dieresis        | Alt-154 | backslash, vertical bar or Alt-165 |
-| U dot above       | Alt-233 | No key assigned                    |
-| Z caron           | Alt-239 | Alt-239                            |
-| a macron          | Alt-131 | Alt-227                            |
-| c caron           | Alt-135 | c                                  |
-| e macron          | Alt-136 | Alt-234                            |
-| g dot above       | Alt-134 | No key assigned                    |
-| gamma             | Alt-155 | G                                  |
-| j caron           | Alt-164 | j                                  |
-| o dieresis        | Alt-148 | O                                  |
-| o macron          | Alt-147 | Alt-245                            |
-| o dot above       | Alt-162 | No key assigned                    |
-| s acute           | Alt-137 | No key assigned                    |
-| s caron           | Alt-249 | S                                  |
-| u dieresis        | Alt-129 | U                                  |
-| u dot above       | Alt-163 | No key assigned                    |
-| z caron           | Alt-247 | Alt-140                            |
-
 ### Nina transliteration font codes
 | Glyph                    | Codes   |
 |--------------------------|---------|
