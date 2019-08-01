@@ -4,21 +4,16 @@ Special thanks goes to the following people:
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
-* Bùi Minh Cương, for writing vietdos. The bundled screen fonts leaves the tittle in small i with accent above, which is unacceptable.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
-* Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
 * Peter Cassetta, for information about Cyrillic character sets.
 * Miguel Civil, for his Nippur-Guti fonts, used on the Chicago Sumerian Sumerian Lexicon Archive site.
 * Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
 * Roman Czyborra, for information about character sets.
-* Virginijus Dadurkevičius, for his accented Lithuanian font.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey / [Unitype Inc.](http://www.unitype.com/), for his transliteration fonts intended for the ALA-LC scheme.
-* Vedran Gačo, for writing the Croatian product GWD Font Editor. This product includes no English documentation but does have an English user interface.
-* Yossi Gil, for his loadfont and dumpfont programs from the MS-DOS font collection.
 * Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
 * Vasil Glagolov, for creating the Paleofonts installer.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
@@ -55,10 +50,7 @@ Special thanks goes to the following people:
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Conrad Taylor, for his book used to design fonts for African languages. This book duplicated Kikuyu in the language list.
 * Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
-* [Ernst Tremel](https://www.skytower.org/~ernstjtremel/index.htm), for his Kurdish (Latin/Cyrillic) fonts and the keyboard layout.
-* Vladas Tumasonis, for his request to add Lithuanian accented letters to the Unicode Standard (1999). He's also the author of Palemonas MUFI font (2012).
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
-* Vladimir Volovich, for writing the TeX T5 encoding designed for the Vietnamese language.
 
 ## Third-Party Notices
 
@@ -119,8 +111,3 @@ Zahvaljujem se bratu Ivanu, prijateljima Dubravku Gabeli, Reneu Vučetiću, Dean
 
 ### Credits for Transliteration
 Copyright © 1998 Centre for Computer-aided Egyptological Research, Utrecht University
-
-### Credits for vietdos, VNKey
-Copyright (c) 1992-2010 The TriChlor Software Group. All Rights Reserved.
-
-Permission to use, copy, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies and that both this copyright notice and this permission notice appear in supporting documentation, and that the name of The TriChlor Software Group not be used in advertising or publicity pertaining to distribution of the software without specific prior, written permission. This software is supplied as is without expressed or implied warranties of any kind.
