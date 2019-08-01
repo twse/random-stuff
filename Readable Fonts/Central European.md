@@ -1,4 +1,4 @@
-﻿## Fonts
+## Fonts
 * Central European Starter Kit (1997), by [Fingertip Software](http://www.fingertipsoft.com/index.html), is a pay shareware Windows keyboard which comes with a bitmap font and two TrueType fonts. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický which replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
@@ -50,7 +50,7 @@ Trans-ASCII (1991), by Pavel Ferda, is a DOS program to convert Czech text in va
 ### Slovak - Typed as usual on Slovak keyboards
 This language can be used when written with Kamenicky encoding.
 
-Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to CP852. The keyboard shortcuts play beeps from the PC speakers.The TSR is available for download in the [Slovak Antivirus Center](https://www.sac.sk/).
+Henrich Fukna wrote a TSR from 1995 to change the keyboard to Slovak and font to CP852. The keyboard shortcuts play beeps from the PC speakers.The TSR is available for download in the [Slovak Antivirus Center](https://www.sac.sk/).
 
 Vladimír Ivantyšyn and Peter Molčan wrote kamslx (1996), a program to change the keyboard into Slovak. When pressing `Shift-F11` it shows the setup menu in Slovak where the user can change the keyboard layout and enable diacritics.
 
@@ -96,11 +96,11 @@ This language can be written when used with CP775 (Mazovia encoding).
 
 Adam W. Marczewski wrote a page containing shortcuts for Polish standard/programmer keyboards (no Apple Central Europe shortcuts). Find the shortcut list with a Microsoft Word macro in [this page](http://adsorption.org/awm/info/pl-codes.htm).
 
-Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format. When launched using the `la` encoding, the section sign (§) is placed in #167 which is used for lowercase z caron.
+Sławomir Stachniewicz wrote a set of file, font, keyboard and printer utilities for the Polish language - PLUTIL (1996). Documentation is in Polish only and also available in DOK format. If the program is launched with the `la` encoding, it will place the section sign (§) in #167 which is used for lowercase z caron (ž).
 
 [Piotr Walewski-Salecki](http://www.walewski-salecki.pl/) wrote the program Gżegżółka (2009) which converts text in various encodings. The program was originally called Convert 1.x through 4.x (1997-1999). [Home page for Gżegżółka](http://www.gzegzolka.com/), in Polish only / tylko w Polski.
 
-URW Palladio SKT, KUL, M and FF relocates capital Z acute at #190 to comply with Adobe Standard Encoding. This codepoint is used for the Slovak diacritic small l caron. Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
+URW Palladio SKT, KUL, M and FF relocates capital Z acute (Ź) at #190 to comply with Adobe Standard Encoding. This codepoint is used for the Slovak diacritic small l caron (ľ). Download these fonts at [the English Sanskrit Web site](http://www.sanskritweb.net/).
 
 | Glyph       | Codes   | Windows CP1250 | Cork    | CSK     | CYfromat | DHN     | IEA     | Logic   | Mazovia | Microvex |
 |-------------|---------|----------------|---------|---------|----------|---------|---------|---------|---------|----------|
@@ -161,8 +161,6 @@ Kasim Terzić wrote the pay shareware program Convert It (1995) for conversion o
 
 Tomislav Bronzin wrote the pay shareware program TIPKA (1995) for DOS and Windows. When uninstalling in DOSBox with `/de`, it will disable the virtual keyboard. The documentation is in Croatian only. 
 
-Vedran Gačo wrote the pay shareware font editor GWD Font Editor (1995). This product includes a CPI file for use with DOS with Croatian characters in various encodings with all docs in Croatian and has an English user interface.
-
 Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of text encodings written in Croatian language. The documentation is in Croatian only. (ported to OS/2 by Hrvoje Bartolin)
 
 [hrSlova page](http://www.blagi.net/hrslova/hrslovpl.html) with utilities from Zdravko Blagdan, in Croatian only / samo v Hrvatski.
@@ -181,8 +179,6 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 | z caron  | Alt-167 | Alt-158        | Alt-186 | Alt-166 |
 
 ### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
-Some programs as [UniPad](http://www.unipad.org/) use cedilla for the keyboard.
-
 One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
 | Glyph        | Codes   | Windows CP1250 | Cork    |
@@ -225,40 +221,6 @@ One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (
 | u dieresis | Alt-129 | Alt-252        | Alt-252 | Alt-129      |
 | y acute    | Alt-236 | Alt-253        | Alt-253 | Alt-134      |
 | z caron    | Alt-167 | Alt-158        | Alt-186 | Alt-155      |
-
-### Kashubian - CP58335
-| Glyph        | Codes   |
-|--------------|---------|
-| A tilde      | Alt-142 |
-| A ogonek     | Alt-143 |
-| C acute      | Alt-149 |
-| E acute      | Alt-138 |
-| E dieresis   | Alt-132 |
-| E ogonek     | Alt-144 |
-| L slash      | Alt-156 |
-| N acute      | Alt-165 |
-| O grave      | Alt-153 |
-| O acute      | Alt-163 |
-| O circumflex | Alt-150 |
-| S acute      | Alt-152 |
-| U grave      | Alt-154 |
-| Z acute      | Alt-160 |
-| Z dot above  | Alt-161 |
-| a tilde      | Alt-133 |
-| a ogonek     | Alt-134 |
-| c acute      | Alt-141 |
-| e acute      | Alt-130 |
-| e dieresis   | Alt-137 |
-| e ogonek     | Alt-145 |
-| l slash      | Alt-146 |
-| n acute      | Alt-164 |
-| o grave      | Alt-148 |
-| o acute      | Alt-162 |
-| o circumflex | Alt-147 |
-| s acute      | Alt-158 |
-| u grave      | Alt-129 |
-| z acute      | Alt-166 |
-| z dot above  | Alt-167 |
 
 ### Spacing Accents
 | Glyph        | Codes   | Windows CP1250 | Cork    |
