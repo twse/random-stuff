@@ -4,9 +4,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 ### Numbered encodings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
-| CP770     | Baltic                                     |
-| CP773     | Latin-7 (Baltic - old standard)            |
-| CP775     | Latin-7 (Baltic)                           |
 | CP857     | Latin 5 (Turkey)                           |
 | CP899     | Armenian                                   |
 | CP3845    | Hungarian                                  |
@@ -31,13 +28,10 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GEM       | GEM Encoding                                   |
 | KOI8ALT   | Soviet KOI-8 Alternative                       |
 | KURCYR    | Cyrillic Kurdish Kurmanjî                      |
-| KURLAT    | Latin Kurdish Yekgirtú & Kurmanjî              |
 | LFGREEK   | LinguaFont Monotonic Greek                     |
 | LFGRPL    | LinguaFont Polytonic Greek                     |
 | LTMCBR    | Latin (macron-breve on circumflex vowels)      |
 | MACBACYR  | Apple Barents Cyrillic                         |
-| RUV4A     | DOS 4.0 Russian Academic                       |
-| RUV4NA    | DOS 4.0 Russian Non-Academic                   |
 | SIOUAN    | Siouan Languages                               |
 | T2A       | TeX Cyrillic Encoding 1                        |
 | T2B       | TeX Cyrillic Encoding 2                        |
