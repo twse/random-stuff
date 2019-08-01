@@ -5,7 +5,6 @@ Special thanks goes to the following people:
 * Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
 * Bùi Minh Cương, for writing vietdos. The bundled screen fonts leaves the tittle in small i with accent above, which is unacceptable.
-* Michael Burton (Rimrock Software), for designing the Horizontal/Vertical Flip fonts in Display Font Editor.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Sergey Bykov, for his RusLat keyboard driver (it installs on Win32 only).
 * Peter Cassetta, for information about Cyrillic character sets.
@@ -92,19 +91,6 @@ This program is free software; you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program. If not, see .
-
-### Credits for Display Font Editor
-Copyright (c) 1991 Michael Burton (Rimrock Software). All rights reserved.
-
-#### Trial Use Warranty
-The Shareware evaluation (trial use) version is provided AS IS. Rimrock Software MAKES NO WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
-
-#### Registered Version Warranty
-Rimrock Software warrants the physical diskette(s) and physical documentation provided with registered versions to be free of defects in materials and workmanship for a period of ninety days from the date of registration.  If Rimrock Software receives notification within the warranty period of defects in materials or workmanship, and such notification is determined by Rimrock Software to be correct, Rimrock Software will replace the defective diskette(s) or documentation.
-
-The entire and exclusive liability and remedy for breach of this Limited Warranty shall be limited to replacement of defective diskette(s) or documentation and shall not include or extend to any claim for or right to recover any other damages, including but not limited to, loss of profit, data, or use of the software, or special, incidental, or consequential damages or other similar claims, even if Rimrock Software has been specifically advised of the possibility of such damages.  In no event will Rimrock Software's liability for any damages to you or any other person ever exceed the lower of suggested list price or actual price paid for the license to use the software, regardless of any form of the claim.
-
-Rimrock Software SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
 
 ### Credits for EVAfont
 Copyright (c) 1988,1989 by Pete I. Kvitek (JV Dialogue). All rights reserved.
