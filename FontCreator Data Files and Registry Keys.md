@@ -1,27 +1,27 @@
 ﻿## Notes
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
-* Versions from 5.0 through 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
+* Version 3.0 until 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
 * Complete Composites slows down the first time using in simple and composite glyphs.
-* Versions from 5.0 through 6.0 makes **Complete Composites** dimmed in empty glyph(s).
-* Versions from 1.0 through 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
+* Version 5.0 until 6.0 makes **Complete Composites** dimmed in empty glyph(s).
+* Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout, you would have to use Resource Tuner (tested with latest version) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
-* Versions from 1.0 through 6.5 only has one icon for the executable file.
-* Versions from 1.0 through 6.5 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
+* Version 1.0 until 6.5 only has one icon for the executable file.
+* Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 The unregistered version works for 30 days with the following limitations based on the version number.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) - After a grace period of 30 days, a nag screen is shown.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and running the program 5 times, the program will enter a reduced functionality mode where e.g. fonts cannot be saved or tested.
-* 6.0 (2009-06-17) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode where e.g. tested fonts won't be automatically hinted.
+* 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
 * 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
 
@@ -38,16 +38,16 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
-* **glyphnamesnew.dat** – For versions 7.0 and newer, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Old versions have the same list but duplicates **xi** to U+0000.
+* **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Old versions have the same list but duplicates **xi** to U+0000.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
-* **previewtext.dat** – For versions 3.0 through 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
-* **preview.txt** – For version 7.0 and newer, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
+* **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
+* **preview.txt** – For version 7.0 and above, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
 * **SubFamily.dat** – Includes naming fields for different languages.
 * **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed.
-* **tags.txt** – For versions 7.0 and newer, controls the names of the five tags that can be assigned to each glyph.
+* **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
 
-In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when these executed the program will either copy most files to the user data folder or open it.
+In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
 
 ## Registry Keys
 
@@ -89,13 +89,13 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **IncludeWinDescent** – This corresponds to the **Win Descent** option in the Metrics Options window.
 * **IncludexHeight** – This corresponds to the **x-Height** option in the Metrics Options window.
 * **IncludeYAxis** – This corresponds to the **Y-Axis** option in the Metrics Options window.
-* **LockUserDefinedGuidelines** – Used when pressing **Lock Guidelines** in the Grid toolbar.
-* **ShowBearings** – Used when pressing **Show Metrics** in the Grid toolbar.
-* **ShowFixedGridLines** – This corresponds to the **Show reference lines at x = 0, y = 0** option in Grid Options.
+* **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar.
+* **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar.
+* **ShowFixedGridLines** (version 5.6 & above) – This corresponds to the **Show reference lines at x = 0, y = 0** option in Grid Options.
 * **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar.
 * **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is running, the checkbox in the Guidelines Options window will read the ampersand.
-* **SnapToGrid** – Used when pressing **Snap to Grid** in the Grid toolbar.
-* **SnapToUserDefinedGuidelines** – Used when pressing **Snap to Guidelines** in the Grid toolbar.
+* **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar.
+* **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar.
 
 ### GuideLines
 * **Color** – This corresponds to the **Color** option in Guideline Options. Default is black.
@@ -126,7 +126,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
 * **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
 * **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
-* **OverviewSampleFont** – Used with **Font overview: Font used by samples** option in the Overview tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font overview: Font used by samples** option in the Overview tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
 * **OverviewSingleWidth** – Used with **Font overview: Glyph width** option in the Overview tab. Default is 70. (Available in the Options window)
@@ -197,7 +197,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
 * **LeftSideBearingExcludeLargeFonts** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** option in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
 * **LongAlignedLocalOffsets** – This corresponds to the **When Saving Font Files: Long-aligned local offsets** option in the Font tab. (Available in the Options window)
-* **OnStartupOpenFonts** – This corresponds to the **Startup: On start open fonts from last time** option in the General tab. Default is on. (Available in the Options window)
+* **OnStartupOpenFonts** (version 5.6 & above) – This corresponds to the **Startup: On start open fonts from last time** option in the General tab. Default is on. (Available in the Options window)
 * **OnStartupShowUpdateReminder** – This corresponds to the **Startup: Show update reminder** option in the General tab. Default is Once a year. (Available in the Options window)
 * **OnStartupShowWelcome** – This corresponds to the **Startup: On start show Welcome dialog** option in the General tab. Default is on. (Available in the Options window)
 * **PanoseValueHexadecimal** – This corresponds to the **PANOSE: HEX** option in the Classification tab. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal. (Available in the Font Settings window)
@@ -207,8 +207,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **RemoveHdmxTable** – This corresponds to the **When Opening Font Files: Remove hdmx table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **RemoveLTSHTable** – This corresponds to the **When Opening Font Files: Remove LTSH table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **RemoveVDMXTable** – This corresponds to the **When Opening Font Files: Remove VDMX table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **SetLeftSideBearingPointAtX0** – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
-* **UnicodeEnabledGUI** – In version 5.5 through 6.1 only. This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
+* **UnicodeEnabledGUI** (version 5.5 until 6.1) – This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – This corresponds to the **When Saving Font Files: Update Modified DateTime field** option in the Font tab. Default is on. (Available in the Options window)
 * **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
 
