@@ -27,8 +27,6 @@ SPAtlantis (1998), by James R. Adair, is a transliteration font for Windows and 
 
 Transliteration (1998) is a TrueType font derived from Times New Roman Italic from Glyph for Windows for Egyptian transliteration created by the Centre for Computer-aided Egyptological Research, Utrecht University. It relocates some ASCII characters and removes mappings for other symbols.
 
-URW Palladio GGM (2002), by Ulrich Stiehl, is a font using the Balaram encoding designed for Sanskrit documents of the Gaudiya Grantha Mandira website.
-
 URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from [Harry Falk](http://userpage.fu-berlin.de/~falk/index.htm) and is included with the 2003 IndoSkript CD.
 
 URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
@@ -558,38 +556,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | quotedblright             | Alt-251 |
 | nbspace (Windows)         | Alt-160 |
 | nbspace (macOS)           | Alt-202 |
-
-### Ronald E. Emmerick encoding codes
-| Glyph              | Codes   |
-|--------------------|---------|
-| A macron           | Alt-249 |
-| D dot below        | Alt-214 |
-| H dot below        | Alt-234 |
-| I macron           | Alt-253 |
-| M dot below        | Alt-245 |
-| N tilde            | Alt-165 |
-| N dot above        | Alt-167 |
-| N dot below        | Alt-215 |
-| R dot below        | Alt-227 |
-| S acute            | Alt-193 |
-| S dot below        | Alt-229 |
-| T dot below        | Alt-232 |
-| U macron           | Alt-244 |
-| a macron           | Alt-195 |
-| d dot below        | Alt-172 |
-| h dot below        | Alt-247 |
-| i macron           | Alt-197 |
-| l dot below        | Alt-202 |
-| l dot below macron | Alt-203 |
-| m dot below        | Alt-230 |
-| n tilde            | Alt-164 |
-| n dot above        | Alt-199 |
-| n dot below        | Alt-239 |
-| r dot below macron | Alt-204 |
-| s acute            | Alt-211 |
-| s dot below        | Alt-171 |
-| t dot below        | Alt-194 |
-| u macron           | Alt-198 |
 
 ### IndoSkript font codes – Accented letters
 | Glyph               | Codes   |

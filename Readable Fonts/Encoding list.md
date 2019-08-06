@@ -1,12 +1,11 @@
-﻿## Information
-The readable font family is based on the works of System VIO fonts from IBM OS/2.
+## Information
+The readable font family is based on the System VIO font from IBM OS/2.
 
 ### Numbered encodings
 | File Name | Description                                |
 |-----------|--------------------------------------------|
 | CP857     | Latin 5 (Turkey)                           |
 | CP899     | Armenian                                   |
-| CP3845    | Hungarian                                  |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30019   | Cyrillic Russian and Latin Chechen         |
@@ -19,28 +18,26 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | CP60853   | Georgian with capital letters              |
 
 ### Unnumbered encodings
-| File Name | Description                                    |
-|-----------|------------------------------------------------|
-| CORK      | TeX Cork                                       |
-| CWI2      | Hungarian CWI-2                                |
-| EDA_CODE  | EDA editor encoding                            |
-| KOI8ALT   | Soviet KOI-8 Alternative                       |
-| KURCYR    | Cyrillic Kurdish Kurmanjî                      |
-| LFGREEK   | LinguaFont Monotonic Greek                     |
-| LFGRPL    | LinguaFont Polytonic Greek                     |
-| LTMCBR    | Latin (macron-breve on circumflex vowels)      |
-| MACBACYR  | Apple Barents Cyrillic                         |
-| SIOUAN    | Siouan Languages                               |
-| T2A       | TeX Cyrillic Encoding 1                        |
-| T2B       | TeX Cyrillic Encoding 2                        |
-| T2C       | TeX Cyrillic Encoding 3                        |
-| TEX-GR    | TeX Greek                                      |
-| TEX-MATH  | TeX Math                                       |
-| TURKLAT   | Turkic Latin                                   |
-| VGAF_HY   | VGAFONT Armenian                               |
-| WAKHI     | Wakhi                                          |
-| WNGB      | Washington Gerald Barnett Old English          |
-| WNPS      | Washington Puget Salish                        |
+| File Name | Description                           |
+|-----------|---------------------------------------|
+| CORK      | TeX Cork                              |
+| EDA_CODE  | EDA editor encoding                   |
+| KOI8ALT   | Soviet KOI-8 Alternative              |
+| KURCYR    | Cyrillic Kurdish Kurmanjî             |
+| LFGREEK   | LinguaFont Monotonic Greek            |
+| LFGRPL    | LinguaFont Polytonic Greek            |
+| MACBACYR  | Apple Barents Cyrillic                |
+| SIOUAN    | Siouan Languages                      |
+| T2A       | TeX Cyrillic Encoding 1               |
+| T2B       | TeX Cyrillic Encoding 2               |
+| T2C       | TeX Cyrillic Encoding 3               |
+| TEX-GR    | TeX Greek                             |
+| TEX-MATH  | TeX Math                              |
+| TURKLAT   | Turkic Latin                          |
+| VGAF_HY   | VGAFONT Armenian                      |
+| WAKHI     | Wakhi                                 |
+| WNGB      | Washington Gerald Barnett Old English |
+| WNPS      | Washington Puget Salish               |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                                      |
@@ -54,7 +51,6 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | BHTITIME  | BharatiTimes                                     |
 | BPSTRAN   | Buddhist Publication Society                     |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
-| GRETIL    | Ronald Emmerick                                  |
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
