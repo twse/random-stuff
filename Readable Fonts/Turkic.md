@@ -1,9 +1,9 @@
 ## Fonts and keyboards
 Ernst Tremel created fonts and keyboards for Windows XP & above for writing Kurdish in Arabic, Cyrillic and Latin scripts.Download these from [here](https://www.skytower.org/~ernstjtremel/OpenTypeFont_KurdishAllAlphabets.htm).
 
-Lexa (1998) and LinguaFont (1998), by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
+Lexa and LinguaFont (1998), two linguistic DOS programs by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
 
-Michael Everson created input utilities for macOS for Turkic languages.
+Michael Everson / Evertype created input utilities for macOS for Turkic languages.
 
 Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
@@ -13,22 +13,22 @@ Although not part of my readable font series, this language is usually written i
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
-| Glyph       | Codes   | Balkan  | CP60258  | TITUS           |
-|-------------|---------|---------|----------|-----------------|
-| C cedilla   | Alt-128 | Alt-128 | Alt-253  | Alt-128         |
-| Schwa       | Alt-232 | Alt-232 | Alt-246  | No key assigned |
-| G breve     | Alt-166 | Alt-155 | Alt-248  | Alt-180         |
-| I dot above | Alt-152 | Alt-152 | I        | Alt-184         |
-| O dieresis  | Alt-153 | Alt-153 | Alt-240  | Alt-153         |
-| S cedilla   | Alt-158 | Alt-242 | Alt-251  | Alt-202         |
-| U dieresis  | Alt-154 | Alt-154 | Alt-244  | Alt-154         |
-| c cedilla   | Alt-135 | Alt-135 | Alt-254  | Alt-135         |
-| schwa       | Alt-246 | Alt-210 | Alt-247  | Alt-226         |
-| g breve     | Alt-167 | Alt-157 | Alt-249  | Alt-227         |
-| i dotless   | Alt-141 | Alt-141 | Alt-243  | Alt-229         |
-| o dieresis  | Alt-148 | Alt-148 | Alt-241  | Alt-148         |
-| s cedilla   | Alt-159 | Alt-243 | Alt-252  | Alt-245         |
-| u dieresis  | Alt-129 | Alt-129 | Alt-245  | Alt-129         |
+| Glyph       | Codes   | CP60258 |
+|-------------|---------|---------|
+| C cedilla   | Alt-128 | Alt-253 |
+| Schwa       | Alt-232 | Alt-246 |
+| G breve     | Alt-166 | Alt-248 |
+| I dot above | Alt-152 | I       |
+| O dieresis  | Alt-153 | Alt-240 |
+| S cedilla   | Alt-158 | Alt-251 |
+| U dieresis  | Alt-154 | Alt-244 |
+| c cedilla   | Alt-135 | Alt-254 |
+| schwa       | Alt-246 | Alt-247 |
+| g breve     | Alt-167 | Alt-249 |
+| i dotless   | Alt-141 | Alt-243 |
+| o dieresis  | Alt-148 | Alt-241 |
+| s cedilla   | Alt-159 | Alt-252 |
+| u dieresis  | Alt-129 | Alt-245 |
 
 ### Bashkir
 | Glyph        | Codes   |
@@ -256,25 +256,26 @@ Although not part of my readable font series, this language is usually written i
 | ha descender | Alt-249 | Alt-181         |
 
 ### Turkish - Typed as usual on Turkish keyboards
-| Glyph        | Codes   | Balkan  | CP857   | CP853   | TITUS   |
-|--------------|---------|---------|---------|---------|---------|
-| A circumflex | Alt-182 | Alt-182 | Alt-182 | Alt-182 | Alt-167 |
-| C cedilla    | Alt-128 | Alt-128 | Alt-128 | Alt-128 | Alt-128 |
-| G breve      | Alt-166 | Alt-166 | Alt-166 | Alt-166 | Alt-180 |
-| I circumflex | Alt-215 | Alt-155 | Alt-215 | Alt-215 | Alt-183 |
-| I dot above  | Alt-152 | Alt-152 | Alt-152 | Alt-152 | Alt-184 |
-| O dieresis   | Alt-153 | Alt-153 | Alt-153 | Alt-153 | Alt-153 |
-| S cedilla    | Alt-158 | Alt-242 | Alt-158 | Alt-184 | Alt-202 |
-| U circumflex | Alt-234 | Alt-234 | Alt-234 | Alt-234 | Alt-210 |
-| U dieresis   | Alt-154 | Alt-154 | Alt-154 | Alt-131 | Alt-131 |
-| c cedilla    | Alt-135 | Alt-135 | Alt-135 | Alt-135 | Alt-135 |
-| g breve      | Alt-167 | Alt-157 | Alt-167 | Alt-167 | Alt-227 |
-| i circumflex | Alt-140 | Alt-140 | Alt-140 | Alt-140 | Alt-140 |
-| i dotless    | Alt-141 | Alt-141 | Alt-141 | Alt-213 | Alt-229 |
-| o dieresis   | Alt-148 | Alt-148 | Alt-148 | Alt-148 | Alt-148 |
-| s cedilla    | Alt-159 | Alt-243 | Alt-159 | Alt-173 | Alt-245 |
-| u circumflex | Alt-150 | Alt-150 | Alt-150 | Alt-150 | Alt-150 |
-| u dieresis   | Alt-129 | Alt-129 | Alt-129 | Alt-129 | Alt-129 |
+| Glyph        | Codes   | CP857   | CP853   |
+|--------------|---------|---------|---------|
+| A circumflex | Alt-182 | Alt-182 | Alt-182 |
+| C cedilla    | Alt-128 | Alt-128 | Alt-128 |
+| G breve      | Alt-166 | Alt-166 | Alt-166 |
+| I circumflex | Alt-215 | Alt-215 | Alt-215 |
+| I dot above  | Alt-152 | Alt-152 | Alt-152 |
+| O dieresis   | Alt-153 | Alt-153 | Alt-153 |
+| S cedilla    | Alt-158 | Alt-158 | Alt-184 |
+| U circumflex | Alt-234 | Alt-234 | Alt-234 |
+| U dieresis   | Alt-154 | Alt-154 | Alt-131 |
+| a circumflex | Alt-131 | Alt-131 | Alt-131 |
+| c cedilla    | Alt-135 | Alt-135 | Alt-135 |
+| g breve      | Alt-167 | Alt-167 | Alt-167 |
+| i circumflex | Alt-140 | Alt-140 | Alt-140 |
+| i dotless    | Alt-141 | Alt-141 | Alt-213 |
+| o dieresis   | Alt-148 | Alt-148 | Alt-148 |
+| s cedilla    | Alt-159 | Alt-159 | Alt-173 |
+| u circumflex | Alt-150 | Alt-150 | Alt-150 |
+| u dieresis   | Alt-129 | Alt-129 | Alt-129 |
 
 ### Turkmen
 | Glyph       | Codes   |
