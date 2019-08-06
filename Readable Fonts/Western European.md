@@ -1,4 +1,4 @@
-## Fonts and keyboard drivers
+## Fonts and keyboards
 ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icelandic font and keyboard which uses the CP 861 encoding.
 
 SevenHeaven (1987), by Anders M Olsson, is a DOS TSR program to install a Swedish keyboard. The docs are in Swedish.
@@ -38,14 +38,6 @@ Catalan can be written when used with cp850 or cp859. In that case, the l middle
 | o acute                   | circumflex accent    | Alt-243          | Alt-243         | Alt-243         |
 | u acute                   | underscore           | Alt-250          | Alt-250         | Alt-250         |
 | u dieresis                | left curly bracket   | Alt-252          | Alt-252         | Alt-252         |
-
-### Asturian
-| Glyph       | Iberian |
-|-------------|---------|
-| H dot below | Alt-190 |
-| L dot below | Alt-157 |
-| h dot below | Alt-189 |
-| l dot below | Alt-155 |
 
 ### Dutch - Typed as usual on Dutch keyboards
 Dutch can be written when used with cp850 or cp859. In that case, the ij ligature will not be available.
@@ -89,28 +81,28 @@ Dutch can be written when used with cp850 or cp859. In that case, the ij ligatur
 One can easily type Dutch words within a Polish and/or German context with these fonts as (almost) all the diacritics necessary are provided. The only lowercase letter missing is the „ij-digraf” which can be easily (and very frequently is, in fact) replaced with the regular ij – two letters.
 
 ### Faroese, Icelandic - Typed as usual on Icelandic keyboards
-| Glyph      | CP850   | CP861   | Windows | TITUS   |
-|------------|---------|---------|---------|---------|
-| A acute    | Alt-181 | Alt-164 | Alt-193 | Alt-177 |
-| AE         | Alt-146 | Alt-146 | Alt-198 | Alt-146 |
-| E acute    | Alt-144 | Alt-144 | Alt-201 | Alt-144 |
-| I acute    | Alt-214 | Alt-165 | Alt-205 | Alt-187 |
-| O acute    | Alt-224 | Alt-166 | Alt-211 | Alt-192 |
-| O dieresis | Alt-153 | Alt-153 | Alt-214 | Alt-153 |
-| U acute    | Alt-233 | Alt-167 | Alt-218 | Alt-202 |
-| Y acute    | Alt-237 | Alt-151 | Alt-221 | Alt-206 |
-| Eth        | Alt-209 | Alt-139 | Alt-208 | Alt-181 |
-| Thorn      | Alt-232 | Alt-141 | Alt-222 | Alt-200 |
-| a acute    | Alt-160 | Alt-160 | Alt-225 | Alt-160 |
-| ae         | Alt-145 | Alt-145 | Alt-230 | Alt-145 |
-| e acute    | Alt-130 | Alt-130 | Alt-233 | Alt-130 |
-| i acute    | Alt-161 | Alt-161 | Alt-237 | Alt-161 |
-| o acute    | Alt-162 | Alt-162 | Alt-243 | Alt-162 |
-| o dieresis | Alt-148 | Alt-148 | Alt-246 | Alt-148 |
-| u acute    | Alt-163 | Alt-163 | Alt-250 | Alt-163 |
-| y acute    | Alt-236 | Alt-152 | Alt-253 | Alt-222 |
-| eth        | Alt-208 | Alt-140 | Alt-240 | Alt-210 |
-| thorn      | Alt-231 | Alt-149 | Alt-254 | Alt-219 |
+| Glyph      | CP850   | CP861   | Windows |
+|------------|---------|---------|---------|
+| A acute    | Alt-181 | Alt-164 | Alt-193 |
+| AE         | Alt-146 | Alt-146 | Alt-198 |
+| E acute    | Alt-144 | Alt-144 | Alt-201 |
+| I acute    | Alt-214 | Alt-165 | Alt-205 |
+| O acute    | Alt-224 | Alt-166 | Alt-211 |
+| O dieresis | Alt-153 | Alt-153 | Alt-214 |
+| U acute    | Alt-233 | Alt-167 | Alt-218 |
+| Y acute    | Alt-237 | Alt-151 | Alt-221 |
+| Eth        | Alt-209 | Alt-139 | Alt-208 |
+| Thorn      | Alt-232 | Alt-141 | Alt-222 |
+| a acute    | Alt-160 | Alt-160 | Alt-225 |
+| ae         | Alt-145 | Alt-145 | Alt-230 |
+| e acute    | Alt-130 | Alt-130 | Alt-233 |
+| i acute    | Alt-161 | Alt-161 | Alt-237 |
+| o acute    | Alt-162 | Alt-162 | Alt-243 |
+| o dieresis | Alt-148 | Alt-148 | Alt-246 |
+| u acute    | Alt-163 | Alt-163 | Alt-250 |
+| y acute    | Alt-236 | Alt-152 | Alt-253 |
+| eth        | Alt-208 | Alt-140 | Alt-240 |
+| thorn      | Alt-231 | Alt-149 | Alt-254 |
 
 ### French - Typed as usual on French keyboards
 French can be written when used with cp850. In that case, the oe ligature will not be available.
@@ -159,20 +151,20 @@ French can be written when used with cp850. In that case, the oe ligature will n
 The capital sharp s is accessed in my screen fonts for German-Polish Friendship Fonts based on URW Palladio with Alt-190. The original fonts assign this to capital Z acute to conform with Adobe Standard Encoding.
 
 ### Italian - Typed as usual on Italian keyboards
-| Glyph   | Codes   | Iberian | URW Palladio KUL | Windows | WST_Ital            | Cork    |
-|---------|---------|---------|------------------|---------|---------------------|---------|
-| A grave | Alt-183 | Alt-145 | No key assigned  | Alt-192 | No key assigned     | Alt-192 |
-| E grave | Alt-212 | Alt-146 | No key assigned  | Alt-200 | No key assigned     | Alt-200 |
-| E acute | Alt-144 | Alt-144 | No key assigned  | Alt-201 | No key assigned     | Alt-201 |
-| I grave | Alt-152 | Alt-222 | No key assigned  | Alt-204 | No key assigned     | Alt-204 |
-| O grave | Alt-227 | Alt-169 | No key assigned  | Alt-211 | No key assigned     | Alt-211 |
-| U grave | Alt-235 | Alt-157 | No key assigned  | Alt-217 | No key assigned     | Alt-217 |
-| a grave | Alt-133 | Alt-133 | Alt-224          | Alt-224 | left curly bracket  | Alt-224 |
-| e grave | Alt-138 | Alt-138 | Alt-232          | Alt-232 | right curly bracket | Alt-232 |
-| e acute | Alt-130 | Alt-130 | Alt-233          | Alt-233 | at                  | Alt-233 |
-| i grave | Alt-141 | Alt-141 | Alt-236          | Alt-236 | tilde               | Alt-236 |
-| o grave | Alt-149 | Alt-149 | Alt-242          | Alt-242 | vertical line       | Alt-242 |
-| u grave | Alt-151 | Alt-151 | Alt-249          | Alt-249 | grave accent        | Alt-249 |
+| Glyph   | Codes   | URW Palladio KUL | Windows | WST_Ital            | Cork    |
+|---------|---------|------------------|---------|---------------------|---------|
+| A grave | Alt-183 | No key assigned  | Alt-192 | No key assigned     | Alt-192 |
+| E grave | Alt-212 | No key assigned  | Alt-200 | No key assigned     | Alt-200 |
+| E acute | Alt-144 | No key assigned  | Alt-201 | No key assigned     | Alt-201 |
+| I grave | Alt-152 | No key assigned  | Alt-204 | No key assigned     | Alt-204 |
+| O grave | Alt-227 | No key assigned  | Alt-211 | No key assigned     | Alt-211 |
+| U grave | Alt-235 | No key assigned  | Alt-217 | No key assigned     | Alt-217 |
+| a grave | Alt-133 | Alt-224          | Alt-224 | left curly bracket  | Alt-224 |
+| e grave | Alt-138 | Alt-232          | Alt-232 | right curly bracket | Alt-232 |
+| e acute | Alt-130 | Alt-233          | Alt-233 | at                  | Alt-233 |
+| i grave | Alt-141 | Alt-236          | Alt-236 | tilde               | Alt-236 |
+| o grave | Alt-149 | Alt-242          | Alt-242 | vertical line       | Alt-242 |
+| u grave | Alt-151 | Alt-249          | Alt-249 | grave accent        | Alt-249 |
 
 ### Greenlandic, Nordic
 | Glyph        | ISO Baltic      | CP30004         |
