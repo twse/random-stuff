@@ -2,7 +2,6 @@
 * Central European Starter Kit (1997), by [Fingertip Software](http://www.fingertipsoft.com/index.html), is a pay shareware Windows keyboard which comes with a bitmap font and two TrueType fonts. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
 * EDA (1992), by Miroslav Dressler, is a pay shareware editor for DOS and OS/2 VIO. The DOS version includes a font based on Czech Kamenický which replaces characters for German and Slovak.
 * EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
-* ILPRumanianB100 (1996), by Charles J. Coker, is a TrueType font designed for typing Romanian text on English keyboards. The numbers are old-style.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by [Linguist's Software](https://www.linguistsoftware.com/) for use with Latvian localizations of Windows and macOS.
 
 ## Diacritical characters
@@ -124,26 +123,26 @@ URW Palladio SKT, KUL, M and FF relocates capital Z acute (Ź) at #190 to comply
 | z dot above | Alt-190 | Alt-191        | Alt-187 | Alt-167 | Alt-151  | Alt-144 | Alt-145 | Alt-145 | Alt-167 | Alt-145  |
 
 ### Hungarian - Typed as usual on Hungarian keyboards
-| Glyph          | Codes   | Windows CP1250 | Cork    | CP3845  | CWI-2           |
-|----------------|---------|----------------|---------|---------|-----------------|
-| A acute        | Alt-181 | Alt-193        | Alt-193 | Alt-143 | Alt-143         |
-| E acute        | Alt-144 | Alt-201        | Alt-201 | Alt-144 | Alt-144         |
-| I acute        | Alt-214 | Alt-205        | Alt-205 | Alt-141 | No key assigned |
-| O acute        | Alt-224 | Alt-211        | Alt-211 | Alt-149 | Alt-149         |
-| O dieresis     | Alt-153 | Alt-214        | Alt-214 | Alt-153 | Alt-153         |
-| O double acute | Alt-138 | Alt-213        | Alt-142 | Alt-167 | Alt-248         |
-| U acute        | Alt-233 | Alt-218        | Alt-218 | Alt-151 | No key assigned |
-| U dieresis     | Alt-154 | Alt-220        | Alt-220 | Alt-154 | Alt-154         |
-| U double acute | Alt-235 | Alt-219        | Alt-150 | Alt-152 | Alt-152         |
-| a acute        | Alt-160 | Alt-225        | Alt-225 | Alt-160 | Alt-160         |
-| e acute        | Alt-130 | Alt-233        | Alt-233 | Alt-130 | Alt-130         |
-| i acute        | Alt-161 | Alt-237        | Alt-237 | Alt-161 | Alt-161         |
-| o acute        | Alt-162 | Alt-243        | Alt-243 | Alt-162 | Alt-162         |
-| o dieresis     | Alt-148 | Alt-246        | Alt-246 | Alt-148 | Alt-148         |
-| o double acute | Alt-139 | Alt-245        | Alt-174 | Alt-240 | Alt-147         |
-| u acute        | Alt-163 | Alt-163        | Alt-250 | Alt-163 | Alt-163         |
-| u dieresis     | Alt-129 | Alt-252        | Alt-252 | Alt-129 | Alt-129         |
-| u double acute | Alt-251 | Alt-251        | Alt-182 | Alt-150 | Alt-150         |
+| Glyph          | Codes   | Windows CP1250 | Cork    |
+|----------------|---------|----------------|---------|
+| A acute        | Alt-181 | Alt-193        | Alt-193 |
+| E acute        | Alt-144 | Alt-201        | Alt-201 |
+| I acute        | Alt-214 | Alt-205        | Alt-205 |
+| O acute        | Alt-224 | Alt-211        | Alt-211 |
+| O dieresis     | Alt-153 | Alt-214        | Alt-214 |
+| O double acute | Alt-138 | Alt-213        | Alt-142 |
+| U acute        | Alt-233 | Alt-218        | Alt-218 |
+| U dieresis     | Alt-154 | Alt-220        | Alt-220 |
+| U double acute | Alt-235 | Alt-219        | Alt-150 |
+| a acute        | Alt-160 | Alt-225        | Alt-225 |
+| e acute        | Alt-130 | Alt-233        | Alt-233 |
+| i acute        | Alt-161 | Alt-237        | Alt-237 |
+| o acute        | Alt-162 | Alt-243        | Alt-243 |
+| o dieresis     | Alt-148 | Alt-246        | Alt-246 |
+| o double acute | Alt-139 | Alt-245        | Alt-174 |
+| u acute        | Alt-163 | Alt-163        | Alt-250 |
+| u dieresis     | Alt-129 | Alt-252        | Alt-252 |
+| u double acute | Alt-251 | Alt-251        | Alt-182 |
 
 #### Notes when writing Hungarian with URW Palladio KUL
 **Note 1**: Double acute o and u are accessible ONLY through the free floating accent ˝ (#135) e.g. via the overstrike utility of WordPerfect.
@@ -178,7 +177,7 @@ Domagoj Klepac wrote the pay shareware program Crovert (1996) for conversion of 
 | s caron  | Alt-231 | Alt-154        | Alt-178 | Alt-164 |
 | z caron  | Alt-167 | Alt-158        | Alt-186 | Alt-166 |
 
-### Romanian/Moldavian (cedilla!) - Typed as usual on Romanian/Moldavian keyboards
+### Romanian - Typed as usual on Romanian keyboards
 One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (#176) and î (#238) the comma below diacritics s and t - are not directly accessible – they have to be obtained by overstriking the letter with the free-floating cedilla ¸ (#248), so one must use Corel WordPerfect.
 
 | Glyph        | Codes   | Windows CP1250 | Cork    |
@@ -235,17 +234,16 @@ One can use Romanian with URW Palladio KUL - although apart from â (#226), ă (
 | ogonek       | Alt-242 | Alt-178        | Alt-012 |
 
 ### Printer's Specials
-| Glyph              | Codes           | Windows CP1250  | CP3845          |
-|--------------------|-----------------|-----------------|-----------------|
-| non-breaking space | Alt-255         | Alt-160         | Alt-255         |
-| sharp s            | Alt-225         | Alt-223         | Alt-225         |
-| Euro               | Alt-170         | Alt-128         | No key assigned |
-| Ft                 | No key assigned | No key assigned | Alt-159         |
-| currency           | Alt-207         | Alt-164         | No key assigned |
-| section            | Alt-245         | Alt-187         | No key assigned |
-| guillemotleft      | Alt-174         | Alt-171         | Alt-174         |
-| guillemotright     | Alt-175         | Alt-187         | Alt-175         |
-| degree             | Alt-248         | Alt-176         | Alt-248         |
-| multiply           | Alt-158         | Alt-215         | No key assigned |
-| division           | Alt-246         | Alt-247         | Alt-246         |
-| soft hyphen        | Alt-240         | Alt-173         | No key assigned |
+| Glyph              | Codes   | Windows CP1250 |
+|--------------------|---------|----------------|
+| non-breaking space | Alt-255 | Alt-160        |
+| sharp s            | Alt-225 | Alt-223        |
+| Euro               | Alt-170 | Alt-128        |
+| currency           | Alt-207 | Alt-164        |
+| section            | Alt-245 | Alt-167        |
+| guillemotleft      | Alt-174 | Alt-171        |
+| guillemotright     | Alt-175 | Alt-187        |
+| degree             | Alt-248 | Alt-176        |
+| multiply           | Alt-158 | Alt-215        |
+| division           | Alt-246 | Alt-247        |
+| soft hyphen        | Alt-240 | Alt-173        |

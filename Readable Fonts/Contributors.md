@@ -7,7 +7,6 @@ Special thanks goes to the following people:
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Peter Cassetta, for information about Cyrillic character sets.
 * Miguel Civil, for his Nippur-Guti fonts, used on the Chicago Sumerian Sumerian Lexicon Archive site.
-* Charles J. Coker, for his ILPRumanianB100 font. This font is designed for typing Romanian text on English keyboards.
 * Roman Czyborra, for information about character sets.
 * Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
