@@ -5,19 +5,15 @@ avesta.orgtranscription (2010), a font in OpenType PostScript format, is a font 
 
 [Michael Best / Murari Dasa](http://www.dasya.com/~mbest/freeware/) wrote DiacDos (1993), a collection of TSR programs for writing Classical Sanskrit diacritics on DOS and his screen fonts.
 
-Michael Everson (Evertype) created bitmap fonts for macOS based on Monaco for Armenian and Georgian transcription as shown in [this image](http://www.evertype.com/standards/hy/ArmTrans.gif). See the related page on the [Evertype site](http://www.evertype.com/standards/hy/jaaip-me1.html) for more info.
-
 Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
 
 Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
-
-The Hobogirin font is identical to the Kenneth Ray Norman encoding.
 
 iitmipa (2004), by IIT Madras, is a transliteration font in TTF, BDF, PFB, HQX or TAB available [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php) and is based on Garamond for use with Indic languages.
 
 IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts released under the GPL 2.0 license based on URW fonts. The fonts includes TeX character encodings and keyboards. The lack of box and shade characters in IndUni-C and IndUni-CMono makes it unsuitable for some text mode programs like Midnight Commander. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
 
-Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and other languages.
+Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
 
 Mithra (2000), is a modified version of Times New Roman for transliteration of Avestan and Pahlavi (the diacritics are in lowercase only).
 
@@ -30,10 +26,6 @@ Transliteration (1998) is a TrueType font derived from Times New Roman Italic fr
 URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from [Harry Falk](http://userpage.fu-berlin.de/~falk/index.htm) and is included with the 2003 IndoSkript CD.
 
 URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
-
-URW Palladio REE (2002), by Ulrich Stiehl, is a font using the Ronald E. Emmerick encoding used in GRETIL archive files by the University of Göttingen for Sanskrit documents.
-
-Washington Romanized Indic (2011), by Anshuman Pandey and originally created by Thomas Ridgeway, is a TeX program released under GPL 2.0 license to write Indic languages in Latin script. The font resembles the CSX encoding.
 
 Michael Witzel (Harvard University) modified the Original Garamond font in 1996 by naming it **Nina** and adding transliteration glyphs used for Malayalam, Pali, Prakrit, Classical/Vedic Sanskrit and Tamil.
 
@@ -217,96 +209,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | primedblmod          | Alt-251            | Alt-251            |
 | left inverted breve  | Alt-252 or Alt-254 | Alt-252 or Alt-254 |
 | right inverted breve | Alt-253 or Alt-255 | Alt-253 or Alt-255 |
-
-### Armenian/Georgian transcription font codes
-| Glyph             | Codes   |
-|-------------------|---------|
-| C caron           | Alt-143 |
-| C cedilla         | Alt-128 |
-| C cedilla caron   | Alt-215 |
-| C dot below caron | Alt-181 |
-| E caron           | Alt-229 |
-| E macron          | Alt-210 |
-| E breve           | Alt-183 |
-| Schwa             | Alt-157 |
-| G caron           | Alt-209 |
-| G dot above       | Alt-235 |
-| G macron          | Alt-172 |
-| H line below      | Alt-232 |
-| J caron           | Alt-190 |
-| K cedilla         | Alt-169 |
-| K dot below       | Alt-237 |
-| L stroke          | Alt-216 |
-| O macron          | Alt-226 |
-| P dot above       | Alt-182 |
-| Q dot above       | Alt-222 |
-| R dot above       | Alt-233 |
-| R dot below       | Alt-165 |
-| S caron           | Alt-221 |
-| T cedilla         | Alt-227 |
-| T dot below       | Alt-224 |
-| X dot below       | Alt-243 |
-| Z caron           | Alt-239 |
-| Ezh               | Alt-146 |
-| Ezh caron         | Alt-234 |
-| c caron           | Alt-134 |
-| c cedilla         | Alt-135 |
-| c cedilla caron   | Alt-140 |
-| c dot below caron | Alt-160 |
-| e caron           | Alt-228 |
-| e macron          | Alt-210 |
-| e breve           | Alt-133 |
-| schwa             | Alt-155 |
-| g caron           | Alt-208 |
-| g dot above       | Alt-151 |
-| g macron          | Alt-171 |
-| h line below      | Alt-231 |
-| j caron           | Alt-189 |
-| k cedilla         | Alt-184 |
-| k dot below       | Alt-236 |
-| l stroke          | Alt-139 |
-| o macron          | Alt-147 |
-| p dot above       | Alt-131 |
-| q dot above       | Alt-141 |
-| r dot above       | Alt-163 |
-| r dot below       | Alt-164 |
-| s caron           | Alt-249 |
-| t cedilla         | Alt-149 |
-| t dot below       | Alt-162 |
-| x dot below       | Alt-152 |
-| z caron           | Alt-247 |
-| ezh               | Alt-145 |
-| ezh caron         | Alt-150 |
-
-### Armenian/Georgian transcription font codes – Printer's Specials
-| Glyph           | Codes   |
-|-----------------|---------|
-| cent            | Alt-158 |
-| sterling        | Alt-156 |
-| Euro            | Alt-213 |
-| florin          | Alt-159 |
-| currency        | Alt-207 |
-| paragraph       | Alt-244 |
-| section         | Alt-245 |
-| plus minus      | Alt-241 |
-| divide          | Alt-242 |
-| less equal      | Alt-220 |
-| greater equal   | Alt-223 |
-| mu              | Alt-230 |
-| degree          | Alt-248 |
-| logical not     | Alt-170 |
-| middle dot      | Alt-250 |
-| exclamdown      | Alt-173 |
-| questiondown    | Alt-168 |
-| guilsinglleft   | Alt-166 |
-| guilsinglright  | Alt-167 |
-| guillemot left  | Alt-174 |
-| guillemot right | Alt-175 |
-| ellipsis        | Alt-251 |
-| soft hyphen     | Alt-240 |
-| numero          | Alt-253 |
-| grave           | Alt-252 |
-| acute           | Alt-238 |
 
 ### Avestan/Pahlavi transliteration font codes
 | Glyph             | Codes   | Mithra          | Avestan-Czech |
@@ -1256,144 +1158,6 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | u macron acute           | Alt-170 |
 | u macron breve           | Alt-166 |
 
-### Kenneth Roy Norman codes – Accented letters
-| Glyph                    | Codes   |
-|--------------------------|---------|
-| A grave                  | Alt-203 |
-| A dieresis               | Alt-128 |
-| A tilde                  | Alt-204 |
-| A macron                 | Alt-238 |
-| A ring                   | Alt-129 |
-| AE                       | Alt-174 |
-| C cedilla                | Alt-130 |
-| D dot below              | Alt-223 |
-| E acute                  | Alt-131 |
-| H dot below              | Alt-222 |
-| I macron                 | Alt-231 |
-| L dot below              | Alt-226 |
-| M dot below              | Alt-200 |
-| N tilde                  | Alt-132 |
-| N dot above              | Alt-220 |
-| N dot below              | Alt-239 |
-| O tilde                  | Alt-205 |
-| O dieresis               | Alt-133 |
-| OE                       | Alt-206 |
-| R dot below              | Alt-244 |
-| S acute                  | Alt-234 |
-| S dot below              | Alt-221 |
-| T dot below              | Alt-233 |
-| U dieresis               | Alt-134 |
-| U macron                 | Alt-242 |
-| Z acute                  | Alt-243 |
-| a grave                  | Alt-136 |
-| a acute                  | Alt-135 |
-| a circumflex             | Alt-137 |
-| a tilde                  | Alt-139 |
-| a dieresis               | Alt-138 |
-| a macron                 | Alt-140 |
-| a macron acute           | Alt-178 |
-| a macron tilde           | Alt-198 |
-| a macron breve           | Alt-193 |
-| a breve                  | Alt-196 |
-| ae                       | Alt-190 |
-| c cedilla                | Alt-141 |
-| d dot below              | Alt-182 |
-| e grave                  | Alt-143 |
-| e acute                  | Alt-142 |
-| e circumflex             | Alt-144 |
-| e tilde                  | Alt-162 |
-| e dieresis               | Alt-145 |
-| e macron                 | Alt-227 |
-| e macron acute           | Alt-184 |
-| e macron breve           | Alt-187 |
-| e breve                  | Alt-236 |
-| h dot below              | Alt-250 |
-| i grave                  | Alt-147 |
-| i acute                  | Alt-146 |
-| i circumflex             | Alt-148 |
-| i tilde                  | Alt-176 |
-| i dieresis               | Alt-149 |
-| i macron                 | Alt-180 |
-| i macron acute           | Alt-199 |
-| i macron breve           | Alt-228 |
-| i breve                  | Alt-251 |
-| j macron                 | Alt-195 |
-| l dot below              | Alt-194 |
-| l line below             | Alt-241 |
-| l ring below             | Alt-214 |
-| m dot above              | Alt-215 |
-| m dot below              | Alt-181 |
-| n tilde                  | Alt-150 |
-| n dot above              | Alt-186 |
-| n dot below              | Alt-245 |
-| n line below             | Alt-246 |
-| o grave                  | Alt-152 |
-| o acute                  | Alt-151 |
-| o circumflex             | Alt-153 |
-| o tilde                  | Alt-155 |
-| o dieresis               | Alt-154 |
-| o macron                 | Alt-175 |
-| o macron breve           | Alt-188 |
-| o breve                  | Alt-237 |
-| o slash                  | Alt-191 |
-| oe                       | Alt-207 |
-| r dot below              | Alt-168 |
-| r dot below acute        | Alt-252 |
-| r dot below macron       | Alt-165 |
-| r dot below macron acute | Alt-218 |
-| r dieresis below         | Alt-230 |
-| r ring below             | Alt-219 |
-| r line below             | Alt-229 |
-| s acute                  | Alt-167 |
-| s caron                  | Alt-169 |
-| s dot below              | Alt-183 |
-| t dot below              | Alt-160 |
-| u grave                  | Alt-157 |
-| u acute                  | Alt-156 |
-| u circumflex             | Alt-158 |
-| u tilde                  | Alt-189 |
-| u dieresis               | Alt-159 |
-| u macron                 | Alt-232 |
-| u macron acute           | Alt-179 |
-| u macron breve           | Alt-170 |
-| u breve                  | Alt-197 |
-| y dieresis               | Alt-216 |
-| z acute                  | Alt-185 |
-
-### Kenneth Roy Norman codes – Floating accents
-| Glyph        | Codes   |
-|--------------|---------|
-| acute        | Alt-171 |
-| caron        | Alt-255 |
-| tilde        | Alt-247 |
-| macron       | Alt-248 |
-| macron breve | Alt-192 |
-| breve        | Alt-249 |
-| hungarumlaut | Alt-253 |
-| cedilla      | Alt-252 |
-| ogonek       | Alt-254 |
-
-### Kenneth Roy Norman codes – Printer's Specials
-| Glyph              | Codes   |
-|--------------------|---------|
-| degree             | Alt-161 |
-| sterling           | Alt-163 |
-| dagger             | Alt-235 |
-| daggerdbl          | Alt-224 |
-| section            | Alt-164 |
-| paragraph          | Alt-166 |
-| en dash            | Alt-208 |
-| em dash            | Alt-209 |
-| quoteleft          | Alt-212 |
-| quoteright         | Alt-213 |
-| quotedblleft       | Alt-210 |
-| quotedblright      | Alt-211 |
-| ellipsis           | Alt-201 |
-| plus minus         | Alt-177 |
-| multiply           | Alt-217 |
-| not equal          | Alt-173 |
-| non-breaking space | Alt-160 |
-
 ### Third Semitic transliteration font codes
 | Glyph              | Codes   |
 |--------------------|---------|
@@ -1496,54 +1260,3 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | u circumflex | Alt-251 |
 | u tilde      | Alt-217 |
 | u dieresis   | Alt-252 |
-
-### Washington Romanized Indic codes
-| Glyph            | Codes   |
-|------------------|---------|
-| A dot above      | Alt-150 |
-| C caron          | Alt-177 |
-| D line below     | Alt-185 |
-| E macron         | Alt-156 |
-| G dot above      | Alt-143 |
-| Gamma            | Alt-216 |
-| H breve below    | Alt-195 |
-| J caron          | Alt-223 |
-| K dot below      | Alt-175 |
-| K line below     | Alt-147 |
-| L dieresis below | Alt-148 |
-| L line below     | Alt-204 |
-| N line below     | Alt-203 |
-| O macron         | Alt-158 |
-| R dieresis below | Alt-152 |
-| R line below     | Alt-206 |
-| S caron          | Alt-219 |
-| S line below     | Alt-186 |
-| T line below     | Alt-187 |
-| Y dot above      | Alt-200 |
-| Z caron          | Alt-172 |
-| Z dot below      | Alt-221 |
-| Z line below     | Alt-188 |
-| a dot above      | Alt-217 |
-| c caron          | Alt-176 |
-| d line below     | Alt-196 |
-| e macron         | Alt-155 |
-| e macron breve   | Alt-192 |
-| g dot above      | Alt-134 |
-| gamma            | Alt-216 |
-| h line below     | Alt-136 |
-| h breve below    | Alt-195 |
-| j caron          | Alt-220 |
-| k dot below      | Alt-174 |
-| k line below     | Alt-131 |
-| l dieresis below | Alt-197 |
-| m candrabindu    | Alt-191 |
-| o macron         | Alt-157 |
-| o macron breve   | Alt-193 |
-| r dieresis below | Alt-179 |
-| s caron          | Alt-178 |
-| s line below     | Alt-202 |
-| t line below     | Alt-180 |
-| y dot above      | Alt-205 |
-| z caron          | Alt-171 |
-| z dot below      | Alt-218 |
-| z line below     | Alt-201 |
