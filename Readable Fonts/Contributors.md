@@ -13,8 +13,6 @@ Special thanks goes to the following people:
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey / [Unitype Inc.](http://www.unitype.com/), for his transliteration fonts intended for the ALA-LC scheme.
-* Jost Gippert, for founding the TITUS project and writing WordCruncher. The WordCruncher server was closed in 2012 and evolved into another part of TITUS, i.e. the Unicode Search Engine.
-* Vasil Glagolov, for creating the Paleofonts installer.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Hàn Thế Thành, for creating the vnr font family. He's also the author of pdfTeX.
 * Raymond Hickey, for maintaining Lexa and LinguaFont.

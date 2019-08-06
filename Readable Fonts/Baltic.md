@@ -3,8 +3,6 @@
 
 Skolar (2013), by David Březina, is an OpenType serif font designed for scholars. The font can be purchased at [Rosetta Type Foundry website](https://www.rosettatype.com/) for €20. The Pan-European version of this font contain only lowercase characters for accented Lithuanian.
 
-TITUS Indo-Iranian (1995), by Jost Gippert, is a font derived from Times New Roman and contains accented letters for Romanized Indo-Iranian languages, accented Lithuanian and Avestan. The encoding type is MS Symbol, and the characters (including "space") are placed in the Unicode "Private Use" block, which has the side-effect that word-wrap may not work. The Garamond-looking font has no word-wrap problems.
-
 ### Available encodings in Burti
 The `/b#` switch or `Ctrl-Number` keyboard shortcut changes the encoding whereas # is a digit.
 
