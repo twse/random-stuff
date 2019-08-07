@@ -5,20 +5,9 @@
 * (Not present in this repository) [Uninstall Character Map](https://drive.google.com/uc?id=1n3loPDWQTVfGjk2l4dQSMB1mYBlzjNxl&export=download) (Windows command line script). Character Map is a core component of Windows 2000 and Vista and higher and cannot be removed with **Add/Remove Windows Components** on Windows 2000 or **Optional Features** on Windows Vista and higher. Use this script to get rid of the program (remove the `rem` parts if you're running Windows 2000). CMD files are presented with a virus scan warning before using the direct Google Drive download links.
 * (Not present in this repository) VENDINFO.DIZ files for [Bloček - Y2K versions](https://drive.google.com/uc?id=1E3fWU3Zc5pdCBq1-wE_qLNMJjkHnfDXm&export=download), [Bloček - Y2K10 versions](https://drive.google.com/uc?id=1hned8JUF8jGUZQbN9ypBwwz3_0QuhKbv&export=download) and [Kašmár](https://drive.google.com/uc?id=1nhUnhLejYjWrN_E_ywygXPMyfOz9Jseh&export=download). Created with VENDEDIT v1.30-053 by Rams' Island Software.
 
-<<<<<<< HEAD
 ## Software Data Files and Registry Keys
 * **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
 * **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data, e.g. history and cookies).
-=======
-## Bulk adding names to Mozilla credits list using command line
-1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
-3. Save the file as .csv (csv stands for comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` with the first filename replaced with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
-5. Commit the new file with the added names: `git commit -a -m 'message'` with the message replaced with whatever message you want.
-6. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
-7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
->>>>>>> 97a4426 (Added missing parameter and removed filename in commit command)
 
 ## Fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the font files). All fonts have only a regular type style, so don't apply bold or italic attributes, otherwise the OS will synthesise styles, which will bloat PDF files.
@@ -31,7 +20,6 @@ Created with CrystalTile2 and edited with old versions of FontCreator. All excep
 * (Not present in this repository) [SuperTux fonts in ROT-13](https://drive.google.com/uc?id=1tIPEov7J_wG8tZAN4QgNnqIqzKN6GD4Q&export=download). Only languages with Latin script are affected. Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for converting his old ANSICHRW font.
 * **ZOE TFOM**: Adapted and converted from the US/EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original characters in the game ROM horizontally flips two rows.
 
-<<<<<<< HEAD
 ## Otter Browser User Agents (Not present in this repository)
 Adding these user agents in the files below will show them in the Otter Browser user agent menu. The browser itself is mentioned in [my document on how to change the user agent in web browsers](https://docs.google.com/document/d/1hzVWH-akdXdz8cP12RGRekNvbcgmBWZHKtbWec8MTzE/edit?usp=sharing).
 * [Windows browsers](https://drive.google.com/uc?id=1bEsVLJyEyM5RVKcNjMB3A_ngmB2WInzf&export=download)
@@ -39,14 +27,6 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * [Linux browsers](https://drive.google.com/uc?id=1bSLxqPve3CCqsXb25u9rfI8mE0-yEwYc&export=download)
 * [Mobile platforms](https://drive.google.com/uc?id=1VRSVtj_AxrrD-jaKYhk5xZ1S-g_MauvJ&export=download)
 * [Game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
-=======
-## Adding one name to Mozilla credits list using command line
-1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
-3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
-4. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
->>>>>>> 97a4426 (Added missing parameter and removed filename in commit command)
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla. The original list was created in August 1999.
