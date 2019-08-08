@@ -7,7 +7,7 @@ This repository contains my random stuff.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
 ## Bulk adding names to Mozilla credits list using command line
-You won't receive any emails when your name is added.
+You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
 3. Save the file as .csv (csv stands for comma separated value).
@@ -17,7 +17,7 @@ You won't receive any emails when your name is added.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface
-Only @gurumukhi may manage the list. You won't receive any emails when your name is added.
+Only @gurumukhi may manage the list. You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
@@ -25,7 +25,7 @@ Only @gurumukhi may manage the list. You won't receive any emails when your name
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using command line
-You won't receive any emails when your name is added.
+You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
@@ -33,7 +33,7 @@ You won't receive any emails when your name is added.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
-Only @gurumukhi may manage the list. You won't receive any emails when your name is added.
+Only @gurumukhi may manage the list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the credits directory, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end or use `echo name >> names.csv`.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
@@ -54,7 +54,7 @@ This font family covers the following diacritics:
 4. **All** diacritics of all five Adobe Latin character sets.
 
 ## Other vector fonts (ordinary Unicode)
-Created with FontCreator 5.6 (2007) - Last fully functional version for unregistered users (6.0 and newer goes to reduced functionality mode where e.g. fonts cannot be installed if not registered). FontCreator 7.0 or higher can create OpenType fonts.
+Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
 
@@ -73,7 +73,7 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Requires Internet Explorer 7 & above for proper display.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in the not connected tasks will display it.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
