@@ -1,5 +1,4 @@
-﻿
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="pl_PL">
 <context>
@@ -60,7 +59,6 @@
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
-
         <location filename="../imagearea.cpp" line="155"/>
         <translation>Nie można zapisać pliku &quot;%1&quot;.</translation>
     </message>
@@ -89,119 +87,90 @@
         <translation>Obraz bez tytułu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="147"/>
         <location filename="../mainwindow.cpp" line="124"/>
         <location filename="../mainwindow.cpp" line="147"/>
         <source>&amp;File</source>
         <translation>&amp;Plik</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="149"/>
-
         <location filename="../mainwindow.cpp" line="126"/>
         <location filename="../mainwindow.cpp" line="149"/>
         <source>&amp;New</source>
         <translation>&amp;Nowy</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="155"/>
-
         <location filename="../mainwindow.cpp" line="134"/>
         <location filename="../mainwindow.cpp" line="155"/>
         <source>&amp;Open</source>
         <translation>&amp;Otwórz</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="161"/>
-
         <location filename="../mainwindow.cpp" line="142"/>
         <location filename="../mainwindow.cpp" line="161"/>
         <source>&amp;Save</source>
         <translation>&amp;Zapisz</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="167"/>
-
         <location filename="../mainwindow.cpp" line="150"/>
         <location filename="../mainwindow.cpp" line="167"/>
         <source>Save as...</source>
         <translation>Zapisz jako...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="173"/>
-
         <location filename="../mainwindow.cpp" line="158"/>
         <location filename="../mainwindow.cpp" line="173"/>
         <source>&amp;Close</source>
         <translation>&amp;Zamknij</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="181"/>
-
         <location filename="../mainwindow.cpp" line="168"/>
         <location filename="../mainwindow.cpp" line="181"/>
         <source>&amp;Print</source>
         <translation>&amp;Drukuj</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
-
         <location filename="../mainwindow.cpp" line="178"/>
         <location filename="../mainwindow.cpp" line="189"/>
         <source>&amp;Exit</source>
         <translation>&amp;Koniec</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="195"/>
-
         <location filename="../mainwindow.cpp" line="186"/>
         <location filename="../mainwindow.cpp" line="195"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edytuj</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="197"/>
-
         <location filename="../mainwindow.cpp" line="188"/>
         <location filename="../mainwindow.cpp" line="197"/>
         <source>&amp;Undo</source>
         <translation>&amp;Cofnij</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="203"/>
-
         <location filename="../mainwindow.cpp" line="196"/>
         <location filename="../mainwindow.cpp" line="203"/>
         <source>&amp;Redo</source>
         <translation>&amp;Ponów</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="211"/>
-
         <location filename="../mainwindow.cpp" line="206"/>
         <location filename="../mainwindow.cpp" line="211"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopiuj</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="218"/>
-
         <location filename="../mainwindow.cpp" line="214"/>
         <location filename="../mainwindow.cpp" line="218"/>
         <source>&amp;Paste</source>
         <translation>&amp;Wklej</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="224"/>
-
         <location filename="../mainwindow.cpp" line="222"/>
         <location filename="../mainwindow.cpp" line="224"/>
         <source>C&amp;ut</source>
         <translation>&amp;Wytnij</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="233"/>
-
         <location filename="../mainwindow.cpp" line="232"/>
         <location filename="../mainwindow.cpp" line="233"/>
         <source>&amp;Settings</source>
@@ -234,7 +203,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
-
         <source>Cursor</source>
         <translation>&amp;Kursor</translation>
     </message>
@@ -244,7 +212,6 @@
         <translation>Pióro</translation>
     </message>
     <message>
-
         <location filename="../mainwindow.cpp" line="267"/>
         <location filename="../mainwindow.cpp" line="277"/>
         <source>Line</source>
@@ -269,10 +236,6 @@
         <translation>Prostokąt</translation>
     </message>
     <message>
-
-
-        <location filename="../mainwindow.cpp" line="305"/>
-
         <location filename="../mainwindow.cpp" line="287"/>
         <location filename="../mainwindow.cpp" line="305"/>
         <source>Ellipse</source>
@@ -295,17 +258,12 @@
         <translation>E&amp;fekty</translation>
     </message>
     <message>
-
-        <location filename="../mainwindow.cpp" line="329"/>
-
         <location filename="../mainwindow.cpp" line="294"/>
         <location filename="../mainwindow.cpp" line="329"/>
         <source>Gray</source>
         <translation>Szary</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="334"/>
-
         <location filename="../mainwindow.cpp" line="299"/>
         <location filename="../mainwindow.cpp" line="334"/>
         <source>Negative</source>
@@ -395,7 +353,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
-
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Left</source>
         <translation>Lewo</translation>
@@ -436,18 +393,12 @@
         <translation>&amp;Informacja</translation>
     </message>
     <message>
-
-
-        <location filename="../mainwindow.cpp" line="413"/>
-
         <location filename="../mainwindow.cpp" line="336"/>
         <location filename="../mainwindow.cpp" line="413"/>
         <source>&amp;About EasyPaint</source>
         <translation>EasyPaint &amp;Informacja</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="420"/>
-
         <location filename="../mainwindow.cpp" line="344"/>
         <location filename="../mainwindow.cpp" line="420"/>
         <source>About Qt</source>
@@ -474,7 +425,6 @@
     <message>
         <location filename="../mainwindow.cpp" line="672"/>
         <location filename="../mainwindow.cpp" line="729"/>
-
         <location filename="../mainwindow.cpp" line="492"/>
         <location filename="../mainwindow.cpp" line="540"/>
         <source>File has been modified.
@@ -483,32 +433,24 @@ Do you want to save changes?</source>
 Czy chcesz zapisać zmiany?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="849"/>
-
         <location filename="../mainwindow.cpp" line="820"/>
         <location filename="../mainwindow.cpp" line="849"/>
         <source>About EasyPaint</source>
         <translation>EasyPaint Informacja</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="860"/>
-
         <location filename="../mainwindow.cpp" line="830"/>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>version</source>
         <translation>wersja</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="860"/>
-
         <location filename="../mainwindow.cpp" line="830"/>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Site</source>
         <translation>Strona</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="860"/>
-
         <location filename="../mainwindow.cpp" line="830"/>
         <source>Copyright</source>
         <translation>Prawa autorskie</translation>
@@ -541,7 +483,6 @@ Czy chcesz zapisać zmiany?</translation>
     <name>ResizeDialog</name>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="44"/>
-
         <location filename="../resizedialog.cpp" line="42"/>
         <source>Resize</source>
         <translation>Zmiana rozmiaru</translation>
@@ -567,7 +508,6 @@ Czy chcesz zapisać zmiany?</translation>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="68"/>
         <location filename="../dialogs/resizedialog.cpp" line="86"/>
-
         <location filename="../resizedialog.cpp" line="66"/>
         <location filename="../resizedialog.cpp" line="84"/>
         <source>Width:</source>
@@ -575,7 +515,6 @@ Czy chcesz zapisać zmiany?</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="69"/>
-
         <location filename="../resizedialog.cpp" line="67"/>
         <source>x Height:</source>
         <translation>x Wysokość:</translation>
@@ -594,16 +533,12 @@ Czy chcesz zapisać zmiany?</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="88"/>
-
         <location filename="../resizedialog.cpp" line="86"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-
-
         <location filename="../dialogs/resizedialog.cpp" line="90"/>
-
         <location filename="../resizedialog.cpp" line="88"/>
         <source>Preserve Aspect Ratio</source>
         <translation>Zachowaj proporcje</translation>
@@ -613,21 +548,18 @@ Czy chcesz zapisać zmiany?</translation>
     <name>SettingsDialog</name>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="49"/>
-
         <location filename="../settingsdialog.cpp" line="45"/>
         <source>Settings</source>
         <translation>Ustawienia</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="69"/>
-
         <location filename="../settingsdialog.cpp" line="65"/>
         <source>Language:</source>
         <translation>Język:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="70"/>
-
         <location filename="../settingsdialog.cpp" line="67"/>
         <source>&lt;System&gt;</source>
         <translation>&lt;System&gt;</translation>
@@ -655,21 +587,18 @@ Czy chcesz zapisać zmiany?</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
-
         <location filename="../settingsdialog.cpp" line="79"/>
         <source>Base size:</source>
         <translation>Rozmiar bazowy:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
-
         <location filename="../settingsdialog.cpp" line="93"/>
         <source>History depth:</source>
         <translation>Głębokość historii:</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="113"/>
-
         <location filename="../settingsdialog.cpp" line="101"/>
         <source>Autosave</source>
         <translation>Automatyczne zapisz</translation>
@@ -681,7 +610,6 @@ Czy chcesz zapisać zmiany?</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="130"/>
-
         <location filename="../settingsdialog.cpp" line="103"/>
         <source>Interval (msec):</source>
         <translation>Interwal (msek):</translation>
@@ -771,7 +699,6 @@ Czy chcesz zapisać zmiany?</translation>
     <name>ToolBar</name>
     <message>
         <location filename="../widgets/toolbar.cpp" line="37"/>
-
         <location filename="../toolbar.cpp" line="35"/>
         <source>Instruments</source>
         <translation>Instrumenty</translation>
@@ -798,7 +725,6 @@ Czy chcesz zapisać zmiany?</translation>
     <message>
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
-
         <location filename="../toolbar.cpp" line="112"/>
         <source>Pen size</source>
         <translation>Rozmiar pióra</translation>
