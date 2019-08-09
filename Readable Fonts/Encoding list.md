@@ -44,12 +44,10 @@ The readable font family is based on the System VIO font from IBM OS/2.
 |-----------|--------------------------------------------------|
 | ALALCT1   | ALA-LC Transliteration 1                         |
 | ALALCT2   | ALA-LC Transliteration 2                         |
-| APPEAL    | Appeal                                           |
 | ARMGEOR   | Armenian/Georgian                                |
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
 | AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
-| BPSTRAN   | Buddhist Publication Society                     |
 | CSXALT    | Classical Sanskrit Extended – Alternate encoding |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
