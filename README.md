@@ -11,8 +11,8 @@ You won't receive any emails when your name is added - this will only see the me
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
 3. Save the file as .csv (csv stands for comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` with the first filename replaced with whatever name you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
-5. Commit the new file with the added names: `git commit -a -m 'message'` with the message replaced with whatever message you want.
+4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
+5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
 6. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
@@ -20,14 +20,14 @@ You won't receive any emails when your name is added - this will only see the me
 Only @gurumukhi may manage the list. You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
-3. Enter whatever commit message you want but do not use the default commit message: Update **filename**.
+3. Enter whatever commit message you want but not the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Edit the names.csv file to add your name at the end or use `echo name >> names.csv`.
+2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
 4. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
@@ -73,7 +73,7 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Requires Internet Explorer 7 & above for proper display.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in the not connected tasks will display it.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in the not connected tasks will display it and changing the title also does it.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
