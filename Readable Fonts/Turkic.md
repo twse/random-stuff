@@ -1,11 +1,7 @@
 ## Fonts and keyboards
-Ernst Tremel created fonts and keyboards for Windows XP & above for writing Kurdish in Arabic, Cyrillic and Latin scripts.Download these from [here](https://www.skytower.org/~ernstjtremel/OpenTypeFont_KurdishAllAlphabets.htm).
-
 Lexa and LinguaFont (1998), two linguistic DOS programs by Raymond Hickey, includes a screen font for Turkish language. The built-in font is missing capital AIU circumflex and I dot above.
 
 Michael Everson / Evertype created input utilities for macOS for Turkic languages.
-
-Noxchi (1993), by Howard M. Berlin, is a series of non-Unicode fonts designed for Chechen. All other accented letters are replaced with bullet.
 
 ## A note on Mongolian script
 Although not part of my readable font series, this language is usually written in Cyrillic script.
@@ -53,40 +49,6 @@ Although not part of my readable font series, this language is usually written i
 | s cedilla    | Alt-159 |
 | u dieresis   | Alt-129 |
 | z acute      | Alt-208 |
-
-### Chechen
-| Glyph               | CP30019         | Noxchi  |
-|---------------------|-----------------|---------|
-| A dieresis          | Alt-242         | Alt-192 |
-| C dot above         | Alt-207         | Alt-193 |
-| C cedilla           | Alt-248         | Alt-194 |
-| C cedilla dot above | Alt-209         | Alt-195 |
-| E iotified          | Alt-189         | Alt-205 |
-| Schwa               | Alt-198         | Alt-204 |
-| G dot above         | Alt-181         | Alt-196 |
-| Eng                 | Alt-183         | Alt-200 |
-| O dieresis          | Alt-244         | Alt-199 |
-| Q dot above         | Alt-213         | Alt-198 |
-| S cedilla           | Alt-250         | Alt-201 |
-| U dieresis          | No key assigned | Alt-202 |
-| UO                  | Alt-221         | Alt-206 |
-| X dot above         | Alt-211         | Alt-197 |
-| Z stroke            | Alt-215         | Alt-203 |
-| a dieresis          | Alt-243         | Alt-224 |
-| c dot above         | Alt-208         | Alt-225 |
-| c cedilla           | Alt-249         | Alt-226 |
-| c cedilla dot above | Alt-210         | Alt-227 |
-| e iotified          | Alt-190         | Alt-237 |
-| schwa               | Alt-199         | Alt-236 |
-| g dot above         | Alt-182         | Alt-228 |
-| eng                 | Alt-184         | Alt-232 |
-| o dieresis          | Alt-245         | Alt-231 |
-| q dot above         | Alt-214         | Alt-230 |
-| s cedilla           | Alt-251         | Alt-233 |
-| u dieresis          | No key assigned | Alt-234 |
-| uo                  | Alt-222         | Alt-238 |
-| x dot above         | Alt-212         | Alt-229 |
-| z stroke            | Alt-216         | Alt-235 |
 
 ### Common Turkic Alphabet
 | Glyph        | Codes   |

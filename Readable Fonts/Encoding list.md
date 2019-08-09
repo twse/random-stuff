@@ -8,7 +8,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | CP899     | Armenian                                   |
 | CP30007   | Latin                                      |
 | CP30013   | Cyrillic Volga District - Turkic languages |
-| CP30019   | Cyrillic Russian and Latin Chechen         |
 | CP30022   | Canadian First Nations                     |
 | CP30024   | Northern and Eastern Africa                |
 | CP30025   | Western Africa                             |
@@ -23,7 +22,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | CORK      | TeX Cork                              |
 | EDA_CODE  | EDA editor encoding                   |
 | KOI8ALT   | Soviet KOI-8 Alternative              |
-| KURCYR    | Cyrillic Kurdish Kurmanjî             |
 | LFGREEK   | LinguaFont Monotonic Greek            |
 | LFGRPL    | LinguaFont Polytonic Greek            |
 | MACBACYR  | Apple Barents Cyrillic                |
