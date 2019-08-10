@@ -17,7 +17,7 @@
 * Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in previewtext.dat substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
-The unregistered version works for 30 days with the following limitations based on the version number.
+As FontCreator is released as pay shareware, the unregistered version works for 30 days with the following limitations based on the version number.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) - After a grace period of 30 days, a nag screen is shown.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and running the program 5 times, the program will enter a reduced functionality mode where e.g. fonts cannot be saved or tested.
@@ -26,6 +26,13 @@ The unregistered version works for 30 days with the following limitations based 
 * 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
 
 Under the Help menu is an item labeled **Register** and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
+
+## Windows version compatibility
+* Windows Vista and later - 12.0.0.2543
+* Windows XP - 10.0
+* Windows 2000 - 7.0
+* Windows NT 4.0 - (unknown version)
+* Windows 95, 98 and ME - 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed.
