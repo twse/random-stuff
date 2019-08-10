@@ -64,11 +64,22 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 ### Columns
 * **Open Installed Fonts** – This is a binary value.
 
+### Externals
+* **Location#**
+* **Title#**
+
 ### Find
 * **FindLanguageID** – This corresponds to any language.
 * **PlatformID** – See **Platform** in the Find dialog's Mapping tab.
 * **PlatformSpecificEncodingID** – See **Platform** in the Find dialog's Mapping tab.
 * **TabIndex** – This corresponds to any tab in the Find dialog.
+
+### Fonts
+* **ExportDecomposeScaled**
+* **ExportExcludeLegacy**
+
+### FreeDraw
+* **BrushWidth**
 
 ### Glyph Edit Window
 * **FilledOutline** – Used with **Fill Outline** in the Grid toolbar.
@@ -76,6 +87,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **ShowFirstAndLastPointIndicators** – Used with **Show First and Last** in the Grid toolbar. Default is on.
 * **ShowToolbarWindowBackground** – Enables or disables the Background Image toolbar. Default is off.
 * **ShowToolbarWindowKerning** – Enables or disables the kerning window. Default is off.
+* **ShowToolbarWindowPalette**
 * **ShowToolbarWindowTransformation** – Used with **Transformation** in the toolbar right click context menu.
 * **ShowToolbarWindowValidation** – Used with **Show Report** in the Glyph toolbar. Default is off.
 
@@ -103,6 +115,9 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar.
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar.
 
+### GUI
+* **UpdateCheckInterval**
+
 ### GuideLines
 * **Color** – This corresponds to the **Color** option in Guideline Options. Default is black.
 * **LineStyle** – This corresponds to the **Line style** options in Guideline Options. Default is solid.
@@ -123,8 +138,15 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 ### Install
 * **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
+### Interface
+* **LockToolbars**
+* **ShowUserNotes**
+
 ### Interface Settings
+* **CompleteCompositesAction**
 * **GlyphCaptionType** – Used with Caption radio buttons in the Overview tab. (Available in the Options window)
+* **GlyphOutlineFillMode**
+* **GlyphPropsExpanded**
 * **KerningFolderExport** – Directory for exporting the legacy kerning tables.
 * **KerningFolderImport** – Directory for importing the legacy kerning tables.
 * **OpenDialogInitialDir** – Directory used in Open dialog.
@@ -132,6 +154,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
 * **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
 * **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
+* **OptionsPage**
 * **OverviewSampleFont** (version 4.0 & above) – Used with **Font overview: Font used by samples** option in the Overview tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
@@ -188,6 +211,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **DefaultNamingCopyrightIncluded** – This corresponds to the **Default Naming for New Fonts: Copyright** checkbox in Options: Naming. Default is on.
 * **DefaultNamingCopyrightText** – This corresponds to the **Default Naming for New Fonts: Copyright** option in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – This corresponds to the **Default Naming for New Fonts: Font Designer** checkbox in Options: Naming.
+* **DefaultNamingFontDesignerLinkIncluded**
 * **DefaultNamingFontDesignerLinkText** – This corresponds to the **Default Naming for New Fonts: Font Designer Link** option in Options: Naming.
 * **DefaultNamingFontDesignerText** – This corresponds to the **Default Naming for New Fonts: Font Designer** option in Options: Naming. Default is empty.
 * **DefaultNamingLicenseAgreementIncluded** – This corresponds to the **Default Naming for New Fonts: License Agreement** checkbox in Options: Naming.
@@ -196,6 +220,13 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **DefaultNamingLicenseAgreementText** – This corresponds to the **Default Naming for New Fonts: License Agreement** option in Options: Naming. Default is empty.
 * **DefaultNamingTrademarkIncluded** – This corresponds to the **Default Naming for New Fonts: Trademark** checkbox in Options: Naming.
 * **DefaultNamingTrademarkText** – This corresponds to the **Default Naming for New Fonts: Trademark** option in Options: Naming. Default is **&lt;font family&gt;® Trademark of (your company)**.
+* **DefaultPersFontEmbeddingItemID**
+* **DefaultPersVendorIDText**
+* **DefaultPersVendorText**
+* **DefaultPersVendorURLText**
+* **DefaultVendorIDIncluded**
+* **DefaultVendorIncluded**
+* **DefaultVendorURLIncluded**
 * **DefaultZoomFactor** – This corresponds to the **Zoom Simple Glyph Edit Window: Open with Default Zoom Factor** option in Options: Glyph.
 * **ExcludeMonospacedFonts** – This corresponds to the **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
 * **IgnoreHintingData** – This corresponds to the **When Opening Font Files: Remove hinting data** option in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
@@ -217,8 +248,15 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – This corresponds to the **When Saving Font Files: Update Modified DateTime field** option in the Font tab. Default is on. (Available in the Options window)
 * **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
+* **VectorImageEPSForceRepositioning** – This corresponds to the
+* **VectorImageEPSOriginX** – This corresponds to the
+* **VectorImageEPSOriginY** – This corresponds to the
+* **VectorImageEPSPixelsPerEm** – This corresponds to the
 
 ### Preview
+* **FeaturesWidth**
+* **FeatureTags** – Default does not enable anything.
+* **PreviewFeatures** 
 * **PreviewFontSize** – This corresponds to the size in the Test Font window.
 * **PreviewSampleFontSize** – This corresponds to the size in the Preview window.
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
