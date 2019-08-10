@@ -28,11 +28,11 @@ As FontCreator is released as pay shareware, the unregistered version works for 
 Under the Help menu is an item labeled **Register** and in the Tip of the Day is a button with the same label when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
-* Windows Vista and later - 12.0.0.2543
-* Windows XP - 10.0
-* Windows 2000 - 7.0
-* Windows NT 4.0 - (unknown version)
-* Windows 95, 98 and ME - 6.0.1
+* Windows Vista and later – 12.0.0.2543
+* Windows XP – 10.0
+* Windows 2000 – 7.0
+* Windows NT 4.0 – (unknown version)
+* Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed.
