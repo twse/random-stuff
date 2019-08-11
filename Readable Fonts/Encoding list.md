@@ -7,7 +7,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | CP857     | Latin 5 (Turkey)                           |
 | CP899     | Armenian                                   |
 | CP30007   | Latin                                      |
-| CP30013   | Cyrillic Volga District - Turkic languages |
 | CP30022   | Canadian First Nations                     |
 | CP30024   | Northern and Eastern Africa                |
 | CP30025   | Western Africa                             |
@@ -19,8 +18,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 ### Unnumbered encodings
 | File Name | Description                           |
 |-----------|---------------------------------------|
-| CORK      | TeX Cork                              |
-| EDA_CODE  | EDA editor encoding                   |
 | KOI8ALT   | Soviet KOI-8 Alternative              |
 | LFGREEK   | LinguaFont Monotonic Greek            |
 | LFGRPL    | LinguaFont Polytonic Greek            |

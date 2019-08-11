@@ -20,20 +20,20 @@ The `/b#` switch or `Ctrl-Number` keyboard shortcut changes the encoding whereas
 ## Diacritical characters
 
 ### Estonian - Typed as usual on Estonian keyboards
-| Glyph      | Codes   | CP770   | Cork    | ISO Estonian | CP773   |
-|------------|---------|---------|---------|--------------|---------|
-| A dieresis | Alt-142 | Alt-142 | Alt-196 | Alt-196      | Alt-142 |
-| O dieresis | Alt-153 | Alt-153 | Alt-214 | Alt-214      | Alt-153 |
-| O tilde    | Alt-229 | Alt-149 | Alt-213 | Alt-213      | Alt-229 |
-| S caron    | Alt-190 | Alt-159 | Alt-146 | Alt-208      | Alt-246 |
-| U dieresis | Alt-154 | Alt-154 | Alt-220 | Alt-220      | Alt-154 |
-| Z caron    | Alt-207 | Alt-146 | Alt-154 | Alt-222      | Alt-252 |
-| a dieresis | Alt-132 | Alt-132 | Alt-228 | Alt-228      | Alt-132 |
-| o dieresis | Alt-148 | Alt-148 | Alt-246 | Alt-246      | Alt-148 |
-| o tilde    | Alt-228 | Alt-147 | Alt-245 | Alt-245      | Alt-228 |
-| s caron    | Alt-213 | Alt-158 | Alt-178 | Alt-248      | Alt-247 |
-| u dieresis | Alt-129 | Alt-129 | Alt-252 | Alt-252      | Alt-129 |
-| z caron    | Alt-216 | Alt-145 | Alt-186 | Alt-254      | Alt-253 |
+| Glyph      | Codes   | CP770   | CP773   |
+|------------|---------|---------|---------|
+| A dieresis | Alt-142 | Alt-142 | Alt-142 |
+| O dieresis | Alt-153 | Alt-153 | Alt-153 |
+| O tilde    | Alt-229 | Alt-149 | Alt-229 |
+| S caron    | Alt-190 | Alt-159 | Alt-246 |
+| U dieresis | Alt-154 | Alt-154 | Alt-154 |
+| Z caron    | Alt-207 | Alt-146 | Alt-252 |
+| a dieresis | Alt-132 | Alt-132 | Alt-132 |
+| o dieresis | Alt-148 | Alt-148 | Alt-148 |
+| o tilde    | Alt-228 | Alt-147 | Alt-228 |
+| s caron    | Alt-213 | Alt-158 | Alt-247 |
+| u dieresis | Alt-129 | Alt-129 | Alt-129 |
+| z caron    | Alt-216 | Alt-145 | Alt-253 |
 
 ### Latvian - Typed as usual on Latvian keyboards
 | Glyph     | Codes   | Burti           | CP770           | CP773   |

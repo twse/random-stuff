@@ -9,22 +9,22 @@ Although not part of my readable font series, this language is usually written i
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards
-| Glyph       | Codes   | CP60258 |
-|-------------|---------|---------|
-| C cedilla   | Alt-128 | Alt-253 |
-| Schwa       | Alt-232 | Alt-246 |
-| G breve     | Alt-166 | Alt-248 |
-| I dot above | Alt-152 | I       |
-| O dieresis  | Alt-153 | Alt-240 |
-| S cedilla   | Alt-158 | Alt-251 |
-| U dieresis  | Alt-154 | Alt-244 |
-| c cedilla   | Alt-135 | Alt-254 |
-| schwa       | Alt-246 | Alt-247 |
-| g breve     | Alt-167 | Alt-249 |
-| i dotless   | Alt-141 | Alt-243 |
-| o dieresis  | Alt-148 | Alt-241 |
-| s cedilla   | Alt-159 | Alt-252 |
-| u dieresis  | Alt-129 | Alt-245 |
+| Glyph       | Codes   |
+|-------------|---------|
+| C cedilla   | Alt-128 |
+| Schwa       | Alt-232 |
+| G breve     | Alt-166 |
+| I dot above | Alt-152 |
+| O dieresis  | Alt-153 |
+| S cedilla   | Alt-158 |
+| U dieresis  | Alt-154 |
+| c cedilla   | Alt-135 |
+| schwa       | Alt-246 |
+| g breve     | Alt-167 |
+| i dotless   | Alt-141 |
+| o dieresis  | Alt-148 |
+| s cedilla   | Alt-159 |
+| u dieresis  | Alt-129 |
 
 ### Bashkir
 | Glyph        | Codes   |
@@ -172,38 +172,38 @@ Although not part of my readable font series, this language is usually written i
 | u dieresis  | Alt-129 |
 
 ### Tatar (Latin)
-| Glyph        | Codes   | CP30018         |
-|--------------|---------|-----------------|
-| A acute      | Alt-181 | Alt-207         |
-| A circumflex | Alt-182 | Alt-198         |
-| A dieresis   | Alt-142 | Alt-242         |
-| C cedilla    | Alt-128 | Alt-248         |
-| E acute      | Alt-144 | Alt-209         |
-| G breve      | Alt-166 | Alt-181         |
-| I acute      | Alt-214 | Alt-211         |
-| I dieresis   | Alt-216 | No key assigned |
-| I dot above  | Alt-152 | Alt-189         |
-| N tilde      | Alt-165 | Alt-183         |
-| O acute      | Alt-224 | Alt-213         |
-| O dieresis   | Alt-153 | Alt-244         |
-| S cedilla    | Alt-158 | Alt-250         |
-| U acute      | Alt-233 | Alt-215         |
-| U dieresis   | Alt-154 | No key assigned |
-| a acute      | Alt-160 | Alt-208         |
-| a circumflex | Alt-131 | Alt-199         |
-| a dieresis   | Alt-132 | Alt-243         |
-| c cedilla    | Alt-135 | Alt-249         |
-| e acute      | Alt-130 | Alt-210         |
-| g breve      | Alt-167 | Alt-182         |
-| i acute      | Alt-161 | Alt-212         |
-| i dieresis   | Alt-139 | No key assigned |
-| i dotless    | Alt-141 | Alt-190         |
-| n tilde      | Alt-164 | Alt-184         |
-| o acute      | Alt-162 | Alt-214         |
-| o dieresis   | Alt-148 | Alt-245         |
-| s cedilla    | Alt-159 | Alt-251         |
-| u acute      | Alt-163 | Alt-216         |
-| u dieresis   | Alt-129 | No key assigned |
+| Glyph        | Codes   |
+|--------------|---------|
+| A acute      | Alt-181 |
+| A circumflex | Alt-182 |
+| A dieresis   | Alt-142 |
+| C cedilla    | Alt-128 |
+| E acute      | Alt-144 |
+| G breve      | Alt-166 |
+| I acute      | Alt-214 |
+| I dieresis   | Alt-216 |
+| I dot above  | Alt-152 |
+| N tilde      | Alt-165 |
+| O acute      | Alt-224 |
+| O dieresis   | Alt-153 |
+| S cedilla    | Alt-158 |
+| U acute      | Alt-233 |
+| U dieresis   | Alt-154 |
+| a acute      | Alt-160 |
+| a circumflex | Alt-131 |
+| a dieresis   | Alt-132 |
+| c cedilla    | Alt-135 |
+| e acute      | Alt-130 |
+| g breve      | Alt-167 |
+| i acute      | Alt-161 |
+| i dieresis   | Alt-139 |
+| i dotless    | Alt-141 |
+| n tilde      | Alt-164 |
+| o acute      | Alt-162 |
+| o dieresis   | Alt-148 |
+| s cedilla    | Alt-159 |
+| u acute      | Alt-163 |
+| u dieresis   | Alt-129 |
 
 ### Tatar/Uzbek (Cyrillic)
 | Glyph        | Codes   | T2A and T2B     |
@@ -292,36 +292,6 @@ Although not part of my readable font series, this language is usually written i
 | s cedilla   | Alt-159 |
 | z stroke    | Alt-149 |
 | soft sign   | Alt-151 |
-
-### Cyrillic Volga District - Turkic languages
-| Glyph          | Codes   |
-|----------------|---------|
-| A breve        | Alt-242 |
-| Ie breve       | Alt-246 |
-| Schwa          | Alt-207 |
-| Ghe stroke     | Alt-182 |
-| Ze descender   | Alt-213 |
-| Zhe descender  | Alt-209 |
-| Ka ghe         | Alt-189 |
-| En descender   | Alt-250 |
-| O barred       | Alt-244 |
-| Es descender   | Alt-215 |
-| Shha           | Alt-190 |
-| U double acute | Alt-211 |
-| U straight     | Alt-181 |
-| a breve        | Alt-243 |
-| ie breve       | Alt-247 |
-| schwa          | Alt-208 |
-| ghe stroke     | Alt-183 |
-| ze descender   | Alt-214 |
-| zhe descender  | Alt-210 |
-| ka ghe         | Alt-199 |
-| en descender   | Alt-251 |
-| o barred       | Alt-245 |
-| es descender   | Alt-216 |
-| shha           | Alt-198 |
-| u double acute | Alt-212 |
-| u straight     | Alt-184 |
 
 ### Zazaki
 | Glyph        | Codes   |
