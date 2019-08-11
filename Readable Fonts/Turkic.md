@@ -3,9 +3,6 @@ Lexa and LinguaFont (1998), two linguistic DOS programs by Raymond Hickey, inclu
 
 Michael Everson / Evertype created input utilities for macOS for Turkic languages.
 
-## A note on Mongolian script
-Although not part of my readable font series, this language is usually written in Cyrillic script.
-
 ## Diacritical and Cyrillic special characters (in alphabetical order by language)
 
 ### Azerbaijani - Typed as usual on Azerbaijani keyboards

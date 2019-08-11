@@ -2,27 +2,22 @@
 The readable font family is based on the System VIO font from IBM OS/2.
 
 ### Numbered encodings
-| File Name | Description                                |
-|-----------|--------------------------------------------|
-| CP857     | Latin 5 (Turkey)                           |
-| CP899     | Armenian                                   |
-| CP30007   | Latin                                      |
-| CP30022   | Canadian First Nations                     |
-| CP30024   | Northern and Eastern Africa                |
-| CP30025   | Western Africa                             |
-| CP30026   | Central Africa                             |
-| CP30034   | Cherokee                                   |
-| CP59829   | Georgian                                   |
-| CP60853   | Georgian with capital letters              |
+| File Name | Description                   |
+|-----------|-------------------------------|
+| CP899     | Armenian                      |
+| CP30022   | Canadian First Nations        |
+| CP30024   | Northern and Eastern Africa   |
+| CP30025   | Western Africa                |
+| CP30026   | Central Africa                |
+| CP30034   | Cherokee                      |
+| CP59829   | Georgian                      |
+| CP60853   | Georgian with capital letters |
 
 ### Unnumbered encodings
 | File Name | Description                           |
 |-----------|---------------------------------------|
-| KOI8ALT   | Soviet KOI-8 Alternative              |
-| LFGREEK   | LinguaFont Monotonic Greek            |
 | LFGRPL    | LinguaFont Polytonic Greek            |
 | MACBACYR  | Apple Barents Cyrillic                |
-| SIOUAN    | Siouan Languages                      |
 | T2A       | TeX Cyrillic Encoding 1               |
 | T2B       | TeX Cyrillic Encoding 2               |
 | T2C       | TeX Cyrillic Encoding 3               |
@@ -39,13 +34,12 @@ The readable font family is based on the System VIO font from IBM OS/2.
 |-----------|--------------------------------------------------|
 | ALALCT1   | ALA-LC Transliteration 1                         |
 | ALALCT2   | ALA-LC Transliteration 2                         |
-| ARMGEOR   | Armenian/Georgian                                |
 | AVESCZEC  | Avestan + Czech letters on cp852 codepoints      |
 | AVESTRAN  | Avestan and Pahlavi                              |
 | BHTITIME  | BharatiTimes                                     |
-| CSXALT    | Classical Sanskrit Extended – Alternate encoding |
+| CSXALT    | Classical Sanskrit Extended - Alternate encoding |
 | INDOSKR   | IndoSkript                                       |
-| IRTRARHE  | Iranian – Arabic & Hebrew                        |
+| IRTRARHE  | Iranian - Arabic & Hebrew                        |
 | ITIMESSK  | ITimesSkRom                                      |
 | KASHMIRI  | Kashmiri                                         |
 | KULMIX    | Catholic University Lublin Mixed                 |
@@ -53,7 +47,7 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | MININD    | Minion Indologist                                |
 | NINATRAN  | Nina IJTS transliteration                        |
 | PINYIN    | Chinese (Pinyin)                                 |
-| SEMTRAN3  | Semitic – Akkadic, Egyptian, Sumerian            |
+| SEMTRAN3  | Semitic - Akkadic, Egyptian, Sumerian            |
 
 ### Notice when loading fonts through LOADFONT (FNTCOL version 1.6)
 LOADFONT cannot handle long filenames or directory names. If you want to pass these to LOADFONT you will have to rename or abbreviate them to their 8.3 character DOS filenames from the tables above. EG: **Hungarian.f16** is **HUNGAR~1.F16** and that is what you would have to pass to LOADFONT.

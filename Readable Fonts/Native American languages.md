@@ -1,6 +1,4 @@
 ## Fonts
-John Koontz created a set of Siouan fonts, ca. 2001.
-
 LaserNavajo (2011), by Payne Loving Trust, is a commercial font distributed by Linguist's Software for use with Navajo language. The fonts are based on Latin-1 encoding. By buying the Windows version you have dll files for keyboards.
 
 ## Codes
@@ -215,7 +213,7 @@ LaserNavajo (2011), by Payne Loving Trust, is a commercial font distributed by L
 | glottal stop reversed     | Alt-213 |
 | glottal stop superscript  | Alt-181 |
 
-### Printer's Specials  (Washington Puget Salish)
+### Printer's Specials (Washington Puget Salish)
 | Glyph              | Codes   |
 |--------------------|---------|
 | non-breaking space | Alt-160 |

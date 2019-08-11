@@ -1,41 +1,29 @@
 ## Acknowledgements
 Special thanks goes to the following people:
-* Bendt Alster, for his fonts primarily intended for the transliteration of Akkadian and Sumerian cuneiform texts (bafonts). The fonts have symbols not accessible in non-Unicode programs, such as the math symbols from macOS codepages.
 * Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
 * Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
 * Peter Cassetta, for information about Cyrillic character sets.
-* Miguel Civil, for his Nippur-Guti fonts, used on the Chicago Sumerian Sumerian Lexicon Archive site.
 * Roman Czyborra, for information about character sets.
-* Miroslav Dressler, for his EDA editor which uses its own encoding based on Kamenický.
 * John Elliott and others, for creating OpenGEM.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
 * Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey / [Unitype Inc.](http://www.unitype.com/), for his transliteration fonts intended for the ALA-LC scheme.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
-* Hàn Thế Thành, for creating the vnr font family. He's also the author of pdfTeX.
 * Raymond Hickey, for maintaining Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
-* Sashikant Joshi, for creating the Pranav font (2002-2003). The font places uppercase letters in the 208-250 and 253 sections.
 * Reinhold Kainhofer, for his Ancient Font package. His Meroitic and Ugaritic transliteration fonts have diacritics in lowercase only and is based on Arial.
 * Andrey V. Kalantarian, for writing VGAFONT.
-* Jiří and Marián Kamenický, for inventing the Kamenický encoding.
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
-* Jan Klimowicz, for inventing the Mazovia encoding.
 * Jörg Knappen, for his TeX African Latin encoding.
 * Donald E. Knuth, for writing TeX and his own encodings.
 * Petr I. Kvitek, for writing EVAfont. This DOS font editor includes a keyboard and fonts for Russian language.
 * Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
-* Werner Lemberg, for writing FreeType. He also wrote the TeX T5 encoding designed for use with the Vietnamese language.
 * [Iván Llanas](http://www.geocities.ws/ivan_llanas), for writing FontEdit II and his font package.
-* Pádraig McCarthy, for creating the Gaeilge (1993) font. Gaeilge1 and Gaeilge2 placed old-style numbers in the 176-182 and 184-186 sections.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
-* Sergey Menshikov, for maintaining Interpilot - Palm OS internationalization program. This program changes the keyboard and fonts used for Palm OS to whatever language you want.
-* Hoà T. Nguyễn, for writing the Vietnamese text editor VIET.
-* Thomas T. Pedersen, for his transliteration tables of foreign scripts.
 * Henrique Peron, for maintaining cpidos and his cpx files.
 * Chris Pirillo, for maintaining his collection of MS-DOS VGA fonts (1995).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
@@ -45,8 +33,6 @@ Special thanks goes to the following people:
 * Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
-* Conrad Taylor, for his book used to design fonts for African languages. This book duplicated Kikuyu in the language list.
-* Mike Threepoint, for designing smcapnum.f14 (bundled with fntcol16). He describes it as "the small capitals font with book-style numerals" and also wrote his font editor, CHET.
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 
 ## Third-Party Notices
