@@ -17,7 +17,7 @@ You won't receive any emails when your name is added - this will only see the me
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface
-Only @gurumukhi may manage the list. You won't receive any emails when your name is added - this will only see the message in the logs.
+Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but not the default commit message: Update **filename**.
@@ -33,7 +33,7 @@ You won't receive any emails when your name is added - this will only see your n
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
-Only @gurumukhi may manage the list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
+Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the credits directory, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end or use `echo name >> names.csv`.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
