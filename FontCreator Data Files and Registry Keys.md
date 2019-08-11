@@ -241,13 +241,13 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **AutoMetricsWhiteSpaceBefore** – This corresponds to the **Calculated: White space before characters** option in the Automatic Metrics Wizard.
 
 ### MetricsAndKerning
-* **MetricsAndKerningKerningEnabled** – Used by **Kerning** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningKerningEnabled** – Used by **OpenType Layout Features** in the Comparison toolbar. Default is off.
 * **MetricsAndKerningTextEnabled** – Used by **Show text before and after glyph** in the Comparison toolbar. Default is off.
 * **MetricsAndKerningTextLeft** – Used by **Before** text box in the Comparison toolbar. Default is empty.
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
 ### Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted.
+* **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or if **Clear recent file lists** is selected under this menu.
 
 ### OpenType Designer
 * **FillGlyphOutlines**
@@ -316,7 +316,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 ### Preview
 * **FeaturesWidth**
 * **FeatureTags** – No default value.
-* **PreviewFeatures** 
+* **PreviewFeatures**
 * **PreviewFontSize** – This corresponds to the size in the Test Font window.
 * **PreviewSampleFontSize** – This corresponds to the size in the Preview window.
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
