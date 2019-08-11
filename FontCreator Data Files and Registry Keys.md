@@ -1,6 +1,6 @@
 ﻿## Notes
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
-* Version 3.0 until 7.0 allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
+* All versions allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
@@ -44,13 +44,14 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
+* **glyphlist.dat** – Contains the postscript name list.
 * **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Old versions have the same list but duplicates **xi** to U+0000.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – For version 7.0 and above, contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
-* **SubFamily.dat** – Includes naming fields for different languages.
-* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed.
+* **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for different languages.
+* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changed the file extension to txt and added another file named TableOffsetOrderCFF.
 * **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -139,11 +140,11 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### Interface
-* **LockToolbars**
+* **LockToolbars** – This corresponds to the **Lock Docked Toolbars** option in the toolbar context menu or in View: Toolbars. Default is off.
 * **ShowUserNotes**
 
 ### Interface Settings
-* **CompleteCompositesAction**
+* **CompleteCompositesAction** – This corresponds to the **Complete Composites** button in the toolbar. Default is **Auto**
 * **GlyphCaptionType** – Used with Caption radio buttons in the Overview tab. (Available in the Options window)
 * **GlyphOutlineFillMode**
 * **GlyphPropsExpanded**
@@ -272,7 +273,7 @@ The program is started in unregistered mode after installation or if this key is
 ### Themes
 * **ActiveTheme**
 
-### Tip of the Day
+### Tip of the Day (version 3.0 until 6.0)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
 * **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
 
@@ -435,7 +436,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after the trial period is exceeded. (Only in old versions)
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font. The default push button is **OK**.
 * **TSPLASHFORM** – Displays this form on startup when the Reg key is not found. The three buttons at the bottom are displayed in random order. If the trial period is exceeded, when starting the program five times it displays a random paragraph.
-* **TTIPOFTHEDAYFORM** – Used for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register** and in the Help menu is a menu item with the same text. If removed when not registered, it displays the "Access Violation".
+* **TTIPOFTHEDAYFORM** – Used in old versions and also for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register** and in the Help menu is a menu item with the same text. If removed when not registered, it displays the "Access Violation".
 * **TTRANSFORMFORM** – For simple glyphs only. The default push button is **Apply**.
 * **TUNICODERANGEFORM** – Used when specifying the Unicode blocks or ranges encompassed by the font file in the mappings for double-byte platforms. The default push button is **OK**.
 * **TUPDATEREMINDERFORM** – Used when the program checks for updates as if **OnStartupShowUpdateReminder** is enabled. The default push button is **OK**.
