@@ -2,7 +2,7 @@
 This repository contains my random stuff.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added using the form at the bottom of this page as mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Vietnamese, Kazakh, Armenian and Cherokee. Created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses). The TrueType version is not from VileR's [Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) which is licensed under a Creative Commons style license.
+* **Readable Fonts**: Self-loading fonts based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses). The TrueType version is not from VileR's [Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) which is licensed under a Creative Commons style license.
 * **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
@@ -13,7 +13,7 @@ You won't receive any emails when your name is added - this will only see the me
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
 5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
-6. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
+6. Push your changes with `git push` using `gurumukhi` as the username.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface
@@ -26,15 +26,15 @@ Direct modifications can only be done when you're committing and logged in as @g
 
 ## Adding one name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Clone the **mozilla/community-data** repository via `git clone`.
+1. Clone the `mozilla/community-data` repository.
 2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
-4. Push your changes with `git push` if your GitHub account has commit and write access for the **mozilla/community-data** repository.
+4. Push your changes with `git push` using `gurumukhi` as the username.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Go to the credits directory, click the names.csv file and the pencil at the top-right corner to edit it.
+1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end or use `echo name >> names.csv`.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
 4. Commit directly to the master branch but do not create a pull request.
@@ -64,7 +64,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
-## FontCreator Data Files and Registry Keys (Markdown file)
+## FontCreator Data Files and Registry Keys
 This file includes data files and registry keys for all FontCreator versions.
 
 ## Protest pages
