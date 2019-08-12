@@ -10,17 +10,17 @@
 * Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout (tested with 5.6), you would have to use Resource Tuner (tested with latest version) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
+* If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 As FontCreator is released as pay shareware, the unregistered version works for 30 days with the following limitations based on the version number.
-* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**.
+* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) - After a grace period of 30 days, the program cannot be used at all until the registration process is started.
-* 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode where e.g. fonts cannot be saved or tested.
-* 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode where e.g. tested fonts won't be automatically hinted.
+* 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where e.g. fonts cannot be saved or tested.
+* 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
 * 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
 
@@ -89,7 +89,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OpenFriendlyGlyphNames** – This corresponds to the **Open Font: Generate friendly glyph names** checkbox in Options: Font.
 
 ### FreeDraw
-* **BrushWidth** – This corresponds to the
+* **BrushWidth** – This corresponds to the **Brush width** option in the Free Draw window.
 
 ### Glyph Edit Window
 * **FilledOutline** – Used with **Fill Outline** in the Grid toolbar.
@@ -217,7 +217,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **AutoKerningReplacePercentage** – This corresponds to the **Additional Options: Replace existing kerning when** slider in the AutoKern window.
 * **AutoKerningWhiteSpace** – This corresponds to the **Additional Options: White space between characters** option in the AutoKern window.
 * **KerningColorBackground** – Select the color used for the background. Default is white.
-* **KerningColorBaseline**
+* **KerningColorBaseline** – Select the color used for the baseline.
 * **KerningColorFirst** – Select the color used for the left glyph. Default is dark blue.
 * **KerningColorGridLines** – Select the color used for the Grid Lines.
 * **KerningColorSecond** – Select the color used for the right glyph. Default is dark green.
@@ -250,8 +250,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or if **Clear recent file lists** is selected under this menu.
 
 ### OpenType Designer
-* **FillGlyphOutlines**
-* **GlyphFillColor**
+* **FillGlyphOutlines** – This corresponds to the **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
+* **GlyphFillColor** – This corresponds to the **Colors: Glyph fill color** in the OpenType Designer Settings window.
 * **LayoutMode**
 * **MarkWidth**
 * **PairWidth**
@@ -263,7 +263,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **ZoomFactor**
 
 ### Options
-* **AlwaysCreateBackupCopy** – This corresponds to the **When Saving Font Files: Always create backup copy (bak)** option in the Font tab. If disabled, no backup copy is created on saving. (Available in the Options window)
+* **AlwaysCreateBackupCopy** – This corresponds to the **Create backup copy (bck) on saving a font project** option in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
 * **AutoFitGlyphInWindow** – This corresponds to the **Zoom Simple Glyph Edit Window: Auto Fit Glyph in Window** option in Options: Glyph. Default is on.
 * **AutoNamingUseFontRevision** – This corresponds to the **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** option in Options: Naming. Default is on.
 * **CompressHmtxTable** – This corresponds to the **When Saving Font Files: Compress hmtx table** option in the Font tab. (Available in the Options window)
@@ -297,7 +297,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OnStartupOpenFonts** (version 5.6 & above) – This corresponds to the **Startup: On start open fonts from last time** option in the General tab. Default is on. (Available in the Options window)
 * **OnStartupShowUpdateReminder** – This corresponds to the **Startup: Show update reminder** option in the General tab. Default is Once a year. (Available in the Options window)
 * **OnStartupShowWelcome** – This corresponds to the **Startup: On start show Welcome dialog** option in the General tab. Default is on. (Available in the Options window)
-* **PanoseValueHexadecimal** – This corresponds to the **PANOSE: HEX** option in the Classification tab. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal. (Available in the Font Settings window)
+* **PanoseValueHexadecimal** – This corresponds to the **PANOSE: Value: Show hexadecimal** option in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
 * **RecalcAverageCharWidth** – This corresponds to the **When Saving Font Files: Recalc average char width** option in the Font tab. (Available in the Options window)
 * **RecalcGlyphBoundingBoxes** – This corresponds to the **When Saving Font Files: Recalc glyph bounding boxes** option in the Font tab. (Available in the Options window)
 * **RemoveDSIGTable** – This corresponds to the **When Opening Font Files: Remove DSIG table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
@@ -360,16 +360,16 @@ The program is started in unregistered mode after installation or if this key is
 * **ValidationMaxNumberOfPoints** – This corresponds to the **Real-time glyph validation: Disable when number of points exceeds** option in the Validation tab. (Available in the Settings window)
 
 ### Warn – Default is on for all options
-* **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** setting in the Advanced tab.
-* **WarnBeforeActivatingRemoveFeature** – Used with **Warn before activating a remove feature from the Options → Font page** setting in the Advanced tab.
-* **WarnBeforeAddCharacters** – Used with **Warn before adding characters** setting in the Advanced tab.
-* **WarnBeforeAnchorDelete** – Used with
-* **WarnBeforeCloseOpenTypeDesigner** – Used with
-* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script** setting in the Advanced tab.
-* **WarnBeforeSortingGlyphs** – Used with **Warn before sorting glyphs** setting in the Advanced tab.
-* **WarnImportSmallImage** – Used with
-* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** setting in the Advanced tab.
-* **WarnWhenProcessingVOLTTable** – Used with
+* **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** in the Advanced tab.
+* **WarnBeforeActivatingRemoveFeature** – Used with **Warn before activating a remove feature from the Options → Font page** in the Advanced tab.
+* **WarnBeforeAddCharacters** – Used with **Warn before adding characters** in the Advanced tab.
+* **WarnBeforeAnchorDelete** – Used with **Warn when deleting anchor** in the Advanced tab.
+* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog** in the Advanced tab.
+* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script** in the Advanced tab.
+* **WarnBeforeSortingGlyphs** – Used with **Warn before sorting glyphs** in the Advanced tab.
+* **WarnImportSmallImage** – Used with **Warn when importing small image** in the Advanced tab.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** in the Advanced tab.
+* **WarnWhenProcessingVOLTTable** – Used with **Warn when opening a font file which contains a VOLT table** in the Advanced tab.
 
 ## Cursors in the executable file (Delphi resources omitted)
 * **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
