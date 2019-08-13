@@ -5,7 +5,7 @@
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
-* Complete Composites (generating from `CompositeData.xml`) slows down the first time using in simple and composite glyphs.
+* Complete Composites (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * Version 5.0 until 6.0 makes **Complete Composites** dimmed in empty glyphs.
 * Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
@@ -44,8 +44,8 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
-* **glyphlist.dat** – Contains the postscript name list.
-* **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Old versions have the same list but duplicates **xi** to U+0000.
+* **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
+* **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
@@ -157,7 +157,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 
 ### Interface Settings
 * **ChildWindowState**
-* **CompleteCompositesAction** – This corresponds to the **Complete Composites** button in the toolbar. Default is **Auto**
+* **CompleteCompositesAction** – This corresponds to the **Complete Composites** button in the toolbar. Default is **Auto**.
 * **CustomNamingShowOutputContent**
 * **GlyphCaptionAuto** – Used with **Captions: Automatic** in the right-click context menu of font overview.
 * **GlyphCaptionType2** – Used with the Captions options in the right-click context menu of font overview.
@@ -167,7 +167,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **GlyphNamesHistorySearch** – Contains the postscript names to find in history.
 * **GlyphNamesOptionsCS**
 * **GlyphNamesOptionsRE**
-* **GlyphOutlineFillMode** – Used with **Glyph Display Mode** in the View menu.
+* **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
 * **GlyphPropsExpanded**
 * **GroupManagerSorted**
 * **KerningFolderExport** – Directory for exporting the legacy kerning tables.
@@ -189,16 +189,16 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OverviewColCat**
 * **OverviewFontZoom**
 * **OverviewGridZoom**
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font overview: Font used by samples** option in the Overview tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** option in the View tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewShowSample**
+* **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** option in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
 * **OverviewSingleWidth** – Used with **Font overview: Glyph width** option in the Overview tab. Default is 70. (Available in the Options window)
 * **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** option in the Overview tab. (Available in the Options window)
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** option in the Edit tab. Default is 1. (Available in the Options window)
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** option in the Edit tab. Default is 1. (Available in the Options window)
 * **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** option in the Font tab. If enabled, glyph captions are shown in different colors. If disabled, glyph captions are shown in black. (Available in the Options window)
-* **SampleFileName** – Used with **Samples Toolbar: Filename** option in the Sample tab. Default is blank. (Available in the Options window)
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** option in the General tab. Default is blank.
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** option in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** option in the Sample tab. Default is 62. (Available in the Options window)
 * **SelectCompositeCaptionType**
@@ -217,9 +217,9 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **AutoKerningReplacePercentage** – This corresponds to the **Additional Options: Replace existing kerning when** slider in the AutoKern window.
 * **AutoKerningWhiteSpace** – This corresponds to the **Additional Options: White space between characters** option in the AutoKern window.
 * **KerningColorBackground** – Select the color used for the background. Default is white.
-* **KerningColorBaseline** – Select the color used for the baseline.
+* **KerningColorBaseline** – Select the color used for the baseline. Default is red.
 * **KerningColorFirst** – Select the color used for the left glyph. Default is dark blue.
-* **KerningColorGridLines** – Select the color used for the Grid Lines.
+* **KerningColorGridLines** – Select the color used for the Grid Lines. Default is gray.
 * **KerningColorSecond** – Select the color used for the right glyph. Default is dark green.
 * **KerningShowBaseLine** – Display baseline in Kerning window. Default is on.
 * **KerningShowBearingLines** – Display bearing lines in Kerning window. Default is on.
@@ -264,7 +264,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 
 ### Options
 * **AlwaysCreateBackupCopy** – This corresponds to the **Create backup copy (bck) on saving a font project** option in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
-* **AutoFitGlyphInWindow** – This corresponds to the **Zoom Simple Glyph Edit Window: Auto Fit Glyph in Window** option in Options: Glyph. Default is on.
+* **AutoFitGlyphInWindow** – This corresponds to the **Glyph Edit Window: Auto fit glyph in Window** option in Options: Glyph. Default is on.
 * **AutoNamingUseFontRevision** – This corresponds to the **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** option in Options: Naming. Default is on.
 * **CompressHmtxTable** – This corresponds to the **When Saving Font Files: Compress hmtx table** option in the Font tab. (Available in the Options window)
 * **CompressNameTable** – This corresponds to the **When Saving Font Files: Optimize name table** option in the Font tab. (Available in the Options window)
@@ -287,7 +287,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **DefaultVendorIDIncluded** – This corresponds to the **Default Settings for New Fonts: Vendor ID** checkbox in Options: Personalize. Default is on.
 * **DefaultVendorIncluded** – This corresponds to the **Default Settings for New Fonts: Vendor** checkbox in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – This corresponds to the **Default Settings for New Fonts: Vendor URL** checkbox in Options: Personalize. Default is off.
-* **DefaultZoomFactor** – This corresponds to the **Glyph Edit Window: Open with Default Zoom Factor** option in Options: View.
+* **DefaultZoomFactor** – This corresponds to the **Glyph Edit Window: Open with default zoom factor** option in Options: View.
 * **ExcludeMonospacedFonts** – This corresponds to the **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
 * **IgnoreHintingData** – This corresponds to the **When Opening Font Files: Remove hinting data** option in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
 * **IgnoreUnsupportedTables** – This corresponds to the **When Opening Font Files: Remove unsupported tables** option in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
@@ -306,7 +306,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **RemoveVDMXTable** – This corresponds to the **When Opening Font Files: Remove VDMX table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
-* **UpdateModifiedDateTimeField** – This corresponds to the **When Saving Font Files: Update Modified DateTime field** option in the Font tab. Default is on. (Available in the Options window)
+* **UpdateModifiedDateTimeField** – This corresponds to the **Identification: Automatically update modified timestamp when exporting font** option in the Font Properties: Identification tab. Default is on.
 * **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
 * **VectorImageEPSForceRepositioning** – This corresponds to the **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** option in the Options: Import tab.
 * **VectorImageEPSOriginX** – This corresponds to the **Vector Based Images (EPS, AI, PDF, SVG): Origin X** option in the Options: Import tab.
