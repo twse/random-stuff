@@ -70,7 +70,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **Open Installed Fonts** – This is a binary value.
 
 ### Externals
-* **Location#** – The name can be up to digit three.
+* **Location#** – The name can be up to digit three. Default is empty.
 * **Title#** – The name can be up to digit three. Default is External.
 
 ### Find
@@ -83,10 +83,10 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **CategoryWidth**
 
 ### Fonts
-* **ExportDecomposeScaled** – This corresponds to the **Export Font: Decompose composite glyphs with scaled components** checkbox in Options: Font.
-* **ExportExcludeLegacy** – This corresponds to the **Export Font: Exclude legacy data** checkbox in Options: Font.
-* **FontEnableOpenContours** – This corresponds to the **Special Features: Enable open contours** checkbox in Options: Font.
-* **OpenFriendlyGlyphNames** – This corresponds to the **Open Font: Generate friendly glyph names** checkbox in Options: Font.
+* **ExportDecomposeScaled** – This corresponds to the **Export Font: Decompose composite glyphs with scaled components** checkbox in Options: Font. Default is on.
+* **ExportExcludeLegacy** – This corresponds to the **Export Font: Exclude legacy data** checkbox in Options: Font. Default is on.
+* **FontEnableOpenContours** – This corresponds to the **Special Features: Enable open contours** checkbox in Options: Font. Default is on.
+* **OpenFriendlyGlyphNames** – This corresponds to the **Open Font: Generate friendly glyph names** checkbox in Options: Font. Default is on.
 
 ### FreeDraw
 * **BrushWidth** – This corresponds to the **Brush width** option in the Free Draw window.
@@ -149,7 +149,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **InstallFontsInFontsFolder** – This corresponds to the **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### InstalledFonts
-* **PreviewHeight**
+* **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
 
 ### Interface
 * **LockToolbars** – This corresponds to the **Lock Docked Toolbars** option in the toolbar context menu or in View: Toolbars. Default is off.
@@ -307,7 +307,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – This corresponds to the **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – This corresponds to the **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – This corresponds to the **Identification: Automatically update modified timestamp when exporting font** option in the Font Properties: Identification tab. Default is on.
-* **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the General tab. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($). (Available in the Options window)
+* **ValueHexadecimal** – This corresponds to the **Values: Hexadecimal** option in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
 * **VectorImageEPSForceRepositioning** – This corresponds to the **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** option in the Options: Import tab.
 * **VectorImageEPSOriginX** – This corresponds to the **Vector Based Images (EPS, AI, PDF, SVG): Origin X** option in the Options: Import tab.
 * **VectorImageEPSOriginY** – This corresponds to the **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** option in the Options: Import tab.
@@ -450,19 +450,19 @@ The program is started in unregistered mode after installation or if this key is
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
-* **TDISABLEDFORM** – For unregistered copies of FontCreator, displays this form when trying to save/test/install fonts or extract TrueType font collections or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
+* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form when trying to save/test/install fonts or extract TrueType font collections or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
-* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**. (See TDISABLEDFORM for the used form when the trial period is exceeded or using unregistered recent versions)
+* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
 * **TFINDFORM** – Used when searching parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when setting embedding and licensing rights in the font. The default push button is **OK**.
 * **TFONTHEADERFLAGSFORM** – Used when setting the header flags in the font. The default push button is **OK**.
-* **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications. The default push button is **Next** or **Finish**. (See TDISABLEDFORM for the used form when the trial period is exceeded or using unregistered recent versions)
+* **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications. The default push button is **Next** or **Finish**.
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports ASCII characters while others are printed with a system font. (See TDISABLEDFORM for the used form when the trial period is exceeded or using most unregistered old versions)
+* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports ASCII characters while others are printed with a system font.
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
