@@ -13,7 +13,7 @@ You won't receive any emails when your name is added - this will only see the me
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
 5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
-6. Push your changes with `git push` using `gurumukhi` as the username.
+6. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface
@@ -29,7 +29,7 @@ You won't receive any emails when your name is added - this will only see your n
 1. Clone the `mozilla/community-data` repository.
 2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
-4. Push your changes with `git push` using `gurumukhi` as the username.
+4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
