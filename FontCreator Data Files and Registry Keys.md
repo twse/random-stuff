@@ -45,7 +45,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
-* **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog.
+* **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
@@ -70,8 +70,9 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **Open Installed Fonts** – This is a binary value.
 
 ### Externals
+There are three built-in external programs: Fonts Folder, Character Map and MainType (if installed).
 * **Location#** – The name can be up to digit three. Default is empty.
-* **Title#** – The name can be up to digit three. Default is External.
+* **Title#** – The name can be up to digit three. Default is **External #** whereas # is a number.
 
 ### Find
 * **FindLanguageID** – This corresponds to any language.
@@ -126,7 +127,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar.
 
 ### GUI
-* **UpdateCheckInterval**
+* **UpdateCheckInterval** – Used when **OnStartupShowUpdateReminder** is enabled.
 
 ### GuideLines
 * **Color** – This corresponds to the **Color** option in Guideline Options. Default is black.
@@ -178,13 +179,13 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
 * **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
 * **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
-* **OptionsPage**
+* **OptionsPage** – Select the tab used in the Options dialog.
 * **OTLFDesignerCollapsedFeatures**
 * **OTLFDesignerCollapsedLookups**
 * **OTLFDesignerCollapsedScripts**
-* **OTLFDesignerPreviewLanguage**
-* **OTLFDesignerPreviewSampleText**
-* **OTLFDesignerPreviewScript**
+* **OTLFDesignerPreviewLanguage** – Select the language used for the preview text in the OpenType layout designer.
+* **OTLFDesignerPreviewSampleText** – Select the sample text used for the preview text in the OpenType layout designer.
+* **OTLFDesignerPreviewScript** – Select the script used for the preview text in the OpenType layout designer.
 * **OTLFEditor**
 * **OverviewColCat**
 * **OverviewFontZoom**
@@ -204,7 +205,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SelectCompositeCaptionType**
 * **SelectCompositeFontZoom**
 * **SelectCompositeGridZoom**
-* **SettingsPage**
+* **SettingsPage** – Select the tab used in the Settings dialog.
 
 ### Kerning
 * **AutoKerningAllowForPositiveKerningValues** – This corresponds to the **Additional Options: Allow for positive kerning values** option in the AutoKern window.
@@ -226,7 +227,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **KerningShowGridLines** – Display grid lines in Kerning window. Default is on.
 
 ### Last Time
-* **File_#** – Include last time used fonts whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
+* **File_#** – Include fonts you use for the last time whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
 
 ### Metrics
 * **AutoMetricsExcludeEmptyGlyphs** – This corresponds to the **Additional Options: Exclude empty glyphs (recommended)** option in the Automatic Metrics Wizard.
@@ -247,7 +248,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
 ### Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Lists the font file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or if **Clear recent file lists** is selected under this menu.
+* **File_#** – Lists the font and project file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or if **Clear recent file lists** is selected under this menu.
 
 ### OpenType Designer
 * **FillGlyphOutlines** – This corresponds to the **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
@@ -255,8 +256,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **LayoutMode**
 * **MarkWidth**
 * **PairWidth**
-* **PreviewHeight**
-* **PreviewSampleFontSize**
+* **PreviewHeight** – This corresponds to the preview text height in the OpenType Designer.
+* **PreviewSampleFontSize** – This corresponds to the preview sample font size in the OpenType Designer.
 * **SimpleWidth**
 * **SingleWidth**
 * **TreeWidth**
@@ -337,12 +338,12 @@ The program is started in unregistered mode after installation or if this key is
 * **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** option in the Validation tab. (Available in the Settings window)
-* **DiagonalRedundantOnCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** option in the Validation tab. (Available in the Settings window)
+* **DiagonalRedundantOffCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** option in Settings: Validation.
+* **DiagonalRedundantOnCurvePointsDetection** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** option in Settings: Validation.
 * **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
-* **LocalExtremeCoordinatesDetection** – This corresponds to the **Off-curve extreme coordinates: Local detection** option in the Validation tab. (Available in the Settings window)
-* **MaximumRedundantOffCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** spinner in the Validation tab. (Available in the Settings window)
-* **MaximumRedundantOnCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** spinner in the Validation tab. (Available in the Settings window)
+* **LocalExtremeCoordinatesDetection** – This corresponds to the **Off-curve extreme coordinates: Local detection** option in Settings: Validation.
+* **MaximumRedundantOffCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. off-curve dist.** spinner in Settings: Validation.
+* **MaximumRedundantOnCurvePointsDistance** – This corresponds to the **Diagonal redundant points detection: Max. on-curve dist.** spinner in Settings: Validation.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
 * **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. If enabled, warning points are shown for each glyph. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
 * **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar.
@@ -355,9 +356,9 @@ The program is started in unregistered mode after installation or if this key is
 * **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard.
 * **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
 * **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
-* **ValidationMaxNumberOfCompositeGlyphMembers** – This corresponds to the **Real-time glyph validation: Disable when number of members exceeds** option in the Validation tab. (Available in the Settings window)
-* **ValidationMaxNumberOfContours** – This corresponds to the **Real-time glyph validation: Disable when number of contours exceeds** option in the Validation tab. (Available in the Settings window)
-* **ValidationMaxNumberOfPoints** – This corresponds to the **Real-time glyph validation: Disable when number of points exceeds** option in the Validation tab. (Available in the Settings window)
+* **ValidationMaxNumberOfCompositeGlyphMembers** – This corresponds to the **Real-time glyph validation: Disable when number of members exceeds** option in Settings: Validation.
+* **ValidationMaxNumberOfContours** – This corresponds to the **Real-time glyph validation: Disable when number of contours exceeds** option in Settings: Validation.
+* **ValidationMaxNumberOfPoints** – This corresponds to the **Real-time glyph validation: Disable when number of points exceeds** option in Settings: Validation.
 
 ### Warn – Default is on for all options
 * **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** in the Advanced tab.
@@ -499,7 +500,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after the trial period is exceeded. (Only in old versions)
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font. The default push button is **OK**.
 * **TSPLASHFORM** – Displays this form on startup when the Reg key is not found. The three buttons at the bottom are displayed in random order. If the trial period is exceeded, when starting the program five times it displays a random paragraph.
-* **TTIPOFTHEDAYFORM** – Used in version 1.0 until 6.0 and also for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register**. If removed when not registered, it displays the "Access Violation".
+* **TTIPOFTHEDAYFORM** – Used in version 1.0 until 6.0 and also for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register**. If removed when not registered, it displays the "Access Violation". See the FontCreator: Tips and Tricks forum in the High-Logic font forum for more details.
 * **TTRANSFORMFORM** – For simple glyphs only. The default push button is **Apply**.
 * **TUNICODERANGEFORM** – Used when specifying the Unicode blocks or ranges encompassed by the font file in the mappings for double-byte platforms. The default push button is **OK**.
 * **TUPDATEREMINDERFORM** – Used when the program checks for updates as if **OnStartupShowUpdateReminder** is enabled. The default push button is **OK**.
