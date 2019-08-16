@@ -1,5 +1,4 @@
-﻿## Information
-The readable font family is based on the works of System VIO fonts from IBM OS/2.
+﻿The readable font family is based on the works of System VIO fonts from IBM OS/2.
 
 ### Encodings with a set numerical string
 | File Name | Description                                |
@@ -135,10 +134,7 @@ The readable font family is based on the works of System VIO fonts from IBM OS/2
 | GANDHARI  | Times Gandhari                                   |
 | GGM       | Gaudiya Grantha Mandira                          |
 | GGM_DOS   | Gaudiya Grantha Mandira (DOS)                    |
-<<<<<<< HEAD
-=======
 | GRETIL    | Ronald Emmerick                                  |
->>>>>>> 199ee50 (Removed middle initial on person's name)
 | HOBOGIR   | Hobogirin                                        |
 | INDOSKR   | IndoSkript                                       |
 | IRTRARHE  | Iranian – Arabic & Hebrew                        |
