@@ -1,6 +1,5 @@
 ## Fonts
 * Central European Starter Kit (1997), by [Fingertip Software](http://www.fingertipsoft.com/index.html), is a pay shareware Windows keyboard which comes with a bitmap font and two TrueType fonts. The fonts are tri-encoded (Unicode, ISO 8859-2 and Windows CE) but have no Apple CE, Windows Baltic or IBM CP852 glyphs.
-* EUROPEAN, by Howard M. Berlin, is a series of pay shareware cannibalistic fonts and keyboards for Windows 3.1 which comes with Arial, Courier and Times-like fonts.
 * LaserLatvian (2011), by Payne Loving Trust, is a commercial font distributed by [Linguist's Software](https://www.linguistsoftware.com/) for use with Latvian localizations of Windows and macOS.
 
 ## Diacritical characters

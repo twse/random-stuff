@@ -1,14 +1,9 @@
 ## Acknowledgements
 Special thanks goes to the following people:
-* Howard M. Berlin, for creating EUROPEAN (pay shareware non-Unicode fonts and keyboard) and Noxchi.
 * Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
-* Arezqi Buzefran, for his Berber fonts. All accented letters in Latin fonts are typed as usual on European French keyboards.
-* Peter Cassetta, for information about Cyrillic character sets.
 * Roman Czyborra, for information about character sets.
-* John Elliott and others, for creating OpenGEM.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
-* Yury Finkel, for writing Esperanta Klavaro. This package replaces an unused codepage.
 * Michael Forgey / [Unitype Inc.](http://www.unitype.com/), for his transliteration fonts intended for the ALA-LC scheme.
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Raymond Hickey, for maintaining Lexa and LinguaFont.
@@ -17,20 +12,14 @@ Special thanks goes to the following people:
 * Andrey V. Kalantarian, for writing VGAFONT.
 * Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
-* Jörg Knappen, for his TeX African Latin encoding.
 * Donald E. Knuth, for writing TeX and his own encodings.
-* Petr I. Kvitek, for writing EVAfont. This DOS font editor includes a keyboard and fonts for Russian language.
-* Klaus Lagally, for writing ArabTeX, a program to write Arabic/Hebrew text with standard scientific transliteration.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
 * [Iván Llanas](http://www.geocities.ws/ivan_llanas), for writing FontEdit II and his font package.
 * Michael J. Mefford, for writing FONTEDIT (PC Magazine).
 * Henrique Peron, for maintaining cpidos and his cpx files.
-* Chris Pirillo, for maintaining his collection of MS-DOS VGA fonts (1995).
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
-* Ulrich Seeger, for designing his fonts in the pre-Unicode-times - HaifaTimes, GalilTimes, Beyrut, UrmiTimes, Abbas, Assur, Pamuk, GalilWin, Bock, Nebe, Sima and Hatra. These fonts are for transcription of Accadic, Arabic, Aramaic, Persian and Turkish and many of them are for Windows and macOS. He's also the author of macOS keyboard driver SemicodeUS.
 * [Uwe Sieber](https://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
 * Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in .dok format and uses the Polish Mazovia encoding.)
-* Dmitry Stefankov, for designing the EGA/VGA Russian Fonts among with his own encoding. It omits many characters not normally needed for Russian.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 * Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
