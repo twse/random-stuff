@@ -41,11 +41,11 @@ Direct modifications can only be done when you're committing and logged in as @g
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
 
 ## Mozilla credits list owners
-| Name               | CVS Access? | GIT Access? | SVN Access? |
-|--------------------|-------------|-------------|-------------|
-| Dawn Endico        | YES         | NO          | NO          |
-| Gervase Markham    | YES         | YES         | YES         |
-| Ram Dayal Vaishnav | NO          | YES         | NO          |
+| Name               | Nickname  | CVS Access? | GIT Access? | SVN Access? |
+|--------------------|-----------|-------------|-------------|-------------|
+| Dawn Endico        | endico    | YES         | NO          | NO          |
+| Gervase Markham    | gerv      | YES         | YES         | YES         |
+| Ram Dayal Vaishnav | gurumukhi | NO          | YES         | NO          |
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
