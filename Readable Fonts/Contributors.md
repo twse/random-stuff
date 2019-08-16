@@ -1,6 +1,5 @@
 ## Acknowledgements
 Special thanks goes to the following people:
-* Ansis Ataols Bērziņš, for writing the Burti program (2003).
 * [Ken Borgendale](http://www.borgendale.com), for information about OS/2 keyboard layouts and codepages.
 * Roman Czyborra, for information about character sets.
 * Michael Everson / [Evertype](http://www.evertype.com), for developing the ISO Latin-8 encoding standard. He also created many fonts (e.g. Rupakara, Everson Mono, CeltScript) and many keyboards and input utilities for macOS in the 90's and 2000's.
@@ -8,9 +7,6 @@ Special thanks goes to the following people:
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Raymond Hickey, for maintaining Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
-* Reinhold Kainhofer, for his Ancient Font package. His Meroitic and Ugaritic transliteration fonts have diacritics in lowercase only and is based on Arial.
-* Andrey V. Kalantarian, for writing VGAFONT.
-* Akira Kamimura, for creating his Mongol transliteration font Gamig.
 * Angelos Karageorgiou, for writing the Greek VGA utilities.
 * Donald E. Knuth, for writing TeX and his own encodings.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
@@ -19,10 +15,8 @@ Special thanks goes to the following people:
 * Henrique Peron, for maintaining cpidos and his cpx files.
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
 * [Uwe Sieber](https://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
-* Sławomir Stachniewicz, for writing PLUTIL, a set of file, font and printer utilities for MS-DOS and TeX. (The docs are also available in .dok format and uses the Polish Mazovia encoding.)
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
 * [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
-* Knut S. Vikør, for his Jaghbub font. The fonts appeared in the author's site but it disappeared.
 
 ## Third-Party Notices
 
@@ -67,14 +61,6 @@ This program is distributed WITHOUT ANY WARRANTY; without even the implied warra
 THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
 This program may be freely distributed on a non profit basis, but you must include all files from the original distribution, and my name since fame is all I am getting out of it !
-
-### Credits for PLUTIL
-Copyright © 1994-1996 Sławomir Stachniewicz
-
-#### Font and keyboard driver authors
-* Andrzej Knapczyk
-* Jan Bobrowski
-* Maciej Guja
 
 ### Credits for TIPKA (Croatian)
 Copyright © 1992-1995 Tomislav Bronzin
