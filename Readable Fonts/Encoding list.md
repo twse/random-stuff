@@ -4,8 +4,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 ### Numbered encodings
 | File Name | Description                   |
 |-----------|-------------------------------|
-| CP30024   | Northern and Eastern Africa   |
-| CP30025   | Western Africa                |
 | CP30034   | Cherokee                      |
 | CP59829   | Georgian                      |
 | CP60853   | Georgian with capital letters |
