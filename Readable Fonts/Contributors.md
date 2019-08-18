@@ -7,7 +7,6 @@ Special thanks goes to the following people:
 * Dov Grobgeld, for creating his TeX math fonts (1992).
 * Raymond Hickey, for maintaining Lexa and LinguaFont.
 * Nobumi Iyanaga, for writing the scripts used to convert East Asian Diacritical Fonts to Unicode for macOS users. As of 2003/02/15, he has not posted any updates.
-* Angelos Karageorgiou, for writing the Greek VGA utilities.
 * Donald E. Knuth, for writing TeX and his own encodings.
 * Tasos Lambrakis, for writing ABCGRL. This TSR uses the IBM Greek encoding by default and can be switched via keyboard shortcuts Alt-1 through Alt-3.
 * [Iván Llanas](http://www.geocities.ws/ivan_llanas), for writing FontEdit II and his font package.
@@ -16,12 +15,8 @@ Special thanks goes to the following people:
 * Aaron Schmiedel (AFS Ltd.), for his set of Hebrew VGA fonts (1992).
 * [Uwe Sieber](https://www.uwe-sieber.de/), for creating the free bitmap fonts DOSFon and NewDOS. He also designed the NewDOS Full-Screen expensive font.
 * [Ulrich Stiehl](http://www.sanskritweb.net) and his Sanskrit Compendium and their URW Palladio fonts transliteration. He created his site in 1999/02. As of 2016/06/30, no updates were posted to Sanskritweb.
-* [Alexander Taylor](http://www.altsan.org) did not design this, and even if he did, he really didn't mean for you to use it in an anarchistic way.
 
 ## Third-Party Notices
-
-### Credits for ASCR
-(C)Copyright Andrey Kogan, 1989-1991
 
 ### Credits for BaTimesAkkad
 The fonts were generated with FontLab Fontographer 4.1.5 on the basis of a Times New Roman fontset © The Monotype Corporation.
