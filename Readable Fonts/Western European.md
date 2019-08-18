@@ -1,6 +1,3 @@
-## Fonts and keyboards
-ICELAND (1991), by Friðrik Skúlason, is a DOS system driver to install an Icelandic font and keyboard which uses the CP 861 encoding.
-
 ## Diacritical characters
 
 ### Aragonese, Catalan, Galician, Spanish
