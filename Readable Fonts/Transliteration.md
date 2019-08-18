@@ -1,8 +1,6 @@
 ## Fonts and keyboards
 [Michael Best / Murari Dasa](http://www.dasya.com/~mbest/freeware/) wrote DiacDos (1993), a collection of TSR programs for writing Classical Sanskrit diacritics on DOS and his screen fonts.
 
-Evyoni Megawriter (1998), by Shemayah ben-Avraham, is a TrueType and PostScript Type 1 font based on Times for use with Semitic languages. Many characters are shown in Arial. Download the font from [here](http://ebionite.tripod.com/fonts.htm).
-
 Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
 
 iitmipa (2004), by IIT Madras, is a transliteration font in TTF, BDF, PFB, HQX or TAB available [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php) and is based on Garamond for use with Indic languages.
