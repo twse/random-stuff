@@ -47,6 +47,8 @@ Direct modifications can only be done when you're committing and logged in as @g
 | Gervase Markham    | gerv      | YES         | YES         | YES         |
 | Ram Dayal Vaishnav | gurumukhi | NO          | YES         | NO          |
 
+**Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the mozilla-i18n and seamonkey newsgroups.
+
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
 
