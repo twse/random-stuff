@@ -9,13 +9,11 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | CP60853   | Georgian with capital letters |
 
 ### Unnumbered encodings
-| File Name | Description                |
-|-----------|----------------------------|
-| LFGRPL    | LinguaFont Polytonic Greek |
-| MACBACYR  | Apple Barents Cyrillic     |
-| TEX-MATH  | TeX Math                   |
-| WAKHI     | Wakhi                      |
-| WNPS      | Washington Puget Salish    |
+| File Name | Description             |
+|-----------|-------------------------|
+| MACBACYR  | Apple Barents Cyrillic  |
+| WAKHI     | Wakhi                   |
+| WNPS      | Washington Puget Salish |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description                           |
