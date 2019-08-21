@@ -3,15 +3,6 @@
 ## For use of DOOM
 DOOM® © 2016 id Software, LLC, a ZeniMax Media company. Bethesda, Bethesda Softworks, ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or other countries. DOOM, id, id Software, id Tech and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries.
 
-### BeOS port contributor
-* Chris Herborth
-
-### OS/2 port contributors
-* Craig Ballantyne
-* Juan José García Ripoll
-* Dimitris Michelinakis
-* Jim Thomas
-
 ## For use of Golden CommPass
 Copyright © 1998 Creative Services Programming Corporation<br />
 Written by Donna S. Finkelstein
@@ -41,8 +32,7 @@ Written by Claude Biron
 Copyright © 1990-2004 Sundial Systems Corporation. All rights reserved.
 
 ## For use of SimCity
-Copyright © 2013 Electronic Arts Inc.<br />
-OS/2 port: Stardock Entertainment
+Copyright © 1994-2013 Electronic Arts Inc.
 
 ## For use of Tensor
 Copyright © 1997 QVision, Inc.
