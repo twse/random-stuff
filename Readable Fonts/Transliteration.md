@@ -3,8 +3,6 @@
 
 Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
 
-iitmipa (2004), by IIT Madras, is a transliteration font in TTF, BDF, PFB, HQX or TAB available [here](http://www.acharya.gen.in:8080/fonts/iitmfonts.php) and is based on Garamond for use with Indic languages.
-
 IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts released under the GPL 2.0 license based on URW fonts. The fonts includes TeX character encodings and keyboards. The lack of box and shade characters in IndUni-C and IndUni-CMono makes it unsuitable for some text mode programs like Midnight Commander. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
 
 Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
@@ -12,8 +10,6 @@ Minion Indologist is an unreleased font derived from Minion with accented letter
 SPAtlantis (1998), by James R. Adair, is a transliteration font for Windows and macOS based on Times for use with Semitic languages. This font comes in two styles – Regular and Italic. Download this font for macOS and Windows from [here](http://rosetta.reltech.org/TC/fonts/). The font cannot be used for regular text.
 
 Transliteration (1998) is a TrueType font derived from Times New Roman Italic from Glyph for Windows for Egyptian transliteration created by the Centre for Computer-aided Egyptological Research, Utrecht University. It relocates some ASCII characters and removes mappings for other symbols.
-
-URW Palladio IS (2003), by Ulrich Stiehl, is a font derived from URW Palladio designed for the IndoSkript Project of the Universities of Berlin and Halle in Germany. This font was created with request from [Harry Falk](http://userpage.fu-berlin.de/~falk/index.htm) and is included with the 2003 IndoSkript CD.
 
 URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
 
