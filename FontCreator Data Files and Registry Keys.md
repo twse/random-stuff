@@ -84,13 +84,13 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **CategoryWidth**
 
 ### Fonts
-* **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components** checkbox in Options: Font. Default is on.
-* **ExportExcludeLegacy** – Used with **Export Font: Exclude legacy data** checkbox in Options: Font. Default is on.
-* **FontEnableOpenContours** – Used with **Special Features: Enable open contours** checkbox in Options: Font. Default is on.
-* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names** checkbox in Options: Font. Default is on.
+* **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components** in Options: Font. Default is on.
+* **ExportExcludeLegacy** – Used with **Export Font: Exclude legacy data** in Options: Font. Default is on.
+* **FontEnableOpenContours** – Used with **Special Features: Enable open contours** in Options: Font. Default is on.
+* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names** in Options: Font. Default is on.
 
 ### FreeDraw
-* **BrushWidth** – Used with **Brush width** option in the Free Draw window.
+* **BrushWidth** – Used with **Brush width** in the Free Draw window.
 
 ### Glyph Edit Window
 * **FilledOutline** – Used with **Fill Outline** in the Grid toolbar.
@@ -103,24 +103,24 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ShowToolbarWindowValidation** – Used with **Show Report** in the Glyph toolbar. Default is off.
 
 ### Grid
-* **FixedGridColor** – Used with **Color** option in Grid Options. Default is pink.
-* **FixedGridLineStyle** – Used with **Line style** option in Grid Options. Default is solid.
-* **GridColor** – Used with **Color** option in Grid Options. Default is pink.
-* **GridDistance** – Used with **Mininum distance between grid points in units** option in Grid Options.
-* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** option in Grid Options.
-* **GridLineStyle** – Used with **Line style** option in Grid Options. Default is solid.
-* **IncludeBaseline** – Used with **Baseline** option in the Metrics Options window.
-* **IncludeLeftSideBearing** – Used with **Left side bearing** option in the Metrics Options window.
-* **IncludeRightSideBearing** – Used with **Right side bearing** option in the Metrics Options window.
-* **IncludeTypoAscender** – Used with **TypoAscender** option in the Metrics Options window.
-* **IncludeTypoDescender** – Used with **TypoDescender** option in the Metrics Options window.
-* **IncludeWinAscent** – Used with **Win Ascent** option in the Metrics Options window.
-* **IncludeWinDescent** – Used with **Win Descent** option in the Metrics Options window.
-* **IncludexHeight** – Used with **x-Height** option in the Metrics Options window.
-* **IncludeYAxis** – Used with **Y-Axis** option in the Metrics Options window.
+* **FixedGridColor** – Used with **Color** in Grid Options. Default is pink.
+* **FixedGridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
+* **GridColor** – Used with **Color** in Grid Options. Default is pink.
+* **GridDistance** – Used with **Mininum distance between grid points in units** in Grid Options.
+* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
+* **GridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
+* **IncludeBaseline** – Used with **Baseline** in the Metrics Options window.
+* **IncludeLeftSideBearing** – Used with **Left side bearing** in the Metrics Options window.
+* **IncludeRightSideBearing** – Used with **Right side bearing** in the Metrics Options window.
+* **IncludeTypoAscender** – Used with **TypoAscender** in the Metrics Options window.
+* **IncludeTypoDescender** – Used with **TypoDescender** in the Metrics Options window.
+* **IncludeWinAscent** – Used with **Win Ascent** in the Metrics Options window.
+* **IncludeWinDescent** – Used with **Win Descent** in the Metrics Options window.
+* **IncludexHeight** – Used with **x-Height** in the Metrics Options window.
+* **IncludeYAxis** – Used with **Y-Axis** in the Metrics Options window.
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar.
 * **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar.
-* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** option in Grid Options.
+* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in Grid Options.
 * **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar.
 * **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is running, the checkbox in the Guidelines Options window will read the ampersand.
 * **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar.
@@ -130,31 +130,31 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **UpdateCheckInterval** – Used when **OnStartupShowUpdateReminder** is enabled.
 
 ### GuideLines
-* **Color** – Used with **Color** option in Guideline Options. Default is black.
+* **Color** – Used with **Color** in Guideline Options. Default is black.
 * **LineStyle** – Used with **Line style** options in Guideline Options. Default is solid.
 
 ### ImportImage
 * **BitmapPositionOrigin** – Used with radio buttons in the Glyph: Position option. (Available in Import Image)
 * **BitmapPositionType** – Set the Bitmap Position Type.
-* **Erode** – Used with **Erode – Dilate** option in the Image tab. Default is No filter. (Available in Import Image)
-* **GlyphPositionX** – Used with **Position: X position** option in the Glyph tab. (Available in Import Image)
-* **GlyphPositionY** – Used with **Position: Y position** option in the Glyph tab. (Available in Import Image)
-* **ImportMode** – Used with **Import Mode** option in the Glyph tab. Default is Trace. (Available in Import Image)
-* **InvertBitmap** – Used with **Negative** option in the Image tab. Default is off. (Available in Import Image)
+* **Erode** – Used with **Erode – Dilate** in the Image tab. Default is No filter. (Available in Import Image)
+* **GlyphPositionX** – Used with **Position: X position** in the Glyph tab. (Available in Import Image)
+* **GlyphPositionY** – Used with **Position: Y position** in the Glyph tab. (Available in Import Image)
+* **ImportMode** – Used with **Import Mode** in the Glyph tab. Default is Trace. (Available in Import Image)
+* **InvertBitmap** – Used with **Negative** in the Image tab. Default is off. (Available in Import Image)
 * **MinimumPointsInContour** – Set the number of Minimum Points in the contour.
-* **Multiplier** – Used with **Size: Multiplier** option in the Image tab. (Available in Import Image)
-* **SmoothFilter** – Used with **Smooth Filter** option in the Image tab. Default is Smooth. (Available in Import Image)
-* **Threshold** – Used with **Threshold** option in the Image tab. Default is 150. (Available in Import Image)
+* **Multiplier** – Used with **Size: Multiplier** in the Image tab. (Available in Import Image)
+* **SmoothFilter** – Used with **Smooth Filter** in the Image tab. Default is Smooth. (Available in Import Image)
+* **Threshold** – Used with **Threshold** in the Image tab. Default is 150. (Available in Import Image)
 
 ### Install
-* **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
+* **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder** in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### InstalledFonts
 * **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
 
 ### Interface
-* **LockToolbars** – Used with **Lock Docked Toolbars** option in the toolbar context menu or in View: Toolbars. Default is off.
-* **ShowUserNotes** – Used with **Show User Notes** option in the toolbar context menu or in View: Toolbars. Default is off.
+* **LockToolbars** – Used with **Lock Docked Toolbars** in the toolbar context menu or in View: Toolbars. Default is off.
+* **ShowUserNotes** – Used with **Show User Notes** in the toolbar context menu or in View: Toolbars. Default is off.
 
 ### Interface Settings
 * **ChildWindowState**
@@ -190,33 +190,33 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OverviewColCat**
 * **OverviewFontZoom**
 * **OverviewGridZoom**
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** option in the View tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
-* **OverviewShowCaption** – Used with **Font overview: Show caption** option in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** option in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewSingleHeight** – Used with **Font overview: Glyph height** option in the Overview tab. Default is 48. (Available in the Options window)
-* **OverviewSingleWidth** – Used with **Font overview: Glyph width** option in the Overview tab. Default is 70. (Available in the Options window)
-* **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** option in the Overview tab. (Available in the Options window)
-* **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** option in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** option in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** option in the Font tab. If enabled, glyph captions are shown in different colors. If disabled, glyph captions are shown in black. (Available in the Options window)
-* **SampleFileName** – Used with **Samples Toolbar Font: Filename** option in the General tab. Default is blank.
-* **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** option in the Sample tab. Default is 55. (Available in the Options window)
-* **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** option in the Sample tab. Default is 62. (Available in the Options window)
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. Empty strings will display all glyphs using **MS Sans Serif** with the glyphs shifted to other position. (Available in the Options window)
+* **OverviewShowCaption** – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
+* **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
+* **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
+* **OverviewSingleWidth** – Used with **Font overview: Glyph width** in the Overview tab. Default is 70. (Available in the Options window)
+* **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in the Overview tab. (Available in the Options window)
+* **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in the Edit tab. Default is 1. (Available in the Options window)
+* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is 1. (Available in the Options window)
+* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. If enabled, glyph captions are shown in different colors. If disabled, glyph captions are shown in black. (Available in the Options window)
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
+* **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
+* **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
 * **SelectCompositeCaptionType**
 * **SelectCompositeFontZoom**
 * **SelectCompositeGridZoom**
 * **SettingsPage** – Select the tab used in the Settings dialog.
 
 ### Kerning
-* **AutoKerningAllowForPositiveKerningValues** – Used with **Additional Options: Allow for positive kerning values** option in the AutoKern window.
-* **AutoKerningExcludeLowerLower** – Used with **Exclude lowercase-lowercase pairs** option in the AutoKern window.
-* **AutoKerningExcludeLowerUpper** – Used with **Exclude lowercase-uppercase pairs** option in the AutoKern window.
-* **AutoKerningUseBaseMetrics** – Used with **Composite glyphs follow base glyphs (use this glyph's metrics)** option in the Kern Wizard in OpenType Designer. Default is on.
+* **AutoKerningAllowForPositiveKerningValues** – Used with **Additional Options: Allow for positive kerning values** in the AutoKern window.
+* **AutoKerningExcludeLowerLower** – Used with **Exclude lowercase-lowercase pairs** in the AutoKern window.
+* **AutoKerningExcludeLowerUpper** – Used with **Exclude lowercase-uppercase pairs** in the AutoKern window.
+* **AutoKerningUseBaseMetrics** – Used with **Composite glyphs follow base glyphs (use this glyph's metrics)** in the Kern Wizard in OpenType Designer. Default is on.
 * **AutoKerningImportFilename** – Used with disabled text box with the filename string.
-* **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** option in the AutoKern window.
+* **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** in the AutoKern window.
 * **AutoKerningReplaceKerning** – Used with **Additional Options: Replace existing kerning when** dropdown box in the AutoKern window.
 * **AutoKerningReplacePercentage** – Used with **Additional Options: Replace existing kerning when** slider in the AutoKern window.
-* **AutoKerningWhiteSpace** – Used with **Additional Options: White space between characters** option in the AutoKern window.
+* **AutoKerningWhiteSpace** – Used with **Additional Options: White space between characters** in the AutoKern window.
 * **KerningColorBackground** – Select the color used for the background. Default is white.
 * **KerningColorBaseline** – Select the color used for the baseline. Default is red.
 * **KerningColorFirst** – Select the color used for the left glyph. Default is dark blue.
@@ -230,16 +230,16 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **File_#** – Include fonts you use for the last time whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
 
 ### Metrics
-* **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)** option in the Automatic Metrics Wizard.
-* **AutoMetricsFixedAW** – Used with **Fixed: Change Advance Width** spinner in the Automatic Metrics Wizard.
-* **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width** option in the Automatic Metrics Wizard.
-* **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing** option in the Automatic Metrics Wizard.
+* **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)** in the Automatic Metrics Wizard.
+* **AutoMetricsFixedAW** – Used with **Fixed: Change Advance Width** in the Automatic Metrics Wizard.
+* **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width** in the Automatic Metrics Wizard.
+* **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing** in the Automatic Metrics Wizard.
 * **AutoMetricsFixedLSB** – Used with **Fixed: Change Left Side Bearing** spinner in the Automatic Metrics Wizard.
 * **AutoMetricsOpticalFactor** – Used with **Glyph spacing factor** in the Automatic Metrics Wizard. Default is 27.
 * **AutoMetricsOpticalPreview** – Used with **Preview Text** in the Automatic Metrics Wizard. Default is Preview Text.
 * **AutoMetricsOptionIndex** – Used with radio buttons in the Automatic Metrics Wizard.
-* **AutoMetricsWhiteSpaceAfter** – Used with **Calculated: White space after characters** option in the Automatic Metrics Wizard.
-* **AutoMetricsWhiteSpaceBefore** – Used with **Calculated: White space before characters** option in the Automatic Metrics Wizard.
+* **AutoMetricsWhiteSpaceAfter** – Used with **Calculated: White space after characters** in the Automatic Metrics Wizard.
+* **AutoMetricsWhiteSpaceBefore** – Used with **Calculated: White space before characters** in the Automatic Metrics Wizard.
 
 ### MetricsAndKerning
 * **MetricsAndKerningKerningEnabled** – Used by **OpenType Layout Features** in the Comparison toolbar. Default is off.
@@ -264,55 +264,55 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ZoomFactor**
 
 ### Options
-* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** option in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
-* **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** option in Options: Glyph. Default is on.
-* **AutoNamingUseFontRevision** – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** option in Options: Naming. Default is on.
-* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** option in the Font tab. (Available in the Options window)
-* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** option in the Font tab. (Available in the Options window)
-* **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright** checkbox in Options: Personalize. Default is on.
-* **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** option in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
-* **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** checkbox in Options: Personalize.
-* **DefaultNamingFontDesignerLinkIncluded**
-* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** option in Options: Personalize.
-* **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** option in Options: Personalize. Default is empty.
-* **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** checkbox in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** checkbox in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** option in Options: Personalize.
-* **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** option in Options: Personalize. Default is empty.
-* **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** checkbox in Options: Personalize.
-* **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** option in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**.
-* **DefaultPersFontEmbeddingItemID** – Used with **Default Settings for New Fonts: Embedding Lic. Rights** option in Options: Personalize.
-* **DefaultPersVendorIDText** – Used with **Default Settings for New Fonts: Vendor ID** option in Options: Personalize. Default is **HL**.
-* **DefaultPersVendorText** – Used with **Default Settings for New Fonts: Vendor** option in Options: Personalize. Default is **High-Logic / Made with FontCreator**.
-* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** option in Options: Personalize. No default value.
-* **DefaultVendorIDIncluded** – Used with **Default Settings for New Fonts: Vendor ID** checkbox in Options: Personalize. Default is on.
-* **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** checkbox in Options: Personalize. Default is off.
-* **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** checkbox in Options: Personalize. Default is off.
-* **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** option in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** option in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** option in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** option in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
+* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
+* **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in Options: Glyph. Default is on.
+* **AutoNamingUseFontRevision** – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in Options: Naming. Default is on.
+* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. (Available in the Options window)
+* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab. (Available in the Options window)
+* **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright** in Options: Personalize. Default is on.
+* **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
+* **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
+* **DefaultNamingFontDesignerLinkIncluded** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
+* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
+* **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize. Default is empty.
+* **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize.
+* **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
+* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
+* **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize. Default is empty.
+* **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize.
+* **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**.
+* **DefaultPersFontEmbeddingItemID** – Used with **Default Settings for New Fonts: Embedding Lic. Rights** in Options: Personalize.
+* **DefaultPersVendorIDText** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is **HL**.
+* **DefaultPersVendorText** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is **High-Logic / Made with FontCreator**.
+* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. No default value.
+* **DefaultVendorIDIncluded** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is on.
+* **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
+* **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
+* **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
 * **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
-* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** option in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** option in the Font tab. (Available in the Options window)
-* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** option in the General tab. Default is on. (Available in the Options window)
-* **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** option in the General tab. Default is Once a year. (Available in the Options window)
-* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** option in the General tab. Default is on. (Available in the Options window)
-* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** option in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** option in the Font tab. (Available in the Options window)
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** option in the Font tab. (Available in the Options window)
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** option in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** option in the Font tab. (Available in the Options window)
-* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** option in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
-* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** option in the Font Properties: Identification tab. Default is on.
-* **ValueHexadecimal** – Used with **Values: Hexadecimal** option in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
-* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** option in the Options: Import tab.
-* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** option in the Options: Import tab.
-* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** option in the Options: Import tab.
-* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** option in the Options: Import tab.
+* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. (Available in the Options window)
+* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
+* **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** in the General tab. Default is Once a year. (Available in the Options window)
+* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
+* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. (Available in the Options window)
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. (Available in the Options window)
+* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. (Available in the Options window)
+* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
+* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
+* **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
+* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in the Options: Import tab.
+* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in the Options: Import tab.
+* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in the Options: Import tab.
+* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in the Options: Import tab.
 
 ### Preview
 * **FeaturesWidth**
@@ -338,10 +338,10 @@ The program is started in unregistered mode after installation or if this key is
 * **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** option in Settings: Validation.
-* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. on-curve dist.** option in Settings: Validation.
+* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** in Settings: Validation.
+* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. on-curve dist.** in Settings: Validation.
 * **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
-* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** option in Settings: Validation.
+* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Settings: Validation.
 * **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Max. off-curve dist.** spinner in Settings: Validation.
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Max. on-curve dist.** spinner in Settings: Validation.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
@@ -356,9 +356,9 @@ The program is started in unregistered mode after installation or if this key is
 * **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard.
 * **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
 * **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
-* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** option in Settings: Validation.
-* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** option in Settings: Validation.
-* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** option in Settings: Validation.
+* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation.
+* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation.
+* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation.
 
 ### Warn – Default is on for all options
 * **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** in the Advanced tab.
