@@ -34,7 +34,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they must first take ownership to the users group using the security tab in the file properties.
+FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they must first take full control to the user (this can be done with the security tab in file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
@@ -500,7 +500,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after the trial period is exceeded. (Only in old versions)
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font. The default push button is **OK**.
 * **TSPLASHFORM** – Displays this form on startup when the Reg key is not found. The three buttons at the bottom are displayed in random order. If the trial period is exceeded, when starting the program five times it displays a random paragraph.
-* **TTIPOFTHEDAYFORM** – Used in version 1.0 until 6.0 and also for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register**. If removed when not registered, it displays the "Access Violation". See the FontCreator: Tips and Tricks forum in the High-Logic font forum for more details.
+* **TTIPOFTHEDAYFORM** – Used in version 1.0 until 6.0 and also for newcomers and also in **Help: Tip of the Day**. FontCreator.tip will be used to display tips. On unregistered copies is a button labeled **Register**. If removed when not registered, it displays the "Access Violation". See FontCreator: Tips and Tricks in the High-Logic font forum for more details.
 * **TTRANSFORMFORM** – For simple glyphs only. The default push button is **Apply**.
 * **TUNICODERANGEFORM** – Used when specifying the Unicode blocks or ranges encompassed by the font file in the mappings for double-byte platforms. The default push button is **OK**.
 * **TUPDATEREMINDERFORM** – Used when the program checks for updates as if **OnStartupShowUpdateReminder** is enabled. The default push button is **OK**.
