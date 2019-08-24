@@ -49,6 +49,8 @@ Direct modifications can only be done when you're committing and logged in as @g
 
 **Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the mozilla-i18n and seamonkey newsgroups.
 
+**P.S.** @gurumukhi will close any pull request for additions, deletions or modifications to the Mozilla credits list that are not done via the Google form or by replying to the application message with a comment. The comment can be reacted by anyone but to delete it, you have to login as the last entry.
+
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
 
