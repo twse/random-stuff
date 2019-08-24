@@ -22,7 +22,7 @@ Direct modifications can only be done when you're committing and logged in as @g
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but not the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -30,15 +30,15 @@ You won't receive any emails when your name is added - this will only see your n
 2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
 4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
-2. Add your name at the end or use `echo name >> names.csv`.
+2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
 4. Commit directly to the master branch but do not create a pull request.
-5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear straight away with the last updated date being changed.
+5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
 | Name               | Nickname  | CVS Access? | GIT Access? | SVN Access? |
@@ -47,9 +47,9 @@ Direct modifications can only be done when you're committing and logged in as @g
 | Gervase Markham    | gerv      | YES         | YES         | YES         |
 | Ram Dayal Vaishnav | gurumukhi | NO          | YES         | NO          |
 
-**Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the mozilla-i18n and seamonkey newsgroups.
+**Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** @gurumukhi will close any pull request for additions, deletions or modifications to the Mozilla credits list that are not done via the Google form or by replying to the application message with a comment. The comment can be reacted by anyone but to delete it, you have to login as the last entry.
+**P.S.** @gurumukhi will close any pull request for any modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as @gurumukhi. Also, reopening and merging can only be done when logged in as @gurumukhi.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -70,7 +70,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 * **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
 
 ## Pixel fonts (ordinary Unicode)
-* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
+* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -84,7 +84,7 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Requires Internet Explorer 7 & above for proper display.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in `notConnectedTasks` will display it and changing the title also does it.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in `notConnectedTasks` will display it and changing the title to `You're not connected` also does it.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
