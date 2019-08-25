@@ -286,7 +286,7 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | left half ring  | Alt-251 |
 | right half ring | Alt-252 |
 
-### Minion Indologist codes - Avestan
+### Minion Indologist codes – Avestan
 | Glyph              | Codes   |
 |--------------------|---------|
 | a ring             | Alt-158 |
@@ -313,7 +313,7 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | y dot above        | Alt-249 |
 | z caron            | Alt-250 |
 
-### Minion Indologist codes - Classical Sanskrit/Pali
+### Minion Indologist codes – Classical Sanskrit/Pali
 | Glyph              | Codes   |
 |--------------------|---------|
 | A macron           | Alt-128 |
@@ -352,7 +352,7 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | t dot below        | Alt-233 |
 | u macron           | Alt-241 |
 
-### Minion Indologist codes - Vedic Sanskrit
+### Minion Indologist codes – Vedic Sanskrit
 | Glyph                    | Codes   |
 |--------------------------|---------|
 | a grave                  | Alt-153 |
@@ -383,7 +383,7 @@ Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Un
 | u macron grave           | Alt-243 |
 | u macron acute           | Alt-242 |
 
-### Minion Indologist codes - Extended Indic diacritics (Sanskrit, Pali, Tamil, Sinhala and other) and more
+### Minion Indologist codes – Extended Indic diacritics (Sanskrit, Pali, Tamil, Sinhala and other) and more
 | Glyph                    | Codes   |
 |--------------------------|---------|
 | A dieresis               | Alt-129 |
