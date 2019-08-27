@@ -2,7 +2,7 @@
 This repository contains my random stuff.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added with the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine (see Contributors.md for authors of programs, copyright notices and licenses).
+* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
 * **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
@@ -17,8 +17,8 @@ You won't receive any emails when your name is added - this will only see the me
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Bulk adding names to Mozilla credits list using GitHub's web user interface
-Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see the message in the logs.
-1. Go over to the credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
+Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
+1. Go over to the `mozilla/community-data` repository and credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but not the default commit message: Update **filename**.
 4. Commit directly to the master branch but do not create a pull request.
@@ -33,7 +33,7 @@ You won't receive any emails when your name is added - this will only see your n
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Adding one name to Mozilla credits list using GitHub's web user interface
-Direct modifications can only be done when you're committing and logged in as @gurumukhi. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
+Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
@@ -49,7 +49,7 @@ Direct modifications can only be done when you're committing and logged in as @g
 
 **Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** @gurumukhi will close any pull request for any modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as @gurumukhi. Also, reopening and merging can only be done when logged in as @gurumukhi.
+**P.S.** @gurumukhi will close any pull request for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as @gurumukhi. Also, reopening and merging can only be done when logged in as @gurumukhi.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -84,7 +84,7 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Requires Internet Explorer 7 & above for proper display.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Removing the style parameter in `notConnectedTasks` will display it and changing the title to `You're not connected` also does it.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. The style parameter in `notConnectedTasks` can be removed and the title can be changed to `You're not connected` to have the page look like when not connected to the internet.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
