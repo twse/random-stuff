@@ -7,10 +7,6 @@ IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration
 
 Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
 
-URW Palladio KUL (2002) and URW Palladio M (2002), by Ulrich Stiehl, are fonts derived from URW Palladio and designed for use with Catholic University of Lublin, Poland. This font relocates capital Z acute to code 190 to comply with Adobe Standard Encoding. This font is designed for the German-Polish Friendship Fonts project.
-
-Michael Witzel (Harvard University) modified the Original Garamond font in 1996 by naming it **Nina** and adding transliteration glyphs used for Malayalam, Pali, Prakrit, Classical/Vedic Sanskrit and Tamil.
-
 Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Unicode. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
 
 ### ALA-LC transliteration font codes
