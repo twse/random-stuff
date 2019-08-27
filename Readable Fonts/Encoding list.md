@@ -20,7 +20,6 @@ The readable font family is based on the System VIO font from IBM OS/2.
 |-----------|--------------------------|
 | ALALCT1   | ALA-LC Transliteration 1 |
 | ALALCT2   | ALA-LC Transliteration 2 |
-| ITIMESSK  | ITimesSkRom              |
 | KASHMIRI  | Kashmiri                 |
 | MININD    | Minion Indologist        |
 

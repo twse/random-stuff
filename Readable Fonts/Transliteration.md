@@ -3,11 +3,7 @@
 
 Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
 
-IndUni (2010), by John D. Smith, is a set of OpenType PostScript transliteration fonts released under the GPL 2.0 license based on URW fonts. The fonts includes TeX character encodings and keyboards. The lack of box and shade characters in IndUni-C and IndUni-CMono makes it unsuitable for some text mode programs like Midnight Commander. Download the fonts from [here](http://bombay.indology.info/software/fonts/induni/index.html).
-
 Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
-
-Chandra Yenco created a set of Pali fonts and Phil Thompson converted them to Unicode. Download the fonts from [here](http://buddhanet.net/ftp_pali.htm).
 
 ### ALA-LC transliteration font codes
 | Glyph               | First           | Second          |
