@@ -13,7 +13,7 @@
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
-* Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
+* Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and when exporting kerning pairs, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 As FontCreator is released as pay shareware, the unregistered version works for 30 days with the following limitations based on the version number.
@@ -162,7 +162,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **CustomNamingShowOutputContent**
 * **GlyphCaptionAuto** – Used with **Captions: Automatic** in the right-click context menu of font overview.
 * **GlyphCaptionType2** – Used with the Captions options in the right-click context menu of font overview.
-* **GlyphDrawMode**
+* **GlyphDrawMode** – Select the mode to draw contours on each glyph.
 * **GlyphFillAlpha** – Used with **Fill Outline** in the View menu.
 * **GlyphNamesHistoryReplace** – Contains the history of replaced postscript names.
 * **GlyphNamesHistorySearch** – Contains the history of found postscript names.
@@ -261,7 +261,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SimpleWidth**
 * **SingleWidth**
 * **TreeWidth**
-* **ZoomFactor**
+* **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
 
 ### Options
 * **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
@@ -317,7 +317,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### Preview
 * **FeaturesWidth**
 * **FeatureTags** – No default value.
-* **PreviewFeatures**
+* **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Used with size in the Test Font window.
 * **PreviewSampleFontSize** – Used with size in the Preview window.
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
