@@ -1,4 +1,4 @@
-﻿## Notes
+## Notes
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
 * All versions allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -40,7 +40,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
 * **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
-* **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See previewtext.dat in recent versions)
+* **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
 * **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
@@ -50,8 +50,8 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
-* **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for different languages.
-* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changes the extension to txt and adds another file named `TableOffsetOrderCFF.`
+* **SubFamily.dat** or **SubFamily2.dat** – Includes multilanguage naming fields.
+* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changes the extension to txt and adds another file named `TableOffsetOrderCFF`.
 * **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -335,7 +335,7 @@ The program is started in unregistered mode after installation or if this key is
 
 ### Tip of the Day (version 3.0 until 6.0)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
-* **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
+* **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start FontCreator** in the **Tip of the Day** window.
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** in Settings: Validation.
@@ -451,7 +451,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
-* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form when trying to save/test/install fonts or extract TrueType font collections or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
+* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form used for reduced functionality mode or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
 * **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
@@ -463,7 +463,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports ASCII characters while others are printed with a system font.
+* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Version 3.0 through 6.0 only prints ASCII characters in the current font.
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
