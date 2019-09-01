@@ -34,7 +34,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by administrators where they cannot be changed. If you want to edit most files directly they must first take full control to users (this can be done with the advanced dialog of security tab in file properties).
+FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by administrators where they cannot be changed. If you want to edit most files directly they must first take full control to users (this can be done by changing the owner and permissions with the advanced dialog of security tab in file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
@@ -51,7 +51,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for different languages.
-* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changed the file extension to txt and added another file named TableOffsetOrderCFF.
+* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changes the extension to txt and adds another file named `TableOffsetOrderCFF.`
 * **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -180,12 +180,12 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
 * **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
 * **OptionsPage** – Select the tab used in the Options dialog.
-* **OTLFDesignerCollapsedFeatures**
-* **OTLFDesignerCollapsedLookups**
-* **OTLFDesignerCollapsedScripts**
-* **OTLFDesignerPreviewLanguage** – Select the language used for the preview text in the OpenType layout designer.
-* **OTLFDesignerPreviewSampleText** – Select the sample text used for the preview text in the OpenType layout designer.
-* **OTLFDesignerPreviewScript** – Select the script used for the preview text in the OpenType layout designer.
+* **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
+* **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
+* **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
+* **OTLFDesignerPreviewLanguage** – Select the language used for the preview text in the OpenType Designer.
+* **OTLFDesignerPreviewSampleText** – Select the sample text used for the preview text in the OpenType Designer.
+* **OTLFDesignerPreviewScript** – Select the script used for the preview text in the OpenType Designer.
 * **OTLFEditor**
 * **OverviewColCat**
 * **OverviewFontZoom**
@@ -254,13 +254,13 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
 * **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window.
 * **LayoutMode**
-* **MarkWidth**
-* **PairWidth**
+* **MarkWidth** – Select the mark width used in the OpenType Designer.
+* **PairWidth** – Select the pair width used in the OpenType Designer.
 * **PreviewHeight** – Used with preview text height in the OpenType Designer.
 * **PreviewSampleFontSize** – Used with preview sample font size in the OpenType Designer.
 * **SimpleWidth**
 * **SingleWidth**
-* **TreeWidth**
+* **TreeWidth** – Select the tree width used in the OpenType Designer.
 * **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
 
 ### Options
