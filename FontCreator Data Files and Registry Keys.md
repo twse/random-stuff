@@ -81,7 +81,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **TabIndex** – This corresponds to any tab in the Find dialog.
 
 ### FontOverview
-* **CategoryWidth**
+* **CategoryWidth** – Select the width used for categories in the font overview.
 
 ### Fonts
 * **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components** in Options: Font. Default is on.
