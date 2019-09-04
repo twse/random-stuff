@@ -34,7 +34,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by administrators where they cannot be changed. If you want to edit most files directly they must first take full control to users (this can be done by changing the owner and permissions with the advanced dialog of security tab in file properties).
+FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by administrators where they cannot be changed. If you want to edit most files directly they either must run Notepad with administrative privileges or change the owner to users (this can be done by using the `takeown` program or changing the owner and permissions with the advanced dialog of security tab in file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
