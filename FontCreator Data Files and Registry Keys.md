@@ -34,14 +34,14 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by administrators where they cannot be changed. If you want to edit most files directly they either must run Notepad with administrative privileges or change the owner to users (this can be done by using the `takeown` program or changing the owner and permissions with the advanced dialog of security tab in file properties).
+FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by administrators where they cannot be changed. If you want to edit most files directly they either must run Notepad with administrative privileges or change the owner to users (this can be done by using `takeown` or changing the owner with the advanced dialog of security tab in file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
 * **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
-* **fntXX.tmp** – Used when saving fonts (XX is a letter and number combo).
+* **fntXX.tmp** or **fntXXX.tmp** – Used when saving fonts (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
@@ -110,8 +110,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
 * **GridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
 * **IncludeBaseline** – Used with **Baseline** in the Metrics Options window.
-* **IncludeLeftSideBearing** – Used with **Left side bearing** in the Metrics Options window.
-* **IncludeRightSideBearing** – Used with **Right side bearing** in the Metrics Options window.
+* **IncludeLeftSideBearing** – Used with **Left side bearing** in the Metrics Options window. Default is on.
+* **IncludeRightSideBearing** – Used with **Right side bearing** in the Metrics Options window. Default is on.
 * **IncludeTypoAscender** – Used with **TypoAscender** in the Metrics Options window.
 * **IncludeTypoDescender** – Used with **TypoDescender** in the Metrics Options window.
 * **IncludeWinAscent** – Used with **Win Ascent** in the Metrics Options window.
@@ -264,7 +264,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
 
 ### Options
-* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving.
+* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving. Default is off.
 * **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in Options: Glyph. Default is on.
 * **AutoNamingUseFontRevision** – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in Options: Naming. Default is on.
 * **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. (Available in the Options window)
@@ -305,7 +305,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
 * **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. (Available in the Options window)
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. Default is on. (Available in the Options window)
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
 * **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
@@ -318,13 +318,13 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **FeaturesWidth**
 * **FeatureTags** – No default value.
 * **PreviewFeatures** – Select the features used in the preview text.
-* **PreviewFontSize** – Used with size in the Test Font window.
+* **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Used with size in the Preview window.
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
 * **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
-* **ShowToolbarWindowPreview** – Default is on.
-* **StrikeThrough** – Used for **Strikeout** in the Test Font window.
-* **Underline** – Used for **Underline** in the Test Font window.
+* **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
+* **StrikeThrough** – Used for **Strikeout** in the Test Font window. Default is off.
+* **Underline** – Used for **Underline** in the Test Font window. Default is off.
 
 ### Reg
 The program is started in unregistered mode after installation or if this key is removed.
