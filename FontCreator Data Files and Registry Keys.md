@@ -99,32 +99,32 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ShowToolbarWindowBackground** – Enables or disables the Background Image toolbar. Default is off.
 * **ShowToolbarWindowKerning** – Enables or disables the kerning window. Default is off.
 * **ShowToolbarWindowPalette** – Used with **Palette** in the toolbar right click context menu.
-* **ShowToolbarWindowTransformation** – Used with **Transformation** in the toolbar right click context menu.
+* **ShowToolbarWindowTransformation** – Used with **Transformation** in the toolbar right click context menu. Default is on.
 * **ShowToolbarWindowValidation** – Used with **Show Report** in the Glyph toolbar. Default is off.
 
 ### Grid
-* **FixedGridColor** – Used with **Color** in Grid Options. Default is pink.
+* **FixedGridColor** – Used with **Color** in Grid Options. Default is white.
 * **FixedGridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
-* **GridColor** – Used with **Color** in Grid Options. Default is pink.
+* **GridColor** – Used with **Color** in Grid Options. Default is sky blue.
 * **GridDistance** – Used with **Mininum distance between grid points in units** in Grid Options.
 * **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
 * **GridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
-* **IncludeBaseline** – Used with **Baseline** in the Metrics Options window.
+* **IncludeBaseline** – Used with **Baseline** in the Metrics Options window. Default is on.
 * **IncludeLeftSideBearing** – Used with **Left side bearing** in the Metrics Options window. Default is on.
 * **IncludeRightSideBearing** – Used with **Right side bearing** in the Metrics Options window. Default is on.
-* **IncludeTypoAscender** – Used with **TypoAscender** in the Metrics Options window.
-* **IncludeTypoDescender** – Used with **TypoDescender** in the Metrics Options window.
-* **IncludeWinAscent** – Used with **Win Ascent** in the Metrics Options window.
-* **IncludeWinDescent** – Used with **Win Descent** in the Metrics Options window.
-* **IncludexHeight** – Used with **x-Height** in the Metrics Options window.
-* **IncludeYAxis** – Used with **Y-Axis** in the Metrics Options window.
-* **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar.
-* **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar.
+* **IncludeTypoAscender** – Used with **TypoAscender** in the Metrics Options window. Default is off.
+* **IncludeTypoDescender** – Used with **TypoDescender** in the Metrics Options window. Default is off.
+* **IncludeWinAscent** – Used with **Win Ascent** in the Metrics Options window. Default is on.
+* **IncludeWinDescent** – Used with **Win Descent** in the Metrics Options window. Default is on.
+* **IncludexHeight** – Used with **x-Height** in the Metrics Options window. Default is on.
+* **IncludeYAxis** – Used with **Y-Axis** in the Metrics Options window. Default is on.
+* **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar. Default is off.
+* **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar. Default is on.
 * **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in Grid Options.
-* **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar.
-* **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is running, the checkbox in the Guidelines Options window will read the ampersand.
-* **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar.
-* **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar.
+* **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar. Default is on.
+* **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. If Microsoft Narrator is running, the checkbox in the Guidelines Options window will read the ampersand. Default is on.
+* **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar. Default is off.
+* **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
 * **UpdateCheckInterval** – Used when **OnStartupShowUpdateReminder** is enabled.
@@ -264,11 +264,11 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
 
 ### Options
-* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving. Default is off.
+* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. Default is off.
 * **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in Options: Glyph. Default is on.
 * **AutoNamingUseFontRevision** – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in Options: Naming. Default is on.
-* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. (Available in the Options window)
-* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab. (Available in the Options window)
+* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. Default is on. (Available in the Options window)
+* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab. Default is on. (Available in the Options window)
 * **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright** in Options: Personalize. Default is on.
 * **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
@@ -289,22 +289,22 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
 * **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
-* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. (Available in the Options window)
+* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
 * **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** in the General tab. Default is Once a year. (Available in the Options window)
 * **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. (Available in the Options window)
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. (Available in the Options window)
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. Default is on. (Available in the Options window)
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. Default is off. (Available in the Options window)
+* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Default is off. (Available in version 5.5 through 6.5 only)
+* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
+* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
+* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. Default is on. (Available in the Options window)
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
