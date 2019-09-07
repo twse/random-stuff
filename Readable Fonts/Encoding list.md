@@ -9,11 +9,9 @@ The readable font family is based on the System VIO font from IBM OS/2.
 | CP60853   | Georgian with capital letters |
 
 ### Unnumbered encodings
-| File Name | Description             |
-|-----------|-------------------------|
-| MACBACYR  | Apple Barents Cyrillic  |
-| WAKHI     | Wakhi                   |
-| WNPS      | Washington Puget Salish |
+| File Name | Description |
+|-----------|-------------|
+| WAKHI     | Wakhi       |
 
 ### Transcription/Transliteration Font Encodings
 | File Name | Description              |
