@@ -2,11 +2,11 @@
 This repository contains my random stuff.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added with the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
+* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
 * **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
 * **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
-## Bulk adding names to Mozilla credits list using command line
+## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
@@ -16,7 +16,7 @@ You won't receive any emails when your name is added - this will only see the me
 6. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
-## Bulk adding names to Mozilla credits list using GitHub's web user interface
+## Manually bulk-adding names to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Go over to the `mozilla/community-data` repository and credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
@@ -24,7 +24,7 @@ Direct modifications can only be done when you're committing and logged in as @g
 4. Commit directly to the master branch but do not create a pull request.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear with the last updated date being changed.
 
-## Adding one name to Mozilla credits list using command line
+## Manually adding a name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
@@ -32,7 +32,7 @@ You won't receive any emails when your name is added - this will only see your n
 4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
-## Adding one name to Mozilla credits list using GitHub's web user interface
+## Manually adding a name to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
@@ -41,15 +41,17 @@ Direct modifications can only be done when you're committing and logged in as @g
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
-| Name               | Nickname  | CVS Access? | GIT Access? | SVN Access? |
-|--------------------|-----------|-------------|-------------|-------------|
-| Dawn Endico        | endico    | YES         | NO          | NO          |
-| Gervase Markham    | gerv      | YES         | YES         | YES         |
-| Ram Dayal Vaishnav | gurumukhi | NO          | YES         | NO          |
+| Name               | Nickname  | Years active | CVS/GIT/SVN Access? |
+|--------------------|-----------|--------------|---------------------|
+| Dawn Endico        | endico    | 1999-2003    | CVS only            |
+| Gervase Markham    | gerv      | 2004-2017    | CVS/GIT/SVN         |
+| Ram Dayal Vaishnav | gurumukhi | 2017-present | GIT only            |
 
 **Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** The last entry in this list will close any pull request for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as the last entry. Same goes for reopening and merging.
+**P.S.** Gervase Markham wrote the tools to manage the list in 2011/03.
+
+**P.S.** The last entry in the above list has a fork of `mozilla/community-data` which uses pull requests and will close pull requests for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as the last entry. Same goes for reopening and merging.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
