@@ -292,11 +292,11 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
-* **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
+* **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
-* **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** in the General tab. Default is Once a year. (Available in the Options window)
+* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in the General tab to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year). (Available in the Options window)
 * **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
 * **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. Default is on. (Available in the Options window)
