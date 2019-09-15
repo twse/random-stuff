@@ -1,10 +1,7 @@
 ﻿# Information
 This repository contains my random stuff.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added with the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **PSF Contributor Signatories.htm**: People who received the Python Software Foundation Contributor Agreement (partial list only).
-* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
 * **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
-* **Ubunteros.htm**: Launchpad users who signed the Ubuntu Code of Conduct (partial list only).
 
 ## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the logs.
@@ -75,6 +72,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
+* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## FontCreator Data Files and Registry Keys
@@ -85,8 +83,8 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. Requires Internet Explorer 7 & above for proper display.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed. In order to make the page look like for computers not connected to the internet, remove the style parameter in `notConnectedTasks` and change the title to **You're not connected**.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu; if you want to make the page resemble any computer not connected to the internet, remove the style parameter in `notConnectedTasks` and change the title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
