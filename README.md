@@ -1,7 +1,7 @@
 ﻿# Information
 This repository contains my random stuff.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added with the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words.htm**: Words of toothpastes, drugs and medicine products used to spam the old SitePal forum.
+* **SitePal Forum Drug Words.htm**: Words of medicine products (includes but are not limited to antibiotics, pharmaceutics, vaccine...) used to spam the old SitePal forum.
 
 ## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the logs.
