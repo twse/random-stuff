@@ -22,12 +22,12 @@ As FontCreator is released as pay shareware, the unregistered version works for 
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where e.g. fonts cannot be saved or tested.
 * 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
-* 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
+* 12.0.0.2547 (2019-09-12) - The program will add watermarks when generating fonts.
 
 Under the Help menu is an item labeled **Register** when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
-* Windows Vista and later – 12.0.0.2543
+* Windows Vista and later – 12.0.0.2547
 * Windows XP – 10.0
 * Windows 2000 – 7.0
 * Windows NT 4.0 – (unknown version)
