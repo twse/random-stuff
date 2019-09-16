@@ -1,8 +1,4 @@
 ## Fonts and keyboards
-[Michael Best / Murari Dasa](http://www.dasya.com/~mbest/freeware/) wrote DiacDos (1993), a collection of TSR programs for writing Classical Sanskrit diacritics on DOS and his screen fonts.
-
-Michael Forgey / [Unitype Inc.](http://www.unitype.com/) created a set of non-Unicode and Unicode fonts for the ALA-LC transliteration scheme as bundled with Global Office.
-
 Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
 
 ### Minion Indologist codes – Avestan
