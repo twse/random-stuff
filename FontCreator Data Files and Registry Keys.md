@@ -1,6 +1,6 @@
 ## Notes
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
-* All versions allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
+* All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
@@ -10,7 +10,7 @@
 * Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
+* If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running Windows XP Pro K SP3 32-bit - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and when exporting kerning pairs, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
@@ -22,7 +22,7 @@ As FontCreator is released as pay shareware, the unregistered version works for 
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where e.g. fonts cannot be saved or tested.
 * 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
-* 12.0.0.2547 (2019-09-12) - The program will add watermarks when generating fonts.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) - The program will add watermarks when generating fonts.
 
 Under the Help menu is an item labeled **Register** when this executed a screen will pop up giving the registration code.
 
@@ -49,7 +49,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
-* **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list appears blank if removed.
+* **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes multilanguage naming fields.
 * **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changes the extension to txt and adds another file named `TableOffsetOrderCFF`.
 * **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
@@ -58,9 +58,9 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 
 ## Registry Keys
 
-### AddCharacters
-* **SelectedCharacter** – Character used in the **Insert Characters** dialog. Default is beginning of Basic Latin Unicode block.
-* **SelectedFont** – Font used in the **Insert Characters** dialog. Default is **Arial Unicode MS**.
+### AddCharacters (used in the Insert Character dialog)
+* **SelectedCharacter** – Used to select the character. Default is beginning of Basic Latin Unicode block.
+* **SelectedFont** – Used to change the font. Default is **Arial Unicode MS**.
 
 ### Background
 * **BackgroundInitColor**
@@ -74,20 +74,20 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **Location#** – The name can be up to digit three. Default is empty.
 * **Title#** – The name can be up to digit three. Default is **External #** whereas # is a number.
 
-### Find
-* **FindLanguageID** – This corresponds to any language.
-* **PlatformID** – See **Platform** in the Find dialog's Mapping tab.
-* **PlatformSpecificEncodingID** – See **Platform** in the Find dialog's Mapping tab.
-* **TabIndex** – This corresponds to any tab in the Find dialog.
+### Find (used in the Find dialog)
+* **FindLanguageID** – Used by any language.
+* **PlatformID** – Used to find the **Platform** in the Mapping tab.
+* **PlatformSpecificEncodingID** – Used to change the specific encoding for **Platform** in the Mapping tab.
+* **TabIndex** – Used to change the tab.
 
 ### FontOverview
 * **CategoryWidth** – Select the width used for categories in the font overview.
 
-### Fonts
-* **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components** in Options: Font. Default is on.
-* **ExportExcludeLegacy** – Used with **Export Font: Exclude legacy data** in Options: Font. Default is on.
-* **FontEnableOpenContours** – Used with **Special Features: Enable open contours** in Options: Font. Default is on.
-* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names** in Options: Font. Default is on.
+### Fonts (used in Options: Font)
+* **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
+* **ExportExcludeLegacy** – Used with **Export Font: Exclude legacy data**. Default is on.
+* **FontEnableOpenContours** – Used with **Special Features: Enable open contours**. Default is on.
+* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**. Default is on.
 
 ### FreeDraw
 * **BrushWidth** – Used with **Brush width** in the Free Draw window.
@@ -127,11 +127,11 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
-* **UpdateCheckInterval** – Used when **OnStartupShowUpdateReminder** is enabled.
+* **UpdateCheckInterval** – This key has the date used to check the last update when **OnStartupShowUpdateReminder** is enabled.
 
-### GuideLines
-* **Color** – Used with **Color** in Guideline Options. Default is black.
-* **LineStyle** – Used with **Line style** options in Guideline Options. Default is solid.
+### GuideLines (used in Guideline Options)
+* **Color** – Default is black.
+* **LineStyle** – Default is solid.
 
 ### ImportImage
 * **BitmapPositionOrigin** – Used with radio buttons in the Glyph: Position option. (Available in Import Image)
@@ -146,8 +146,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SmoothFilter** – Used with **Smooth Filter** in the Image tab. Default is Smooth. (Available in Import Image)
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150. (Available in Import Image)
 
-### Install
-* **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder** in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
+### Install (used in the Font Installation Wizard)
+* **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder**. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### InstalledFonts
 * **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
@@ -292,7 +292,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
-* **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
+* **LastUpdateReminderDate** – This key has the date used to check the last update when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
@@ -328,7 +328,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 
 ### Reg
 The program is started in unregistered mode after installation or if this key is removed.
-* **V5D#** – Created after a successful registration whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
+* **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
 * **ActiveTheme**
