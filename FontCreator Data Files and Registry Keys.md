@@ -9,7 +9,7 @@
 * Version 5.0 until 6.0 makes **Complete Composites** dimmed in empty glyphs.
 * Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the font samples and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running Windows XP Pro K SP3 32-bit - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
@@ -34,7 +34,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98 and ME – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by administrators where they cannot be changed. If you want to edit most files directly they either must run Notepad with administrative privileges or change the owner to users (this can be done by using `takeown` or changing the owner with the advanced dialog of security tab in file properties).
+FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by trusted installer where they cannot be changed. If you want to edit most files directly they either must have administrative privileges or change the owner to users (this can be done with `takeown` or Security: Advanced in file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
@@ -47,7 +47,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
-* **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas filename is the name of each font.
+* **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas `filename` is the font name.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes multilanguage naming fields.
@@ -89,8 +89,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **FontEnableOpenContours** – Used with **Special Features: Enable open contours**. Default is on.
 * **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**. Default is on.
 
-### FreeDraw
-* **BrushWidth** – Used with **Brush width** in the Free Draw window.
+### FreeDraw (used in Free Draw)
+* **BrushWidth** – Used to change the **Brush width**.
 
 ### Glyph Edit Window
 * **FilledOutline** – Used with **Fill Outline** in the Grid toolbar.
@@ -152,9 +152,9 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### InstalledFonts
 * **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
 
-### Interface
-* **LockToolbars** – Used with **Lock Docked Toolbars** in the toolbar context menu or in View: Toolbars. Default is off.
-* **ShowUserNotes** – Used with **Show User Notes** in the toolbar context menu or in View: Toolbars. Default is off.
+### Interface (used in the toolbar context menu or View: Toolbars)
+* **LockToolbars** – Used with **Lock Docked Toolbars**. Default is off.
+* **ShowUserNotes** – Used with **Show User Notes**. Default is off.
 
 ### Interface Settings
 * **ChildWindowState**
@@ -170,15 +170,15 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GlyphNamesOptionsRE**
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
 * **GlyphPropsExpanded**
-* **GroupManagerSorted**
+* **GroupManagerSorted** – Used to sort the group manager.
 * **KerningFolderExport** – Directory for exporting the legacy kerning tables.
 * **KerningFolderImport** – Directory for importing the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
-* **OpenDialogInitialDir2** – Directory used in Open dialog.
-* **OpenDialogInitialDirAutoKerning** – Directory used in AutoKern Open dialog.
-* **OpenDialogInitialDirImportImage** – Directory used in Import Image Open dialog.
-* **OpenDialogInitialDirNamingField** – Directory used in Edit Naming Field Open dialog.
-* **OpenDialogInitialDirTransform** – Directory used in Glyph Transformer Open dialog.
+* **OpenDialogInitialDir2** – Directory used in the Open dialog.
+* **OpenDialogInitialDirAutoKerning** – Directory used in the AutoKern Open dialog.
+* **OpenDialogInitialDirImportImage** – Directory used in the Import Image Open dialog.
+* **OpenDialogInitialDirNamingField** – Directory used in the Edit Naming Field Open dialog.
+* **OpenDialogInitialDirTransform** – Directory used in the Glyph Transformer Open dialog.
 * **OptionsPage** – Select the tab used in the Options dialog.
 * **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
@@ -227,7 +227,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **KerningShowGridLines** – Display grid lines in Kerning window. Default is on.
 
 ### Last Time
-* **File_#** – Include fonts you use for the last time whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
+* **File_#** – Include fonts used the last time whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
 
 ### Metrics
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)** in the Automatic Metrics Wizard.
@@ -315,8 +315,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in the Options: Import tab.
 
 ### Preview
-* **FeaturesWidth**
-* **FeatureTags** – No default value.
+* **FeaturesWidth** – *No description provided.*
+* **FeatureTags** – *No description provided.* No default value.
 * **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Used with size in the Preview window.
@@ -331,7 +331,7 @@ The program is started in unregistered mode after installation or if this key is
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
-* **ActiveTheme**
+* **ActiveTheme** – *No description provided.*
 
 ### Tip of the Day (version 3.0 until 6.0)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
@@ -392,7 +392,7 @@ The program is started in unregistered mode after installation or if this key is
 * **HLZOOMIN** – Used by **Zoom In**. This resource uses German language.
 * **HLZOOMOUT** – Used by **Zoom Out**
 * **RV_JUMP_CURSOR** – Inverted jump cursor
-* **VT_HEADERSPLIT** – No meaning
+* **VT_HEADERSPLIT** – *No description provided.*
 * **VT_MOVEALL** – Used when moving contours in simple glyphs.
 * **VT_MOVEE** – Used when moving contours in simple glyphs.
 * **VT_MOVEEW** – Used when moving contours in simple glyphs.
