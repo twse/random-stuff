@@ -1,7 +1,7 @@
 ﻿# Index
-* **FontCreator Data Files and Registry Keys** (HTML file): Contains the data files and registry keys used by FontCreator.
+* **FontCreator Data Files and Registry Keys** (Markdown file): Contains the data files and registry keys used by FontCreator.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words.htm**: Words of medicine products (includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, anatomy, chemotherapeutics, organic acids, progestogens, ...) used to spam the old SitePal forum.
+* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products used to spam the legacy SitePal forum. This list includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -31,7 +31,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 ## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Clone the **mozilla/community-data** repository via `git clone`.
-2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities.
+2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities and remove the summaries of each member's contributions.
 3. Save the file as .csv (csv stands for comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
 5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
@@ -43,13 +43,13 @@ Direct modifications can only be done when you're committing and logged in as @g
 1. Go over to the `mozilla/community-data` repository and credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but not the default commit message: Update **filename**.
-4. Commit directly to the master branch but do not create a pull request.
+4. Commit directly to the master branch but don't create pull requests.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
-2. Edit the names.csv file to add your name at the end or use `echo name,sortkey >> names.csv`.
+2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
 3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
 4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
@@ -59,7 +59,7 @@ Direct modifications can only be done when you're committing and logged in as @g
 1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
-4. Commit directly to the master branch but do not create a pull request.
+4. Commit directly to the master branch but don't create pull requests.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
@@ -77,11 +77,11 @@ Direct modifications can only be done when you're committing and logged in as @g
 These pages are available in four versions. Thanks to Norman De Forest, Canada for creating his protest pages through his now-defunct website in the Chebucto Community.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo, Inc** site (the domain expired on July 2013).
-* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
+* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed. In Windows XP SP3 the page added stuff related to network diagnostics (not included in the page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed.
 * **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. In order to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks` and change the heading and title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel)
-* **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
+* **Mozilla credits page in French** - Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (edited via Qt Linguist or other program). The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
