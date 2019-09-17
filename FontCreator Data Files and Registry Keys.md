@@ -1,6 +1,6 @@
 ## Notes
 * The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
-* All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
+* All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
@@ -17,12 +17,12 @@
 
 ## Unregistered version limitations
 As FontCreator is released as pay shareware, the unregistered version works for 30 days with the following limitations based on the version number.
-* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) - After a grace period of 30 days, a nag screen is shown when pressing **Start**. However, the program otherwise functions normally.
-* 4.0 (2003-05-16) until 4.5 (2004-08-17) - After a grace period of 30 days, the program cannot be used at all until the registration process is started.
-* 5.0 (2005-01-12) until 5.6 (2007-07-19) - After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where e.g. fonts cannot be saved or tested.
-* 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) - The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
-* 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) - The program will add watermarks when generating fonts.
+* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, the program will show a nag screen when pressing **Start**. However, the program otherwise functions normally.
+* 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
+* 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where e.g. fonts cannot be saved or tested.
+* 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
+* 7.0 (2013-04-25) – The program will create subsetted versions when saving, testing, exporting or installing fonts.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts.
 
 Under the Help menu is an item labeled **Register** when this executed a screen will pop up giving the registration code.
 
@@ -30,8 +30,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows Vista and later – 12.0.0.2547
 * Windows XP – 10.0
 * Windows 2000 – 7.0
-* Windows NT 4.0 – (unknown version)
-* Windows 95, 98 and ME – 6.0.1
+* Windows 95, 98, ME and NT 4.0 – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by trusted installer where they cannot be changed. If you want to edit most files directly they either must have administrative privileges or change the owner to users (this can be done with `takeown` or Security: Advanced in file properties).
@@ -39,9 +38,9 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
+* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
-* **fntXX.tmp** or **fntXXX.tmp** – Used when saving fonts (XX or XXX are letter and number combos).
+* **fntXX.tmp** or **fntXXX.tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
@@ -149,8 +148,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### Install (used in the Font Installation Wizard)
 * **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder**. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
-### InstalledFonts
-* **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
+### InstalledFonts (used in TINSTALLEDFONTSFORM)
+* **PreviewHeight** – Select the height used for the preview area.
 
 ### Interface (used in the toolbar context menu or View: Toolbars)
 * **LockToolbars** – Used with **Lock Docked Toolbars**. Default is off.
@@ -289,34 +288,34 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
 * **LastUpdateReminderDate** – This key has the date used to check the last update when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
-* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
-* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
-* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in the General tab to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year). (Available in the Options window)
-* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
+* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
+* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
+* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year).
+* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in Options: General. Default is on.
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. Default is on. (Available in the Options window)
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. Default is off. (Available in the Options window)
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Default is off. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. Default is on. (Available in the Options window)
-* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
-* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in Options: Font. Default is off.
+* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off.
+* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in Options: Font. Default is on.
+* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on.
+* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on.
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
+* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
+* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on.
 * **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
-* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in the Options: Import tab.
-* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in the Options: Import tab.
-* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in the Options: Import tab.
-* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in the Options: Import tab.
+* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import.
+* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in Options: Import.
+* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in Options: Import.
+* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import.
 
 ### Preview
 * **FeaturesWidth** – *No description provided.*
-* **FeatureTags** – *No description provided.* No default value.
+* **FeatureTags** – Contains the tags used for features. No default value.
 * **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Used with size in the Preview window.
@@ -469,7 +468,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
 * **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The default push button is **Yes**.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
-* **TGLYPHPROPERTIESFORM** – For old versions of FontCreator, displays a dialog where you can change various properties for the selected glyph. Pressing Alt-Enter opens up this form without reading when a screen reader is running. The **Help** button does nothing in old versions.
+* **TGLYPHPROPERTIESFORM** – For old versions of FontCreator, displays a dialog where you can change various properties for the selected glyph. The **Help** button does nothing in old versions.
 * **TGRIDFORM** – Used when changing grid settings. The default push button is **OK**. The **Help** button does nothing in old versions.
 * **TGUIDELINEMODIFYFORM** – Used when modifying guidelines. The default push button is **OK**.
 * **TGUIDELINESFORM** – Used when changing guideline settings. The default push button is **OK**. The **Help** button does nothing in old versions.
