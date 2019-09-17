@@ -1,7 +1,32 @@
-﻿# Information
-This repository contains my random stuff.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts everyone added with the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words.htm**: Words of medicine products (includes but are not limited to antibiotics, pharmaceutics, vaccine...) used to spam the old SitePal forum.
+﻿# Index
+* **FontCreator Data Files and Registry Keys** (HTML file): Contains the data files and registry keys used by FontCreator.
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
+* **SitePal Forum Drug Words.htm**: Words of medicine products (includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, anatomy, chemotherapeutics, organic acids, progestogens, ...) used to spam the old SitePal forum.
+
+## Pan-European fonts version 6.0
+This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
+
+Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
+
+Pan-European Sans comes in two styles - Regular and Bold.
+
+This font family covers the following diacritics:
+1. **All** characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
+2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
+3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
+4. **All** diacritics of all five Adobe Latin character sets.
+
+## Other vector fonts (ordinary Unicode)
+Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
+* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
+* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
+
+## Pixel fonts (ordinary Unicode)
+* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
+* **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
+* **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
+* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
+* **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the logs.
@@ -46,50 +71,20 @@ Direct modifications can only be done when you're committing and logged in as @g
 
 **Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** Gervase Markham wrote the tools to manage the list in 2011/03.
-
-**P.S.** The last entry in the above list has a fork of `mozilla/community-data` which uses pull requests and will close pull requests for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as the last entry. Same goes for reopening and merging.
-
-## Pan-European fonts version 6.0
-This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
-
-Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
-
-Pan-European Sans comes in two styles - Regular and Bold.
-
-This font family covers the following diacritics:
-1. **All** characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
-2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
-3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
-4. **All** diacritics of all five Adobe Latin character sets.
-
-## Other vector fonts (ordinary Unicode)
-Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
-* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
-
-## Pixel fonts (ordinary Unicode)
-* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
-* **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **Readable Fonts**: Based on “System VIO” from OS/2. Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
-* **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
-
-## FontCreator Data Files and Registry Keys
-This file includes data files and registry keys for all FontCreator versions.
+**P.S.** Gervase Markham wrote the tools to manage the list in 2011/03 when adding several previous localizers without a citation via SVN. The last entry in the above list has a fork of `mozilla/community-data` which uses pull requests and will close pull requests for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as the last entry. Same goes for reopening and merging.
 
 ## Protest pages
-These pages are available in four versions. Thanks to Norman De Forest, Canada for inspiring me to create the pages (his protest pages were originally available in eight versions).
+These pages are available in four versions. Thanks to Norman De Forest, Canada for creating his protest pages through his now-defunct website in the Chebucto Community.
 
-* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo Networks, Incorporated** site however the domain expired on July 2013.
+* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo, Inc** site (the domain expired on July 2013).
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu; if you want to make the page resemble any computer not connected to the internet, remove the style parameter in `notConnectedTasks` and change the title to **You're not connected to the internet**.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. In order to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks` and change the heading and title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format. The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) in line 109.
+All translations are in ts format (edited via Qt Linguist or other program). The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
 
 * Danish (da_DK)
 * Dutch (nl_NL)
