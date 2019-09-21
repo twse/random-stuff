@@ -9,7 +9,7 @@
 * Version 5.0 until 6.0 makes **Complete Composites** dimmed in empty glyphs.
 * Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
 * The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the font samples and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the font samples and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas, her fonts released under a custom license and other stuff has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running Windows XP Pro K SP3 32-bit - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
@@ -39,6 +39,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
+* **fc12.cfg** – Configuration file used by FontCreator.
 * **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
@@ -50,7 +51,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes multilanguage naming fields.
-* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changes the extension to txt and adds another file named `TableOffsetOrderCFF`.
+* **TableOffsetOrder.dat** – Contains the tables supported by any font. All tables are moved to Unsupported if removed. Newer versions changed it to a text file and adds another file named `TableOffsetOrderCFF`.
 * **tags.txt** – For version 7.0 and above, controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -108,15 +109,15 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GridDistance** – Used with **Mininum distance between grid points in units** in Grid Options.
 * **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
 * **GridLineStyle** – Used with **Line style** in Grid Options. Default is solid.
-* **IncludeBaseline** – Used with **Baseline** in the Metrics Options window. Default is on.
-* **IncludeLeftSideBearing** – Used with **Left side bearing** in the Metrics Options window. Default is on.
-* **IncludeRightSideBearing** – Used with **Right side bearing** in the Metrics Options window. Default is on.
-* **IncludeTypoAscender** – Used with **TypoAscender** in the Metrics Options window. Default is off.
-* **IncludeTypoDescender** – Used with **TypoDescender** in the Metrics Options window. Default is off.
-* **IncludeWinAscent** – Used with **Win Ascent** in the Metrics Options window. Default is on.
-* **IncludeWinDescent** – Used with **Win Descent** in the Metrics Options window. Default is on.
-* **IncludexHeight** – Used with **x-Height** in the Metrics Options window. Default is on.
-* **IncludeYAxis** – Used with **Y-Axis** in the Metrics Options window. Default is on.
+* **IncludeBaseline** – Used with **Baseline** in Metrics Options. Default is on.
+* **IncludeLeftSideBearing** – Used with **Left side bearing** in Metrics Options. Default is on.
+* **IncludeRightSideBearing** – Used with **Right side bearing** in Metrics Options. Default is on.
+* **IncludeTypoAscender** – Used with **TypoAscender** in Metrics Options. Default is off.
+* **IncludeTypoDescender** – Used with **TypoDescender** in Metrics Options. Default is off.
+* **IncludeWinAscent** – Used with **Win Ascent** in Metrics Options. Default is on.
+* **IncludeWinDescent** – Used with **Win Descent** in Metrics Options. Default is on.
+* **IncludexHeight** – Used with **x-Height** in Metrics Options. Default is on.
+* **IncludeYAxis** – Used with **Y-Axis** in Metrics Options. Default is on.
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar. Default is off.
 * **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar. Default is on.
 * **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in Grid Options.
@@ -126,7 +127,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
-* **UpdateCheckInterval** – This key has the date used to check the last update when **OnStartupShowUpdateReminder** is enabled.
+* **UpdateCheckInterval** – Includes the date used to check the last update when **OnStartupShowUpdateReminder** is enabled.
 
 ### GuideLines (used in Guideline Options)
 * **Color** – Default is black.
@@ -291,7 +292,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
-* **LastUpdateReminderDate** – This key has the date used to check the last update when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
+* **LastUpdateReminderDate** – Includes the date used to check the last update when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
@@ -330,7 +331,7 @@ The program is started in unregistered mode after installation or if this key is
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
-* **ActiveTheme** – *No description provided.*
+* **ActiveTheme** – Contains the active theme.
 
 ### Tip of the Day (version 3.0 until 6.0)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
@@ -450,13 +451,13 @@ The program is started in unregistered mode after installation or if this key is
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
-* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form used for reduced functionality mode or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
+* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen after the 30-day grace period.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
 * **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
 * **TFINDFORM** – Used when searching parts of a font.
-* **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when setting embedding and licensing rights in the font. The default push button is **OK**.
-* **TFONTHEADERFLAGSFORM** – Used when setting the header flags in the font. The default push button is **OK**.
+* **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when changing embedding and licensing rights in the font. The default push button is **OK**.
+* **TFONTHEADERFLAGSFORM** – Used when changing header flags in the font. The default push button is **OK**.
 * **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications. The default push button is **Next** or **Finish**.
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
