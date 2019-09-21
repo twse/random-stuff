@@ -39,7 +39,7 @@ You won't receive any emails when your name is added - this will only see the me
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Manually bulk-adding names to Mozilla credits list using GitHub's web user interface
-Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
+Direct modifications can only be done when you're committing and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Go over to the `mozilla/community-data` repository and credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter whatever commit message you want but not the default commit message: Update **filename**.
@@ -55,7 +55,7 @@ You won't receive any emails when your name is added - this will only see your n
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using GitHub's web user interface
-Direct modifications can only be done when you're committing and logged in as @gurumukhi. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
+Direct modifications can only be done when you're committing and logged in as last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message.
@@ -69,17 +69,17 @@ Direct modifications can only be done when you're committing and logged in as @g
 | Gervase Markham    | gerv      | 2004-2017    | CVS/GIT/SVN         |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | GIT only            |
 
-**Historical note:** Dawn Endico created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
+**Historical note:** The first entry created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** Gervase Markham wrote the tools to manage the list in 2011/03 when adding several previous localizers without a citation via SVN. The last entry in the above list has a fork of `mozilla/community-data` which uses pull requests and will close pull requests for modifications to the Mozilla credits list not done with the form or replies to the application message with a comment. The comment can be reacted by anyone but deleting can only be done when logged in as the last entry. Same goes for reopening and merging.
+**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked `mozilla/community-data`, uses pull requests and will close pull requests if the modified list is not done via the form or replying the application message with a comment.
 
 ## Protest pages
-These pages are available in four versions. Thanks to Norman De Forest, Canada for creating his protest pages through his now-defunct website in the Chebucto Community.
+These pages are available in four versions. Thanks to Norman De Forest, Canada for creating his protest pages through his now-defunct website in the Chebucto Community. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo, Inc** site (the domain expired on July 2013).
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed. In Windows XP SP3 the page added stuff related to network diagnostics (not included in the page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). Default encoding tag removed.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. In order to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks` and change the heading and title to **You're not connected to the internet**.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems**, when pressed it will do nothing (the original page opens up the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. In order to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change both the heading and title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
