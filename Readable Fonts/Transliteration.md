@@ -1,5 +1,5 @@
-## Fonts and keyboards
-Minion Indologist is an unreleased font derived from Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
+## Fonts
+Minion Indologist is an unreleased font based on Minion with accented letters for Pali, Sanskrit, Prakrit, Vedic, Telugu, Tamil, Avestan and more.
 
 ### Minion Indologist codes – Avestan
 | Glyph              | Codes   |
@@ -99,45 +99,45 @@ Minion Indologist is an unreleased font derived from Minion with accented letter
 | u macron acute           | Alt-242 |
 
 ### Minion Indologist codes – Extended Indic diacritics (Sanskrit, Pali, Tamil, Sinhala and other) and more
-| Glyph                    | Codes   |
-|--------------------------|---------|
-| A dieresis               | Alt-129 |
-| A ring                   | Alt-130 |
-| C cedilla                | Alt-131 |
-| O dieresis               | Alt-142 |
-| S caron                  | Alt-146 |
-| U dieresis               | Alt-150 |
-| a circumflex             | Alt-154 |
-| a tilde                  | Alt-156 |
-| a macron tilde           | Alt-162 |
-| ae                       | Alt-165 |
-| c cedilla                | Alt-167 |
-| e circumflex             | Alt-172 |
-| e tilde                  | Alt-174 |
-| e macron                 | Alt-175 |
-| e open                   | Alt-176 |
-| e open macron            | Alt-177 |
-| h line below             | Alt-182 |
-| h circumflex below       | Alt-183 |
-| i circumflex             | Alt-186 |
-| i tilde                  | Alt-188 |
-| i macron tilde           | Alt-192 |
-| i dotless                | Alt-193 |
-| n line below             | Alt-206 |
-| o circumflex             | Alt-212 |
-| o tilde                  | Alt-214 |
-| o macron                 | Alt-215 |
-| o macron grave           | Alt-216 |
-| o slash                  | Alt-217 |
-| oe                       | Alt-218 |
-| o open                   | Alt-219 |
-| o open macron            | Alt-220 |
-| s sharp                  | Alt-232 |
-| u circumflex             | Alt-238 |
-| u tilde                  | Alt-240 |
-| u macron tilde           | Alt-244 |
-| v turned                 | Alt-245 |
-| v turned macron          | Alt-246 |
+| Glyph              | Codes   |
+|--------------------|---------|
+| A dieresis         | Alt-129 |
+| A ring             | Alt-130 |
+| C cedilla          | Alt-131 |
+| O dieresis         | Alt-142 |
+| S caron            | Alt-146 |
+| U dieresis         | Alt-150 |
+| a circumflex       | Alt-154 |
+| a tilde            | Alt-156 |
+| a macron tilde     | Alt-162 |
+| ae                 | Alt-165 |
+| c cedilla          | Alt-167 |
+| e circumflex       | Alt-172 |
+| e tilde            | Alt-174 |
+| e macron           | Alt-175 |
+| e open             | Alt-176 |
+| e open macron      | Alt-177 |
+| h line below       | Alt-182 |
+| h circumflex below | Alt-183 |
+| i circumflex       | Alt-186 |
+| i tilde            | Alt-188 |
+| i macron tilde     | Alt-192 |
+| i dotless          | Alt-193 |
+| n line below       | Alt-206 |
+| o circumflex       | Alt-212 |
+| o tilde            | Alt-214 |
+| o macron           | Alt-215 |
+| o macron grave     | Alt-216 |
+| o slash            | Alt-217 |
+| oe                 | Alt-218 |
+| o open             | Alt-219 |
+| o open macron      | Alt-220 |
+| s sharp            | Alt-232 |
+| u circumflex       | Alt-238 |
+| u tilde            | Alt-240 |
+| u macron tilde     | Alt-244 |
+| v turned           | Alt-245 |
+| v turned macron    | Alt-246 |
 
 ### Minion Indologist codes – Printer's Specials
 | Glyph         | Codes   |
