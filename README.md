@@ -19,7 +19,7 @@ This font family covers the following diacritics:
 ## Other vector fonts (ordinary Unicode)
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
+* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
 
 ## Pixel fonts (ordinary Unicode)
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
@@ -63,18 +63,18 @@ Direct modifications can only be done when you're committing and logged in as la
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
-| Name               | Nickname  | Years active | CVS/GIT/SVN Access? |
-|--------------------|-----------|--------------|---------------------|
-| Dawn Endico        | endico    | 1999-2003    | CVS only            |
-| Gervase Markham    | gerv      | 2004-2017    | CVS/GIT/SVN         |
-| Ram Dayal Vaishnav | gurumukhi | 2017-present | GIT only            |
+| Name               | Nickname  | Years active | Commit Access? |
+|--------------------|-----------|--------------|----------------|
+| Dawn Endico        | endico    | 1999-2003    | CVS only       |
+| Gervase Markham    | gerv      | 2004-2017    | CVS/GIT/SVN    |
+| Ram Dayal Vaishnav | gurumukhi | 2017-present | GIT only       |
 
 **Historical note:** The first entry created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
 **P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked `mozilla/community-data`, uses pull requests and will close pull requests if the modified list is not done via the form or replying the application message with a comment.
 
-## Protest pages
-These pages are available in four versions. Thanks to Norman De Forest, Canada for creating his protest pages through his now-defunct website in the Chebucto Community. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
+## Protest pages (available in four versions)
+Thanks to Norman De Forest, Canada for creating his protest pages through his website in the Chebucto Community (currently down). Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
 
 * **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo, Inc** site (the domain expired on July 2013).
 * **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed. In Windows XP SP3 the page includes network diagnostics stuff (not included in the page).
@@ -84,7 +84,7 @@ These pages are available in four versions. Thanks to Norman De Forest, Canada f
 * **Mozilla credits page in French** - Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited via Qt Linguist or other program). The list of generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
+All translations are in ts format (edited via Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
 
 * Danish (da_DK)
 * Dutch (nl_NL)
