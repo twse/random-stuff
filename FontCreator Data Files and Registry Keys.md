@@ -33,7 +33,7 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 * Windows 95, 98, ME and NT 4.0 – 6.0.1
 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
-FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by trusted installer where they cannot be changed. If you want to edit most files directly they either must have administrative privileges or change the owner to users (this can be done with `takeown` or Security: Advanced in file properties).
+FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder and owned by trusted installer where they cannot be changed. If you want to edit most files directly they either must have administrative privileges or change the owner to users (this can be done with `takeown` or **Security: Advanced** in the file properties).
 
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
@@ -58,21 +58,21 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 
 ## Registry Keys
 
-### AddCharacters (used in the Insert Character dialog)
+### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Used to select the character. Default is beginning of Basic Latin Unicode block.
 * **SelectedFont** – Used to change the font. Default is **Arial Unicode MS**.
 
 ### Background
-* **BackgroundInitColor**
-* **BackgroundInitScale**
+* **BackgroundInitColor** – Select the color for the background.
+* **BackgroundInitScale** – Select the scaling factor for the background.
 
 ### Columns
 * **Open Installed Fonts** – This is a binary value.
 
 ### Externals
 There are three built-in external programs: Fonts Folder, Character Map and MainType (if installed).
-* **Location#** – The name can be up to digit three. Default is empty.
-* **Title#** – The name can be up to digit three. Default is **External #** whereas # is a number.
+* **Location#** – The last character can be up to digit three. Default is empty.
+* **Title#** – The last character can be up to digit three. Default is **External #** whereas # is a number.
 
 ### Find (used in the Find dialog)
 * **FindLanguageID** – Used by any language.
@@ -146,10 +146,10 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SmoothFilter** – Used with **Smooth Filter** in the Image tab. Default is Smooth. (Available in Import Image)
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150. (Available in Import Image)
 
-### Install (used in the Font Installation Wizard)
+### Install (used in `TFONTINSTALLWIZARDFORM`)
 * **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder**. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
-### InstalledFonts (used in TINSTALLEDFONTSFORM)
+### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Select the height used for the preview area.
 
 ### Interface (used in the toolbar context menu or View: Toolbars)
@@ -198,7 +198,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in the Overview tab. (Available in the Options window)
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in the Edit tab. Default is 1. (Available in the Options window)
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. If enabled, glyph captions are shown in different colors. If disabled, glyph captions are shown in black. (Available in the Options window)
+* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. Default is on. (Available in the Options window)
 * **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
@@ -258,8 +258,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **PairWidth** – Select the pair width used in the OpenType Designer.
 * **PreviewHeight** – Used with preview text height in the OpenType Designer.
 * **PreviewSampleFontSize** – Used with preview sample font size in the OpenType Designer.
-* **SimpleWidth**
-* **SingleWidth**
+* **SimpleWidth** – Set the width used in the OpenType Designer.
+* **SingleWidth** – Set the width used in the OpenType Designer.
 * **TreeWidth** – Select the tree width used in the OpenType Designer.
 * **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
 
@@ -298,7 +298,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
 * **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year).
 * **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in Options: General. Default is on.
-* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
+* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. Default is off.
 * **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
 * **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in Options: Font. Default is off.
 * **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off.
@@ -306,7 +306,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on.
 * **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on.
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
-* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
+* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on.
 * **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
 * **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import.
@@ -315,7 +315,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import.
 
 ### Preview
-* **FeaturesWidth** – *No description provided.*
+* **FeaturesWidth** – Contains the width used for features.
 * **FeatureTags** – Contains the tags used for features. No default value.
 * **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
