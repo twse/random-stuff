@@ -12,14 +12,14 @@ Pan-European Sans comes in two styles - Regular and Bold.
 
 This font family covers the following diacritics:
 1. **All** characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
-2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Iranian languages (Avestan, Bráhuí, Ishkashimi, Oroshor, Shughni, Wakhi, etc. etc. etc.), etc. etc. etc.
+2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Proto-Indo-European etc. etc. etc.
 3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
 4. **All** diacritics of all five Adobe Latin character sets.
 
 ## Other vector fonts (ordinary Unicode)
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, etc.). This font comes in one style only - Regular. This font should be renamed to avoid clashes with names on which Apple Computer and The Font Bureau holds a trademark.
+* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
 
 ## Pixel fonts (ordinary Unicode)
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
@@ -32,7 +32,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 You won't receive any emails when your name is added - this will only see the message in the logs.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities and remove the summaries of each member's contributions.
-3. Save the file as .csv (csv stands for comma separated value).
+3. Save the file as .csv (comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
 5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
 6. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
@@ -40,10 +40,10 @@ You won't receive any emails when your name is added - this will only see the me
 
 ## Manually bulk-adding names to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
-1. Go over to the `mozilla/community-data` repository and credits directory, click the names.csv file then click the pencil at the top-right corner to edit names.csv.
+1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
-3. Enter whatever commit message you want but not the default commit message: Update **filename**.
-4. Commit directly to the master branch but don't create pull requests.
+3. Enter any commit message you want.
+4. Use the default option which will commit directly to the `master` branch.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using command line
@@ -56,30 +56,32 @@ You won't receive any emails when your name is added - this will only see your n
 
 ## Manually adding a name to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Go to the `credits` directory of `community-data` repository, click the names.csv file and the pencil at the top-right corner to edit it.
+1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
-3. Use the name &lt;email&gt;: "citation" format for the commit message.
-4. Commit directly to the master branch but don't create pull requests.
+3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
+4. Use the default option which will commit directly to the `master` branch.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
-| Name               | Nickname  | Years active | Commit Access? |
-|--------------------|-----------|--------------|----------------|
-| Dawn Endico        | endico    | 1999-2003    | CVS only       |
-| Gervase Markham    | gerv      | 2004-2017    | CVS/GIT/SVN    |
-| Ram Dayal Vaishnav | gurumukhi | 2017-present | GIT only       |
+This list is located in the credits directory in the repository `mozilla/community-data`.
 
-**Historical note:** The first entry created the Mozilla credits page in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
+| Name               | Nickname  | Nationality | Years active | Collaborator? |
+|--------------------|-----------|-------------|--------------|---------------|
+| Dawn Endico        | endico    | American    | 1999-2003    | NO            |
+| Gervase Markham    | gerv      | British     | 2004-2017    | YES           |
+| Ram Dayal Vaishnav | gurumukhi | Indian      | 2017-present | YES           |
 
-**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked `mozilla/community-data`, uses pull requests and will close pull requests if the modified list is not done via the form or replying the application message with a comment.
+**Historical note:** The first entry created this page (in rough alphabetical order by last name) in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
+
+**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked `mozilla/community-data`, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment.
 
 ## Protest pages (available in four versions)
-Thanks to Norman De Forest, Canada for creating his protest pages through his website in the Chebucto Community (currently down). Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
+Thanks to Norman De Forest, Canada for his protest pages through his website in the Chebucto Community (currently down). Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
 
-* **Web page not available** (Old Android browser) - The original page has the Android logo at the top. The link refers to a page at the **@Macarlo, Inc** site (the domain expired on July 2013).
-* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. Default encoding tag and HTML color setting removed. In Windows XP SP3 the page includes network diagnostics stuff (not included in the page).
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems** (the original page opens up the network diagnostic tool when pressed). Default encoding tag removed.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems** (the original page opens up the network diagnostic tool when pressed). This browser removed the option to change the connectivity in the file menu. In order to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change both the heading and title to **You're not connected to the internet**.
+* **Web page not available** (Old Android browser) - The link refers to a page at the **@Macarlo, Inc** website (currently down).
+* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. On Windows XP SP3 the page added network diagnostics stuff (not included in this page).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes a script which may not work on browsers other than Internet Explorer.
+* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open network diagnostic tool). The browser itself removes the option to change the connectivity in the file menu; to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change the heading and title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel)
 * **Mozilla credits page in French** - Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
