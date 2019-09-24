@@ -63,11 +63,11 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SelectedFont** – Used to change the font. Default is **Arial Unicode MS**.
 
 ### Background
-* **BackgroundInitColor** – Select the color for the background.
+* **BackgroundInitColor** – Select the color for the background. Default is white.
 * **BackgroundInitScale** – Select the scaling factor for the background.
 
 ### Columns
-* **Open Installed Fonts** – This is a binary value.
+* **Open Installed Fonts** – Binary value used by `TINSTALLEDFONTSFORM`.
 
 ### Externals
 There are three built-in external programs: Fonts Folder, Character Map and MainType (if installed).
@@ -147,7 +147,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150. (Available in Import Image)
 
 ### Install (used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder**. Default is on. On Windows Vista and above, this option requires administrator privileges.
+* **InstallFontsInFontsFolder** – In old versions only; used with **Install the font in Windows Fonts folder**. Default is on. On Windows Vista and above, this option requires administrator privileges.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Select the height used for the preview area.
@@ -164,8 +164,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GlyphCaptionType2** – Used with the Captions options in the right-click context menu of font overview.
 * **GlyphDrawMode** – Select the mode to draw contours on each glyph.
 * **GlyphFillAlpha** – Used with **Fill Outline** in the View menu.
-* **GlyphNamesHistoryReplace** – Contains the history of replaced postscript names.
-* **GlyphNamesHistorySearch** – Contains the history of found postscript names.
+* **GlyphNamesHistoryReplace** – Contains the history of postscript names to replace.
+* **GlyphNamesHistorySearch** – Contains the history of postscript names to find.
 * **GlyphNamesOptionsCS**
 * **GlyphNamesOptionsRE**
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
@@ -183,14 +183,14 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
-* **OTLFDesignerPreviewLanguage** – Select the language used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewSampleText** – Select the sample text used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewScript** – Select the script used for the preview text in the OpenType Designer.
-* **OTLFEditor**
+* **OTLFDesignerPreviewLanguage** – Contains the language used for the preview text in the OpenType Designer.
+* **OTLFDesignerPreviewSampleText** – Contains the sample text used for the preview text in the OpenType Designer.
+* **OTLFDesignerPreviewScript** – Contains the script used for the preview text in the OpenType Designer.
+* **OTLFEditor** – Stores the settings used in the OpenType script editor.
 * **OverviewColCat**
-* **OverviewFontZoom**
-* **OverviewGridZoom**
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. Empty strings displays the preview with **MS Sans Serif** shifting the characters to other position. (Available in the Options window)
+* **OverviewFontZoom** – Contains the zoom factor used in the glyph overview.
+* **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. Empty strings displays the preview with **MS Sans Serif** with the characters in a different position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
@@ -202,9 +202,10 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
+* **SaveDialogInitialDirNew2** – Contains the initial directory used in the save dialog.
 * **SelectCompositeCaptionType**
-* **SelectCompositeFontZoom**
-* **SelectCompositeGridZoom**
+* **SelectCompositeFontZoom** – Contains the zoom factor used in the select composite glyph window.
+* **SelectCompositeGridZoom** – Contains the grid zoom factor used in the select composite glyph window.
 * **SettingsPage** – Select the tab used in the Settings dialog.
 
 ### Kerning
@@ -315,8 +316,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import.
 
 ### Preview
-* **FeaturesWidth** – Contains the width used for features.
-* **FeatureTags** – Contains the tags used for features. No default value.
+* **FeaturesWidth** – Contains the width used for OpenType features.
+* **FeatureTags** – Contains the tags used for OpenType features. No default value.
 * **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Used with size in the Preview window.
