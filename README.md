@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Contains the data files and registry keys used by FontCreator.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products used to spam the legacy SitePal forum. This list includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
+* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products (including alternate spellings) used to spam the legacy SitePal forum. This list includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -25,11 +25,11 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 * **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **Readable Fonts**: Based on “System VIO” from OS/2 and the IBM ThinkPad Power Series 820 command line (16 pixel font but with different glyph designs). Can be used for languages not supported by OS/2 Unified Glyph List, including Armenian and Cherokee. Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
+* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs). Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Manually bulk-adding names to Mozilla credits list using command line
-You won't receive any emails when your name is added - this will only see the message in the logs.
+You won't receive any emails when your name is added - this will only see the message in the log.
 1. Clone the **mozilla/community-data** repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities and remove the summaries of each member's contributions.
 3. Save the file as .csv (comma separated value).
@@ -39,7 +39,7 @@ You won't receive any emails when your name is added - this will only see the me
 7. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entries will appear or removed with the last updated date being changed.
 
 ## Manually bulk-adding names to Mozilla credits list using GitHub's web user interface
-Direct modifications can only be done when you're committing and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the logs.
+Direct modifications can only be done when you're committing and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the log.
 1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
@@ -71,22 +71,22 @@ This list is located in the credits directory in the repository `mozilla/communi
 | Gervase Markham    | gerv      | British     | 2004-2017    | YES           |
 | Ram Dayal Vaishnav | gurumukhi | Indian      | 2017-present | YES           |
 
-**Historical note:** The first entry created this page (in rough alphabetical order by last name) in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
+**Historical note:** The first entry created this page (in rough alphabetical order by last name) using CVS in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
 **P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked `mozilla/community-data`, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment.
 
 ## Protest pages (available in four versions)
 Thanks to Norman De Forest, Canada for his protest pages through his website in the Chebucto Community (currently down). Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
 
-* **Web page not available** (Old Android browser) - The link refers to a page at the **@Macarlo, Inc** website (currently down).
-* **Cannot find server** (Internet Explorer 6 - Windows XP RTM, SP1 and SP2) - This page uses javascript links. On Windows XP SP3 the page added network diagnostics stuff (not included in this page).
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above - Windows XP and Vista) - In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes a script which may not work on browsers other than Internet Explorer.
-* **This page can't be displayed** (Internet Explorer 11) - In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open network diagnostic tool). The browser itself removes the option to change the connectivity in the file menu; to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change the heading and title to **You're not connected to the internet**.
-* **DNS error** (Wii Internet Channel)
-* **Mozilla credits page in French** - Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
+* **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
+* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – This page uses javascript links. On Windows XP SP3 the page added network diagnostics stuff (not included in this page).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes a script which may not work on browsers other than Internet Explorer.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu; to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change the heading and title to **You're not connected to the internet**.
+* **DNS error** (Wii Internet Channel) – The links refers to pages in the Opera help website.
+* **Mozilla credits page in French** – Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited via Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
+All translations are in ts format (these can be edited with Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
 
 * Danish (da_DK)
 * Dutch (nl_NL)
@@ -99,7 +99,7 @@ All translations are in ts format (edited via Qt Linguist or other program). Gen
 * Norwegian Nynorsk (nn_NO)
 * Polish (pl_PL)
 * Portuguese, as spoken in Brazil (pt_BR)
-* Romanian (ro_RO) - Contributed by Nicolae Oprea
+* Romanian (ro_RO) – Contributed by Nicolae Oprea
 * Spanish, as spoken in Spain (es_ES)
 * Swedish, as spoken in Sweden (sv_SE)
 * Turkish (tr_TR)
