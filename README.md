@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Contains the data files and registry keys used by FontCreator.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products (including alternate spellings) used to spam the legacy SitePal forum which includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
+* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names that are used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -13,19 +13,19 @@ Pan-European Sans comes in two styles - Regular and Bold.
 This font family covers the following diacritics:
 1. **All** characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
 2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Proto-Indo-European etc. etc. etc.
-3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Serbian, Bosnian, Mongolian, Tajik, Yakut, Bashkir, Chechen, Kazakh, Abkhazian, Komi, Tatar, etc. etc. etc.)
+3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Tajik, Mongolian, Kazakh, Tatar, etc. etc. etc.)
 4. **All** diacritics of all five Adobe Latin character sets.
 
 ## Other vector fonts (ordinary Unicode)
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple and The Font Bureau holds a trademark.
+* **Geneva Mega** is for use with Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, Dogrib, Gwich'in, Cayuga, Haisla, etc. etc. etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple holds a trademark.
 
-## Pixel fonts (ordinary Unicode)
-* **Cyrano Text**: TrueType Unicode font based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Created using FontCreator 5.6. Both fonts are named after the 1998 movie Cyrano de Bergerac.
+## Pixel fonts (ordinary Unicode) created with FontCreator 5.6
+* **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
-* **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs). Originally created as non-resident fonts with [FontEdit II by Iván Llanas](http://www.geocities.ws/ivan_llanas/software/fontedit2.html) and FONTEDIT by Michael J. Mefford for PC Magazine.
+* **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
+* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Manually bulk-adding names to Mozilla credits list using command line
@@ -73,15 +73,15 @@ This list is located in the credits directory in the repository `mozilla/communi
 
 **Historical note:** The first entry created this page (in rough alphabetical order by last name) using CVS in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above paragraph in the index.
+**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
 ## Protest pages (available in four versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages through his website in the Chebucto Community. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking. Two pages have scripts which don't work in browsers that are not Internet Explorer (e.g. Chrome).
 
 * **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
-* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – This page uses javascript links. On Windows XP SP3 the page added network diagnostics stuff (not included in this page).
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes a script which may not work on browsers other than Internet Explorer.
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu; to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change the heading and title to **You're not connected to the internet**.
+* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff which is not included in this page.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool).
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel) – The links refers to pages in the Opera help website.
 
 ## Translations of EasyPaint into multiple languages
