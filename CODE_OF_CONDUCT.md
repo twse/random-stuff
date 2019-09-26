@@ -1,7 +1,7 @@
 This repository is unrelated to the below two headings.
 
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
-Python Software Foundation has a Contributor License Agreement that you must sign for merge pull request in the CPython GitHub repository.
+Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository.
 
 This list represents but a portion of the people who sent the Contributor Agreement to the Python Software Foundation.
 
