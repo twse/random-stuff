@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Contains the data files and registry keys used by FontCreator.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products (including alternate spellings) used to spam the legacy SitePal forum. This list includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
+* **SitePal Forum Drug Words** (HTM file): Contains the brand names of medicine products (including alternate spellings) used to spam the legacy SitePal forum which includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
 
 ## Pan-European fonts version 6.0
 This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
@@ -73,7 +73,7 @@ This list is located in the credits directory in the repository `mozilla/communi
 
 **Historical note:** The first entry created this page (in rough alphabetical order by last name) using CVS in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment.
+**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above paragraph in the index.
 
 ## Protest pages (available in four versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages through his website in the Chebucto Community. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
@@ -83,7 +83,6 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes a script which may not work on browsers other than Internet Explorer.
 * **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu; to make the page look like computers not connected to the internet, remove the style parameter in `notConnectedTasks`, add the style parameter in `cantDisplayTasks` and change the heading and title to **You're not connected to the internet**.
 * **DNS error** (Wii Internet Channel) – The links refers to pages in the Opera help website.
-* **Mozilla credits page in French** – Instead of the contributor list from the original page in English (see the link at the beginning) it shows a translated message.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (these can be edited with Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
