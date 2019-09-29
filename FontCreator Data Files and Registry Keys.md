@@ -187,7 +187,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OTLFDesignerPreviewSampleText** – Contains the sample text used for the preview text in the OpenType Designer.
 * **OTLFDesignerPreviewScript** – Contains the script used for the preview text in the OpenType Designer.
 * **OTLFEditor** – Stores the settings used in the OpenType script editor.
-* **OverviewColCat**
+* **OverviewColCat** – Contains the column categories used in the glyph overview.
 * **OverviewFontZoom** – Contains the zoom factor used in the glyph overview.
 * **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
 * **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. Empty strings displays the preview with **MS Sans Serif** with the characters in a different position. (Available in the Options window)
@@ -254,7 +254,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### OpenType Designer
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
 * **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window.
-* **LayoutMode**
+* **LayoutMode** – Select the layout mode used in the OpenType Designer.
 * **MarkWidth** – Select the mark width used in the OpenType Designer.
 * **PairWidth** – Select the pair width used in the OpenType Designer.
 * **PreviewHeight** – Used with preview text height in the OpenType Designer.
@@ -337,6 +337,9 @@ The program is started in unregistered mode after installation or if this key is
 ### Tip of the Day (version 3.0 until 6.0)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
 * **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start FontCreator** in the **Tip of the Day** window.
+
+### Updates (under HKCU)
+* **LastUpdateCheck** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled.
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** in Settings: Validation.
