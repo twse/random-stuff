@@ -46,7 +46,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
-* **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
+* **guidelines.dat** – Created automatically after exit. Includes guidelines used in the Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas `filename` is the font name.
 * **previewtext.dat** – For version 3.0 until 6.0, controls the text used in Test Font Window. Text in `TFONTTESTFORM` is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
@@ -127,7 +127,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
-* **UpdateCheckInterval** – Includes the date used to check the last update when **OnStartupShowUpdateReminder** is enabled.
+* **UpdateCheckInterval** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled.
 
 ### GuideLines (used in Guideline Options)
 * **Color** – Default is black.
@@ -293,7 +293,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
-* **LastUpdateReminderDate** – Includes the date used to check the last update when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
+* **LastUpdateReminderDate** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
@@ -375,24 +375,24 @@ The program is started in unregistered mode after installation or if this key is
 
 ## Cursors in the executable file (Delphi resources omitted)
 * **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
-* **CZMOVE** – Used by the **Hand** feature. This resource uses Argentinian Spanish language.
+* **CZMOVE** – Used by **Hand**. This resource uses Argentinian Spanish language.
 * **HLADDCONTOUR** – Used when adding contours.
 * **HLDUPLICATE** – Used when duplicating contours.
-* **HLFREEHAND** – Used by **Freehand**
-* **HLGUIDELINED** – Used by **Guideline**
+* **HLFREEHAND** – Used by **Freehand**.
+* **HLGUIDELINED** – Used by **Guideline**.
 * **HLKNIFE** – Used by **Knife**. This resource uses German language.
-* **HLMEASURE** – Used by **Measure**
+* **HLMEASURE** – Used by **Measure**.
 * **HLMOVECONTOUR** – Used when moving contours. This resource uses German language.
 * **HLMOVEPOINT** – Used when moving points. This resource uses German language.
-* **HLNEWELLIPSE** – Used by **Ellipse**
-* **HLNEWRECTANGLE** – Used by **Rectangle**
+* **HLNEWELLIPSE** – Used when adding ellipses.
+* **HLNEWRECTANGLE** – Used when adding rectangles.
 * **HLROTATE** – Used by **Rotate**. This resource uses German language.
 * **HLSELECT** – Used when selecting anything. This resource uses German language.
 * **HLSELECTCONTOUR** – Used when selecting contours. This resource uses German language.
 * **HLSELECTPOINT** – Used when selecting points. This resource uses German language.
-* **HLZOOMIN** – Used by **Zoom In**. This resource uses German language.
-* **HLZOOMOUT** – Used by **Zoom Out**
-* **RV_JUMP_CURSOR** – Inverted jump cursor
+* **HLZOOMIN** – Used when zooming in. This resource uses German language.
+* **HLZOOMOUT** – Used when zooming out.
+* **RV_JUMP_CURSOR** – Inverted jump cursor.
 * **VT_HEADERSPLIT** – *No description provided.*
 * **VT_MOVEALL** – Used when moving contours in simple glyphs.
 * **VT_MOVEE** – Used when moving contours in simple glyphs.
@@ -435,8 +435,8 @@ The program is started in unregistered mode after installation or if this key is
 ## RCData's in the executable file
 * **DESCRIPTION** – This data is binary.
 * **DVCLAL** – This data is binary.
-* **PACKAGEINFO** – This data is binary.
-* **TABOUTFORM** – Used by **Help: About...**. The dialog resembles the one used in Windows. The default push button is **OK**.
+* **PACKAGEINFO** – Contains information about this package.
+* **TABOUTFORM** – Used by **Help: About...** to display the copyright notice, registration info and the list of external libraries used in the software. The dialog resembles the one used in Windows. The default push button is **OK**.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Displays a dialog when you press **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**. It allows you to select Unicode values for each glyph. The default push button is **OK**.
 * **TADDGASPFORM** – Used when adding a gasp range to the font. The default push button is **OK**.
@@ -485,7 +485,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TMETRICSFORM** – Used when configuring metrics options. The default push button is **OK**.
 * **TNAMINGFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can manually change the naming fields of a font. The default push button is **OK**. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font. The default push button is **OK**.
-* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options. The default push button is **OK**. The **Help** button does nothing in version 3.0.
+* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings. The default push button is **OK**. The **Help** button does nothing in version 3.0.
 * **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), Glyph Outline Data and Glyph Metrics (i.e. the first two items) are checked by default.
 * **TPCLTFORM** – For versions 3.0 through 6.5 only, displays a dialog where you can include or edit the old PCL5 data for legacy printers. The default push button is **OK**.
 * **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
