@@ -3,7 +3,8 @@
 * All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
-* Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
+* Any glyph stored in the clipboard in version 1.0 until 6.0 will have the words **Glyph Contours** will be stored for only contours or **Glyph Data** for the entire glyph.
+* Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
 * The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
@@ -21,10 +22,10 @@ As FontCreator is released as pay shareware, the unregistered version works for 
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
-* 7.0 (2013-04-25) – The program will create subsetted versions when saving, testing, exporting or installing fonts.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts.
+* 7.0 (2013-04-25) – The program will create subsetted versions when saving, testing, exporting or installing fonts. Also, after a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and TrueType collections cannot be extracted.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. Also, after a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and TrueType collections cannot be extracted.
 
-Under the Help menu is an item labeled **Register** when this executed a screen will pop up giving the registration code.
+Under the **Help** menu is an item labeled **Register...** (the same item appears in the **Buy** menu along with **Buy Now**) when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
 * Windows Vista and later – 12.0.0.2547
@@ -68,6 +69,15 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 
 ### Columns
 * **Open Installed Fonts** – Binary value used by `TINSTALLEDFONTSFORM`.
+
+### Edit (used in `TPASTESPECIALFORM`)
+* **PasteSpecialAnchors** – Used to paste anchors.
+* **PasteSpecialCodepoints** – Used to paste codepoints.
+* **PasteSpecialCodepointsOption** – Used to select the option to paste codepoints.
+* **PasteSpecialGlyphNames** – Used to paste glyph names.
+* **PasteSpecialMetrics** – Used to paste metrics.
+* **PasteSpecialMetricsOption** – Used to select the option to paste metrics.
+* **PasteSpecialOutlineData** – Used to paste outline data.
 
 ### Externals
 There are three built-in external programs: Fonts Folder, Character Map and MainType (if installed).
@@ -158,19 +168,22 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 
 ### Interface Settings
 * **ChildWindowState**
-* **CompleteCompositesAction** – Used with **Complete Composites** button in the toolbar. Default is **Auto**.
-* **CustomNamingShowOutputContent** – Used to show output content for custom naming fields.
-* **GlyphCaptionAuto** – Used with **Captions: Automatic** in the right-click context menu of font overview.
+* **CompleteCompositesAction** – Used with **Complete Composites** button in the toolbar to set the value to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data). Default is 1 (auto).
+* **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window.
+* **ExportSettingsPage** – Select the page used for the export settings.
+* **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** in the right-click context menu of font overview.
 * **GlyphCaptionType2** – Used with the Captions options in the right-click context menu of font overview.
-* **GlyphDrawMode** – Select the mode to draw contours on each glyph.
+* **GlyphDrawMode** – Set the value to 2 for automatic display, 0 for monochrome or 1 for color display. Default is 2 (auto).
 * **GlyphFillAlpha** – Used with **Fill Outline** in the View menu.
 * **GlyphNamesHistoryReplace** – Contains the history of postscript names to replace.
 * **GlyphNamesHistorySearch** – Contains the history of postscript names to find.
 * **GlyphNamesOptionsCS**
 * **GlyphNamesOptionsRE**
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
-* **GlyphPropsExpanded**
+* **GlyphPropsExpanded** – Used to expand the glyph properties.
 * **GroupManagerSorted** – Used to sort the group manager.
+* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Used by the insert glyphs window to select either 0 (at top), 1 (after last glyph), 2 (before each selected glyph) or 3 (after each selected glyph). Default is 3 (after each selected glyph).
+* **InsertGlyphsPage** – Select the page used in the Insert Glyphs dialog.
 * **KerningFolderExport** – Directory for exporting the legacy kerning tables.
 * **KerningFolderImport** – Directory for importing the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
@@ -188,7 +201,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **OTLFDesignerPreviewScript** – Contains the script used for the preview text in the OpenType Designer.
 * **OTLFEditor** – Stores the settings used in the OpenType script editor.
 * **OverviewColCat** – Contains the column categories used in the glyph overview.
-* **OverviewFontZoom** – Contains the zoom factor used in the glyph overview.
+* **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
 * **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. Empty strings displays the preview with **MS Sans Serif** with the characters in a different position. (Available in the Options window)
 * **OverviewShowCaption** – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
@@ -455,7 +468,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
-* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen after the 30-day grace period.
+* **TDISABLEDFORM** – For version 5.0 and 8.0 until 12.0.0.2539 only, displays this form used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen after the 30-day grace period.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
 * **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
@@ -498,7 +511,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSFORM** – Progress window. The cursor for this form is **Busy**. The default push button is **Cancel**.
-* **TREGISTERFORM** – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help: Register**). This removes the splash screen on startup and enables most features disabled in versions 6.0 and 8.0 until 12.0.2539.
+* **TREGISTERFORM** – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help: Register**). This removes the splash screen on startup and the **Buy** menu and enables most features disabled in versions 6.0 and 8.0 until 12.0.2539.
 * **TRESOURCEEDITORDLG** – In old versions only, used when editing resources.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph. The default push button is **OK**.
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after a grace period of 30 days.
