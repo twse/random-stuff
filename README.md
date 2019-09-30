@@ -30,7 +30,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 
 ## Manually bulk-adding names to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see the message in the log.
-1. Clone the **mozilla/community-data** repository via `git clone`.
+1. Clone the `mozilla/community-data` repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities and remove the summaries of each member's contributions.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
@@ -48,22 +48,22 @@ Direct modifications can only be done when you're committing and logged in as th
 
 ## Manually adding a name to Mozilla credits list using command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Clone the `mozilla/community-data` repository.
+1. Clone the `mozilla/community-data` repository via `git clone`.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
-3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation.
+3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation (use backslashes to escape double quotes in the citation).
 4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using GitHub's web user interface
 Direct modifications can only be done when you're committing and logged in as last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
+1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
 4. Use the default option which will commit directly to the `master` branch.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
-This list is located in the credits directory in the repository `mozilla/community-data`.
+This list is located in the credits directory in the `mozilla/community-data` repository.
 
 | Name               | Nickname  | Nationality | Years active | Collaborator? |
 |--------------------|-----------|-------------|--------------|---------------|
@@ -71,17 +71,17 @@ This list is located in the credits directory in the repository `mozilla/communi
 | Gervase Markham    | gerv      | British     | 2004-2017    | YES           |
 | Ram Dayal Vaishnav | gurumukhi | Indian      | 2017-present | YES           |
 
-**Historical note:** The first entry created this page (in rough alphabetical order by last name) using CVS in 1999/08/29 with a post to the Mozilla internationalization and SeaMonkey newsgroups.
+**Historical note:** The first entry created this page (in rough alphabetical order by last name) via CVS in 1999/08/29 and posted it to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** The second entry wrote management tools in 2011/03 when adding several previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above mentioned paragraph in the second entry of this index.
+**P.S.** The second entry wrote management tools in 2011/03 when he added previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
 ## Protest pages (available in four versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking. Two pages have scripts which don't work in browsers that are not Internet Explorer (e.g. Chrome).
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
 
 * **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff which is not included in this page.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes scripts which only works in the browser itself.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**. Includes scripts which only works in the browser itself.
 * **DNS error** (Wii Internet Channel) – The links refers to pages in the Opera help website.
 
 ## Translations of EasyPaint into multiple languages
