@@ -16,14 +16,12 @@ This font family covers the following diacritics:
 3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Tajik, Mongolian, Kazakh, Tatar, etc. etc. etc.)
 4. **All** diacritics of all five Adobe Latin character sets.
 
-## Other vector fonts (ordinary Unicode)
+## Other fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
-* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
-* **Geneva Mega** is for use with Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, Dogrib, Gwich'in, Cayuga, Haisla, etc. etc. etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple holds a trademark.
-
-## Pixel fonts (ordinary Unicode) created with FontCreator 5.6
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
+* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
+* **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
+* **Geneva Mega** is for use with Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, Dogrib, Gwich'in, Cayuga, Haisla, etc. etc. etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple holds a trademark.
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -50,7 +48,7 @@ Direct modifications can only be done when you're committing and logged in as th
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository via `git clone`.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
-3. Commit the new file using `git commit -a -m 'name <email>: "citation"'` replaced with your name, email and citation (use backslashes to escape double quotes in the citation).
+3. Commit the new file using `git commit -a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
@@ -63,7 +61,7 @@ Direct modifications can only be done when you're committing and logged in as la
 5. Visit the credits page via `about:credits` (Mozilla browser) or click the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
-This list is located in the credits directory in the `mozilla/community-data` repository.
+The `names.csv` file is located in the credits directory in the `mozilla/community-data` repository.
 
 | Name               | Nickname  | Nationality | Years active | Collaborator? |
 |--------------------|-----------|-------------|--------------|---------------|
@@ -76,12 +74,12 @@ This list is located in the credits directory in the `mozilla/community-data` re
 **P.S.** The second entry wrote management tools in 2011/03 when he added previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for modifications not done via the form (e.g. bulk additions) or replying the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
 ## Protest pages (available in four versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages. Internet Explorer 6.0 SP1 and 6.05 are not covered by ActiveX and script blocking.
+Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages.
 
 * **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
-* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff which is not included in this page.
+* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff which is not included in this page. Internet Explorer 6.0 SP1 and 6.05 are the only versions to not use ActiveX content and script blocking.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself will open the network diagnostic tool). Includes scripts which only works in the browser itself.
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**. Includes scripts which only works in the browser itself.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself will open the network diagnostic tool). The original page uses curly quotes. This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**. Includes scripts which only works in the browser itself.
 * **DNS error** (Wii Internet Channel) – The links refers to pages in the Opera help website.
 
 ## Translations of EasyPaint into multiple languages
