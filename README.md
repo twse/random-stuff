@@ -3,14 +3,12 @@
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names that are used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens et al.
 
-## Pan-European fonts version 6.0
-This font family will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
+## Pan-European Serif version 6.0
+This font will be used as a full-featured OpenType font by users of an OpenType-savvy word processor (e.g. Word 2019). The font can only be used as an ordinary Unicode font by users of a non-OpenType-savvy word processor (e.g. Hancom Word NEO).
 
 Pan-European Serif comes in four styles - Roman, Italic, Bold and Bold Italic.
 
-Pan-European Sans comes in two styles - Regular and Bold.
-
-This font family covers the following diacritics:
+This font covers the following diacritics:
 1. **All** characters of the six Windows Code Pages, i.e. 1252 (Western Europe), 1250 (Central and Eastern Europe), 1257 (Baltic), 1254 (Turkish), 1253 (Greek), 1258 (Vietnamese) and also all characters of eleven macOS Code Pages (US Roman, Celtic, Central Europe, Croatian, Greek, Icelandic, Irish Gaelic, Lappish, Romanian, Southern Europe and Turkish).
 2. **All** diacritics required for ISO 15919 ("Transliteration of Devanāgarī and related Indic Scripts into Latin characters": Vedic, Sanskrit, Hindi, Marathi, Bengali, Gujarati, Kannada, Telugu, Tamil, etc. etc. etc.) and many other non-ISO 15919, e.g. the additional diacritics used in the Sanskrit TITUS files, e.g. the additional diacritics needed by Buddhologists (Pali, Tibetan, Chinese, etc.), e.g. additional metrics symbols, e.g. additional diacritics used in the ALA-LC scheme (Kashmiri, Sumerian, Prakrit, Akkadian, Burmese, Divehi, etc. etc. etc.), e.g. additional diacritics for Proto-Indo-European etc. etc. etc.
 3. **All** diacritics required for ISO 9 ("Transliteration of Cyrillic characters into Latin characters - Slavic and non-Slavic languages": Russian, Ukrainian, Belorussian, Bulgarian, Macedonian, Tajik, Mongolian, Kazakh, Tatar, etc. etc. etc.)
@@ -19,9 +17,7 @@ This font family covers the following diacritics:
 ## Other fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Flareserif International** is based on Albertus. This font comes in one style only - Regular.
 * **Generic Menu**: Based on the font used in WarioWare GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font.
-* **Geneva Mega** is for use with Native American languages with Latin script (Navajo, Hän, Tutchone, Kaska, Tagish, Dogrib, Gwich'in, Cayuga, Haisla, etc. etc. etc.). This font comes in one style only - Regular. **TODO:** Rename this font to avoid clashes with names on which Apple holds a trademark.
 * **LTROL Font**: Based on the font used in the American version of Lufia: The Ruins of Lore. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font used in western versions of Zone of the Enders: The Fist of Mars, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
