@@ -1,7 +1,7 @@
 This repository is unrelated to the below two headings.
 
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
-Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository. After you signed the Contributor License Agreement and faxed it, every comment you post in Python's issue tracker will have a star added to the end of your username.
+Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository. After you signed the Contributor License Agreement and faxed it, every comment you post in Python's issue tracker adds an asterisk to the end of your username in parentheses.
 
 This list represents but a portion of the people who sent the Contributor Agreement to the Python Software Foundation.
 
