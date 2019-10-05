@@ -20,10 +20,10 @@
 As FontCreator is released as pay shareware, the unregistered version has a grace period of 30 days with the following limitations based on the version number.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, the program will show a nag screen when pressing **Start**. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
-* 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
+* 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
 * 6.0 (2009-06-17), 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program runs a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
-* 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and TrueType collections cannot be extracted.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and TrueType collections cannot be extracted.
+* 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 
 Under the **Help** menu is an item labeled **Register...** (the same item is in the **Buy** menu along with **Buy Now**) when this executed a screen will pop up giving the registration code.
 
@@ -43,7 +43,8 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
-* **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website via filling the form or downloading it directly).
+* **FontCreatorSetup.exe** – Install wizard for x86 platform.
+* **FontCreatorSetup-x64.exe** – Install wizard for x64 platform.
 * **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
@@ -270,8 +271,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **LayoutMode** – Select the layout mode used in the OpenType Designer.
 * **MarkWidth** – Select the mark width used in the OpenType Designer.
 * **PairWidth** – Select the pair width used in the OpenType Designer.
-* **PreviewHeight** – Used with preview text height in the OpenType Designer.
-* **PreviewSampleFontSize** – Used with preview sample font size in the OpenType Designer.
+* **PreviewHeight** – Select the preview text height in the OpenType Designer.
+* **PreviewSampleFontSize** – Select the preview sample font size in the OpenType Designer.
 * **SimpleWidth** – Set the width used in the OpenType Designer.
 * **SingleWidth** – Set the width used in the OpenType Designer.
 * **TreeWidth** – Select the tree width used in the OpenType Designer.
@@ -372,7 +373,9 @@ The program is started in unregistered mode after installation or if this key is
 * **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard.
 * **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard.
 * **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
+* **TestOverlappingComponents** – Used with Validation Tests: Overlapping components** in the Font Validation Wizard.
 * **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
+* **TestSuspiciousPoints** – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard.
 * **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation.
 * **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation.
@@ -467,11 +470,11 @@ The program is started in unregistered mode after installation or if this key is
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font. The default push button is **OK**.
 * **TCOLORFORM** – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours. The default push button is **OK**.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours (Import Raster Image). The default push button is **Generate**.
 * **TDISABLEDFORM** (version 5.0 until 6.5 and 8.0 until 12.0.0.2539) – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 until 6.5) after a grace period of 30 days.
 * **TDM** – This data is binary.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
-* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
+* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract OpenType font collections. The default push button is **Next**.
 * **TFINDFORM** – Used when searching parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when changing embedding and licensing rights in the font. The default push button is **OK**.
 * **TFONTHEADERFLAGSFORM** – Used when changing header flags in the font. The default push button is **OK**.
@@ -480,7 +483,7 @@ The program is started in unregistered mode after installation or if this key is
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
 * **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding. Version 3.0 through 6.0 only prints ASCII characters in the current font.
+* **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding. Version 3.0 through 6.0 only prints ASCII characters in the current font.
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
