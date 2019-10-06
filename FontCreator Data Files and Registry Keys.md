@@ -1,4 +1,4 @@
-## Notes
+﻿## Notes
 * The cursor remains "Busy" when saving fonts while you do other stuff in the background.
 * All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)".
 * If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -168,7 +168,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ShowUserNotes** – Used with **Show User Notes**. Default is off.
 
 ### Interface Settings
-* **ChildWindowState**
+* **ChildWindowState** – Contains the child window state.
 * **CompleteCompositesAction** – Used with **Complete Composites** button in the toolbar to set the value to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data). Default is 1 (auto).
 * **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window.
 * **ExportSettingsPage** – Select the page used for the export settings.
@@ -178,7 +178,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
 * **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of postscript names to replace as used by the glyph names dialog.
 * **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of postscript names to find as used by the glyph names dialog.
-* **GlyphNamesOptionsCS**
+* **GlyphNamesOptionsCS** – Contains the context substitutions used by the glyph names dialog.
 * **GlyphNamesOptionsRE** – Contains the regular expressions used by the glyph names dialog.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
 * **GlyphPropsExpanded** – Used to expand the glyph properties.
