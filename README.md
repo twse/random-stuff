@@ -69,7 +69,7 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 
 **P.S.** The second entry wrote management tools in 2011/03 when he added previous localizers without a citation via SVN. The last entry forked the above repository, is using pull requests and will close pull requests for additions not done via the form (e.g. bulk additions) or modifications not done via replies to the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
-## Protest pages (available in four versions)
+## Protest pages (available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages.
 
 * **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
