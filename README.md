@@ -85,13 +85,9 @@ All translations are in ts format (these can be edited with Qt Linguist or other
 * Finnish (fi_FI)
 * German (de_DE)
 * Hungarian (hu_HU)
-* Italian (it_IT)
 * Korean (ko_KR)
-* Norwegian Bokmål (nb_NO)
-* Norwegian Nynorsk (nn_NO)
 * Polish (pl_PL)
 * Portuguese, as spoken in Brazil (pt_BR)
 * Romanian (ro_RO) – Contributed by Nicolae Oprea
 * Spanish, as spoken in Spain (es_ES)
 * Swedish, as spoken in Sweden (sv_SE)
-* Turkish (tr_TR)
