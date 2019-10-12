@@ -9,6 +9,7 @@
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
 * Version 1.0 until 7.0 only supports adding glyphs that have a Unicode BMP mapping.
+* Version 5.0 (2005-01-12) is the first version of FontCreator to use Windows XP style icons. Version 10.1.02272 (2016-12-20) is the last version of FontCreator to use Windows XP style icons.
 * Generating postscript names and adding to preview toolbar in versions 5.0 until 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
@@ -21,7 +22,7 @@ As FontCreator is released as pay shareware, the unregistered version has a grac
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, the program will show a nag screen when pressing **Start**. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
-* 6.0 (2009-06-17), 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program runs a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
+* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program runs a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 
@@ -39,7 +40,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.0 is FC Test Font ###### (###### is six numbers).
+* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
@@ -342,7 +343,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **Underline** – Used for **Underline** in the Test Font window. Default is off.
 
 ### Reg
-The program is started in unregistered mode after installation or if this key is removed.
+The program is started in unregistered mode either after installing or all keys are blank or this key is removed.
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
@@ -465,31 +466,31 @@ The program is started in unregistered mode after installation or if this key is
 * **TADDFPSTYLISTICSETNAMEFORM** – Used when adding or writing a description of any stylistic set.
 * **TADDGASPFORM** – Used when adding a gasp range to the font. The default push button is **OK**.
 * **TADDLOCALLANGUAGEDATAFORM** – Used when adding language data to the font. The default push button is **OK**.
-* **TADDPLATFORMFORM** – Used when pressing the **Add** button in the Platform Manager (this adds a platform to the font). The default push button is **OK**. The **Help** button does nothing in version 3.0.
+* **TADDPLATFORMFORM** – Used when adding a platform to the font (**Add** button in the Platform Manager). The default push button is **OK**. The **Help** button does nothing in version 3.0.
 * **TADDUVSFORM** – Used when adding Unicode variation sequences to the font.
 * **TADVANCEDEDITFORM** – Used when editing a naming field in the font. The default push button is **OK**.
-* **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** – Used when managing anchors in the font.
+* **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Used when managing anchors in the font.
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in old versions) – Used when automatically adding kerning pairs to the legacy kerning tables. The default push button is **Next**.
 * **TAUTOMETRICSFORM** – Used when automatically generating metrics for glyphs. The default push button is **Next**.
 * **TAUTONAMEFORM** – Used when automatically changing the naming fields of a font. The default push button is **Next**.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 through 6.5) – Used when including additional naming fields for a font. The default push button is **OK**. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** – Used when changing tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** – The default push button is **OK**.
-* **TCODEEDITORFORM** – Used when editing the features in the OpenType layouts.
+* **TCODEEDITORFORM** – Used when editing the features in the OpenType layout tables.
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font. The default push button is **OK**.
-* **TCOLORFORM** – It's not the standard Windows color selection dialog.
+* **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours (Import Raster Image). The default push button is **Generate**.
-* **TDELETEFEATURELOOKUPFORM** – Used when deleting features or lookups in the font.
-* **TDELETEKERNGROUPFORM** – Used when deleting kerning groups or classes in the form.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours (the window is titled **Import Raster Image**). The default push button is **Generate**.
+* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Used when deleting features or lookups in the font.
+* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Used when deleting kerning groups or classes in the form.
 * **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 until 6.5) after a grace period of 30 days.
 * **TDM** and **TDMGLOBAL** – Shows a large list of forms.
-* **TEDITANCHORFORM** - Used when editing anchors in the font.
+* **TEDITANCHORFORM** (version 7.0 & above) - Used when editing anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Used when exporting the font.
 * **TEXTERNALSFORM** – Used when changing external tools.
-* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract OpenType font collections. The default push button is **Next**.
-* **TFEATURESETTINGSFORM** – Used when generating or updating OpenType features.
+* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from OTC...** to extract OpenType font collections. The default push button is **Next**.
+* **TFEATURESETTINGSFORM** (version 7.0 & above) – Used when generating or updating OpenType features.
 * **TFINDFORM** – Used when searching parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when changing embedding and licensing rights in the font. The default push button is **OK**.
 * **TFONTHEADERFLAGSFORM** – Used when changing header flags in the font. The default push button is **OK**.
@@ -498,17 +499,17 @@ The program is started in unregistered mode after installation or if this key is
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
-* **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
+* **TFONTTABLESFORM** – Shows a list of tables in the font. The default push button is **OK**.
 * **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding. Version 3.0 through 6.0 only prints ASCII characters in the current font.
 * **TFORMADDANCHOR** – Used when adding anchors in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** – Displays a dialog where you can configure settings for the OpenType Designer.
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
 * **TFRAMECATEGORY** – Used by the font overview to display categories.
 * **TFRAMEGLYPHMEMBER** – Used by the font overview to display glyph members.
-* **TFRAMEPALETTE** – Used by the font overview to edit the palette.
+* **TFRAMEPALETTE** – Used when editing multicolored fonts.
 * **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours. The default push button is **Cancel**.
-* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
+* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard (the window is titled **Report**). The default push button is **OK**.
 * **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The default push button is **Yes**.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
@@ -523,20 +524,19 @@ The program is started in unregistered mode after installation or if this key is
 * **TINSTALLEDFONTSFORM** – Displays a dialog to open installed fonts in the computer. The default push button is **OK**. The **Help** button does nothing in version 3.0.
 * **TKERNFEATUREFRAME** – Used by the kerning window.
 * **TKERNGROUPMANAGERFORM** – Used when managing kerning groups or classes in the font.
-* **TKERNINGFORM** – For old versions, displays a dialog where you can view or edit the legacy kerning tables (not the GPOS KERN table) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
+* **TKERNINGFORM** – For old versions, displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** – Used when adding a kerning pair to the legacy kerning tables (not the GPOS kerning tables). The default push button is **OK**.
 * **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
-* **TMAINFORMFCP3** – Version 3.0 only. Used when starting FontCreator. (See `TMAINFORMFONTCREATOR` in recent versions)
-* **TMAINFORMFONTCREATOR** – Used when starting FontCreator.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in old versions) – Main window for FontCreator and other.
 * **TMETRICSFORM** – Used when configuring metrics options. The default push button is **OK**.
 * **TNAMINGFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can manually change the naming fields of a font. The default push button is **OK**. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font. The default push button is **OK**.
-* **TOPENTYPEDESIGNERFORM** – Displays a dialog where you can create or edit the OpenType layout tables.
-* **TOPENTYPEITEMADDFORM** – Used when adding an item to the OpenType layout tables.
+* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can create or edit the OpenType layout tables.
+* **TOPENTYPEITEMADDFORM** (version 7.0 & above) – Used when adding an item to the OpenType layout tables.
 * **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings. The default push button is **OK**. The **Help** button does nothing in version 3.0.
-* **TOTLFRENAMEFORM** – Used when renaming layout features in the OpenType tables.
-* **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), Glyph Outline Data and Glyph Metrics (i.e. the first two items) are checked by default. In latest versions, the registry keys are stored in the `Edit` key.
-* **TPCLTFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can include or edit the PCL5 data for legacy printers. The default push button is **OK**.
+* **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
+* **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In latest versions, the registry keys are stored in the `Edit` key.
+* **TPCLTFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can add, view or edit the PCL5 data for use with old printers. The default push button is **OK**.
 * **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
 * **TPLATFORMMANAGERFORM** – For versions 2.0 through 6.0 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
 * **TPOSTSCRIPTNAMESFORM** – Used when changing PostScript names for any glyph in the font. The default push button is **OK**.
@@ -544,19 +544,19 @@ The program is started in unregistered mode after installation or if this key is
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**. The default push button is **Cancel**.
-* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help or Buy: Register...**). This removes the splash screen on startup and the **Buy** menu and enables most features disabled in versions 6.0 and 8.0 until 12.0.2539.
+* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes the splash screen on startup and the **Buy** menu and makes it fully functional like version 5.6.
 * **TRESOURCEEDITORDLG** – In old versions only, used when editing resources.
 * **TRESOURCEMODULE** – Used for resource module.
 * **TRICHVIEWDIALOG** – Used by rich text.
-* **TRULEMANAGER** – Used when managing rules in the OpenType layout tables.
+* **TRULEMANAGER** (version 7.0 & above) – Used when managing rules in the OpenType layout tables.
 * **TSAMPLETEXTFORM** – Used when managing sample texts in the test font window.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph. The default push button is **OK**.
 * **TSELECTLOOKUPTABLEFORM** – Used when seelcting a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after a grace period of 30 days.
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font. The default push button is **OK**.
-* **TSPLASHFORM** – Displays this form when starting in unregistered mode. The three buttons at the bottom are displayed in random order.
+* **TSPLASHFORM** – For unregistered copies of FontCreator. The three buttons at the bottom are displayed in random order.
 * **TSPTBXCOLORPICKERFORM** – Used when selecting a color for use with multicolored fonts.
-* **TSUBLOOKUPMGR** – Used when managing subtables in the OpenType layout tables.
+* **TSUBLOOKUPMGR** (version 7.0 & above) – Used when managing subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
 * **TTEXTSEARCHDIALOG** – Used by the OpenType Designer to search text.
 * **TTIPOFTHEDAYFORM** – Used in version 1.0 until 6.0, newcomers and **Help: Tip of the Day**. `FontCreator.tip` will be used to display tips. On unregistered copies is a button labeled **Register** (removing it will display the access violation). See **FontCreator: Tips and Tricks** in the High-Logic font forum for more details.
