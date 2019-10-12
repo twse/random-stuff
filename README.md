@@ -17,7 +17,7 @@ This font covers the following diacritics:
 ## Other fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font used in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as a Japanese font (Kanji letters not included in the font).
+* **Generic Menu**: Based on the font used in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (a subset of Kanji letters are included in the font).
 * **LTROL Font**: Based on the font used in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font used in western versions of *Zone of the Enders: The Fist of Mars*, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -33,11 +33,11 @@ You won't receive any emails when your name is added - this will only see the me
 7. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually bulk-adding names to Mozilla credits list using GitHub's web user interface
-This only works when committed and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see the message in the log.
-1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
+Only works when committed and logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see the message in the log.
+1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
-4. Use the default option which will commit directly to the `master` branch.
+4. Use the default option (commit directly to the `master` branch).
 5. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using command line
@@ -49,11 +49,11 @@ You won't receive any emails when your name is added - this will only see your n
 5. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list using GitHub's web user interface
-This only works when committed and logged in as the last entry in the below owner list. Alternatively, the user can be added to the repository's collaborator list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
-1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
+Only works when committed and logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
+1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
-4. Use the default option which will commit directly to the `master` branch.
+4. Use the default option (commit directly to the `master` branch).
 5. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
@@ -72,13 +72,13 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 ## Protest pages (available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages.
 
-* **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down).
-* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff which is not included in this page. Internet Explorer 6.0 SP1 and 6.05 are the only versions to not use ActiveX content and script blocking.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing it in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` will open the network diagnostic tool). Includes scripts which only works in the browser itself.
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing it in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` will open the network diagnostic tool). The original page uses curly quotes. This browser removed the option to change the connectivity in the file menu. To make the page look like computers not connected to the internet, remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet**.
+* **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
+* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page). Internet Explorer 6.0 SP1 and 6.05 are the only versions to not use ActiveX content and script blocking.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` will open the network diagnostic tool). Includes scripts which only works in the browser itself.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page using curly quotes is accessed as `res://ieframe.dll/dnserror.htm` will open the network diagnostic tool). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (these can be edited with Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
 
 * Danish (da_DK)
 * Dutch (nl_NL)
