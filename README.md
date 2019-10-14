@@ -67,15 +67,15 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 
 **Historical note:** The first entry created this page (in rough alphabetical order by last name) via CVS in 1999/08/29 with a message posted to the Mozilla internationalization and SeaMonkey newsgroups.
 
-**P.S.** The second entry wrote management tools in 2011/03 when he added many previous localizers without a citation via SVN. The last entry forked the above repository, uses pull requests and closes pull requests for additions not done via the form (e.g. bulk additions) or modifications not done via replies to the application message with a comment using the above mentioned paragraph in the second entry of this index.
+**P.S.** The second entry wrote management tools in 2011/03 when he added many previous localizers without a citation via SVN and committed directly via GIT with the two commands commit and push. The last entry forked the above repository, uses pull requests and closes pull requests for additions not done via the form (e.g. bulk additions) or modifications not done via replies to the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
 ## Protest pages (available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages.
 
 * **Web page not available** (Old Android browser) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page). Internet Explorer 6.0 SP1 and 6.05 are the only versions to not use ActiveX content and script blocking.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7 & above – Windows XP and Vista) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` will open the network diagnostic tool). Includes scripts which only works in the browser itself.
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page using curly quotes is accessed as `res://ieframe.dll/dnserror.htm` will open the network diagnostic tool). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool). Includes scripts which only works in the browser itself.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page using curly quotes is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
