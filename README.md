@@ -1,4 +1,5 @@
 ﻿# Index
+<<<<<<< HEAD
 * (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language; there is no regard to the `Accept-Language` HTTP request header. Only paragraphs for languages with Latin, Greek and Cyrillic script are included (see the list of languages in the zipped archive itself). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language (either credited or uncredited in-game). **NB!** Swearing is everywhere in the font-specific pages so readers should be 12 or older.
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). "We know there are many Mozillians, past and present, who do not have Mozilla Bugzilla or Pontoon profiles. This includes legacy contributors and translators who have not updated their email address on Mozilla Bugzilla and Pontoon." (**Source:** Monument page in the Mozilla Wiki) The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
@@ -8,6 +9,11 @@
 ## Software Data Files and Registry Keys
 * **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
 * **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data, e.g. history and cookies).
+=======
+* **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data for the pay shareware font editor FontCreator.
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
+* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, pharmaceutics, vaccine, decongestants, chemotherapeutics, organic acids, progestogens, analgesics, topical products, modulators, triptans et al.
+>>>>>>> 9f04df4 (Removed more words in the SitePal forum drug word list)
 
 ## Fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the font files). All fonts have only a regular type style, so don't apply bold or italic attributes, otherwise the OS will synthesise styles, which will bloat PDF files.
