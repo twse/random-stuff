@@ -536,10 +536,10 @@ The program is started in unregistered mode either after installing or if all ke
 * **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings. The default push button is **OK**. The **Help** button does nothing in version 3.0.
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
 * **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In latest versions, the registry keys are stored in the `Edit` key.
-* **TPCLTFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can add, view or edit the PCL5 data for use with old printers. The default push button is **OK**.
+* **TPCLTFORM** – For versions 3.0 through 7.0 only, displays a dialog where you can add, view or edit the PCL5 data for use with old printers. The default push button is **OK**.
 * **TPERFORMTRANSFORMATIONFORM** – For version 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
-* **TPLATFORMMANAGERFORM** – For version 2.0 until 6.0 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
-* **TPOSTSCRIPTNAMESFORM** – Used when changing PostScript names for any glyph in the font. The default push button is **OK**.
+* **TPLATFORMMANAGERFORM** – For version 2.0 until 7.0 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
+* **TPOSTSCRIPTNAMESFORM** – For version 2.0 until 7.0 only, used when changing PostScript names for any glyph in the font. The default push button is **OK**.
 * **TPRINTABORTFORM** – Used after the font printing process is started.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
