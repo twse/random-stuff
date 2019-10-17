@@ -339,8 +339,8 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
 * **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
-* **StrikeThrough** – Used for **Strikeout** in the Test Font window. Default is off.
-* **Underline** – Used for **Underline** in the Test Font window. Default is off.
+* **StrikeThrough** – Set to on if you want to strikeout text in the Test Font window. Default is off.
+* **Underline** – Set to on if you want to underline text in the Test Font window. Default is off.
 
 ### Reg
 The program is started in unregistered mode either after installing or if all keys are blank or if this key is removed.
@@ -464,9 +464,9 @@ The program is started in unregistered mode either after installing or if all ke
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for a specific language.
 * **TADDFPCVLTSFORM** – Used when adding a label, tooltip or sample.
 * **TADDFPSIZENAMEFORM** – Used when adding a subfamily name.
-* **TADDFPSTYLISTICSETNAMEFORM** – Used when adding or writing descriptions of stylistic sets.
+* **TADDFPSTYLISTICSETNAMEFORM** – Used when adding or writing stylistic set names or descriptions.
 * **TADDGASPFORM** – Used when adding a gasp range to the font.
-* **TADDLOCALLANGUAGEDATAFORM** – Used when adding language data to the font.
+* **TADDLOCALLANGUAGEDATAFORM** – Used when adding naming field data of multiple languages to the font.
 * **TADDPLATFORMFORM** – Used when adding a platform to the font (**Add** button in `TPLATFORMMANAGERFORM`). The **Help** button does nothing in version 3.0.
 * **TADDUVSFORM** – Used when adding Unicode variation sequences to the font.
 * **TADVANCEDEDITFORM** – Used when editing a naming field in the font.
@@ -484,7 +484,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours (the window is titled **Import Raster Image**).
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Used when deleting features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Used when deleting kerning groups or classes in the form.
-* **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 until 6.5) after a grace period of 30 days.
+* **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 until 6.5 or 8.0 & above) after a grace period of 30 days.
 * **TDM** and **TDMGLOBAL** – Shows a large list of forms.
 * **TEDITANCHORFORM** (version 7.0 & above) - Used when editing anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data.
@@ -514,8 +514,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
-* **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) – Displays a dialog where you can change various properties for the selected glyph. The **Help** button does nothing in version 3.0.
-* **TGLYPHPROPERTIESFRAME** – Displays a dialog where you can change various properties for the selected glyph.
+* **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** – Used where you can change various properties for the selected glyph. The **Help** button does nothing in version 3.0.
 * **TGRIDFORM** – Used when changing grid settings. The **Help** button does nothing in version 3.0.
 * **TGUIDELINEMODIFYFORM** – Used when modifying guidelines.
 * **TGUIDELINESFORM** – Used when changing guideline settings. The **Help** button does nothing in version 3.0.
@@ -527,9 +526,9 @@ The program is started in unregistered mode either after installing or if all ke
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Used when adding a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
 * **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in old versions) – Main window for FontCreator, toolbars and more. The menu in the main window has hidden shortcuts and developer tools menus.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The menu in the main window has two hidden menus (hidden shortcuts and developer tools).
 * **TMETRICSFORM** – Used when configuring metrics options.
-* **TNAMINGFORM** (version 3.0 until 6.5) – displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
+* **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
 * **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can create or edit the OpenType layout tables.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Used when adding an item to the OpenType layout tables.
@@ -555,7 +554,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after a grace period of 30 days.
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font.
 * **TSPLASHFORM** – For unregistered copies of FontCreator. The three buttons at the bottom are displayed in random order.
-* **TSPTBXCOLORPICKERFORM** – Used when selecting a color for use with multicolored fonts.
+* **TSPTBXCOLORPICKERFORM** – Used when selecting colors for use with multicolored fonts.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Used when managing subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
 * **TTEXTSEARCHDIALOG** – Used by the OpenType Designer to search text.
