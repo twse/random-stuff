@@ -73,13 +73,13 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **Open Installed Fonts** – Binary value used by `TINSTALLEDFONTSFORM`.
 
 ### Edit (used in `TPASTESPECIALFORM`)
-* **PasteSpecialAnchors** – Used to paste anchors.
-* **PasteSpecialCodepoints** – Used to paste codepoints.
-* **PasteSpecialCodepointsOption** – Used to select the option to paste codepoints.
-* **PasteSpecialGlyphNames** – Used to paste glyph names.
-* **PasteSpecialMetrics** – Used to paste metrics.
-* **PasteSpecialMetricsOption** – Used to select the option to paste metrics.
-* **PasteSpecialOutlineData** – Used to paste outline data.
+* **PasteSpecialAnchors** – Used to paste anchors. Default is on.
+* **PasteSpecialCodepoints** – Used to paste codepoints. Default is on.
+* **PasteSpecialCodepointsOption** – Used to select the option to paste codepoints. Default is 0 (Keep same code-points).
+* **PasteSpecialGlyphNames** – Used to paste glyph names. Default is off.
+* **PasteSpecialMetrics** – Used to paste metrics. Default is on.
+* **PasteSpecialMetricsOption** – Used to select the option to paste metrics. Default is 0 (Side bearings.
+* **PasteSpecialOutlineData** – Used to paste outline data. Default is on.
 
 ### Externals (used by Tools: Launch External)
 There are three built-in external programs: MainType (if installed), Fonts Folder, Character Map.
@@ -110,7 +110,8 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **ShowFirstAndLastPointIndicators** – Used with **Show First and Last** in the Grid toolbar. Default is on.
 * **ShowToolbarWindowBackground** – Enables or disables the Background Image toolbar. Default is off.
 * **ShowToolbarWindowKerning** – Enables or disables the kerning window. Default is off.
-* **ShowToolbarWindowPalette** – Used with **Palette** in the toolbar right click context menu.
+* **ShowToolbarWindowMembers** – Enables or disables the members window for use with colored fonts. Default is off.
+* **ShowToolbarWindowPalette** – Enables or disables the palette for use with colored fonts. Default is off.
 * **ShowToolbarWindowTransformation** – Used with **Transformation** in the toolbar right click context menu. Default is on.
 * **ShowToolbarWindowValidation** – Used with **Show Report** in the Glyph toolbar. Default is off.
 
@@ -289,18 +290,18 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
 * **DefaultNamingFontDesignerLinkIncluded** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
-* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
+* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize. Default value leads to a non-existing domain.
 * **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize. Default is empty.
 * **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize.
 * **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
+* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize. Default value leads to a non-existing domain.
 * **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize. Default is empty.
 * **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize.
 * **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**.
 * **DefaultPersFontEmbeddingItemID** – Used with **Default Settings for New Fonts: Embedding Lic. Rights** in Options: Personalize.
 * **DefaultPersVendorIDText** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is **HL**.
 * **DefaultPersVendorText** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is **High-Logic / Made with FontCreator**.
-* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. No default value.
+* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize.
 * **DefaultVendorIDIncluded** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is on.
 * **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
@@ -336,7 +337,7 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **PreviewFeatures** – Select the features used in the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Select the size in the Preview window.
-* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
+* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
 * **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Set to on if you want to strikeout text in the Test Font window. Default is off.
