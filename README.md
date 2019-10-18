@@ -1,6 +1,6 @@
-﻿# Index
+# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data for the pay shareware font editor FontCreator.
-* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
+* **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, pharmaceutics, decongestants, chemotherapeutics, organic acids, progestogens, analgesics, topical products, modulators, triptans, carbohydrates et al.
 
 ## Fonts
@@ -9,7 +9,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 * **Generic Menu**: Based on the font used in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (a subset of Kanji letters are included in the font).
 * **LTROL Font**: Based on the font used in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
-* **ZOE TFOM**: Based on the font used in western versions of *Zone of the Enders: The Fist of Mars*, excluding CJK Unified Ideographs. Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
+* **ZOE TFOM**: Based on the font used in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
 ## Manually bulk-adding names to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see the message in the log.
@@ -54,9 +54,7 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | YES         | 2004-2017    | YES           |
 | Ram Dayal Vaishnav | gurumukhi | YES         | 2017-present | YES           |
 
-**Historical note:** The first entry created this page (in rough alphabetical order by last name) via CVS in 1999/08/29 with a message posted to the Mozilla internationalization and SeaMonkey newsgroups.
-
-**P.S.** The second entry wrote management tools in 2011/03 after he added many previous localizers via SVN and committed directly via GIT using two commands (commit and push). The last entry forked the above repository, uses pull requests and closes pull requests for additions not done via the form (e.g. bulk additions) or modifications not done via replies to the application message with a comment using the above mentioned paragraph in the second entry of this index.
+**P.S.** Mozilla used to have an EMail address to add yourself to the credits list (the second entry changed it to a form at Google Forms in 2013/11 during a batch of additions). The first entry created this page (in rough alphabetical order by last name) via CVS in 1999/08/29 with a message posted to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 after he added many previous localizers via SVN and committed directly via GIT using two commands (commit and push). The last entry forked the above repository, uses pull requests and closes pull requests for additions outside the form (e.g. bulk additions) or modifications without replying to the application message with a comment using the above mentioned paragraph in the second entry of this index.
 
 ## Protest pages (available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380), Canada (1942-2006) for his protest pages.
