@@ -1,4 +1,4 @@
-## Notes
+﻿## Notes
 * The cursor remains "Busy" when saving fonts and doing other stuff in the background.
 * All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)".
 * Exiting the program may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -81,7 +81,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **PasteSpecialMetricsOption** – Used to select the option to paste metrics. Default is 0 (Side bearings).
 * **PasteSpecialOutlineData** – Used to paste outline data. Default is on.
 
-### Externals (used by Tools: Launch External)
+### Externals (used by Tools: Launch Externals)
 There are three built-in external programs: MainType (if installed), Fonts Folder, Character Map.
 * **Location#** – The last character can be up to digit three. Default is empty.
 * **Title#** – The last character can be up to digit three. Default is **External #** whereas # is a number.
@@ -140,7 +140,7 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
-* **UpdateCheckInterval** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled.
+* **UpdateCheckInterval** – Used by **Startup: Check for updates** in the Options: General tab. Values are 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
 
 ### GuideLines (used in `TGUIDELINESFORM`)
 * **Color** – Default is black.
