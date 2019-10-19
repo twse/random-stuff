@@ -473,10 +473,10 @@ The program is started in unregistered mode either after the installation proces
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in old versions) – Used when automatically adding kerning pairs to the legacy kerning tables.
 * **TAUTOMETRICSFORM** – Used when automatically generating metrics for glyphs.
 * **TAUTONAMEFORM** – Used when automatically changing the naming fields of a font.
-* **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 through 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
+* **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** – Used when changing tags in a font.
-* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** – Used when mapping a character to glyph index.
-* **TCODEEDITORFORM** – Used when editing the features in the OpenType layout tables.
+* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Used when mapping a character to glyph index.
+* **TCODEEDITORFORM** – Displays a dialog where you can edit the OpenType layout table code (**Code Editor** in OpenType Designer).
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font.
 * **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member.
