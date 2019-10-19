@@ -8,14 +8,14 @@
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
-* Version 1.0 until 7.0 only supports adding glyphs to the preview toolbar having a Unicode BMP mapping.
+* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only supports adding glyphs to the preview toolbar having a Unicode BMP mapping.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
 * Generating postscript names and adding to preview toolbar in versions 5.0 until 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) has the same mapping in the Macintosh Roman glyph mapping list.
-* Version 1.0 until 5.6 used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts, e.g. é by e and when exporting kerning pairs, instead of having &lt;&lt; (much less than) for « you have to use \\00AB as escape code.
+* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts, e.g. é by e and when exporting kerning pairs, instead of having &lt;&lt; (much less than) for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 The unregistered version has a grace period of 30 days with the following limitations based on the version number.
@@ -25,6 +25,7 @@ The unregistered version has a grace period of 30 days with the following limita
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program runs a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) and 7.5 (2013-08-02) – Before a grace period of 30 days, the program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – Before a grace period of 30 days, the program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
+* All versions – The window title bar will display **(UNREGISTERED)**.
 
 Under the **Help** menu is an item labeled **Register...** (the same item is in the **Buy** menu along with **Buy Now**) when this executed a screen will pop up giving the registration code.
 
@@ -42,7 +43,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
-* **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
+* **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Install wizard for x86 platform.
 * **FontCreatorSetup-x64.exe** – Install wizard for x64 platform.
@@ -309,11 +310,11 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
-* **LastUpdateReminderDate** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled. (See also **UpdateCheckInterval** in the GUI key in recent versions.)
+* **LastUpdateReminderDate** (**LastUpdateCheck** in the Updates key in HKCU in newer versions) – Includes the date used by the last update check when **Startup: Show update reminder** in Options: General is enabled.
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
-* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year).
+* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year). See also `UpdateCheckInterval` in the GUI key in recent versions.
 * **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in Options: General. Default is on.
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. Default is off.
 * **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
@@ -344,7 +345,7 @@ There are three built-in external programs: MainType (if installed), Fonts Folde
 * **Underline** – Set to on if you want to underline text in the Test Font window. Default is off.
 
 ### Reg
-The program is started in unregistered mode either after installing or if all keys are blank or if this key is removed.
+The program is started in unregistered mode either after the installation process is finished or if all keys are blank.
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
@@ -352,10 +353,7 @@ The program is started in unregistered mode either after installing or if all ke
 
 ### Tip of the Day (version 3.0 until 6.5)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
-* **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start FontCreator** in the **Tip of the Day** window.
-
-### Updates (under HKCU)
-* **LastUpdateCheck** – Includes the date used by the last update check when **OnStartupShowUpdateReminder** is enabled.
+* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator** in the **Tip of the Day** window.
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** in Settings: Validation.
@@ -508,7 +506,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
 * **TFRAMECATEGORY** – Used by the font overview to display categories.
 * **TFRAMEGLYPHMEMBER** – Used by the font overview to display glyph members.
-* **TFRAMEPALETTE** – Shows a palette used when editing multicolored fonts.
+* **TFRAMEPALETTE** – Used by multicolored fonts to show a palette.
 * **TGASPFORM** – Used when managing gasps in the font.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard (the window is titled **Report**).
@@ -521,7 +519,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TGUIDELINESFORM** – Used when changing guideline settings.
 * **TIMPORTGLYPHDATAFORM** – Used when importing glyph data.
 * **TINSERTGLYPHFORM** – Used when inserting glyphs.
-* **TINSTALLEDFONTSFORM** – Displays a dialog to open installed fonts in the computer. Old versions used to have a delay.
+* **TINSTALLEDFONTSFORM** – Displays a dialog with all installed fonts in the computer to either view or open them. Version 10.1.0.2272 (2016-12-20) is the last version to have a waiting delay.
 * **TKERNFEATUREFRAME** – Used by the kerning window.
 * **TKERNGROUPMANAGERFORM** – Used when managing kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
@@ -555,7 +553,7 @@ The program is started in unregistered mode either after installing or if all ke
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after a grace period of 30 days.
 * **TSORTGLYPHSFORM** – Used when changing the glyph order within a font.
 * **TSPLASHFORM** – For unregistered copies of FontCreator. The three buttons at the bottom are displayed in random order.
-* **TSPTBXCOLORPICKERFORM** – Used when selecting colors for use with multicolored fonts.
+* **TSPTBXCOLORPICKERFORM** – Used by multicolored fonts to select colors.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Used when managing subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
 * **TTEXTSEARCHDIALOG** – Used by the OpenType Designer to search text.
