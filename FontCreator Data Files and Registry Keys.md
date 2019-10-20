@@ -8,9 +8,9 @@
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only generates postscript names or adds any glyph to the preview toolbar that have a Unicode BMP mapping.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) has the same mapping in the Macintosh Roman glyph mapping list.
@@ -66,8 +66,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **SelectedFont** – Select the font used in this dialog. Default is **Arial Unicode MS**.
 
 ### Background
-* **BackgroundInitColor** – Select the color for the background. Default is white.
-* **BackgroundInitScale** – Select the scaling factor for the background.
+* **BackgroundInitColor** – Select the background color. Default is white.
+* **BackgroundInitScale** – Select the background scaling factor.
 
 ### Columns
 * **Open Installed Fonts** – Binary value used by `TINSTALLEDFONTSFORM`.
@@ -143,8 +143,8 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **UpdateCheckInterval** – Used by **Startup: Check for updates** in the Options: General tab. Values are 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
 
 ### GuideLines (used in `TGUIDELINESFORM`)
-* **Color** – Default is black.
-* **LineStyle** – Default is solid.
+* **Color** – Select the guideline color. Default is black.
+* **LineStyle** – Select the guideline line style. Default is solid.
 
 ### ImportImage (used in `TCONVERTBITMAPTOCONTOURSFORM`)
 * **BitmapPositionOrigin** – Used with radio buttons in the **Glyph: Position** option.
