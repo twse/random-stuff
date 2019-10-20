@@ -8,9 +8,8 @@
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
-* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only supports adding glyphs to the preview toolbar having a Unicode BMP mapping.
+* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only generates postscript names or adds any glyph to the preview toolbar that have a Unicode BMP mapping.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
-* Generating postscript names and adding to preview toolbar in versions 5.0 until 6.5 only supports glyphs with a Windows Unicode BMP mapping.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
@@ -83,7 +82,7 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **PasteSpecialOutlineData** – Used to paste outline data. Default is on.
 
 ### Externals (used by Tools: Launch Externals)
-There are three built-in external programs: MainType (if installed), Fonts Folder, Character Map.
+There are three built-in external programs: **MainType** (if installed), **Fonts Folder** and **Character Map**.
 * **Location#** – The last character can be up to digit three. Default is empty.
 * **Title#** – The last character can be up to digit three. Default is **External #** whereas # is a number.
 
@@ -497,7 +496,7 @@ The program is started in unregistered mode either after the installation proces
 * **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications.
 * **TFONTLOGFORM** – Used when viewing the font log (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
-* **TFONTPROPERTIESFORM** – Used when viewing the font properties.
+* **TFONTPROPERTIESFORM** – Used to modify or view the font properties (e.g. to disable the features of automatic generation of naming fields).
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables in the font.
 * **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding. Version 3.0 through 6.0 only prints ASCII characters in the current font.
@@ -557,7 +556,7 @@ The program is started in unregistered mode either after the installation proces
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Used when managing subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
 * **TTEXTSEARCHDIALOG** – Used by the OpenType Designer to search text.
-* **TTIPOFTHEDAYFORM** (version 1.0 until 6.0) – Used for newcomers and **Help: Tip of the Day**. `FontCreator.tip` will be used to display tips. On unregistered copies is a button labeled **Register** (removing it will display the access violation). See **FontCreator: Tips and Tricks** in the High-Logic font forum for more details.
+* **TTIPOFTHEDAYFORM** (version 1.0 until 6.0) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). On unregistered copies is a button labeled **Register** (removing it will display the access violation). See **FontCreator: Tips and Tricks** in the High-Logic font forum for more details.
 * **TTRANSFORMFORM** – For simple glyphs only.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Used when specifying the Unicode blocks or ranges encompassed by the font file in the mappings for double-byte platforms.
