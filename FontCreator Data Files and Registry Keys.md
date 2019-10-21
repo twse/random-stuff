@@ -393,63 +393,74 @@ The program is started in unregistered mode either after the installation proces
 * **WarnWhenProcessingVOLTTable** (version 9.0 & above) – Used with **Warn when opening a font file which contains a VOLT table**.
 
 ## Cursors in the executable file (Delphi resources omitted)
-* **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
-* **CZMOVE** – Used by **Hand**. This resource uses Argentinian Spanish language.
 * **HLADDCONTOUR** – Used when adding contours.
 * **HLDUPLICATE** – Used when duplicating contours.
+* **HLFREEDRAW** and **HLFREEDRAWBUSY** – Used by **Free Draw**.
 * **HLFREEHAND** – Used by **Freehand**.
 * **HLGUIDELINED** – Used by **Guideline**.
-* **HLKNIFE** – Used by **Knife**. This resource uses German language.
+* **HLKNIFE** – Used by **Knife**.
 * **HLMEASURE** – Used by **Measure**.
-* **HLMOVECONTOUR** – Used when moving contours. This resource uses German language.
-* **HLMOVEPOINT** – Used when moving points. This resource uses German language.
+* **HLMOVECONTOUR** – Used when moving contours.
+* **HLMOVEPOINT** – Used when moving points.
 * **HLNEWELLIPSE** – Used when adding ellipses.
 * **HLNEWRECTANGLE** – Used when adding rectangles.
-* **HLROTATE** – Used by **Rotate**. This resource uses German language.
-* **HLSELECT** – Used when selecting anything. This resource uses German language.
-* **HLSELECTCONTOUR** – Used when selecting contours. This resource uses German language.
-* **HLSELECTPOINT** – Used when selecting points. This resource uses German language.
-* **HLZOOMIN** – Used when zooming in. This resource uses German language.
+* **HLPAINTBUCKET** – Used by **Paint** for colored fonts.
+* **HLROTATE** – Used by **Rotate**.
+* **HLSEGMENT** – Used by colored fonts.
+* **HLSELECT** – Used when selecting anything.
+* **HLSELECTCONTOUR** – Used when selecting contours.
+* **HLSELECTPOINT** – Used when selecting points.
+* **HLZOOMIN** – Used when zooming in.
 * **HLZOOMOUT** – Used when zooming out.
-* **RV_JUMP_CURSOR** – Inverted jump cursor.
-* **VT_HEADERSPLIT** – *No description provided.*
-* **VT_MOVEALL** – Used when moving contours in simple glyphs.
-* **VT_MOVEE** – Used when moving contours in simple glyphs.
-* **VT_MOVEEW** – Used when moving contours in simple glyphs.
-* **VT_MOVEN** – Used when moving contours in simple glyphs.
-* **VT_MOVENE** – Used when moving contours in simple glyphs.
-* **VT_MOVENS** – Used when moving contours in simple glyphs.
-* **VT_MOVENW** – Used when moving contours in simple glyphs.
-* **VT_MOVES** – Used when moving contours in simple glyphs.
-* **VT_MOVESE** – Used when moving contours in simple glyphs.
-* **VT_MOVESW** – Used when moving contours in simple glyphs.
-* **VT_MOVEW** – Used when moving contours in simple glyphs.
+* **RV_JUMP_CURSOR** – Hand cursor.
+* **VEASYHEADERSPLIT** – Used when changing size of split resources.
+* **VT_HEADERSPLIT** – Used when changing size of split resources.
+* **VT_MOVEALL** – Used when scrolling.
+* **VT_MOVEE** – Used when scrolling.
+* **VT_MOVEEW** – Used when scrolling.
+* **VT_MOVEN** – Used when scrolling.
+* **VT_MOVENE** – Used when scrolling.
+* **VT_MOVENS** – Used when scrolling.
+* **VT_MOVENW** – Used when scrolling.
+* **VT_MOVES** – Used when scrolling.
+* **VT_MOVESE** – Used when scrolling.
+* **VT_MOVESW** – Used when scrolling.
+* **VT_MOVEW** – Used when scrolling.
+* **VT_VERTSPLIT** – Used when changing size of split resources.
 
 ## Bitmaps in the executable file (Delphi resources omitted)
-* **HLCSPINDOWN** – Used in the spinner control.
-* **HLCSPINUP** – Used in the spinner control.
-* **RZCMBOBX_DEVICE** – Used in the font dropdown list.
-* **RZCMBOBX_FIXEDPITCH** – Used in the font dropdown list.
-* **RZCMBOBX_PRINTER** – Used in the font dropdown list.
-* **RZCMBOBX_TRUETYPE** – Used in the font dropdown list.
-* **RZCMBOBX_TRUETYPEFIXED** – Used in the font dropdown list.
-* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview. This resource uses Argentinian Spanish language.
+* **DEFAULTCOLLAPSED** – Used for pulldown menus.
+* **DEFAULTEXPANDED** – Used for pulldown menus.
+* **DIVIDERGLYPHS** – Arrows
+* **SBDOWN** – Arrows
+* **SBDOWNDIS** – Arrows
+* **SBDOWNDN** – Arrows
+* **SBLEFT** – Arrows
+* **SBLEFTDIS** – Arrows
+* **SFLEFTDN** – Arrows
+* **SBRIGHT** – Arrows
+* **SBRIGHTDIS** – Arrows
+* **SBRIGHTDN** – Arrows
+* **SBUP** – Arrows
+* **SBUPDIS** – Arrows
+* **SBUPDN** – Arrows
+* **SORTARROWDOWN** – Arrows
+* **SORTARROWUP** – Arrows
+* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview.
+* **SPTBXOPENTYPE** – Used for OpenType fonts
+* **SPTBXTRUETYPE** – Used for TrueType fonts
+* **SYNEDITINTERNALIMAGES** – Numbers in gray background
+* **SYNEDITWORDWRAPPED** – Word wrap icon
 * **TB2SYSMENUGLYPHS** – Used by the toolbars.
+* **TB2SYSMENUIMAGES** and **TBXSYSMENUIMAGES** – Window commands
 * **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
-* **TBXSYSMENUIMAGES** – Used by the toolbars.
 * **TCOLORSELECTOR** – Used in the color selection dialog.
-* **VT_CHECK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_CHECK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_FLAT** – Used for radio buttons, checkboxes and dropdown lists.
 * **VT_MOVEALL** – Cursor used for scrolling.
 * **VT_MOVEEW** – Cursor used for scrolling.
 * **VT_MOVENS** – Cursor used for scrolling.
-* **VT_TICK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_TICK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_UTILITIES** – Additional arrows.
-* **VT_XP** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_XPBUTTONMINUS** – Used for radio buttons, checkboxes and dropdown lists.
-* **VT_XPBUTTONPLUS** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_UTILITIES** – Arrows
+* **VT_XPBUTTONMINUS** – Used for pulldown menus.
+* **VT_XPBUTTONPLUS** – Used for pulldown menus.
 
 ## RC Data in the executable file
 * **DESCRIPTION** – This data is binary.
@@ -483,7 +494,8 @@ The program is started in unregistered mode either after the installation proces
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Used when deleting features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Used when deleting kerning groups or classes in the form.
 * **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 until 6.5 or 8.0 & above) after a grace period of 30 days.
-* **TDM** and **TDMGLOBAL** – Shows a large list of forms.
+* **TDM** – Contains icons used by the program.
+* **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data used by the program.
 * **TEDITANCHORFORM** (version 7.0 & above) - Used when editing anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Used when exporting the font.
@@ -499,7 +511,7 @@ The program is started in unregistered mode either after the installation proces
 * **TFONTPROPERTIESFORM** – Used to modify or view the font properties (e.g. to disable the features of automatic generation of naming fields).
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables in the font.
-* **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding. Version 3.0 through 6.0 only prints ASCII characters in the current font.
+* **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Default text in `mmFontTest` is the program name, uppercase, lowercase and numbers.
 * **TFORMADDANCHOR** – Used when adding anchors in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** – Displays a dialog where you can configure settings for the OpenType Designer.
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
