@@ -1,4 +1,4 @@
-# Index
+﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data for the pay shareware font editor FontCreator.
 * **names.csv**: Names for adding to [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and mentioned in the [FAQ](https://www.mozilla.org/credits/faq).
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, pharmaceutics, decongestants, chemotherapeutics, organic acids, progestogens, analgesics, topical products, modulators, triptans, carbohydrates et al.
@@ -6,7 +6,7 @@
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font used in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (a subset of Kanji letters are included in the font).
+* **Generic Menu**: Based on the font used in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font icon as Japanese (a subset of Kanji letters are included in the font).
 * **LTROL Font**: Based on the font used in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font used in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -16,7 +16,7 @@ You won't receive any emails when your name is added - this will only see the me
 1. Clone the `mozilla/community-data` repository via `git clone`.
 2. Copy names of contributors from Mozilla-related websites such as translation projects or local communities and remove the summaries of each member's contributions.
 3. Save the file as .csv (comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want, e.g. czilla.csv has the names of all contributors for CZilla - old name of Mozilla's community for Czech.
+4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want.
 5. Commit the new file with the added names: `git commit -a -m 'message'` and replace it with whatever message you want.
 6. Push your changes with `git push` using `gurumukhi` as the username and enter the user's password.
 7. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entries will appear with the last updated date being changed.
