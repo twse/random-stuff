@@ -6,7 +6,7 @@
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font icon as Japanese (only one Kanji letter is included in the font).
+* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font icon as Japanese (only two Kanji letters are included in the font).
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -16,7 +16,7 @@ You won't receive any emails when your name is added - this will only see the me
 1. Clone the `mozilla/community-data` repository.
 2. Copy names of contributors from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
-4. Add the contents to names.csv: `echo file.csv >> ../names.csv` and replace the filename with whatever you want.
+4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` and replace `file.csv` with whatever name you want.
 5. Commit the new file via `-a -m 'message'` and replace it with whatever message you want.
 6. Login as `gurumukhi` to push changes.
 7. Enter `about:credits` (Mozilla browsers) in the address bar or visit the page directly for non-Mozilla browsers by clicking the link at the beginning and the entries will appear with the last updated date being changed.
@@ -54,15 +54,15 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created the page via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without using pull requests. The last entry uses pull requests to modify the credits list and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application message with a comment.
+**P.S.** The first entry created the page via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without using pull requests. The last entry is committing with pull requests to modify the credits list and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application message with a comment.
 
-## Protest pages (available in five versions with default encoding removed)
+## Protest pages (requires JavaScript; available in five versions with default encoding removed)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for his protest pages.
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
+* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
