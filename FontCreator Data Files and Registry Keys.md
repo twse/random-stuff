@@ -1,16 +1,17 @@
 ﻿## Notes
-* The cursor will remain "Busy" when saving fonts while you do other stuff in the background.
-* All versions allows you to save all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system may display a critical error saying "List index out of bounds (0)". Single-byte versions of Windows does nothing.
-* If you exit the program, it may create invalid font(s) and play the Critical Stop sound from the PC speakers.
+* The cursor remains "Busy" when saving fonts and doing other stuff in the background.
+* All versions can save all unaltered opened fonts from the menu (**File: Save All**). In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)" if done repeatedly.
+* Exiting the program may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
-* Any glyph stored in the clipboard will have either "Glyph Contours" or "Glyph Data".
-* The menu item **Edit: Delete** is not dimmed on startup or when closing other dialogs.
-* Complete Composites (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
-* Version 5.0 until 6.0 makes **Complete Composites** dimmed in empty glyphs.
-* Version 1.0 until 7.0 does not support unmapped glyph(s) or glyph(s) with Unicode SMP mapping(s) in the preview toolbar.
-* The postscript name generation and additions to preview toolbar in versions 5.0 through 6.5 only supports glyphs with a Windows Unicode BMP mapping.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/) has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* If you want to change resources in versions containing a non-standard resource layout (tested with version 5.6), you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 for DOS running on Windows XP Professional K SP3 - this version was released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
+* Any glyph stored in the clipboard in version 1.0 until 6.0 will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
+* Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
+* The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
+* **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
+* **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
+* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
+* Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
+* In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
 * Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
@@ -469,28 +470,33 @@ The program is started in unregistered mode after installation or if this key is
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
 * **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The default push button is **Yes**.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
-* **TGLYPHPROPERTIESFORM** – For old versions of FontCreator, displays a dialog where you can change various properties for the selected glyph. Pressing Alt-Enter opens up this form without reading when a screen reader is running. The **Help** button does nothing in old versions.
-* **TGRIDFORM** – Used when changing grid settings. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TGUIDELINEMODIFYFORM** – Used when modifying guidelines. The default push button is **OK**.
-* **TGUIDELINESFORM** – Used when changing guideline settings. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **THLCREGISTERABOUTBOXDLG** – Non-standard About box for old versions only.
-* **TIMPORTGLYPHDATAFORM** – Used when importing glyph data. The default push button is **OK**.
-* **TINSERTGLYPHFORM** – Used when inserting glyphs. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TINSTALLEDFONTSFORM** – Displays a dialog to open installed fonts in the computer. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TKERNINGFORM** – Used in old versions when viewing or editing the legacy kerning tables (not the GPOS kerning tables). See the OpenType Designer in recent versions to edit the GPOS kerning tables.
-* **TKERNINGNEWPAIRFORM** – Used when adding a kerning pair in the legacy kerning tables. The default push button is **OK**.
-* **TMAINFORMFCP3** – Version 3.0 only. Used when starting FontCreator. Maximizing changes the title bar. (See TMAINFORMFONTCREATOR in recent versions)
-* **TMAINFORMFONTCREATOR** – Used when starting FontCreator.
-* **TMETRICSFORM** – Used when configuring metrics options. The default push button is **OK**.
-* **TNAMINGFORM** – For versions 3.0 through 6.0 only, displays a dialog where you can manually change the naming fields of a font. The default push button is **OK**. See TFONTPROPERTIESFORM in recent versions.
-* **TNEWTRUETYPEFONTFORM** – Used when creating a new font. The default push button is **OK**.
-* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options. The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. The default push button is **OK**. In the Items list (versions 5.5 through 6.0 only), Glyph Outline Data and Glyph Metrics (i.e. the first two items) are checked by default.
-* **TPCLTFORM** – For versions 3.0 through 6.5 only, displays a dialog where you can include or edit the old PCL5 data for legacy printers. The default push button is **OK**.
-* **TPERFORMTRANSFORMATIONFORM** – For versions 5.6 and newer, displays the Glyph Transformer. The default push button is **OK**.
-* **TPLATFORMMANAGERFORM** – For versions 2.0 through 6.5 only, displays a dialog where you can choose which platform to support in the font. The default push button is **OK**.
-* **TPOSTSCRIPTNAMESFORM** – Used when changing PostScript names for glyphs in the font. The default push button is **OK**.
-* **TPRINTABORTFORM** – Used when the font printing is cancelled.
+* **TGLYPHNAMEFORM** – Used when changing glyph names.
+* **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** – Used where you can change various properties for the selected glyph.
+* **TGRIDFORM** – Used when changing grid settings.
+* **TGUIDELINEMODIFYFORM** – Used when modifying guidelines.
+* **TGUIDELINESFORM** – Used when changing guideline settings.
+* **TIMPORTGLYPHDATAFORM** – Used when importing glyph data.
+* **TINSERTGLYPHFORM** – Used when inserting glyphs.
+* **TINSTALLEDFONTSFORM** – Displays a dialog with all installed fonts in the computer to either view or open them. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
+* **TKERNFEATUREFRAME** – Used by the kerning window.
+* **TKERNGROUPMANAGERFORM** – Used when managing kerning groups or classes in the font.
+* **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
+* **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Used when adding a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
+* **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The main window has two hidden menus (Hidden Shortcuts and Developer Tools) which can be shown by removing `Visible = False`. In the Tools menu is an option labeled **TODO! Customize...** which can be shown by removing the same value in the two hidden menus.
+* **TMETRICSFORM** – Used when configuring metrics options.
+* **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
+* **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
+* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can create or edit the OpenType layout tables.
+* **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Used when adding an item to the OpenType layout tables.
+* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings.
+* **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
+* **TPASTESPECIALFORM** – Used when pasting data for glyphs in the clipboard. In the Items list (version 5.5 until 6.5), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In recent versions, the registry keys are stored in the `Edit` key.
+* **TPCLTFORM** (version 3.0 until 6.0) – Displays a dialog where you can add, view or edit the PCL5 data for use with old printers.
+* **TPERFORMTRANSFORMATIONFORM** (version 5.6 & above) – Displays the Glyph Transformer.
+* **TPLATFORMMANAGERFORM** (version 2.0 until 6.0) – Displays a dialog where you can choose which platform to support in the font.
+* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.0) – Displays a dialog where you can view or edit the PostScript glyph names in the font. Version 1.0 (1998-04-11) until 7.0 (2013-04-25) can only generate PostScript names for glyphs with Unicode BMP mapping.
+* **TPRINTABORTFORM** – Used after the font printing process is started.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSFORM** – Progress window. The cursor for this form is **Busy**. The default push button is **Cancel**.
