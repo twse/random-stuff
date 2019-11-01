@@ -6,7 +6,7 @@
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font icon as Japanese (only two Kanji letters are included in the font).
+* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (only two Kanji letters are included in the font).
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -54,7 +54,7 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created the page via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without using pull requests. The last entry is committing with pull requests to modify the credits list and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application message with a comment.
+**P.S.** The first entry created it via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is committing with pull requests to modify it and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
 
 ## Protest pages (requires JavaScript; available in five versions with default encoding removed)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for his protest pages.
