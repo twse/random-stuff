@@ -40,15 +40,34 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * **URL:** See second file entry in the index above.
 * **Note:** Please do not add your name/someone else's names or modify existing entries to the abovementioned file in the source repository without filling in the form or replying to the form's application acceptance message via direct pull requests as they will be closed by the owner.
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Still has spammy entries to this day.
-**P.S.** The first entry created the page via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote management tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without using pull requests. The last entry is committing with pull requests to modify the credits list and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application message with a comment.
 
-## Protest pages (requires JavaScript; available in five versions with default encoding removed)
-Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for his protest pages.
+## Index of protest pages (requires JavaScript)
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages based on his profile page and the protest images for graphical browsers.
+* **Web page not available** (Android) – The link in the paragraph refers to a page in the **@Macarlo, Inc** website (the domain was expired on July 1st, 2013).
+* **Cannot find server** (Internet Explorer 6 – Windows XP Service Pack 3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool if it is installed and present).
+* **This page can't be displayed** (Internet Explorer 11) – The domain in the paragraph refers to a page in the **@Macarlo, Inc** website (the domain was expired on July 1st, 2013). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror(diagoff).htm` opens the network diagnostic tool if it is installed and enables the option from the **Tools** menu).
+* **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is from Splashtop Browser.
+* **Error** (Otter Browser) – The same text is used in the Presto version of Opera.
 
-* **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
-* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu). Remove the style in `notConnectedTasks`, add the style to `cantDisplayTasks` and change the heading/title to **You're not connected to the internet** to make this page resemble computers not connected to the internet.
+The protest pages are as follows:
+* **protest.htm** replaces HTML link tags with LINK in square brackets.
+* **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
+* **protest3.htm** protests against sites that use JavaScript URLs.
+* **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
+* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list - the sites are listed in alphabetical order).
+
+**NB!** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
+
+## Brief description of Sobreclick and German/Polish translation info
+Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. Sobreclick is said to work with Windows XP & above.
+
+The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
+
+## Brief description of Sobreloader and German/Polish translation info
+Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above.
+
+The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
