@@ -1,15 +1,15 @@
 ﻿## Notes
 * The cursor remains "Busy" when saving fonts and doing other stuff in the background.
-* All versions allows saving all unaltered opened fonts from the menu (**File: Save All**) but not in the Standard toolbar. In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)".
+* All versions can save all unaltered opened fonts from the menu (**File: Save All**). In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)" if done repeatedly.
 * Exiting the program may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
-* Any glyph stored in the clipboard in version 1.0 until 6.0 will have the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
+* Any glyph stored in the clipboard in version 1.0 until 6.0 will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
 * Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
 * The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
-* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only generates postscript names or adds glyphs with Unicode BMP mapping to the preview toolbar.
+* Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
@@ -423,9 +423,6 @@ The program is started in unregistered mode either after the installation proces
 * **TB2SYSMENUIMAGES** and **TBXSYSMENUIMAGES** – Window commands
 * **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
 * **TCOLORSELECTOR** – Used in the color selection dialog.
-* **VT_MOVEALL** – Cursor used for scrolling.
-* **VT_MOVEEW** – Cursor used for scrolling.
-* **VT_MOVENS** – Cursor used for scrolling.
 
 ## RC Data in the executable file
 * **DESCRIPTION** – This data is binary.
@@ -501,7 +498,7 @@ The program is started in unregistered mode either after the installation proces
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Used when adding a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
 * **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The main window has two hidden menus (Hidden Shortcuts and Developer Tools) which can be shown by removing `Visible = False`. In the Tools menu is a hidden option labeled **TODO! Customize...**; it can be shown by removing the same value in the two hidden menus.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The main window has two hidden menus (Hidden Shortcuts and Developer Tools) which can be shown by removing `Visible = False`. In the Tools menu is an option labeled **TODO! Customize...** which can be shown by removing the same value in the two hidden menus.
 * **TMETRICSFORM** – Used when configuring metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
@@ -513,7 +510,7 @@ The program is started in unregistered mode either after the installation proces
 * **TPCLTFORM** (version 3.0 until 6.0) – Displays a dialog where you can add, view or edit the PCL5 data for use with old printers.
 * **TPERFORMTRANSFORMATIONFORM** (version 5.6 & above) – Displays the Glyph Transformer.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.0) – Displays a dialog where you can choose which platform to support in the font.
-* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.0) – Displays a dialog where you can view or edit the PostScript glyph names in the font.
+* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.0) – Displays a dialog where you can view or edit the PostScript glyph names in the font. Version 1.0 (1998-04-11) until 7.0 (2013-04-25) can only generate PostScript names for glyphs with Unicode BMP mapping.
 * **TPRINTABORTFORM** – Used after the font printing process is started.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
