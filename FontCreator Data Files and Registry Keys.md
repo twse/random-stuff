@@ -2,7 +2,7 @@
 * The cursor remains "Busy" when saving fonts and doing other stuff in the background.
 * All versions can save all unaltered opened fonts from the menu (**File: Save All**). In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)" if done repeatedly.
 * Exiting the program may create invalid font(s) and play the Critical Stop sound from the PC speakers.
-* The program displays the "Access violation" when closing after doing some operations – the font(s) may be invalid.
+* The program displays a critical error saying "Access violation" when closing after doing some operations – the font(s) may be invalid.
 * Any glyph stored in the clipboard in version 1.0 until 6.0 will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
 * Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
@@ -14,14 +14,14 @@
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) has the same mapping in the Macintosh Roman glyph mapping list.
-* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use \\00AB as escape code.
+* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 The unregistered version has a grace period of 30 days with the following limitations based on the version number.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, the program will show a nag screen when pressing **Start**. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
-* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program runs a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
+* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program uses a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
 * All versions – The window title bar will display **(UNREGISTERED)**.
@@ -38,15 +38,16 @@ Under the **Help** menu is an item labeled **Register...** (the same item is in 
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrative privileges or change the owner to users (this can be done with `takeown /F` or **Security: Advanced: Owner: Edit** in Windows Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in the file properties).
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
-* **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
+* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
+* **CurrentTransformProgram.xml** – Created when opening a Transform Program in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
+* **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
-* **FontCreatorSetup.exe** – Install wizard for x86 platform.
-* **FontCreatorSetup-x64.exe** – Install wizard for x64 platform.
-* **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
+* **FontCreatorSetup.exe** – Install the program for use with x86 platform.
+* **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform.
+* **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in the Glyph Edit window and Guideline Options.
@@ -54,7 +55,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** (version 5.0 & above) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **preview.txt** (version 6.5 & above) – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
-* **TableOffsetOrder.dat** – Contains supported tables in any font. All tables are moved to Unsupported if removed. Newer versions names it `TableOffsetOrder.txt` with another file (`TableOffsetOrderCFF.txt`).
+* **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the tables supported in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
 * **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -265,7 +266,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
 ### Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Lists the font and project file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or cleared via the menu itself.
+* **File_#** – Same key name as the **Last Time** section above. Lists the fonts and/or projects in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or cleared via the menu itself.
 
 ### OpenType Designer (version 7.0 & above)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
@@ -309,7 +310,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
 * **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
-* **LastUpdateReminderDate** (**LastUpdateCheck** in the Updates key in HKCU in newer versions) – Includes the date used by the last update check when **Startup: Show update reminder** in Options: General is enabled.
+* **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in newer versions) – Includes the date used by the last update check when **Startup: Show update reminder** in Options: General is enabled.
 * **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
 * **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
@@ -340,8 +341,8 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
 * **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
-* **StrikeThrough** – Set to on if you want to strikeout text in the Test Font window. Default is off.
-* **Underline** – Set to on if you want to underline text in the Test Font window. Default is off.
+* **StrikeThrough** – Set this value to on to strikeout text in the Test Font window. Default is off.
+* **Underline** – Set this value to on to underline text in the Test Font window. Default is off.
 
 ### Reg
 The program is started in unregistered mode either after the installation process is finished or if all keys are blank.
