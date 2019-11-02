@@ -39,7 +39,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Created when opening a Transform Program in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **CurrentTransformProgram.xml** – Created when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
@@ -266,7 +266,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
 ### Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Same key name as the **Last Time** section above. Lists the fonts and/or projects in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or cleared via the menu itself.
+* **File_#** – Same key name as the **Last Time** section above. Lists the fonts and/or projects in the **File: Reopen** menu (# is a number). The menu will appear dimmed if the above keys are deleted or if it's empty.
 
 ### OpenType Designer (version 7.0 & above)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
@@ -319,10 +319,10 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. Default is off.
 * **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
 * **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in Options: Font. Default is off.
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off.
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in Options: Font. Default is on.
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on.
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on.
+* **RemoveDSIGTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off.
+* **RemoveHdmxTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove hdmx table** in Options: Font. Default is on.
+* **RemoveLTSHTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on.
+* **RemoveVDMXTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on.
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
 * **UnicodeEnabledGUI** (version 5.5 until 6.5) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on.
@@ -339,21 +339,21 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Select the size in the Preview window.
 * **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
-* **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
+* **PreviewSampleUseKerning** – Set this value to on to kern text in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Set this value to on to strikeout text in the Test Font window. Default is off.
 * **Underline** – Set this value to on to underline text in the Test Font window. Default is off.
 
 ### Reg
-The program is started in unregistered mode either after the installation process is finished or if all keys are blank.
+The program is started in unregistered mode either after the installation process is finished or if all keys are blank. Many people provided registration keys for different versions.
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
 
 ### Themes
 * **ActiveTheme** – Contains the active theme.
 
-### Tip of the Day (version 3.0 until 6.5)
-* **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
-* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator** in the **Tip of the Day** window.
+### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
+* **CurrentTip** – Current line number in `FontCreator.tip`, used after opening.
+* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator**.
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** in Settings: Validation.
@@ -376,7 +376,7 @@ The program is started in unregistered mode either after the installation proces
 * **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
 * **TestOverlappingComponents** – Used with Validation Tests: Overlapping components** in the Font Validation Wizard.
 * **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
-* **TestSuspiciousPoints** – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard.
+* **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard.
 * **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation.
 * **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation.
@@ -471,7 +471,7 @@ The program is started in unregistered mode either after the installation proces
 * **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications.
 * **TFONTLOGFORM** – Used when viewing the font log (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
-* **TFONTPROPERTIESFORM** – Used to modify or view the font properties (e.g. to disable the features of automatic generation of naming fields).
+* **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables in the font.
 * **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Default text in `mmFontTest` is the program name, uppercase, lowercase and numbers.
@@ -493,7 +493,7 @@ The program is started in unregistered mode either after the installation proces
 * **TGUIDELINESFORM** – Used when changing guideline settings.
 * **TIMPORTGLYPHDATAFORM** – Used when importing glyph data.
 * **TINSERTGLYPHFORM** – Used when inserting glyphs.
-* **TINSTALLEDFONTSFORM** – Displays a dialog with all installed fonts in the computer to either view or open them. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
+* **TINSTALLEDFONTSFORM** – Displays a dialog with all fonts installed on the computer to view or open them. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
 * **TKERNFEATUREFRAME** – Used by the kerning window.
 * **TKERNGROUPMANAGERFORM** – Used when managing kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
@@ -503,7 +503,7 @@ The program is started in unregistered mode either after the installation proces
 * **TMETRICSFORM** – Used when configuring metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
-* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can create or edit the OpenType layout tables.
+* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can view, edit or create the OpenType layout tables.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Used when adding an item to the OpenType layout tables.
 * **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings.
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
