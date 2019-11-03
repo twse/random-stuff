@@ -45,8 +45,8 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
-* **FontCreatorSetup.exe** – Install the program for use with x86 platform.
-* **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform.
+* **FontCreatorSetup.exe** – Install the program for use with x86 platform (32 bit).
+* **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform (64 bit).
 * **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
@@ -186,10 +186,10 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
 * **GlyphPropsExpanded** – Used to expand the glyph properties.
 * **GroupManagerSorted** – Used to sort the group manager.
-* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Used by the insert glyphs window to select either 0 (at top), 1 (after last glyph), 2 (before each selected glyph) or 3 (after each selected glyph). Default is 3 (after each selected glyph).
+* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
 * **InsertGlyphsPage** – Select the page used in the Insert Glyphs dialog.
-* **KerningFolderExport** – Directory for exporting the legacy kerning tables.
-* **KerningFolderImport** – Directory for importing the legacy kerning tables.
+* **KerningFolderExport** – Directory used to export the legacy kerning tables.
+* **KerningFolderImport** – Directory used to import the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
 * **OpenDialogInitialDir2** – Directory used in the Open dialog.
 * **OpenDialogInitialDirAutoKerning** – Directory used in the AutoKern Open dialog.
@@ -245,7 +245,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **KerningShowGridLines** – Display grid lines in Kerning window. Default is on.
 
 ### Last Time
-* **File_#** – Include fonts used the last time whereas # is a number. When `OnStartupOpenFonts` is enabled, nothing will be opened if removed.
+* **File_#** – Include fonts used in the last time whereas # is a number. When `OnStartupOpenFonts` is enabled, nothing will be opened if removed.
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
