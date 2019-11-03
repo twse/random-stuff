@@ -84,8 +84,13 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **PlatformSpecificEncodingID** – See **Platform** in the Find dialog's Mapping tab.
 * **TabIndex** – This corresponds to any tab in the Find dialog.
 
+<<<<<<< HEAD
 ### FontOverview
 * **CategoryWidth**
+=======
+### FontOverview (used in `TFONTOVERVIEWFORM`)
+* **CategoryWidth** – Select the width used for categories in the font overview.
+>>>>>>> 9c7dc26 (Updated Ubuntero list and FontCreator application data)
 
 ### Fonts
 * **ExportDecomposeScaled** – Used with **Export Font: Decompose composite glyphs with scaled components** checkbox in Options: Font. Default is on.
@@ -150,8 +155,13 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **SmoothFilter** – Used with **Smooth Filter** option in the Image tab. Default is Smooth. (Available in Import Image)
 * **Threshold** – Used with **Threshold** option in the Image tab. Default is 150. (Available in Import Image)
 
+<<<<<<< HEAD
 ### Install
 * **InstallFontsInFontsFolder** – Used with **Install the font in Windows Fonts folder** option in the Font Installation Wizard. Default is on. On Windows Vista and above, this option requires administrator privileges.
+=======
+### Install (used in `TFONTINSTALLWIZARDFORM`)
+* **InstallFontsInFontsFolder** (version 3.0 until 6.5) – Used with **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
+>>>>>>> 9c7dc26 (Updated Ubuntero list and FontCreator application data)
 
 ### InstalledFonts
 * **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
@@ -315,68 +325,73 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
 * **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
-* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in the Options: Import tab.
-* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in the Options: Import tab.
-* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in the Options: Import tab.
-* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in the Options: Import tab.
+* **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import. Default is off.
+* **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in Options: Import. Default is 100.00.
+* **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in Options: Import. Default is 600.00.
+* **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import. Default is 512.00.
 
 ### Preview
-* **FeaturesWidth**
-* **FeatureTags** – No default value.
-* **PreviewFeatures** – Select the features used in the preview text.
-* **PreviewFontSize** – Used with size in the Test Font window. Default is 24.
-* **PreviewSampleFontSize** – Used with size in the Preview window.
-* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©**.
-* **PreviewSampleUseKerning** – Used for **Kerning** in the Preview window.
+* **FeaturesWidth** – Contains the width used for OpenType features.
+* **FeatureTags** – Contains the tags used for OpenType features.
+* **PreviewFeatures** – Enable or disable any OpenType feature for the preview text.
+* **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
+* **PreviewSampleFontSize** – Select the size in the Preview window.
+* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
+* **PreviewSampleUseKerning** – Set this value to on to kern text in the Preview window.
+>>>>>>> 9c7dc26 (Updated Ubuntero list and FontCreator application data)
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Used for **Strikeout** in the Test Font window. Default is off.
 * **Underline** – Used for **Underline** in the Test Font window. Default is off.
 
 ### Reg
-The program is started in unregistered mode after installation or if this key is removed.
-* **V5D#** – Created when registering the program whereas # is a numerical string. It displays a message and removes the **Register** item on the Help menu. Version 6.0 and newer places your name on the title bar.
+The program is started in unregistered mode either after the installation process is finished or if all keys are empty. Many people provided registration keys for different versions.
+* **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 & above places your name on the title bar.
+>>>>>>> 9c7dc26 (Updated Ubuntero list and FontCreator application data)
 
 ### Themes
 * **ActiveTheme**
 
-### Tip of the Day (version 3.0 until 6.0)
-* **CurrentTip** – Current line number in `FontCreator.tip`, used when opening the **Tip of the Day** window.
-* **ShowTipOnStartup** – In old versions only; used when selecting **Show this screen next time when you start the Font Creator Program** in the **Tip of the Day** window.
+### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
+* **CurrentTip** – Current line number in `FontCreator.tip`, used after opening.
+* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator**. Default is on.
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. off-curve dist.** option in Settings: Validation.
-* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Max. on-curve dist.** option in Settings: Validation.
+* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation.
+* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation.
 * **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
-* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** option in Settings: Validation.
-* **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Max. off-curve dist.** spinner in Settings: Validation.
-* **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Max. on-curve dist.** spinner in Settings: Validation.
+* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Settings: Validation. Default is on.
+* **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Settings: Validation. Default is 0.20.
+* **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Settings: Validation. Default is 0.80.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
 * **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. If enabled, warning points are shown for each glyph. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
-* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar.
-* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
-* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
-* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard and **Remove Duplicate Contours** in the Validation toolbar.
-* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard and **Remove Duplicate Knots** in the Validation toolbar.
-* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar.
-* **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard.
-* **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard.
-* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar.
-* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar.
-* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** option in Settings: Validation.
-* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** option in Settings: Validation.
-* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** option in Settings: Validation.
+* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar. Default is on.
+* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard and **Remove Duplicate Contours** in the Validation toolbar. Default is on.
+* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard and **Remove Duplicate Knots** in the Validation toolbar. Default is on.
+* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard. Default is off.
+* **TestIntersectingComponents** – Used with **Validation Tests: Intersecting components** in the Font Validation Wizard. Default is on.
+* **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard. Default is on.
+* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar. Default is on.
+* **TestOverlappingComponents** – Used with Validation Tests: Overlapping components** in the Font Validation Wizard. Default is on.
+* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar. Default is on.
+* **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard. Default is on.
+* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation. Default is 1000.
+* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation. Default is 100.
+* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation. Default is 25.
 
-### Warn – Default is on for all options
-* **WarnBeforeActivatingFixFeature** – Used with **Warn before activating the fix feature in the Font Validation Wizard** in the Advanced tab.
-* **WarnBeforeActivatingRemoveFeature** – Used with **Warn before activating a remove feature from the Options → Font page** in the Advanced tab.
-* **WarnBeforeAddCharacters** – Used with **Warn before adding characters** in the Advanced tab.
-* **WarnBeforeAnchorDelete** – Used with **Warn when deleting anchor** in the Advanced tab.
-* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog** in the Advanced tab.
-* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script** in the Advanced tab.
-* **WarnBeforeSortingGlyphs** – Used with **Warn before sorting glyphs** in the Advanced tab.
-* **WarnImportSmallImage** – Used with **Warn when importing small image** in the Advanced tab.
-* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts** in the Advanced tab.
-* **WarnWhenProcessingVOLTTable** – Used with **Warn when opening a font file which contains a VOLT table** in the Advanced tab.
+### Warn (used in Options: Advanced – default is on for all options)
+* **WarnBeforeActivatingFixFeature** (version 5.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**.
+* **WarnBeforeActivatingRemoveFeature** (version 5.0 until 6.5) – Used with **Warn before activating a remove feature from the Options → Font page**.
+* **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**.
+* **WarnBeforeAnchorDelete** – Used with **Warn when deleting anchor**.
+* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**.
+* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script**.
+* **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**.
+* **WarnImportSmallImage** – Used with **Warn when importing small image**.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**.
+* **WarnWhenProcessingVOLTTable** (version 9.0 & above) – Used with **Warn when opening a font file which contains a VOLT table**.
 
 ## Cursors in the executable file (Delphi resources omitted)
 * **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
@@ -412,6 +427,7 @@ The program is started in unregistered mode after installation or if this key is
 * **VT_MOVEW** – Used when moving contours in simple glyphs.
 
 ## Bitmaps in the executable file (Delphi resources omitted)
+<<<<<<< HEAD
 * **HLCSPINDOWN** – Used in the spinner control.
 * **HLCSPINUP** – Used in the spinner control.
 * **RZCMBOBX_DEVICE** – Used in the font dropdown list.
@@ -420,6 +436,10 @@ The program is started in unregistered mode after installation or if this key is
 * **RZCMBOBX_TRUETYPE** – Used in the font dropdown list.
 * **RZCMBOBX_TRUETYPEFIXED** – Used in the font dropdown list.
 * **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview. This resource uses Argentinian Spanish language.
+=======
+* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview.
+* **SYNEDITINTERNALIMAGES** – Numbers in gray background
+* **SYNEDITWORDWRAPPED** – Word wrap icon
 * **TB2SYSMENUGLYPHS** – Used by the toolbars.
 * **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
 * **TBXSYSMENUIMAGES** – Used by the toolbars.
