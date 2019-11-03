@@ -36,14 +36,18 @@ Under the Help menu is an item labeled **Register** when this executed a screen 
 ## User Data (Glyph Transformer scripts and Unicode data files omitted)
 FontCreator uses several data files for advanced settings and customizations. Normally most files are owned by administrators where they cannot be changed. If you want to edit most files directly they either must run Notepad with administrative privileges or change the owner to users (this can be done by using `takeown` or changing the owner with the advanced dialog of security tab in file properties).
 
-* **bookmarks.txt** – Created automatically after exit. Includes bookmarks used in the glyph overview.
-* **CompositeData.xml** – Located in the Composite folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Created when opening a Transform Program in the Glyph Transformer. If removed, this window appears blank.
-* **FC#####.ttf** – Contains a temporary font used when the Test Font Window is opened (##### is five numbers). The font name in version 3.0 through 6.5 is FC Test Font ###### (###### is six numbers).
-* **fcppreview.txt** – For old versions of FontCreator, includes the text used in the Test Font Window. The text is restored to factory defaults if removed. (See `previewtext.dat` in recent versions)
-* **fntXX.tmp** or **fntXXX.tmp** – Used when saving fonts (XX or XXX are letter and number combos).
-* **FontCreatorSetup.exe** – Used to reinstall the program (the download is also available on the High-Logic website with a form to enter your name and email address or with the link to the direct download).
-* **FontCreator.tip** – Contains the tips in the Tip of the Day Window. If removed, this window appears blank.
+* **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
+* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
+* **CurrentTransformProgram.xml** – Created when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
+* **fc12.cfg** – Configuration file used by FontCreator.
+* **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
+* **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
+* **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
+* **FontCreatorSetup.exe** – Install the program for use with x86 platform (32 bit).
+* **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform (64 bit).
+* **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. If removed, this window appears blank.
+>>>>>>> 2cc2495 (Updated FontCreator application data)
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** – For version 7.0 and above, contains the default glyph names when opening existing fonts and when you generate glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in Glyph Edit window and Guideline Options.
@@ -169,10 +173,12 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **GlyphNamesOptionsCS**
 * **GlyphNamesOptionsRE**
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
-* **GlyphPropsExpanded**
-* **GroupManagerSorted**
-* **KerningFolderExport** – Directory for exporting the legacy kerning tables.
-* **KerningFolderImport** – Directory for importing the legacy kerning tables.
+* **GlyphPropsExpanded** – Used to expand the glyph properties.
+* **GroupManagerSorted** – Used to sort the group manager.
+* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
+* **InsertGlyphsPage** – Select the page used in the Insert Glyphs dialog.
+* **KerningFolderExport** – Directory used to export the legacy kerning tables.
+* **KerningFolderImport** – Directory used to import the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
 * **OpenDialogInitialDir2** – Directory used in Open dialog.
 * **OpenDialogInitialDirAutoKerning** – Directory used in AutoKern Open dialog.
@@ -227,7 +233,7 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **KerningShowGridLines** – Display grid lines in Kerning window. Default is on.
 
 ### Last Time
-* **File_#** – Include fonts you use for the last time whereas # is a number. When **OnStartupOpenFonts** is enabled, nothing will be opened if removed.
+* **File_#** – Include fonts used in the last time whereas # is a number. When `OnStartupOpenFonts` is enabled, nothing will be opened if removed.
 
 ### Metrics
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)** option in the Automatic Metrics Wizard.
