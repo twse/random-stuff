@@ -272,11 +272,11 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **ZoomFactor**
 
 ### Options
-* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. If disabled, no backup copy is created on saving. Default is off.
+* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. Default is off.
 * **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in Options: Glyph. Default is on.
 * **AutoNamingUseFontRevision** – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in Options: Naming. Default is on.
-* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. (Available in the Options window)
-* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab. (Available in the Options window)
+* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab. Default is on. (Available in the Options window)
+* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab. Default is on. (Available in the Options window)
 * **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright** in Options: Personalize. Default is on.
 * **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
@@ -297,22 +297,22 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Enabling it will omit all monospace fonts on saving. Disabling it will include monospaced fonts during saving. (Available in the Options window)
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Enabling it will remove hinting data. Disabling it will keep hinting data. (Available in the Options window)
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Enabling it will remove unsupported tables. Disabling it will keep unsupported tables. (Available in the Options window)
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
 * **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
-* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. If enabled, it will omit all fonts with a large number of glyphs on saving. (Available in the Options window)
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. (Available in the Options window)
+* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
 * **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
 * **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** in the General tab. Default is Once a year. (Available in the Options window)
 * **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
 * **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. (Available in the Options window)
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. (Available in the Options window)
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Enabling it removes this table. Disabling it keeps this table. (Available in version 5.5 through 6.5 only)
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. Default is on. (Available in the Options window)
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. Default is off. (Available in the Options window)
+* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Default is off. (Available in version 5.5 through 6.5 only)
+* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
+* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
+* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. Default is on. (Available in the Options window)
 * **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
@@ -327,8 +327,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **FeatureTags** – Contains the tags used for OpenType features.
 * **PreviewFeatures** – Enable or disable any OpenType feature for the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
-* **PreviewSampleFontSize** – Scale the font in the Preview window.
-* **PreviewSampleText** – Contains sample text used in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
+* **PreviewSampleFontSize** – Select the size in the Preview window.
+* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
 * **PreviewSampleUseKerning** – Set this value to on to kern text in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Used for **Strikeout** in the Test Font window. Default is off.
@@ -343,29 +343,29 @@ The program is started in unregistered mode either after the installation proces
 
 ### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used after opening.
-* **ShowTipOnStartup** – Used by **Show this screen next time when you start FontCreator** to always show this form on startup. Default is on.
+* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator**. Default is on.
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation. Default is off.
-* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation. Default is off.
-* **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar. Default is on.
+* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation.
+* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation.
+* **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
 * **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Settings: Validation. Default is on.
 * **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Settings: Validation. Default is 0.20.
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Settings: Validation. Default is 0.80.
-* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
-* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
-* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard. Default is on.
-* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard. Default is on.
-* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard. Default is on.
-* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard. Default is on.
-* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard. Default is on.
-* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard. Default is on.
+* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
+* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. If enabled, warning points are shown for each glyph. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
+* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar. Default is on.
+* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard and **Remove Duplicate Contours** in the Validation toolbar. Default is on.
+* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard and **Remove Duplicate Knots** in the Validation toolbar. Default is on.
+* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
 * **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard. Default is off.
 * **TestIntersectingComponents** – Used with **Validation Tests: Intersecting components** in the Font Validation Wizard. Default is on.
 * **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard. Default is on.
-* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard. Default is on.
+* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar. Default is on.
 * **TestOverlappingComponents** – Used with Validation Tests: Overlapping components** in the Font Validation Wizard. Default is on.
-* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard. Default is on.
+* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar. Default is on.
 * **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard. Default is on.
 * **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation. Default is 1000.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation. Default is 100.
@@ -415,6 +415,34 @@ The program is started in unregistered mode either after the installation proces
 * **VT_MOVESE** – Used when moving contours in simple glyphs.
 * **VT_MOVESW** – Used when moving contours in simple glyphs.
 * **VT_MOVEW** – Used when moving contours in simple glyphs.
+
+## Bitmaps in the executable file (Delphi resources omitted)
+* **HLCSPINDOWN** – Used in the spinner control.
+* **HLCSPINUP** – Used in the spinner control.
+* **RZCMBOBX_DEVICE** – Used in the font dropdown list.
+* **RZCMBOBX_FIXEDPITCH** – Used in the font dropdown list.
+* **RZCMBOBX_PRINTER** – Used in the font dropdown list.
+* **RZCMBOBX_TRUETYPE** – Used in the font dropdown list.
+* **RZCMBOBX_TRUETYPEFIXED** – Used in the font dropdown list.
+* **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview.
+* **SYNEDITINTERNALIMAGES** – Numbers in gray background
+* **SYNEDITWORDWRAPPED** – Word wrap icon
+* **TB2SYSMENUGLYPHS** – Used by the toolbars.
+* **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
+* **TBXSYSMENUIMAGES** – Used by the toolbars.
+* **TCOLORSELECTOR** – Used in the color selection dialog.
+* **VT_CHECK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_CHECK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_FLAT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_MOVEALL** – Cursor used for scrolling.
+* **VT_MOVEEW** – Cursor used for scrolling.
+* **VT_MOVENS** – Cursor used for scrolling.
+* **VT_TICK_DARK** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_TICK_LIGHT** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_UTILITIES** – Additional arrows.
+* **VT_XP** – Used for radio buttons, checkboxes and dropdown lists.
+* **VT_XPBUTTONMINUS** – No meaning
+* **VT_XPBUTTONPLUS** – No meaning
 
 ## RC Data in the executable file
 * **CLOUDS** – Image of colorful clouds.
