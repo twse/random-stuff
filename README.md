@@ -14,7 +14,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenT
 ## Manually bulk-adding names to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see the message in the log.
 1. Clone the `mozilla/community-data` repository.
-2. Copy names of contributors from Mozilla-related websites such as translation projects.
+2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` and replace `file.csv` with whatever name you want.
 5. Commit the new file via `-a -m "message"` and replace it with whatever message you want.
@@ -24,7 +24,7 @@ You won't receive any emails when your name is added - this will only see the me
 ## Manually bulk-adding names to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see the message in the log.
 1. Go to the `credits` directory of `community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
-2. Copy names of contributors from Mozilla-related websites such as translation projects.
+2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
 4. Use the default option (commit directly to the `master` branch).
 5. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
