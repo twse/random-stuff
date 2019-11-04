@@ -54,7 +54,7 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created it via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is committing with pull requests to modify it and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
+**P.S.** The first entry created it via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is committing with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
 
 ## Protest pages (requires JavaScript; available in five versions with default encoding removed)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for his protest pages.
