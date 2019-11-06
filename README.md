@@ -27,7 +27,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
 4. Use the default option (commit directly to the `master` branch).
-5. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
+5. Open the Mozilla credits list by clicking the link at the beginning and the entry(-ies) will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -54,10 +54,10 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created it via CVS in 1999/08/29 and posted a message to the Mozilla internationalization and SeaMonkey newsgroups. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is committing with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
+**P.S.** The first entry created it via CVS in 1999/08/29 with a post in the Mozilla mailing list/newsgroup. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
 
-## Protest pages (requires JavaScript; available in five versions with default encoding removed)
-Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for his protest pages.
+## Protest pages (requires JavaScript; available in five versions)
+Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for the inspiration of creating these pages.
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
