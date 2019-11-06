@@ -7,8 +7,8 @@
 * Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
-* **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.0.
-* The program displays a critical error if you use Complete Composites in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
+* The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
@@ -39,11 +39,11 @@ FontCreator uses several data files for advanced settings and customizations. No
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Created when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
-* **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
+* **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Install the program for use with x86 platform (32 bit).
 * **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform (64 bit).
@@ -55,7 +55,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** (version 5.0 & above) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **preview.txt** (version 6.5 & above) – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
-* **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the tables supported in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
+* **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
 * **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
@@ -63,8 +63,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 ## Registry Keys
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
-* **SelectedCharacter** – Select the character used in this dialog. Default is beginning of Basic Latin Unicode block.
-* **SelectedFont** – Select the font used in this dialog. Default is **Arial Unicode MS**.
+* **SelectedCharacter** – Select the character in this form. Default is 0 (null).
+* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS**.
 
 ### Background
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -120,7 +120,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **FixedGridColor** – Select the fixed grid color in Grid Options. Default is white.
 * **FixedGridLineStyle** – Select the fixed grid line style in Grid Options. Default is solid.
 * **GridColor** – Select the grid color in Grid Options. Default is sky blue.
-* **GridDistance** – Used with **Mininum distance between grid points in units** in Grid Options.
+* **GridDistance** – Used with **Minimum distance between grid points in units** in Grid Options.
 * **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
 * **GridLineStyle** – Select the line style in Grid Options. Default is solid.
 * **IncludeBaseline** – Used with **Baseline** in Metrics Options. Default is on.
@@ -143,7 +143,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 ### GUI
 * **UpdateCheckInterval** – Used by **Startup: Check for updates** in the Options: General tab. Values are 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
 
-### GuideLines (used in `TGUIDELINESFORM`)
+### GuideLines (version 3.0 until 6.5, used in `TGUIDELINESFORM`)
 * **Color** – Select the guideline color. Default is black.
 * **LineStyle** – Select the guideline line style. Default is solid.
 
@@ -177,7 +177,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **ExportSettingsPage** – Select the page used for export settings.
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** in the font overview context menu.
 * **GlyphCaptionType2** – Used with the Captions options in the font overview context menu.
-* **GlyphDrawMode** – Set the value to 2 for automatic display, 0 for monochrome or 1 for color display. Default is 2 (auto).
+* **GlyphDrawMode** – Set the value to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
 * **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
 * **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of postscript names to replace as used by the glyph names dialog.
 * **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of postscript names to find as used by the glyph names dialog.
@@ -187,23 +187,23 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **GlyphPropsExpanded** – Used to expand the glyph properties.
 * **GroupManagerSorted** – Used to sort the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
-* **InsertGlyphsPage** – Select the page used in the Insert Glyphs dialog.
-* **KerningFolderExport** – Directory used to export the legacy kerning tables.
-* **KerningFolderImport** – Directory used to import the legacy kerning tables.
+* **InsertGlyphsPage** – Select the page in the Insert Glyphs dialog.
+* **KerningFolderExport** – Select the directory to export the legacy kerning tables.
+* **KerningFolderImport** – Select the directory to import the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
-* **OpenDialogInitialDir2** – Directory used in the Open dialog.
-* **OpenDialogInitialDirAutoKerning** – Directory used in the AutoKern Open dialog.
-* **OpenDialogInitialDirImportImage** – Directory used in the Import Image Open dialog.
-* **OpenDialogInitialDirNamingField** – Directory used in the Edit Naming Field Open dialog.
-* **OpenDialogInitialDirTransform** – Directory used in the Glyph Transformer Open dialog.
+* **OpenDialogInitialDir2** – Select the directory to use in the Open dialog.
+* **OpenDialogInitialDirAutoKerning** – Select the directory to use in the AutoKern Open dialog.
+* **OpenDialogInitialDirImportImage** – Select the directory to use in the Open dialog from Import Image.
+* **OpenDialogInitialDirNamingField** – Select the directory in the Open dialog from Edit Naming Field.
+* **OpenDialogInitialDirTransform** – Select the directory to use in the Open dialog from Glyph Transformer.
 * **OptionsPage** – Select the tab used in the Options dialog.
 * **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
 * **OTLFDesignerPreviewLanguage** – Contains the language used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewSampleText** – Contains the sample text used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewScript** – Contains the script used for the preview text in the OpenType Designer.
-* **OTLFEditor** – Stores the settings used in the OpenType script editor.
+* **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview.
+* **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview.
+* **OTLFEditor** – Contains settings in the OpenType script editor.
 * **OverviewColCat** – Contains the column categories used in the glyph overview.
 * **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
@@ -249,18 +249,19 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
-* **AutoMetricsFixedAW** – Used with **Fixed: Change Advance Width**.
+* **AutoMetricsFixedAW** – Used with **Fixed Width: Advance Width**. Default is 2048.
 * **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width**.
 * **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing**.
 * **AutoMetricsFixedLSB** – Used with **Fixed: Change Left Side Bearing** spinner.
-* **AutoMetricsOpticalFactor** – Used with **Glyph spacing factor**. Default is 27.
-* **AutoMetricsOpticalPreview** – Used with **Preview Text**. Default is same as the label.
-* **AutoMetricsOptionIndex** – Used by radio buttons.
-* **AutoMetricsWhiteSpaceAfter** – Used with **Calculated: White space after characters**.
-* **AutoMetricsWhiteSpaceBefore** – Used with **Calculated: White space before characters**.
+* **AutoMetricsOpticalFactor** – Used with **Glyph spacing factor (usually between 20 and 30)** in Optical Metrics. Default is 27.
+* **AutoMetricsOpticalFigures** – Used by **Set character width for digits as** to change the metrics for digits. Set to 0 (Tabular figures), 1 (Proportional figures) or 2 (No change). Default is 0 (Tabular figures).
+* **AutoMetricsOpticalPreview** – Used with **Preview Text** in Optical Metrics. Default is **Preview Text**.
+* **AutoMetricsOptionIndex2** – Set to 0 (Optical Metrics), 1 (Fixed Bearings), 2 (Fixed Width) or 3 (Fixed Height). Default is 0 (Optical Metrics).
+* **AutoMetricsWhiteSpaceAfter** – Used with **Fixed Bearings: Space after**. Default is 100.
+* **AutoMetricsWhiteSpaceBefore** – Used with **Fixed Bearings: Space before**. Default is 100.
 
 ### MetricsAndKerning
-* **MetricsAndKerningKerningEnabled** – Used by **OpenType Layout Features** in the Comparison toolbar. Default is off.
+* **MetricsAndKerningKerningEnabled** – Enable or disable **OpenType Layout Features** in the Comparison toolbar. Default is off.
 * **MetricsAndKerningTextEnabled** – Used by **Show text before and after glyph** in the Comparison toolbar. Default is off.
 * **MetricsAndKerningTextLeft** – Used by **Before** text box in the Comparison toolbar. Default is empty.
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
@@ -291,11 +292,11 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
 * **DefaultNamingFontDesignerLinkIncluded** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
-* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize. Default value leads to a non-existing domain.
+* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize. Default value is file from a non-existing domain.
 * **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize. Default is empty.
 * **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize.
 * **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize. Default value leads to a non-existing domain.
+* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize. Default value is file from a non-existing domain.
 * **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize. Default is empty.
 * **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize.
 * **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**.
@@ -337,8 +338,8 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **FeatureTags** – Contains the tags used for OpenType features.
 * **PreviewFeatures** – Enable or disable any OpenType feature for the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
-* **PreviewSampleFontSize** – Select the size in the Preview window.
-* **PreviewSampleText** – Used with the dropdown box in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
+* **PreviewSampleFontSize** – Scale the font in the Preview window.
+* **PreviewSampleText** – Contains sample text used in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
 * **PreviewSampleUseKerning** – Set this value to on to kern text in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Set this value to on to strikeout text in the Test Font window. Default is off.
@@ -348,34 +349,34 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 The program is started in unregistered mode either after the installation process is finished or if all keys are empty. Many people provided registration keys for different versions.
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 & above places your name on the title bar.
 
-### Themes
+### Themes (version 3.0 until 6.5)
 * **ActiveTheme** – Contains the active theme.
 
 ### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
 * **CurrentTip** – Current line number in `FontCreator.tip`, used after opening.
-* **ShowTipOnStartup** – Used when selecting **Show this screen next time when you start FontCreator**. Default is on.
+* **ShowTipOnStartup** – Used by **Show this screen next time when you start FontCreator** to always show this form on startup. Default is on.
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation.
-* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation.
-* **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar.
+* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation. Default is off.
+* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation. Default is off.
+* **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar. Default is on.
 * **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Settings: Validation. Default is on.
 * **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Settings: Validation. Default is 0.20.
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Settings: Validation. Default is 0.80.
-* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. If enabled, intersecting contours are shown for each glyph. If disabled, no intersecting contours are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
-* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. If enabled, warning points are shown for each glyph. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
-* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard and **Correct Contour Directions** in the Validation toolbar. Default is on.
-* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
-* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
-* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard and **Remove Duplicate Contours** in the Validation toolbar. Default is on.
-* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard and **Remove Duplicate Knots** in the Validation toolbar. Default is on.
-* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard and **Remove Components** in the Validation toolbar. Default is on.
+* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
+* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
+* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard. Default is on.
+* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard. Default is on.
+* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard. Default is on.
+* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Font Validation Wizard. Default is on.
+* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Font Validation Wizard. Default is on.
+* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Font Validation Wizard. Default is on.
 * **TestFixDetectedProblems** – Used with **Fix detected problems** in the Font Validation Wizard. Default is off.
 * **TestIntersectingComponents** – Used with **Validation Tests: Intersecting components** in the Font Validation Wizard. Default is on.
 * **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Font Validation Wizard. Default is on.
-* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard and **Add Off-Curve Extremes** in the Validation toolbar. Default is on.
+* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Font Validation Wizard. Default is on.
 * **TestOverlappingComponents** – Used with Validation Tests: Overlapping components** in the Font Validation Wizard. Default is on.
-* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard and **Remove Redundant Points** in the Validation toolbar. Default is on.
+* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard. Default is on.
 * **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard. Default is on.
 * **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation. Default is 1000.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation. Default is 100.
@@ -417,17 +418,13 @@ The program is started in unregistered mode either after the installation proces
 ## Bitmaps in the executable file (Delphi resources omitted)
 * **SPTBXGLYPHS** – Used by glyphs in the Glyph Overview.
 * **SYNEDITINTERNALIMAGES** – Numbers in gray background
-* **SYNEDITWORDWRAPPED** – Word wrap icon
-* **TB2SYSMENUGLYPHS** – Used by the toolbars.
-* **TB2SYSMENUIMAGES** and **TBXSYSMENUIMAGES** – Window commands
-* **TBXGLYPHS** – Used by glyphs in the Glyph Overview.
-* **TCOLORSELECTOR** – Used in the color selection dialog.
 
 ## RC Data in the executable file
+* **CLOUDS** – Image of colorful clouds.
 * **DESCRIPTION** – This data is binary.
-* **DVCLAL** – Shows two paragraphs saying the license is valid and is running C++ Builder Professional.
-* **PACKAGEINFO** – Shows the Pascal log for compiling the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and credits for third party libraries (**Help: About...**).
+* **DVCLAL** – Shows two paragraphs (license is valid and runs C++ Builder Professional).
+* **PACKAGEINFO** – Shows the log used by Pascal to compile the program.
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used for newcomers as if **OnStartupShowWelcome** is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Displays a dialog when you press **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**. It allows you to select Unicode values for each glyph.
