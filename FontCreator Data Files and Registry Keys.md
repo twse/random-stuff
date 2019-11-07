@@ -10,16 +10,16 @@
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
 * The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above uses a different icon set.
-* In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
-* In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
-* The euro (€) and international currency sign (¤) has the same mapping in the Macintosh Roman glyph mapping list.
+* Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above changed the icons.
+* In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 from 2006 tested) to unpack the executable file which isn't possible as UPX says it's not packed.
+* In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€).
+* The euro (€) uses the same mapping for the international currency sign (¤) in the Macintosh Roman glyph mapping list.
 * Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 The unregistered version has a grace period of 30 days with the following limitations based on the version number.
-* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, the program will show a nag screen when pressing **Start**. However, the program otherwise functions normally.
-* 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
+* 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, a nag screen is shown when pressing **Start**. However, the program otherwise functions normally.
+* 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started and completed.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program uses a reduced functionality mode, where e.g. tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when saving, testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be saved, tested, installed or exported and OpenType collections cannot be extracted.
@@ -61,6 +61,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
 
 ## Registry Keys
+The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version`.
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
@@ -70,8 +71,8 @@ In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files t
 * **BackgroundInitColor** – Select the background color. Default is white.
 * **BackgroundInitScale** – Select the background scaling factor.
 
-### Columns
-* **Open Installed Fonts** – Binary value used by `TINSTALLEDFONTSFORM`.
+### Columns (used in `TINSTALLEDFONTSFORM`)
+* **Open Installed Fonts** – Binary value used to change the column width.
 
 ### Edit (used in `TPASTESPECIALFORM`)
 * **PasteSpecialAnchors** – Used to paste anchors. Default is on.
@@ -103,10 +104,10 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**. Default is on.
 
 ### FreeDraw (version 6.5 & above, used in Free Draw)
-* **BrushWidth** – Used to change the **Brush width**.
+* **BrushWidth** – Used to change the **Brush width**. Default is 64.
 
 ### Glyph Edit Window
-* **FilledOutline** – Used with **Fill Outline** in the Grid toolbar.
+* **FilledOutline** – Used with **Fill Outline** in the Grid toolbar. Default is on.
 * **ShowConnectionBetweenPoints** – Used with **Show Connection** in the Grid toolbar. Default is on.
 * **ShowFirstAndLastPointIndicators** – Used with **Show First and Last** in the Grid toolbar. Default is on.
 * **ShowToolbarWindowBackground** – Show or hide the Background Image toolbar. Default is off.
@@ -164,7 +165,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **InstallFontsInFontsFolder** (version 3.0 until 6.5) – Used with **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
-* **PreviewHeight** – Select the height used for the preview area.
+* **PreviewHeight** – Select the height used for the preview area at the bottom. Default is 124.
 
 ### Interface (used in the toolbar context menu or View: Toolbars)
 * **LockToolbars** – Used with **Lock Docked Toolbars**. Default is off.
@@ -184,7 +185,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **GlyphNamesOptionsCS** – Contains the context substitutions used by the glyph names dialog.
 * **GlyphNamesOptionsRE** – Contains the regular expressions used by the glyph names dialog.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
-* **GlyphPropsExpanded** – Used to expand the glyph properties.
+* **GlyphPropsExpanded** – Used to expand the glyph properties by pressing **More** button at the bottom. Default is on.
 * **GroupManagerSorted** – Used to sort the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
 * **InsertGlyphsPage** – Select the page in the Insert Glyphs dialog.
@@ -196,19 +197,19 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **OpenDialogInitialDirImportImage** – Select the directory to use in the Open dialog from Import Image.
 * **OpenDialogInitialDirNamingField** – Select the directory in the Open dialog from Edit Naming Field.
 * **OpenDialogInitialDirTransform** – Select the directory to use in the Open dialog from Glyph Transformer.
-* **OptionsPage** – Select the tab used in the Options dialog.
+* **OptionsPage** – Select the tab used in the Options dialog. Default is 0 (General).
 * **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
-* **OTLFDesignerPreviewLanguage** – Contains the language used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview.
-* **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview.
+* **OTLFDesignerPreviewLanguage** – Contains the language used for the preview text in the OpenType Designer. Default is **Auto**.
+* **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview. Default is **The five boxing wizards jump quickly**.
+* **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview. Default is **Auto**.
 * **OTLFEditor** – Contains settings in the OpenType script editor.
 * **OverviewColCat** – Contains the column categories used in the glyph overview.
 * **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
 * **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the previews are displayed with **MS Sans Serif** moving the glyphs to different positions. (Available in the Options window)
-* **OverviewShowCaption** – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
+* **OverviewShowCaption** (version 3.0 until 6.5) – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
 * **OverviewSingleWidth** – Used with **Font overview: Glyph width** in the Overview tab. Default is 70. (Available in the Options window)
@@ -270,17 +271,17 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **File_#** – Same key name as the **Last Time** section above. Lists the fonts and/or projects in the **File: Reopen** menu (# is a number). The menu will appear dimmed if the above keys are deleted or if it's empty.
 
 ### OpenType Designer (version 7.0 & above)
-* **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
-* **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window.
-* **LayoutMode** – Select the layout mode used in the OpenType Designer.
-* **MarkWidth** – Select the mark width used in the OpenType Designer.
-* **PairWidth** – Select the pair width used in the OpenType Designer.
-* **PreviewHeight** – Select the preview text height in the OpenType Designer.
-* **PreviewSampleFontSize** – Select the preview sample font size in the OpenType Designer.
-* **SimpleWidth** – Set the width used in the OpenType Designer.
-* **SingleWidth** – Set the width used in the OpenType Designer.
-* **TreeWidth** – Select the tree width used in the OpenType Designer.
-* **ZoomFactor** – Select the zoom factor used in the OpenType Designer.
+* **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window. Default is on.
+* **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window. Default is off.
+* **LayoutMode** – Select the layout mode used in the OpenType Designer. Default is 0.
+* **MarkWidth** – Select the mark width used in the OpenType Designer. Default is 240.
+* **PairWidth** – Select the pair width used in the OpenType Designer. Default is 145.
+* **PreviewHeight** – Select the preview text height in the OpenType Designer. Default is 120.
+* **PreviewSampleFontSize** – Select the preview sample font size in the OpenType Designer. Default is 32.
+* **SimpleWidth** – Set the width used in the OpenType Designer. Default is 145.
+* **SingleWidth** – Set the width used in the OpenType Designer. Default is 145.
+* **TreeWidth** – Select the tree width used in the OpenType Designer. Default is 320.
+* **ZoomFactor** – Select the zoom factor used in the OpenType Designer. Default is 12.
 
 ### Options
 * **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. Default is off.
@@ -346,7 +347,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **Underline** – Set this value to on to underline text in the Test Font window. Default is off.
 
 ### Reg
-The program is started in unregistered mode either after the installation process is finished or if all keys are empty. Many people provided registration keys for different versions.
+The program is started in unregistered mode either after the installation process is completed or if all keys are empty. Many people provided registration keys for different versions.
 * **V5D#** – Created after registration whereas # is a numerical string. It displays a message and removes the **Buy** menu and the **Register** item on the Help menu. Version 6.0 & above places your name on the title bar.
 
 ### Themes (version 3.0 until 6.5)
@@ -364,7 +365,7 @@ The program is started in unregistered mode either after the installation proces
 * **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Settings: Validation. Default is 0.20.
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Settings: Validation. Default is 0.80.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
-* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If disabled, no warning points are shown for each glyph. If the glyph is too complex, the button will appear dimmed.
+* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
 * **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard. Default is on.
 * **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Font Validation Wizard. Default is on.
 * **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Font Validation Wizard. Default is on.
@@ -470,8 +471,8 @@ The program is started in unregistered mode either after the installation proces
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables in the font.
 * **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Default text in `mmFontTest` is the program name, uppercase, lowercase and numbers.
-* **TFORMADDANCHOR** – Used when adding anchors in the font.
-* **TFORMOPENTYPEDESIGNERSETTINGS** – Displays a dialog where you can configure settings for the OpenType Designer.
+* **TFORMADDANCHOR** (version 7.0 & above) – Used when adding anchors in the font.
+* **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Displays a dialog where you can configure settings for the OpenType Designer.
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
 * **TFRAMECATEGORY** – Used by the font overview to display categories.
 * **TFRAMEGLYPHMEMBER** – Used by the font overview to display glyph members.
@@ -479,10 +480,10 @@ The program is started in unregistered mode either after the installation proces
 * **TGASPFORM** – Used when managing gasps in the font.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard (the window is titled **Report**).
-* **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
+* **TGLYPHALREADYMAPPEDFORM** (version 3.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
-* **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** – Used where you can change various properties for the selected glyph.
+* **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Used where you can change various properties for the selected glyph.
 * **TGRIDFORM** – Used when changing grid settings.
 * **TGUIDELINEMODIFYFORM** – Used when modifying guidelines.
 * **TGUIDELINESFORM** – Used when changing guideline settings.
