@@ -420,14 +420,14 @@ The program is started in unregistered mode either after the installation proces
 * **SYNEDITINTERNALIMAGES** – Numbers in gray background
 
 ## RC Data in the executable file
-* **CLOUDS** – Image of colorful clouds.
+* **CLOUDS** – Shows an image of clouds with random colors.
 * **DESCRIPTION** – This data is binary.
-* **DVCLAL** – Shows two paragraphs (license is valid and runs C++ Builder Professional).
-* **PACKAGEINFO** – Shows the log used by Pascal to compile the program.
+* **DVCLAL** – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
+* **PACKAGEINFO** – Shows the Pascal log used to compile the program.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used for newcomers as if **OnStartupShowWelcome** is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
-* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Displays a dialog when you press **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**. It allows you to select Unicode values for each glyph.
+* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows a dialog after pressing **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**, allowing the user to select Unicode values for each glyph.
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for a specific language.
 * **TADDFPCVLTSFORM** – Used when adding a label, tooltip or sample.
 * **TADDFPSIZENAMEFORM** – Used when adding a subfamily name in the font.
@@ -444,7 +444,7 @@ The program is started in unregistered mode either after the installation proces
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** – Used when changing tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Used when mapping a character to glyph index.
-* **TCODEEDITORFORM** – Displays a dialog where you can edit the OpenType layout table code (**Code Editor** in OpenType Designer).
+* **TCODEEDITORFORM** – Shows a dialog to view or edit the OpenType layout table code (**Code Editor** in OpenType Designer).
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font.
 * **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member.

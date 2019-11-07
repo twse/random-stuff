@@ -16,8 +16,8 @@ You won't receive any emails when your name is added - this will only see the me
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
-4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` and replace `file.csv` with whatever name you want.
-5. Commit the new file via `-a -m "message"` and replace it with whatever message you want.
+4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` replaced with your actual file containing a list.
+5. Commit the new file via `-a -m "message"` replaced with your own message.
 6. Login as `gurumukhi` to push changes.
 7. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
 
@@ -27,7 +27,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
 4. Use the default option (commit directly to the `master` branch).
-5. Open the Mozilla credits list by clicking the link at the beginning and the entry(-ies) will appear with the last updated date being changed.
+5. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -54,7 +54,7 @@ The `names.csv` file is located in the credits directory in the `mozilla/communi
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created it via CVS in 1999/08/29 with a post in the Mozilla mailing list/newsgroup. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
+**P.S.** The first entry created it via CVS in 1999/08/29 with a post in the Mozilla mailing list/newsgroup. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. Unless the last entry blocks or reports the user (**Block or report user** on user pages), he commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for the inspiration of creating these pages.
@@ -62,7 +62,7 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed (You're not connected to the internet)** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu).
+* **This page can't be displayed (You're not connected to the internet)** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu; the menu item won't appear dimmed for computers not connected to the internet).
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
