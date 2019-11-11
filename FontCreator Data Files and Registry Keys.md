@@ -12,8 +12,7 @@
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above changed the icons.
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 from 2006 tested) to unpack the executable file which isn't possible as UPX says it's not packed.
-* In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€).
-* The euro (€) uses the same mapping for the international currency sign (¤) in the Macintosh Roman glyph mapping list.
+* In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
 * Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
@@ -41,19 +40,19 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
-* **fc12.cfg** – Configuration file used by FontCreator.
+* **fc12.cfg** – Configuration file used by FontCreator 12.0.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
-* **FontCreatorSetup.exe** – Install the program for use with x86 platform (32 bit).
-* **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform (64 bit).
+* **FontCreatorSetup.exe** – Installs the program for x86 platform (32 bit).
+* **FontCreatorSetup-x64.exe** – Installs the program for x64 platform (64 bit).
 * **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. If removed, this window appears blank.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on the Glyph Properties dialog. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Includes guidelines used in the Glyph Edit window and Guideline Options.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas `filename` is the font name.
 * **previewtext.dat** (version 5.0 & above) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
-* **preview.txt** (version 6.5 & above) – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
+* **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
 * **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
@@ -173,9 +172,9 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 
 ### Interface Settings
 * **ChildWindowState** – Contains the child window state.
-* **CompleteCompositesAction** – Set the value to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) as used with **Complete Composites**. Default is 1 (auto).
+* **CompleteCompositesAction** – Set to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) as used with **Complete Composites**. Default is 1 (auto).
 * **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window.
-* **ExportSettingsPage** – Select the page used for export settings.
+* **ExportSettingsPage** – Select the page used for `TEXPORTSETTINGSFORM`.
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** in the font overview context menu.
 * **GlyphCaptionType2** – Used with the Captions options in the font overview context menu.
 * **GlyphDrawMode** – Set the value to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
@@ -188,7 +187,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **GlyphPropsExpanded** – Used to expand the glyph properties by pressing **More** button at the bottom. Default is on.
 * **GroupManagerSorted** – Used to sort the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
-* **InsertGlyphsPage** – Select the page in the Insert Glyphs dialog.
+* **InsertGlyphsPage** – Select the page used for `TINSERTGLYPHFORM`.
 * **KerningFolderExport** – Select the directory to export the legacy kerning tables.
 * **KerningFolderImport** – Select the directory to import the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
@@ -208,7 +207,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **OverviewColCat** – Contains the column categories used in the glyph overview.
 * **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the previews are displayed with **MS Sans Serif** moving the glyphs to different positions. (Available in the Options window)
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the previews are displayed with **MS Sans Serif**. (Available in the Options window)
 * **OverviewShowCaption** (version 3.0 until 6.5) – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
@@ -273,15 +272,15 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 ### OpenType Designer (version 7.0 & above)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window. Default is on.
 * **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window. Default is off.
-* **LayoutMode** – Select the layout mode used in the OpenType Designer. Default is 0.
-* **MarkWidth** – Select the mark width used in the OpenType Designer. Default is 240.
-* **PairWidth** – Select the pair width used in the OpenType Designer. Default is 145.
-* **PreviewHeight** – Select the preview text height in the OpenType Designer. Default is 120.
-* **PreviewSampleFontSize** – Select the preview sample font size in the OpenType Designer. Default is 32.
-* **SimpleWidth** – Set the width used in the OpenType Designer. Default is 145.
-* **SingleWidth** – Set the width used in the OpenType Designer. Default is 145.
-* **TreeWidth** – Select the tree width used in the OpenType Designer. Default is 320.
-* **ZoomFactor** – Select the zoom factor used in the OpenType Designer. Default is 12.
+* **LayoutMode** – Select the layout mode. Default is 0.
+* **MarkWidth** – Select the mark width. Default is 240.
+* **PairWidth** – Select the pair width. Default is 145.
+* **PreviewHeight** – Select the preview text height. Default is 120.
+* **PreviewSampleFontSize** – Scales the preview sample to any size. Default is 32.
+* **SimpleWidth** – Set the simple width. Default is 145.
+* **SingleWidth** – Set the single width. Default is 145.
+* **TreeWidth** – Select the tree width. Default is 320.
+* **ZoomFactor** – Select the zoom factor. Default is 12.
 
 ### Options
 * **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. Default is off.
@@ -354,7 +353,7 @@ The program is started in unregistered mode either after the installation proces
 * **ActiveTheme** – Contains the active theme.
 
 ### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
-* **CurrentTip** – Current line number in `FontCreator.tip`, used after opening.
+* **CurrentTip** – Line number in `FontCreator.tip`.
 * **ShowTipOnStartup** – Used by **Show this screen next time when you start FontCreator** to always show this form on startup. Default is on.
 
 ### Validation
