@@ -1,7 +1,7 @@
 This repository is unrelated to the below two headings.
 
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
-Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository. A bot registered with the GitHub username `the-knights-who-say-ni` will either add the label `CLA signed` (if signed) or `CLA not signed` (if not signed) for every created pull request. After you signed the Contributor License Agreement and faxed it, every comment you post in Python's issue tracker adds an asterisk at the end of your username.
+Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository. A bot registered with the GitHub username `the-knights-who-say-ni` will either add the label `CLA signed` (if signed) or `CLA not signed` (if not signed) for every created pull request. After you signed the Contributor License Agreement and faxed it to Ewa Jodlowska, every comment in Python's own issue tracker will add an asterisk at the end of your username.
 
 This list represents but a portion of the people who have sent the Contributor Agreement to the Python Software Foundation.
 
