@@ -13,7 +13,7 @@
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above changed the icons.
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 from 2006 tested) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
-* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use \\00AB as escape code.
+* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use a backslash (\\) among with the hexadecimal code of any character as escape code.
 
 ## Unregistered version limitations
 The unregistered version has a grace period of 30 days with the following limitations based on the version number.
@@ -55,12 +55,12 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
-* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
+* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph. The same tags are the last five entries in the **Hidden Shortcuts** menu.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files in the above list to the user data folder or open it.
 
 ## Registry Keys
-The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version`.
+The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` whereas `version` is the version number.
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
@@ -83,7 +83,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version`.
 * **PasteSpecialOutlineData** – Used to paste outline data. Default is on.
 
 ### Externals (used by Tools: Launch Externals)
-There are three built-in external programs: **MainType** (if installed), **Fonts Folder** and **Character Map**.
+There are three built-in external programs: **MainType** (shows if installed), **Fonts Folder** and **Character Map**.
 * **Location#** – The last character can be up to digit three. Default is empty.
 * **Title#** – The last character can be up to digit three. Default is **External #** whereas # is a number.
 
@@ -91,7 +91,7 @@ There are three built-in external programs: **MainType** (if installed), **Fonts
 * **FindLanguageID** – Select the language identifier.
 * **PlatformID** – Select the **Platform** identifier in the Mapping tab.
 * **PlatformSpecificEncodingID** – Used to change the specific encoding for **Platform** in the Mapping tab.
-* **TabIndex** – Used to change the tab.
+* **TabIndex** – Changes tab in the form.
 
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
 * **CategoryWidth** – Select the width used for categories in the font overview.
@@ -420,10 +420,10 @@ The program is unregistered after the installation process is completed or if th
 * **DESCRIPTION** – This data is binary.
 * **DVCLAL** – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
 * **PACKAGEINFO** – Shows the Pascal log used to compile the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
-* **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used for newcomers as if **OnStartupShowWelcome** is enabled.
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**). `TABSTRACTABOUTDIALOG` has three buttons in the top left, top right and bottom right corners of the version number and copyright (**Clr** – Remove registration info; **Crash** – Shows a critical error; **Trial** – Reset trial period) which can be shown by removing `Visible = False`.
+* **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
-* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows a dialog after pressing **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**, allowing the user to select Unicode values for each glyph.
+* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows this dialog when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM`, allowing the user to assign Unicode values for each glyph.
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for a specific language.
 * **TADDFPCVLTSFORM** – Used when adding a label, tooltip or sample.
 * **TADDFPSIZENAMEFORM** – Used when adding a subfamily name in the font.
@@ -460,7 +460,7 @@ The program is unregistered after the installation process is completed or if th
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when changing embedding and licensing rights in the font.
 * **TFONTHEADERFLAGSFORM** – Used when changing header flags in the font.
 * **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications.
-* **TFONTLOGFORM** – Used when viewing the font log (**Developer Tools: Font Log**).
+* **TFONTLOGFORM** – Shows the font log (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
@@ -474,7 +474,7 @@ The program is unregistered after the installation process is completed or if th
 * **TFRAMEPALETTE** – Used by multicolored fonts to show a palette.
 * **TGASPFORM** – Used when managing gasps in the font.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
-* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard (the window is titled **Report**).
+* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in `TVALIDATIONWIZARDFORM` (the window is titled **Report**).
 * **TGLYPHALREADYMAPPEDFORM** (version 3.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
@@ -490,7 +490,7 @@ The program is unregistered after the installation process is completed or if th
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Used when adding a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
 * **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The main window has two hidden menus (Hidden Shortcuts and Developer Tools) which can be shown by removing `Visible = False`. In the Tools menu is an option labeled **TODO! Customize...** which can be shown by removing the same value in the two hidden menus.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Main window for FontCreator, toolbars and more. The main window has two hidden menus (**Hidden Shortcuts** and **Developer Tools**) which can be shown by removing `Visible = False`. In the Tools menu is an option labeled **TODO! Customize...** which can be shown by removing the same value in the two hidden menus.
 * **TMETRICSFORM** – Used when configuring metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
@@ -507,12 +507,12 @@ The program is unregistered after the installation process is completed or if th
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**.
-* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes the splash screen on startup and sets the `Visible` value on the **Buy** menu to `False`.
+* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes the splash screen on startup and hides the **Buy** menu and the **Register...** item in the **Help** menu.
 * **TRESOURCEEDITORDLG** – In old versions only, used when editing resources.
 * **TRESOURCEMODULE** – Used for resource module.
 * **TRICHVIEWDIALOG** – Used for the rich text module.
 * **TRULEMANAGER** (version 7.0 & above) – Used when managing rules in the OpenType layout tables.
-* **TSAMPLETEXTFORM** – Used when managing sample texts in the test font window.
+* **TSAMPLETEXTFORM** – Used when adding custom sample texts in `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Used when seelcting a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** – For old versions and unregistered copies of FontCreator, displays this notice when pressing **Start** on the splash screen after a grace period of 30 days.
@@ -529,6 +529,6 @@ The program is unregistered after the installation process is completed or if th
 * **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
 * **TUVSFORM** – Used when managing Unicode variation sequences in the font.
-* **TVALIDATIONWIZARDFORM** – Displays a dialog where you can validate the font for errors.
+* **TVALIDATIONWIZARDFORM** – Displays a dialog where you can validate the font for errors or problems.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TWARNINGFORM** in old versions) – Used for warnings.
