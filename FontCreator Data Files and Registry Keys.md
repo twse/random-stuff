@@ -3,8 +3,8 @@
 * All versions can save all unaltered opened fonts from the menu (**File: Save All**). In double-byte versions of Windows, the system displays a critical error saying "List index out of bounds (0)" if done repeatedly.
 * Exiting the program may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program displays a critical error saying "Access violation" when closing after doing some operations – the font(s) may be invalid.
-* Any glyph stored in the clipboard in version 1.0 until 6.0 will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
-* Any glyph stored in the clipboard in version 7.0 will have **Font Data**.
+* Glyphs stored in the clipboard in version 1.0 until 6.0 will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph.
+* Glyphs stored in the clipboard in version 7.0 will have the words **Font Data**.
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time using in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
@@ -13,7 +13,7 @@
 * Version 5.0 (2005-01-12) until 10.1.02272 (2016-12-20) uses Windows XP style icons whereas version 11.0.0.2365 (2017-05-10) & above changed the icons.
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 from 2006 tested) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
-* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use a backslash (\\) among with the hexadecimal code of any character as escape code.
+* Version 1.0 (1998-04-11) until 5.6 (2007-07-19) used ISO Latin-1 as the output encoding while current versions use Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use a backslash (\\) among with the hexadecimal code of any character as escape code, e.g. \\00AB.
 
 ## Unregistered version limitations
 The unregistered version has a grace period of 30 days with the following limitations based on the version number.
@@ -55,7 +55,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
-* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph. The same tags are the last five entries in the **Hidden Shortcuts** menu.
+* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph. The tags are the last five entries in the **Hidden Shortcuts** menu of `TMAINFORMFONTCREATOR`.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files in the above list to the user data folder or open it.
 
@@ -191,12 +191,12 @@ There are three built-in external programs: **MainType** (shows if installed), *
 * **KerningFolderExport** – Select the directory to export the legacy kerning tables.
 * **KerningFolderImport** – Select the directory to import the legacy kerning tables.
 * **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
-* **OpenDialogInitialDir2** – Select the directory to use in the Open dialog.
+* **OpenDialogInitialDir2** – Select the directory in the Open dialog.
 * **OpenDialogInitialDirAutoKerning** – Select the directory to use in the AutoKern Open dialog.
 * **OpenDialogInitialDirImportImage** – Select the directory to use in the Open dialog from Import Image.
 * **OpenDialogInitialDirNamingField** – Select the directory in the Open dialog from Edit Naming Field.
 * **OpenDialogInitialDirTransform** – Select the directory to use in the Open dialog from Glyph Transformer.
-* **OptionsPage** – Select the tab used in the Options dialog. Default is 0 (General).
+* **OptionsPage** – Select the tab in the Options dialog. Default is 0 (General).
 * **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
 * **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
@@ -420,7 +420,7 @@ The program is unregistered after the installation process is completed or if th
 * **DESCRIPTION** – This data is binary.
 * **DVCLAL** – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
 * **PACKAGEINFO** – Shows the Pascal log used to compile the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**). `TABSTRACTABOUTDIALOG` has three buttons in the top left, top right and bottom right corners of the version number and copyright (**Clr** – Remove registration info; **Crash** – Shows a critical error; **Trial** – Reset trial period) which can be shown by removing `Visible = False`.
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**). `TABSTRACTABOUTDIALOG` has three buttons in the top left, top right and bottom right corner (**Clr** – Remove registration info; **Crash** – Shows a critical error; **Trial** – Reset trial period, used with expired copies) which can be shown by removing `Visible = False`.
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows this dialog when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM`, allowing the user to assign Unicode values for each glyph.
@@ -442,7 +442,7 @@ The program is unregistered after the installation process is completed or if th
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Used when mapping a character to glyph index.
 * **TCODEEDITORFORM** – Shows a dialog to view or edit the OpenType layout table code (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font.
-* **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
+* **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours or importing raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Used when deleting features or lookups in the font.
@@ -465,7 +465,7 @@ The program is unregistered after the installation process is completed or if th
 * **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables in the font.
-* **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Default text in `mmFontTest` is the program name, uppercase, lowercase and numbers.
+* **TFONTTESTFORM** – Used when testing desktop fonts (not web fonts). Default text in `mmFontTest` (multiline editable text field) is the program name, uppercase, lowercase and numbers.
 * **TFORMADDANCHOR** (version 7.0 & above) – Used when adding anchors in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Displays a dialog where you can configure settings for the OpenType Designer.
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
