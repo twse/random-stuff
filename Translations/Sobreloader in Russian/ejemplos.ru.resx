@@ -118,101 +118,101 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Einige Namen zum Ausführen von Programmen:
-(Klicken Sie auf ein Element, um weitere Informationen anzuzeigen)</value>
+    <value>Несколько имен для запуска программ.
+(щелкните по элементу, чтобы узнать больше информации)</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Kopieren</value>
+    <value>&amp;Копировать</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>&amp;Testen</value>
+    <value>&amp;Тестировать</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelw.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 13</value>
   </data>
   <data name="labelw.Text" xml:space="preserve">
-    <value>Arbeiten Sie an:</value>
+    <value>Работать в:</value>
   </data>
   <data name="labelWW.Text" xml:space="preserve">
-    <value>Verschiedene Systemen</value>
+    <value>разний систему</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Beispiel</value>
+    <value>Примеры</value>
   </data>
   <data name="1D" xml:space="preserve">
-    <value>Der klassische Bildeditor ist auf Windows vorinstalliert.</value>
+    <value>Классический предустановленный графический редактор в Windows.</value>
   </data>
   <data name="1T" xml:space="preserve">
     <value>Paint</value>
   </data>
   <data name="1W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="2D" xml:space="preserve">
-    <value>Einfacher und unkomplizierter Klartext-Editor.</value>
+    <value>Простой и легкий текстовый редактор.</value>
   </data>
   <data name="2T" xml:space="preserve">
-    <value>Editor</value>
+    <value>Блокнот</value>
   </data>
   <data name="2W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="3D" xml:space="preserve">
-    <value>Rich-Format-Texteditor, sehr einfach im Vergleich zu Word, aber vollständiger als Editor. Was will man mehr?</value>
+    <value>= Редактор текста с поддержкой форматирования, очень базовый по сравнению с Word, но более функциональный, чем Блокнот. Что еще можно желать?</value>
   </data>
   <data name="3T" xml:space="preserve">
     <value>WordPad</value>
   </data>
   <data name="3W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="4D" xml:space="preserve">
-    <value>Von den Internetbrowsern, die in die Geschichte eingegangen sind. Zu dieser Zeit wurde es das am häufigsten verwendete und übertraf Netscape. Heutzutage können Sie andere wie es herunterladen.</value>
+    <value>Из числа интернет-браузеров, ставших частью истории. В свое время был самым популярным, обойдя Netscape. Сегодня позволяет загружать другие, такие как.</value>
   </data>
   <data name="4T" xml:space="preserve">
     <value>Internet Explorer</value>
   </data>
   <data name="4W" xml:space="preserve">
-    <value>Bist Windows 10</value>
+    <value>до Windows 10</value>
   </data>
   <data name="5D" xml:space="preserve">
-    <value>Das am häufigsten verwendete Werkzeug von Microsoft Windows.</value>
+    <value>Самый используемый инструмент в Microsoft Windows.</value>
   </data>
   <data name="5T" xml:space="preserve">
-    <value>Datei-Explorer</value>
+    <value>Проводник файлов</value>
   </data>
   <data name="5W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="6D" xml:space="preserve">
-    <value>Wenn Sie seltsame Symbole suchen und einfügen müssen oder wenn Sie eine E-Mail senden möchten und Ihre gesegnete Tastatur es Ihnen nicht erlaubt, das at einzüfugen, diehnt Ihnen diese vorinstallierte Dienstprogramm wunderbar.</value>
+    <value>Если нужно искать и вставлять необычные символы, или если вы хотите отправить электронное письмо, а ваша любимая клавиатура не позволяет ввести @, эта предустановленная утилита отлично справляется с задачей.</value>
   </data>
   <data name="6T" xml:space="preserve">
-    <value>Zeichentabel</value>
+    <value>Мапа символы</value>
   </data>
   <data name="6W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="7D" xml:space="preserve">
-    <value>Das Zentrum der Microsoft-Hauptbetriebssystemkonfigurationen. Für immer präsent.</value>
+    <value>Центр основных настроек операционной системы Microsoft. Присутствует всегда.</value>
   </data>
   <data name="7T" xml:space="preserve">
-    <value>Systemsteurung</value>
+    <value>Панель управления</value>
   </data>
   <data name="7W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Все</value>
   </data>
   <data name="8D" xml:space="preserve">
     <value />
   </data>
   <data name="8T" xml:space="preserve">
-    <value>Unbenannte Program</value>
+    <value>Неизвестности програма</value>
   </data>
   <data name="8W" xml:space="preserve">
     <value>??</value>
   </data>
   <data name="msgErrorOF" xml:space="preserve">
-    <value>Ein Fehler ist aufgetreten. Überprüfen Sie, ob das Programm mit Ihrer Version von Windows kompatibel ist.</value>
+    <value>Произошла ошибка. Проверьте, совместима ли программа с вашей версией Windows.</value>
   </data>
 </root>
