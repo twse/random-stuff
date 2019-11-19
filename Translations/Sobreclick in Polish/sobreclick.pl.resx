@@ -194,13 +194,13 @@
     <value>98, 182</value>
   </data>
   <data name="buttonP.Text" xml:space="preserve">
-    <value>&amp;Wstrzymywanie (F7)</value>
+    <value>&amp;Wstrzymać (F7)</value>
   </data>
   <data name="buttonD.Text" xml:space="preserve">
     <value>Za&amp;trzymać (F8)</value>
   </data>
   <data name="buttonR.Text" xml:space="preserve">
-    <value>&amp;Wznawianie (F7)</value>
+    <value>&amp;Wznawać (F7)</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 13</value>
@@ -5326,5 +5326,8 @@
   </data>
   <data name="msgTypeSelection" xml:space="preserve">
     <value>Musisz wybierz typ.</value>
+  </data>
+  <data name="msgConfError0" xml:space="preserve">
+    <value>Nie udało się załadować pliku konfiguracyjnego (sobreclick.exe.config). Opcja zmiany klawiszy nie będzie dostępna.</value>
   </data>
 </root>
