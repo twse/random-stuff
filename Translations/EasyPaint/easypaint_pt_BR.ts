@@ -398,6 +398,76 @@ Deseja salvar as modificações?</translation>
         <source>Main</source>
         <translation>Principal</translation>
     </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="140"/>
+        <source>General</source>
+        <translation>General</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="142"/>
+        <source>Keyboard shortcuts</source>
+        <translation>Combinações de teclado</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
+        <source>Command</source>
+        <translation>Comando</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="148"/>
+        <location filename="../dialogs/settingsdialog.cpp" line="160"/>
+        <source>Shortcut</source>
+        <translation>Combinação</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="164"/>
+        <source>Key sequence:</source>
+        <translation>Sequência do tecla:</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/settingsdialog.cpp" line="178"/>
+        <source>Keyboard</source>
+        <translation>Teclado</translation>
+    </message>
+</context>
+<context>
+    <name>SharpenFilterSettings</name>
+    <message>
+        <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
+        <source>Intensity</source>
+        <translation>Intensidade</translation>
+    </message>
+</context>
+<context>
+    <name>ShortcutEdit</name>
+    <message>
+        <location filename="../widgets/shortcutedit.cpp" line="44"/>
+        <source>Clear</source>
+        <translation>Excluir</translation>
+    </message>
+</context>
+<context>
+    <name>TextDialog</name>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="50"/>
+        <source>Text</source>
+        <translation>Texto</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="55"/>
+        <source>Select Font...</source>
+        <translation>Seleciona fonte...</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="100"/>
+        <source>Question</source>
+        <translation>Pergunta</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/textdialog.cpp" line="100"/>
+        <source>Clear text?</source>
+        <translation>Excluir texto?</translation>
+    </message>
 </context>
 <context>
     <name>ToolBar</name>
