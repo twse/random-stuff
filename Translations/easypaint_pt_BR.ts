@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -250,7 +250,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>

@@ -235,7 +235,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
@@ -369,7 +369,7 @@ Vill du spara ändringarna?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

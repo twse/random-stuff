@@ -315,7 +315,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>

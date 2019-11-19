@@ -295,7 +295,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
