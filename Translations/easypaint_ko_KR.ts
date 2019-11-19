@@ -24,7 +24,7 @@
     <message>
         <location filename="../widgets/gaussianblurfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37,7 +37,7 @@
     <message>
         <location filename="../imagearea.cpp" line="214"/>
         <source>Error opening file</source>
-        <translation>파일 열는 중 오류 받았음</translation>
+        <translation>파일 열기 오류</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="214"/>
@@ -48,7 +48,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Error saving file</source>
-        <translation>파일 저장하는 중 오류 받았음</translation>
+        <translation>파일 저장 오류</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="227"/>
@@ -170,7 +170,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Color picker</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="263"/>
@@ -210,7 +210,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
@@ -235,22 +235,22 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>Gamma</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
@@ -280,12 +280,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="376"/>
         <source>Counter-clockwise</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>Clockwise</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
@@ -315,12 +315,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>
@@ -459,17 +459,17 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
         <source>User interface</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
@@ -494,7 +494,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="140"/>
         <source>General</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="142"/>
@@ -515,7 +515,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="164"/>
         <source>Key sequence:</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
@@ -528,7 +528,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../widgets/sharpenfiltersettings.cpp" line="34"/>
         <source>Intensity</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

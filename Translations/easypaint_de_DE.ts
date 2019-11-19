@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="de_DE">
 <context>
@@ -559,7 +559,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>

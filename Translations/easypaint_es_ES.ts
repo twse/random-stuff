@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.0" language="es_ES">
 <context>
@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -250,7 +250,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>Sharpen</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
@@ -290,12 +290,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>Zoom</source>
-        <translation></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Zoom avanzado...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -544,12 +544,12 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
         <source>Select Font...</source>
-        <translation>Selecionnar fuente...</translation>
+        <translation>Seleccionar fuente...</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
