@@ -155,7 +155,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="240"/>
         <source>&amp;Instruments</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Instrumentuj</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="242"/>
@@ -185,12 +185,12 @@
     <message>
         <location filename="../mainwindow.cpp" line="277"/>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Linio</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="284"/>
         <source>Spray</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprajo</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="291"/>
@@ -200,7 +200,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="298"/>
         <source>Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation">Rektangulo</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="305"/>
@@ -210,17 +210,17 @@
     <message>
         <location filename="../mainwindow.cpp" line="312"/>
         <source>Curve</source>
-        <translation type="unfinished"></translation>
+        <translation>Curbo</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>Tekst</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
         <source>E&amp;ffects</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;fektuj</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="329"/>
@@ -245,7 +245,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation">Gammo</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
@@ -358,17 +358,17 @@ Do you want to save changes?</source>
     <message>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Sitio</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Authors</source>
-        <translation type="unfinished"></translation>
+        <translation>Aŭtoroj</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se vi gustaron &lt;b&gt;EasyPaint&lt;/b&gt; kaj vi</translation>
     </message>
 </context>
 <context>
@@ -399,7 +399,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="54"/>
         <source>Pixels</source>
-        <translation type="unfinished"></translation>
+        <translation>Pikseloj</translation>
     </message>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="68"/>
@@ -524,7 +524,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="178"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Klavaro</translation>
     </message>
 </context>
 <context>
@@ -548,7 +548,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="50"/>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>Tekst</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="55"/>
@@ -563,7 +563,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Clear text?</source>
-        <translation>Forviŝu text?</translation>
+        <translation>Forviŝu tekst?</translation>
     </message>
 </context>
 <context>
