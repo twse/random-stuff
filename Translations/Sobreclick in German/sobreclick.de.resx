@@ -5327,4 +5327,7 @@
   <data name="msgTypeSelection" xml:space="preserve">
     <value>Du muss Wählen der Format.</value>
   </data>
+  <data name="msgConfError0" xml:space="preserve">
+    <value>Die Konfigurationsdatei (sobreclick.exe.config) konnte nicht geladen werden. Die Option zum Ändern der Tasten ist nicht verfügbar.</value>
+  </data>
 </root>
