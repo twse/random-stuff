@@ -315,7 +315,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Enter zoom factor</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="656"/>
@@ -326,7 +326,7 @@
         <location filename="../mainwindow.cpp" line="674"/>
         <location filename="../mainwindow.cpp" line="728"/>
         <source>Closing Tab...</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="672"/>
@@ -354,7 +354,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../mainwindow.cpp" line="860"/>
         <source>Authors</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
@@ -444,17 +444,17 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
         <source>Note: language changing requires application restart</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="84"/>
         <source>Restore window size on start</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
@@ -464,7 +464,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="94"/>
         <source>Base size:</source>
-        <translation></ranslation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="107"/>
@@ -574,13 +574,13 @@ Haluatko tallentaa muutokset?</translation>
         <location filename="../widgets/toolbar.cpp" line="93"/>
         <location filename="../widgets/toolbar.cpp" line="94"/>
         <source>Second color</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../widgets/toolbar.cpp" line="100"/>
         <location filename="../widgets/toolbar.cpp" line="101"/>
         <source>Pen size</source>
-        <translation></translation>
+        <translation>Kynä koko</translation>
     </message>
 </context>
 </TS>

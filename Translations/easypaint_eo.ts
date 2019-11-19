@@ -235,7 +235,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
@@ -430,7 +430,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/resizedialog.cpp" line="90"/>
         <source>Preserve Aspect Ratio</source>
-        <translation>Bevara bildförhållande</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
