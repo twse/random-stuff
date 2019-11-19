@@ -290,11 +290,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-<<<<<<< HEAD
-        <translation></translation>
-=======
         <translation>Desenfoque gaussiano</translation>
->>>>>>> 31b7813 (Translated Gaussian Blur to three languages)
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -721,7 +717,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation></translation>
+        <translation>Pregunta</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
