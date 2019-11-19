@@ -90,7 +90,7 @@ There are three built-in external programs: **MainType** (shows if installed), *
 ### Find (used in `TFINDFORM`)
 * **FindLanguageID** – Select the language identifier.
 * **PlatformID** – Select the **Platform** identifier in the Mapping tab.
-* **PlatformSpecificEncodingID** – Used to change the specific encoding for **Platform** in the Mapping tab.
+* **PlatformSpecificEncodingID** – Select a specific **Platform** encoding in the Mapping tab.
 * **TabIndex** – Changes tab in the form.
 
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
@@ -160,8 +160,8 @@ There are three built-in external programs: **MainType** (shows if installed), *
 * **SmoothFilter** – Used with **Smooth Filter** in the Image tab. Default is Smooth.
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150.
 
-### Install (used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** (version 3.0 until 6.5) – Used with **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
+### Install (version 3.0 until 6.5, used in `TFONTINSTALLWIZARDFORM`)
+* **InstallFontsInFontsFolder** – Used to **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Select the height used for the preview area at the bottom. Default is 124.
@@ -417,9 +417,9 @@ The program is unregistered after the installation process is completed or if th
 
 ## RC Data in the executable file
 * **CLOUDS** (unused) – Shows an image of clouds with random colors.
-* **DESCRIPTION** – This data is binary.
-* **DVCLAL** – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
-* **PACKAGEINFO** – Shows the Pascal log used to compile the program.
+* **DESCRIPTION** (unused) – This data is binary.
+* **DVCLAL** (unused) – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
+* **PACKAGEINFO** (unused) – Shows the Pascal log used to compile the program.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**). `TABSTRACTABOUTDIALOG` has three unused buttons in the top left, top right and bottom right corner (**Clr** – Remove registration info; **Crash** – Shows a critical error; **Trial** – Reset trial period, used with expired copies) which can be shown by removing `Visible = False`.
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
@@ -440,11 +440,11 @@ The program is unregistered after the installation process is completed or if th
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** – Shows a dialog to change tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Shows a dialog to map characters to glyph indexes.
-* **TCODEEDITORFORM** – Shows a dialog to view or edit the OpenType layout table code (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
+* **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which code pages are supported in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
-* **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours or importing raster images.
+* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Shows a dialog to convert bitmaps to contours or import raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
 * **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 & above) after a grace period of 30 days.
@@ -486,11 +486,11 @@ The program is unregistered after the installation process is completed or if th
 * **TINSERTGLYPHFORM** – Used when inserting glyphs.
 * **TINSTALLEDFONTSFORM** – Displays a dialog with all fonts installed on the computer to view or open them. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
 * **TKERNFEATUREFRAME** – Used by the kerning window.
-* **TKERNGROUPMANAGERFORM** – Used when managing kerning groups or classes in the font.
+* **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Shows a dialog to manage kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Shows a dialog to add a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
-* **TKERNINGNEWSINGLEFORM** – Used when adding a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more. The main window has two hidden/unused menus (**Hidden Shortcuts** and **Developer Tools**) which can be shown by removing `Visible = False`. In the Tools menu is an unused option labeled **TODO! Customize...** which can be shown by removing the same value in the two hidden menus.
+* **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Shows a dialog to add a single adjustment to the font.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more. The main window has two unused menus (**Hidden Shortcuts** and **Developer Tools**) which can be shown by removing `Visible = False`. The Tools menu has an unused option (**TODO! Customize...**) which can be shown by removing the same value in the two hidden menus.
 * **TMETRICSFORM** – Displays a dialog where you can change metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can manually change the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
@@ -502,7 +502,7 @@ The program is unregistered after the installation process is completed or if th
 * **TPCLTFORM** (version 3.0 until 6.0) – Displays a dialog where you can add, view or edit the PCL5 data for use with old printers.
 * **TPERFORMTRANSFORMATIONFORM** (version 5.6 & above) – Displays the Glyph Transformer.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.0) – Displays a dialog where you can choose which platform to support in the font.
-* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.0) – Displays a dialog where you can view or edit the PostScript glyph names in the font. Version 1.0 (1998-04-11) until 7.0 (2013-04-25) can only generate PostScript names for glyphs with Unicode BMP mapping.
+* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.0) – Displays a dialog where you can view or edit the PostScript glyph names in the font. Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only generates these names for glyphs with Unicode BMP mapping.
 * **TPRINTABORTFORM** – Used after the font printing process is started.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
@@ -516,7 +516,7 @@ The program is unregistered after the installation process is completed or if th
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Used when seelcting a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** (version 3.0 until 4.5) – Shows a dialog used for Shareware Licensed Software when pressing **Start** on `TSPLASHFORM` after a grace period of 30 days.
-* **TSORTGLYPHSFORM** – Used when changing the glyph order within a font.
+* **TSORTGLYPHSFORM** (version 1.0 until 6.5) – Used when changing the glyph order within a font.
 * **TSPLASHFORM** – For unregistered copies of FontCreator. The three buttons at the bottom are displayed in random order.
 * **TSPTBXCOLORPICKERFORM** – Used by multicolored fonts to select colors.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Shows a dialog to manage subtables in the OpenType layout tables.
