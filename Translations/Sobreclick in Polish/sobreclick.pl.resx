@@ -5327,4 +5327,7 @@
   <data name="msgTypeSelection" xml:space="preserve">
     <value>Musisz wybierz typ.</value>
   </data>
+  <data name="msgConfError0" xml:space="preserve">
+    <value>Nie udało się załadować pliku konfiguracyjnego (sobreclick.exe.config). Opcja zmiany klawiszy nie będzie dostępna.</value>
+  </data>
 </root>
