@@ -311,7 +311,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Binarization</source>
-        <translation></translation>
+        <translation>Binarizació</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
@@ -374,7 +374,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="404"/>
         <source>Advanced Zoom...</source>
-        <translation></translation>
+        <translation>Fejlett függőleges...</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="411"/>
@@ -404,7 +404,6 @@
         <location filename="../mainwindow.cpp" line="656"/>
         <source>Zoom factor:</source>
         <translation>Függőleges tényező:</translation>
-        <translation></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="674"/>

@@ -117,102 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Einige Namen zum Ausführen von Programmen:
-(Klicken Sie auf ein Element, um weitere Informationen anzuzeigen)</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Jednoduchý nástroj pro automatické klikání určitého počtu krát.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Kopieren</value>
+    <value>&amp;Zavřít</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>&amp;Testen</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelw.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>dla elstef41</value>
   </data>
-  <data name="labelw.Text" xml:space="preserve">
-    <value>Arbeiten Sie an:</value>
-  </data>
-  <data name="labelWW.Text" xml:space="preserve">
-    <value>Verschiedene Systemen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Beispiel</value>
-  </data>
-  <data name="1D" xml:space="preserve">
-    <value>Der klassische Bildeditor ist auf Windows vorinstalliert.</value>
-  </data>
-  <data name="1T" xml:space="preserve">
-    <value>Paint</value>
-  </data>
-  <data name="1W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="2D" xml:space="preserve">
-    <value>Einfacher und unkomplizierter Klartext-Editor.</value>
-  </data>
-  <data name="2T" xml:space="preserve">
-    <value>Editor</value>
-  </data>
-  <data name="2W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="3D" xml:space="preserve">
-    <value>Rich-Format-Texteditor, sehr einfach im Vergleich zu Word, aber vollständiger als Editor. Was will man mehr?</value>
-  </data>
-  <data name="3T" xml:space="preserve">
-    <value>WordPad</value>
-  </data>
-  <data name="3W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="4D" xml:space="preserve">
-    <value>Von den Internetbrowsern, die in die Geschichte eingegangen sind. Zu dieser Zeit wurde es das am häufigsten verwendete und übertraf Netscape. Heutzutage können Sie andere wie es herunterladen.</value>
-  </data>
-  <data name="4T" xml:space="preserve">
-    <value>Internet Explorer</value>
-  </data>
-  <data name="4W" xml:space="preserve">
-    <value>Bist Windows 10</value>
-  </data>
-  <data name="5D" xml:space="preserve">
-    <value>Das am häufigsten verwendete Werkzeug von Microsoft Windows.</value>
-  </data>
-  <data name="5T" xml:space="preserve">
-    <value>Datei-Explorer</value>
-  </data>
-  <data name="5W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="6D" xml:space="preserve">
-    <value>Wenn Sie seltsame Symbole suchen und einfügen müssen oder wenn Sie eine E-Mail senden möchten und Ihre gesegnete Tastatur es Ihnen nicht erlaubt, das at einzüfugen, diehnt Ihnen diese vorinstallierte Dienstprogramm wunderbar.</value>
-  </data>
-  <data name="6T" xml:space="preserve">
-    <value>Zeichentabel</value>
-  </data>
-  <data name="6W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="7D" xml:space="preserve">
-    <value>Das Zentrum der Microsoft-Hauptbetriebssystemkonfigurationen. Für immer präsent.</value>
-  </data>
-  <data name="7T" xml:space="preserve">
-    <value>Systemsteurung</value>
-  </data>
-  <data name="7W" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="8D" xml:space="preserve">
-    <value />
-  </data>
-  <data name="8T" xml:space="preserve">
-    <value>Unbenannte Program</value>
-  </data>
-  <data name="8W" xml:space="preserve">
-    <value>??</value>
-  </data>
-  <data name="msgErrorOF" xml:space="preserve">
-    <value>Ein Fehler ist aufgetreten. Überprüfen Sie, ob das Programm mit Ihrer Version von Windows kompatibel ist.</value>
+  <data name="ver.Text" xml:space="preserve">
+    <value>Verze</value>
   </data>
 </root>

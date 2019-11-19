@@ -181,4 +181,7 @@
   <data name="label4.Text" xml:space="preserve">
     <value>durch elstef41</value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
 </root>

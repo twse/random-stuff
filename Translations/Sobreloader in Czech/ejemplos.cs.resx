@@ -118,101 +118,101 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Einige Namen zum Ausführen von Programmen:
-(Klicken Sie auf ein Element, um weitere Informationen anzuzeigen)</value>
+    <value>Některá jména pro spuštění programů.
+(klikněte na položku pro více informací)</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Kopieren</value>
+    <value>&amp;Kopírovat</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>&amp;Testen</value>
+    <value>&amp;Zkontrolovat</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelw.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 13</value>
   </data>
   <data name="labelw.Text" xml:space="preserve">
-    <value>Arbeiten Sie an:</value>
+    <value>Pracovat v:</value>
   </data>
   <data name="labelWW.Text" xml:space="preserve">
-    <value>Verschiedene Systemen</value>
+    <value>různý systémy</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Beispiel</value>
+    <value>Příkladů</value>
   </data>
   <data name="1D" xml:space="preserve">
-    <value>Der klassische Bildeditor ist auf Windows vorinstalliert.</value>
+    <value>Klasický editor obrázků předinstalovaný v Windows.</value>
   </data>
   <data name="1T" xml:space="preserve">
     <value>Paint</value>
   </data>
   <data name="1W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="2D" xml:space="preserve">
-    <value>Einfacher und unkomplizierter Klartext-Editor.</value>
+    <value>Jednoduchý textový editor bez formátování.</value>
   </data>
   <data name="2T" xml:space="preserve">
-    <value>Editor</value>
+    <value>Poznámkový blok</value>
   </data>
   <data name="2W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="3D" xml:space="preserve">
-    <value>Rich-Format-Texteditor, sehr einfach im Vergleich zu Word, aber vollständiger als Editor. Was will man mehr?</value>
+    <value>Editor textu s obohaceným formátem, velmi základní ve srovnání s Wordem, ale kompletnější než Poznámkový blok. Co víc si přát?</value>
   </data>
   <data name="3T" xml:space="preserve">
     <value>WordPad</value>
   </data>
   <data name="3W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="4D" xml:space="preserve">
-    <value>Von den Internetbrowsern, die in die Geschichte eingegangen sind. Zu dieser Zeit wurde es das am häufigsten verwendete und übertraf Netscape. Heutzutage können Sie andere wie es herunterladen.</value>
+    <value>Z internetových prohlížečů, které se staly historickými. Ve své době se stal nejpoužívanějším, překonávající Netscape. Dnes vám umožňuje stáhnout jiné, jako je.</value>
   </data>
   <data name="4T" xml:space="preserve">
     <value>Internet Explorer</value>
   </data>
   <data name="4W" xml:space="preserve">
-    <value>Bist Windows 10</value>
+    <value>Až Windows 10</value>
   </data>
   <data name="5D" xml:space="preserve">
-    <value>Das am häufigsten verwendete Werkzeug von Microsoft Windows.</value>
+    <value>Nejužívanější nástroj v Microsoft Windows.</value>
   </data>
   <data name="5T" xml:space="preserve">
-    <value>Datei-Explorer</value>
+    <value>Manažer souborů</value>
   </data>
   <data name="5W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="6D" xml:space="preserve">
-    <value>Wenn Sie seltsame Symbole suchen und einfügen müssen oder wenn Sie eine E-Mail senden möchten und Ihre gesegnete Tastatur es Ihnen nicht erlaubt, das at einzüfugen, diehnt Ihnen diese vorinstallierte Dienstprogramm wunderbar.</value>
+    <value>Pokud potřebujete vyhledat a vložit zvláštní znaky, nebo chcete poslat e-mail a vaše milé klávesnice neumožňuje vložit zavináč, tato předinstalovaná utilita vám skvěle poslouží.</value>
   </data>
   <data name="6T" xml:space="preserve">
-    <value>Zeichentabel</value>
+    <value>Mapa znaků</value>
   </data>
   <data name="6W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="7D" xml:space="preserve">
-    <value>Das Zentrum der Microsoft-Hauptbetriebssystemkonfigurationen. Für immer präsent.</value>
+    <value>Centrum hlavních nastavení operačního systému Microsoft. Přítomné odjakživa.</value>
   </data>
   <data name="7T" xml:space="preserve">
-    <value>Systemsteurung</value>
+    <value>Panel sterování</value>
   </data>
   <data name="7W" xml:space="preserve">
-    <value>Alle</value>
+    <value>Všechny</value>
   </data>
   <data name="8D" xml:space="preserve">
     <value />
   </data>
   <data name="8T" xml:space="preserve">
-    <value>Unbenannte Program</value>
+    <value>Neznámý programa</value>
   </data>
   <data name="8W" xml:space="preserve">
     <value>??</value>
   </data>
   <data name="msgErrorOF" xml:space="preserve">
-    <value>Ein Fehler ist aufgetreten. Überprüfen Sie, ob das Programm mit Ihrer Version von Windows kompatibel ist.</value>
+    <value>Nastala chyba. Zkontrolujte, zda je program kompatibilní s vaší verzí Windows.</value>
   </data>
 </root>
