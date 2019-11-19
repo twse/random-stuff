@@ -4,7 +4,7 @@
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names (not song artists or movie titles) used to spam the legacy SitePal forum, which includes but are not limited to analgesics, antibiotics, carbohydrates, chemotherapeutics, decongestants, modulators, organic acids, pharmaceutics, progestogens, topical products, triptans etc. etc. etc.
 
 ## Fonts
-Created with FontCreator 5.6 (2007) - FontCreator 7.0 or higher can create OpenType fonts.
+Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only creating ordinary Unicode fonts as version 6.0 or higher can create OpenType fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (only two Kanji letters are included in the font).
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
@@ -19,7 +19,7 @@ You won't receive any emails when your name is added - this will only see the me
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` replaced with your actual file containing a list.
 5. Commit the new file via `-a -m "message"` replaced with your own message.
 6. Login as `gurumukhi` to push changes.
-7. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
+7. View the Mozilla credits list with the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually bulk-adding names to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see the message in the log.
@@ -27,7 +27,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message you want.
 4. Use the default option (commit directly to the `master` branch).
-5. Open the Mozilla credits list by clicking the link at the beginning and the entries will appear with the last updated date being changed.
+5. View the Mozilla credits list with the link at the beginning and the entries will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -35,7 +35,7 @@ You won't receive any emails when your name is added - this will only see your n
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
 3. Commit the new file with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` to push changes.
-5. Open the Mozilla credits list by clicking the link at the beginning and the entry will appear with the last updated date being changed.
+5. View the Mozilla credits list with the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Manually adding a name to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -43,7 +43,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
 4. Use the default option (commit directly to the `master` branch).
-5. Open the Mozilla credits list by clicking the link at the beginning and the entry will appear with the last updated date being changed.
+5. View the Mozilla credits list with the link at the beginning and the entry will appear with the last updated date being changed.
 
 ## Mozilla credits list owners
 `names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
@@ -65,9 +65,10 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada 
 * **This page can't be displayed (You're not connected to the internet)** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu; the menu item is not dimmed for computers not connected to the internet).
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109).
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped development of this program last year in January.
 
 * Danish (da_DK)
+* Esperanto (eo)
 * Finnish (fi_FI)
 * German (de_DE)
 * Hungarian (hu_HU)
