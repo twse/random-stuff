@@ -83,8 +83,6 @@
         <translation>Imagen sin título</translation>
     </message>
     <message>
-<<<<<<< HEAD
-
         <location filename="../mainwindow.cpp" line="147"/>
 
         <location filename="../mainwindow.cpp" line="124"/>
@@ -119,62 +117,72 @@
         <translation>Guardar como...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="158"/>
         <location filename="../mainwindow.cpp" line="173"/>
+
+        <location filename="../mainwindow.cpp" line="158"/>
         <source>&amp;Close</source>
         <translation>&amp;Cerrar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="168"/>
         <location filename="../mainwindow.cpp" line="189"/>
+
+        <location filename="../mainwindow.cpp" line="168"/>
         <source>&amp;Print</source>
         <translation>&amp;Imprimir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="178"/>
         <location filename="../mainwindow.cpp" line="195"/>
+
+        <location filename="../mainwindow.cpp" line="178"/>
         <source>&amp;Exit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="186"/>
         <location filename="../mainwindow.cpp" line="197"/>
+
+        <location filename="../mainwindow.cpp" line="186"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="188"/>
         <location filename="../mainwindow.cpp" line="203"/>
+
+        <location filename="../mainwindow.cpp" line="188"/>
         <source>&amp;Undo</source>
         <translation>&amp;Deshacer</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="196"/>
         <location filename="../mainwindow.cpp" line="203"/>
+
+        <location filename="../mainwindow.cpp" line="196"/>
         <source>&amp;Redo</source>
         <translation>&amp;Rehacer</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="206"/>
         <location filename="../mainwindow.cpp" line="211"/>
+
+        <location filename="../mainwindow.cpp" line="206"/>
         <source>&amp;Copy</source>
         <translation>&amp;Copiar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="214"/>
         <location filename="../mainwindow.cpp" line="218"/>
+
+        <location filename="../mainwindow.cpp" line="214"/>
         <source>&amp;Paste</source>
         <translation>&amp;Pegar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="222"/>
         <location filename="../mainwindow.cpp" line="224"/>
+
+        <location filename="../mainwindow.cpp" line="222"/>
         <source>C&amp;ut</source>
         <translation>C&amp;ortar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="232"/>
         <location filename="../mainwindow.cpp" line="233"/>
+
+        <location filename="../mainwindow.cpp" line="232"/>
         <source>&amp;Settings</source>
         <translation>&amp;Opciones</translation>
     </message>
@@ -205,7 +213,6 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="270"/>
-
         <source>Cursor</source>
         <translation>Cursora</translation>
     </message>
@@ -262,8 +269,6 @@
 
         <location filename="../mainwindow.cpp" line="282"/>
         <source>Rect</source>
-        <location filename="../mainwindow.cpp" line="298"/>
-        <source>Rectangle</source>
         <translation>Rectangulo</translation>
     </message>
     <message>
@@ -308,7 +313,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Desenfoque gaussiano</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
@@ -478,7 +483,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../mainwindow.cpp" line="861"/>
         <source>If you like &lt;b&gt;EasyPaint&lt;/b&gt; and you want to share your opinion, or send a bug report, or want to suggest new features, we are waiting for you on our &lt;a href=&quot;https://github.com/Gr1N/EasyPaint/issues?milestone=&amp;sort=created&amp;direction=desc&amp;state=open&quot;&gt;tracker&lt;/a&gt;.</source>
-        <translation>Si ustedes gustar a &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o reportar una error, o sugestir nuevos características,</translation>
+        <translation>Si ustedes gustar a &lt;b&gt;EasyPaint&lt;/b&gt; y quieres compartir tu opinión o reportar una error, o sugestir nuevos características, estamos</translation>
     </message>
 </context>
 <context>
