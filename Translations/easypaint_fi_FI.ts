@@ -549,7 +549,7 @@ Haluatko tallentaa muutokset?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation>Kysmys</translation>
+        <translation>Kysymys</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>

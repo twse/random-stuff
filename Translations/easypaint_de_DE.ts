@@ -559,7 +559,7 @@ Möchten Sie die Änderungen speichern?</translation>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation type="unfinished"></translation>
+        <translation>Frage</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>

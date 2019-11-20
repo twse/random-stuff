@@ -554,7 +554,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
         <source>Question</source>
-        <translation>문제</translation>
+        <translation>질문</translation>
     </message>
     <message>
         <location filename="../dialogs/textdialog.cpp" line="100"/>
