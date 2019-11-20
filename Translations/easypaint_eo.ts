@@ -240,7 +240,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Stompi gaussiano</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
