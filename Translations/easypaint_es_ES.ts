@@ -454,7 +454,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="87"/>
         <source>Ask canvas size on new image creation</source>
-        <translation>Pida el tamaño del lienzo en la nueva creación de imágenes</translation>
+        <translation>Pregunta el tamaño del lienzo en crear nueva imágenes</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="91"/>
