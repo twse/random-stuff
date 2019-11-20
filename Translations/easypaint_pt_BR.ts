@@ -179,6 +179,32 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="304"/>
+        <location filename="../mainwindow.cpp" line="339"/>
+        <source>Binarization</source>
+        <translation>Binarização</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <source>Gaussian Blur</source>
+        <translation>Desfocagem gaussiano</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="349"/>
+        <source>Gamma</source>
+        <translation>Gamma</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="354"/>
+        <source>Sharpen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="359"/>
+        <source>Custom</source>
+        <translation>Custom</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="364"/>
         <source>&amp;Tools</source>
         <translation>Ferramen&amp;tos</translation>
     </message>
