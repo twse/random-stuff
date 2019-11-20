@@ -149,8 +149,9 @@
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="188"/>
         <location filename="../mainwindow.cpp" line="203"/>
+
+        <location filename="../mainwindow.cpp" line="188"/>
         <source>&amp;Undo</source>
         <translation>&amp;Deshacer</translation>
     </message>
@@ -320,7 +321,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="344"/>
         <source>Gaussian Blur</source>
-        <translation></translation>
+        <translation>Desenfoque gaussiano</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
