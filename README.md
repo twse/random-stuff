@@ -4,7 +4,7 @@
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names (not song artists or movie titles) used to spam the legacy SitePal forum, which includes but are not limited to analgesics, antibiotics, carbohydrates, chemotherapeutics, decongestants, modulators, organic acids, pharmaceutics, progestogens, topical products, triptans etc. etc. etc.
 
 ## Fonts
-Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only creating ordinary Unicode fonts as version 6.0 or higher can create OpenType fonts.
+Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only ordinary Unicode fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto, Canada with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (only two Kanji letters are included in the font).
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
@@ -65,7 +65,7 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada 
 * **This page can't be displayed (You're not connected to the internet)** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – the button is also in the **Tools** menu; the menu item is not dimmed for computers not connected to the internet).
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped development of this program last year in January.
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations can be found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko (the original author of this program) stopped development last year in January – his account is busy in other repositories.
 
 * Danish (da_DK)
 * Esperanto (eo)
