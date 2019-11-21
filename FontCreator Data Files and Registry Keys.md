@@ -7,9 +7,9 @@
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time when used in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
-* The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
+* The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* Despite FontCreator 5.6 using non-standard resource layout, [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 and 3.95 tested) is impossible to test the executable file as its built-in plugin and the program itself says "NotPackedException: not packed by UPX".
+* Despite FontCreator 5.6 using non-standard resource layout, [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) or [UPX](https://upx.github.io/) is impossible to test the executable file as its built-in plugin and the program itself says "NotPackedException: not packed by UPX".
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
@@ -41,7 +41,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fc12.cfg** – Configuration file used by FontCreator 12.0.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
-* **fntXX.tmp** or **fntXXX.tmp** – Temporary font used by saving features (the last two or three letters in the filename are letter and number combos).
+* **fntXX.tmp** or **fntXXX.tmp** – Temporary font used by saving features (the last two or three characters in the filename are letter and number combos).
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
 * **FontCreatorSetup-x64.exe** – Install the Win64 version of this program.
 * **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
@@ -50,7 +50,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on `TGLYPHPROPERTIESFORM`. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Contains the guidelines used for `TGLYPHEDITFORM` and `TGUIDELINESFORM`.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas `filename` is the font name.
-* **previewtext.dat** (version 5.0 & above) – Contains the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
+* **previewtext.dat** (version 5.0 & above) – Contains the standard text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font not work or fail to install.
@@ -63,7 +63,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
-* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013).
+* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013 and removed with 2016).
 
 ### Background
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -225,21 +225,21 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **SettingsPage** – Changes tab in `TOPTIONSFORM`.
 
 ### Kerning
-* **AutoKerningAllowForPositiveKerningValues** – Used with **Additional Options: Allow for positive kerning values** in the AutoKern window.
-* **AutoKerningExcludeLowerLower** (version 11.0 & above) – Used with **Exclude lowercase-lowercase pairs** in the AutoKern window.
-* **AutoKerningExcludeLowerUpper** – Used with **Exclude lowercase-uppercase pairs** in the AutoKern window.
+* **AutoKerningAllowForPositiveKerningValues** – Used with **Additional Options: Allow for positive kerning values** in `TAUTOKERNFORM`.
+* **AutoKerningExcludeLowerLower** (version 11.0 & above) – Used with **Exclude lowercase-lowercase pairs** in `TAUTOKERNFORM`.
+* **AutoKerningExcludeLowerUpper** – Used with **Exclude lowercase-uppercase pairs** in `TAUTOKERNFORM`.
 * **AutoKerningImportFilename** – Used with filename string in the disabled text box.
-* **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** in the AutoKern window.
-* **AutoKerningReplaceKerning** – Used with **Additional Options: Replace existing kerning when** dropdown box in the AutoKern window.
-* **AutoKerningReplacePercentage** – Used with **Additional Options: Replace existing kerning when** slider in the AutoKern window.
+* **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** in `TAUTOKERNFORM`.
+* **AutoKerningReplaceKerning** – Used with **Additional Options: Replace existing kerning when** dropdown box in `TAUTOKERNFORM`.
+* **AutoKerningReplacePercentage** – Used with **Additional Options: Replace existing kerning when** slider in `TAUTOKERNFORM`.
 * **AutoKerningUseBaseMetrics** – Used with **Composite glyphs follow base glyphs (use this glyph's metrics)** in the OpenType Designer Kern Wizard. Default is on.
-* **AutoKerningWhiteSpace** – Used with **Additional Options: White space between characters** in the AutoKern window.
+* **AutoKerningWhiteSpace** – Used with **Additional Options: White space between characters** in `TAUTOKERNFORM`.
 * **KerningColorBackground** – Select the color used for the background. Default is white.
 * **KerningColorBaseline** – Select the color used for the baseline. Default is red.
 * **KerningColorFirst** – Select the color used for the left glyph. Default is dark blue.
 * **KerningColorGridLines** – Select the color used for the Grid Lines. Default is gray.
 * **KerningColorSecond** – Select the color used for the right glyph. Default is dark green.
-* **KerningShowBaseLine** – Display baseline in Kerning window. Default is on.
+* **KerningShowBaseLine** – Display the baseline in Kerning window. Default is on.
 * **KerningShowBearingLines** – Display bearing lines in Kerning window. Default is on.
 * **KerningShowGridLines** – Display grid lines in Kerning window. Default is on.
 
@@ -265,7 +265,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **MetricsAndKerningTextLeft** – Used by **Before** text box in the Comparison toolbar. Default is empty.
 * **MetricsAndKerningTextRight** – Used by **After** text box in the Comparison toolbar. Default is empty.
 
-### Most Recently Used Files, Most Recently Used Projects
+### Most Recently Used Files/Projects
 * **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted.
 
 ### OpenType Designer (version 7.0 & above, used in `TOPENTYPEDESIGNERFORM`)
@@ -345,8 +345,8 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **Underline** – Set this value to on to underline text in the Test Font window. Default is off.
 
 ### Reg
-The program is unregistered after the installation process is completed or if the key doesn't exist or if the information is cleared with the **Clr** button in `TABOUTFORM`. Many people and companies provided registration keys for different versions.
-* **V5D#** – The # at the end is a numerical string. After the registration process is completed, it displays a message and removes the **Register** button in `TTIPOFTHEDAYFORM` (version 1.0 until 6.5), **Buy** menu and the **Register** item on the Help menu. Version 6.0 & above places your name on the title bar.
+The program is unregistered after the installation process is completed or if the key doesn't exist or if cleared with the **Clr** button in `TABOUTFORM`. Many people and companies provided registration keys for different versions.
+* **V5D#** – The # at the end is a numerical string. After the registration process is completed, it displays a message and removes the **Register** button in `TTIPOFTHEDAYFORM` (version 1.0 until 6.5), **Buy** menu and the **Register** item on the Help menu. Version 6.0 & above puts your name on the title bar.
 
 ### Themes (version 3.0 until 6.5)
 * **ActiveTheme** – Contains the active theme.
