@@ -54,7 +54,7 @@
         <location filename="../imagearea.cpp" line="227"/>
         <location filename="../imagearea.cpp" line="277"/>
         <source>Can&apos;t save file &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne povas savinte dosiero &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../imagearea.cpp" line="242"/>
@@ -448,7 +448,7 @@ Do you want to save changes?</source>
     <message>
         <location filename="../dialogsettingsdialog.cpp" line="71"/>
         <source>&lt;System&gt;</source>
-        <translation>&lt;System&gt;</translation>
+        <translation>&lt;Sistemo&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsdialog.cpp" line="82"/>
