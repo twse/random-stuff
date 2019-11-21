@@ -9,7 +9,7 @@
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
 * The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), UK, the guy behind the sample glyphs and his fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably low profile diacritics and small capitals. Rebecca G. Bettencourt / [Kreative Korp](http://www.kreativekorp.com/), the girl behind Bits'n'Picas and her fonts created by the same program, has assigned code points in the Private Use Area for different glyphs in her fonts, notably extended block elements.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 from 2006 tested using DOS port) to unpack the executable file which isn't possible as its built-in plugin and the program itself says "not packed by UPX (NotPackedException)".
+* Despite FontCreator 5.6 using non-standard resource layout, [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (version 2.20 tested) or [UPX](https://upx.github.io/) (version 2.01 and 3.95 tested) is impossible to test the executable file as its built-in plugin and the program itself says "NotPackedException: not packed by UPX".
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. having &lt;&lt; (much less than) for certain symbols like opening guillemot you have to use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
@@ -35,7 +35,7 @@ Under the **Help** menu is an item labeled **Register...** (the same item is in 
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrator privileges or change the owner (this can be done with `takeown /F filename` in command line or **Security: Advanced: Owner: Edit** in Windows Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in the file properties).
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
-* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. This feature will do nothing if removed.
+* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. This feature will do nothing if there are syntax errors or this file is removed.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the five number signs at the end of the filename is numeric). The font name in version 3.0 until 6.5 is **FC Test Font ######** (the six number signs at the end is numeric).
 * **fc12.cfg** – Configuration file used by FontCreator 12.0.
@@ -45,6 +45,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
 * **FontCreatorSetup-x64.exe** – Install the Win64 version of this program.
 * **FontCreator.tip** – Contains the tips in `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
+* **FontInstaller.dll** – Dynamic link library used by `TFONTINSTALLFORM`.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on `TGLYPHPROPERTIESFORM`. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Contains the guidelines used for `TGLYPHEDITFORM` and `TGUIDELINESFORM`.
@@ -62,7 +63,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
-* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (font shipped with.
+* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013).
 
 ### Background
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -83,7 +84,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 ### Externals (used by Tools: Launch Externals)
 There are three built-in external programs: **MainType** (shows if installed, hides if not installed), **Fonts Folder** and **Character Map**.
 * **Location#** – The last character can be up to digit three. Default is empty.
-* **Title#** – The last character can be up to digit three. Default is **External #** whereas # is a number.
+* **Title#** – The last character can be up to digit three. Default is **External #** whereas the last character is a number.
 
 ### Find (used in `TFINDFORM`)
 * **FindLanguageID** – Select the language identifier.
@@ -159,7 +160,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150.
 
 ### Install (version 3.0 until 6.5, used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** – Used to **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
+* **InstallFontsInFontsFolder** – This key is used to **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Select the height used for the preview area at the bottom. Default is 124.
@@ -183,7 +184,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **GlyphNamesOptionsRE** – Contains the regular expressions used by the glyph names dialog.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
 * **GlyphPropsExpanded** – Used to expand the glyph properties by pressing **More** button at the bottom. Default is on.
-* **GroupManagerSorted** – Used to sort the group manager.
+* **GroupManagerSorted** – Sorts the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in `TINSERTGLYPHFORM` to either insert glyphs at top (0), after the last glyph (1), before selected glyphs (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** – Changes tab in `TINSERTGLYPHFORM`.
 * **KerningFolderExport** – Select the directory to export legacy kerning tables.
@@ -440,6 +441,7 @@ All resources are named HL at the beginning.
 * **TCHANGETAGFORM** (version 7.0 & above) – Shows a dialog to change tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Shows a dialog to map characters to glyph indexes.
 * **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
+Overwriting/restarting...
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which code pages are supported in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member.
@@ -525,7 +527,7 @@ All resources are named HL at the beginning.
 * **TTRANSFORMFORM** – Used when transforming simple glyphs.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Displays a dialog where you can enable or disable which Unicode blocks or ranges are supported in the font.
-* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled.
+* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled. `TUPDATEFORM` uses an old version of Firefox as the user agent.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
 * **TUVSFORM** – Used for East Asian fonts to manage Unicode variation sequences in the font.
 * **TVALIDATIONWIZARDFORM** – Displays a dialog where you can validate the font for errors or problems.
