@@ -19,7 +19,7 @@ You won't receive any emails when your name is added - this will see the message
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` replaced with your actual file containing a list.
 5. Commit the new file via `-a -m "message"` replaced with your own message.
 6. Login as `gurumukhi` to push changes.
-7. View the Mozilla credits list to change the last updated date and add entries.
+7. View the Mozilla credits list to change the last updated date and add the entries.
 
 ## Bulk-add names to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see the message in the log.
@@ -27,7 +27,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or leave the default message as is.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date and add entries.
+5. View the Mozilla credits list to change the last updated date and add the entries.
 
 ## Add one name to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -35,7 +35,7 @@ You won't receive any emails when your name is added - this will only see your n
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
 3. Commit the new file with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` to push changes.
-5. View the Mozilla credits list to change the last updated date and add an entry.
+5. View the Mozilla credits list to change the last updated date and add your entry.
 
 ## Add one name to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will only see your name, email and citation in the log.
@@ -43,7 +43,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date and add an entry.
+5. View the Mozilla credits list to change the last updated date and add your entry.
 
 ## Mozilla credits list owners
 `names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
@@ -54,10 +54,10 @@ Only works when logged in as the last entry in the below owner list. You won't r
 | Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
 | Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
 
-**P.S.** The first entry created it via CVS in 1999/08/29 with a post in the Mozilla mailing list/newsgroup. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is currently committing with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment using the second file entry last paragraph in the above index.
+**P.S.** The first entry created it via CVS in 1999/08/29 with a post in the Mozilla mailing list/newsgroup. The second entry wrote tools in 2011/03 when he added many previous localizers via SVN and committed directly via GIT without pull requests. The last entry is currently committing with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
 
 ## Protest pages (requires JavaScript; available in five versions)
-Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/), Canada (1942-2006) for the inspiration of creating these pages.
+Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages.
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM until SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
