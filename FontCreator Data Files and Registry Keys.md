@@ -1,8 +1,8 @@
 ﻿## Notes
 * The cursor will remain **Busy** if the user is doing other stuff while saving fonts in the background.
-* All versions can save all unaltered opened fonts from the menu (**File: Save All**). Windows 2000 & above displays a critical error saying "List index out of bounds (0)" if done repeatedly.
+* All versions can save all unaltered opened fonts from the menu (**File: Save All**). Windows 2000 & above shows a critical error that reads **List index out of bounds** with the number zero if done repeatedly.
 * Exiting the program when saving fonts may create invalid font(s) and play the Critical Stop sound from the PC speakers.
-* The program displays a critical error saying "Access violation" when exiting while during some operations – the font(s) may be invalid.
+* The program displays an access violation critical error when exiting while during some operations – the font(s) may be invalid.
 * Glyphs stored in the clipboard (version 1.0 until 6.0) will have either the words **Glyph Contours** for contours or **Glyph Data** for the entire glyph. Version 7.0 & above currently stores the words **Font Data**.
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time when used in simple and composite glyphs.
@@ -14,7 +14,7 @@
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
 ## Unregistered version limitations
-As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed within the grace period, the following restrictions will be imposed on the version number:
+As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed during or within the grace period, the following restrictions will be imposed on the version number:
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, a nag screen is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
@@ -70,7 +70,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **BackgroundInitScale** – Select the background scaling factor.
 
 ### Columns (used in `TINSTALLEDFONTSFORM`)
-* **Open Installed Fonts** – This option is the width for this form.
+* **Open Installed Fonts** – This numerical option changes the width in this form.
 
 ### Edit (used in `TPASTESPECIALFORM`)
 * **PasteSpecialAnchors** – This option will paste anchors. Default is on.
@@ -93,7 +93,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **TabIndex** – Changes tab in the form.
 
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
-* **CategoryWidth** – Select the width used for categories in the font overview.
+* **CategoryWidth** – Select the width used for categories.
 
 ### Fonts (used in Options: Font)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
@@ -335,7 +335,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 ### Preview
 * **FeaturesWidth** – Contains the width used for OpenType features.
 * **FeatureTags** – Contains the tags used for OpenType features.
-* **PreviewFeatures** – Enable or disable any OpenType feature for the preview text.
+* **PreviewFeatures** – Enable or disable any OpenType feature in the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Scale the font in the Preview window.
 * **PreviewSampleText** – Contains sample text used in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
@@ -440,10 +440,10 @@ All resources are named HL at the beginning.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** (version 7.0 & above) – Shows a dialog to change tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Shows a dialog to map characters to glyph indexes.
-* **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`). Includes a hidden dropdown list to change the debugger (OTLFD) – selecting VOLT or FAE reverts the code to the original state.
+* **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`). Includes a hidden dropdown list to change the debugger (OTLFD) – selecting VOLT or FAE will discard the modified code.
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which code pages are supported in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
-* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member. Includes an unused text box showing the indexes of glyphs in the top right corner.
+* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member. Includes an unused text box showing the glyphs indexes in the top right corner; the text box is shown in old versions only.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Shows a dialog to convert bitmaps to contours or import raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
@@ -461,7 +461,7 @@ All resources are named HL at the beginning.
 * **TFONTHEADERFLAGSFORM** – Shows a dialog to change header flags in the font.
 * **TFONTINSTALLWIZARDFORM** – Shows the installation wizard to use the font in other applications.
 * **TFONTLOGFORM** (unused) – Shows the font log (**Developer Tools: Font Log**).
-* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font. Includes an unused menu to either toggle or jump to bookmarks for each glyph (version 5.0 until 6.5).
+* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font. Version 5.0 until 6.5 includes a menu to either toggle or jump to bookmarks for each glyph (the menu is hidden in recent versions).
 * **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables used in the font along with unsupported tables.
@@ -490,7 +490,7 @@ All resources are named HL at the beginning.
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Shows a dialog to add a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
 * **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Shows a dialog to add a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more. The main window has two unused menus (**Hidden Shortcuts** – available if the program is registered or not and **Developer Tools** – only available if the program is registered) which can be shown by removing `Visible = False`. The Tools menu has an unused option (**TODO! Customize...**) which can be shown by removing the same value in the two hidden menus.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more. The main window has two unused menus (**Hidden Shortcuts** – available if the program is registered or not and **Developer Tools** – only available if the program is registered) which can be shown by removing `Visible = False`. The Edit menu has an unused option for the **Knife** and the Tools menu has an unused option (**TODO! Customize...**) which can be shown by removing the same value in the two hidden menus.
 * **TMETRICSFORM** – Displays a dialog where you can change metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
