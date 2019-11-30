@@ -7,11 +7,11 @@
 * The **Delete** item in the **Edit** menu is not dimmed on startup or when closing other dialogs.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time when used in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
-* The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), the guy behind the predefined or sample glyphs (based on Garava) and his fonts designed by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably small capitals as shown in `CompositeData.xml` (see the user data section below).
+* The program displays a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), the guy behind the sample glyphs (based on Garava Regular) and his fonts designed by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably small capitals as shown in `CompositeData.xml` (see the user data section below).
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* Despite FontCreator 5.6 having included unused content and used non-standard resource layout, [UPX](https://upx.github.io/) can't test the executable file (NotPackedException: not packed by UPX) but the executable file compresses successfully without any parameters.
+* Despite FontCreator 5.6 having included unused content and used non-standard resource layout, [UPX](https://upx.github.io/) can't test the executable file (NotPackedException: not packed by UPX) but the executable file compresses successfully either with the 1 or 9 parameter (compress slow or fast) or without any parameters.
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
-* Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
+* Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts (except in Simplified Chinese) and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
 ## Unregistered version limitations
 As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed during or within the grace period, the following restrictions will be imposed on the version number:
@@ -45,6 +45,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
 * **FontCreatorSetup-x64.exe** – Install the Win64 version of this program.
 * **FontCreator.tip** (version 2.0 until 6.5) – Contains the tips in `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
+* **FontCreator YYYYMMDD HHMMSS ###.dat/prd** – Error logs in the **Errors** folder for **All Users** (YYYYMMDD HHMMSS is the timestamp and the last three characters are numeric).
 * **FontInstaller.dll** (version 2.0 until 6.5) – Dynamic link library used by `TFONTINSTALLFORM`.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on `TGLYPHPROPERTIESFORM`. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
@@ -54,7 +55,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to **Unsupported** if removed, making the font invalid (i.e. the font will fail to install or not work).
-* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph. The tags are the last five entries in the **Hidden Shortcuts** menu of `TMAINFORMFONTCREATOR`.
+* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files in the above list to the user data folder or open it.
 
@@ -160,7 +161,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150.
 
 ### Install (version 3.0 until 6.5, used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** – This key is used to **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
+* **InstallFontsInFontsFolder** – Set this option to off if you don't want to **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Select the height used for the preview area at the bottom. Default is 124.
@@ -172,29 +173,29 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 ### Interface Settings
 * **ChildWindowState** – Contains the child window state.
 * **CompleteCompositesAction** – Set to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) as used with **Complete Composites**. Default is 1 (auto).
-* **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window.
-* **ExportSettingsPage** – Select the page used for `TEXPORTSETTINGSFORM`.
+* **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window. Default is on.
+* **ExportSettingsPage** – Select the page used for `TEXPORTSETTINGSFORM` and `TEXPORTSETTINGSFRAME`. Default is 0 (Desktop Font (ttf/otf)).
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** in the font overview context menu.
 * **GlyphCaptionType2** – Used with the Captions options in the font overview context menu.
 * **GlyphDrawMode** – Set the value to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
 * **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
-* **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of postscript names to replace as used by the glyph names dialog.
-* **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of postscript names to find as used by the glyph names dialog.
-* **GlyphNamesOptionsCS** – Contains the context substitutions used by the glyph names dialog.
-* **GlyphNamesOptionsRE** – Contains the regular expressions used by the glyph names dialog.
+* **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of replaced postscript names in `TGLYPHNAMEFORM`.
+* **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of found postscript names in `TGLYPHNAMEFORM`.
+* **GlyphNamesOptionsCS** – Contains the context substitutions in `TGLYPHNAMEFORM`.
+* **GlyphNamesOptionsRE** – Contains the regular expressions in `TGLYPHNAMEFORM`.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
-* **GlyphPropsExpanded** – Used to expand the glyph properties by pressing **More** button at the bottom. Default is on.
+* **GlyphPropsExpanded** – Expands properties by pressing **More** at the bottom. Default is on.
 * **GroupManagerSorted** – Sorts the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in `TINSERTGLYPHFORM` to either insert glyphs at top (0), after the last glyph (1), before selected glyphs (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** – Changes tab in `TINSERTGLYPHFORM`.
 * **KerningFolderExport** – Select the directory to export legacy kerning tables.
 * **KerningFolderImport** – Select the directory to import legacy kerning tables.
-* **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
-* **OpenDialogInitialDir2** – Select the directory in the Open dialog.
-* **OpenDialogInitialDirAutoKerning** – Select the directory in the Open dialog from `TAUTOKERNEXFORM`.
-* **OpenDialogInitialDirImportImage** – Select the directory in the Open dialog from `TCONVERTBITMAPTOCONTOURSFORM`.
-* **OpenDialogInitialDirNamingField** – Select the directory in the Open dialog from `TADDCUSTOMNAMINGFORM`.
-* **OpenDialogInitialDirTransform** – Select the directory in the Open dialog from `TPERFORMTRANSFORMATIONFORM`.
+* **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in `TNEWTRUETYPEFONTFORM` (some glyphs are taken from Garava). Default is on.
+* **OpenDialogInitialDir2** – Select the directory in the Open dialog. Default is user's font folder.
+* **OpenDialogInitialDirAutoKerning** (version 2.0 until 6.5) – Select the directory in the Open dialog from `TAUTOKERNEXFORM`.
+* **OpenDialogInitialDirImportImage2** – Select the directory in the Open dialog from `TCONVERTBITMAPTOCONTOURSFORM`.
+* **OpenDialogInitialDirNamingField2** – Select the directory in the Open dialog from `TADDCUSTOMNAMINGFORM`. Default is desktop.
+* **OpenDialogInitialDirTransform3** – Select the directory in the Open dialog from `TPERFORMTRANSFORMATIONFORM`. Default is program's transform folder.
 * **OptionsPage** – Changes tab in `TOPTIONSFORM`. Default is 0 (General).
 * **OTLFDesignerCollapsedFeatures** – Contains features collapsed by the OpenType Designer.
 * **OTLFDesignerCollapsedLookups** – Contains lookups collapsed by the OpenType Designer.
@@ -203,25 +204,25 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview. Default is **The five boxing wizards jump quickly**.
 * **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview. Default is **Auto**.
 * **OTLFEditor** – Contains settings in the OpenType script editor.
-* **OverviewColCat** – Contains the column categories used in the glyph overview.
-* **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
-* **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the glyphs are shown in **MS Sans Serif**. (Available in the Options window)
+* **OverviewColCat** – Contains the column categories used in `TFONTOVERVIEWFORM`.
+* **OverviewFontZoom** – Contains the zoom factor used in `TFONTOVERVIEWFORM`. Default is 35.
+* **OverviewGridZoom** – Contains the grid zoom factor used in `TFONTOVERVIEWFORM`.
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the bottom cells are shown in **MS Sans Serif**. (Available in the Options window)
 * **OverviewShowCaption** (version 3.0 until 6.5) – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
 * **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
-* **OverviewSingleWidth** – Used with **Font overview: Glyph width** in the Overview tab. Default is 70. (Available in the Options window)
+* **OverviewSingleHeight** (version 3.0 until 6.5) – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
+* **OverviewSingleWidth** (version 3.0 until 6.5) – Used with **Font overview: Glyph width** in the Overview tab. Default is 70. (Available in the Options window)
 * **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in the Overview tab. (Available in the Options window)
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is 1. (Available in the Options window)
+* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is same as the maximum count. (Available in the Options window)
 * **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. Default is on. (Available in the Options window)
 * **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
 * **SaveDialogInitialDirNew2** – Contains the initial directory used in the save dialog.
-* **SelectCompositeCaptionType** – Contains the caption used in the select composite glyph window.
-* **SelectCompositeFontZoom** – Contains the zoom factor used in the select composite glyph window.
-* **SelectCompositeGridZoom** – Contains the grid zoom factor used in the select composite glyph window.
+* **SelectCompositeCaptionType** – Changes caption used in `TCOMPOSITEGLYPHPROPERTIESFORM`. Default is 0 (glyph name).
+* **SelectCompositeFontZoom** – Zoom the font in `TCOMPOSITEGLYPHPROPERTIESFORM`.
+* **SelectCompositeGridZoom** – Zoom the grid in `TCOMPOSITEGLYPHPROPERTIESFORM`.
 * **SettingsPage** – Changes tab in `TOPTIONSFORM`.
 
 ### Kerning
@@ -266,7 +267,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **MetricsAndKerningTextRight** – Used by the **After** text box. Default is empty.
 
 ### Most Recently Used Files/Projects
-* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted.
+* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted or if the **Clear file list** menu option is selected.
 
 ### OpenType Designer (version 7.0 & above, used in `TOPENTYPEDESIGNERFORM`)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the Settings window. Default is on.
@@ -275,9 +276,9 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **MarkWidth** – Select the mark width. Default is 240.
 * **PairWidth** – Select the pair width. Default is 145.
 * **PreviewHeight** – Select the preview text height. Default is 120.
-* **PreviewSampleFontSize** – Scales the preview sample to any size. Default is 32.
+* **PreviewSampleFontSize** – Scale the preview sample. Default is 32.
 * **SimpleWidth** – Set the simple width. Default is 145.
-* **SingleWidth** – Set the single width. Default is 145.
+* **SingleWidth** – Set the single width. Default is same as the simple width.
 * **TreeWidth** – Select the tree width. Default is 320.
 * **ZoomFactor** – Select the zoom factor. Default is 12.
 
@@ -416,20 +417,20 @@ All resources are named HL at the beginning.
 * **HLZOOMOUT** – Used when zooming out (**Zoom Out**).
 
 ## RC Data in the executable file
-* **CLOUDS** (unused) – Shows an image of clouds with random colors.
+* **CLOUDS** (unused) – Shows an image of clouds.
 * **DESCRIPTION** and **ELDATA** (unused) – These resources are binary.
 * **DVCLAL** (unused) – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
 * **PACKAGEINFO** (unused) – Shows the Pascal log used to compile the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**). `TABSTRACTABOUTDIALOG` has three unused buttons in the top left, top right and bottom right corner (**Clr** – Remove registration info; **Crash** – Shows a critical error; **Trial** – Reset trial period for expired copies) which can be shown by removing `Visible = False`.
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
-* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows this dialog when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM`, allowing the user to assign Unicode values for each glyph.
+* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows this dialog when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` to assign Unicode values for each glyph.
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for multiple languages.
 * **TADDFPCVLTSFORM** – Used when adding labels, tooltips or samples.
 * **TADDFPSIZENAMEFORM** – Used when adding subfamily names to the font.
 * **TADDFPSTYLISTICSETNAMEFORM** – Used when adding or writing stylistic set names or descriptions in the font.
 * **TADDGASPFORM** – Shows a dialog to add a gasp range to the font.
-* **TADDLOCALLANGUAGEDATAFORM** – Shows a dialog to add naming fields for multiple languages to the font.
+* **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
 * **TADDPLATFORMFORM** (version 2.0 until 6.5) – Used when adding a platform to the font (**Add** button in `TPLATFORMMANAGERFORM`).
 * **TADDUVSFORM** – Used by East Asian fonts to add Unicode variation sequences.
 * **TADVANCEDEDITFORM** – Used when editing a naming field in the font.
@@ -443,7 +444,7 @@ All resources are named HL at the beginning.
 * **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`). Includes a hidden dropdown list to change the debugger (OTLFD) – selecting VOLT or FAE will discard the modified code.
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which code pages are supported in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
-* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member. Includes an unused text box showing the glyphs indexes in the top right corner; the text box is shown in old versions only.
+* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member. Includes an unused text box with glyph indexes at the top right corner (it is shown in old versions only).
 * **TCONVERTBITMAPTOCONTOURSFORM** – Shows a dialog to convert bitmaps to contours or import raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
@@ -476,7 +477,7 @@ All resources are named HL at the beginning.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in `TVALIDATIONWIZARDFORM` (the window is titled **Report**).
 * **TGLYPHALREADYMAPPEDFORM** (version 3.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
-* **TGLYPHEDITFORM** – Used when opening any glyph from the overview. Includes an unused menu item to round corners and test items at the end of the **Contours** menu.
+* **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Used where you can change various properties for the selected glyph.
 * **TGRIDFORM** – Displays a dialog where you can modify grid settings.
@@ -484,19 +485,19 @@ All resources are named HL at the beginning.
 * **TGUIDELINESFORM** – Displays a dialog where you can modify guideline settings.
 * **TIMPORTGLYPHDATAFORM** – Used when importing glyph data.
 * **TINSERTGLYPHFORM** – Used when inserting glyphs.
-* **TINSTALLEDFONTSFORM** – Displays a dialog with all fonts installed on the computer to view or open them. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
+* **TINSTALLEDFONTSFORM** – Displays a dialog to open installed fonts. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
 * **TKERNFEATUREFRAME** – Used by the kerning window.
 * **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Shows a dialog to manage kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the legacy kerning tables (not the GPOS kerning tables) in the font. See `TOPENTYPEDESIGNERFORM` in recent versions.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 6.5) – Shows a dialog to add a kerning pair to the legacy kerning tables (not the GPOS kerning tables).
 * **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Shows a dialog to add a single adjustment to the font.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more. The main window has two unused menus (**Hidden Shortcuts** – available if the program is registered or not and **Developer Tools** – only available if the program is registered) which can be shown by removing `Visible = False`. The Edit menu has an unused option for the **Knife** and the Tools menu has an unused option (**TODO! Customize...**) which can be shown by removing the same value in the two hidden menus.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – FontCreator main window, toolbars and more.
 * **TMETRICSFORM** – Displays a dialog where you can change metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Displays a dialog where you can view or edit the naming fields of a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
-* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can view, edit or create the OpenType layout tables. Includes hidden buttons to either clear the values, harmonize or clean up kerning pairs.
+* **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Displays a dialog where you can view, edit or create the OpenType layout tables.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Used when adding an item to the OpenType layout tables.
-* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings.
+* **TOPTIONSFORM** – Displays a dialog where you can set a plethora of FontCreator options in the above registry key headings. Includes unused buttons in the **Preview** tab to move strings up or down or reset the list.
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
 * **TPASTESPECIALFORM** – Shows a dialog to paste glyphs stored in the clipboard. In the Items list (version 5.5 until 6.5), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In recent versions, the registry keys are stored in the `Edit` key.
 * **TPCLTFORM** (version 3.0 until 6.0) – Displays a dialog where you can add, view or edit the PCL5 data for use with old printers.
@@ -507,7 +508,7 @@ All resources are named HL at the beginning.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**.
-* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies of FontCreator, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu.
+* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu.
 * **TRESOURCEEDITORDLG** (version 3.0) (unused) – Used when editing resources.
 * **TRESOURCEMODULE** (unused) – Used for resource module.
 * **TRICHVIEWDIALOG** (unused) – Used for the rich text module.
@@ -517,7 +518,7 @@ All resources are named HL at the beginning.
 * **TSELECTLOOKUPTABLEFORM** – Used when selecting a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** (version 3.0 until 4.5) – As FontCreator is pay shareware, this dialog will be shown when pressing **Start** on `TSPLASHFORM` after a grace period of 30 days.
 * **TSORTGLYPHSFORM** (version 1.0 until 6.5) – Used when changing the glyph order within a font. See **Tools: Sort Glyphs** in recent versions.
-* **TSPLASHFORM** – For unregistered copies of FontCreator. The three buttons at the bottom are displayed in random order.
+* **TSPLASHFORM** – For unregistered copies. The three buttons at the bottom are displayed in random order.
 * **TSPTBXCOLORPICKERFORM** – Used by multicolored fonts to select colors.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Shows a dialog to manage subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
@@ -526,9 +527,67 @@ All resources are named HL at the beginning.
 * **TTRANSFORMFORM** – Used when transforming simple glyphs.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Displays a dialog where you can enable or disable which Unicode blocks or ranges are supported in the font.
-* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled. `TUPDATEFORM` uses an old version of Firefox as the user agent. `mRestart` (`TMemo`) should have three lines in order to prevent closing the program itself on startup.
+* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled. The user agent in `TUPDATEFORM` is an old version of Firefox. `mRestart` (`TMemo`) should have three lines to prevent the program from closing itself on startup.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
 * **TUVSFORM** – Used by East Asian fonts to manage Unicode variation sequences.
 * **TVALIDATIONWIZARDFORM** – Displays a dialog where you can validate the font for errors or problems.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TWARNINGFORM** in old versions) – Used for warnings.
+
+## Unused Content
+Remove `Visible = False` in many RC Data resources to show them.
+
+### Menu
+* **Edit: Knife** – No command performed when selected.
+* **Tools: TODO! Customize...** – No command performed when selected.
+
+### Hidden Shortcuts Menu (`TMAINFORMFONTCREATOR`)
+* **Restore Overview Splitter** – Hide or show the overview splitter.
+* **Close** – Close active window with the same command in the **File** menu.
+* **Cut**, **Copy** and **Paste* – Uses the same commands in the **Edit** menu.
+* **Show Font Properties** – Uses the same command in the **Font** menu.
+* **Redo** – Uses the same command in the **Edit** menu.
+* Tags from the **tags.txt** file – Uses the same tags in the Tagged folder in `TFONTOVERVIEWFORM`.
+
+### Developer Tools Menu (`TMAINFORMFONTCREATOR`)
+This menu is only shown for users who have registered the program. Contains developer related commands.
+* **Screenshot macro 1** – Creates a screenshot macro.
+* **Screenshot macro 2 (website)** – Creates a screenshot macro used for the website.
+* **Hide Developer Menu** – Removes the menu itself by adding `Visible = False`.
+* **AutohintMacro** – Closes fonts.
+* **Video mode** – Displays settings about the used theme.
+* **A/B Testing** – Contains two options to set the variant.
+* **Font Log** – Displays a log for each font.
+* **Disable garbage collector**
+* **Increase Font Size** – Displays information about the current font in the system.
+* **Enable All Toolbar Icons** – Enables all icons in toolbars.
+* **Font Tester Action**
+* **Boink!** – Exit the program without any confirmation messages.
+
+### Contours Menu (`TGLYPHEDITFORM`)
+* **Debug Single Stroke Twice** – No command performed when selected.
+* **miTestItem2** – No command performed when selected.
+* **miTestItem3 Save** – Create the folder `C:\\hltemp` and the file `glyph.data` for this to work.
+* **miTestItem4 Load** – Create the folder `C:\\hltemp` and the file `glyph.data` for this to work.
+
+### Toolbar Buttons
+* **GN** (Generate Glyph Names in the **Tools** toolbar) – Generate glyph names from the program itself. Create the folder `C:\\Users\\EDenissen\\AppData\\Roaming\\FontCreator12` and a blank text file `generatednames.txt` for this to work. The user **EDenissen** stands for Erwin Denissen (president and founder of High-Logic B.V.).
+* **Smooth Points** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **Smooth and Align Points** (SA in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **Harmonize** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **Rounded** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+
+### OpenType Designer
+These buttons are shown only for GPOS kerning tables.
+* **Clear Value** – Set values for all kerning pairs to zero.
+* **Harmonize** – Harmonizes all kerning pairs in subtables.
+* **Clean Up** – Delete all kerning pairs with zero value.
+
+### Code Editor
+* Debugger selection dropdown list – Selecting options from the dropdown list will discard the modified code.
+* Checkbox: **Debug: VOLT.UseGlyphIds** – This option is only for fonts with VOLT projects.
+
+### About Dialog
+* **Clr** (top left corner) – Removes registration info to make the program unregistered.
+* **Crash** (top right corner) – Displays a critical error when clicked.
+* **Trial** (bottom right corner) – Restart trial period for use with unregistered copies beyond the grace period of 30 days.
