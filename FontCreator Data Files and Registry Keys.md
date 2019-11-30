@@ -197,13 +197,13 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **OpenDialogInitialDirNamingField2** – Select the directory in the Open dialog from `TADDCUSTOMNAMINGFORM`. Default is desktop.
 * **OpenDialogInitialDirTransform3** – Select the directory in the Open dialog from `TPERFORMTRANSFORMATIONFORM`. Default is program's transform folder.
 * **OptionsPage** – Changes tab in `TOPTIONSFORM`. Default is 0 (General).
-* **OTLFDesignerCollapsedFeatures** – Contains features collapsed by the OpenType Designer.
-* **OTLFDesignerCollapsedLookups** – Contains lookups collapsed by the OpenType Designer.
-* **OTLFDesignerCollapsedScripts** – Contains scripts collapsed by the OpenType Designer.
-* **OTLFDesignerPreviewLanguage** – Select language for the OpenType Designer preview. Default is **Auto**.
+* **OTLFDesignerCollapsedFeatures** – Contains features collapsed in `TOPENTYPEDESIGNERFORM`.
+* **OTLFDesignerCollapsedLookups** – Contains lookups collapsed in `TOPENTYPEDESIGNERFORM`.
+* **OTLFDesignerCollapsedScripts** – Contains scripts collapsed in `TOPENTYPEDESIGNERFORM`.
+* **OTLFDesignerPreviewLanguage** – Select language for the preview in `TOPENTYPEDESIGNERFORM`. Default is **Auto**.
 * **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview. Default is **The five boxing wizards jump quickly**.
 * **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview. Default is **Auto**.
-* **OTLFEditor** – Contains settings in the OpenType script editor.
+* **OTLFEditor** – Contains settings in `TCODEEDITORFORM` such as the font setting.
 * **OverviewColCat** – Contains the column categories used in `TFONTOVERVIEWFORM`.
 * **OverviewFontZoom** – Contains the zoom factor used in `TFONTOVERVIEWFORM`. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in `TFONTOVERVIEWFORM`.
@@ -267,7 +267,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **MetricsAndKerningTextRight** – Used by the **After** text box. Default is empty.
 
 ### Most Recently Used Files/Projects
-* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted or if the **Clear file list** menu option is selected.
+* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted or if the **Clear file list** option is selected in the menu.
 
 ### OpenType Designer (version 7.0 & above, used in `TOPENTYPEDESIGNERFORM`)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the Settings window. Default is on.
@@ -327,15 +327,15 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
 * **UnicodeEnabledGUI** (version 5.5 until 6.5) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
 * **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on.
-* **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
+* **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. **Fun fact:** Hexadecimal values in Delphi are usually given with a dollar sign ($).
 * **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import. Default is off.
 * **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in Options: Import. Default is 100.00.
 * **VectorImageEPSOriginY** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in Options: Import. Default is 600.00.
 * **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import. Default is 512.00.
 
 ### Preview
-* **FeaturesWidth** – Contains the width used for OpenType features.
-* **FeatureTags** – Contains the tags used for OpenType features.
+* **FeaturesWidth** – Contains the width used for enabling or disabling OpenType features.
+* **FeatureTags** – Contains the tags used to enable or disable OpenType features.
 * **PreviewFeatures** – Enable or disable any OpenType feature in the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Scale the font in the Preview window.
@@ -559,7 +559,7 @@ This menu is only shown for users who have registered the program. Contains deve
 * **A/B Testing** – Contains two options to set the variant.
 * **Font Log** – Displays a log for each font.
 * **Disable garbage collector**
-* **Increase Font Size** – Displays information about the current font in the system.
+* **Increase Font Size** – Displays information about the current font in the system with the size.
 * **Enable All Toolbar Icons** – Enables all icons in toolbars.
 * **Font Tester Action**
 * **Boink!** – Exit the program without any confirmation messages.
@@ -588,6 +588,7 @@ These buttons are shown only for GPOS kerning tables.
 * Checkbox: **Debug: VOLT.UseGlyphIds** – This option is only for fonts with VOLT projects.
 
 ### About Dialog
+These buttons appear in the corners of the version number and copyright info.
 * **Clr** (top left corner) – Removes registration info to make the program unregistered.
 * **Crash** (top right corner) – Displays a critical error when clicked.
 * **Trial** (bottom right corner) – Restart trial period for use with unregistered copies beyond the grace period of 30 days.
