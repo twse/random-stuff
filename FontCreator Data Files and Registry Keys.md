@@ -14,7 +14,7 @@
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts (except in Simplified Chinese) and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
 ## Unregistered version limitations
-As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed during or within the grace period, the following restrictions will be imposed on the version number:
+As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed during the grace period, the following restrictions will be imposed on the version number:
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, a nag screen is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and OpenType collections cannot be extracted.
@@ -38,8 +38,8 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. This feature will do nothing if there are syntax errors or this file is removed.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). The font name in version 3.0 until 6.5 is **FC Test Font ######** (the last six characters are numeric).
-* **fc12.cfg** – Configuration file used by FontCreator 12.0.
-* **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
+* **fc12.cfg** – Configuration file for version 12.0.
+* **fcp5.cfg** – Configuration file for version 5.0 and 5.6 in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used by saving features (the last two or three characters in the filename are letter and number combos).
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
@@ -51,10 +51,10 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **glyphnamesnew.dat** (version 7.0 & above) – Contains the default glyph names when opening existing fonts and when generating glyph names on `TGLYPHPROPERTIESFORM`. Prior to FontCreator 12 another file (`glyphnames.dat`) was used, but that one is now obsolete.
 * **guidelines.dat** – Created automatically after exit. Contains the guidelines used for `TGLYPHEDITFORM` and `TGUIDELINESFORM`.
 * **kern_filename.txt** – For old versions of FontCreator, stores the legacy kerning pair data for each font whereas `filename` is the font name.
-* **previewtext.dat** (version 5.0 & above) – Contains the standard text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
-* **preview.txt** – Contains the standard preview texts for the Preview toolbar. The dropdown list will appear empty if removed.
+* **previewtext.dat** (version 5.0 & above) – Contains the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
+* **preview.txt** – Contains the texts for the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains naming fields for multiple languages.
-* **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to **Unsupported** if removed, making the font invalid (i.e. the font will fail to install or not work).
+* **TableOffsetOrderCFF.txt**, **TableOffsetOrder.dat** (old versions) and **TableOffsetOrder.txt** – Contains the supported tables in any font. All tables are moved to **Unsupported** if removed, making the font invalid (i.e. the font either fails to install or not work).
 * **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files in the above list to the user data folder or open it.
@@ -64,7 +64,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
-* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013 and removed with 2016).
+* **SelectedFont** – Select the font in this form. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013 and discontinued with 2016).
 
 ### Background
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -82,7 +82,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **PasteSpecialMetricsOption** – Select the option to paste metrics. Default is 0 (Side bearings).
 * **PasteSpecialOutlineData** – This option will paste outline data. Default is on.
 
-### Externals (used by Tools: Launch Externals)
+### Externals (used in Tools: Launch Externals)
 There are three built-in external programs: **MainType** (shows if installed, hides if not installed), **Fonts Folder** and **Character Map**.
 * **Location#** – The last character can be up to digit three. Default is empty.
 * **Title#** – The last character can be up to digit three. Default is **External #** whereas the last character is a number.
@@ -200,10 +200,16 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **OTLFDesignerCollapsedFeatures** – Contains features collapsed in `TOPENTYPEDESIGNERFORM`.
 * **OTLFDesignerCollapsedLookups** – Contains lookups collapsed in `TOPENTYPEDESIGNERFORM`.
 * **OTLFDesignerCollapsedScripts** – Contains scripts collapsed in `TOPENTYPEDESIGNERFORM`.
+* **OTLFDesignerPairFilterFirst** – Contains the first character to filter kerning pairs.
+* **OTLFDesignerPairFilterSecond** – Contains the last character to filter kerning pairs.
+* **OTLFDesignerPairKindFirst** – Filters the first kind of kerning pair.
+* **OTLFDesignerPairKindSecond** – Filters the last kind of kerning pair.
 * **OTLFDesignerPreviewLanguage** – Select language for the preview in `TOPENTYPEDESIGNERFORM`. Default is **Auto**.
 * **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview. Default is **The five boxing wizards jump quickly**.
 * **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview. Default is **Auto**.
-* **OTLFEditor** – Contains settings in `TCODEEDITORFORM` such as the font setting.
+* **OTLFDesignerSingleFilter** – Used for single filter in `TOPENTYPEDESIGNERFORM`.
+* **OTLFDesignerSingleKind** – Used for single kind in `TOPENTYPEDESIGNERFORM`.
+* **OTLFEditor** – Contains settings in `TCODEEDITORFORM` such as font setting, display line numbers or word wrap.
 * **OverviewColCat** – Contains the column categories used in `TFONTOVERVIEWFORM`.
 * **OverviewFontZoom** – Contains the zoom factor used in `TFONTOVERVIEWFORM`. Default is 35.
 * **OverviewGridZoom** – Contains the grid zoom factor used in `TFONTOVERVIEWFORM`.
@@ -267,7 +273,7 @@ There are three built-in external programs: **MainType** (shows if installed, hi
 * **MetricsAndKerningTextRight** – Used by the **After** text box. Default is empty.
 
 ### Most Recently Used Files/Projects
-* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted or if the **Clear file list** option is selected in the menu.
+* **File_#** – Same as the **Last Time** section above; lists the fonts and/or projects in the **File: Reopen** menu. The menu will appear dimmed if the above keys are deleted or if selecting the **Clear file list** option in the menu.
 
 ### OpenType Designer (version 7.0 & above, used in `TOPENTYPEDESIGNERFORM`)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the Settings window. Default is on.
@@ -462,7 +468,7 @@ All resources are named HL at the beginning.
 * **TFONTHEADERFLAGSFORM** – Shows a dialog to change header flags in the font.
 * **TFONTINSTALLWIZARDFORM** – Shows the installation wizard to use the font in other applications.
 * **TFONTLOGFORM** (unused) – Shows the font log (**Developer Tools: Font Log**).
-* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font. Version 5.0 until 6.5 includes a menu to either toggle or jump to bookmarks for each glyph (the menu is hidden in recent versions).
+* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
 * **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** – Shows a list of tables used in the font along with unsupported tables.
@@ -535,16 +541,17 @@ All resources are named HL at the beginning.
 * **TWIDEWARNINGFORM** (**TWARNINGFORM** in old versions) – Used for warnings.
 
 ## Unused Content
-Remove `Visible = False` in many RC Data resources to show them.
+Remove `Visible = False` in the RC Data resources above to show them.
 
 ### Menu
-* **Edit: Knife** – No command performed when selected.
-* **Tools: TODO! Customize...** – No command performed when selected.
+* **Edit: Knife** – Use the **Knife** button in the **Glyph** toolbar as no command is performed when selected.
+* **View: Toolbars: Tab Bar** – This menu option is intended to hide the tabs.
+* **Tools: TODO! Customize...** – No command performed when selected. This menu option is intended to modify the toolbar.
 
 ### Hidden Shortcuts Menu (`TMAINFORMFONTCREATOR`)
 * **Restore Overview Splitter** – Hide or show the overview splitter.
 * **Close** – Close active window with the same command in the **File** menu.
-* **Cut**, **Copy** and **Paste* – Uses the same commands in the **Edit** menu.
+* **Cut**, **Copy** and **Paste** – Uses the same commands in the **Edit** menu.
 * **Show Font Properties** – Uses the same command in the **Font** menu.
 * **Redo** – Uses the same command in the **Edit** menu.
 * Tags from the **tags.txt** file – Uses the same tags in the Tagged folder in `TFONTOVERVIEWFORM`.
@@ -561,31 +568,34 @@ This menu is only shown for users who have registered the program. Contains deve
 * **Disable garbage collector**
 * **Increase Font Size** – Displays information about the current font in the system with the size.
 * **Enable All Toolbar Icons** – Enables all icons in toolbars.
-* **Font Tester Action**
-* **Boink!** – Exit the program without any confirmation messages.
+* **Font Tester Action** – Changes command used for `TFONTTESTFORM`.
+* **Boink!** – Exit the program without any confirmation messages. After saving fonts, it displays a dialogue box that cannot be closed, which contains an "OK" button.
 
 ### Contours Menu (`TGLYPHEDITFORM`)
 * **Debug Single Stroke Twice** – No command performed when selected.
 * **miTestItem2** – No command performed when selected.
-* **miTestItem3 Save** – Create the folder `C:\\hltemp` and the file `glyph.data` for this to work.
-* **miTestItem4 Load** – Create the folder `C:\\hltemp` and the file `glyph.data` for this to work.
+* **miTestItem3 Save** – Create the folder `C:\hltemp` and the file `glyph.data` for this to work.
+* **miTestItem4 Load** – Create the folder `C:\hltemp` and the file `glyph.data` for this to work.
 
 ### Toolbar Buttons
-* **GN** (Generate Glyph Names in the **Tools** toolbar) – Generate glyph names from the program itself. Create the folder `C:\\Users\\EDenissen\\AppData\\Roaming\\FontCreator12` and a blank text file `generatednames.txt` for this to work. The user **EDenissen** stands for Erwin Denissen (president and founder of High-Logic B.V.).
-* **Smooth Points** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **GN** (Generate Glyph Names in the **Tools** toolbar) – Generate glyph names from the program itself. Create the folder `C:\Users\EDenissen\AppData\Roaming\FontCreator12` and a blank text file `generatednames.txt` for this to work. The user **EDenissen** stands for Erwin Denissen (president and founder of High-Logic B.V.).
+* **Smooth Points** (S in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
 * **Smooth and Align Points** (SA in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
-* **Harmonize** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
-* **Rounded** (First letter in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **Harmonize** (H in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+* **Rounded** (R in the **Glyph** toolbar) – Only works in `TGLYPHEDITFORM`.
+
+### Font Overview
+Version 5.0 until 6.5 includes a menu to either toggle or jump to bookmarks for each glyph (the menu is hidden since version 7.0 & above).
 
 ### OpenType Designer
-These buttons are shown only for GPOS kerning tables.
+These buttons are shown only for kerning tables.
 * **Clear Value** – Set values for all kerning pairs to zero.
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
 * **Clean Up** – Delete all kerning pairs with zero value.
 
 ### Code Editor
 * Debugger selection dropdown list – Selecting options from the dropdown list will discard the modified code.
-* Checkbox: **Debug: VOLT.UseGlyphIds** – This option is only for fonts with VOLT projects.
+* Checkbox: **Debug: VOLT.UseGlyphIds** – This option is for fonts that have VOLT projects.
 
 ### About Dialog
 These buttons appear in the corners of the version number and copyright info.
