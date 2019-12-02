@@ -447,10 +447,10 @@ All resources are named HL at the beginning.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font. See `TFONTPROPERTIESFORM` in recent versions.
 * **TCHANGETAGFORM** (version 7.0 & above) – Shows a dialog to change tags in a font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Shows a dialog to map characters to glyph indexes.
-* **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`). Includes a hidden dropdown list to change the debugger (OTLFD) – selecting VOLT or FAE will discard the modified code.
+* **TCODEEDITORFORM** – Shows a dialog to view or edit the code for the OpenType layout table (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
 * **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which code pages are supported in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
-* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member. Includes an unused text box with glyph indexes at the top right corner (it is shown in old versions only).
+* **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the properties of each composite glyph member.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Shows a dialog to convert bitmaps to contours or import raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
@@ -586,6 +586,9 @@ This menu is only shown for users who have registered the program. Contains deve
 
 ### Font Overview
 Version 5.0 until 6.5 includes a menu to either toggle or jump to bookmarks for each glyph (the menu is hidden since version 7.0 & above).
+
+### Composite Glyph Properties
+This dialog includes a text box with glyph indexes at the top right corner (it is shown in old versions only).
 
 ### OpenType Designer
 These buttons are shown only for kerning tables.
