@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. This list only accepts names via the form as through the policy and in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names (not song artists or movie titles) used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc.
+* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc.
 
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only ordinary Unicode fonts.
@@ -49,7 +49,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 1. Clone the `mozilla/community-data` repository.
 2. Edit all the revisions by rebasing it with a higher number.
 3. Replace the word **pick** with **reword** to edit the name, email or citation in the message or **drop** to remove the commit message in the log.
-4. Save it and force push the changes.
+4. Save it, login as `gurumukhi` and force push the changes.
 5. View the Mozilla credits list to change the last updated date and remove your entry.
 
 ## Mozilla credits list owners
@@ -67,7 +67,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages.
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
-* **Cannot find server** (Internet Explorer 6 – Windows XP RTM until SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
+* **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool – it's also in the **Tools** menu; the menu item is not dimmed for computers not connected to the internet). The page title changes to **You're not connected to the internet** for computers not connected to the internet.
 
