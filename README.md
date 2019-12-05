@@ -6,7 +6,7 @@
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only ordinary Unicode fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese (only two Kanji letters are included in the font).
+* **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., Natsume Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -47,21 +47,21 @@ Only works when logged in as the last entry in the below owner list. You won't r
 
 ## Edit or remove yourself in Mozilla credits list via command line
 1. Clone the `mozilla/community-data` repository.
-2. Edit all the revisions by rebasing it with a higher number.
-3. Replace the word **pick** with **reword** to edit the name, email or citation in the message or **drop** to remove the commit message in the log.
+2. Rebase the repository with a higher number to edit all revisions.
+3. Replace the word **pick** with **reword** to edit the name, email, citation or all strings in the message or **drop** to remove the commit message in the log.
 4. Save it, login as `gurumukhi` and force push the changes.
 5. View the Mozilla credits list to change the last updated date and remove your entry.
 
 ## Mozilla credits list owners
 `names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
 
-| Name               | Nickname  | Years active | Collaborator? | Forked repository? |
-|--------------------|-----------|--------------|---------------|--------------------|
-| Dawn Endico        | endico    | 1999-2003    | NO            | NO                 |
-| Gervase Markham    | gerv      | 2004-2017    | YES           | NO                 |
-| Ram Dayal Vaishnav | gurumukhi | 2017-present | YES           | YES                |
+| Name               | Nickname  | Years active | Commit Access?  | Forked repository? |
+|--------------------|-----------|--------------|-----------------|--------------------|
+| Dawn Endico        | endico    | 1999-2003    | CVS             | NO                 |
+| Gervase Markham    | gerv      | 2004-2017    | CVS, GIT, SVN   | NO                 |
+| Ram Dayal Vaishnav | gurumukhi | 2017-        | GH Collaborator | YES                |
 
-**Fun fact:** The first entry created it via CVS in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The second entry committed directly via CVS, SVN and GIT without pull requests. The third entry is committing with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
+**Fun fact:** The first entry created it via CVS in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The second entry committed directly via CVS, SVN and GIT without pull requests. The third entry commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages.
