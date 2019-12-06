@@ -7,21 +7,21 @@
 * **Edit: Delete** is not dimmed on startup or when closing other dialogs in old versions.
 * **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) slows down the first time when used in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
-* The program shows a critical error when using **Complete Composites** in some glyphs in the Private Use Area. After that, these glyphs cannot be recovered. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html), the guy behind the sample glyphs (based on Garava Regular) and his fonts designed by the same program, has assigned code points in the Private Use Area for different glyphs in his fonts, notably small capitals (see the user data section below).
+* The program shows a critical error when using **Complete Composites** in some glyphs in the Private Use Area (old versions only). After that, these glyphs cannot be recovered.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
 * Despite FontCreator 5.6 having unused content and using non-standard resource layout, [UPX](https://upx.github.io/) can't test the executable file (NotPackedException: not packed by UPX) but the executable file compresses successfully either with the 1 or 9 parameter (compress slow or fast) or without any parameters.
 * In new fonts, the international currency sign (¤) is mapped in the Macintosh Roman glyph mapping list but not the euro (€) which is mapped by the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts (except in Simplified Chinese) and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
 
 ## Unregistered version limitations
-As FontCreator is pay shareware, the unregistered version will show a splash screen on startup and has a grace period of 30 days. If registration is not performed during the grace period, the following restrictions will be imposed on the version number:
+As FontCreator is pay shareware, the unregistered version has a grace period of 30 days. If registration is not performed during the grace period, the following restrictions will be imposed on the version number:
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, a nag screen is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
-* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported and tested fonts won't be automatically hinted.
+* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when testing, exporting or installing fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2547 (2019-09-12) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted.
-* All versions – The window title bar will display **(UNREGISTERED)**. After a grace period of 30 days, the paragraph changes in `TSPLASHFORM`.
+* All versions – A splash screen is shown on startup. The window title bar will display **(UNREGISTERED)**. After a grace period of 30 days, the paragraph changes in `TSPLASHFORM`.
 
 Under the **Help** menu is an item labeled **Register...** (the same item is in the **Buy** menu along with **Buy Now**) when this executed a screen will pop up giving the registration code.
 
@@ -35,7 +35,7 @@ Under the **Help** menu is an item labeled **Register...** (the same item is in 
 FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrator privileges or change the owner (this can be done with `takeown /f filename` or **Security: Advanced: Owner: Edit** in Windows Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in the file properties).
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
-* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. This feature will do nothing if there are syntax errors or this file is removed.
+* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. This feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file, notably petite or small capitals.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). The font name in version 3.0 until 6.5 is **FC Test Font ######** (the last six characters are numeric).
 * **fc12.cfg** – Configuration file for version 12.0.
@@ -44,7 +44,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used by saving features (the last two or three characters in the filename are letter and number combos).
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
 * **FontCreatorSetup-x64.exe** – Install the Win64 version of this program.
-* **FontCreator.tip** (version 2.0 until 6.5) – Contains the tips in `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
+* **FontCreator.tip** (version 2.0 until 6.5) – Contains tips in `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
 * **FontCreator YYYYMMDD HHMMSS ###.dat/prd** – Error logs in the **Errors** folder for **All Users** (YYYYMMDD HHMMSS is the timestamp and the last three characters are numeric).
 * **FontInstaller.dll** (version 2.0 until 6.5) – Dynamic link library used by `TFONTINSTALLFORM`.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but duplicates **xi** to U+0000.
@@ -222,7 +222,7 @@ There are three built-in external programs: **MainType** (shows only if it's ins
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in the Edit tab. Default is 1. (Available in the Options window)
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is same as the maximum count. (Available in the Options window)
 * **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. Default is on. (Available in the Options window)
-* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank (the sample glyphs are from Garava Regular).
 * **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
 * **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
 * **SaveDialogInitialDirNew2** – Select the directory in the save dialog.
@@ -360,7 +360,7 @@ The program is unregistered if installation completes successfully or if the key
 
 ### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
 * **CurrentTip** – Line number in `FontCreator.tip`. This number raises by one line when closed. Default is first line.
-* **ShowTipOnStartup** – Set this value to off to never show this form on startup. This corresponds to **Show this screen next time when you start FontCreator**. Default is on (always show on startup).
+* **ShowTipOnStartup** – Set this value to off to never show it on startup. This corresponds to **Show this screen next time when you start FontCreator**. Default is on (always show on startup).
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation. Default is off.
@@ -472,7 +472,7 @@ All resources are named HL at the beginning.
 * **TFONTPROPERTIESFORM** – Displays a dialog where you can modify or view properties or unsupported tables for the font.
 * **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font.
 * **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font.
-* **TFONTTESTFORM** – Used when testing desktop fonts (not web or multicolor fonts). Default text in `mmFontTest` (multiline editable text field) is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
+* **TFONTTESTFORM** – Used when testing desktop fonts (not web or multicolor fonts). Default text in `mmFontTest` and `Memo1` is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
 * **TFORMADDANCHOR** (version 7.0 & above) – Used when adding anchors in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Displays a dialog where you can configure settings for the OpenType Designer.
 * **TFORMULAFORM** – Formula for Constructing Composite Glyph (anchor based).
@@ -516,8 +516,8 @@ All resources are named HL at the beginning.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**.
 * **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – For unregistered copies, displays a dialog where you can enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu.
 * **TRESOURCEEDITORDLG** (version 3.0) (unused) – Used when editing resources.
-* **TRESOURCEMODULE** (unused) – Used for resource module.
-* **TRICHVIEWDIALOG** (unused) – Used for the rich text module.
+* **TRESOURCEMODULE** (unused) – Contains styles located in `rvStyleGlobal` and its icons.
+* **TRICHVIEWDIALOG** (unused) – Used for the rich text module and contains styles located in `RVStyle1`.
 * **TRULEMANAGER** (version 7.0 & above) – Used when managing rules in the OpenType layout tables.
 * **TSAMPLETEXTFORM** – Used when adding custom sample texts to `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Used when adding glyph members to a composite glyph.
@@ -529,7 +529,7 @@ All resources are named HL at the beginning.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Shows a dialog to manage subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used by the OpenType Designer to replace text.
 * **TTEXTSEARCHDIALOG** – Used by the OpenType Designer to search text.
-* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). On unregistered copies is a button labeled **Register** (removing it will show a critical error that reads access violation). See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic font forum for recent tips.
+* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). The **Register** button is only shown for users who have not registered the program. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic font forum for recent tips.
 * **TTRANSFORMFORM** – Used when transforming simple glyphs.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Displays a dialog where you can enable or disable which Unicode blocks or ranges are supported in the font.
@@ -611,7 +611,7 @@ The context menu has two paste options.
 The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
 
 ### About Dialog
-These buttons appear in the corners of the version number and copyright info.
+These buttons are only in version 6.0 & above and are located in the corners of the version number, copyright info and the company's website.
 * **Clr** (top left corner) – Removes registration info to make the program unregistered.
 * **Crash** (top right corner) – Displays a critical error when clicked.
 * **Trial** (bottom right corner) – Restart trial period for use with unregistered copies beyond the grace period of 30 days.
