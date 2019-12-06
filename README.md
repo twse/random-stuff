@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. **Fun fact:** This list only accepts names via the form as through the policy and in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc.
+* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only ordinary Unicode fonts.
@@ -47,7 +47,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 
 ## Edit or remove yourself in Mozilla credits list via command line
 1. Clone the `mozilla/community-data` repository.
-2. Rebase the repository with a higher number to edit all revisions.
+2. Rebase the repository with a higher number to edit all revisions to display the entire log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. Replace the first word with **reword** to edit the name, email, citation or all strings in the message or **drop** to remove the commit message in the log.
 5. Save it, login as `gurumukhi` and force push the changes.
