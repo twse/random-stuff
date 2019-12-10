@@ -1,9 +1,9 @@
-This repository is unrelated to the below two headings. The filenames in parentheses have people lists sorted in alphabetical order by last names.
+This repository is unrelated to the below two headings. The filenames in parentheses have everyone listed in alphabetical order according to last name.
 
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
-Python Software Foundation has a Contributor License Agreement that you must sign for review/merge pull request in the CPython GitHub repository. Submissions are done in a couple days apart. You will receive an automated verification email to respond and see an asterisk at the end of your username for every comment posted in Python's own issue tracker. A bot named `the-knights-who-say-ni` will either add `CLA signed` (if signed) or `CLA not signed` (if not signed) for every created pull request.
+Python Software Foundation has a Contributor License Agreement that you must sign for review or merge pull request in the CPython GitHub repository. Submissions are done in a couple days apart. You will receive an automated verification email to respond and see an asterisk at the end of your username for every comment posted in Python's own issue tracker. A bot named `the-knights-who-say-ni` will either add the label `CLA signed` (if signed) or `CLA not signed` (if not signed) for every created pull request.
 
-This list represents but a portion of the people who have sent the Contributor Agreement to the Python Software Foundation.
+This list represents but a portion of the people who have signed the Python Software Foundation Contributor Agreement.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
 Ubuntu has a code of conduct that you may sign with Launchpad or the assistant. Many teams require to do it (e.g. Ubuntu Bug Squad).
