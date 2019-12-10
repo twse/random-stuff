@@ -4,7 +4,7 @@
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Fonts
-Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support only ordinary Unicode fonts.
+Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by MrMoto with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Based on the font in *WarioWare* GBA and NDS games. Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Based on the font in the American version of *Lufia: The Ruins of Lore*. Created using CrystalTile2. This font is not licensed or endorsed by ATLUS U.S.A., Inc., Natsume Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
@@ -47,7 +47,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 
 ## Edit or remove yourself in Mozilla credits list via command line
 1. Clone the `mozilla/community-data` repository.
-2. Rebase the repository with a higher number to edit all revisions to display the entire log.
+2. Rebase the repository with a higher number to edit all revisions (i.e. display the entire log).
 3. Edit the `names.csv` file to change or remove your entry.
 4. Replace the first word with **reword** to edit the name, email, citation or all strings in the message or **drop** to remove the commit message in the log.
 5. Save it, login as `gurumukhi` and force push the changes.
@@ -56,11 +56,11 @@ Only works when logged in as the last entry in the below owner list. You won't r
 ## Mozilla credits list owners
 `names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
 
-| Name               | Nickname  | Years active | Commit Access?  | Forked repository? |
-|--------------------|-----------|--------------|-----------------|--------------------|
-| Dawn Endico        | endico    | 1999-2003    | CVS             | NO                 |
-| Gervase Markham    | gerv      | 2004-2017    | CVS, GIT, SVN   | NO                 |
-| Ram Dayal Vaishnav | gurumukhi | 2017-        | GH Collaborator | YES                |
+| Name and Nickname              | GH Account? | Active    | Commit Access?  | Forked repository? |
+|--------------------------------|-------------|-----------|-----------------|--------------------|
+| Dawn Endico (endico)           | NO          | 1999-2003 | CVS             | NO                 |
+| Gervase Markham (gerv)         | YES         | 2004-2017 | CVS, GIT, SVN   | NO                 |
+| Ram Dayal Vaishnav (gurumukhi) | YES         | 2017-     | GH Collaborator | YES                |
 
 **Fun fact:** The first entry created it via CVS in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The second entry committed directly via CVS, SVN and GIT without pull requests. The third entry commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
 
@@ -70,7 +70,7 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-20
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and makes the option from the **Tools** menu not dimmed). The page title changes to **You're not connected to the internet** if a computer is not connected to the internet.
+* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). The page title changes to **You're not connected to the internet** if the computer is not connected to the internet.
 
 ## Translations of EasyPaint into multiple languages
 All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped development of this program last year in January – he is committing via other repositories.
