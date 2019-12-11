@@ -16,7 +16,7 @@ You won't receive any emails when your name is added - this will see the message
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
-4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` replaced with your actual file having a list.
+4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit the new file via `-a -m "message"` replaced with your own message.
 6. Login as `gurumukhi` to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
@@ -32,7 +32,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 ## Add yourself to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
-2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` replaced with your name and sort key.
+2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` with the second word replaced with your name and sort key.
 3. Commit the new file with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
@@ -56,24 +56,24 @@ Only works when logged in as the last entry in the below owner list. You won't r
 ## Mozilla credits list owners
 `names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
 
-| Name and Nickname              | GH Account? | Active    | Commit Access?  | Forked repository? |
-|--------------------------------|-------------|-----------|-----------------|--------------------|
-| Dawn Endico (endico)           | NO          | 1999-2003 | CVS             | NO                 |
-| Gervase Markham (gerv)         | YES         | 2004-2017 | CVS, GIT, SVN   | NO                 |
-| Ram Dayal Vaishnav (gurumukhi) | YES         | 2017-     | GH Collaborator | YES                |
+| Name and Nickname              | GH Account? | Active    | Commit Access?  |
+|--------------------------------|-------------|-----------|-----------------|
+| Dawn Endico (endico)           | NO          | 1999-2003 | CVS             |
+| Gervase Markham (gerv)         | YES         | 2004-2017 | CVS, GIT, SVN   |
+| Ram Dayal Vaishnav (gurumukhi) | YES         | 2017-     | GH Collaborator |
 
-**Fun fact:** The first entry created it via CVS in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The second entry committed directly via CVS, SVN and GIT without pull requests. The third entry commits with pull requests and closes them for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
+**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository, commits with pull requests and closes pull requests for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
 
 ## Protest pages (requires JavaScript; available in five versions)
-Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages. Thanks goes to Microsoft in the last three entries for the original pages.
+Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages (his protest pages is based on his main page).
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP RTM, SP1 and SP2) – Windows XP SP3 added network diagnostics stuff (not included in this page).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). The page title changes to **You're not connected to the internet** if the computer is not connected to the internet.
+* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers with network problems.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped development of this program last year in January – he is committing via other repositories.
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped developing this program last year in January – he is committing via other repositories.
 
 * Danish (da_DK)
 * Esperanto (eo)
