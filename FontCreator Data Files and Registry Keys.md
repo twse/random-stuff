@@ -467,6 +467,7 @@ All resources are named HL at the beginning.
 * **DESCRIPTION** and **ELDATA** (unused) – These resources are binary.
 * **DVCLAL** (unused) – Shows two paragraphs (the license is valid and is running C++ Builder Professional).
 * **PACKAGEINFO** (unused) – Shows the Pascal log used to compile the program.
+* **PLATFORMTARGETS** (unused) – This resource is binary and only exists in version 11.5.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. In **Go to Unicode Block**, **Sorted** is checked by default.
@@ -494,15 +495,15 @@ All resources are named HL at the beginning.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Shows a dialog to convert bitmaps to contours or import raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
-* **TDISABLEDFORM** – Used by reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 & above after a grace period of 30 days or version 6.0 until 6.5 and 8.0 until 12.0.0.2539 during or after a grace period of 30 days).
+* **TDISABLEDFORM** – This dialog is only shown in reduced functionality mode or when pressing **Use Evaluation Version** in the splash screen (version 5.0 & above after a grace period of 30 days or version 6.0 until 6.5 and 8.0 until 12.0.0.2539 during or after a grace period of 30 days).
 * **TDM** – Contains icons used by the program. The icons were changed in version 11.0.0.2365 (2017-05-10) & above.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data used by the program.
 * **TEDITANCHORFORM** (version 7.0 & above) – Shows a dialog to edit anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Shows a dialog to export glyph data in the font.
-* **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Shows a dialog to export the font in desktop or web format or both.
+* **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Shows a dialog to export the font as desktop or web format or both.
 * **TEXTERNALSFORM** – Shows a dialog to edit the external tools menu (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** – Shows a dialog to extract OpenType font collections (**Tools: Extract from OTC...**).
-* **TFEATURESETTINGSFORM** (version 7.0 & above) – Used when generating or updating OpenType features from `TOPENTYPEDESIGNERFORM`.
+* **TFEATURESETTINGSFORM** (version 12.0) – Used when generating or updating OpenType features from `TOPENTYPEDESIGNERFORM`.
 * **TFINDFORM** – Used when searching parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Shows a dialog to change embedding or licensing rights in the font.
 * **TFONTHEADERFLAGSFORM** – Shows a dialog to change header flags in the font.
@@ -515,13 +516,13 @@ All resources are named HL at the beginning.
 * **TFONTTESTFORM** – Shows a dialog to test desktop fonts (not web fonts). Default text in `mmFontTest` and `Memo1` is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
 * **TFORMADDANCHOR** (version 7.0 & above) – Used when adding anchors in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Shows a dialog to configure settings for the OpenType Designer.
-* **TFORMULAFORM** – Shows a dialog to write a formula to construct composite glyphs (anchor based).
+* **TFORMULAFORM** (version 12.0) – Shows a dialog to write a formula to construct composite glyphs (anchor based).
 * **TFRAMECATEGORY** – Shows categories in the font overview.
 * **TFRAMEGLYPHMEMBER** – Used by the font overview to display glyph members.
 * **TFRAMEPALETTE** – Shows a palette of colors for use with multicolored fonts.
 * **TGASPFORM** (version 2.0 until 6.5) – Used when managing gasps in the font. See the Smoothing tab in `TFONTSETTINGSFORM` in recent versions.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
-* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in `TVALIDATIONWIZARDFORM` (the window is titled **Report**).
+* **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM` (the window is titled **Report**).
 * **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Shows a dialog to change glyph names.
@@ -554,7 +555,7 @@ All resources are named HL at the beginning.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing a glyph.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**.
-* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – Shows a dialog to enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu.
+* **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – Shows a dialog to enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu. The user agent in `TREGISTERFORMEX` has its own user agent.
 * **TRESOURCEEDITORDLG** (version 3.0) (unused) – Used when editing resources.
 * **TRESOURCEMODULE** (unused) – Contains styles located in `rvStyleGlobal` and its icons.
 * **TRICHVIEWDIALOG** (unused) – Used for the rich text module. Contains styles located in `RVStyle1`.
@@ -569,7 +570,7 @@ All resources are named HL at the beginning.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Shows a dialog to manage subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Used when replacing text in `TOPENTYPEDESIGNERFORM`.
 * **TTEXTSEARCHDIALOG** – Used when searching text in `TOPENTYPEDESIGNERFORM`.
-* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). The **Register** button is only shown for users who have not registered the program. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic font forum for recent tips.
+* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). The **Register** button is only shown for users who have not registered the program. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic forum for recent tips.
 * **TTRANSFORMFORM** – Used when transforming simple glyphs.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Shows a dialog to enable or disable Unicode blocks or ranges to support in the font.
@@ -609,7 +610,7 @@ This menu is only shown for users who have registered the program. Contains deve
 * **Increase Font Size** – Displays information about the current font in the system with the size.
 * **Enable All Toolbar Icons** – Enables all icons in toolbars.
 * **Font Tester Action** – Changes action used by `TFONTTESTFORM`.
-* **Boink!** – Exit the program immediately. It may display a dialogue box that cannot be closed, which contains an "OK" button.
+* **Boink!** – Exit the program immediately. This menu item is located in FontCreator 11.5 in the **Debug** menu. It may display a dialogue box that cannot be closed, which contains an "OK" button.
 
 ### Contours Menu (`TGLYPHEDITFORM`)
 * **Debug Single Stroke Twice** – This menu item is dummy.
@@ -623,10 +624,10 @@ This menu is only shown for users who have registered the program. Contains deve
 * **Smooth Points** (S in the **Glyph** toolbar) – Smooths all points. Only works in `TGLYPHEDITFORM`.
 * **Smooth and Align Points** (SA in the **Glyph** toolbar) – Smooths and aligns points. Only works in `TGLYPHEDITFORM`.
 * **Harmonize** (H in the **Glyph** toolbar) – Harmonizes all contours. Only works in `TGLYPHEDITFORM`.
-* **Rounded** (R in the **Glyph** toolbar) – Force rounded points. Only works in `TGLYPHEDITFORM`.
+* **Round Corners** (R in the **Glyph** toolbar) – Force rounded points. Only works in `TGLYPHEDITFORM`.
 
 ### Font Overview
-Version 5.0 until 6.5 includes two bookmark menu entries used in each glyph (the menu is hidden since version 7.0 & above).
+Version 5.0 until 6.5 includes bookmark menu entries for each glyph (the menu is hidden since version 7.0 & above).
 
 ### Composite Glyph Properties
 This dialog includes a text box with glyph indexes at the top right corner (it is shown in old versions only).
@@ -654,4 +655,4 @@ The **Preview** tab includes three unused buttons to move strings up or down or 
 These buttons are only in version 6.0 & above and are located in the corners of the version number, copyright info and the company's website.
 * **Clr** (top left corner) – Remove registration info to make the program unregistered.
 * **Crash** (top right corner) – Displays a critical error when clicked.
-* **Trial** (bottom right corner) – Reset trial period for unregistered copies after the grace period of 30 days.
+* **Trial** (bottom right corner) – Reset trial period for unregistered copies after a grace period of 30 days.
