@@ -62,7 +62,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 | Gervase Markham (gerv)         | YES         | 2004-2017 | CVS, GIT, SVN   |
 | Ram Dayal Vaishnav (gurumukhi) | YES         | 2017-     | GH Collaborator |
 
-**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository, commits with pull requests and closes pull requests for additions not from the form (e.g. bulk additions) or modifications not from replies to the application acceptance mail with a comment via the second file entry's last paragraph in the above index.
+**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository and is committing using pull requests. If the above repository creates direct pull requests for additions without form or modifications without replies to application acceptance message, the third entry will close the pull request with a comment resulting in unmerged commits.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages (his protest pages is based on his main page).
