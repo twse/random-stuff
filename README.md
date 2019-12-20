@@ -54,15 +54,17 @@ Only works when logged in as the last entry in the below owner list. You won't r
 6. View the Mozilla credits list to change the last updated date and remove your entry.
 
 ## Mozilla credits list owners
-`names.csv` is located in `credits` directory from the `mozilla/community-data` repository.
+**Name:** Mozilla credits list
+**Description:** Shows a list of all those who contributed to Mozilla.
+**Owner:** Ram Dayal Vaishnav (2017-present, using pull request)
+**Peer(s):** N/A
+**Owner(s) Emeritus:** Dawn Endico (1999-2003), Gervase Markham (2003-2017)
+**Peer(s) Emeritus:** N/A
+**Source Dir(s):** GitHub Repository `mozilla/community-data/credits` (names.csv file)
+**Bugzilla Component(s):** N/A
+**URL(s):** See second entry in the index above
 
-| Name and Nickname              | GH Account? | Active    | Commit Access?  |
-|--------------------------------|-------------|-----------|-----------------|
-| Dawn Endico (endico)           | NO          | 1999-2003 | CVS             |
-| Gervase Markham (gerv)         | YES         | 2004-2017 | CVS, GIT, SVN   |
-| Ram Dayal Vaishnav (gurumukhi) | YES         | 2017-     | GH Collaborator |
-
-**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository and is committing using pull requests. If the above repository creates direct pull requests for additions without form or modifications without replies to application acceptance message, the third entry will close the pull request with a comment resulting in unmerged commits.
+**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository. If the above repository creates direct pull requests for additions without form or modifications without replies to application acceptance message, the third entry will close the pull request with a comment resulting in unmerged commits.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages (his protest pages is based on his main page).
