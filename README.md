@@ -1,7 +1,7 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. **Fun fact:** This list only accepts names via the form as through the policy and in the [FAQ](https://www.mozilla.org/credits/faq).
-* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine product brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Fonts
 Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts.
@@ -11,7 +11,7 @@ Created with FontCreator 5.6 (2007) - FontCreator 6.5 is the last version to sup
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs).
 * **ZOE TFOM**: Based on the font in western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). Created using CrystalTile2 and FontCreator 5.6. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
-## Bulk-add names to Mozilla credits list via command line
+## Bulk-add everyone to Mozilla credits list via command line
 You won't receive any emails when your name is added - this will see the message in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
@@ -21,7 +21,7 @@ You won't receive any emails when your name is added - this will see the message
 6. Login as `gurumukhi` to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
-## Bulk-add names to Mozilla credits list via GitHub web interface
+## Bulk-add everyone to Mozilla credits list via GitHub web interface
 Only works when logged in as the last entry in the below owner list. You won't receive any emails when your name is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
@@ -49,22 +49,22 @@ Only works when logged in as the last entry in the below owner list. You won't r
 1. Clone the `mozilla/community-data` repository.
 2. Rebase the repository with a higher number to edit all revisions (i.e. display the entire log).
 3. Edit the `names.csv` file to change or remove your entry.
-4. Replace the first word with **reword** to edit the name, email, citation or all strings in the message or **drop** to remove the commit message in the log.
+4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
 5. Save it, login as `gurumukhi` and force push the changes.
 6. View the Mozilla credits list to change the last updated date and remove your entry.
 
-## Mozilla credits list owners
-**Name:** Mozilla credits list
-**Description:** Shows a list of all those who contributed to Mozilla.
-**Owner:** Ram Dayal Vaishnav (2017-present, using pull request)
-**Peer(s):** N/A
-**Owner(s) Emeritus:** Dawn Endico (1999-2003), Gervase Markham (2003-2017)
-**Peer(s) Emeritus:** N/A
-**Source Dir(s):** GitHub Repository `mozilla/community-data/credits` (names.csv file)
-**Bugzilla Component(s):** N/A
-**URL(s):** See second entry in the index above
+## Mozilla credits list module info
+* **Name:** Mozilla credits list
+* **Description:** Shows a list of all those who contributed to Mozilla.
+* **Owner:** Ram Dayal Vaishnav (2017-present using pull request)
+* **Peer(s):** N/A
+* **Owner(s) Emeritus:** Dawn Endico (1999-2003 using CVS), Gervase Markham (2003-2017 using CVS, GIT and SVN)
+* **Peer(s) Emeritus:** N/A
+* **Source Dir(s):** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
+* **Bugzilla Component(s):** N/A
+* **URL(s):** See second file entry in the index above
 
-**Fun fact:** The first entry created this list in 1999/08/29 and posted it to the Mozilla mailing list/newsgroup. The third entry forked the above repository. If the above repository creates direct pull requests for additions without form or modifications without replies to application acceptance message, the third entry will close the pull request with a comment resulting in unmerged commits.
+**Fun fact:** The current owner forked the above repository. If a direct pull request was created for additions without form or modifications without replying to application acceptance message, the pull request is closed with a comment resulting in unmerged commits by the current owner.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages (his protest pages is based on his main page).
@@ -75,7 +75,7 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-20
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers with network problems.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped developing this program last year in January – he is committing via other repositories.
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped developing this program in 2018-01 – he is committing via other repositories.
 
 * Danish (da_DK)
 * Esperanto (eo)
