@@ -47,7 +47,7 @@ Only works when logged in as the last entry in the below owner list. You won't r
 
 ## Edit or remove yourself in Mozilla credits list via command line
 1. Clone the `mozilla/community-data` repository.
-2. Rebase the repository with a higher number to edit all revisions (i.e. display the entire log).
+2. Rebase the repository with a higher number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
 5. Save it, login as `gurumukhi` and force push the changes.
@@ -56,15 +56,12 @@ Only works when logged in as the last entry in the below owner list. You won't r
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Ram Dayal Vaishnav (2017-present using pull request)
-* **Peer(s):** N/A
-* **Owner(s) Emeritus:** Dawn Endico (1999-2003 using CVS), Gervase Markham (2003-2017 using CVS, GIT and SVN)
-* **Peer(s) Emeritus:** N/A
-* **Source Dir(s):** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
-* **Bugzilla Component(s):** N/A
-* **URL(s):** See second file entry in the index above
+* **Owner:** Ram Dayal Vaishnav (2017-present)
+* **Owners Emeritus:** Dawn Endico (1999-2003), Gervase Markham (2003-2017)
+* **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
+* **URL:** See second file entry in the index above
 
-**Fun fact:** The current owner forked the above repository. If a direct pull request was created for additions without form or modifications without replying to application acceptance message, the pull request is closed with a comment resulting in unmerged commits by the current owner.
+**Fun fact:** The current owner forked the above repository. For direct pull requests created for additions without form or modifications without replying to application acceptance message or both, the pull request is closed with a comment (see last paragraph in the second file entry in the index above) by the owner.
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for the inspiration of creating these pages (his protest pages is based on his main page).
@@ -75,7 +72,7 @@ Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-20
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers with network problems.
 
 ## Translations of EasyPaint into multiple languages
-All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped developing this program in 2018-01 – he is committing via other repositories.
+All translations are in ts format (edited using Qt Linguist or other program). Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt) (line 109). Nikita Grishko stopped developing this program in 2018-01.
 
 * Danish (da_DK)
 * Esperanto (eo)
