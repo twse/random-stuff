@@ -11,8 +11,8 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line (with different glyph designs). Released under the terms of the WTFPL license.
 * **ZOE TFOM**: Based on the font from western versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
 
-## Bulk-add everyone to Mozilla credits list via command line
-You won't receive any emails when your name is added - this will see the message in the log.
+## Bulk-add everyone to Mozilla credits list
+**Command line** - You won't receive any emails when your name is added - this will see the message in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
@@ -21,37 +21,43 @@ You won't receive any emails when your name is added - this will see the message
 6. Login as `gurumukhi` (current owner) to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
-## Bulk-add everyone to Mozilla credits list via GitHub web interface
-Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see the message in the log.
+**GitHub web interface** - Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or leave the default message as is.
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add the entries.
 
-## Add yourself to Mozilla credits list via command line
-You won't receive any emails when your name is added - this will see your name, email and citation in the log.
+## Add yourself to Mozilla credits list
+**Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` with the second word replaced with your name and sort key.
 3. Commit the modified file with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` (current owner) to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-## Add yourself to Mozilla credits list via GitHub web interface
-Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
+**GitHub web interface** - Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-## Edit or remove yourself in Mozilla credits list via command line
+## Edit or remove yourself in Mozilla credits list
+**Command line**
 1. Clone the `mozilla/community-data` repository.
 2. Rebase the repository with a higher number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
 5. Save it, login as `gurumukhi` (current owner) and force push the changes.
 6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
+
+**GitHub web interface**
+1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
+2. Edit or remove your entry.
+3. Enter any commit message or leave the default message as is.
+4. Use the default option which commits directly to `master`.
+5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
@@ -61,7 +67,7 @@ Only works when logged in as the current owner. You won't receive any emails whe
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
 
-**Fun fact:** Direct pull requests created for additions without form or modifications without replying to application acceptance message or both are closed with a comment (see fun fact in the second file entry in the index above) from the owner.
+**Fun fact:** Direct pull requests for additions without form or modifications without application acceptance message replies or both are closed by the owner with a comment (see fun fact in the second file entry in the index above).
 
 ## Protest pages (requires JavaScript; available in five versions)
 Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (his protest pages is his main page).
