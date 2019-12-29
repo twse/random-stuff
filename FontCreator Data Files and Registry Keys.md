@@ -10,8 +10,8 @@
 * The program shows a critical error when using **Complete Composites** in some glyphs in the Private Use Area (old versions only). After that, these glyphs cannot be recovered.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
 * Despite FontCreator 5.6 having unused content and using non-standard resource layout, [UPX](https://upx.github.io/) can't test the executable file (NotPackedException: not packed by UPX) but the executable file compresses successfully with or without parameters.
-* In new fonts (verison 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) mapping to the same codepoint (219).
-* Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts (except in Simplified Chinese) and when exporting kerning pairs, instead of e.g. using &lt;&lt; (much less than) for certain symbols like opening guillemot use a backslash (\\) and the hexadecimal code of any character as escape code, e.g. \\00AB.
+* In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) mapping to the same codepoint (219).
+* Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding while version 7.0 (2013-04-25) & above uses Unicode. Setting the non-Unicode language to East Asian languages (e.g. Korean) substitutes accented letters by ASCII counterparts (except in Simplified Chinese) and when exporting kerning pairs, instead of e.g. &lt;&lt; (much less than) for some symbols (e.g. opening guillemot), use a backslash followed by the character's hexadecimal code as escape code.
 
 ## Unregistered version limitations
 If registration is not performed during the grace period, the following restrictions will be imposed on the version number:
@@ -117,31 +117,31 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **ShowToolbarWindowValidation** – Used with **Show Report** in the Glyph toolbar. Default is off.
 
 ### Grid
-* **FixedGridColor** – Set the fixed grid color in Grid Options. Default is white.
-* **FixedGridLineStyle** – Set the fixed grid line style in Grid Options. Default is solid.
-* **GridColor** – Set the grid color in Grid Options. Default is sky blue.
-* **GridDistance** – Used with **Minimum distance between grid points in units** in Grid Options.
-* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
-* **GridLineStyle** – Set the line style in Grid Options. Default is solid.
-* **IncludeBaseline** – Used with **Baseline** in Metrics Options. Default is on.
-* **IncludeLeftSideBearing** – Used with **Left side bearing** in Metrics Options. Default is on.
-* **IncludeRightSideBearing** – Used with **Right side bearing** in Metrics Options. Default is on.
-* **IncludeTypoAscender** – Used with **TypoAscender** in Metrics Options. Default is off.
-* **IncludeTypoDescender** – Used with **TypoDescender** in Metrics Options. Default is off.
-* **IncludeWinAscent** – Used with **Win Ascent** in Metrics Options. Default is on.
-* **IncludeWinDescent** – Used with **Win Descent** in Metrics Options. Default is on.
-* **IncludexHeight** – Used with **x-Height** in Metrics Options. Default is on.
-* **IncludeYAxis** – Used with **Y-Axis** in Metrics Options. Default is on.
+* **FixedGridColor** – Set the fixed grid color in `TGRIDFORM`. Default is white.
+* **FixedGridLineStyle** – Set the fixed grid line style in `TGRIDFORM`. Default is solid.
+* **GridColor** – Set the grid color in `TGRIDFORM`. Default is sky blue.
+* **GridDistance** – Used with **Minimum distance between grid points in units** in `TGRIDFORM`.
+* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in `TGRIDFORM`.
+* **GridLineStyle** – Set the line style in `TGRIDFORM`. Default is solid.
+* **IncludeBaseline** – Used with **Baseline** in `TMETRICSFORM`. Default is on.
+* **IncludeLeftSideBearing** – Used with **Left side bearing** in `TMETRICSFORM`. Default is on.
+* **IncludeRightSideBearing** – Used with **Right side bearing** in `TMETRICSFORM`. Default is on.
+* **IncludeTypoAscender** – Used with **TypoAscender** in `TMETRICSFORM`. Default is off.
+* **IncludeTypoDescender** – Used with **TypoDescender** in `TMETRICSFORM`. Default is off.
+* **IncludeWinAscent** – Used with **Win Ascent** in `TMETRICSFORM`. Default is on.
+* **IncludeWinDescent** – Used with **Win Descent** in `TMETRICSFORM`. Default is on.
+* **IncludexHeight** – Used with **x-Height** in `TMETRICSFORM`. Default is on.
+* **IncludeYAxis** – Used with **Y-Axis** in `TMETRICSFORM`. Default is on.
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar. Default is off.
 * **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar. Default is on.
-* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in Grid Options.
+* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in `TGRIDFORM`.
 * **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar. Default is on.
 * **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. Default is on.
 * **SnapToGrid** (version 4.5 & above) – Used when pressing **Snap to Grid** in the Grid toolbar. Default is off.
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
-* **UpdateCheckInterval** – Used by **Startup: Check for updates** in Options: General to set the value to 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
+* **UpdateCheckInterval** – Set this value used in **Startup: Check for updates** in Options: General to 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
 
 ### GuideLines (version 3.0 until 6.5, used in `TGUIDELINESFORM`)
 * **Color** – Set the color. Default is black.
@@ -174,7 +174,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **ChildWindowState** – Contains the child window state.
 * **CompleteCompositesAction** – Set to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) to **Complete Composites**. Default is 1 (auto).
 * **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in `TFONTPROPERTIESFORM`. Default is on.
-* **ExportSettingsPage** – Select the page in `TEXPORTSETTINGSFORM` and `TEXPORTSETTINGSFRAME`. Default is 0 (Desktop Font (ttf/otf)).
+* **ExportSettingsPage** – Select page in `TEXPORTSETTINGSFORM` and `TEXPORTSETTINGSFRAME`. Default is 0 (Desktop Font (ttf/otf)).
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** (Glyph Index) in the font overview context menu.
 * **GlyphCaptionType2** – Used with the Captions options in the font overview context menu.
 * **GlyphDrawMode** – Set to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
@@ -204,9 +204,9 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **OTLFDesignerPairFilterSecond** – Contains the succeeding character to filter kerning pairs.
 * **OTLFDesignerPairKindFirst** – Filters the first kind of kerning pair.
 * **OTLFDesignerPairKindSecond** – Filters the last kind of kerning pair.
-* **OTLFDesignerPreviewLanguage** – Select the preview text language in `TOPENTYPEDESIGNERFORM`. Default is **Auto**.
+* **OTLFDesignerPreviewLanguage** – Select language for `TOPENTYPEDESIGNERFORM` preview text. Default is **Auto**.
 * **OTLFDesignerPreviewSampleText** – Contains preview sample text for `TOPENTYPEDESIGNERFORM`. Default is **The five boxing wizards jump quickly**.
-* **OTLFDesignerPreviewScript** – Select script for `TOPENTYPEDESIGNERFORM` preview. Default is **Auto**.
+* **OTLFDesignerPreviewScript** – Select script for `TOPENTYPEDESIGNERFORM` preview text. Default is **Auto**.
 * **OTLFDesignerSingleFilter** – Used for single filter in `TOPENTYPEDESIGNERFORM`.
 * **OTLFDesignerSingleKind** – Used for single kind in `TOPENTYPEDESIGNERFORM`.
 * **OTLFEditor** – Contains settings used by `TCODEEDITORFORM` such as the font setting, line number display or word wrapping.
@@ -222,7 +222,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in Options: Edit. Default is 1.
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in Options: Edit. Default is same as the maximum count.
 * **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in Options: Font. Default is on.
-* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty (many sample glyphs are derived from Times New Roman and Garava Regular).
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty (many sample glyphs are derived from the regular styles of Garava and Times New Roman).
 * **SampleSingleHeight** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph height** in the Options: Sample. Default is 55.
 * **SampleSingleWidth** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph width** in the Options: Sample. Default is 62.
 * **SaveDialogInitialDirNew2** – Select the directory in the save dialog.
@@ -239,7 +239,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **AutoKerningMinAbsKernValue** – This corresponds to numerical strings for the **Additional Options: Minimum absolute kerning value** in `TAUTOKERNFORM`.
 * **AutoKerningReplaceKerning** – Used with **Additional Options: Replace existing kerning when** dropdown box in `TAUTOKERNFORM`.
 * **AutoKerningReplacePercentage** – Used with **Additional Options: Replace existing kerning when** slider in `TAUTOKERNFORM`.
-* **AutoKerningUseBaseMetrics** – Used with **Composite glyphs follow base glyphs (use this glyph's metrics)** in the OpenType Designer Kern Wizard. Default is on.
+* **AutoKerningUseBaseMetrics** – Used with **Composite glyphs follow base glyphs (use this glyph's metrics)** in the `TAUTOKERNFORM`. Default is on.
 * **AutoKerningWhiteSpace** – Used with **Additional Options: White space between characters** in `TAUTOKERNFORM`.
 * **KerningColorBackground** – Set the background color. Default is white.
 * **KerningColorBaseline** – Set the baseline color. Default is red.
@@ -483,10 +483,10 @@ All resources are named HL at the beginning.
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in old versions) – Shows a dialog to automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5).
 * **TAUTOMETRICSFORM** – Shows a wizard to automatically generate metrics for glyphs.
 * **TAUTONAMEFORM** (version 5.0 until 6.5) – Shows a wizard to automatically change the naming fields of a font.
-* **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields for a font (replaced with `TFONTPROPERTIESFORM` in version 7.0 & above).
+* **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when including additional naming fields in the font (replaced with `TFONTPROPERTIESFORM` in version 7.0 & above).
 * **TCHANGETAGFORM** (version 7.0 & above) – Shows a dialog to change tags in the font.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Shows a dialog to map characters to glyph indexes.
-* **TCODEEDITORFORM** – Starts a program to view or edit the OpenType feature code (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
+* **TCODEEDITORFORM** – Starts a utility to view or edit the OpenType feature code (**Code Editor** in `TOPENTYPEDESIGNERFORM`).
 * **TCODEPAGERANGEFORM** – Contains a list of code pages to support in the font.
 * **TCOLORFORM** (old versions) – This dialog is not the Windows color selector.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the composite glyph properties.
@@ -494,12 +494,12 @@ All resources are named HL at the beginning.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
 * **TDISABLEDFORM** – This dialog is only shown for users who have not registered the program (version 5.0 & above after a grace period of 30 days or version 6.0 until 6.5 and 8.0 until 12.0.0.2539 during or after a grace period of 30 days).
-* **TDM** – Contains icons in the program. **Fun fact:** Icons from the Windows XP era were used in version 5.0 (2005-01-12) up to 11.0.0.2365 (2017-05-10).
+* **TDM** – Contains icons in the program. Version 5.0 (2005-01-12) up to 11.0.0.2365 (2017-05-10) uses icons from the Windows XP era.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data in the program.
 * **TEDITANCHORFORM** (version 7.0 & above) – Shows a dialog to edit anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Shows a dialog to export glyph data in the font.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Shows a dialog to export the font as desktop or web format or both.
-* **TEXTERNALSFORM** – Shows a dialog to edit the external tools menu (**Tools: Launch Externals: Configure Externals...**).
+* **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** – Shows a wizard to extract OpenType font collections into separate font files (**Tools: Extract from OTC...**).
 * **TFEATURESETTINGSFORM** (version 12.0) – Used when generating or updating OpenType features in `TOPENTYPEDESIGNERFORM`.
 * **TFINDFORM** – Used when searching parts of a font.
@@ -510,15 +510,15 @@ All resources are named HL at the beginning.
 * **TFONTOVERVIEWFORM** – Contains all the glyphs shown after opening fonts.
 * **TFONTPROPERTIESFORM** – Contains properties and unsupported tables in the font.
 * **TFONTSETTINGSFORM** – Contains a lot of things like basic or legal naming fields, basic metric settings, Unicode range and character encoding settings and more.
-* **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables included as sepaprate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
-* **TFONTTESTFORM** – Shows a dialog to test desktop fonts (not web fonts). Default text in `mmFontTest` and `Memo1` is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
+* **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables included as separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
+* **TFONTTESTFORM** – Test desktop fonts (not web fonts). Default text in `mmFontTest` and `Memo1` is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
 * **TFORMADDANCHOR** (version 7.0 & above) – Shows a dialog to add anchors to the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Shows an interface for viewing and setting options in `TOPENTYPEDESIGNERFORM`.
 * **TFORMULAFORM** (version 12.0) – Shows a dialog to write formulas to construct anchor based composite glyphs.
 * **TFRAMECATEGORY** – Contains categories in the font overview (left side).
 * **TFRAMEGLYPHMEMBER** – Used by `TFONTOVERVIEWFORM` to display glyph members.
 * **TFRAMEPALETTE** – Shows a palette of colors for use with multicolored fonts.
-* **TGASPFORM** (version 2.0 until 6.5) – Shows a dialog to manage gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
+* **TGASPFORM** (version 2.0 until 6.5) – Manages gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM`.
 * **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
@@ -527,7 +527,7 @@ All resources are named HL at the beginning.
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Shows a dialog to view or edit properties for the selected glyph.
 * **TGRIDFORM** – Shows an interface for viewing and setting options for grid.
 * **TGUIDELINEMODIFYFORM** – Shows a dialog to modify guidelines.
-* **TGUIDELINESFORM** – Shows an interface for viewing and setting guideline options.
+* **TGUIDELINESFORM** – Shows an interface for viewing and setting options for guidelines.
 * **TIMPORTGLYPHDATAFORM** – Shows a dialog to import glyph data.
 * **TINSERTGLYPHFORM** – Shows a dialog to insert glyphs to the font.
 * **TINSTALLEDFONTSFORM** – Shows a list of installed fonts on a dialog. Version 10.1.0.2272 (2016-12-20) & below had a waiting delay.
@@ -554,7 +554,7 @@ All resources are named HL at the beginning.
 * **TPRINTGLYPHFORM** – Used when printing glyphs.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress window. The cursor for this form is **Busy**.
 * **TREGISTERFORMEX** and **TREGISTERFORMFC** (**TREGISTERFORM** in old versions) – Shows a dialog to enter the registration code (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup and hides the **Buy** menu and the **Register...** item on the **Help** menu. The user agent in `TREGISTERFORMEX` has its own user agent.
-* **TRESOURCEMODULE** – Contains styles located in `rvStyleGlobal` and its icons.
+* **TRESOURCEMODULE** – Contains styles located in `rvStyleGlobal` and icons.
 * **TRICHVIEWDIALOG** (unused) – Used for the rich text module. Contains styles located in `RVStyle1`.
 * **TRULEMANAGER** (version 7.0 & above) – Shows a dialog to manage rules in the OpenType layout tables.
 * **TSAMPLETEXTFORM** (version 7.0 & above) – Shows a dialog to add custom sample text strings to `TFONTTESTFORM`.
@@ -640,7 +640,7 @@ These buttons only affects kerning tables. The values at the beginning has a cap
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
 * **Clean Up** – Delete all kerning pairs that have a zero value.
 
-### Code Editor (`TCODEEDITORFORM`)
+### OpenType Layout Feature Code Editor (`TCODEEDITORFORM`)
 * Debugger dropdown list – Selecting options will discard changes to the code.
 * Checkbox: **Debug: VOLT.UseGlyphIds** – For use with fonts with VOLT projects only.
 
@@ -651,7 +651,7 @@ The context menu has two paste options.
 The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
 
 ### About Dialog (`TABOUTDIALOG` and `TABSTRACTABOUTDIALOG`)
-These buttons are only in version 6.0 & above and are located in the corners of the version number, copyright info and the company's website.
+Included in version 6.0 & above only. These are located in the corners of the version number, copyright info and the company's website.
 * **Clr** (Clear) (top left corner) – Remove registration info to make the program unregistered.
 * **Crash** (top right corner) – Displays a critical error which reads "We hope you enjoyed clicking this crash button".
 * **Trial** (bottom right corner) – Reset trial period for unregistered copies after a grace period of 30 days.
