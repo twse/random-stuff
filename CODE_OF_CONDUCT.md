@@ -6,7 +6,7 @@ Python Software Foundation has a Contributor License Agreement that you must sig
 This list represents but a portion of the people who have signed the Python Software Foundation Contributor Agreement.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
-Ubuntu has a code of conduct that you may sign with Launchpad or the assistant. Many teams require to do it (e.g. Ubuntu Bug Squad).
+Ubuntu has a code of conduct that you may sign with Launchpad or the assistant in this file - many teams require doing this (e.g. Ubuntu Bug Squad).
 
 The Ubuntu product has very much been a team effort from development teams around Canonical and external people and many, many people have contributed.
 
