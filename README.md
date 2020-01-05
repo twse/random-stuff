@@ -45,7 +45,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Edit or remove yourself in Mozilla credits list
 **Command line**
-1. Clone the `mozilla/community-data` repository via `git clone`.
+1. Clone the `mozilla/community-data` repository.
 2. Rebase the repository with a higher number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
