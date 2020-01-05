@@ -6,7 +6,7 @@
 ## Index of fonts
 Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Font adapted and converted from the Game Boy Advance or Nintendo DS versions of *WarioWare* (small font). Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
+* **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*. This font is not licensed or endorsed by ATLUS U.S.A., Inc., Natsume Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs). Released under the terms of the WTFPL license.
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -46,7 +46,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 ## Edit or remove yourself in Mozilla credits list
 **Command line**
 1. Clone the `mozilla/community-data` repository.
-2. Rebase the repository with a higher number to display all commits in the log.
+2. Rebase the repository with a large number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
 5. Save it, login as `gurumukhi` (current owner) and force push the changes.
@@ -62,7 +62,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Ram Dayal Vaishnav (2017-present as source repository collaborator with forked repository)
+* **Owner:** Ram Dayal Vaishnav (2017-present as collaborator of source repository with forked copy)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
