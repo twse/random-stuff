@@ -1,6 +1,6 @@
 ﻿## Notes
 * The cursor will remain **Busy** if the user does other stuff when saving fonts in the background.
-* All versions can save all unaltered opened fonts from the menu (**File: Save All**). Windows 2000 & above shows a critical error that reads **List index out of bounds** with a zero code if done repeatedly.
+* All versions can save all unaltered opened fonts from the menu (**File: Save All**). Windows 2000 & above shows a critical error that reads **List index out of bounds** if done repeatedly.
 * Exiting the program when saving fonts may create invalid font(s) and play the Critical Stop sound from the PC speakers.
 * The program shows a critical error that reads **access violation** when exiting while during some operations – the font(s) may be invalid.
 * Glyphs in the clipboard (version 1.0 until 6.0) will have either say **Glyph Contours** for contours or **Glyph Data** for the entire glyph. Version 7.0 & above currently says **Font Data**.
@@ -96,7 +96,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
 * **CategoryWidth** – Select the category splitter width.
 
-### Fonts (used in Options: Font – default is on for all options)
+### Fonts (used in the Font tab in `TOPTIONSFORM` – default is on for all options)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**.
 * **ExportExcludeLegacy** – Used with **Export Font: Exclude legacy data**.
 * **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**.
@@ -184,7 +184,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **GlyphNamesOptionsCS** – Used with **Options: Case sensitive** in `TGLYPHNAMEFORM`. Default is on.
 * **GlyphNamesOptionsRE** – Used with **Options: Regular expressions** in `TGLYPHNAMEFORM`. Default is off.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in Options: General. Default is 0 (Winding).
-* **GlyphPropsExpanded** – Expand the glyph properties by pressing the **More** button at the bottom left corner. Default is on.
+* **GlyphPropsExpanded** – Expands glyph properties by pressing **More** at the bottom left corner. Default is on.
 * **GroupManagerSorted** – Sorts the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** – Set this value in `TINSERTGLYPHFORM` to either insert glyphs at the top (0), after the last glyph (1), before selected glyphs (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** – Changes tab in `TINSERTGLYPHFORM`.
@@ -221,7 +221,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in Options: Overview.
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in Options: Edit. Default is 1.
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in Options: Edit. Default is same as the maximum count.
-* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in Options: Font. Default is on.
+* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab in `TOPTIONSFORM`. Default is on.
 * **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty (many sample glyphs are derived from the regular styles of Garava and Times New Roman).
 * **SampleSingleHeight** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph height** in the Options: Sample. Default is 55.
 * **SampleSingleWidth** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph width** in the Options: Sample. Default is 62.
@@ -303,7 +303,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode.
 * **IncludeInit** – Used with **Initial Forms (init)**.
 * **IncludeIsol** – Used with **Isolated Forms (isol)**.
-* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts may cause bugs (e.g. in Noto Sans Mono).
+* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
 * **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**.
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**.
@@ -327,55 +327,55 @@ All keys beginning with Include are enabled by default.
 * **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**.
 
 ### Options
-* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in Advanced: Settings. Default is off.
-* **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in Options: Glyph. Default is on.
-* **AutoNamingUseFontRevision** (version 5.5 until 6.5) – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in Options: Naming. Default is on.
-* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in Options: Font. Default is on.
-* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in Options: Font. Default is on.
-* **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright** in Options: Personalize. Default is on.
-* **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright** in Options: Naming. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
-* **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize.
-* **DefaultNamingFontDesignerLinkIncluded** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize.
-* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in Options: Personalize. Default is file from a non-existing domain.
-* **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** in Options: Personalize. Default is empty.
-* **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize.
-* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in Options: Personalize. Default is file from a non-existing domain.
-* **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize. Default is empty.
-* **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize.
-* **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**.
-* **DefaultPersFontEmbeddingItemID** – Used with **Default Settings for New Fonts: Embedding Lic. Rights** in Options: Personalize.
-* **DefaultPersVendorIDText** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is **HL**.
-* **DefaultPersVendorText** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is **High-Logic / Made with FontCreator**.
-* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize.
-* **DefaultVendorIDIncluded** – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is on.
-* **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
-* **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
-* **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off.
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
-* **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in newer versions) is the date used to check the last update when **Startup: Show update reminder** in Options: General is enabled.
-* **LeftSideBearingExcludeLargeFonts** (version 5.5 until 6.5) – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
-* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General to open fonts from the `Last Time` registry key. Default is on.
-* **OnStartupShowUpdateReminder** (`UpdateCheckInterval` in `GUI` in recent versions) – Set this value in **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year).
-* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in Options: General. Default is on.
-* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. Default is off.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in Options: Font. Default is off.
-* **RemoveDSIGTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off. **Fun fact:** FontForge ignores this table when opening fonts. In order to install OpenType flavored PostScript fonts (otf) in macOS, this table is required to be present.
-* **RemoveHdmxTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove hdmx table** in Options: Font. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
-* **RemoveLTSHTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
-* **RemoveVDMXTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
-* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
-* **UnicodeEnabledGUI** (version 5.5 until 6.5) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. In Windows 95, Windows 98 and Windows ME or if these operating systems are used in compatibility mode, the option will appear dimmed.
-* **UpdateModifiedDateTimeField** (version 3.0 until 6.5) – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on (since version 7.0 & above it is enabled for any opened font).
-* **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. **Fun fact:** Hexadecimal values in Delphi are usually given with a dollar sign ($).
-* **VectorImageEPSForceRepositioning** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import. Default is off.
-* **VectorImageEPSOriginX** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in Options: Import. Default is 100.00.
-* **VectorImageEPSOriginY** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in Options: Import. Default is 600.00.
-* **VectorImageEPSPixelsPerEm** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import. Default is 512.00.
+* **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced tab in `TOPTIONSFORM`. Default is off.
+* **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in the Glyph tab in `TOPTIONSFORM`. Default is on.
+* **AutoNamingUseFontRevision** (version 5.5 until 6.5) – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in the Naming tab in `TOPTIONSFORM`. Default is on.
+* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright Notice** in the Personalize tab in `TOPTIONSFORM`. Default is on.
+* **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright Notice** in the Personalize tab in `TOPTIONSFORM`. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
+* **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultNamingFontDesignerLinkIncluded** – Used with **Default Settings for New Fonts: Designer URL** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultNamingFontDesignerLinkText** – Used with **Default Settings for New Fonts: Designer URL** in the Personalize tab in `TOPTIONSFORM`. Default is file from a non-existing domain.
+* **DefaultNamingFontDesignerText** – Used with **Default Settings for New Fonts: Designer** in the Personalize tab in `TOPTIONSFORM`. Default is empty.
+* **DefaultNamingLicenseAgreementIncluded** – Used with **Default Settings for New Fonts: License Agreement** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultNamingLicenseAgreementLinkIncluded** – Used with **Default Settings for New Fonts: License URL** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultNamingLicenseAgreementLinkText** – Used with **Default Settings for New Fonts: License URL** in the Personalize tab in `TOPTIONSFORM`. Default is file from a non-existing domain.
+* **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in the Personalize tab in `TOPTIONSFORM`. Default is empty.
+* **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in the Personalize tab in `TOPTIONSFORM`. Default is **&lt;font family&gt;® Trademark of (your company)**.
+* **DefaultPersFontEmbeddingItemID** – Used with **Default Settings for New Fonts: Embedding Lic. Rights** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultPersVendorIDText** – Used with **Default Settings for New Fonts: Vendor ID** in the Personalize tab in `TOPTIONSFORM`. Default is **HL**.
+* **DefaultPersVendorText** – Used with **Default Settings for New Fonts: Vendor** in the Personalize tab in `TOPTIONSFORM`. Default is **High-Logic / Made with FontCreator**.
+* **DefaultPersVendorURLText** – Used with **Default Settings for New Fonts: Vendor URL** in the Personalize tab in `TOPTIONSFORM`.
+* **DefaultVendorIDIncluded** – Used with **Default Settings for New Fonts: Vendor ID** in the Personalize tab in `TOPTIONSFORM`. Default is on.
+* **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in the Personalize tab in `TOPTIONSFORM`. Default is off.
+* **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in the Personalize tab in `TOPTIONSFORM`. Default is off.
+* **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in the View tab in `TOPTIONSFORM`.
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab in `TOPTIONSFORM`. Default is off.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab in `TOPTIONSFORM`. Default is off.
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab in `TOPTIONSFORM`. Default is off.
+* **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in newer versions) is the date used to check the last update when **Startup: Show update reminder** in the General tab in `TOPTIONSFORM` is enabled.
+* **LeftSideBearingExcludeLargeFonts** (version 5.5 until 6.5) – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab in `TOPTIONSFORM` to open fonts from the `Last Time` registry key. Default is on.
+* **OnStartupShowUpdateReminder** (`UpdateCheckInterval` in `GUI` in recent versions) – Set this value used with **Startup: Show update reminder** in the General tab in `TOPTIONSFORM` to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year).
+* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab in `TOPTIONSFORM`. Default is on.
+* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in the Characteristics tab in `TFONTPROPERTIESFORM`. Default is off.
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab in `TOPTIONSFORM`. Default is off.
+* **RemoveDSIGTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove DSIG table** in the Font tab in `TOPTIONSFORM`. Default is off. **Fun fact:** FontForge ignores this table when opening fonts. In order to install OpenType flavored PostScript fonts (otf) in macOS, this table is required to be present.
+* **RemoveHdmxTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove hdmx table** in the Font tab in `TOPTIONSFORM`. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
+* **RemoveLTSHTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove LTSH table** in the Font tab in `TOPTIONSFORM`. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
+* **RemoveVDMXTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove VDMX table** in the Font tab in `TOPTIONSFORM`. Default is on. **Fun fact:** FontForge ignores this table when opening fonts.
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **UnicodeEnabledGUI** (version 5.5 until 6.5) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab in `TOPTIONSFORM`. Default is on. In Windows 9x/ME or in compatibility mode, the option will appear dimmed.
+* **UpdateModifiedDateTimeField** (version 3.0 until 6.5) – Used with **Identification: Automatically update modified timestamp when exporting font** in the Identification tab in `TFONTPROPERTIESFORM`. Default is on (since version 7.0 & above it is enabled for any opened font).
+* **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu of `TMAINFORMFONTCREATOR`. Default is on. **Fun fact:** Hexadecimal values in Delphi are usually given with a dollar sign ($).
+* **VectorImageEPSForceRepositioning** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in the Import tab in `TOPTIONSFORM`. Default is off.
+* **VectorImageEPSOriginX** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in the Import tab in `TOPTIONSFORM`. Default is 100.00.
+* **VectorImageEPSOriginY** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin Y** in the Import tab in `TOPTIONSFORM`. Default is 600.00.
+* **VectorImageEPSPixelsPerEm** (version 6.0 & above) – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in the Import tab in `TOPTIONSFORM`. Default is 512.00.
 
 ### Preview
 * **FeaturesWidth** (version 7.0 & above) – Changes width in the OpenType feature splitter.
@@ -401,12 +401,12 @@ The program is unregistered after the installation process is completed successf
 * **ShowTipOnStartup** – This corresponds to **Show this screen next time when you start FontCreator**. Default is on (always show on startup).
 
 ### Validation
-* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Settings: Validation. Default is off.
-* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in Settings: Validation. Default is off.
+* **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in the Validation tab in `TOPTIONSFORM`. Default is off.
+* **DiagonalRedundantOnCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum on-curve distance** in the Validation tab in `TOPTIONSFORM`. Default is off.
 * **EnableGlyphProblemDetection** – Used with **Enable Real-Time** in the Validation toolbar. Default is on.
-* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Settings: Validation. Default is on.
-* **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Settings: Validation. Default is 0.20.
-* **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Settings: Validation. Default is 0.80.
+* **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in the Validation tab in `TOPTIONSFORM`. Default is on.
+* **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in the Validation tab in `TOPTIONSFORM`. Default is 0.20.
+* **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in the Validation tab in `TOPTIONSFORM`. Default is 0.80.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
 * **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If the glyph is too complex, the button will appear dimmed.
 * **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Font Validation Wizard. Default is on.
@@ -422,9 +422,9 @@ The program is unregistered after the installation process is completed successf
 * **TestOverlappingComponents** – Used with **Validation Tests: Overlapping components** in the Font Validation Wizard. Default is on.
 * **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Font Validation Wizard. Default is on.
 * **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Font Validation Wizard. Default is on.
-* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Settings: Validation. Default is 1000.
-* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation. Default is 100.
-* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation. Default is 25.
+* **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in the Validation tab in `TOPTIONSFORM`. Default is 1000.
+* **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in the Validation tab in `TOPTIONSFORM`. Default is 100.
+* **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in the Validation tab in `TOPTIONSFORM`. Default is 25.
 
 ### Warn (used in Options: Advanced – default is on for all options)
 * **WarnBeforeActivatingFixFeature** (version 5.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**.
@@ -544,7 +544,7 @@ All resources are named HL at the beginning.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Shows a dialog to add items to the OpenType layout tables.
 * **TOPTIONSFORM** – Shows an interface for viewing and setting a wide variety of options which uses the registry in the program itself (manual edits varies based on whether the program is running or not).
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
-* **TPASTESPECIALFORM** – Shows a dialog to paste glyphs stored in the clipboard. In the Items list (version 5.5 until 6.5), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In recent versions, the registry keys are stored in the `Edit` key.
+* **TPASTESPECIALFORM** – Paste any data for glyphs stored in the clipboard. In the Items list (version 5.5 until 6.5), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In recent versions, the registry keys are stored in the `Edit` key.
 * **TPCLTFORM** (version 3.0 until 6.5) – Shows a dialog to view, edit or modify the PCL5 data for use with old printers.
 * **TPERFORMTRANSFORMATIONFORM** (version 5.6 & above) – Displays the Glyph Transformer.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.5) – Shows a dialog to choose which platform to support in the font (replaced with **Tools: Convert Font** in version 7.0 & above in `TMAINFORMFONTCREATOR`).
@@ -581,7 +581,8 @@ All resources are named HL at the beginning.
 ## Unused Content
 The company hid developer related commands and more in several RC Data resources with `Visible = False`.
 
-### Menu (`TMAINFORMFONTCREATOR`)
+### Main Form (`TMAINFORMFONTCREATOR`)
+**Menu Items**
 * **Edit: Knife** – Use the **Knife** button in the **Glyph** toolbar as this command does nothing when selected.
 * **View: Toolbars: Tab Bar** – This menu item is intended to hide the tabs if version 6.1 is used.
 * **Tools: TODO! Customize...** – This menu item is included in all versions and is intended to modify the toolbar.
@@ -601,12 +602,20 @@ The company hid developer related commands and more in several RC Data resources
 * **AutohintMacro** – Closes all fonts with the same command in the **File** menu.
 * **Video mode** – Shows settings about the used theme.
 * **A/B Testing** – Contains two options to set the variant.
-* **Font Log** – Shows the font log.
+* **Font Log** – Shows the font log. For use with registered copies only.
 * **Disable garbage collector**
 * **Increase Font Size** – Shows information about the current system font with the size.
 * **Enable All Toolbar Icons** – Enables all icons in toolbars.
 * **Font Tester Action** – Changes action used by `TFONTTESTFORM`.
 * **Boink!** – Exit the program silently. Located in the **Debug** menu in 11.5.0.2421 (2018-02-22) until 11.5.0.2430 (2018-12-05). It may display a dialogue box that cannot be closed, which contains an "OK" button.
+
+**Toolbar Buttons**
+* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option does the same command in the **File** menu or the first **Print** option.
+* **Generate Glyph Names** (GN in the **Tools** toolbar) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. **EDenissen** stands for Erwin Denissen (sole developer of this program, president and founder of High-Logic B.V.).
+* **Smooth Points** (S in the **Glyph** toolbar) – Smooths all points. Only works in `TGLYPHEDITFORM`.
+* **Smooth and Align Points** (SA in the **Glyph** toolbar) – Smooths and aligns points. Only works in `TGLYPHEDITFORM`.
+* **Harmonize** (H in the **Glyph** toolbar) – Harmonizes all contours. Only works in `TGLYPHEDITFORM`.
+* **Round Corners** (R in the **Glyph** toolbar) – Force rounded points. Only works in `TGLYPHEDITFORM`.
 
 ### Resource Editor (`TRESOURCEEDITORDLG`)
 This dialog is in Font Creator Program 3.0 only and is used to edit resources.
@@ -615,14 +624,6 @@ This dialog is in Font Creator Program 3.0 only and is used to edit resources.
 * **Debug Single Stroke Twice** – This menu item is dummy.
 * **miTestItem2** – This menu item is dummy.
 * **miTestItem3 Save** and **miTestItem4 Load** – Save glyph data to or load glyph data from `C:\hltemp\glyph.data`.
-
-### Toolbar Buttons (`TMAINFORMFONTCREATOR`)
-* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option does the same command in the **File** menu or the first **Print** option.
-* **Generate Glyph Names** (GN in the **Tools** toolbar) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. **EDenissen** stands for Erwin Denissen (sole developer of this program, president and founder of High-Logic B.V.).
-* **Smooth Points** (S in the **Glyph** toolbar) – Smooths all points. Only works in `TGLYPHEDITFORM`.
-* **Smooth and Align Points** (SA in the **Glyph** toolbar) – Smooths and aligns points. Only works in `TGLYPHEDITFORM`.
-* **Harmonize** (H in the **Glyph** toolbar) – Harmonizes all contours. Only works in `TGLYPHEDITFORM`.
-* **Round Corners** (R in the **Glyph** toolbar) – Force rounded points. Only works in `TGLYPHEDITFORM`.
 
 ### Font Overview (`TFONTOVERVIEWFORM`)
 Version 5.0 until 6.5 includes menu entries related to bookmarks for each glyph (the menu is hidden since version 7.0 & above).
