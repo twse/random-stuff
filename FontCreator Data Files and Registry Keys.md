@@ -9,7 +9,7 @@
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
 * The program shows a critical error when using **Complete Composites** in some glyphs in the Private Use Area (old versions only). After that, these glyphs cannot be recovered.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* FontCreator 5.6 used a non-standard resource layout which prevented [UPX](https://upx.github.io/) from packing the executable file (NotPackedException: not packed by UPX) except when compressed with or without parameters.
+* FontCreator 5.6 has a non-standard resource layout which prevented [UPX](https://upx.github.io/) from packing the executable file (NotPackedException: not packed by UPX) except for compressing with or without parameters. Recent versions do not use this.
 * In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) mapping to the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding for the program and exported kerning pairs while version 7.0 (2013-04-25) & above uses Unicode.
 
@@ -35,7 +35,7 @@ Under the **Help** menu is an item labeled **Register...** (in version 12.0 the 
 To quote the user manual: FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrator permissions or change the owner (this can be done with `takeown /f filename` or **Security: Advanced: Owner: Edit** in Windows XP, Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in the file properties).
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Includes bookmarks used in `TFONTOVERVIEWFORM`. Created automatically when the user exits the program.
-* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts, notably for use with many OpenType features such as small capitals or old style numbers.
+* **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts, notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TTRANSFORMFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). Version 3.0 until 6.5 names the font as **FC Test Font ######** (the last six characters are numeric).
 * **fc12.cfg** – Configuration file for version 12.0 & above.
@@ -176,7 +176,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in `TFONTPROPERTIESFORM`. Default is on.
 * **ExportSettingsPage** – Select page in `TEXPORTSETTINGSFORM` and `TEXPORTSETTINGSFRAME`. Default is 0 (Desktop Font (ttf/otf)).
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** (Glyph Index) in the context menu in `TFONTOVERVIEWFORM`.
-* **GlyphCaptionType2** – Used with the Captions options in the context menu in `TFONTOVERVIEWFORM`.
+* **GlyphCaptionType2** – Used with the Captions options in the context menu in `TFONTOVERVIEWFORM`. Default is Auto.
 * **GlyphDrawMode** – Set to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
 * **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
 * **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of replaced postscript names in `TGLYPHNAMEFORM`.
@@ -211,8 +211,8 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **OTLFDesignerSingleKind** – Used for single kind in `TOPENTYPEDESIGNERFORM`.
 * **OTLFEditor** – Contains settings used by `TCODEEDITORFORM` such as the font setting, line number display or word wrapping.
 * **OverviewColCat** – Contains the column categories used in `TFONTOVERVIEWFORM`.
-* **OverviewFontZoom** – Contains the zoom factor used in `TFONTOVERVIEWFORM`. Default is 35.
-* **OverviewGridZoom** – Contains the grid zoom factor used in `TFONTOVERVIEWFORM`.
+* **OverviewFontZoom** – Zoom the glyphs in `TFONTOVERVIEWFORM`. Default is 35.
+* **OverviewGridZoom** – Zoom the grid in `TFONTOVERVIEWFORM`.
 * **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab in `TOPTIONSFORM`. Default is **Arial**. If this string is empty, the characters are shown in **MS Sans Serif**.
 * **OverviewShowCaption** (version 3.0 until 6.5) – Used with **Font overview: Show caption** in the Overview tab in `TOPTIONSFORM`. Default is on.
 * **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab in `TOPTIONSFORM`. Default is on.
@@ -227,7 +227,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **SampleSingleWidth** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph width** in the Sample tab in `TOPTIONSFORM`. Default is 62.
 * **SaveDialogInitialDirNew2** – Select the directory in the save dialog.
 * **SelectCompositeCaptionType** – Changes caption used in `TSELECTCOMPOSITEGLYPHMEMBERFORM`. Default is 0 (glyph name).
-* **SelectCompositeFontZoom** – Zoom the font in `TSELECTCOMPOSITEGLYPHMEMBERFORM`.
+* **SelectCompositeFontZoom** – Zoom the glyphs in `TSELECTCOMPOSITEGLYPHMEMBERFORM`.
 * **SelectCompositeGridZoom** – Zoom the grid in `TSELECTCOMPOSITEGLYPHMEMBERFORM`.
 * **SettingsPage** – Changes tab in `TOPTIONSFORM`. Default is 0 (Identification).
 
@@ -260,7 +260,7 @@ There are three built-in external programs: **MainType** (shows if installed and
 * **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing**.
 * **AutoMetricsFixedLSB** – Used with **Fixed: Change Left Side Bearing** spinner.
 * **AutoMetricsOpticalFactor** – Used with **Glyph spacing factor (usually between 20 and 30)** in Optical Metrics. Default is 27.
-* **AutoMetricsOpticalFigures** – Used by **Set character width for digits as** to change the metrics for digits. Set to 0 (Tabular figures), 1 (Proportional figures) or 2 (No change). Default is 0 (Tabular figures).
+* **AutoMetricsOpticalFigures** – Used by **Set character width for digits as** to change metrics for digits. Set to 0 (Tabular figures), 1 (Proportional figures) or 2 (No change). Default is 0 (Tabular figures).
 * **AutoMetricsOpticalPreview** – Used with **Preview Text** in Optical Metrics. Default is **Preview Text**.
 * **AutoMetricsOptionIndex2** – Set to 0 (Optical Metrics), 1 (Fixed Bearings), 2 (Fixed Width) or 3 (Fixed Height). Default is 0 (Optical Metrics).
 * **AutoMetricsWhiteSpaceAfter** – Used with **Fixed Bearings: Space after**. Default is 100.
@@ -303,7 +303,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode.
 * **IncludeInit** – Used with **Initial Forms (init)**.
 * **IncludeIsol** – Used with **Isolated Forms (isol)**.
-* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono).
+* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono); many fixed pitch fonts use symbols for programming purpose (e.g. Fira Code).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
 * **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**.
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**.
@@ -387,7 +387,7 @@ All keys beginning with Include are enabled by default.
 * **PreviewSampleUseKerning** (version 3.0 until 6.5) – Set this value to on to kern text in the Preview window. Replaced with `PreviewFeatures` in version 7.0 & above.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Strikes out text in `TFONTTESTFORM`. Default is off.
-* **Underline** – Underlines text in `TFONTTESTFORM`. Default is same as the `StrikeThrough` value.
+* **Underline** – Underlines text in `TFONTTESTFORM`. Default is off.
 
 ### Reg
 The program is unregistered after the installation process is completed successfully. Many people and companies provided registration keys for different versions to crack the program.
@@ -469,7 +469,7 @@ All resources are named HL at the beginning.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program/operating system version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** – Used when adding characters to the font. In **Go to Unicode Block**, **Sorted** is checked by default.
-* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shows this dialog when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` to assign Unicode values of characters for each glyph.
+* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shown when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` to assign Unicode values of characters for each glyph.
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for multiple languages.
 * **TADDFPCVLTSFORM** – Shows a dialog to add labels, tooltips or samples to character variations in the font.
 * **TADDFPSIZENAMEFORM** – Shows a dialog to add subfamily names to the font.
@@ -610,15 +610,15 @@ The company hid developer related commands and more in several RC Data resources
 * **Boink!** – Exit the program silently. Located in the **Debug** menu in 11.5.0.2421 (2018-02-22) until 11.5.0.2430 (2018-12-05). It may display a dialogue box that cannot be closed, which contains an "OK" button.
 
 **Toolbar Buttons**
-* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option does the same command in the **File** menu or the first **Print** option.
-* **Generate Glyph Names** (GN in the **Tools** toolbar) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. **EDenissen** stands for Erwin Denissen (sole developer of this program, president and founder of High-Logic B.V.).
+* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option.
+* **Generate Glyph Names** (GN in the **Tools** toolbar) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. **EDenissen** stands for Erwin Denissen (original author/sole developer of this program, president and founder of High-Logic B.V.).
 * **Smooth Points** (S in the **Glyph** toolbar) – Smooths all points. Only works in `TGLYPHEDITFORM`.
 * **Smooth and Align Points** (SA in the **Glyph** toolbar) – Smooths and aligns points. Only works in `TGLYPHEDITFORM`.
 * **Harmonize** (H in the **Glyph** toolbar) – Harmonizes all contours. Only works in `TGLYPHEDITFORM`.
 * **Round Corners** (R in the **Glyph** toolbar) – Force rounded points. Only works in `TGLYPHEDITFORM`.
 
 ### Resource Editor (`TRESOURCEEDITORDLG`)
-This dialog is in Font Creator Program 3.0 only and is used to edit resources.
+This dialog is in version 3.0 only and is used to edit resources.
 
 ### Contours Menu (`TGLYPHEDITFORM`)
 * **Debug Single Stroke Twice** – This menu item is dummy.
