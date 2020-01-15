@@ -5,8 +5,8 @@
 
 ## Index of fonts
 Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts.
-* **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) from the Typophile forums by *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
-* **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks goes to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
+* **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) by Typophile user *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
+* **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*. This font is not licensed or endorsed by ATLUS U.S.A., Inc., Natsume Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs). Released under the terms of the WTFPL license.
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
@@ -62,7 +62,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Ram Dayal Vaishnav (2017-present as collaborator of source repository with forked copy)
+* **Owner:** Ram Dayal Vaishnav, Md Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
@@ -70,7 +70,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 **Fun fact:** Direct pull requests for additions without form or modifications without replies to application acceptance message or both are closed by the owner with a comment (see fun fact in the second file entry in the index above).
 
 ## Index of protest pages (requires JavaScript; available in five versions)
-Thanks goes to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
 
 * **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3)
