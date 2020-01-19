@@ -20,8 +20,8 @@ If registration is not performed during or within the grace period, the followin
 * 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
-* 7.0 (2013-04-25) and 7.5 (2013-08-02) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2550 (2020-01-14) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
+* 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2550 (2020-01-14) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
@@ -292,7 +292,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**.
 * **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**.
 * **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**.
-* **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**.
+* **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. Including it in fixed pitch fonts for letters may cause metrics issues.
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**.
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts for * + @ © × † ‡ • ○ ● ☀.
 * **IncludeCursive** – Used with **Spacing and Positioning: Cursive Positioning (cursive script only) (curs)**.
@@ -303,7 +303,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode.
 * **IncludeInit** – Used with **Initial Forms (init)**.
 * **IncludeIsol** – Used with **Isolated Forms (isol)**.
-* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono); many fixed pitch fonts use symbols for programming purpose (e.g. Fira Code).
+* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono); many fixed pitch fonts use these for symbols (e.g. Fira Code).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
 * **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**.
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**.
@@ -313,15 +313,15 @@ All keys beginning with Include are enabled by default.
 * **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**.
 * **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**.
 * **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts to replace letter combinations with chess pieces.
-* **IncludePetiteCapitals** – Used with **Other Forms and Variants: Petite Capitals (pcap, c2pc)**.
+* **IncludePetiteCapitals** – Used with **Other Forms and Variants: Petite Capitals (pcap, c2pc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts using a small character set.
 * **IncludePnum** – Used with **Numerals: Proportional Figures (pnum)**.
 * **IncludeSalt** – Used with **Other Forms and Variants: Stylistic Alternates (uses ss01) (salt)**.
 * **IncludeSinf** – Used with **Numerals: Scientific Inferiors (sinf)**.
-* **IncludeSmallCapitals** – Used with **Other Forms and Variants: Small Capitals (scap, c2sc)**.
+* **IncludeSmallCapitals** – Used with **Other Forms and Variants: Small Capitals (scap, c2sc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts using a small character set.
 * **IncludeStylisticSets** – Used with **Other Forms and Variants: Stylistic Sets (ss01-ss20)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts as a contextual substitution.
 * **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**.
-* **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**.
-* **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this in the upright styles of his fonts.
+* **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in his fonts using a very reduced character set.
+* **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in the upright styles of his fonts.
 * **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**.
 * **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**.
 * **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**.
@@ -330,8 +330,8 @@ All keys beginning with Include are enabled by default.
 * **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced tab in `TOPTIONSFORM`. Default is off.
 * **AutoFitGlyphInWindow** – Used with **Glyph Edit Window: Auto fit glyph in Window** in the Glyph tab in `TOPTIONSFORM`. Default is on.
 * **AutoNamingUseFontRevision** (version 5.5 until 6.5) – Used with **Automatic Naming Wizard: Version String: use Font revision version from Font Settings → Header page** in the Naming tab in `TOPTIONSFORM`. Default is on.
-* **CompressHmtxTable** – Used with **When Saving Font Files: Compress hmtx table** in the Font tab in `TOPTIONSFORM`. Default is on.
-* **CompressNameTable** – Used with **When Saving Font Files: Optimize name table** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **CompressHmtxTable** (version 5.5 until 6.5) – Used with **When Saving Font Files: Compress hmtx table** in the Font tab in `TOPTIONSFORM`. Default is on.
+* **CompressNameTable** (version 5.5 until 6.5) – Used with **When Saving Font Files: Optimize name table** in the Font tab in `TOPTIONSFORM`. Default is on.
 * **DefaultNamingCopyrightIncluded** – Used with **Default Settings for New Fonts: Copyright Notice** in the Personalize tab in `TOPTIONSFORM`. Default is on.
 * **DefaultNamingCopyrightText** – Used with **Default Settings for New Fonts: Copyright Notice** in the Personalize tab in `TOPTIONSFORM`. Default is **Typeface © (your company). &lt;year&gt;. All Rights Reserved.**
 * **DefaultNamingFontDesignerIncluded** – Used with **Default Settings for New Fonts: Designer** in the Personalize tab in `TOPTIONSFORM`.
@@ -398,7 +398,7 @@ The program is unregistered after the installation process is completed successf
 
 ### Tip of the Day (version 3.0 until 6.5, used in `TTIPOFTHEDAYFORM`)
 * **CurrentTip** – Line number in `FontCreator.tip`. This number increases by one line when closed. Default is first line.
-* **ShowTipOnStartup** – This corresponds to **Show this screen next time when you start FontCreator**. Default is on (always show on startup).
+* **ShowTipOnStartup** – Used with **Show this screen next time when you start FontCreator**. Default is on (always show on startup).
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in the Validation tab in `TOPTIONSFORM`. Default is off.
@@ -475,7 +475,7 @@ All resources are named HL at the beginning.
 * **TADDFPCVLTSFORM** – Adds labels, tooltips or samples to character variations in the font.
 * **TADDFPSIZENAMEFORM** – Adds subfamily names to the font.
 * **TADDFPSTYLISTICSETNAMEFORM** – Adds or writes stylistic set names or descriptions in the font.
-* **TADDGASPFORM** – Adds gasp ranges to the font.
+* **TADDGASPFORM** – Adds gasp ranges to the font, shown when pressing **Add** in **Smoothing: Preferred rasterization techniques** in `TFONTSETTINGSFORM`.
 * **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
 * **TADDPLATFORMFORM** (version 2.0 until 6.5) – Shows a dialog to add a platform to the font (**Add** in `TPLATFORMMANAGERFORM`).
 * **TADDUVSFORM** – Used by East Asian fonts to add Unicode variation sequences.
@@ -500,7 +500,7 @@ All resources are named HL at the beginning.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data in the program.
 * **TEDITANCHORFORM** (version 7.0 & above) – Shows a dialog to edit anchors in the font.
 * **TEXPORTGLYPHDATAFORM** – Shows a dialog to export glyph data in the font.
-* **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Shows a dialog to export the font as desktop or web format or both.
+* **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure settings to export the font as desktop or web format or both.
 * **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** – Shows a wizard to extract OpenType font collections into separate font files (**Tools: Extract from OTC...**).
 * **TFEATURESETTINGSFORM** (version 12.0) – Used when generating or updating OpenType features in `TOPENTYPEDESIGNERFORM`.
@@ -545,7 +545,7 @@ All resources are named HL at the beginning.
 * **TNEWTRUETYPEFONTFORM** – Used when creating a new font.
 * **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Shows a dialog to view, edit or create OpenType layout tables.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Shows a dialog to add items to the OpenType layout tables.
-* **TOPTIONSFORM** – Shows an interface for viewing and setting a wide variety of options which uses the registry in the program itself (manual edits varies based on whether the program is running or not).
+* **TOPTIONSFORM** – Shows an interface for viewing and setting a wide variety of options which uses registry keys (manual edits varies based on whether the program is running or not).
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Used when renaming layout features in the OpenType layout tables.
 * **TPASTESPECIALFORM** – Paste any data for glyphs stored in the clipboard. In the Items list (version 5.5 until 6.5), **Glyph Outline Data** and **Glyph Metrics** (i.e. the first two items) are checked by default. In recent versions, the registry keys are stored in the `Edit` key.
 * **TPCLTFORM** (version 3.0 until 6.5) – Shows a dialog to view, edit or modify the PCL5 data for use with old printers.
@@ -563,7 +563,7 @@ All resources are named HL at the beginning.
 * **TSAMPLETEXTFORM** (version 7.0 & above) – Adds custom sample text strings to `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Adds glyph members to any composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Shows a dialog to select a lookup table in the OpenType layout tables.
-* **TSHAREWAREFORM** (version 3.0 until 4.5) – Used when pressing **Start** on `TSPLASHFORM` after a grace period of 30 days.
+* **TSHAREWAREFORM** (version 3.0 until 4.5) – Shows a dialog with shareware distribution policies when pressing **Start** on `TSPLASHFORM` after a grace period of 30 days.
 * **TSORTGLYPHSFORM** (version 1.0 until 6.5) – Shows a dialog to change the glyph order within a font. See **Tools: Sort Glyphs** in `TMAINFORMFONTCREATOR` in recent versions.
 * **TSPLASHFORM** – Used in unregistered copies. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) are displayed randomly.
 * **TSPTBXCOLORPICKERFORM** – Selects colors for use with colored fonts.
@@ -572,7 +572,7 @@ All resources are named HL at the beginning.
 * **TTEXTSEARCHDIALOG** – Used when searching text in `TCODEEDITORFORM`.
 * **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). The **Register** button is only shown for users who have not registered the program. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic forum for recent tips.
 * **TTRANSFORMFORM** – Shows a dialog to transform a font into other weights like black or bold or add character ranges.
-* **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – Used when testing, installing or exporting fonts during a grace period of 30 days.
+* **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – Shows a warning about subsetted fonts for tested, installed or exported fonts during a grace period of 30 days.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font.
 * **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used when the program checks for updates as if `OnStartupShowUpdateReminder` is enabled. The user agent in `TUPDATEFORM` is Firefox 53 on Windows 10. `mRestart` in `TUPDATEFORM` should have three lines to prevent silent termination. The program will terminate silently if `TUPDATEFORM` is removed.
@@ -636,7 +636,7 @@ Version 5.0 until 6.5 includes menu entries related to bookmarks for each glyph 
 This dialog includes a text box with glyph indexes at the top right corner (it is shown in old versions only).
 
 ### Automatic Metrics Wizard (`TAUTOMETRICSFORM`)
-This dialog includes a text box prompting the user to use the Professional Edition (using the Home Edition removes the `Visible = False` value).
+This dialog includes a text box prompting the user to use the Professional Edition (using the Home Edition removes the `Visible = False` value). Version 10.0 includes three unused features.
 
 ### OpenType Designer (`TOPENTYPEDESIGNERFORM`)
 These buttons only affects kerning tables. The values at the beginning has a capital D in square brackets.
