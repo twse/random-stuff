@@ -4,12 +4,12 @@
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
-Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts.
+Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license.
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) by Typophile user *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
-* **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*. This font is not licensed or endorsed by ATLUS U.S.A., Inc., Natsume Inc., SEGA of America, Inc., SEGA Europe Ltd., SQUARE ENIX, Inc. or SQUARE ENIX Ltd.
-* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs). Released under the terms of the WTFPL license.
-* **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows. This font is not licensed or endorsed by Konami Digital Entertainment, Inc. or Konami Digital Entertainment B.V.
+* **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
+* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
+* **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows.
 
 ## Bulk-add everyone to Mozilla credits list
 **Command line** - You won't receive any emails when your name is added - this will see the message in the log.
@@ -62,7 +62,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Ram Dayal Vaishnav, Md Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
+* **Owner:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
