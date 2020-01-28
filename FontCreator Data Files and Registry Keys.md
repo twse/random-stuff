@@ -91,7 +91,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 ### Find (version 3.0 until 6.5, used in `TFINDFORM`)
 * **FindLanguageID** – Select language identifier.
 * **PlatformID** – Select **Platform** identifier in the Mapping tab.
-* **PlatformSpecificEncodingID** – Select a specific **Platform** encoding identifier in the Mapping tab.
+* **PlatformSpecificEncodingID** – Select **Platform** specific encoding identifier in the Mapping tab.
 * **TabIndex** – Changes tab in this form. Default is 0.
 
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
@@ -179,7 +179,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** (Glyph Index) in the context menu in `TFONTOVERVIEWFORM`.
 * **GlyphCaptionType2** – Used with the Captions options in the context menu in `TFONTOVERVIEWFORM`. Default is Auto.
 * **GlyphDrawMode** – Set to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
-* **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
+* **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **View: Fill Outline**. Default is on.
 * **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of replaced postscript names in `TGLYPHNAMEFORM`.
 * **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of found postscript names in `TGLYPHNAMEFORM`.
 * **GlyphNamesOptionsCS** – Used with **Options: Case sensitive** in `TGLYPHNAMEFORM`. Default is on.
@@ -248,11 +248,11 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **KerningColorGridLines** – Set the grid lines color. Default is gray.
 * **KerningColorSecond** – Set the succeeding glyph color. Default is dark green.
 * **KerningShowBaseLine** – Displays baseline. Default is on.
-* **KerningShowBearingLines** – Displays bearing lines. Default is same as the options to display the baseline or grid lines.
-* **KerningShowGridLines** – Displays grid lines. Default is same as the options to display the baseline or bearing lines.
+* **KerningShowBearingLines** – Displays bearing lines. Default is on.
+* **KerningShowGridLines** – Displays grid lines. Default is on.
 
 ### Last Time, Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. The **File: Reopen** menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
+* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. Old versions stores up to 7 files while recent versions stores up to . The **File: Reopen** menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
