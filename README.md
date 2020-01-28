@@ -4,7 +4,7 @@
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
-Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license.
+Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
 * **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) by Typophile user *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
@@ -17,7 +17,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
-5. Commit the modified file via `git commit -a -m "message"` replaced with your own message.
+5. Commit changes via `git commit -a -m "message"` replaced with your own message.
 6. Login as `gurumukhi` (current owner) to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
@@ -32,7 +32,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
-3. Commit the modified file with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
+3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` (current owner) to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
@@ -62,7 +62,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 ## Mozilla credits list module info
 * **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
+* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
