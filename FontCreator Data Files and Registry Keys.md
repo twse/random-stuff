@@ -9,7 +9,7 @@
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
 * The program shows a critical error when using **Complete Composites** in some glyphs in the Private Use Area (old versions only). After that, these glyphs cannot be recovered.
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs with Unicode BMP mapping to the preview toolbar.
-* FontCreator 5.6 has a non-standard resource layout which prevented [UPX](https://upx.github.io/) from packing the executable file (NotPackedException: not packed by UPX) except for compressing with or without parameters. Recent versions do not use this.
+* FontCreator 5.6 has a non-standard resource layout which prevented [UPX](https://upx.github.io/) from packing the executable file (NotPackedException: not packed by UPX) but compression with or without parameters. Recent versions do not use this.
 * In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) mapping to the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding for the program and exported kerning pairs while version 7.0 (2013-04-25) & above uses Unicode.
 
@@ -38,8 +38,8 @@ To quote the user manual: FontCreator uses several data files for advanced setti
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TTRANSFORMFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). Version 3.0 until 6.5 names the font as **FC Test Font ######** (the last six characters are numeric).
-* **fc12.cfg** – Configuration file for version 12.0 & above.
-* **FCOutDrw.dll** – Dynamic link library used for advanced outlines (version 10 & above). Installed in the system root directory.
+* **fc12.cfg** (version 12.0) – Configuration file located in the user's directory.
+* **FCOutDrw.dll** – Dynamic link library located in the system root directory used for advanced outlines (version 10 & above).
 * **fcp5.cfg** (version 5.0 and 5.6) – Configuration file located in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used when saving (the last two or three characters in the filename are letter and number combos).
@@ -168,7 +168,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **PreviewHeight** – Set the height in the font preview area (version 5.5 & above) at the bottom. Default is 124.
 
 ### Interface (used in the toolbar context menu or View: Toolbars in `TMAINFORMFONTCREATOR`)
-* **LockToolbars** – Used with **Lock Docked Toolbars**. Default is off.
+* **LockToolbars** (version 11.0 & above) – Used with **Lock Docked Toolbars**. Default is off.
 * **ShowUserNotes** – Used with **Show User Notes**. Default is off.
 
 ### Interface Settings
@@ -265,7 +265,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **AutoMetricsOpticalPreview** – Used with **Preview Text** in Optical Metrics. Default is **Preview Text**.
 * **AutoMetricsOptionIndex2** – Set to 0 (Optical Metrics), 1 (Fixed Bearings), 2 (Fixed Width) or 3 (Fixed Height). Default is 0 (Optical Metrics).
 * **AutoMetricsWhiteSpaceAfter** – Used with **Fixed Bearings: Space after**. Default is 100.
-* **AutoMetricsWhiteSpaceBefore** – Used with **Fixed Bearings: Space before**. Default is same as **Fixed Bearings: Space after**.
+* **AutoMetricsWhiteSpaceBefore** – Used with **Fixed Bearings: Space before**. Default is 100.
 
 ### MetricsAndKerning (used in the Comparison toolbar in `TMAINFORMFONTCREATOR`)
 * **MetricsAndKerningKerningEnabled** – Enable or disable the old `KERN` table (version 3.0 until 6.5) or OpenType features (version 7.0 & above). Default is off.
@@ -293,7 +293,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**.
 * **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**.
 * **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**.
-* **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. Including it in fixed pitch or bitmap fonts may cause metrics issues.
+* **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. Including it in monospace or bitmap fonts may cause metrics issues.
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**.
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
 * **IncludeCursive** – Used with **Spacing and Positioning: Cursive Positioning (cursive script only) (curs)**.
@@ -304,7 +304,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode.
 * **IncludeInit** – Used with **Initial Forms (init)**.
 * **IncludeIsol** – Used with **Isolated Forms (isol)**.
-* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in fixed pitch fonts for letters may cause bugs (e.g. Noto Sans Mono); many fixed pitch fonts use these for symbols (e.g. Fira Code).
+* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in monospace fonts for letters may cause bugs (e.g. Noto Sans Mono).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
 * **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**.
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**.
@@ -321,7 +321,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeSmallCapitals** – Used with **Other Forms and Variants: Small Capitals (scap, c2sc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only common punctuation and the Latin/Greek alphabets with diacritics for Classical Sanskrit.
 * **IncludeStylisticSets** – Used with **Other Forms and Variants: Stylistic Sets (ss01-ss20)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this for decorative drop capitals in Cankama, Odana, Pali, and Talapanna as a contextual substitution.
 * **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**.
-* **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts, including either only common punctuation and the Latin alphabet, with diacritics for Latin-1 and Classical Sanskrit (Garava) or the Latin alphabet, è (French) and ú (Irish).
+* **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts, including either only common punctuation and the Latin alphabet, with Latin-1 and Classical Sanskrit diacritics (Garava) or the Latin alphabet, è (French) and ú (Irish) (other fonts).
 * **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in the upright styles of his fonts.
 * **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**.
 * **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**.
@@ -511,16 +511,16 @@ All resources are named HL at the beginning.
 * **TFONTINSTALLWIZARDFORM** – Installs the font and use it in other applications.
 * **TFONTLOGFORM** – Displays the log for any font (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows all the glyphs in any font.
-* **TFONTPROPERTIESFORM** – Contains properties and unsupported tables in the font. If Chinese, Japanese or Korean is used as non-Unicode language, in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII counterparts, e.g. Wästman by Wastman and some Latin-1 symbols by fullwidth versions, e.g. ¬ and £ or other symbols, e.g. « by &lt;&lt;.
+* **TFONTPROPERTIESFORM** – Contains properties and unsupported tables in the font. If Chinese, Japanese or Korean is used as non-Unicode language, in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII counterparts, e.g. Wästman by Wastman and some Latin-1 symbols by fullwidth versions, e.g. ¬ and £ or other symbols, e.g. « by &lt;&lt; (much less than).
 * **TFONTSETTINGSFORM** – Contains tabs for basic or legal naming fields, basic metric settings, Unicode range and character encoding settings and more.
 * **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables is a separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
 * **TFONTTESTFORM** – Test desktop fonts (not web fonts). The text in `mmFontTest` and `Memo1` is the program name, uppercase (the last six letters continue on a new line), lowercase and numbers.
-* **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors on any glyph to the font.
+* **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if positioning data exists.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Shows an interface for viewing and setting options in `TOPENTYPEDESIGNERFORM`.
 * **TFORMULAFORM** (version 12.0) – Shows a dialog to write formulas to construct anchor based composite glyphs.
 * **TFRAMECATEGORY** – Contains categories in the font overview (left side).
-* **TFRAMEGLYPHMEMBER** – Used by `TFONTOVERVIEWFORM` to display glyph members.
-* **TFRAMEPALETTE** – Shows a palette of colors for use with multicolored fonts.
+* **TFRAMEGLYPHMEMBER** – Used by `TGLYPHEDITFORM` when editing colored glyphs to display glyph members. Shown automatically when switching to color mode.
+* **TFRAMEPALETTE** – Shows the color palette for use with multicolored fonts. Shown automatically when switching to color mode.
 * **TGASPFORM** (version 2.0 until 6.5) – Manages gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM`.
