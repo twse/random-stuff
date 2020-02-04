@@ -21,7 +21,7 @@ If registration is not performed during or within the grace period, the followin
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2550 (2020-01-14) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2550 (2020-01-14) – The program will add watermarks when generating fonts and hide the developer tools menu. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
@@ -37,10 +37,11 @@ To quote the user manual: FontCreator uses several data files for advanced setti
 * **bookmarks.txt** (version 5.0 until 6.5) – Includes bookmarks used in `TFONTOVERVIEWFORM`. Created automatically when the user exits the program.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** – Transform Program used by `TTRANSFORMFORM`. The window will appear empty if removed.
+* **default.otlfd** (version 7.0 until 11.5) – Default OpenType layout feature definitions, used to add common OpenType layout features.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). Version 3.0 until 6.5 names the font as **FC Test Font ######** (the last six characters are numeric).
 * **fc12.cfg** (version 12.0) – Configuration file located in the user's directory.
 * **FCOutDrw.dll** – Dynamic link library located in the system root directory used for advanced outlines (version 10 & above).
-* **fcp5.cfg** (version 5.0 and 5.6) – Configuration file located in the system root directory.
+* **fcp5.cfg** (version 5.0 until 5.6) – Configuration file located in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used when saving (the last two or three characters in the filename is a letter and/or number combo).
 * **FontCreatorSetup.exe** – Install the Win32 version of this program.
@@ -133,13 +134,13 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **IncludeWinDescent** – Used with **Win Descent** in `TMETRICSFORM`. Default is on.
 * **IncludexHeight** – Used with **x-Height** in `TMETRICSFORM`. Default is on.
 * **IncludeYAxis** – Used with **Y-Axis** in `TMETRICSFORM`. Default is on.
-* **LockUserDefinedGuidelines** (version 4.5 & above) – Used when pressing **Lock Guidelines** in the Grid toolbar. Default is off.
-* **ShowBearings** (version 5.6 & above) – Used when pressing **Show Metrics** in the Grid toolbar. Default is on.
+* **LockUserDefinedGuidelines** (version 4.5 & above) – Used witj **Lock Guidelines** in the Grid toolbar. Default is off.
+* **ShowBearings** (version 5.6 & above) – Used when with **Show Metrics** in the Grid toolbar. Default is on.
 * **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in `TGRIDFORM`.
-* **ShowGrid** – Used when pressing **Show Grid** in Grid Options or in the Grid toolbar. Default is on.
-* **ShowUserDefinedGuidelines** – Used when pressing **Show Guidelines** in Guidelines Options or in the Grid toolbar. Default is on.
-* **SnapToGrid** (version 4.0 & above) – Used when pressing **Snap to Grid** in the Grid toolbar. Default is off.
-* **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used when pressing **Snap to Guidelines** in the Grid toolbar. Default is off.
+* **ShowGrid** – Used with **Show Grid** in Grid Options or in the Grid toolbar. Default is on.
+* **ShowUserDefinedGuidelines** – Used with **Show Guidelines** in Guidelines Options or in the Grid toolbar. Default is on.
+* **SnapToGrid** (version 4.0 & above) – Used with **Snap to Grid** in the Grid toolbar. Default is off.
+* **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used with **Snap to Guidelines** in the Grid toolbar. Default is off.
 
 ### GUI
 * **UpdateCheckInterval** – Set this value in **Startup: Check for updates** in the General tab in `TOPTIONSFORM` to 000 (never), 001 (every day), 007 (once a week), 030 (once a month), 182 (twice a year) or 365 (once a year). Default is 007 (once a week).
@@ -187,7 +188,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in Options: General. Default is 0 (Winding).
 * **GlyphPropsExpanded** – Expands glyph properties by pressing **More** at the bottom left corner. Default is on.
 * **GroupManagerSorted** – Sorts the group manager.
-* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Set this value in `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
+* **InsertGlyphsCB1** and **InsertGlyphsCB2** (version 12.0) – Set this value in `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** – Changes tab in `TINSERTGLYPHFORM`.
 * **KerningFolderExport** – Select the directory to export the old `KERN` table.
 * **KerningFolderImport** – Select the directory to import the old `KERN` table.
@@ -589,10 +590,10 @@ The company hid debugging functions, developer commands and more in several RC D
 ### Main Form (`TMAINFORMFONTCREATOR`)
 **Menu Items**
 * **Edit: Knife** – Use the **Knife** button in the **Glyph** toolbar as this command does nothing when selected.
-* **View: Toolbars: Tab Bar** – This menu item is intended to hide the tabs if version 6.1 is used.
+* **View: Toolbars: Tab Bar** – This menu item will hide the tabs if version 6.1 up to 11 is used.
 * **Font: TODO! Problem Report...** – This item is in version 3.0 and is implemented as `TVALIDATIONWIZARDFORM` in version 4.0 & above.
 * **Tools: TODO! AutoCmap...** – This item is in version 3.0 only and was dropped after version 4.0.
-* **Tools: TODO! AutoPost...** – This item is in version 3.0 only and was dropped after version 4.0.
+* **Tools: TODO! AutoPost...** – This item is in version 3.0 only and is implemented as **Tools: Glyph Names** in version 7.0 & above.
 * **Tools: TODO! Customize...** – Despite the fact that you cannot really customize the menus or toolbars, you have to use Resource Hacker or other programs to do it as this menu item does nothing. If the program detects that the menus or toolbars are modified, the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
 * **Window: Minimize All** – This menu item will minimize all windows (restore each minimized window via the restore button).
 
@@ -604,8 +605,8 @@ The company hid debugging functions, developer commands and more in several RC D
 * **Redo** – Uses the same command in the **Edit** menu.
 * Tags from **tags.txt** and **Tagged** folder from `TFONTOVERVIEWFORM` – The menu items do nothing when clicked in `TFONTOVERVIEWFORM` except when using the same items from the `TFONTOVERVIEWFORM` glyph context menu or editing glyphs in `TGLYPHEDITFORM`.
 
-**Developer Tools** – The menu is hidden if FontCreator 12 is detected to be running an unregistered copy. Contains debugging functions and developer commands.
-* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Creates screenshot macros in `C:\Program Files\help\screenshots\` or `C:\Program Files (x86)\help\screenshots\` (if the folder exists). Set the display settings to anti aliased and not ClearType for these features to work. A critical error is shown saying "Make sure your FontCreator is registered as a Professional Edition" if FontCreator is detected to be running an unregistered copy.
+**Developer Tools** – Contains debugging functions and developer commands.
+* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create screenshots from the help file in `C:\Program Files\help\screenshots\` or `C:\Program Files (x86)\help\screenshots\` (if the folder exists). Use anti aliased smoothing (old versions) and register FontCreator for these features to work.
 * **Hide Developer Menu** – Hides the menu (i.e. adds `Visible = False` to the menu much like the original program).
 * **AutohintMacro** – Closes all fonts with the same command in the **File** menu.
 * **Video mode** – Restores window to original size and registers program without a key.
@@ -617,13 +618,13 @@ The company hid debugging functions, developer commands and more in several RC D
 * **Font Tester Action** – This menu item is intended to change the action used by `TFONTTESTFORM`.
 * **Boink!** – Exit the program silently. Located in the **Debug** menu in 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), this feature does nothing when selected. It may display a critical error which varies whether it can be closed or not, which contains an "OK" button.
 
-**Toolbar Buttons** – The last four buttons are enabled if simple glyphs are being edited.
+**Toolbar Buttons** – The last four buttons are enabled if simple glyphs are edited.
 * Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option.
 * **Generate Glyph Names** (GN in the **Tools** toolbar) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. **EDenissen** stands for Erwin Denissen (original author/sole developer of this program, president and founder of High-Logic B.V.). The button is hidden if FontCreator 12 is detected to be running an unregistered copy.
-* **Smooth Points** (S in the **Glyph** toolbar) – Smooths all points.
-* **Smooth and Align Points** (SA in the **Glyph** toolbar) – Smooths and aligns points.
+* **Smooth Curves** (S in the **Glyph** toolbar) – Smooths all curves.
+* **Smooth and Align Curves** (SA in the **Glyph** toolbar) – Smooths and aligns curves.
 * **Harmonize** (H in the **Glyph** toolbar) – Harmonizes all contours.
-* **Round Corners** (R in the **Glyph** toolbar) – Force rounded points.
+* **Round XY Coordinates** (R in the **Glyph** toolbar) – Round coordinates values.
 
 ### Resource Editor (`TRESOURCEEDITORDLG`)
 This dialog is in version 3.0 only and is used to edit resources.
@@ -645,7 +646,7 @@ Version 4.5 until 6.5 includes menu entries related to bookmarks for each glyph 
 This dialog includes a text box with glyph indexes at the top right corner (it is shown in old versions only).
 
 ### Automatic Metrics Wizard (`TAUTOMETRICSFORM`)
-This dialog includes a note prompting the user to use the Professional Edition (it is shown if the program is detected to be running the Home Edition). Version 10.0 includes three unused features.
+This dialog includes a note prompting the user to use the Professional Edition (it is shown if the program is detected to be running the Home Edition). Version 10.0 includes three unused features (the features were removed in version 11.0 & above).
 
 ### OpenType Designer (`TOPENTYPEDESIGNERFORM`)
 These buttons are shown if the GPOS kerning tables are edited. The values at the beginning has a capital D in square brackets.
