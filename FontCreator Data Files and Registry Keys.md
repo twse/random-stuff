@@ -320,7 +320,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeSinf** – Used with **Numerals: Scientific Inferiors (sinf)**.
 * **IncludeSmallCapitals** – Used with **Other Forms and Variants: Small Capitals (scap, c2sc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only common punctuation and the Latin/Greek alphabets with diacritics for Classical Sanskrit.
 * **IncludeStylisticSets** – Used with **Other Forms and Variants: Stylistic Sets (ss01-ss20)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this for decorative drop capitals in Cankama, Odana, Pali, and Talapanna as a contextual substitution.
-* **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**. The [TITUS project](http://titus.uni-frankfurt.de/) uses a subset in the [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm), including only numbers, some letters in the Latin alphabet, some punctuation and ä ī ù ú (without the OpenType fetature).
+* **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**. The [TITUS project](http://titus.uni-frankfurt.de/) uses a subset in the [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm), including only numbers, some letters in the Latin alphabet, some punctuation and ä ī ù ú (without the OpenType feature).
 * **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts, including either only common punctuation and the Latin alphabet, with Latin-1 and Classical Sanskrit diacritics (Garava) or the Latin alphabet, è (French) and ú (Irish) (other fonts). The [TITUS project](http://titus.uni-frankfurt.de/) uses a subset in the [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm), including only numbers, some letters in the Latin alphabet, some punctuation and ä i̯ ı u̯ ü (without the OpenType feature).
 * **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in the upright styles of his fonts.
 * **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**.
@@ -605,17 +605,17 @@ The company hid debugging functions, developer commands and more in several RC D
 * Tags from **tags.txt** and **Tagged** folder from `TFONTOVERVIEWFORM` – The menu items do nothing when clicked in `TFONTOVERVIEWFORM` except when using the same items from the `TFONTOVERVIEWFORM` glyph context menu or editing glyphs in `TGLYPHEDITFORM`.
 
 **Developer Tools** – The menu is hidden if FontCreator 12 is detected to be running an unregistered copy. Contains debugging functions and developer commands.
-* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Creates screenshot macros in `C:\Program Files\help\screenshots\` (if the folder exists). Unregistered copies of FontCreator will show a critical error saying "Make sure your FontCreator is registered as a Professional Edition."
+* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Creates screenshot macros in `C:\Program Files\help\screenshots\` or `C:\Program Files (x86)\help\screenshots\` (if the folder exists). Set the display settings to anti aliased and not ClearType for these features to work. A critical error is shown saying "Make sure your FontCreator is registered as a Professional Edition" if FontCreator is detected to be running an unregistered copy.
 * **Hide Developer Menu** – Hides the menu (i.e. adds `Visible = False` to the menu much like the original program).
 * **AutohintMacro** – Closes all fonts with the same command in the **File** menu.
-* **Video mode** – Shows settings about the used theme.
+* **Video mode** – Restores window to original size and registers program without a key.
 * **A/B Testing** – Contains two options to set the variant.
 * **Font Log** – Shows the font log (this item is hidden if the program is not registered).
 * **Disable garbage collector**
 * **Increase Font Size** – Shows information about the current system font with three numerical strings.
 * **Enable All Toolbar Icons** – Enables all icons in toolbars.
 * **Font Tester Action** – This menu item is intended to change the action used by `TFONTTESTFORM`.
-* **Boink!** – Exit the program silently. Located in the **Debug** menu in 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05). It may display a critical error which varies whether it can be closed or not, which contains an "OK" button.
+* **Boink!** – Exit the program silently. Located in the **Debug** menu in 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), this feature does nothing when selected. It may display a critical error which varies whether it can be closed or not, which contains an "OK" button.
 
 **Toolbar Buttons** – The last four buttons are enabled if simple glyphs are being edited.
 * Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option.
@@ -661,7 +661,7 @@ These buttons are shown if the GPOS kerning tables are edited. The values at the
 The context menu has two paste options.
 
 ### Options Window (`TOPTIONSFORM`)
-The **General** tab has a group named **Associate FCP Files** which is in version 3.0 only and was dropped after version 4.0.
+The **General** tab has a group to associate TrueType fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0).
 
 The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
 
