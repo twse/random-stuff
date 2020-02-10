@@ -60,14 +60,12 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 ## Mozilla credits list module info
-* **Name:** Mozilla credits list
 * **Description:** Shows a list of all those who contributed to Mozilla.
 * **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
-
-**Fun fact:** Direct pull requests for additions without form or modifications without replies to application acceptance message or both are closed by the owner with a comment (see fun fact in the second file entry in the index above).
+* **Note:** Please do not submit pull requests for additions not done via the form or modifications not done via replies to application acceptance message directly, as pull requests will be closed by the owner with a comment.
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
@@ -78,7 +76,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers not connected to the internet or with network problems.
 
 ## Index of EasyPaint translations into multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/CMakeLists.txt#109). Nikita Grishko stopped developing this program in 2018-01.
+All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#109). Nikita Grishko stopped developing this program in 2018-01.
 
 * Danish (da_DK)
 * Esperanto (eo)
