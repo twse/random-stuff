@@ -22,18 +22,18 @@ If registration is not performed during or within the grace period, the followin
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2550 (2020-01-14) – The program will add watermarks when generating fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2555 (2020-01-24) – The program will add watermarks to generated fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
-* Windows Vista and later – 12.0.0.2554
+* Windows Vista and later – 12.0.0.2555
 * Windows XP – 10.0
 * Windows 2000 – 7.0
 * Windows 95, 98, ME and NT 4.0 – 6.0.1
 
 ## User Data (Glyph Transformer scripts omitted)
-To quote the user manual: FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrator permissions or change the owner (this can be done with `takeown /f filename` or **Security: Advanced: Owner: Edit** in Windows XP, Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in file properties).
+To quote the user manual: “FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed. If you want to edit most files directly they either must have administrator permissions or change the owner (this can be done with `takeown /f filename` or **Security: Advanced: Owner: Edit** in Windows XP, Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in file properties).”
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Includes bookmarks used in `TFONTOVERVIEWFORM`. Created automatically when the user exits the program.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
@@ -114,8 +114,8 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **ShowFirstAndLastPointIndicators** – Show first and last point indicators (**Show First and Last** in the Grid toolbar). Default is on.
 * **ShowToolbarWindowBackground** – Show or hide the Background Image toolbar. Default is off.
 * **ShowToolbarWindowKerning** – Show or hide the preview window. Default is off.
-* **ShowToolbarWindowMembers** – Show or hide members for colored fonts. Default is off.
-* **ShowToolbarWindowPalette** – Show or hide the palette for colored fonts. Default is off.
+* **ShowToolbarWindowMembers** – Show or hide members for use when creating or editing glyphs in colored fonts. Default is off.
+* **ShowToolbarWindowPalette** – Show or hide the palette for use when creating or editing glyphs in colored fonts. Default is off.
 * **ShowToolbarWindowTransformation** – Show or hide the transformation toolbar. Default is on.
 * **ShowToolbarWindowValidation** – Show or hide the validation report (**Show Report** in the Glyph toolbar). Default is off.
 
@@ -254,7 +254,7 @@ There are three built-in external programs: **MainType** (it hides if the progra
 * **KerningShowGridLines** – Displays grid lines. Default is on.
 
 ### Last Time, Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. Old versions stores up to 7 files while recent versions stores up to 20 fonts and/or projects. The **File: Reopen** menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
+* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The **File: Reopen** menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
@@ -308,7 +308,7 @@ All keys beginning with Include are enabled by default.
 * **IncludeIsol** – Used with **Isolated Forms (isol)**. This feature uses several isolated characters from the *Arabic* and *Arabic Supplement* ranges of Unicode.
 * **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five Latin characters from the *Alphabetic Presentation Forms* range of Unicode. Including it for letters in monospace fonts may cause bugs (e.g. Noto Sans Mono).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
-* **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**.
+* **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**. In order to generate the íj ligature for Dutch,
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**.
 * **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses several medial characters from the *Arabic* and *Arabic Supplement* ranges of Unicode.
 * **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses the circled numbers and Latin alphabet from the **Enclosed Alphanumerics** block of Unicode and initial, isolated, medial or terminal forms of Arabic letters if they exist.
@@ -478,14 +478,14 @@ All resources are named HL at the beginning.
 * **TADDFPCVLTSFORM** – Adds labels, tooltips or samples to character variants in the font.
 * **TADDFPSIZENAMEFORM** – Adds subfamily names to the font.
 * **TADDFPSTYLISTICSETNAMEFORM** – Adds or writes stylistic set names or descriptions in the font.
-* **TADDGASPFORM** – Adds gasp ranges to the font, shown when pressing **Add** in **Smoothing: Preferred rasterization techniques** in `TFONTSETTINGSFORM`.
+* **TADDGASPFORM** – Adds gasp ranges to the font (**Add** in **Smoothing: Preferred rasterization techniques** in `TFONTSETTINGSFORM`).
 * **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
 * **TADDPLATFORMFORM** (version 2.0 until 6.5) – Shows a dialog to add a platform to the font (**Add** in `TPLATFORMMANAGERFORM`).
 * **TADDUVSFORM** – Used by East Asian fonts to add Unicode variation sequences.
 * **TADVANCEDEDITFORM** – Edits one naming field in the font.
 * **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Used to manage anchors in the font if positioning data exists.
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Shows a dialog to automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5).
-* **TAUTOMETRICSFORM** (version 3.0.1 & above) – Shows a wizard to automatically generate metrics for glyphs. **Fun fact:** The optical metrics adjustment user interface is same as in Scanahand.
+* **TAUTOMETRICSFORM** (version 3.0.1 & above) – Shows a wizard to automatically generate metrics for glyphs. **Fun fact:** High-Logic uses the same optical metrics adjustment user interface in its font generator *Scanahand*.
 * **TAUTONAMEFORM** (version 5.0 until 6.5) – Shows a wizard to automatically change the naming fields of a font.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Used when editing a naming field or including additional naming fields in the font (replaced with `TFONTPROPERTIESFORM` in version 7.0 & above).
 * **TCHANGETAGFORM** (version 7.0 & above) – Shows a dialog to change tags in the font.
@@ -496,8 +496,8 @@ All resources are named HL at the beginning.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Shows a dialog to view or modify the composite glyph properties.
 * **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – Confirmation dialog used when replacing.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or import raster images for use with empty glyphs.
-* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Shows a dialog to delete features or lookups in the font.
-* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Shows a dialog to delete kerning groups or classes in the font.
+* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups in the font.
+* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes in the font.
 * **TDISABLEDFORM** – As of version 5.0 or 6.0 until 6.5 and 8.0 until 12.0.0.2550, if the program detects that it is not registered and is running after a grace period of 30 days, the program will disable saving (version 5.0 until 6.5), exporting, testing, installing fonts and extracting TrueType or OpenType collections (version 5.0 & above).
 * **TDM** (version 4.0 & above) – Contains icons in the program. Version 5.0 (2005-01-12) up to 11.0.0.2365 (2017-05-10) uses icons from the Windows XP era.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data in the program.
@@ -539,7 +539,7 @@ All resources are named HL at the beginning.
 * **TKERNFEATUREFRAME** – Used by `TKERNINGFORM`.
 * **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Shows a dialog to manage kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 8.0) – Views or edits the old `KERN` table (not the GPOS kerning tables) in the font (replaced with `TOPENTYPEDESIGNERFORM` in version 7.0 & above).
-* **TKERNINGNEWPAIRFORM** (version 3.0 until 8.0) – Adds a kerning pair to the old `KERN` table (not the GPOS kerning tables).
+* **TKERNINGNEWPAIRFORM** (version 3.0 until 8.0) – Adds a kerning pair to the old `KERN` table or the GPOS kerning tables.
 * **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Adds a single adjustment to the font.
 * **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0) – Contains a lot of things like the app main window, glyph transformation (simple glyphs only), glyph properties, user notes, font preview, glyph validation report and more.
 * **TMETRICSFORM** – Shows an interface for viewing and setting metrics options.
