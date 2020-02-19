@@ -386,6 +386,10 @@ All keys beginning with Include are enabled by default.
 * **FeatureTags** (version 7.0 & above) – Contains the tags used to enable or disable OpenType features. Default is empty.
 * **PreviewFeatures** (version 7.0 & above) – Enables or disables OpenType features in the preview text.
 * **PreviewFontSize** – Select the size in `TFONTTESTFORM`.
+* **PreviewPosHeight** (version 3.0 until 4.5) – Contains the height in the preview window.
+* **PreviewPosLeft** (version 3.0 until 4.5) – Contains the left position in the preview window.
+* **PreviewPosTop** (version 3.0 until 4.5) – Contains the top position in the preview window.
+* **PreviewPosWidth** (version 3.0 until 4.5) – Contains the width in the preview window.
 * **PreviewSampleFontSize** – Scale the font in the Preview window. Default is 24.
 * **PreviewSampleText** – Contains sample text in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
 * **PreviewSampleUseKerning** (version 3.0 until 6.5) – Set this value to on to kern text in the Preview window. Replaced with `PreviewFeatures` in version 7.0 & above.
