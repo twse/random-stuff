@@ -5,7 +5,7 @@
 
 ## Index of fonts
 Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
-* **Cyrano Text**: Based on [Cyrano Nouveau](http://www.typophile.com/node/64838) (2009) by Typophile user *MrMoto* with revised glyphs and support for more glyphs. Both fonts are named after the 1998 movie Cyrano de Bergerac.
+* **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
@@ -76,7 +76,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers not connected to the internet or with network problems.
 
 ## Index of EasyPaint translations into multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#109). Nikita Grishko stopped developing this program in 2018-01.
+All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-01.
 
 * Danish (da_DK)
 * Esperanto (eo)
