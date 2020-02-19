@@ -14,6 +14,8 @@ This list represents but a portion of the people who have signed the Python Soft
 ### Check Python CLA app
 Mariatta Wijaya created the [Check Python CLA](https://check-python-cla.herokuapp.com/) program to check each GitHub user to see if the contributor license agreement is signed.
 
+**P.S.** Don't add your name here, unless you really *are* after Marien alphabetically. Marien used to be very proud of being the last entry, and he'll get positively pissed if he can't even be second-to-last.
+
 ## Ubuntu Code of Conduct (Ubunteros.htm)
 Ubuntu has a code of conduct (Freeware under Creative Commons license) that you may sign with Launchpad or the [Code of Conduct Signing Assistant](https://launchpad.net/code-of-conduct-signing-assistant) (signed digitally or physically by the user) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad). The instructions are in the Launchpad help documentation located [here](https://help.launchpad.net/Signing%20the%20Ubuntu%20Code%20of%20Conduct).
 
