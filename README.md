@@ -1,6 +1,6 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
-* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla. **Fun fact:** This list only accepts names via the form as through the policy and in the [FAQ](https://www.mozilla.org/credits/faq/).
+* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
 * **SitePal Forum Drug Words** (HTM file): Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
@@ -9,11 +9,11 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
-* **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverts a couple of rows.
+* **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
-## Bulk-add everyone to Mozilla credits list
+## Bulk-add everyone to the Mozilla credits list
 **Command line** - You won't receive any emails when your name is added - this will see the message in the log.
-1. Clone the `mozilla/community-data` repository.
+1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
@@ -28,9 +28,9 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add the entries.
 
-## Add yourself to Mozilla credits list
+## Add yourself to the Mozilla credits list
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
-1. Clone the `mozilla/community-data` repository.
+1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `gurumukhi` (current owner) to push changes.
@@ -43,9 +43,9 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-## Edit or remove yourself in Mozilla credits list
+## Edit or remove yourself in the Mozilla credits list
 **Command line**
-1. Clone the `mozilla/community-data` repository.
+1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
 2. Rebase the repository with a large number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
@@ -61,19 +61,20 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as collaborators of source repository - the first owner has a forked copy)
+* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as source repository collaborators)
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
-* **Note:** Please do not submit pull requests for additions not done via the form or modifications not done via replies to application acceptance message directly, as pull requests will be closed by the owner with a comment.
+* **Fun fact:** This list only accepts names via the form and modifications via replies to application acceptance message as through the policy and FAQ.
+* **Note:** Please do not submit direct pull requests for additions not done via the form or modifications not done via replies to application acceptance message, as they'll be closed by the first owner with a comment using the fun fact. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
 
-* **Web page not available** (Android) – The link refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01).
+* **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3)
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing in the browser itself when the original page is accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page at the **@Macarlo, Inc** website (currently down since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing in the browser itself when the original page is accessed as `res://ieframe.dll/dnserror.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers not connected to the internet or with network problems.
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
+* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers not connected to the internet or with network problems.
 
 ## Index of EasyPaint translations into multiple languages
 All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-01.
