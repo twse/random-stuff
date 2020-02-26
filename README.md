@@ -1,7 +1,7 @@
 ﻿# Index
-* **FontCreator Data Files and Registry Keys** (Markdown file): Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
+* **FontCreator Data Files and Registry Keys.md**: Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
-* **SitePal Forum Drug Words** (HTM file): Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
 Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
@@ -65,8 +65,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
-* **Fun fact:** This list only accepts names via the form and modifications via replies to application acceptance message as through the policy and FAQ.
-* **Note:** Please do not submit direct pull requests for additions not done via the form or modifications not done via replies to application acceptance message, as they'll be closed by the first owner with a comment using the fun fact. This will result in unmerged commits!
+* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as they'll be closed by the first owner. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
