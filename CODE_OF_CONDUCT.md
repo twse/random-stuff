@@ -1,7 +1,9 @@
 The contents of these files below has everyone listed in alphabetical order by last name.
 
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
-Python Software Foundation has a Contributor License Agreement that you must sign for review or merge pull request in the CPython GitHub repository. Submissions are done in a couple days apart. You will receive an automated verification email to respond and see an asterisk at the end of your username for every comment posted in Python's own issue tracker. A bot named `the-knights-who-say-ni` will either add `CLA signed` (if signed) or `CLA not signed` (if not signed) for created pull requests. **Fun fact:** The username without hyphens comes from a quote from Monty Python.
+Python Software Foundation has a contributor license agreement that you must sign to review or merge pull requests when contributing to Python.
+
+Submissions are done in a couple days apart. You will receive an automated response verification email and see an asterisk after the username for every comment posted in [Python's own issue tracker](https://bugs.python.org/). A bot named `the-knights-who-say-ni` will add the label **CLA signed** or **CLA not signed** for created pull requests. **Fun fact:** The username without hyphens comes from a quote from Monty Python.
 
 This list represents but a portion of the people who have signed the Python Software Foundation Contributor Agreement.
 
