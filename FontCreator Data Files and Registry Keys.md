@@ -22,7 +22,7 @@ If registration is not performed during or within the grace period, the followin
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2563 (2020-02-21) – The program will replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2563 (2020-02-21) – The program will randomly replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
@@ -576,7 +576,7 @@ All resources are named HL at the beginning.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Adds glyph members to any composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Shows a dialog to select a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** (version 3.0 until 4.5) – If the program detects that it is not registered and is running after a grace period of 30 days, the program will show a description of shareware programs when pressing **Start** in `TSPLASHFORM`.
-* **TSORTGLYPHSFORM** (version 5.6 until 6.5) – Shows a dialog to change the glyph order within a font (replaced with **Tools: Sort Glyphs** in version 7.0 & above). Prior to version 5.6 any font will sort glyphs with the standard macOS ordering.
+* **TSORTGLYPHSFORM** (version 5.6 until 6.5) – Changes the glyph order within a font (replaced with **Tools: Sort Glyphs** in version 7.0 & above). Prior to version 5.6 the glyphs are sorted in any font with the standard macOS ordering.
 * **TSPLASHFORM** – Used in unregistered copies. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) are displayed randomly. **Fun fact:** The copyright has a date of 2010.
 * **TSPTBXCOLORPICKERFORM** – Selects colors for use with colored fonts.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Manages subtables in the OpenType layout tables.
@@ -604,8 +604,8 @@ The company hid debugging functions, developer commands and more in the RC Data 
 * **View: Toolbars: Tab Bar** – This will hide the tabs if version 6.1 up to 11.5 is used. Does not work with the 12th major version.
 * **Font: TODO! Problem Report...** – This item is in version 3.0 and is implemented as `TVALIDATIONWIZARDFORM` in version 4.0 & above.
 * **Tools: Export Glyph Outlines...** (version 4.0 until 5.6) – Does not work. Intended to export glyph outlines.
-* **Tools: Import Glyph Data...** (version 4.0 until 5.6) – This option will import glyph data from other fonts in fgd files. Replaced with **miTestItem3 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
-* **Tools: Export Glyph Data...** (version 4.0 until 5.6) – This option will export glyph data from other fonts to fgd files. Replaced with **miTestItem4 Load** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
+* **Tools: Import Glyph Data...** (version 4.0 until 5.6) – This option will import glyph data from other fonts in fgd files. Replaced with **miTestItem3 Load** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
+* **Tools: Export Glyph Data...** (version 4.0 until 5.6) – This option will export glyph data from other fonts to fgd files. Replaced with **miTestItem4 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
 * **Tools: TODO! AutoCmap...** – This item is in version 3.0 only and was dropped after version 4.0.
 * **Tools: TODO! AutoPost...** – This item is in version 3.0 only and is implemented as `TGLYPHNAMEFORM` in version 7.0 & above.
 * **Tools: TODO! Customize...** – Does not work. Use Resource Hacker or other programs to modify the menus or toolbars (this menu item does nothing when clicked). If the program detects that the toolbars are modified (e.g. by removing icons without using `Visible = False`), the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
