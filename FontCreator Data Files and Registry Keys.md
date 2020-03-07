@@ -22,12 +22,12 @@ If registration is not performed during or within the grace period, the followin
 * 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 12.0.0.2563 (2020-02-21) – The program will randomly replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
+* 12.0.0.2543 (2019-07-10) until 12.0.0.2565 (2020-03-06) – The program will randomly replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
-* Windows Vista and later – 12.0.0.2563
+* Windows Vista and later – 12.0.0.2565
 * Windows XP – 10.0
 * Windows 2000 – 7.0
 * Windows 95, 98, ME and NT 4.0 – 6.0.1
@@ -506,11 +506,11 @@ All resources are named HL at the beginning.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or import raster images for use with empty glyphs.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes in the font.
-* **TDISABLEDFORM** – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). The dialog is shown once for all fonts before exporting or testing (recent versions).
+* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). The dialog is shown once for all fonts before exporting or testing (recent versions).
 * **TDM** (version 4.0 & above) – Contains icons in the program. Version 5.0 (2005-01-12) up to 11.0.0.2365 (2017-05-10) uses icons from the Windows XP era.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data in the program.
 * **TEDITANCHORFORM** (version 7.0 & above) – Shows a dialog to edit anchors in the font.
-* **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Shows a dialog to export glyph data to fgd files in the font (**Tools: Export Glyph Data...**). Recent versions only saves glyph data for one glyph.
+* **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Shows a dialog to export glyph data to fgd files in the font (**Tools: Export Glyph Data...**). Recent versions limits this feature to only one glyph.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure settings used to export fonts as desktop or web format or both.
 * **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Shows a wizard to extract OpenType font collections into separate font files (**Tools: Extract from OTC...**).
@@ -541,9 +541,9 @@ All resources are named HL at the beginning.
 * **TGRIDFORM** – Shows an interface for viewing and setting grid options.
 * **TGUIDELINEMODIFYFORM** – Shows a dialog to modify guidelines.
 * **TGUIDELINESFORM** – Shows an interface for viewing and setting guidelines options.
-* **TIMPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Shows a dialog to import glyph data in fgd files to the font (**Tools: Import Glyph Data...**). Recent versions only opens glyph data for one glyph.
+* **TIMPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Shows a dialog to import glyph data in fgd files to the font (**Tools: Import Glyph Data...**). Recent versions limits this feature to only one glyph.
 * **TINSERTGLYPHFORM** – Shows a dialog to insert glyphs to the font.
-* **TINSTALLEDFONTSFORM** – Shows a list of installed fonts. Version 10.1.0.2272 (2016-12-20) & below has a delay not in recent versions.
+* **TINSTALLEDFONTSFORM** – Shows a list of installed fonts. Version 10.1.0.2272 (2016-12-20) & below has a delay which is not present in recent versions.
 * **TKERNFEATUREFRAME** – Used by `TKERNINGFORM`.
 * **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Shows a dialog to manage kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 8.0) – Views or edits the old `KERN` table (not the GPOS kerning tables) in the font (replaced with `TOPENTYPEDESIGNERFORM` in version 7.0 & above).
@@ -604,11 +604,11 @@ The company hid debugging functions, developer commands and more in the RC Data 
 * **View: Toolbars: Tab Bar** – This will hide the tabs if version 6.1 up to 11.5 is used. Does not work with the 12th major version.
 * **Font: TODO! Problem Report...** – This item is in version 3.0 and is implemented as `TVALIDATIONWIZARDFORM` in version 4.0 & above.
 * **Tools: Export Glyph Outlines...** (version 4.0 until 5.6) – Does not work. Intended to export glyph outlines.
-* **Tools: Import Glyph Data...** (version 4.0 until 5.6) – This option will import glyph data from other fonts in fgd files. Replaced with **miTestItem3 Load** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
-* **Tools: Export Glyph Data...** (version 4.0 until 5.6) – This option will export glyph data from other fonts to fgd files. Replaced with **miTestItem4 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
+* **Tools: Import Glyph Data...** (version 4.0 until 5.6) – Imports glyph data from other fonts in fgd files. Replaced with **miTestItem3 Load** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
+* **Tools: Export Glyph Data...** (version 4.0 until 5.6) – Exports glyph data from other fonts to fgd files. Replaced with **miTestItem4 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
 * **Tools: TODO! AutoCmap...** – This item is in version 3.0 only and was dropped after version 4.0.
 * **Tools: TODO! AutoPost...** – This item is in version 3.0 only and is implemented as `TGLYPHNAMEFORM` in version 7.0 & above.
-* **Tools: TODO! Customize...** – Does not work. Use Resource Hacker or other programs to modify the menus or toolbars (this menu item does nothing when clicked). If the program detects that the toolbars are modified (e.g. by removing icons without using `Visible = False`), the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
+* **Tools: TODO! Customize...** – Does not work. Use Resource Hacker or other programs to modify the menus or toolbars. If the program detects that the toolbars are modified (e.g. by removing icons without using `Visible = False`), the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
 * **Window: Minimize All** – Minimizes all but the current window (restore each minimized window via the restore button).
 
 **Hidden Shortcuts** – Menu's description from the form: These items are here so the shortcuts work.
@@ -648,7 +648,7 @@ The menu items are shown if the glyph is edited in contour mode.
 * **Order** – This menu is included in version 3.0 until 4.5 (the features are implemented as **Align or Distribute** in version 5.5 & above).
 * **Debug Single Stroke Twice** (**miTestItem** in version 10.0 until 10.1.0.2272) – Does not work.
 * **miTestItem2** – Jumps to the next contour if one or more contours are selected.
-* **miTestItem3 Save** and **miTestItem4 Load** – Save or load glyph data from `C:\hltemp\glyph.data`. Create the folder `hltemp` for these features to work.
+* **miTestItem3 Save** and **miTestItem4 Load** – Save or load glyph data from `C:\hltemp\glyph.data` (see **Tools: Import Glyph Data or Export Glyph Data** in the menu for old versions above). Create the folder `hltemp` for these features to work.
 
 ### Font Overview (`TFONTOVERVIEWFORM`)
 Version 4.5 added support for bookmarks in each glyph (the feature was discontinued since version 7.0 and the menu is hidden).
@@ -663,7 +663,7 @@ Version 4.0 until 4.5 includes a text box which was intended to show the number 
 ### Composite Glyph Properties (`TCOMPOSITEGLYPHPROPERTIESFORM`)
 * Text box with glyph indexes (version 3.0 until 6.5) – It is located at the top right corner.
 * Button: **Delete** (version 3.0 until 6.5) – Does not work. Intended to delete the member of a composite glyph, use the glyph edit form to do this.
-* Checkbox: **ARGS_ARE_XY_VALUES** (version 3.0 until 6.5) – The checkbox was dropped after version 6.0.
+* Checkbox: **ARGS_ARE_XY_VALUES** (version 3.0 until 6.5) – The checkbox was dropped after version 7.0.
 
 ### Automatic Metrics Wizard (`TAUTOMETRICSFORM`)
 This dialog includes a note to use the Professional Edition (it shows if the program is detected to be running the Home Edition). Version 10.0 includes three unused features (the features were dropped in version 11.0 & above).
@@ -672,7 +672,7 @@ The third panel changes the advance width with check boxes to center the glyph a
 
 ### OpenType Designer (`TOPENTYPEDESIGNERFORM`)
 These buttons are shown when editing the GPOS kerning tables. The values at the beginning has a capital D in square brackets.
-* **Clear Values** – Use zero values for all kerning pairs.
+* **Clear Values** – Set the value for all kerning pairs to zero.
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
 * **Clean Up** – Delete all kerning pairs with zero value. This feature is documented in old versions.
 
