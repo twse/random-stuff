@@ -587,7 +587,7 @@ All resources are named HL at the beginning.
 * **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – If the program detects that it is not registered, testing, installing or exporting fonts displays a message which tells the program will create subsetted fonts. The message has a checkbox to turn it off.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font.
-* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – Used in version 6.1 & above to check for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` is enabled. The Firefox 53 on Windows 10 64-bit user agent is used in `TUPDATEFORM`. `mRestart` in `TUPDATEFORM` should have three lines to prevent silent termination. The program will terminate silently if `TUPDATEFORM` is removed.
+* **TUPDATEFORM** and **TUPDATEFORMFC** (**TUPDATEREMINDERFORM** in old versions) – As of version 6.1 & above, this functionality is used to check for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` is enabled. The Firefox 53 on Windows 10 64-bit user agent is used in `TUPDATEFORM`. `mRestart` in `TUPDATEFORM` should have three lines to prevent silent termination. The program will terminate silently if `TUPDATEFORM` is removed.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
 * **TUVSFORM** – Manages Unicode variation sequences for use with East Asian fonts.
 * **TVALIDATIONWIZARDFORM** (version 4.0 & above) – Shows a wizard to validate the font for errors or problems.
@@ -620,7 +620,7 @@ The company hid debugging functions, developer commands and more in the RC Data 
 * Tags from **tags.txt** and **Tagged** folder (`TFONTOVERVIEWFORM`) – These menu items are automatically shown and do nothing when clicked in `TFONTOVERVIEWFORM` except when using the same items from the `TFONTOVERVIEWFORM` glyph context menu or editing glyphs in `TGLYPHEDITFORM`.
 
 **Developer Tools** – Contains debugging functions and developer commands.
-* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create screenshots from the help file in `C:\Program Files\help\screenshots\` or `C:\Program Files (x86)\help\screenshots\`. Create the folder `help\screenshots\, use anti aliased smoothing (version 7.0 until 11.5) and register FontCreator for these features to work.
+* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create screenshots from the help file in `C:\Program Files\help\screenshots\` or `C:\Program Files (x86)\help\screenshots\`. Create the folder `help\screenshots\`, use anti aliased smoothing (version 7.0 until 11.5) and register FontCreator for these features to work.
 * **Hide Developer Menu** – Hides the menu (i.e. adds `Visible = False` to the menu much like the original program).
 * **AutohintMacro** – Closes all fonts with the same command in the **File** menu.
 * **Video mode** – Restores window to original size and registers program without a key.
@@ -633,7 +633,7 @@ The company hid debugging functions, developer commands and more in the RC Data 
 * **Boink!** – Exit the program silently. Located in the **Debug** menu in 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), this feature does nothing when selected. It may display a critical error which varies whether it can be closed or not, which contains an "OK" button.
 
 **Toolbar Buttons** – The last four buttons are enabled if simple glyphs are edited.
-* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option.
+* Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option. The second **Open** option is a blank icon.
 * **Tools: Generate Glyph Names** (First letters of last two words) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. Create the user `EDenissen` (Erwin Denissen) for this feature to work. The button is hidden if FontCreator 12 is detected to be running an unregistered copy.
 * **Glyph: Smooth Curves** (First letter) – Smooths all curves.
 * **Glyph: Smooth and Align Curves** (First letter of first and third words) – Smooths and aligns curves.
