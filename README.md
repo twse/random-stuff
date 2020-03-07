@@ -8,7 +8,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
-* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font used in the IBM ThinkPad Power Series 820 command line or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
+* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font in the IBM ThinkPad Power Series 820 terminal or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
 ## Bulk-add everyone to the Mozilla credits list
@@ -61,8 +61,8 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present as source repository collaborators)
-* **Owners Emeritus:** Dawn Endico (1999-2003 via CVS), Gervase Markham (2003-2017 via CVS, GIT and SVN)
+* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present – source repository collaborators)
+* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
 * **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as they'll be closed by the first owner. This will result in unmerged commits!
@@ -71,7 +71,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
 
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
-* **Cannot find server** (Internet Explorer 6 – Windows XP SP3)
+* **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many versions of Internet Explorer in different Windows versions use other text strings for some steps in the original page.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu). **Fun fact:** The page title changes to **You're not connected to the internet** for computers not connected to the internet or with network problems.
 
@@ -81,10 +81,10 @@ All translations are in ts format. Generated translations are found in [CMakeLis
 * Danish (da_DK)
 * Esperanto (eo)
 * Finnish (fi_FI)
-* German (de_DE)
+* German (de_DE) – Unmerged pull request created for inclusion
 * Hungarian (hu_HU)
 * Korean (ko_KR)
-* Polish (pl_PL)
+* Polish (pl_PL) – Unmerged pull request created for inclusion
 * Portuguese, as spoken in Brazil (pt_BR)
 * Romanian (ro_RO) – Contributed by Nicolae Oprea
 * Spanish (es_ES)
