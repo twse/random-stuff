@@ -27,10 +27,12 @@ If registration is not performed during or within the grace period, the followin
 Under the **Help** menu is an item labeled **Register...** (the same item in version 12.0 & above is in **Help: Buy** along with **Buy Now** and `TTIPOFTHEDAYFORM` in version 3.0 until 6.5) when this executed a screen will pop up giving the registration code.
 
 ## Windows version compatibility
-* Windows Vista and later – 12.0.0.2565
-* Windows XP – 10.0
-* Windows 2000 – 7.0
-* Windows 95, 98, ME and NT 4.0 – 6.0.1
+| Operating system              | Latest version |
+|-------------------------------|----------------|
+| Windows Vista and later       | 12.0.0.2565    |
+| Windows XP                    | 10.0           |
+| Windows 2000                  | 7.0            |
+| Windows 95, 98, ME and NT 4.0 | 6.0.1          |
 
 ## User data
 To quote the user manual: “FontCreator uses several data files for advanced settings and customizations. Normally most files are stored in a system folder where they cannot be changed.” In order to edit most files directly they either must have administrator permissions or change the owner (this can be done with `takeown /f filename` and `icacls filename /grant user` in text mode or **Security: Advanced: Owner: Edit** in Windows XP, Vista and 7 and **Security: Advanced: Owner: Change** in Windows 8 and 10 in file properties in graphical mode).
