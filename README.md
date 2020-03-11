@@ -21,7 +21,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 6. Login as `gurumukhi` (current owner) to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
-**GitHub web interface** - Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see the message in the log.
+**GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or leave the default message as is.
@@ -36,7 +36,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 4. Login as `gurumukhi` (current owner) to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-**GitHub web interface** - Only works when logged in as the current owner. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
+**GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message and replace these words with your name, email and citation.
@@ -65,7 +65,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above
-* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as they'll be closed by the first owner. This will result in unmerged commits!
+* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as a comment is added and closed by the first owner. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
@@ -81,10 +81,10 @@ All translations are in ts format. Generated translations are found in [CMakeLis
 * Danish (da_DK)
 * Esperanto (eo)
 * Finnish (fi_FI)
-* German (de_DE) – Unmerged pull request created for inclusion
+* German (de_DE) – **Note:** Unmerged pull request created for inclusion
 * Hungarian (hu_HU)
 * Korean (ko_KR)
-* Polish (pl_PL) – Unmerged pull request created for inclusion
+* Polish (pl_PL) – **Note:** Unmerged pull request created for inclusion
 * Portuguese, as spoken in Brazil (pt_BR)
 * Romanian (ro_RO) – Contributed by Nicolae Oprea
 * Spanish (es_ES)
