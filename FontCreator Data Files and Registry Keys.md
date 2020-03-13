@@ -260,7 +260,7 @@ The menu was added to the Tools menu in version 4.5 and there are three built-in
 * **KerningShowGridLines** – Displays grid lines. Default is on.
 
 ### Last Time, Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The **File: Reopen** menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
+* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas the last character (#) is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed.
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
@@ -270,7 +270,7 @@ The menu was added to the Tools menu in version 4.5 and there are three built-in
 * **AutoMetricsFixedLSB** – Used with **Fixed: Left Side Bearing** spinner.
 * **AutoMetricsOpticalFactor** (version 7.0 & above) – Used with **Glyph spacing factor (usually between 20 and 30)** in Optical Metrics. Default is 27.
 * **AutoMetricsOpticalFigures** (version 7.0 & above) – Select the option in **Set character width for digits as** to 0 (Tabular figures), 1 (Proportional figures) or 2 (No change). Default is 0 (Tabular figures).
-* **AutoMetricsOpticalPreview** (version 7.0 & above) – Used with **Preview Text** in Optical Metrics. Default is **Preview Text**.
+* **AutoMetricsOpticalPreview** (version 7.0 & above) – Used with **Preview Text** in Optical Metrics. The string can be up to 21 characters. Default is **Preview Text**.
 * **AutoMetricsOptionIndex2** – Set to 0 (Optical Metrics), 1 (Fixed Bearings), 2 (Fixed Width) or 3 (Fixed Height). Default is 0 (Optical Metrics).
 * **AutoMetricsWhiteSpaceAfter** – Used with **Fixed Bearings: Space after**. Default is 100.
 * **AutoMetricsWhiteSpaceBefore** – Used with **Fixed Bearings: Space before**. Default is 100.
@@ -577,7 +577,7 @@ All resources are named HL at the beginning.
 * **TSAMPLETEXTFORM** (version 7.0 & above) – Edit the list of sample text strings in `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Adds glyph members to any composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Shows a dialog to select a lookup table in the OpenType layout tables.
-* **TSHAREWAREFORM** (version 3.0 until 4.5) – If the program is detected to be running an unregistered copy after a grace period of 30 days, it shows a shareware description when pressing **Start** in `TSPLASHFORM`.
+* **TSHAREWAREFORM** (version 3.0 until 5.0) – If the program is detected to be running an unregistered copy after a grace period of 30 days, it shows a shareware description when pressing **Start** in `TSPLASHFORM`.
 * **TSORTGLYPHSFORM** (version 5.6 until 6.5) – Changes the glyph order within a font (replaced with **Tools: Sort Glyphs** in version 7.0 & above). Prior to version 5.6 the glyphs are sorted in any font with the standard macOS ordering.
 * **TSPLASHFORM** – Used in unregistered copies. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) are displayed randomly. **Fun fact:** The copyright has a date of 2010.
 * **TSPTBXCOLORPICKERFORM** – Selects colors for use with colored fonts.
