@@ -18,8 +18,8 @@
 If registration is not performed during or within the grace period, the following restrictions will be imposed on the major/minor version number:
 * All versions – `TSPLASHFORM` is shown on startup. `TMAINFORMFONTCREATOR` will add a word to the title bar (version 5.0 & above) and the registration info in `TABOUTDIALOG` or `TABSTRACTABOUTDIALOG` states that the program is unregistered. After a grace period of 30 days, the message shown in `TSPLASHFORM` is replaced with messages stating that the grace period is exceeded and encourages the user to uninstall or buy the program.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, `TSHAREWAREFORM` is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
-* 4.0 (2003-05-16) until 4.5 (2004-08-17) – After a grace period of 30 days, the program cannot be used at all until the registration process is started.
-* 5.0 (2005-01-12) until 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
+* 4.0 (2003-05-16) until 5.0 (2005-01-12) – After a grace period of 30 days, the program cannot be used at all unless it is registered.
+* 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
 * 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2565 (2020-03-06) – The program will hide the developer tools menu if it is shown and randomly replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
@@ -681,11 +681,11 @@ These buttons are shown when editing the GPOS kerning tables. The values at the 
 As of version 12.0.0.2560, a proofing button was added to the top right corner of the preview area.
 
 ### OpenType Layout Feature Code Editor (`TCODEEDITORFORM`)
-* Debugger dropdown list – Selecting OTLFD (OpenType Layout Feature Designer), VOLT or FAE will discard changes to the code or load the original code.
+* Debugger dropdown list – Selecting OTLFD (OpenType Layout Feature Designer), VOLT or FAE will either discard code changes or load the original code.
 * Checkbox: **Debug: VOLT.UseGlyphIds** – For use with fonts with VOLT projects only.
 
 ### Font Test Window (`TFONTTESTFORM`)
-The context menu has two paste options and has a multiline text field at the bottom (`Memo1`) using the same text for `mmFontTest` in Arial Bold. Double-clicking the multiline text field at the bottom changes the font and size.
+The context menu has two paste options and has a multiline text field at the bottom (`Memo1`) with the same text for `mmFontTest` in Arial Bold (13 points). Double-clicking the multiline text field at the bottom changes the font and size.
 
 ### Options Window (`TOPTIONSFORM`)
 The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0).
