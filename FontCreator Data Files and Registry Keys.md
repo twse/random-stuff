@@ -20,7 +20,7 @@ If registration is not performed during or within the grace period or fails beca
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, `TSHAREWAREFORM` is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 5.0 (2005-01-12) – After a grace period of 30 days, the program cannot be used at all unless it is registered.
 * 5.5 (2006-05-30) and 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
-* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
+* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be tested (version 6.0), installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
 * 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
 * 12.0.0.2543 (2019-07-10) until 12.0.0.2565 (2020-03-06) – The program will hide the developer tools menu and some developer options if shown and randomly replace some glyphs in generated fonts with the company's logo. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
 
@@ -599,7 +599,9 @@ The company hid debugging and other options in the RC Data resources using `Visi
 
 ### Main Form (`TMAINFORMFONTCREATOR`)
 **Menu Items**
-* **Edit: Knife** – Use the same option in the **Glyph** toolbar (this menu item does nothing when selected).
+* **Edit: Knife** – Does not work. Use the same option in the **Glyph** toolbar.
+* **Edit: Join Contours** – Use the Union option in the **Glyph** toolbar.
+* **Edit: Split Contours** – Use the Knife option in the **Glyph** toolbar.
 * **Insert: Character...** (version 4.0 & above) – The option is visible since version 5.0 & above.
 * **View: Toolbars: Tab Bar** – This will hide the tabs if version 6.1 up to 11.5 is used. Does not work with the 12th major version.
 * **Font: TODO! Problem Report...** – This item is in version 3.0 and is implemented as `TVALIDATIONWIZARDFORM` in version 4.0 & above.
