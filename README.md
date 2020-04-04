@@ -1,6 +1,6 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys.md**: Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
-* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who do not have Mozillians or Mozilla Bugzilla profiles. This includes former staff who have not updated their email address on Mozillians and Mozilla Bugzilla.
+* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not updated their email address on Mozilla Bugzilla.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
@@ -13,12 +13,12 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Bulk-add everyone to the Mozilla credits list
 **Command line** - You won't receive any emails when your name is added - this will see the message in the log.
-1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
+1. Clone the `mozilla/community-data` repository with the GitHub domain (use either https or git for protocol).
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit changes via `git commit -a -m "message"` replaced with your own message.
-6. Login as `gurumukhi` (current owner) to push changes.
+6. Login as `shahbazalam17dec` to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see the message in the log.
@@ -33,10 +33,10 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
-4. Login as `gurumukhi` (current owner) to push changes.
+4. Login as `shahbazalam17dec` to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-**GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
+**GitHub web interface** - Do this only when logged in as the second owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message and replace these words with your name, email and citation.
@@ -53,7 +53,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 **GitHub web interface**
-1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
+1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
 2. Edit or remove your entry.
 3. Enter any commit message or leave the default message as is.
 4. Use the default option which commits directly to `master`.
@@ -61,14 +61,14 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owners:** Ram Dayal Vaishnav, Mohammad Shahbaz Alam (2017-present – source repository collaborators)
-* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN)
+* **Owner:** Mohammad Shahbaz Alam (2019-present – source repository collaborator)
+* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
-* **URL:** See second file entry in the index above
-* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as a comment is added and closed by the first owner. This will result in unmerged commits!
+* **URL:** See second file entry in the index above or use the global community link in the Firefox about dialog.
+* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as the owner will add a comment and close it. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages which uses his main page.
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used).
 
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
