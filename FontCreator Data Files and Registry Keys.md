@@ -13,6 +13,7 @@
 * In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) mapping to the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the output encoding for the program and exported kerning pairs while version 7.0 (2013-04-25) & above uses Unicode.
 * The PostScript names modified when opening fonts in Font Creator Program 3.0 and 4.0 are as follows: the full stop at **.notdef** is removed, **nonmarkingreturn** changes to **CR** and **exclamdown** changes to **exclamationdown**.
+* High-Logic used to mirror the installer in its own domain derived from the program name up to version 6.1.
 
 ## Unregistered version limitations
 If registration is not performed during or within the grace period or fails because of an invalid registration key, the following restrictions will be imposed on the version number:
@@ -27,7 +28,7 @@ If registration is not performed during or within the grace period or fails beca
 ## Windows version compatibility
 | Operating system              | Latest version |
 |-------------------------------|----------------|
-| Windows Vista and later       | 12.0.0.2565    |
+| Windows Vista and later       | 13.0.0.2613    |
 | Windows XP                    | 10.0           |
 | Windows 2000                  | 7.0            |
 | Windows 95, 98, ME and NT 4.0 | 6.0.1          |
@@ -90,7 +91,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **PasteSpecialOutlineData** – This option will paste outline data. Default is on.
 
 ### Externals (used in Tools: Launch Externals)
-The menu was added to the Tools menu in version 4.5 and there are three built-in external programs: **MainType** (version 5.6 & above, it hides if the program is not installed), **Fonts Folder** and **Character Map** (you can get rid of it in Windows 95 up to Windows XP via **Control Panel: Add or Remove Programs: Add/Remove Windows Features: Components: Accessories and Utilities: Accessories: Character Map** or in Windows Vista & above by taking ownership of `charmap.exe` – executable file and `charmap.exe.mui` – translated strings and deleting it).
+The menu was added to the Tools menu in version 4.5 and there are three built-in external programs: **MainType** (version 5.6 & above, it hides if the program is not installed), **Fonts Folder** and **Character Map** (you can get rid of it in Windows 95 up to Windows XP via **Control Panel: Add/Remove Programs: Add/Remove Windows Features: Components: Accessories and Utilities: Accessories: Character Map** or in Windows Vista & above by taking ownership of `charmap.exe` – executable file and `charmap.exe.mui` – translated strings used by language packs and deleting it).
 * **Location#** – The last character contains three values. Default is empty.
 * **Title#** – The last character contains three values. Default is **External #** whereas the last character is a number.
 
@@ -297,14 +298,14 @@ All keys beginning with Include are enabled by default.
 * **CPSPKind** – Used with the dropdown box at **Spacing and Positioning: Capital Spacing (cpsp)**. Default is 0 (Percentage of advance width).
 * **CPSPPerc** – Contains the percentage in the **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5.00%.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. This includes unicase glyphs.
-* **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**.
+* **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. This feature generates lookups for all pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* block of Unicode.
 * **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. In order to include this feature, each letter should have anchors.
 * **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. This feature excludes fullwidth Latin characters. Only useful for proportional fonts, so including it in monospaced or pixelated fonts may cause metrics issues.
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**.
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
 * **IncludeCursive** – Used with **Spacing and Positioning: Cursive Positioning (curs)**. Only useful for connecting script fonts.
 * **IncludeDlig** – Used with **Other Forms and Variants: Discretionary Ligatures (dlig)**.
-* **IncludeFina** – Used with **Terminal Forms (fina, fin2, fin3)**. This feature uses several terminal characters from the *Arabic* ranges of Unicode.
+* **IncludeFina** – Used with **Terminal Forms (fina, fin2, fin3)**. This feature uses several terminal characters from the *Arabic* ranges of Unicode. The last two features are used for the Syriac script only.
 * **IncludeFractions** – Used with **Numerals: Fractions (diagonal) (frac, dnom, numr)**.
 * **IncludeFractionsAdv** – Used with **Numerals: Fractions (diagonal) (frac, dnom, numr): Extended (smart math format)**.
 * **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode. The `hlig` feature uses the ſt ligature from the *Alphabetic Presentation Forms* range of Unicode and ligatures that are made up of glyphs beginning with ſ.
@@ -313,13 +314,13 @@ All keys beginning with Include are enabled by default.
 * **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five Latin characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in monospaced or pixelated fonts may cause bugs (e.g. Noto Sans Mono).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
 * **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**. This feature is used for Catalan (CAT) to replace l· with the character from *Latin Extended-A*, Dutch (NLD and FLE) to replace ij and íj́ with its own ligatures, Turkish (TRK) to replace i for case sensitivity and Romanian and Moldavian (ROM and MOL) to replace ş and ţ (cedilla) with ș and ț (comma).
-* **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. This feature is useful for some languages, e.g. Hungarian (HUN) or Polish (POL) to reverse slant or rotate the acute in áéíóú (őű) or ćńóśź or French (FRA) to change the metrics for thin space.
-* **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses several medial characters from the *Arabic* ranges of Unicode.
+* **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. Only works for languages with Arabic, Greek, Hebrew or Latin scripts. This feature is useful for some languages, e.g. Hungarian (HUN) or Polish (POL) to reverse slant or rotate the acute in áéíóú (őű) or ćńóśź or French (FRA) to change the metrics for thin space.
+* **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses several medial characters from the *Arabic* ranges of Unicode. The secondary feature is used for the Syriac script only.
 * **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses circled letters and numbers from the *Enclosed Alphanumerics* block and initial, isolated, medial or terminal characters from the *Arabic* ranges of Unicode.
 * **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. In order to generate this feature, PostScript names for each glyph should have `.onum` at the end.
 * **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**. This feature creates a substitution for numero (capital N and small o with or without full stop) if the glyph exists in the *Letterlike Symbols* block of Unicode and substitutions for letters and numbers.
-* **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**.
-* **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace two letters with chess pieces.
+* **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**. If no glyphs ending with `.ordn` or `.sups` are found it creates substitutions for a to feminine ordinal and o to masculine ordinal.
+* **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. The first method uses the bullet. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace two letters with chess pieces.
 * **IncludePetiteCapitals** – Used with **Other Forms and Variants: Petite Capitals (pcap, c2pc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only common punctuation and the Latin, Greek and Cyrillic alphabets with diacritics for Classical Sanskrit (without Vedic Sanskrit).
 * **IncludePnum** – Used with **Numerals: Proportional Figures (pnum)**. In order to generate this feature, PostScript names for each glyph should have `.pnum` at the end.
 * **IncludeSalt** – Used with **Other Forms and Variants: Stylistic Alternates (uses ss01) (salt)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace Classical Sanskrit text using the Velthuis system.
@@ -636,6 +637,7 @@ The company hid debugging and other options in the RC Data resources using `Visi
 
 **Toolbar Buttons** – The last four buttons are enabled if simple glyphs are edited.
 * Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option. The second **Open** option is a blank icon.
+* **Next Glyph** in the **Validation** toolbar – Does not work.
 * **Tools: Generate Glyph Names** (First letters of last two words) – Save glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator12\generatednames.txt`. Create the user `EDenissen` (Erwin Denissen) to use this feature. The button is hidden if FontCreator 12 is detected to be running an unregistered copy.
 * **Glyph: Smooth Curves** (First letter) – Smooths all curves.
 * **Glyph: Smooth and Align Curves** (First letter of first and third words) – Smooths and aligns curves.
@@ -676,16 +678,16 @@ The third panel changes the advance width with check boxes to center the glyph a
 These buttons are shown when editing the GPOS kerning tables. The values at the beginning has a capital D in square brackets.
 * **Clear Values** – Set the kerning value for all kerning pairs to 0.
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
-* **Clean Up** – Removes all kerning pairs that have a kerning value of 0. Version 3.0 through 6.5 will remove pairs that are made up with glyphs that are not assigned to any Unicode character (except in version 7.0 & above).
+* **Clean Up** – Removes all kerning pairs that have a kerning value of 0. Version 3.0 through 6.5 removes pairs that are made up with glyphs that are not connected to any Unicode character (except in version 7.0 & above).
 
-As of version 12.0.0.2560, a proofing button was added to the top right corner of the preview area.
+As of version 12.0.0.2560, a proofing button was added to the top right corner of the preview area (the feature is implemented since version 13.0).
 
 ### OpenType Layout Feature Editor (`TCODEEDITORFORM`)
 * Debugger dropdown list – Selecting OTLFD (OpenType Layout Feature Designer), VOLT or FAE will either discard code changes or load the original code.
 * Checkbox: **Debug: VOLT.UseGlyphIds** – For use with fonts with Microsoft VOLT projects only.
 
 ### Font Test Window (`TFONTTESTFORM`)
-The context menu for the multiline text field at the top (`mmFontTest) has two paste options and has a multiline text field at the bottom (`Memo1`) with the same text for `mmFontTest` in Arial Bold (13 points). Double-clicking the multiline text field at the bottom changes the font and size.
+The context menu for the multiline text field at the top (`mmFontTest`) has two paste options and has a multiline text field at the bottom (`Memo1`) with the same text for `mmFontTest` in Arial Bold (13 points). Double-clicking the multiline text field at the bottom changes the font and size.
 
 ### Options Window (`TOPTIONSFORM`)
 The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0).
