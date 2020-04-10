@@ -18,7 +18,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit changes via `git commit -a -m "message"` replaced with your own message.
-6. Login as `shahbazalam17dec` to push changes.
+6. Login as `shahbaz17` to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see the message in the log.
@@ -33,7 +33,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
-4. Login as `shahbazalam17dec` to push changes.
+4. Login as `shahbaz17` to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the second owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
@@ -49,7 +49,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 2. Rebase the repository with a large number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
-5. Save it, login as `gurumukhi` (current owner) and force push the changes.
+5. Save it, login as `shahbaz17` and force push the changes.
 6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 **GitHub web interface**
