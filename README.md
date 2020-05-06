@@ -67,9 +67,8 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
 * **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as the owner will add a comment and close it. This will result in unmerged commits!
 
-## Index of protest pages (requires JavaScript; available in five versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used).
-
+## Index of protest pages (requires JavaScript; available in five versions as a zipped archive)
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). In all subdirectories of this archive is an unsupported browser page which some websites have it (e.g. iCloud or Klim Type Foundry).
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
