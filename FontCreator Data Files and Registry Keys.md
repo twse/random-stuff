@@ -28,7 +28,7 @@ If registration is not performed during or within the grace period or fails beca
 ## Windows version compatibility
 | Operating system              | Latest version |
 |-------------------------------|----------------|
-| Windows Vista and later       | 13.0.0.2613    |
+| Windows Vista and later       | 13.0.0.2630    |
 | Windows XP                    | 10.0           |
 | Windows 2000                  | 7.0            |
 | Windows 95, 98, ME and NT 4.0 | 6.0.1          |
