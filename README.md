@@ -12,8 +12,8 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
 ## Bulk-add everyone to the Mozilla credits list
-**Command line** - You won't receive any emails when your name is added - this will see the message in the log.
-1. Clone the `mozilla/community-data` repository with the GitHub domain (use either https or git for protocol).
+**Command line** - They won't receive emails when everyone is added - this will see the message in the log.
+1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Save the file as .csv (comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
@@ -21,7 +21,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 6. Login as `shahbaz17` to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
-**GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see the message in the log.
+**GitHub web interface** - Do this only when logged in as the current owner in the module info below. They won't receive emails when everyone is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or leave the default message as is.
@@ -30,14 +30,14 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Add yourself to the Mozilla credits list
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
-1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
+1. Clone the `mozilla/community-data` repository.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as `shahbaz17` to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
-**GitHub web interface** - Do this only when logged in as the second owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
-1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and click the pencil at the top-right corner to edit it.
+**GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
+1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use the name &lt;email&gt;: "citation" format for the commit message and replace these words with your name, email and citation.
 4. Use the default option which commits directly to `master`.
@@ -45,7 +45,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Edit or remove yourself in the Mozilla credits list
 **Command line**
-1. Clone the `mozilla/community-data` repository with the GitHub domain before the https or git protocol.
+1. Clone the `mozilla/community-data` repository.
 2. Rebase the repository with a large number to display all commits in the log.
 3. Edit the `names.csv` file to change or remove your entry.
 4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
@@ -53,7 +53,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 **GitHub web interface**
-1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and the pencil at the top-right corner to edit it.
+1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and edit it with the pencil at the top-right corner.
 2. Edit or remove your entry.
 3. Enter any commit message or leave the default message as is.
 4. Use the default option which commits directly to `master`.
@@ -64,7 +64,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 * **Owner:** Mohammad Shahbaz Alam (2019-present – source repository collaborator)
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
-* **URL:** See second file entry in the index above or use the global community link in the Firefox about dialog.
+* **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
 * **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as the owner will add a comment and close it. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions)
@@ -76,7 +76,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
 
 ## Index of EasyPaint translations into multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-01.
+All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-02-08.
 
 * Danish (da_DK)
 * Esperanto (eo)
