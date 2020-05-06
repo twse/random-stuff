@@ -1,6 +1,6 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys.md**: Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
-* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not updated their email address on Mozilla Bugzilla.
+* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
