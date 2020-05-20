@@ -1,7 +1,7 @@
 ﻿# Index
-* **FontCreator Data Files and Registry Keys.md**: Shows a list of data files, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
+* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses.
-* **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names used to spam the legacy SitePal forum, which includes but are not limited to antibiotics, carbohydrates, pharmaceutics etc. etc. etc. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* **SitePal Forum Drug Words.htm**: Shows a list of medicine product brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
 Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the last version to support creating only ordinary Unicode fonts. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
@@ -39,7 +39,7 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
-3. Use the name &lt;email&gt;: "citation" format for the commit message and replace these words with your name, email and citation.
+3. Use name &lt;email&gt;: "citation" as the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
@@ -61,11 +61,11 @@ Created with CrystalTile2 and FontCreator 5.6 (2007) – FontCreator 6.5 is the 
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla.
-* **Owner:** Mohammad Shahbaz Alam (2019-present – source repository collaborator)
-* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019)
+* **Owner:** Mohammad Shahbaz Alam (2019-present – write access only)
+* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – write access only)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
-* **Note:** Please do not submit direct pull requests for additions or modifications not done via the form or replies to application acceptance message, as the owner will add a comment and close it. This will result in unmerged commits!
+* **Note:** Please do not submit pull requests for additions or modification not done via the form or application acceptance message replies, as the owner will add a comment and close it. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions as a zipped archive)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). In all subdirectories of this archive is an unsupported browser page which some websites have it (e.g. iCloud or Klim Type Foundry).
