@@ -3,14 +3,14 @@ The contents of these files below has everyone listed in alphabetical order by l
 ## Python Software Foundation Contributor Agreement (PSF Contributor Signatories.htm)
 Python Software Foundation has a contributor license agreement that you must sign to review or merge pull requests when contributing to Python.
 
-Submissions are done in two days apart. You will receive a verification email and [Python's own issue tracker](https://bugs.python.org/) will see an asterisk after the username for every posted comment. A bot known by the GitHub user **the-knights-who-say-ni** will add the label **CLA signed** or **CLA not signed** to created pull requests.
+Submissions are done in two days apart. You will receive a verification email and [Python's own issue tracker](https://bugs.python.org/) will see an asterisk after the username for every posted comment. A bot known by the username **the-knights-who-say-ni** will add **CLA signed** or **CLA not signed** for every pull request you created.
 
 This list represents but a portion of the people who have signed the Python Software Foundation Contributor Agreement.
 
 **P.S.** Don't add your name here, unless you really *are* after Marien alphabetically.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
-Ubuntu has a code of conduct that you may sign with Launchpad or the assistant in this file - many teams require to do this (e.g. Ubuntu Bug Squad).
+Ubuntu has a code of conduct that you may sign with Launchpad or the assistant in this file - many teams have a requirement of doing this such as the [Ubuntu BugSquad](https://launchpad.net/~bugsquad).
 
 The Ubuntu product has very much been a team effort from development teams around Canonical and many, many people have contributed. This list represents but a portion of the people who have signed the Ubuntu Code of Conduct.
 
