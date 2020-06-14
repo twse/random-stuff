@@ -11,7 +11,10 @@ Created with CrystalTile2 and FontCreator 5.0 and 5.6. All except LTROL Font and
 * **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font in the IBM ThinkPad Power Series 820 terminal or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
-## Bulk-add everyone to the Mozilla credits list
+## Doing manual additions in the Mozilla credits list
+It will be useful if you want to modify the `names.csv` file without filling in the form, so it could be worth doing manual updates if you have no knowledge with or intent on Google Forms.
+
+### Bulk addition
 **Command line** - They won't receive emails when everyone is added - this will see the message in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
@@ -19,29 +22,29 @@ Created with CrystalTile2 and FontCreator 5.0 and 5.6. All except LTROL Font and
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit changes via `git commit -a -m "message"` replaced with your own message.
 6. Login as the current owner (see module info below) to push changes.
-7. View the Mozilla credits list to change the last updated date and add the entries.
+7. View the Mozilla credits list to change the last updated date (American style) and add the entries.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. They won't receive emails when everyone is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
-3. Enter any commit message or leave the default message as is.
+3. Enter any commit message or use the default message.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date and add the entries.
+5. View the Mozilla credits list to change the last updated date (American style) and add the entries.
 
-## Add yourself to the Mozilla credits list
+### One name
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as the current owner (see module info below) to push changes.
-5. View the Mozilla credits list to change the last updated date and add your entry.
+5. View the Mozilla credits list to change the last updated date (American style) and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use name &lt;email&gt;: "citation" as the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date and add your entry.
+5. View the Mozilla credits list to change the last updated date (American style) and add your entry.
 
 ## Edit or remove yourself in the Mozilla credits list
 **Command line**
@@ -65,7 +68,7 @@ Created with CrystalTile2 and FontCreator 5.0 and 5.6. All except LTROL Font and
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – write access only)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
-* **Note:** Please do not submit pull requests for additions or modifications not done via the form or application acceptance message replies, as the owner will add a comment and close it. This will result in unmerged commits!
+* **Note:** Pull requests for additions without filling the form or modifications without replying to application acceptance messages are closed with a comment. This will result in unmerged commits!
 
 ## Index of protest pages (requires JavaScript; available in five versions as a zipped archive)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). In this archive is an unsupported browser page which many websites have it (e.g. iCloud, PayPal or Kroger).
@@ -73,7 +76,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
-* **Page Load Error** (Firefox 2.0 until 53.9.0 and some other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
+* **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-02-08.
