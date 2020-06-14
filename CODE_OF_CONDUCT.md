@@ -14,4 +14,4 @@ Ubuntu has a code of conduct that you may sign with Launchpad or the assistant i
 
 The Ubuntu product has very much been a team effort from development teams around Canonical and many, many people have contributed. This list represents but a portion of the people who have signed the Ubuntu Code of Conduct.
 
-**P.S.** Don't add your name here, unless you really *are* after Hatem alphabetically.
+**P.S.** Don't add your name here, unless you really *are* after Hatem alphabetically. If your Launchpad account is deactivated after having signed the Ubuntu Code of Conduct, delete your entry permanently.
