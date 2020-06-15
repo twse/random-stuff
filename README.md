@@ -63,7 +63,7 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 ## Mozilla credits list module info
-* **Description:** Shows a list of all those who contributed to Mozilla.
+* **Description:** Shows a list of all those who contributed to Mozilla. (Source: about URI scheme, Wikipedia)
 * **Owner:** Mohammad Shahbaz Alam (2019-present – write access only)
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – write access only)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
