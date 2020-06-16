@@ -1,10 +1,10 @@
 ﻿# Index
 * **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
-* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses.
-* **SitePal Forum Drug Words.htm**: Shows a list of medicine product brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not created their account or updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses.
+* **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 
 ## Index of fonts
-Created with CrystalTile2 and FontCreator 5.0 and 5.6. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
+Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
 * **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
@@ -18,7 +18,7 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 **Command line** - They won't receive emails when everyone is added - this will see the message in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
-3. Save the file as .csv (comma separated value).
+3. Save the file as .csv (the file extension means comma separated value).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit changes via `git commit -a -m "message"` replaced with your own message.
 6. Login as the current owner (see module info below) to push changes.
@@ -74,7 +74,7 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). In this archive is an unsupported browser page which many websites have it (e.g. iCloud, PayPal or Kroger).
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` opens the network diagnostic tool).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
 * **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
 
