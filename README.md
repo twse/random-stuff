@@ -62,6 +62,11 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
+### Modifying the Perl or Python script to add entries whose notes are not qualified for inclusion in the Mozilla credits list
+The script is called check-names and is located in the `credits` directory in the `mozilla/community-data` repository.
+* To modify the Perl script, you see the line saying next if $notes ne, change it to N, Non Qual or Not enough evidence yourself.
+* To modify the Python script, you see the line saying if row[-2], change it to N, Non Qual or Not enough evidence yourself.
+
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla. (Source: about URI scheme, Wikipedia)
 * **Owner:** Mohammad Shahbaz Alam (2019-present – write access only)
