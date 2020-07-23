@@ -62,21 +62,22 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
-### Modifying the Perl or Python script to add entries whose notes are not qualified for inclusion in the Mozilla credits list
-The script is called check-names and is located in the `credits` directory in the `mozilla/community-data` repository.
-* To modify the Perl script, you see the line saying next if $notes ne, change it to N, Non Qual or Not enough evidence yourself.
-* To modify the Python script, you see the line saying if row[-2], change it to N, Non Qual or Not enough evidence yourself.
+### Modifying the Perl or Python script to add entries with unqualified notes in the Mozilla credits list
+The script is called **check-names** and is located in the `credits` directory in the `mozilla/community-data` repository.
+* To modify the Perl script (file extension `.pl`), you see **next if $notes ne "Y";** in the 70th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
+* To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla. (Source: about URI scheme, Wikipedia)
-* **Owner:** Mohammad Shahbaz Alam (2019-present – write access only)
-* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – write access only)
+* **Owner:** Mohammad Shahbaz Alam (2019-present – GIT)
+* **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
-* **Note:** Pull requests for additions without filling the form or modifications without replying to application acceptance messages are closed with a comment. This will result in unmerged commits!
+* **Note:** Pull requests for additions not done via the form or modifications not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
+* **Fun fact:** Gervase Markham created and owned the form linked to the credits page and its responses spreadsheet.
 
-## Index of protest pages (requires JavaScript; available in five versions as a zipped archive)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). In this archive is an unsupported browser page which many websites have it (e.g. iCloud, PayPal or Kroger).
+## Index of protest pages (requires JavaScript; available in five versions)
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). It includes an unsupported browser page which many websites have it (e.g. iCloud, VKontakte, PayPal, Kroger, etc.).
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
