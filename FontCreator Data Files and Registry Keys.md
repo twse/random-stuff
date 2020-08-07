@@ -50,7 +50,7 @@ If registration is not performed during or within the grace period or fails beca
 * **fntXX.tmp** or **fntXXX.tmp** – Temporary font used when saving (the last two or three characters in the filename is a letter and/or number combo).
 * **FontCreatorSetup.exe** – Install the Win32 version.
 * **FontCreatorSetup-x64.exe** (version 11.0 & above) – Install the Win64 version.
-* **FontCreator.tip** (version 2.0 until 6.5) – Contains paragraphs in `TTIPOFTHEDAYFORM` to store tips and tricks. The window will appear empty if removed.
+* **FontCreator.tip** (version 2.0 until 6.5) – Contains the tips and tricks used by `TTIPOFTHEDAYFORM`. The window will appear empty if removed.
 * **FontCreator YYYYMMDD HHMMSS ###.dat/prd** (version 12.0) – Contains crash info (located in `ProgramData\High-Logic\Errors` – YYYYMMDD HHMMSS ### is the timestamp and random numbers). Prior to FontCreator 12.0.0.2561 it includes the Call Stack Information.
 * **FontInstaller.dll** (version 2.0 until 6.5) and **FontInstaller2.dll** (version 7.0 & above) – Dynamic link libraries used by `TFONTINSTALLFORM` to install fonts.
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list located in `TMAINFORMFONTCREATOR` but **xi** is duplicated as U+0000.
@@ -110,7 +110,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 
 ### Fonts (used in the Font tab in `TOPTIONSFORM` – default is on for all options)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**.
-* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data** along with its secondary option.
+* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data** and its secondary option.
 * **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**.
 * **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**.
 
@@ -173,7 +173,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150.
 
 ### Install (version 3.0 until 6.5, used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** – Disable this option if you don't want to **Install the font in Windows Fonts folder**. Default is on. In Windows Vista & above, it adds the UAC shield to the button.
+* **InstallFontsInFontsFolder** – **Install the font in Windows Fonts folder**. Default is on. In Windows Vista & above, it adds the UAC shield to the button.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Set the height in the font preview area (version 5.5 & above) at the bottom. Default is 124.
@@ -263,7 +263,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **KerningShowGridLines** – Displays grid lines. Default is on.
 
 ### Last Time, Most Recently Used Files, Most Recently Used Projects
-* **File_#** – Include fonts from last time or fonts and/or projects in the **File: Reopen** menu whereas # is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed. When opening a non-existing file before version 7.0 the file is removed. When opening a non-existing file after version 7.0 the file is not removed.
+* **File_#** – Include fonts and/or projects opened from last time or recently used in the **File: Reopen** menu whereas # is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed. When opening a non-existing file before version 7.0 the file is removed (after version 7.0 it is kept).
 
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
@@ -298,7 +298,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **ZoomFactor** – Zooms the OpenType Designer. Default is 12.
 
 ### OpenType Generator (version 12.0.0.2521 & above, used in `TFEATURESETTINGSFORM`)
-All keys beginning with Include are enabled by default. Other features (e.g. half forms or distances for Indic scripts) have no inclusion options; the tables are created manually with the add button at the top left corner of `TOPENTYPEDESIGNERFORM` or via `TCODEEDITORFORM`.
+All keys beginning with Include are enabled by default. Other features (e.g. half forms or distances for Indic scripts) have no inclusion options; use the add button at the top left corner of `TOPENTYPEDESIGNERFORM` or via `TCODEEDITORFORM` to manually create the tables.
 * **CPSPKind** – Used with the **Spacing and Positioning: Capital Spacing (cpsp)** dropdown box. Default is 0 (Percentage of advance width).
 * **CPSPPerc** – Contains the percentage in the **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5.00%.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**.
@@ -341,7 +341,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 ### OpenType Proofing (version 13.0 & above, used in `TOPENTYPEDESIGNERPROOFINGFORM`)
 * **Compact** – Used with **Compact**. Default is on.
 * **Filter** – Used with **Filter**. Default is on.
-* **FontSize** – Changes font size. Default is 32.
+* **FontSize** – Changes the font size. Default is 32.
 * **PreviewHeight** – Changes height in the preview area. Default is 120.
 * **SpecialFill** – Used with **Special Fill**. Default is on.
 
@@ -517,7 +517,7 @@ All resources are named HL at the beginning.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes in the font.
-* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). The dialog is shown either once or many times before exporting or testing fonts (recent versions).
+* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions).
 * **TDM** (version 4.0 & above) – Contains icons with no regard to `Glyph.Data` in old versions. Version 5.5 (2006-05-30) until 11.0.0.2365 (2017-05-10) uses Windows XP-style icons.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data.
 * **TEDITANCHORFORM** (version 7.0 & above) – Edits anchors in the font if any glyph has positioning data.
@@ -529,12 +529,12 @@ All resources are named HL at the beginning.
 * **TFINDFORM** – Searches parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** (version 2.0 until 6.5) – Shows a list of embedding or licensing rights to use in the font (replaced with **Legal: Embedding Licensing Rights** in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
-* **TFONTINSTALLWIZARDFORM** – Install the font on the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename.
+* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename.
 * **TFONTLOGFORM** – Displays the log for any font (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows all glyphs in any font.
 * **TFONTPROPERTIESFORM** – Contains properties and unsupported tables (version 7.0 & above) in the font. If non-Unicode language is East Asian (e.g. Korean), in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII versions, e.g. Wästman by Wastman (not Waestman) and some Latin-1 symbols by fullwidth versions, e.g. £ by ￡ or other symbols, e.g. « by ≪.
 * **TFONTSETTINGSFORM** – Contains basic naming fields or metric settings, Unicode and code page ranges, gasp ranges and more.
-* **TFONTTABLESFORM** (version 2.0 until 6.5) – Contains supported and unsupported tables in the font (unsupported tables is a separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
+* **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables is a separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
 * **TFONTTESTFORM** – Test desktop fonts (not web fonts). The text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, uppercase, lowercase and numbers with all DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the DOS/Windows Latin-1 and USA characters at the end). Version 1.1.1c until 5.0 allows the user to change the encoding (it was dropped with version 5.5 & above).
 * **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if positioning data exists.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Shows an interface for changing options in `TOPENTYPEDESIGNERFORM`.
@@ -545,7 +545,7 @@ All resources are named HL at the beginning.
 * **TGASPFORM** (version 2.0 until 6.5) – Manages gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above). This corresponds to the `gasp` table.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM`.
-* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
+* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. In version 7.0 & above the message is textual.
 * **TGLYPHEDITFORM** – Used when opening any glyph from `TFONTOVERVIEWFORM`.
 * **TGLYPHNAMEFORM** (version 7.0 & above) – Changes the PostScript names in the font (**Tools: Glyph Names**).
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Contains postscript name, glyph metrics/bearings and character mappings.
@@ -576,11 +576,12 @@ All resources are named HL at the beginning.
 * **TPERFORMTRANSFORMATIONFORM** (version 4.5 & above) – Used after transforming each glyph.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.5) – Choose which platform to support in the font (replaced with **Tools: Convert Font** in version 7.0 & above in `TMAINFORMFONTCREATOR`).
 * **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.5) – Changes the PostScript names in the font (replaced with **Tools: Glyph Names** in version 7.0 & above in `TMAINFORMFONTCREATOR`). The menu item was called **Tools: TODO! AutoPost...** (invisible) in version 3.0 until 5.6 and dropped after version 6.0.
-* **TPRINTABORTFORM** – Used after the font printing process is started.
+* **TPRINTABORTFORM** – Used after starting the font printing process.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
-* **TPRINTGLYPHFORM** – Used when printing glyphs.
+* **TPRINTGLYPHFORM** – Used when printing glyphs in the font.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – The cursor for this form is **Busy**.
-* **TREGISTERFORMEX** and **TREGISTERFORMFC** (version 1.0.6 & above, **TREGISTERFORM** in old versions) – Registers the program (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup, hides the **Buy** menu and the **Register...** item on the **Help** menu and shows the **Developer Tools** menu (if enabled in version 12.0 & above). **Fun fact:** `TREGISTERFORMEX` has its own user agent.
+* **TREGISTERFORMEX** and **TREGISTERFORMFC** (version 1.0.6 & above, **TREGISTERFORM** in old versions) – Registers the program (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup, hides the **Buy** menu and the **Help: Register...** item and shows the **Developer Tools** menu (if enabled in version 12.0 & above). **Fun fact:** `TREGISTERFORMEX` has its own user agent.
+* **TRESOURCEEDITORDLG** (unused, version 3.0) – It is a large resource.
 * **TRESOURCEMODULE** – Contains styles in `rvStyleGlobal` and icons with no regard to `Glyph.Data` in old versions.
 * **TRICHVIEWDIALOG** (unused) – Used by the rich text module. Styles are located in `RVStyle1`.
 * **TRULEMGR** (version 7.0 & above) – Manages rules in the OpenType layout tables.
@@ -594,14 +595,14 @@ All resources are named HL at the beginning.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Manages subtables in the OpenType layout tables.
 * **TTEXTREPLACEDIALOG** – Replaces text in `TCODEEDITORFORM`.
 * **TTEXTSEARCHDIALOG** – Searches text in `TCODEEDITORFORM`.
-* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Used for newcomers and **Help: Tip of the Day** (`FontCreator.tip` is used to display tips). The **Register** button is shown if the program is detected to be running an unregistered copy. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic forum for recent tips.
+* **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Shows tips and tricks (**Help: Tip of the Day**). The dialog is shown for newcomers. The **Register** button is shown if the program is detected to be running an unregistered copy. See **Tip of the Day** in **FontCreator: Tutorials and Solutions** in the High-Logic forum for recent tips.
 * **TTRANSFORMFORM** (version 4.5 & above) – Transforms the font to other weights (e.g. bold or black) or add character ranges (e.g. some characters in the *Letterlike Symbols* range of Unicode).
 * **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – If the program is detected to be running an unregistered copy, testing, installing or exporting fonts displays this message. The message has a checkbox to turn it off. The text includes a link to the registration page in the High-Logic website.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font. This corresponds to the `ulUnicodeRange` fields. **Fun fact:** The list belongs to OpenType 1.3.
-* **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 through 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. `TUPDATEFORM` has a user agent of Firefox 53.0 running on Windows 10 64-bit. `mRestart` in `TUPDATEFORM` should have three lines to prevent silent termination. The program will terminate silently if `TUPDATEFORM` is removed.
+* **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 through 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. The program will terminate silently if `TUPDATEFORM` is removed or `mRestart` in `TUPDATEFORM` does not have three lines.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
-* **TUVSFORM** – Manage Unicode variation sequences used by fonts with East Asian ideographs or syllables.
+* **TUVSFORM** – Manage Unicode variation sequences used by East Asian fonts.
 * **TVALIDATIONWIZARDFORM** (version 4.0 & above) – Validates the font for errors or problems. The menu item was called **Font: TODO! Problem Report...** (invisible) in version 3.0.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TEXTENDEDWARNINGFORM** and **TWARNINGFORM** in old versions) – Used for warnings.
@@ -687,16 +688,11 @@ These buttons are shown when editing the GPOS kerning tables. The values at the 
 ### OpenType Layout Feature Editor (`TCODEEDITORFORM`)
 * Checkbox: **VOLT.UseGlyphIds** – The checkbox is used for fonts with Microsoft VOLT projects only. The value at the beginning starts with Debug and a colon.
 
-### Resource Editor (`TRESOURCEEDITORDLG`)
-It only exists in version 3.0 and is a large resource.
-
 ### Font Test Window (`TFONTTESTFORM`)
 The context menu for `mmFontTest` has two paste options and has a multiline text field at the bottom (`Memo1`) with the same text for `mmFontTest` in Arial Bold (13 points). Double-click the text box to change the font and size.
 
 ### Options Window (`TOPTIONSFORM`)
-The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0).
-
-The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
+The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0). The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
 
 ### About Dialog (`TABOUTDIALOG` and `TABSTRACTABOUTDIALOG`)
 These are located in the corners of the program name, version number, copyright notice and the company's website.
