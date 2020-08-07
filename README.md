@@ -22,14 +22,14 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
 5. Commit changes via `git commit -a -m "message"` replaced with your own message.
 6. Login as the current owner (see module info below) to push changes.
-7. View the Mozilla credits list to change the last updated date (American style) and add the entries.
+7. View the Mozilla credits list to change the last updated date and add the entries.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. They won't receive emails when everyone is added - this will see the message in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or use the default message.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date (American style) and add the entries.
+5. View the Mozilla credits list to change the last updated date and add the entries.
 
 ### One name
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
@@ -37,14 +37,14 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
 3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
 4. Login as the current owner (see module info below) to push changes.
-5. View the Mozilla credits list to change the last updated date (American style) and add your entry.
+5. View the Mozilla credits list to change the last updated date and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
 2. Add your name at the end.
 3. Use name &lt;email&gt;: "citation" as the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
-5. View the Mozilla credits list to change the last updated date (American style) and add your entry.
+5. View the Mozilla credits list to change the last updated date and add your entry.
 
 ## Edit or remove yourself in the Mozilla credits list
 **Command line**
@@ -73,8 +73,8 @@ The script is called **check-names** and is located in the `credits` directory i
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
-* **Note:** Pull requests for additions not done via the form or modifications not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
-* **Fun fact:** Gervase Markham created and owned the form linked to the credits page and its responses spreadsheet.
+* **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
+* **Fun fact:** Gervase Markham owns the form linked to the credits page and its responses spreadsheet.
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for using the same content in his pages (main page used). It includes an unsupported browser page which many websites have it (e.g. iCloud, VKontakte, PayPal, Kroger, etc.).
