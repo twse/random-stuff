@@ -108,11 +108,11 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
 * **CategoryWidth** – Select the category splitter width.
 
-### Fonts (used in the Font tab in `TOPTIONSFORM` – default is on for all options)
-* **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**.
-* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data** and its secondary option.
-* **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**.
-* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**.
+### Fonts (used in the Font tab in `TOPTIONSFORM`)
+* **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
+* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data** and its secondary option. Default is on.
+* **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**. Default is on.
+* **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**. Default is on.
 
 ### FreeDraw (version 6.5 & above)
 * **BrushWidth** – Changes the **Brush width**. Default is 64.
@@ -147,8 +147,8 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used with **Lock Guidelines** in the Grid toolbar. Default is off.
 * **ShowBearings** (version 5.6 & above) – Used with **Show Metrics** in the Grid toolbar. Default is on.
 * **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in `TGRIDFORM`.
-* **ShowGrid** – Used with **Show Grid** in `TGRIDFORM` or in the Grid toolbar. Default is on.
-* **ShowUserDefinedGuidelines** – Used with **Show Guidelines** in `TGUIDELINESFORM` or in the Grid toolbar. Default is on.
+* **ShowGrid** – Used with **Show Grid** in `TGRIDFORM` or the Grid toolbar. Default is on.
+* **ShowUserDefinedGuidelines** – Used with **Show Guidelines** in `TGUIDELINESFORM` or the Grid toolbar. Default is on.
 * **SnapToGrid** (version 1.1.3 & above) – Used with **Snap to Grid** in the Grid toolbar. Default is off.
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used with **Snap to Guidelines** in the Grid toolbar. Default is off.
 
@@ -196,7 +196,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **GlyphNamesOptionsCS** – Used with **Options: Case sensitive** in `TGLYPHNAMEFORM`. Default is on.
 * **GlyphNamesOptionsRE** – Used with **Options: Regular expressions** in `TGLYPHNAMEFORM`. Default is off.
 * **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in Options: General. Default is 0 (Winding).
-* **GlyphPropsExpanded** – Glyph properties are expanded by pressing the **More** button at the bottom left corner. Default is on.
+* **GlyphPropsExpanded** – Expand glyph properties via the **More** button at the bottom left corner. Default is on.
 * **GroupManagerSorted** – Sorts the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** (version 12.0 & above) – Used by `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** (version 12.0 & above) – Select the tab in `TINSERTGLYPHFORM`.
@@ -268,8 +268,8 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 ### Metrics (used in `TAUTOMETRICSFORM`)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
 * **AutoMetricsFixedAW** – Used with **Fixed Width: Advance Width** spinner. Default is 2048.
-* **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width** spinner.
-* **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing** spinner.
+* **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width** option.
+* **AutoMetricsFixedChangeLSB** – Used with **Fixed: Change Left Side Bearing** option.
 * **AutoMetricsFixedLSB** – Used with **Fixed: Left Side Bearing** spinner.
 * **AutoMetricsOpticalFactor** (version 7.0 & above) – Used with **Glyph spacing factor (usually between 20 and 30)** in Optical Metrics. Default is 27.
 * **AutoMetricsOpticalFigures** (version 7.0 & above) – Select the option in **Set character width for digits as** to 0 (Tabular figures), 1 (Proportional figures) or 2 (No change). Default is 0 (Tabular figures).
@@ -449,20 +449,19 @@ Many people and companies provided registration keys to create cracked versions.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in the Validation tab in `TOPTIONSFORM`. Default is 100.
 * **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in the Validation tab in `TOPTIONSFORM`. Default is 25.
 
-### Warn (used in Options: Advanced – default is on for all options)
-* **WarnBeforeActivatingFixFeature** (version 4.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**.
-* **WarnBeforeActivatingRemoveFeature** (version 4.0 until 6.5) – Used with **Warn before activating a remove feature from the Options → Font page**.
-* **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**.
-* **WarnBeforeAnchorDelete** – Used with **Warn when deleting an anchor used by OpenType features**.
-* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**.
-* **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above) – Used with **Warn before executing a glyph transformer script**. The checkbox is hidden in recent versions and moved all the way down but it is documented.
-* **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**.
-* **WarnImportSmallImage** – Used with **Warn when importing small image**.
-* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**.
-* **WarnWhenProcessingVOLTTable** (version 9.0 & above) – Used with **Warn when opening a font file which contains a VOLT table**.
+### Warn (used in Options: Advanced)
+* **WarnBeforeActivatingFixFeature** (version 4.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**. Default is on.
+* **WarnBeforeActivatingRemoveFeature** (version 4.0 until 6.5) – Used with **Warn before activating a remove feature from the Options → Font page**. Default is on.
+* **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**. Default is on.
+* **WarnBeforeAnchorDelete** – Used with **Warn when deleting an anchor used by OpenType features**. Default is on.
+* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**. Default is on.
+* **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above) – Used with **Warn before executing a glyph transformer script**. Default is on. The checkbox is hidden in recent versions and moved all the way down but it is documented.
+* **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**. Default is on.
+* **WarnImportSmallImage** – Used with **Warn when importing small image**. Default is on.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**. Default is on.
+* **WarnWhenProcessingVOLTTable** (version 9.0 & above) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
 
 ## Cursors in the executable file
-All resources are named HL at the beginning.
 * **HLADDCONTOUR** – Used when adding contours.
 * **HLDUPLICATE** – Used when duplicating contours.
 * **HLFREEDRAW** and **HLFREEDRAWBUSY** – Used by **Free Draw** (version 6.5 & above).
@@ -486,7 +485,7 @@ All resources are named HL at the beginning.
 ## RC Data in the executable file
 * **CHARTABLE** (version 10.0 until 10.1.0.2272) – Contains a list of characters.
 * **CLOUDS** (unused) – Image of clouds with different colors.
-* **DESCRIPTION** (unused), **ELDATA** (unused) and **PLATFORMTARGETS** (unused) – These are binary resources.
+* **DESCRIPTION**, **ELDATA** and **PLATFORMTARGETS** (unused) – These are binary resources.
 * **DVCLAL** (unused) – Shows two paragraphs (valid license key/running C++ Builder Professional).
 * **PACKAGEINFO** (unused) – Shows all functions and the Pascal log used to compile the program.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program/operating system version number, physical memory, registration information and MPL Licensed Open Source Software (version 6.0 & above) (**Help: About...**).
@@ -500,7 +499,7 @@ All resources are named HL at the beginning.
 * **TADDGASPFORM** – Adds gasp ranges to the font (**Add** in **Smoothing: Preferred rasterization techniques** in `TFONTSETTINGSFORM`).
 * **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
 * **TADDPLATFORMFORM** (version 2.0 until 6.5) – Shows a dialog to add a platform to the font (**Add** in `TPLATFORMMANAGERFORM`).
-* **TADDUVSFORM** – Used by East Asian fonts to add Unicode variation sequences.
+* **TADDUVSFORM** – Used by fonts for East Asian languages to add Unicode variation sequences.
 * **TADVANCEDEDITFORM** – Edit a naming field in the font.
 * **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Manages anchors in the font if positioning data exists in the OpenType layout tables.
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5).
@@ -514,7 +513,7 @@ All resources are named HL at the beginning.
 * **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Views or modifies properties for members in composite glyphs.
 * **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – This confirmation dialog will ask you what to do when replacing.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images to any glyph in the font.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes in the font.
 * **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions).
@@ -531,7 +530,7 @@ All resources are named HL at the beginning.
 * **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
 * **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename.
 * **TFONTLOGFORM** – Displays the log for any font (**Developer Tools: Font Log**).
-* **TFONTOVERVIEWFORM** – Shows all glyphs in any font.
+* **TFONTOVERVIEWFORM** – Shows all glyphs after opening any font.
 * **TFONTPROPERTIESFORM** – Contains properties and unsupported tables (version 7.0 & above) in the font. If non-Unicode language is East Asian (e.g. Korean), in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII versions, e.g. Wästman by Wastman (not Waestman) and some Latin-1 symbols by fullwidth versions, e.g. £ by ￡ or other symbols, e.g. « by ≪.
 * **TFONTSETTINGSFORM** – Contains basic naming fields or metric settings, Unicode and code page ranges, gasp ranges and more.
 * **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables is a separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
@@ -602,7 +601,7 @@ All resources are named HL at the beginning.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font. This corresponds to the `ulUnicodeRange` fields. **Fun fact:** The list belongs to OpenType 1.3.
 * **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 through 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. The program will terminate silently if `TUPDATEFORM` is removed or `mRestart` in `TUPDATEFORM` does not have three lines.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
-* **TUVSFORM** – Manage Unicode variation sequences used by East Asian fonts.
+* **TUVSFORM** – Manage Unicode variation sequences used by fonts for East Asian languages.
 * **TVALIDATIONWIZARDFORM** (version 4.0 & above) – Validates the font for errors or problems. The menu item was called **Font: TODO! Problem Report...** (invisible) in version 3.0.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TEXTENDEDWARNINGFORM** and **TWARNINGFORM** in old versions) – Used for warnings.
@@ -696,6 +695,6 @@ The **General** tab has a group to associate fonts with the program itself (it i
 
 ### About Dialog (`TABOUTDIALOG` and `TABSTRACTABOUTDIALOG`)
 These are located in the corners of the program name, version number, copyright notice and the company's website.
-* **Clr** (Clear) (version 4.5 & above, top left corner) – Removes registration information (see the `Reg` section in **Registry Keys** above). In version 4.5 through 5.6 the text is colored white and is located before the registration information.
+* **Clr** (Clear) (version 4.5 & above, top left corner) – Removes registration information (see the `Reg` section in **Registry Keys** above). Before version 6.0 the text is white and is located in the registration information.
 * **Crash** (top right corner) – Displays a critical error which reads "We hope you enjoyed clicking this crash button".
 * **Trial** (bottom right corner, version 12.0 & above) – Restarts the trial period.
