@@ -502,7 +502,7 @@ Many people and companies provided registration keys to create cracked versions.
 * **TADDUVSFORM** – Used by fonts for East Asian languages to add Unicode variation sequences.
 * **TADVANCEDEDITFORM** – Edit a naming field in the font.
 * **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Manages anchors in the font if positioning data exists in the OpenType layout tables.
-* **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5).
+* **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5) if you don't want to manually add kerning pairs to the font via the OpenType Designer.
 * **TAUTOMETRICSFORM** (version 3.0.1 & above) – Automatically generate metrics for glyphs. Only useful for proportional fonts, so in general you don't have to use it in monospaced or pixelated fonts. **Fun fact:** High-Logic uses the same optical metrics adjustment user interface in their font generator *Scanahand*.
 * **TAUTONAMEFORM** (version 3.1.2 until 6.5) – Automatically change the naming fields of a font.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Edit a naming field or include additional naming fields in the font (replaced with `TFONTPROPERTIESFORM` in version 7.0 & above).
@@ -544,7 +544,7 @@ Many people and companies provided registration keys to create cracked versions.
 * **TGASPFORM** (version 2.0 until 6.5) – Manages gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above). This corresponds to the `gasp` table.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM`.
-* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. In version 7.0 & above the message is textual.
+* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. In version 7.0 & above the message is text-only (i.e. the form is removed).
 * **TGLYPHEDITFORM** – Used when opening any glyph from `TFONTOVERVIEWFORM`.
 * **TGLYPHNAMEFORM** (version 7.0 & above) – Changes the PostScript names in the font (**Tools: Glyph Names**).
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Contains postscript name, glyph metrics/bearings and character mappings.
@@ -587,7 +587,7 @@ Many people and companies provided registration keys to create cracked versions.
 * **TSAMPLETEXTFORM** (version 6.5 & above) – Edit the list of sample text strings in `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Adds glyph members to any composite glyph.
 * **TSELECTLOOKUPTABLEFORM** – Selects a lookup table in the OpenType layout tables.
-* **TSHAREWAREFORM** (version 3.0 until 5.0) – If the unregistered copy is running after a grace period of 30 days, it shows a shareware description when pressing **Start** in `TSPLASHFORM`. See the article about shareware in Wikipedia.
+* **TSHAREWAREFORM** (version 3.0 until 5.0) – For unregistered copies running after a grace period of 30 days, shows the shareware description when pressing **Start** in `TSPLASHFORM`. See the article about shareware in Wikipedia.
 * **TSORTGLYPHSFORM** (version 5.6 until 6.5) – Changes the glyph order within a font (replaced with **Tools: Sort Glyphs** in version 7.0 & above). Prior to version 5.6 the glyphs are sorted in any font with the standard macOS ordering.
 * **TSPLASHFORM** – Shows if the program is detected to be running an unregistered copy. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) are displayed randomly. **Fun fact:** The copyright in version 7.0 & above has a date of 2007-2010.
 * **TSPTBXCOLORPICKERFORM** – Selects colors when editing colored glyphs.
@@ -628,7 +628,7 @@ The company hid debugging and other options in the RC Data resources using `Visi
 * **Cut**, **Copy** and **Paste** – Uses the same commands in the **Edit** menu.
 * **Show Font Properties** – Uses the same command in the **Font** menu.
 * **Redo** – Uses the same command in the **Edit** menu.
-* Tags from **tags.txt** and **Tagged** folder (`TFONTOVERVIEWFORM`) – These menu items are automatically shown and do nothing when clicked in `TFONTOVERVIEWFORM` except when using the same items from the `TFONTOVERVIEWFORM` glyph context menu or editing glyphs in `TGLYPHEDITFORM`.
+* Tags from **tags.txt** and **Tagged** folder (`TFONTOVERVIEWFORM`) – These menu items are automatically shown and do nothing when selected in `TFONTOVERVIEWFORM` except when using the same items from the `TFONTOVERVIEWFORM` glyph context menu or editing glyphs in `TGLYPHEDITFORM`.
 
 **Developer Tools** – Contains debugging functions and developer commands (the menu is hidden if FontCreator 12 or 13 is detected to be running an unregistered copy).
 * **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create screenshots from `C:\Program Files\help\screenshots\` (32-bit) or `C:\Program Files (x86)\help\screenshots\` (64-bit). Create the folder `help\screenshots\`, use anti-aliased smoothing (version 7.0 until 11.5) and register FontCreator to use these features.
@@ -639,7 +639,7 @@ The company hid debugging and other options in the RC Data resources using `Visi
 * **Font Log** – Shows the font log (this item is hidden if FontCreator 12 or 13 is detected to be running an unregistered copy).
 * **Disable garbage collector** – Does not work.
 * **Increase Font Size** – Shows information about the font and size with two numerical strings.
-* **Enable All Toolbar Icons** – Enables all icons in toolbars. Do other things to disable most icons in toolbars.
+* **Enable All Toolbar Icons** – Enables all icons in toolbars. Do other things to disable most icons.
 * **Font Tester Action** – This menu item is intended to change the action used by `TFONTTESTFORM`.
 * **Boink!** – Exit the program silently. In version 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), the feature summons no action when selected and is located in the **Debug** menu. It may display a critical error which varies on closing, which contains an "OK" button.
 
@@ -656,7 +656,7 @@ The company hid debugging and other options in the RC Data resources using `Visi
 * **Order** (version 3.0 until 5.0) – The features are implemented as **Align or Distribute** in version 5.5 & above.
 * **Debug Single Stroke Twice** (**miTestItem** in version 10.0 until 10.1.0.2272) – Does not work.
 * **miTestItem2** – Jumps to the next contour based on the number of selected contours.
-* **miTestItem3 Save** and **miTestItem4 Load** – Save or load glyph data from `C:\hltemp\glyph.data` (see **Tools: Import Glyph Data** or **Export Glyph Data** in the menu for old versions above). Create the folder `hltemp` to use these features.
+* **miTestItem3 Save** and **miTestItem4 Load** – Save or load glyph data from `C:\hltemp\glyph.data` (see **Tools: Import/Export Glyph Data** in the menu for old versions above). Create the folder `hltemp` to use these features.
 
 ### Font Overview (`TFONTOVERVIEWFORM`)
 Version 4.5 added support for bookmarking glyphs (the feature was discontinued since version 7.0 and the menu is hidden).
