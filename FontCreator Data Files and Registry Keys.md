@@ -1,4 +1,6 @@
-﻿## Notes
+﻿FontCreator is High-Logic's first product created after its funding in 1997.
+
+## Notes
 * The cursor will remain **Busy** if the user does other stuff when saving fonts in the background.
 * All versions can save all unaltered opened fonts from the File menu. Windows 2000 & above shows a critical error saying **List index out of bounds** if done repeatedly.
 * Exiting when saving fonts may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -16,14 +18,14 @@
 * High-Logic mirrored the installer in its own domain derived from the program name up to version 6.1.
 
 ## Unregistered version limitations
-If registration is not performed during or within the grace period or fails because of an illegal or invalid registration key, the following restrictions will be imposed on the version number:
+If the program detects it is an unregistered copy or if registration is not performed during or within the grace period or fails because of an illegal or invalid registration key, the following restrictions will be imposed on the version number:
 * All versions – `TSPLASHFORM` is shown on startup. `TMAINFORMFONTCREATOR` will display a word in the title bar (version 5.0 & above) and the registration information in `TABOUTDIALOG` or `TABSTRACTABOUTDIALOG` states that the program is unregistered. After a grace period of 30 days, the message shown in `TSPLASHFORM` is replaced with messages stating that the grace period is exceeded and encourages the user to uninstall or buy the program. In version 6.0 & above there is a menu to register or buy the program in `TMAINFORMFONTCREATOR`.
 * 3.0β1 (2000-07-30) until 3.1.3 (2002-12-09) – After a grace period of 30 days, `TSHAREWAREFORM` is shown when pressing **Start** in `TSPLASHFORM`. However, the program otherwise functions normally.
 * 4.0 (2003-05-16) until 5.0 (2005-01-12) – After a grace period of 30 days, the program cannot be used at all unless it is registered.
 * 5.5 (2006-05-30) and 5.6 (2007-07-19) – After a grace period of 30 days and opening the program 5 times, the program will enter a reduced functionality mode, where fonts cannot be saved, tested or installed and TrueType collections cannot be extracted.
-* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be tested (version 6.0), installed or exported, OpenType collections cannot be extracted from the **Tools** menu and tested fonts won't be automatically hinted.
-* 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported and OpenType collections cannot be extracted from the **Tools** menu.
-* 12.0.0.2543 (2019-07-10) until 13.0.0.2643 (2020-05-19) – The program will replace `.notdef` and many glyphs with the company's logo in generated fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where fonts cannot be tested, installed or exported.
+* 6.0 (2009-06-17) until 6.5 (2011-11-18) and 8.0 (2014-06-05) until 12.0.0.2539 (2019-06-04) – The program will enter a reduced functionality mode. The reduced functionality varies based on whether the program is in the grace period or not. In this case, fonts cannot be tested (version 6.0), installed or exported, OpenType collections cannot be extracted and tested fonts won't be automatically hinted.
+* 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) – The program will create subsetted versions when testing, installing or exporting fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where font projects cannot be saved, fonts cannot be tested, installed or exported and OpenType collections cannot be extracted. This corresponds to the `CheckLicenseNotGood` function used by `OnShowDisabledMessage`.
+* 12.0.0.2543 (2019-07-10) until 13.0.0.2643 (2020-05-19) – The program will replace `.notdef` and many glyphs with the company's logo in generated fonts. After a grace period of 30 days, the program will enter a reduced functionality mode, where font projects cannot be saved, fonts cannot be tested, installed or exported and OpenType collections cannot be extracted. This corresponds to the `CheckLicenseNotGood` function used by `OnShowDisabledMessage`.
 
 ## Windows version compatibility
 | Operating system              | Latest version |
@@ -95,7 +97,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **OutlineFormat** – Used with **Exchange Glyph Outlines: Preferred outline format**. Default is Don't change it, but use quadratic with new contours.
 
 ### Externals (used in Tools: Launch Externals; added in version 4.5)
-There are three built-in external programs: **MainType** (version 5.6 & above, it hides if not installed), **Fonts Folder** (not linked to the same folder in Control Panel) and **Character Map** (removable in Windows 95 through XP via **Control Panel: Add/Remove Programs: Add/Remove Windows Features: Components: Accessories and Utilities: Accessories: Character Map** or in Windows Vista & above by taking ownership and deleting `charmap.exe` – executable file and `charmap.exe.mui` – translated strings for use with language packs).
+There are three built-in external programs: **MainType** (version 5.6 & above, it hides if not installed), **Fonts Folder** (not linked to the same folder in Control Panel) and **Character Map** (removable in Windows 95, 98, ME and XP via **Control Panel: Add/Remove Programs: Add/Remove Windows Features: Components: Accessories and Utilities: Accessories: Character Map** or in Windows Vista & above by taking ownership and deleting `charmap.exe` – executable file and `charmap.exe.mui` – translated strings for use with language packs).
 * **Location#** – The last character has three values. Default is empty.
 * **Title#** – The last character has three values. Default is **External #** whereas # is a number.
 
@@ -135,15 +137,15 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **GridDistance** – Used with **Minimum distance between grid points in units** in `TGRIDFORM`.
 * **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in `TGRIDFORM`.
 * **GridLineStyle** – Set the line style in `TGRIDFORM`. Default is solid.
-* **IncludeBaseline** (version 3.0 until 6.0) – Used with **Baseline** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludeLeftSideBearing** (version 3.0 until 6.0) – Used with **Left side bearing** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludeRightSideBearing** (version 3.0 until 6.0) – Used with **Right side bearing** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludeTypoAscender** (version 3.0 until 6.0) – Used with **TypoAscender** in `TMETRICSFORM`. Default is off (version 7.0 & above removed this key to disable it for any opened font).
-* **IncludeTypoDescender** (version 3.0 until 6.0) – Used with **TypoDescender** in `TMETRICSFORM`. Default is off (version 7.0 & above removed this key to disable it for any opened font).
-* **IncludeWinAscent** (version 3.0 until 6.0) – Used with **Win Ascent** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludeWinDescent** (version 3.0 until 6.0) – Used with **Win Descent** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludexHeight** (version 3.0 until 6.0) – Used with **x-Height** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
-* **IncludeYAxis** (version 3.0 until 6.0) – Used with **Y-Axis** in `TMETRICSFORM`. Default is on (version 7.0 & above removed this key to enable it for any opened font).
+* **IncludeBaseline** (version 3.0 until 6.0) – Used with **Baseline** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludeLeftSideBearing** (version 3.0 until 6.0) – Used with **Left side bearing** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludeRightSideBearing** (version 3.0 until 6.0) – Used with **Right side bearing** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludeTypoAscender** (version 3.0 until 6.0) – Used with **TypoAscender** in `TMETRICSFORM`. Default is off (in version 7.0 & above, it is always disabled for any opened font).
+* **IncludeTypoDescender** (version 3.0 until 6.0) – Used with **TypoDescender** in `TMETRICSFORM`. Default is off (in version 7.0 & above, it is always disabled for any opened font).
+* **IncludeWinAscent** (version 3.0 until 6.0) – Used with **Win Ascent** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludeWinDescent** (version 3.0 until 6.0) – Used with **Win Descent** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludexHeight** (version 3.0 until 6.0) – Used with **x-Height** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
+* **IncludeYAxis** (version 3.0 until 6.0) – Used with **Y-Axis** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used with **Lock Guidelines** in the Grid toolbar. Default is off.
 * **ShowBearings** (version 5.6 & above) – Used with **Show Metrics** in the Grid toolbar. Default is on.
 * **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in `TGRIDFORM`.
@@ -321,7 +323,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. This feature supports only languages with Arabic, Greek, Hebrew or Latin scripts. This feature is useful for some languages, e.g. Hungarian (HUN) or Polish (POL) to reverse slant or rotate the acute in áéíóú (őű) or ćńóśź or French (FRA) to change thin space metrics.
 * **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses medial characters from the *Arabic* ranges of Unicode. The second feature is used only for Syriac.
 * **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses circled letters and numbers from the *Enclosed Alphanumerics* block and initial, isolated, medial or terminal characters from the *Arabic* ranges of Unicode.
-* **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. In order to generate this feature, PostScript names for each glyph should have `.onum` at the end.
+* **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. In order to generate this feature, you have to add glyphs with `.onum` at the end of PostScript names.
 * **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**. This feature creates a substitution for numero (capital N and small o with or without full stop) if the glyph exists in the *Letterlike Symbols* block of Unicode and substitutions for letters and numbers.
 * **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**. If no glyphs ending with `.ordn` or `.sups` are found it creates substitutions for a to ª and o to º.
 * **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. The first method uses the bullet. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace two letters with chess pieces.
@@ -335,7 +337,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts as either (1) the Latin alphabet, numbers, common punctuation and spacing accents, with Latin-1 and Classical Sanskrit diacritics (Garava) or (2) the Latin alphabet, numbers, è and ú (other fonts). The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) uses a subset including only numbers, some letters in the Latin alphabet and punctuation and äi̯ıu̯ü (without the OpenType feature).
 * **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in the upright styles of his fonts.
 * **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**.
-* **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**. In order to generate this feature, PostScript names for each glyph should have `.tnum` at the end.
+* **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**. In order to generate this feature, you have to add glyphs with `.onum` at the end of PostScript names.
 * **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**.
 
 ### OpenType Proofing (version 13.0 & above, used in `TOPENTYPEDESIGNERPROOFINGFORM`)
@@ -523,18 +525,18 @@ Many people and companies provided registration keys to create cracked versions.
 * **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Exports glyph data in the font to fgd files (**Tools: Export Glyph Data...**). Recent versions limits this feature to only one glyph.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure settings to export fonts.
 * **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
-* **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Extracts OpenType font collections into separate font files (**Tools: Extract from OTC...**).
+* **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Extracts OpenType font collections into separate font files (**Tools: Extract from OTC...**). If the program detects it is an unregistered copy running after a grace period of 30 days, the **Evaluation Period Expired** message is shown instead.
 * **TFEATURESETTINGSFORM** (version 12.0) – Used when generating or updating OpenType features in `TOPENTYPEDESIGNERFORM`.
 * **TFINDFORM** – Searches parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** (version 2.0 until 6.5) – Shows a list of embedding or licensing rights to use in the font (replaced with **Legal: Embedding Licensing Rights** in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
-* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename.
+* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename. If the program detects it is an unregistered copy running after a grace period of 30 days, the **Evaluation Period Expired** message is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
 * **TFONTLOGFORM** – Displays the log for any font (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows all glyphs after opening any font.
 * **TFONTPROPERTIESFORM** – Contains properties and unsupported tables (version 7.0 & above) in the font. If non-Unicode language is East Asian (e.g. Korean), in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII versions, e.g. Wästman by Wastman (not Waestman) and some Latin-1 symbols by fullwidth versions, e.g. £ by ￡ or other symbols, e.g. « by ≪.
 * **TFONTSETTINGSFORM** – Contains basic naming fields or metric settings, Unicode and code page ranges, gasp ranges and more.
 * **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font (unsupported tables is a separate tab in `TFONTPROPERTIESFORM` in version 7.0 & above).
-* **TFONTTESTFORM** – Test desktop fonts (not web fonts). The text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, uppercase, lowercase and numbers with all DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the DOS/Windows Latin-1 and USA characters at the end). Version 1.1.1c until 5.0 allows the user to change the encoding (it was dropped with version 5.5 & above).
+* **TFONTTESTFORM** – Test desktop fonts (not web fonts). The text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, uppercase, lowercase and numbers with all DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the DOS/Windows Latin-1 and USA characters at the end). Version 1.1.1c until 5.0 allows the user to change the encoding (it was dropped with version 5.5 & above). If the program detects it is an unregistered copy running after a grace period of 30 days, the **Evaluation Period Expired** message is shown instead. This corresponds to the `TestFontTTFOTF` (`miFontTestTTFOTFClick`) and `TestFontWOFF` (`btnFontTestWoffClick`) functions used by `CheckLicenseNotGood`.
 * **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if positioning data exists.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Shows an interface for changing options in `TOPENTYPEDESIGNERFORM`.
 * **TFORMULAFORM** (version 12.0) – Writes formulas to construct anchor based composite glyphs.
@@ -697,4 +699,4 @@ The **General** tab has a group to associate fonts with the program itself (it i
 These are located in the corners of the program name, version number, copyright notice and the company's website.
 * **Clr** (Clear) (version 4.5 & above, top left corner) – Removes registration information (see the `Reg` section in **Registry Keys** above). Before version 6.0 the text is white and is located in the registration information.
 * **Crash** (top right corner) – Displays a critical error which reads "We hope you enjoyed clicking this crash button".
-* **Trial** (bottom right corner, version 12.0 & above) – Restarts the trial period.
+* **Trial** (bottom right corner, version 12.0 & above) – Reset the trial period for unregistered copies running after a grace period of 30 days.
