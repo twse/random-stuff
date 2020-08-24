@@ -82,9 +82,9 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **BackgroundInitScale** – Set the background scale factor.
 
 ### Columns (used in `TINSTALLEDFONTSFORM`)
-* **Open Installed Fonts** – This numerical option changes the width.
+* **Open Installed Fonts** – This numerical value changes the width.
 
-### Edit (used in `TPASTESPECIALFORM`)
+### Edit (version 8.0 & above, used in `TPASTESPECIALFORM`)
 * **PasteSpecialAnchors** – This option will paste anchors. Default is on.
 * **PasteSpecialCodepoints** – This option will paste codepoints. Default is on.
 * **PasteSpecialCodepointsOption** – Choose whether to paste codepoints. Default is 0 (Keep same code-points).
@@ -175,7 +175,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **Threshold** – Used with **Threshold** in the Image tab. Default is 150.
 
 ### Install (version 3.0 until 6.5, used in `TFONTINSTALLWIZARDFORM`)
-* **InstallFontsInFontsFolder** – **Install the font in Windows Fonts folder**. Default is on. In Windows Vista & above, it adds the UAC shield to the button.
+* **InstallFontsInFontsFolder** – **Install the font in Windows Fonts folder**. Default is on. If the program is detected to be running on Windows Vista & above, the UAC shield is added to the bottom.
 
 ### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
 * **PreviewHeight** – Set the height in the font preview area (version 5.5 & above) at the bottom. Default is 124.
@@ -516,9 +516,9 @@ Many people and companies provided registration keys to create cracked versions.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Views or modifies properties for members in composite glyphs.
 * **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – This confirmation dialog will ask you what to do when replacing.
 * **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images to any glyph in the font.
-* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups in the font.
-* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes in the font.
-* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions).
+* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups from the OpenType layout tables in the font.
+* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes from the OpenType layout tables in the font.
+* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). If this form is deleted, it will either show a message about non-existing form (old versions) or a message with only text (recent versions).
 * **TDM** (version 4.0 & above) – Contains icons with no regard to `Glyph.Data` in old versions. Version 5.5 (2006-05-30) until 11.0.0.2365 (2017-05-10) uses Windows XP-style icons.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data.
 * **TEDITANCHORFORM** (version 7.0 & above) – Edits anchors in the font if any glyph has positioning data.
@@ -620,9 +620,9 @@ The company hid debugging and other options in the RC Data resources using `Visi
 * **Tools: Export Glyph Outlines...** (version 4.0 until 5.6) – Does not work. See **miTestItem4 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode.
 * **Tools: Import Glyph Data...** (version 4.0 until 5.6) – Imports glyph data from the font. Replaced with **miTestItem3 Load** in `TGLYPHEDITFORM` for glyphs edited in contour mode. This feature is undocumented in the manual.
 * **Tools: Export Glyph Data...** (version 4.0 until 5.6) – Exports glyph data in the font to fgd files. Replaced with **miTestItem4 Save** in `TGLYPHEDITFORM` for glyphs edited in contour mode. This feature is undocumented in the manual.
-* **Tools: TODO! Customize...** – Use Resource Hacker or some other program to modify the menus or toolbars. If the toolbars detects that some icons are removed without using `Visible = False`, the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
+* **Tools: TODO! Customize...** – Use Resource Hacker or other program to modify the menus or toolbars. If the toolbars detects that some icons are removed without using `Visible = False`, the first message shown in the status bar is replaced with access violation when opening fonts or doing other things.
 * **Window: Minimize All** – Minimizes all other windows (restore each minimized window via the restore button).
-* **Help: Upgrade** (version 13.0) – Shows a message regarding the standard version license.
+* **Help: Upgrade** (version 13.0) – Shows a message with the text for standard version license.
 
 **Hidden Shortcuts** – Menu's description from the form: These items are here so the shortcuts work.
 * **Restore Overview Splitter** – Hide or show the overview splitter.
@@ -678,7 +678,7 @@ Version 4.0 until 5.0 includes a text box which was intended to show the number 
 ### Automatic Metrics Wizard (`TAUTOMETRICSFORM`)
 The Professional Edition note is shown if the program is detected to be running the Home Edition (in the Professional Edition it is hidden). Version 10.0 includes three unused features (the features were dropped in version 11.0 & above).
 
-The third panel changes the advance width with check boxes to center the glyph and set the left side bearing at x=0 and a radio button to use monospaced glyph (it is only active when the Fixed option is selected).
+The third panel changes the advance width with check boxes to center the glyph/set the left side bearing at x=0 and a radio button to use monospaced metrics (it is only active when the Fixed option is selected).
 
 ### OpenType Designer (`TOPENTYPEDESIGNERFORM`)
 These buttons are shown when editing the GPOS kerning tables. The values at the beginning start with a capital D in square brackets.
@@ -690,7 +690,7 @@ These buttons are shown when editing the GPOS kerning tables. The values at the 
 * Checkbox: **VOLT.UseGlyphIds** – The checkbox is used for fonts with Microsoft VOLT projects only. The value at the beginning starts with Debug and a colon.
 
 ### Font Test Window (`TFONTTESTFORM`)
-The context menu for `mmFontTest` has two paste options and has a multiline text field at the bottom (`Memo1`) with the same text for `mmFontTest` in Arial Bold (13 points). Double-click the text box to change the font and size.
+The context menu for `mmFontTest` has two paste options and a multiline text field at the bottom (`Memo1`) with the same text in Arial Bold (13 points). A double-click will change the font and size.
 
 ### Options Window (`TOPTIONSFORM`)
 The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0). The **Preview** tab includes three unused buttons to move strings up or down or to reset the list.
