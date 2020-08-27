@@ -1,4 +1,4 @@
-﻿FontCreator is High-Logic's first product created after its funding in 1997.
+﻿FontCreator is a font editor and High-Logic's first product created since its foundation on 1997.
 
 ## Notes
 * The cursor will remain **Busy** if the user does other stuff when saving fonts in the background.
@@ -85,13 +85,13 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **Open Installed Fonts** – This numerical value changes the width.
 
 ### Edit (version 8.0 & above, used in `TPASTESPECIALFORM`)
-* **PasteSpecialAnchors** – This option will paste anchors. Default is on.
-* **PasteSpecialCodepoints** – This option will paste codepoints. Default is on.
+* **PasteSpecialAnchors** – This will paste anchors. Default is on.
+* **PasteSpecialCodepoints** – This will paste codepoints. Default is on.
 * **PasteSpecialCodepointsOption** – Choose whether to paste codepoints. Default is 0 (Keep same code-points).
-* **PasteSpecialGlyphNames** – This option will paste glyph names. Default is off.
-* **PasteSpecialMetrics** – This option will paste metrics. Default is on.
+* **PasteSpecialGlyphNames** – This will paste glyph names. Default is off.
+* **PasteSpecialMetrics** – This will paste metrics. Default is on.
 * **PasteSpecialMetricsOption** – Choose whether to paste metrics. Default is 0 (Side bearings).
-* **PasteSpecialOutlineData** – This option will paste outline data. Default is on.
+* **PasteSpecialOutlineData** – This will paste outline data. Default is on.
 
 ### Exchange (version 13.0, used in the Exchange tab in `TOPTIONSFORM`)
 * **OutlineFormat** – Used with **Exchange Glyph Outlines: Preferred outline format**. Default is Don't change it, but use quadratic with new contours.
@@ -112,7 +112,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 
 ### Fonts (used in the Font tab in `TOPTIONSFORM`)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
-* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data** and its secondary option. Default is on.
+* **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data**. Default is on.
 * **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**. Default is on.
 * **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names**. Default is on.
 
@@ -374,7 +374,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **DefaultVendorURLIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor URL** in the Personalize tab in `TOPTIONSFORM`. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in the View tab in `TOPTIONSFORM`.
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab in `TOPTIONSFORM`. Default is off.
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab in `TOPTIONSFORM`. Default is off. The program comes with a hinting utility called ttfautohint.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab in `TOPTIONSFORM`. Default is off. Recent versions of this program comes with a hinting program called ttfautohint.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab in `TOPTIONSFORM`. Default is off.
 * **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in recent versions) is the last update reminder date used when **Startup: Show update reminder** in the General tab in `TOPTIONSFORM` is enabled.
 * **LeftSideBearingExcludeLargeFonts** (version 4.0 until 6.5) – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab in `TOPTIONSFORM`. Default is on.
@@ -530,7 +530,7 @@ Many people and companies provided registration keys to create cracked versions.
 * **TFINDFORM** – Searches parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** (version 2.0 until 6.5) – Shows a list of embedding or licensing rights to use in the font (replaced with **Legal: Embedding Licensing Rights** in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
-* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program is needed to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename. If the program detects it is an unregistered copy running after a grace period of 30 days, the **Evaluation Period Expired** message is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
+* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer. Before version 7.0 & above the program requires to save the font. **Fun fact:** The directory and filename in the first step is a dummy placeholder. The second step (font already installed) includes the Windows 98 directory (`win98`) preceding the fonts folder and Arial font filename. If the program detects it is an unregistered copy running after a grace period of 30 days, the **Evaluation Period Expired** message is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
 * **TFONTLOGFORM** – Displays the log for any font (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows all glyphs after opening any font.
 * **TFONTPROPERTIESFORM** – Contains properties and unsupported tables (version 7.0 & above) in the font. If non-Unicode language is East Asian (e.g. Korean), in the **Unsupported Tables** tab it substitutes Latin-1 accented letters by ASCII versions, e.g. Wästman by Wastman (not Waestman) and some Latin-1 symbols by fullwidth versions, e.g. £ by ￡ or other symbols, e.g. « by ≪.
@@ -584,7 +584,7 @@ Many people and companies provided registration keys to create cracked versions.
 * **TREGISTERFORMEX** and **TREGISTERFORMFC** (version 1.0.6 & above, **TREGISTERFORM** in old versions) – Registers the program (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup, hides the **Buy** menu and the **Help: Register...** item and shows the **Developer Tools** menu (if enabled in version 12.0 & above). **Fun fact:** `TREGISTERFORMEX` has its own user agent.
 * **TRESOURCEEDITORDLG** (unused, version 3.0) – It is a large resource.
 * **TRESOURCEMODULE** – Contains styles in `rvStyleGlobal` and icons with no regard to `Glyph.Data` in old versions.
-* **TRICHVIEWDIALOG** (unused) – Used by the rich text module. Styles are located in `RVStyle1`.
+* **TRICHVIEWDIALOG** – Used during or after a grace period of 30 days for unregistered copies or when selecting the **Help: Upgrade** menu item. Styles are located in `RVStyle1`.
 * **TRULEMGR** (version 7.0 & above) – Manages rules in the OpenType layout tables.
 * **TSAMPLETEXTFORM** (version 6.5 & above) – Edit the list of sample text strings in `TFONTTESTFORM`.
 * **TSELECTCOMPOSITEGLYPHMEMBERFORM** – Adds glyph members to any composite glyph.
