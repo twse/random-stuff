@@ -7,9 +7,11 @@ PurgeIE is a program to clear the temporary files, cache, cookies, tracks and mo
 ## Unregistered version limitations
 If registration is not performed during within the grace period or fails because of an illegal or invalid registration key, the following restriction is imposed: After a grace period of 15 days, the program will remain in preview mode, where results can be viewed and files cannot be deleted.
 
-## Windows version compatibility (Operating system / Latest version)
-* Windows XP and later: 9.02
-* Windows 98, ME, NT 4.0 and 2000: 8.05
+## Windows version compatibility
+| Operating system                | Latest version |
+|---------------------------------|----------------|
+| Windows XP and later            | 9.0            |
+| Windows 98, ME, NT 4.0 and 2000 | 8.05           |
 
 ## User data
 The program capitalizes the first letter of each extension in each file.
