@@ -9,7 +9,7 @@ Created with CrystalTile2 and edited with old versions of FontCreator. All excep
 * **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
-* **Readable Fonts**: Based on “System VIO” from OS/2 and the 16 pixel font in the IBM ThinkPad Power Series 820 terminal or PC-DOS 2000 Traditional Chinese version (with different glyph designs).
+* **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs. Released under the terms of the WTFPL license.
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
 ## Doing manual additions in the Mozilla credits list
@@ -26,7 +26,7 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. They won't receive emails when everyone is added - this will see the message in the log.
-1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
+1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
 2. Copy names from Mozilla-related websites such as translation projects.
 3. Enter any commit message or use the default message.
 4. Use the default option which commits directly to `master`.
@@ -41,7 +41,7 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
-1. In the `mozilla/community-data` repository, go to the `credits` directory, click the `names.csv` file and click the pencil at the top-right corner to edit it.
+1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
 2. Add your name at the end.
 3. Use name &lt;email&gt;: "citation" as the commit message replaced with your name, email and citation.
 4. Use the default option which commits directly to `master`.
@@ -57,13 +57,13 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 **GitHub web interface**
-1. Go to the `credits` directory in the `mozilla/community-data` repository, click the `names.csv` file and edit it with the pencil at the top-right corner.
+1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
 2. Edit or remove your entry.
 3. Enter any commit message or leave the default message as is.
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
-### Modifying the Perl or Python script to add entries with unqualified notes in the Mozilla credits list
+### Modify the Perl or Python script to add entries with unqualified notes in the Mozilla credits list
 The script is called **check-names** and is located in the `credits` directory in the `mozilla/community-data` repository.
 * To modify the Perl script (file extension `.pl`), you see **next if $notes ne "Y";** in the 70th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
 * To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
@@ -78,12 +78,19 @@ The script is called **check-names** and is located in the `credits` directory i
 * **Fun fact:** Gervase Markham owns the form linked to the credits page and its responses spreadsheet.
 
 ## Index of protest pages (requires JavaScript; available in five versions)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages based on his main page. It includes an unsupported browser page which many websites have it (e.g. iCloud, VKontakte, PayPal, Kroger, etc.).
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
 * **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
+
+The protest pages are as follows:
+* **protest.htm** replaces all HTML external link tags with LINK in square brackets.
+* **protest2.htm** replaces everything with IMAGE and INLINE.
+* **protest3.htm** protests against sites that use JavaScript URLs.
+* **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
+* **protest5.htm** redirects all browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
 
 ## Translations of EasyPaint in multiple languages
 All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-02-08.
