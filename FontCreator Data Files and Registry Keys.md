@@ -41,7 +41,7 @@ If the program detects it is an unregistered copy or if registration is not perf
 * **CompositeData.xml** (version 5.0 & above) – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers. Updated versions are available in the company's forum.
 * **CurrentTransformProgram.xml** (version 4.5 & above) – Transform Program used by `TTRANSFORMFORM`. The window will appear empty if removed.
 * **default.otlfd** (version 7.0 until 11.5) – Default OpenType feature definitions used when adding common OpenType features. Replaced with `TFEATURESETTINGSFORM` in version 12 & above.
-* **Denissen.ttf** (version 4.5 until 5.5 – located in the fonts folder) – This handwriting font covers only Basic Latin characters (the font is named after the company's president family name, dates from about 2000 and was dropped after 5.6).
+* **Denissen.ttf** (version 4.5 until 5.5 – located in the fonts folder) – This is a handwriting font with only ASCII characters. The font is named after the company founder's family name and dates from the year 2000.
 * **FC#####.otf/ttf** – Temporary font used by `TFONTTESTFORM` (the last five characters in the filename are numeric). Version 3.0 until 6.5 names the font as **FC Test Font ######** and recent versions names the font as up to 25 characters preceded by 5 numbers.
 * **FC#####.woff** – Temporary font used when testing web fonts.
 * **fc12.cfg** (version 12.0) – Configuration file located in the user's directory.
@@ -64,9 +64,9 @@ If the program detects it is an unregistered copy or if registration is not perf
 * **SubFamily.dat** or **SubFamily2.dat** – Contains naming fields in multiple languages.
 * **TableOffsetOrderCFF.txt** – Contains supported tables in fonts with CFF Postscript outlines or Cubic Bézier curves.
 * **TableOffsetOrder.dat** (old versions) or **TableOffsetOrder.txt** – Contains supported tables in fonts with quadratic curves. All tables are moved to **Unsupported Tables** (`TFONTPROPERTIESFORM` in version 7.0 & above) or **Unsupported** (`TFONTTABLESFORM` in version 3.0 until 6.5) if the file is removed, resulting in invalid fonts.
-* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph. Defaults are **Important**, **Incomplete**, **Completed**, **Review** and **Workspace**.
+* **tags.txt** (version 7.0 & above) – Contains the five tags which can be assigned to each glyph. Defaults are **Important**, **Incomplete**, **Completed**, **Review** and **Workspace**.
 
-In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** (version 8.0 & above) when pressed the program will either copy most files in the above list to the user data folder or open it.
+In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** (version 8.0 & above). When pressed, the program will either copy some files in the above list to the user's data folder or open the user's data folder.
 
 ## Registry Keys
 The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` or `HKCU\Software\High-Logic\Font Creator Program\version` whereas `version` is the version number.
@@ -108,7 +108,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **TabIndex** – Changes tab in this form. Default is 0.
 
 ### FontOverview (used in `TFONTOVERVIEWFORM`)
-* **CategoryWidth** – Select the category splitter width.
+* **CategoryWidth** – Changes the category splitter width.
 
 ### Fonts (used in the Font tab in `TOPTIONSFORM`)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
@@ -320,8 +320,8 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **IncludeIsol** – Used with **Isolated Forms (isol)**. This feature uses  isolated characters from the *Arabic* ranges of Unicode.
 * **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five Latin characters from the *Alphabetic Presentation Forms* range of Unicode. Including it in monospaced fonts causes bugs (e.g. Helvetica Monospaced).
 * **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**.
-* **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**. This feature is used for Catalan (CAT) to replace l· with the character from *Latin Extended-A*, Dutch (NLD) or Flemish (FLE) to replace ij and íj́ with its own ligatures, Turkish (TRK) to replace i for case sensitivity and Romanian or Moldavian (ROM or MOL) to replace ş and ţ (cedilla) with ș and ț (comma).
-* **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. This feature supports only languages with Arabic, Greek, Hebrew or Latin scripts. This feature is useful for some languages, e.g. Hungarian (HUN) or Polish (POL) to reverse slant or rotate the acute in áéíóú (őű) or ćńóśź or French (FRA) to change thin space metrics.
+* **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**. This feature is used for Catalan (CAT) to replace l· with the character from *Latin Extended-A*, Dutch and Flemish (`NLD` and `FLE`) to replace ij and íj́ with its own ligatures, Turkish (`TRK`) and other Turkic languages to replace i for case sensitivity and Romanian or Moldavian (`ROM` or `MOL`) to replace ş and ţ (cedilla) with ș and ț (comma).
+* **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. This feature supports only languages with Arabic, Greek, Hebrew or Latin scripts. This feature is useful for some languages, e.g. Hungarian (`HUN`) or Polish (`POL`) to reverse slant or rotate the acute in áéíóú (őű) or ćńóśź or French (`FRA`) to change the metrics for thin space.
 * **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses medial characters from the *Arabic* ranges of Unicode. The second feature is used only for Syriac.
 * **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses circled letters and numbers from the *Enclosed Alphanumerics* block and initial, isolated, medial or terminal characters from the *Arabic* ranges of Unicode.
 * **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. In order to generate this feature, you have to add glyphs with `.onum` at the end of PostScript names.
@@ -337,9 +337,9 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**. The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) uses a subset including only numbers, some letters in the Latin alphabet and punctuation and äīùú (without the OpenType feature).
 * **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts as either (1) the Latin alphabet, numbers, common punctuation and spacing accents, with Latin-1 and Classical Sanskrit diacritics (Garava) or (2) the Latin alphabet, numbers, è and ú (other fonts). The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) uses a subset including only numbers, some letters in the Latin alphabet and punctuation and äi̯ıu̯ü (without the OpenType feature).
 * **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) included this feature in the upright styles of his fonts.
-* **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**.
+* **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**. Most fonts have its own glyphs used (e.g. Perpetua Titling MT).
 * **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**. In order to generate this feature, you have to add glyphs with `.onum` at the end of PostScript names.
-* **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**.
+* **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**. Most fonts use the slashed zero by default (e.g. Roboto Mono or Sweden Sans).
 
 ### OpenType Proofing (version 13.0 & above, used in `TOPENTYPEDESIGNERPROOFINGFORM`)
 * **Compact** – Used with **Compact**. Default is on.
