@@ -84,6 +84,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
 * **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
+* **Error** (Otter Browser) – The text is taken from the Presto versions of Opera.
 
 The protest pages are as follows:
 * **protest.htm** replaces all HTML external link tags with LINK in square brackets.
