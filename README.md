@@ -19,9 +19,9 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 **Command line** - They won't receive emails when everyone is added - this will see the message in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Copy names from Mozilla-related websites such as translation projects.
-3. Save the file as .csv (the file extension means comma separated value).
+3. Save the file as comma separated values (file extension `.csv`).
 4. Add the contents to `names.csv` via `echo file.csv >> ../names.csv` with the second word replaced with your actual file having a list.
-5. Commit changes via `git commit -a -m "message"` replaced with your own message.
+5. Commit changes with `-a -m "message"` replaced with your own message.
 6. Login as the current owner (see module info below) to push changes.
 7. View the Mozilla credits list to change the last updated date and add the entries.
 
@@ -35,15 +35,15 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 ### One name
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
-2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key.
-3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation.
+2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key. Example: `echo Michael James Hardy,Hardy >> names.csv`
+3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation. Example: `git commit -a -m 'Michael James Hardy <email address hidden>: \"For stealing old versions of Firefox and rebranding the browser as HyperSonic\"`
 4. Login as the current owner (see module info below) to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
-2. Add your name at the end.
-3. Use name &lt;email&gt;: "citation" as the commit message replaced with your name, email and citation.
+2. Add your name at the end. Example: **Michael James Hardy,Hardy**
+3. Use **name &lt;email&gt;: "citation"** as the commit message replaced with your name, email and citation. Example: **Michael James Hardy &lt;email address hidden&gt;: "For stealing old versions of Firefox and rebranding the browser as HyperSonic"**
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
@@ -69,13 +69,13 @@ The script is called **check-names** and is located in the `credits` directory i
 * To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
 
 ## Mozilla credits list module info
-* **Description:** Shows a list of all those who contributed to Mozilla. (Source: about URI scheme, Wikipedia)
+* **Description:** Shows a list of all those who contributed to Mozilla. The Mozilla Organization didn't have its list created until August 1999.
 * **Owner:** Mohammad Shahbaz Alam (2019-present – GIT)
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
 * **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
-* **Fun fact:** Gervase Markham owns the form linked to the credits page and its responses spreadsheet.
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet wasn't created until November 2013 to remove its request email address (Gervase Markham owns the form and its responses spreadsheet).
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
@@ -87,21 +87,21 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **Error** (Otter Browser) – The text is taken from the Presto versions of Opera.
 
 The protest pages are as follows:
-* **protest.htm** replaces all HTML external link tags with LINK in square brackets.
-* **protest2.htm** replaces everything with IMAGE and INLINE.
+* **protest.htm** replaces HTML linking tags with LINK in square brackets.
+* **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
 * **protest5.htm** redirects all browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
 
 ## Translations of EasyPaint in multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing this program in 2018-02-08.
+All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko ceased development of this program in 2018-02-08.
 * Danish (da_DK)
 * Esperanto (eo)
 * Finnish (fi_FI)
-* German (de_DE) – **Note:** Unmerged pull request created for inclusion
+* German (de_DE) – **Note:** Unmerged pull request created
 * Hungarian (hu_HU)
 * Korean (ko_KR)
-* Polish (pl_PL) – **Note:** Unmerged pull request created for inclusion
+* Polish (pl_PL) – **Note:** Unmerged pull request created
 * Portuguese, as spoken in Brazil (pt_BR)
 * Romanian (ro_RO) – Contributed by Nicolae Oprea
 * Spanish (es_ES)
