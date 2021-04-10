@@ -7,7 +7,7 @@
 ## Index of fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
 * **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
-* **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
+* **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs. Released under the terms of the WTFPL license.
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
@@ -65,8 +65,8 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 
 ### Modify the Perl or Python script to add entries with unqualified notes in the Mozilla credits list
 The script is called **check-names** and is located in the `credits` directory in the `mozilla/community-data` repository.
-* To modify the Perl script (file extension `.pl`), you see **next if $notes ne "Y";** in the 70th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
-* To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to Email Not Found, Evidence not public, N, Non Qual or Not enough evidence yourself.
+* To modify the Perl script (file extension `.pl`), you see **next if $notes ne "Y";** in the 70th line. Change it to **Email Not Found**, **Evidence not public**, **N**, **Non Qual** or **Not enough evidence** yourself.
+* To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to **Email Not Found**, **Evidence not public**, **N**, **Non Qual** or **Not enough evidence** yourself.
 
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla. The Mozilla Organization didn't have its list created until August 1999.
@@ -75,7 +75,7 @@ The script is called **check-names** and is located in the `credits` directory i
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
 * **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
-* **Fun fact:** The form linked to the credits page and its responses spreadsheet wasn't created until November 2013 to remove its request email address (Gervase Markham owns the form and its responses spreadsheet).
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the owner) to remove its request email address.
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
