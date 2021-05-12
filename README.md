@@ -1,9 +1,11 @@
 ﻿# Index
-* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for the pay shareware font editor *FontCreator*.
 * **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not created their account or updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses. The list is sorted by Unicode codepoint.
-* **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for the pay shareware utility *PurgeIE*.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
+
+## Data Files and Registry Keys in Software
+* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
+* **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data).
 
 ## Index of fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
@@ -76,7 +78,7 @@ The script is called **check-names** and is located in the `credits` directory i
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
 * **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
-* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the owner) to remove its request email address.
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the guy with access privileges) to remove its request email address.
 
 ## Index of protest pages (requires JavaScript; available in five versions)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
