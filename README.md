@@ -1,6 +1,7 @@
 ﻿# Index
-* **names.csv**: Names for inclusion in the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have not created their account or updated their email address on Mozilla Bugzilla. It does not include the Mozilla Bugzilla email addresses. The list is sorted by Unicode codepoint.
+* **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in pages for each font so readers should be 12 or older.
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
@@ -9,14 +10,14 @@
 
 ## Index of fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
-* **Cyrano Text**: Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs. Both fonts are named after the French dramatist/movie Cyrano de Bergerac.
+* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
-* **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs. Released under the terms of the WTFPL license.
+* **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs.
 * **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
-## Doing manual additions in the Mozilla credits list
-It will be useful if you want to modify the `names.csv` file without filling in the form, so it could be worth doing manual updates if you have no knowledge with or intent on Google Forms.
+## Manually adding to the Mozilla credits list
+It's useful if you want to modify the `names.csv` file without filling in the form, so it could be worth if you have no knowledge with or intent on Google Forms.
 
 ### Bulk addition
 **Command line** - They won't receive emails when everyone is added - this will see the message in the log.
@@ -66,8 +67,8 @@ It will be useful if you want to modify the `names.csv` file without filling in 
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
-### Modify the Perl or Python script to add entries with unqualified notes in the Mozilla credits list
-The script is called **check-names** and is located in the `credits` directory in the `mozilla/community-data` repository.
+### Modify the script to add entries with unqualified notes in the Mozilla credits list
+The script is **check-names** located in `credits` in the `mozilla/community-data` repository.
 * To modify the Perl script (file extension `.pl`), you see **next if $notes ne "Y";** in the 70th line. Change it to **Email Not Found**, **Evidence not public**, **N**, **Non Qual** or **Not enough evidence** yourself.
 * To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to **Email Not Found**, **Evidence not public**, **N**, **Non Qual** or **Not enough evidence** yourself.
 
