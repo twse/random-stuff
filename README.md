@@ -1,7 +1,7 @@
 ﻿# Index
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in pages for each font so readers should be 12 or older.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in pages for each font so readers should be 12 or older.
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
