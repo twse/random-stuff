@@ -1,7 +1,7 @@
 ﻿# Index
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in pages for each font so readers should be 12 or older.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in the pages for each font so readers should be 12 or older.
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
@@ -99,14 +99,14 @@ The protest pages are as follows:
 
 ## Translations of EasyPaint in multiple languages
 All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko ceased development of this program in 2018-02-08.
-* Danish (da_DK)
-* Esperanto (eo)
-* Finnish (fi_FI)
-* German (de_DE) – **Note:** Unmerged pull request created
-* Hungarian (hu_HU)
-* Korean (ko_KR)
-* Polish (pl_PL) – **Note:** Unmerged pull request created
-* Portuguese, as spoken in Brazil (pt_BR)
-* Romanian (ro_RO) – Contributed by Nicolae Oprea
-* Spanish (es_ES)
-* Swedish (sv_SE)
+* Danish (`da_DK`)
+* Esperanto (`eo`)
+* Finnish (`fi_FI`)
+* German (`de_DE`) – Contributed by freddii. **Note:** Unmerged pull request created
+* Hungarian (`hu_HU`)
+* Korean (`ko_KR`)
+* Polish (`pl_PL`) – **Note:** Unmerged pull request created
+* Portuguese, as spoken in Brazil (`pt_BR`)
+* Romanian (`ro_RO`) – Contributed by Nicolae Oprea
+* Spanish (`es_ES`)
+* Swedish (`sv_SE`)
