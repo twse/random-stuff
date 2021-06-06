@@ -10,7 +10,7 @@ This list represents but a portion of the people who have signed the Python Soft
 **P.S.** Don't add your name here, unless you really *are* after Marien alphabetically.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
-Ubuntu has a code of conduct that you may sign with Launchpad or the assistant in this file - many teams have a requirement of doing this such as the [Ubuntu BugSquad](https://launchpad.net/~bugsquad).
+Ubuntu has a code of conduct that you may sign with Launchpad or [the signing assistant](https://launchpad.net/code-of-conduct-signing-assistant) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad).
 
 The Ubuntu product has very much been a team effort from development teams around Canonical and many, many people have contributed. This list represents but a portion of the people who have signed the Ubuntu Code of Conduct.
 
