@@ -41,7 +41,7 @@ If the program detects it is an unregistered copy, is running as a limited user 
 * **CompositeData.xml** (version 5.0 & above) – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** (version 4.5 & above) – Transform Program used by `TTRANSFORMFORM`. The window will appear empty if removed.
 * **default.otlfd** (version 7.0 until 11.5) – Default OpenType feature definitions used when adding common OpenType features (replaced with `TFEATURESETTINGSFORM` in version 12 & above).
-* **Denissen.ttf** (version 4.5 until 5.5 – located in the fonts folder) – This is a sample font made from handwriting with only ASCII characters. The font is named after the company founder's family name and dates from the year 2000.
+* **Denissen.ttf** (version 4.5 until 5.5 – located in the fonts folder) – Sample font named after the co-founder's family name and made from handwriting with only ASCII characters. It dates from the year 2000.
 * **FC#####.otf/ttf** – Temporary font used by the test font window (the last 5 characters in the filename are numbers). Version 3.0 until 6.5 names the font as **FC Test Font ######** (recent versions names it up to 25 characters preceded by 5 numbers).
 * **FC#####.woff** – Temporary font used by testing web fonts.
 * **fc12.cfg** (version 12.0) – Configuration file located in the user's directory.
@@ -282,8 +282,8 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 ### MetricsAndKerning (used in the Comparison toolbar)
 * **MetricsAndKerningKerningEnabled** – Enable or disable the legacy `KERN` table (version 3.0 until 6.5) or OpenType features (version 7.0 & above). Default is off.
 * **MetricsAndKerningTextEnabled** – Used with **Show text before and after glyph** (version 5.0 & above). Default is off.
-* **MetricsAndKerningTextLeft** – Contains the preceding character in the **Before** text box (version 5.0 & above). Default is empty.
-* **MetricsAndKerningTextRight** – Contains the succeeding character in the **After** text box (version 5.0 & above). Default is empty.
+* **MetricsAndKerningTextLeft** – Contains characters in the **Before** text box (version 5.0 & above). Default is empty.
+* **MetricsAndKerningTextRight** – Contains characters in the **After** text box (version 5.0 & above). Default is empty.
 
 ### OpenType Designer (version 7.0 & above)
 * **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the settings window. Default is on.
@@ -302,9 +302,9 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 All keys beginning with Include are enabled by default. Other features (e.g. half forms or distances for Indic scripts) have no inclusion options; use the add button at the top left corner of the OpenType Designer or the OpenType Layout Feature Editor to manually create the tables.
 * **CPSPKind** – Used with the **Spacing and Positioning: Capital Spacing (cpsp)** dropdown box. Default is 0 (Percentage of advance width).
 * **CPSPPerc** – Contains the percentage in the **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5%.
-* **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. This feature generates lookups for glyphs used by other OpenType features (e.g. Unicase - unic).
-* **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. This feature generates lookups for all pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* blocks of Unicode as well as fractions not encoded in Unicode.
-* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. This feature is used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Blackfoot, Choctaw, etc. etc. etc.).
+* **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. It generates lookups for glyphs used by other OpenType features (e.g. Unicase - unic).
+* **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. It generates lookups for all pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* blocks of Unicode as well as fractions not encoded in Unicode.
+* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. One example of a font with incomplete anchor data is the pre-Flex version of Roboto used in Android 5.0 "Lollipop" & above. This feature is used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Blackfoot, Choctaw, etc. etc. etc.).
 * **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. This feature excludes fullwidth Latin characters. Including this feature in monospaced or pixelated fonts will cause metrics issues.
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**.
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
@@ -342,7 +342,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 ### OpenType Proofing (version 13.0 & above, used in `TOPENTYPEDESIGNERPROOFINGFORM`)
 * **Compact** – Used with **Compact**. Default is on.
 * **Filter** – Used with **Filter**. Default is on.
-* **FontSize** – Changes the font size. Default is 32.
+* **FontSize** – Scale the font. Default is 32.
 * **PreviewHeight** – Changes the preview area height. Default is 120.
 * **SpecialFill** – Used with **Special Fill**. Default is on.
 
@@ -401,7 +401,7 @@ All keys beginning with Include are enabled by default. Other features (e.g. hal
 * **FeaturesWidth** (version 7.0 & above) – Changes width in the OpenType feature splitter.
 * **FeatureTags** (version 7.0 & above) – Contains the tags used to enable or disable OpenType features. Default is empty.
 * **PreviewFeatures** (version 7.0 & above) – Enables or disables the OpenType features to use in the preview text.
-* **PreviewFontSize** – Select the size in the test font window.
+* **PreviewFontSize** – Scale the font in the test font window.
 * **PreviewPosHeight** (version 3.0 until 4.5) – Contains the height in the preview window.
 * **PreviewPosLeft** (version 3.0 until 4.5) – Contains the left position in the preview window.
 * **PreviewPosTop** (version 3.0 until 4.5) – Contains the top position in the preview window.
@@ -576,7 +576,7 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TPERFORMTRANSFORMATIONFORM** (version 4.5 & above) – Used after transforming each glyph.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.5) – Choose which platform to support in the font (see **Tools: Convert Font** in version 7.0 & above).
 * **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.5) – Changes the PostScript names in the font (replaced with **Tools: Glyph Names** in version 7.0 & above). The menu item was called **Tools: TODO! AutoPost...** (hidden) in version 3.0 until 5.6 and dropped after version 6.0.
-* **TPRINTABORTFORM** – Used after starting the font printing process.
+* **TPRINTABORTFORM** – Used when printing the font.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing glyphs in the font.
 * **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – The cursor for this form is **Busy**.
@@ -632,7 +632,7 @@ The program includes hidden options for debugging, development and testing purpo
 
 **Developer Tools** – Contains debugging functions and developer commands (the menu is hidden for unregistered copies of FontCreator 12 or 13).
 * **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create the folder `help\screenshots\` from the Program Files directory (Program Files (x86) if the 32-bit version is installed on 64-bit) and register the program to use these features. In FontCreator 7.0 through 11.5, anti-aliased smoothing should be used.
-* **Hide Developer Menu** – Hides the menu (i.e. adds `Visible = False` to the menu much like the original program).
+* **Hide Developer Menu** – Hides the menu.
 * **AutohintMacro** – Uses the **Close All** command in the **File** menu.
 * **Video mode** – Restores the window to its original size and registers the program without a key.
 * **A/B Testing** – Contains two options to set the variant.
