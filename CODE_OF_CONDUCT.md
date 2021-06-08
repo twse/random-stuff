@@ -10,11 +10,11 @@ This list represents but a portion of the people who have signed the Python Soft
 **P.S.** Don't add your name here, unless you really *are* after Marien alphabetically.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
-Ubuntu has a code of conduct that you may sign with Launchpad or the [Code of Conduct Signing Assistant](https://launchpad.net/code-of-conduct-signing-assistant) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad).
+Ubuntu has a code of conduct that you may sign with Launchpad or the [Code of Conduct Signing Assistant](https://launchpad.net/code-of-conduct-signing-assistant) (signed digitally or physically by the user) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad).
 
 The Ubuntu product has very much been a team effort from development teams around Canonical and many, many people have contributed. This list represents but a portion of the people who have signed the Ubuntu Code of Conduct.
 
-**P.S.** Don't add your name here, unless you really *are* after Hatem alphabetically.
+**P.S.** Don't add your name here, unless you really *are* after Hatem alphabetically. Make sure you have imported your OpenPGP key to sign the Ubuntu Code of Conduct.
 
-## Note on the Code of Conduct Signing Assistant
+### Note on the Code of Conduct Signing Assistant
 The program was created in April 2013 and maintained by Marten de Vries. The program is distributed under the GNU GPL 3.0 license.
