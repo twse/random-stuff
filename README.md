@@ -1,7 +1,7 @@
 ﻿# Index
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments in the HTML pages for each font to determine which game is using the dialogue and what person/company wrote or translated the text. Swearing is everywhere in the pages for each font so readers should be 12 or older.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and what person/company wrote or translated the text. Swearing is everywhere in the pages for each font so readers should be 12 or older.
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
@@ -14,7 +14,7 @@ Created with CrystalTile2 and edited with old versions of FontCreator. All excep
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs.
-* **ZOE TFOM**: Font adapted and converted from the US and EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
+* **ZOE TFOM**: Font adapted and converted from the US/EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
 
 ## Manually adding to the Mozilla credits list
 It's useful if you want to modify the `names.csv` file without filling in the form, so it could be worth if you have no knowledge with or intent on Google Forms.
@@ -40,14 +40,14 @@ It's useful if you want to modify the `names.csv` file without filling in the fo
 **Command line** - You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Clone the `mozilla/community-data` repository.
 2. Edit `names.csv` to add your name at the end or use `echo name,sortkey >> names.csv` and replace the second word with your name and sort key. Example: `echo Michael James Hardy,Hardy >> names.csv`
-3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation. Example: `git commit -a -m 'Michael James Hardy <email address hidden>: \"For stealing old versions of Firefox and rebranding the browser as HyperSonic\"`
+3. Commit changes with `-a -m 'name <email>: \"citation\"'` replaced with your name, email and citation. Example: `git commit -a -m 'Michael James Hardy <email address hidden>: \"For stealing old versions of Firefox and renaming the program\"`
 4. Login as the current owner (see module info below) to push changes.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
 **GitHub web interface** - Do this only when logged in as the current owner in the module info below. You won't receive any emails when your name is added - this will see your name, email and citation in the log.
 1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
 2. Add your name at the end. Example: **Michael James Hardy,Hardy**
-3. Use **name &lt;email&gt;: "citation"** as the commit message replaced with your name, email and citation. Example: **Michael James Hardy &lt;email address hidden&gt;: "For stealing old versions of Firefox and rebranding the browser as HyperSonic"**
+3. Use **name &lt;email&gt;: "citation"** as the commit message replaced with your name, email and citation. Example: **Michael James Hardy &lt;email address hidden&gt;: "For stealing old versions of Firefox and renaming the program"**
 4. Use the default option which commits directly to `master`.
 5. View the Mozilla credits list to change the last updated date and add your entry.
 
@@ -81,24 +81,24 @@ The script is **check-names** located in `credits` in the `mozilla/community-dat
 * **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the guy with access privileges) to remove its request email address.
 
-## Index of protest pages (requires JavaScript; available in five versions)
+## Index of protest pages (requires JavaScript)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
-* **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page.
+* **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
 * **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
 * **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
-* **Error** (Otter Browser) – The text is taken from the Presto versions of Opera.
+* **Error** (Otter Browser) – The text used in this page is same as the Presto version of Opera (the Blink version does not).
 
 The protest pages are as follows:
 * **protest.htm** replaces HTML linking tags with LINK in square brackets.
 * **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
-* **protest5.htm** redirects all browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
+* **protest5.htm** redirects browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
 
 ## Translations of EasyPaint in multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko ceased development of this program in 2018-02-08.
+All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
 * Danish (`da_DK`)
 * Esperanto (`eo`)
 * Finnish (`fi_FI`)
