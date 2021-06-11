@@ -8,16 +8,16 @@
 * **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
 * **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data).
 
-## Index of fonts
+## Fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the fonts).
 * **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs.
 * **Generic Menu**: Font adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font. Windows Vista and above fakes the font preview as Japanese.
 * **LTROL Font**: Font adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs.
-* **ZOE TFOM**: Font adapted and converted from the US/EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game itself reverses two rows for all characters.
+* **ZOE TFOM**: Font adapted and converted from the US/EU versions of *Zone of the Enders: The Fist of Mars* (Kanji letters omitted). The original font in the game's ROM reverses two rows for all characters.
 
 ## Manually adding to the Mozilla credits list
-It's useful if you want to modify the `names.csv` file without filling in the form, so it could be worth if you have no knowledge with or intent on Google Forms.
+It's useful if you want to modify the `names.csv` file without filling in the form if you have no knowledge with or intent on using Google Forms.
 
 ### Bulk addition
 **Command line** - They won't receive emails when everyone is added - this will see the message in the log.
@@ -54,11 +54,9 @@ It's useful if you want to modify the `names.csv` file without filling in the fo
 ## Edit or remove yourself in the Mozilla credits list
 **Command line**
 1. Clone the `mozilla/community-data` repository.
-2. Rebase the repository with a large number to display all commits in the log.
-3. Edit the `names.csv` file to change or remove your entry.
-4. **Reword** the message to edit the name, email, citation or all strings or **drop** the message to remove the commit.
-5. Save it, login as the current owner (see module info below) and force the changes to push.
-6. View the Mozilla credits list to change the last updated date and edit/remove your entry.
+2. Edit the `names.csv` file to change or remove your entry.
+3. Save it, login as the current owner (see module info below) and force the changes to push.
+4. View the Mozilla credits list to change the last updated date and edit/remove your entry.
 
 **GitHub web interface**
 1. Look for `names.csv` in the `credits` directory of `mozilla/community-data` repository and edit it with the pencil at the top-right corner.
@@ -73,11 +71,11 @@ The script is **check-names** located in `credits` in the `mozilla/community-dat
 * To modify the Python script (file extension `.py`), you see **if row[-2] == 'Y':** in the 14th line. Change it to **Email Not Found**, **Evidence not public**, **N**, **Non Qual** or **Not enough evidence** yourself.
 
 ## Mozilla credits list module info
-* **Description:** Shows a list of all those who contributed to Mozilla. The Mozilla Organization didn't have its list created until August 1999.
+* **Description:** Shows a list of all those who contributed to Mozilla. The original list was created in August 1999.
 * **Owner:** Mohammad Shahbaz Alam (2019-present – GIT)
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
-* **URL:** See second file entry in the index above (in Mozilla apps it also links to `about:credits`).
+* **URL:** See second file entry in the index above.
 * **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the guy with access privileges) to remove its request email address.
 
@@ -91,7 +89,7 @@ Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) f
 * **Error** (Otter Browser) – The text used in this page is same as the Presto version of Opera (the Blink version does not).
 
 The protest pages are as follows:
-* **protest.htm** replaces HTML linking tags with LINK in square brackets.
+* **protest.htm** replaces HTML link tags with LINK in square brackets.
 * **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
