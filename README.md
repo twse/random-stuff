@@ -1,7 +1,7 @@
 ﻿# Index
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may have Mozilla Bugzilla profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and what person/company wrote or translated the text. Swearing is everywhere in the pages for each font so readers should be 12 or older.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language. Swearing is everywhere in the font-specific pages so readers should be 12 or older.
 * (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
@@ -76,11 +76,11 @@ The script is **check-names** located in `credits` in the `mozilla/community-dat
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above.
-* **Note:** Pull requests for additions not done via the form or changes not done via replies to application acceptance messages are closed with a comment. This will result in unmerged commits!
+* **Note:** Pull requests for additions not done via the form linked to the credits page or changes not done via replies to the form's application acceptance messages are closed by the module's owner with a comment. This will result in unmerged commits!
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the guy with access privileges) to remove its request email address.
 
 ## Index of protest pages (requires JavaScript)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/) (1942-2006) for his original pages derived from the main page.
+Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages derived from his profile page and the protest images for graphical browsers.
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
@@ -96,7 +96,7 @@ The protest pages are as follows:
 * **protest5.htm** redirects browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
 
 ## Translations of EasyPaint in multiple languages
-All translations are in ts format. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
+All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
 * Danish (`da_DK`)
 * Esperanto (`eo`)
 * Finnish (`fi_FI`)
