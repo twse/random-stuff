@@ -83,8 +83,8 @@ The script is **check-names** located in `credits` in the `mozilla/community-dat
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages derived from his profile page and the protest images for graphical browsers.
 * **Web page not available** (Android) – The link refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01).
 * **Cannot find server** (Internet Explorer 6 – Windows XP SP3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
-* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool).
-* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool and enables the option from the **Tools** menu).
+* **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool if it is installed and present).
+* **This page can't be displayed** (Internet Explorer 11) – The domain refers to a page in the **@Macarlo, Inc** website (defunct since 2013/07/01). In this page is a button labeled **Fix connection problems** (pressing when accessed as `res://ieframe.dll/dnserror.htm` or `res://ieframe.dll/dnserrordiagoff.htm` opens the network diagnostic tool if it is installed and present and enables the option from the **Tools** menu).
 * **Page Load Error** (Firefox and other Mozilla browsers) – The **Address Not Found** text is taken from the Splashtop Browser.
 * **Error** (Otter Browser) – The text used in this page is same as the Presto version of Opera (the Blink version does not).
 
@@ -93,7 +93,7 @@ The protest pages are as follows:
 * **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
-* **protest5.htm** redirects browsers to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
+* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list).
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
