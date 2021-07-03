@@ -1,8 +1,8 @@
 ﻿# Index
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). We know there are many Mozillians, past and present, who may or may not have Mozilla Bugzilla or Mozilla Pontoon profiles. This includes legacy contributors who have no account or have not updated their email address on Mozilla Bugzilla and Mozilla Pontoon. The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language. Swearing is everywhere in the font-specific pages so readers should be 12 or older.
-* (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language. See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language. Swearing is everywhere in the font-specific pages so readers should be 12 or older.
+* (Not present in this repository) User agents for Otter Browser for [Mac browsers](https://drive.google.com/uc?id=1-AkleGvhHpgbLkLnhYKpaoo1fKqIjjv-&export=download), [mobile platforms](https://drive.google.com/uc?id=1VRSVtj_AxrrD-jaKYhk5xZ1S-g_MauvJ&export=download) and [game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
 ## Data Files and Registry Keys in Software
 * **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
@@ -76,7 +76,7 @@ The script is **check-names** located in `credits` in the `mozilla/community-dat
 * **Owners Emeritus:** Dawn Endico (1999-2003 – CVS), Gervase Markham (2003-2017 – CVS, GIT and SVN), Ram Dayal Vaishnav (2017-2019 – GIT)
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above.
-* **Note:** Pull requests for additions not done via the form linked to the credits page or changes not done via replies to the form's application acceptance messages are closed by the module's owner with a comment. This will result in unmerged commits!
+* **Note:** Pull requests for additions not done via the form linked to the credits page or changes not done via replies to the form's application acceptance messages are closed by the module's owner with a comment. The pull request will result in unmerged commits!
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 2013 by Gervase Markham (the guy with access privileges) to remove its request email address.
 
 ## Index of protest pages (requires JavaScript)
