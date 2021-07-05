@@ -7,7 +7,7 @@ Submissions are done in two days apart. You will receive a verification email an
 
 This list represents but a portion of the people who have signed the Python Software Foundation Contributor License Agreement.
 
-**P.S.** Don't add your name here, unless you really *are* after Marien alphabetically.
+**P.S.** Don't add your name here, unless you really *are* after Marien alphabetically. It is not related to the Python Software Foundation code of conduct.
 
 ### Note on the Check Python CLA app
 Mariatta Wijaya created the [Check Python CLA](https://check-python-cla.herokuapp.com/) program to check each user to see if the contributor license agreement is signed.
