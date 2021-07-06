@@ -1,6 +1,7 @@
-﻿FontCreator is a font editor and High-Logic's first product created with the first version released in 1998 since the company was founded in 1997.
+﻿FontCreator is a program to create and edit fonts.
 
 ## Notes
+* The first version was released in 1998 when High-Logic was founded in 1997.
 * The cursor will remain **Busy** if the user is doing other stuff while saving fonts in the background.
 * All versions can save all unaltered opened fonts from the File menu (Windows 2000 & above shows a critical error saying "List index out of bounds" if done repeatedly).
 * Exiting when saving fonts may create invalid font(s) and play the Critical Stop sound from the PC speakers.
@@ -58,7 +59,7 @@ If the program detects it is an unregistered copy, is running as a limited user 
 * **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but it duplicates **xi** to the first Unicode codepoint.
 * **glyphnames.dat** (version 7.0 until 11.5) and **glyphnamesnew.dat** (version 12.0 & above) – Contains the default glyph names when opening fonts and when generating glyph names in the glyph properties window.
 * **guidelines.dat** – Contains the guidelines used by the glyph edit and guideline options windows. Created automatically after exiting the program.
-* **kern_font.txt** – For old versions of FontCreator, stores the old `KERN` table data in each font whereas `font` is the font name. Opening fonts with the old `KERN` table in recent versions will create the GPOS table named `KerningFromKernTable` from the OpenType kerning feature.
+* **kern_font.txt** – For old versions of FontCreator, stores the old `KERN` table data in each font whereas `font` is the font name. Opening fonts with the old `KERN` table in recent versions will create the `GPOS` table named `KerningFromKernTable` from the OpenType kerning feature.
 * **previewtext.dat** (version 5.0 & above) – Contains text used in the test font window. The text is restored to factory defaults if removed.
 * **preview.txt** (version 4.5 & above) – Contains text strings used by the Preview toolbar. The dropdown list will appear empty if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains multilanguage naming fields.
@@ -129,12 +130,12 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **ShowToolbarWindowValidation** (version 5.5 & above) – Show or hide the validation report (**Show Report** in the Glyph toolbar). Default is off.
 
 ### Grid
-* **FixedGridColor** – Set the fixed grid color in `TGRIDFORM`. Default is white.
-* **FixedGridLineStyle** – Set the fixed grid line style in `TGRIDFORM`. Default is solid.
-* **GridColor** – Set the grid color in `TGRIDFORM`. Default is sky blue.
-* **GridDistance** – Used with **Minimum distance between grid points in units** in `TGRIDFORM`.
-* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in `TGRIDFORM`.
-* **GridLineStyle** – Set the line style in `TGRIDFORM`. Default is solid.
+* **FixedGridColor** – Set the fixed grid color in Grid Options. Default is white.
+* **FixedGridLineStyle** – Set the fixed grid line style in Grid Options. Default is solid.
+* **GridColor** – Set the grid color in Grid Options. Default is sky blue.
+* **GridDistance** – Used with **Minimum distance between grid points in units** in Grid Options.
+* **GridDistancePixels** – Used with **Mininum distance between grid points in pixels** in Grid Options.
+* **GridLineStyle** – Set the line style in Grid Options. Default is solid.
 * **IncludeBaseline** (version 3.0 until 6.0) – Used with **Baseline** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
 * **IncludeLeftSideBearing** (version 3.0 until 6.0) – Used with **Left side bearing** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
 * **IncludeRightSideBearing** (version 3.0 until 6.0) – Used with **Right side bearing** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
@@ -146,8 +147,8 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **IncludeYAxis** (version 3.0 until 6.0) – Used with **Y-Axis** in `TMETRICSFORM`. Default is on (in version 7.0 & above, it is always enabled for any opened font).
 * **LockUserDefinedGuidelines** (version 4.5 & above) – Used with **Lock Guidelines** in the Grid toolbar. Default is off.
 * **ShowBearings** (version 5.6 & above) – Used with **Show Metrics** in the Grid toolbar. Default is on.
-* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in `TGRIDFORM`.
-* **ShowGrid** – Used with **Show Grid** in `TGRIDFORM` or the Grid toolbar. Default is on.
+* **ShowFixedGridLines** (version 5.6 & above) – Used with **Show reference lines at x = 0, y = 0** in Grid Options.
+* **ShowGrid** – Used with **Show Grid** in Grid Options or the Grid toolbar. Default is on.
 * **ShowUserDefinedGuidelines** – Used with **Show Guidelines** in Guidelines Options or the Grid toolbar. Default is on.
 * **SnapToGrid** (version 1.1.3 & above) – Used with **Snap to Grid** in the Grid toolbar. Default is off.
 * **SnapToUserDefinedGuidelines** (version 4.0 & above) – Used with **Snap to Guidelines** in the Grid toolbar. Default is off.
@@ -159,7 +160,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **Color** – Set the color. Default is black.
 * **LineStyle** – Set the line style. Default is solid.
 
-### ImportImage (used in `TCONVERTBITMAPTOCONTOURSFORM`)
+### ImportImage (used in Import Image)
 * **BitmapPositionOrigin** – Used with radio buttons of all corners in **Glyph: Position**. Default is centered.
 * **BitmapPositionType** – Set the **Bitmap Position Type**.
 * **Erode** – Used with **Erode – Dilate** in the Image tab. Default is No filter.
@@ -206,7 +207,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 * **NewFontIncludeOutlines** (version 5.6 & above) – Used with **Predefined outlines: Include outlines** in `TNEWTRUETYPEFONTFORM` (the outlines are from Garava). Default is on.
 * **OpenDialogInitialDir2** – Contains the directory in the Open dialog. Default is user's font folder.
 * **OpenDialogInitialDirAutoKerning** (version 2.0 until 6.5) – Contains the directory in the Open dialog from `TAUTOKERNEXFORM`.
-* **OpenDialogInitialDirImportImage2** – Contains the directory in the Open dialog from `TCONVERTBITMAPTOCONTOURSFORM`.
+* **OpenDialogInitialDirImportImage2** – Contains the directory in the Open dialog from Import Image.
 * **OpenDialogInitialDirNamingField2** – Contains the directory in the Open dialog from `TADDCUSTOMNAMINGFORM`. Default is desktop.
 * **OpenDialogInitialDirTransform3** – Contains the directory in the Open dialog from `TPERFORMTRANSFORMATIONFORM`. Default is program's transform folder.
 * **OptionsPage** – Select the tab in the options window. Default is 0 (General).
@@ -266,7 +267,7 @@ There are three built-in external programs: **MainType** (version 5.6 & above, i
 ### Last Time, Most Recently Used Files, Most Recently Used Projects
 * **File_#** – Include fonts and/or projects opened from last time or recently used in the **File: Reopen** menu whereas # is a number. Old versions stores up to 7 files while recent versions stores up to 26 fonts and 10 projects. The menu will appear empty (recent versions) or dimmed (old versions) if the above keys are removed or if **Clear file list** is selected from the menu. When `OnStartupOpenFonts` is enabled, nothing is opened if removed. When opening a non-existing file before version 7.0 the file is removed (after version 7.0 it is kept).
 
-### Metrics (used in `TAUTOMETRICSFORM`)
+### Metrics (used in the Automatic Metrics Wizard)
 * **AutoMetricsExcludeEmptyGlyphs** – Used with **Additional Options: Exclude empty glyphs (recommended)**.
 * **AutoMetricsFixedAW** – Used with **Fixed Width: Advance Width** spinner. Default is 2048.
 * **AutoMetricsFixedChangeAW** – Used with **Fixed: Change Advance Width** option.
@@ -433,19 +434,19 @@ Many people and companies provided registration keys for cracked versions. The *
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Options: Validation. Default is 0.80.
 * **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points seen in the registry keys below during real-time validation (i.e. it is too complex), the button will appear dimmed.
 * **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points seen in the registry keys below during real-time validation (i.e. it is too complex), the button will appear dimmed.
-* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestFixDetectedProblems** (version 4.1 & above) – Used with **Fix detected problems** in `TVALIDATIONWIZARDFORM`. Default is off.
-* **TestIntersectingComponents** – Used with **Validation Tests: Intersecting components** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestOverlappingComponents** – Used with **Validation Tests: Overlapping components** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in `TVALIDATIONWIZARDFORM`. Default is on.
-* **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in `TVALIDATIONWIZARDFORM`. Default is on.
+* **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Validation Wizard. Default is on.
+* **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Validation Wizard. Default is on.
+* **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Validation Wizard. Default is on.
+* **TestDuplicateContours** – Used with **Validation Tests: Duplicate contours** in the Validation Wizard. Default is on.
+* **TestDuplicateKnots** – Used with **Validation Tests: Duplicate knots** in the Validation Wizard. Default is on.
+* **TestEmptyComponents** – Used with **Validation Tests: Empty components** in the Validation Wizard. Default is on.
+* **TestFixDetectedProblems** (version 4.1 & above) – Used with **Fix detected problems** in the Validation Wizard. Default is off.
+* **TestIntersectingComponents** – Used with **Validation Tests: Intersecting components** in the Validation Wizard. Default is on.
+* **TestIntersectingCoordinates** – Used with **Validation Tests: Intersecting coordinates** in the Validation Wizard. Default is on.
+* **TestOffCurveExtremeCoordinates** – Used with **Validation Tests: Off-curve extreme coordinates** in the Validation Wizard. Default is on.
+* **TestOverlappingComponents** – Used with **Validation Tests: Overlapping components** in the Validation Wizard. Default is on.
+* **TestRedundantPoints** – Used with **Validation Tests: Redundant points** in the Validation Wizard. Default is on.
+* **TestSuspiciousPoints** (version 11.0.0.2365 & above) – Used with **Validation Tests: Suspicious points** in the Validation Wizard. Default is on.
 * **ValidationMaxNumberOfCompositeGlyphMembers** – Used with **Real-time glyph validation: Disable when number of members exceeds** in Options: Validation. Default is 1000.
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Options: Validation. Default is 100.
 * **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Options: Validation. Default is 25.
@@ -491,7 +492,7 @@ Many people and companies provided registration keys for cracked versions. The *
 * **PACKAGEINFO** (unused) – Shows all functions and the Pascal log used to compile the program.
 * **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program/operating system version number, physical memory, registration information and MPL Licensed Open Source Software (version 6.0 & above) (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
-* **TADDCHARACTERSFORM** (version 4.0 & above) – Adds characters as empty glyphs to the font. In version 4.0 the menu item is hidden, adds glyph data from another font and only adds one character. In version 5.0 & above it adds up to 65,535 characters.
+* **TADDCHARACTERSFORM** (version 5.0 & above) – Adds characters as empty glyphs to the font. In version 4.0 the feature is hidden and it adds glyph data from another font/only adds one character. In version 5.0 & above it adds up to 65,535 characters.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shown when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` (old versions) or the Unicode button in the glyph properties (new versions) to assign Unicode character values for each glyph.
 * **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for multiple languages.
 * **TADDFPCVLTSFORM** – Adds labels, tooltips or samples to character variants in the OpenType layout tables.
@@ -499,7 +500,7 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TADDFPSTYLISTICSETNAMEFORM** – Adds or writes stylistic set names or descriptions in the OpenType layout tables.
 * **TADDGASPFORM** – Adds gasp ranges to the font (**Add** in **Smoothing: Preferred rasterization techniques** in the font settings window).
 * **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
-* **TADDPLATFORMFORM** (version 2.0 until 6.5) – Adds a platform to the font (**Add** button in the Platform Manager).
+* **TADDPLATFORMFORM** (version 2.0 until 6.5) – Adds a platform to the font by pressing the **Add** button in the Platform Manager.
 * **TADDUVSFORM** – Used by fonts for East Asian languages to add Unicode variation sequences.
 * **TADVANCEDEDITFORM** – Edit a naming field in the font.
 * **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Manages anchors in the font if positioning data exists in the OpenType layout tables.
@@ -508,9 +509,9 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TAUTONAMEFORM** (version 3.1.2 until 6.5) – Automatically change the naming fields of a font.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Edit a naming field or include additional naming fields in the font (replaced with Properties in version 7.0 & above).
 * **TCHANGETAGFORM** (version 7.0 & above) – Changes tags in the OpenType layout tables.
-* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5) – Maps characters to glyph indexes. The menu item was called **Tools: TODO! AutoCmap...** (hidden) in version 3.0 until 5.6 and dropped after version 6.0. This corresponds to the `cmap` table.
+* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.5, **Tools: TODO! AutoCmap...** in version 3.0 until 5.6 as hidden menu item) – Maps characters to glyph indexes. The feature was dropped after version 6.0. This corresponds to the `cmap` table.
 * **TCODEEDITORFORM** (version 7.0 & above) – Opens up the OpenType Layout Feature Editor to view or edit the source code for OpenType features.
-* **TCODEPAGERANGEFORM** – Includes or excludes code pages to support in the font. This corresponds to the `ulCodePageRange` fields to make the font work in some programs like Microsoft Office or Sublime Text. If the font has no code page ranges set (e.g. Noto Sans and its regional variants), then Windows will show the script selection as **Other**.
+* **TCODEPAGERANGEFORM** – Includes or excludes code pages to support in the font. This corresponds to the `ulCodePageRange` fields to make the font work in some programs like Microsoft Office or Sublime Text. If the fields are not set (e.g. Noto Sans and its regional variants), then Windows will show the script selection as **Other**.
 * **TCOLORFORM** (old versions) – It's not the standard Windows color selection dialog.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Views or modifies properties for composite glyph members.
 * **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – This confirmation dialog will ask you what to do when replacing.
@@ -544,7 +545,7 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TFRAMEPALETTE** (version 7.5 & above) – Shows the color palette when editing multicolored fonts (automatically shown when switching glyphs to color mode).
 * **TGASPFORM** (version 2.0 until 6.5) – Manages gasps in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above). This corresponds to the `gasp` table.
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
-* **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in `TVALIDATIONWIZARDFORM`.
+* **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in the Validation Wizard.
 * **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. In version 7.0 & above the message is textual (i.e. the form is removed).
 * **TGLYPHEDITFORM** – Used when opening any glyph from the font overview.
 * **TGLYPHNAMEFORM** (version 7.0 & above) – Changes the PostScript names in the font (**Tools: Glyph Names**).
@@ -557,8 +558,8 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TINSTALLEDFONTSFORM** – Shows a list of installed fonts. Version 10.1.0.2272 (2016-12-20) & below has a delay.
 * **TKERNFEATUREFRAME** – Used by `TKERNINGFORM`.
 * **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Manages kerning groups or classes in the font.
-* **TKERNINGFORM** (version 3.0 until 8.0) – Views or edits the legacy `KERN` table (not the GPOS kerning tables) in the font (replaced with OpenType Designer in version 7.0 & above).
-* **TKERNINGNEWPAIRFORM** (version 3.0 until 8.0) – Adds a kerning pair to the old `KERN` table or the GPOS kerning tables.
+* **TKERNINGFORM** (version 3.0 until 8.0) – Views or edits the legacy `KERN` table (not the `GPOS` kerning tables) in the font (replaced with OpenType Designer in version 7.0 & above).
+* **TKERNINGNEWPAIRFORM** (version 3.0 until 8.0) – Adds a kerning pair to the old `KERN` table or the `GPOS` kerning tables.
 * **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Adds a single kerning adjustment to the font.
 * **TMADEXCEPT**, **TMECONTACTFORM**, **TMEDETAILSFORM**, **TMESCRSHOTFORM** – Consists of crash report exceptions, contact info, details about the crash report and screenshots. Used to send crash reports.
 * **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0 and **TMAINFORMFCP4** in version 4.0 until 5.0) – Contains a lot of things like the main window, glyph properties, user notes (version 7.0 & above), preview window (version 3.0.1 & above), anchors, glyph validation report and more.
@@ -575,11 +576,11 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TPCLTFORM** (version 3.0.1 until 6.5) – Views, edits or modifies the PCL5 data for use with old printers. This corresponds to the `PCLT` table.
 * **TPERFORMTRANSFORMATIONFORM** (version 4.5 & above) – Used after transforming each glyph.
 * **TPLATFORMMANAGERFORM** (version 2.0 until 6.5) – Choose which platform to support in the font (see **Tools: Convert Font** in version 7.0 & above).
-* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.5) – Changes the PostScript names in the font (replaced with **Tools: Glyph Names** in version 7.0 & above). The menu item was called **Tools: TODO! AutoPost...** (hidden) in version 3.0 until 5.6 and dropped after version 6.0.
+* **TPOSTSCRIPTNAMESFORM** (version 2.0 until 6.5, **Tools: TODO! AutoPost...** in version 3.0 until 5.6 as hidden menu item) – Changes the PostScript names in the font (replaced with **Tools: Glyph Names** in version 7.0 & above). The feature was dropped after version 6.0.
 * **TPRINTABORTFORM** – Used when printing the font.
 * **TPRINTFONTFORM** – Used when printing anything in the font.
 * **TPRINTGLYPHFORM** – Used when printing glyphs in the font.
-* **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – The cursor for this form is **Busy**.
+* **TPROGRESSDIALOG** (**TPROGRESSFORM** in old versions) – Progress dialog. The cursor for this form is **Busy**.
 * **TREGISTERFORMEX** and **TREGISTERFORMFC** (version 1.0.6 & above, **TREGISTERFORM** in old versions) – Registers the program (**Help** or **Buy: Register...**). This removes `TSPLASHFORM` on startup, hides the **Buy** menu and the **Help: Register...** item and shows the **Developer Tools** menu (if enabled in version 12.0 & above). **Fun fact:** `TREGISTERFORMEX` has its own user agent.
 * **TRESOURCEEDITORDLG** (unused, version 3.0) – It is a large resource.
 * **TRESOURCEMODULE** – Contains styles in `rvStyleGlobal` and icons with no regard to `Glyph.Data` in old versions.
@@ -597,13 +598,13 @@ Many people and companies provided registration keys for cracked versions. The *
 * **TTEXTSEARCHDIALOG** – Searches text in the OpenType Layout Feature Editor.
 * **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Shows tips and tricks (**Help: Tip of the Day**). The **Register** button is shown if the program is detected to be running an unregistered copy.
 * **TTRANSFORMFORM** (version 4.5 & above) – Transforms the font to other weights (e.g. medium, bold or black) or add character ranges (e.g. some characters in the *Letterlike Symbols* range of Unicode).
-* **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – If the program is detected to be running an unregistered copy, testing, installing or exporting fonts displays this message. The message has a checkbox to turn it off. It includes a link to the registration page in the High-Logic website.
+* **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – If the program is detected to be running an unregistered copy, testing, installing or exporting fonts displays this message. The message has a checkbox to turn it off. The message text includes a link to the registration page in the High-Logic website.
 * **TTRIMFORM** – Used when trimming glyphs.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font (the list in the dialog itself belongs to OpenType 1.3). This corresponds to the `ulUnicodeRange` fields.
-* **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 through 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. The program will terminate silently if the first form is removed or `mRestart` in the first form is not three lines. It connects to the High-Logic website to download the installer.
+* **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 until 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. The program will terminate silently if the first form is removed or `mRestart` in the first form is not three lines. It connects to the High-Logic website to download the installer if the computer is connected to the internet.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
 * **TUVSFORM** – Manage Unicode variation sequences used by fonts for East Asian languages.
-* **TVALIDATIONWIZARDFORM** (version 4.0 & above) – Validates the font for errors or problems. The menu item was called **Font: TODO! Problem Report...** (hidden) in version 3.0.
+* **TVALIDATIONWIZARDFORM** (version 4.0 & above, **Font: TODO! Problem Report...** in version 3.0 as hidden menu item) – Validates the font for errors or problems.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TEXTENDEDWARNINGFORM** and **TWARNINGFORM** in old versions) – Used for warnings.
 
@@ -631,7 +632,7 @@ The program includes hidden options for debugging, development and testing purpo
 * Tags from **tags.txt** and **Tagged** folder (font overview) – These menu items are automatically shown and do nothing when selected in the font overview except for using the same items in the font overview glyph context menu or editing glyphs in the glyph edit window.
 
 **Developer Tools** – Contains debugging functions and developer commands (the menu is hidden for unregistered copies of FontCreator 12 or 13).
-* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create the folder `help\screenshots\` from the Program Files directory (Program Files (x86) if the 32-bit version is installed on 64-bit) and register the program to use these features. In FontCreator 7.0 through 11.5, anti-aliased smoothing should be used.
+* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create the folder `help\screenshots\` from the Program Files directory (Program Files (x86) if the 32-bit version is installed on 64-bit) and register the program to use these features. In FontCreator 7.0 until 11.5, anti-aliased smoothing should be used.
 * **Hide Developer Menu** – Hides the menu.
 * **AutohintMacro** – Uses the **Close All** command in the **File** menu.
 * **Video mode** – Restores the window to its original size and registers the program without a key.
@@ -661,9 +662,10 @@ The program includes hidden options for debugging, development and testing purpo
 ### Font Overview
 Version 4.5 added support for bookmarking glyphs (discontinued since version 7.0 as the menu is hidden).
 
-### Import Image Dialog Checkboxes (version 3.0)
-* **Include Diagonals** – The checkbox was dropped after version 4.0.
-* **Remove Knees** – The checkbox was dropped after version 4.0.
+### Import Image Dialog Checkboxes (version 3.0 - dropped after version 4.0)
+The checkboxes summon no action when checked.
+* **Include Diagonals**
+* **Remove Knees**
 
 ### Glyph Properties
 Version 4.0 until 5.0 includes a text box intended to show the number of contours (see the status bar at the bottom of the main window).
@@ -682,7 +684,7 @@ The third panel changes the advance width with check boxes to center the glyph/s
 All values start with a capital D enclosed in square brackets.
 * **Clear Values** – Sets the value for all kerning pairs to zero. Used for monospaced fonts with kerning tables (e.g. *Monospaced Typewriter*).
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
-* **Clean Up** – Removes all kerning pairs with a zero value. Version 3.0 through 6.5 removes pairs with unmapped glyphs (version 7.0 & above keeps them).
+* **Clean Up** – Removes all kerning pairs with a zero value. Version 3.0 until 6.5 removes pairs with unmapped glyphs (version 7.0 & above keeps them).
 
 ### OpenType Layout Feature Editor
 * Checkbox: **Debug: VOLT.UseGlyphIds** – It is used only for fonts with Microsoft VOLT projects.
