@@ -16,5 +16,5 @@ This repository contains my random stuff.
 
 ## Protest pages (HTM files)
 These pages are available in four versions. Thanks to Norman De Forest for inspiring me to create the pages (see his index page available in seven versions for descriptions). Region locked sites are shown with a dagger and country names.
-* **Web page not available** (Old Android browser) - This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site, however, the company closed its business and the domain expired on July 2013.
+* **Web page not available** (Android) - This page uses http links. The link refers to a page at the **@Macarlo Networks, Incorporated** site, however, the company closed its business and the domain expired on July 2013.
 * **Cannot find server** (Internet Explorer 6.0 - Windows XP RTM, SP1 and SP2) - This page uses JavaScript links and resources from shdoclc.dll.
