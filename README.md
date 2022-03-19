@@ -72,7 +72,7 @@ The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) un
 ## Brief description of Sobreloader and information about German translation
 Sobreloader is an easy tool to overload Windows by running a program multiple times in a massive form. Sobreloader is said to work with Windows XP & above. No option to change the language is included in the program's menu.
 
-The program was developed by elstef41 under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. This translation is for Sobreloader 0.9.0. I created this with Microsoft Bing Translator.
+The program was developed by elstef41 under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. This translation is for Sobreloader 0.9.5. I created this with Microsoft Bing Translator.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
