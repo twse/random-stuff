@@ -61,19 +61,10 @@ The protest pages are as follows:
 **NB!** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
 
 ## Brief description of Sobreclick and German/Polish translation info
-Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. Sobreclick is said to work with Windows XP & above.
-
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
+Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish.
 
 ## Brief description of Sobreloader and German/Polish translation info
-Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above.
-
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator.
-
-## Brief description of Sobreloader and information about German translation
-Sobreloader is an easy tool to overload Windows by running a program multiple times in a massive form. Sobreloader is said to work with Windows XP & above. No option to change the language is included in the program's menu.
-
-The program was developed by elstef41 under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. This translation is for Sobreloader 0.9.5. I created this with Microsoft Bing Translator.
+Sobreloader is a simple overloader to run a program multiple times massively. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) is in Spanish.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
