@@ -70,15 +70,11 @@ The protest pages are as follows:
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
 * **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list - the sites are listed in alphabetical order).
 
-## Brief description of Sobreclick translation info
-Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. Sobreclick is said to work with Windows XP & above.
+## Brief description of Sobreclick and translation info
+Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. I created the Czech, German, Polish and Russian translations with Microsoft Bing Translator.
 
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created the Czech, German, Polish and Russian translations with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
-
-## Brief description of Sobreloader translation info
-Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above.
-
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created the Czech, German, Polish and Russian translations with Microsoft Bing Translator.
+## Brief description of Sobreloader and translation info
+Sobreloader is a simple overloader to run a program multiple times massively. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) is in Spanish. I created the Czech, German, Polish and Russian translations with Microsoft Bing Translator.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
