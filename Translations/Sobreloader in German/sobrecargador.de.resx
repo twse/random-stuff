@@ -117,341 +117,54 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 61</value>
-  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 13</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>224, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Geben Sie den Pfad der ausführbaren Datei/den Namen des Prozesses ein:/value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 81</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 11</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>Schreiben Sie den Pfad der ausführbaren Datei/den Namen des Prozesses ein:</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>z.B.: mspaint</value>
   </data>
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="textBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 77</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 20</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 127</value>
-  </data>
-  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
-  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 111</value>
-  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 13</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>157, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Schreiben Sie die Anzahl der auszuführenden Male</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 153</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 24</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Aus&amp;führen</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="argsTB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="argsTB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 38</value>
-  </data>
-  <data name="argsTB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 20</value>
-  </data>
-  <data name="argsTB.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="argsTB.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;argsTB.Name" xml:space="preserve">
-    <value>argsTB</value>
-  </data>
-  <data name="&gt;&gt;argsTB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;argsTB.Parent" xml:space="preserve">
-    <value>oAdicionales</value>
-  </data>
-  <data name="&gt;&gt;argsTB.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="checkBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 21</value>
-  </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 17</value>
-  </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>106, 17</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
     <value>Ar&amp;gumente hinzufügen</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
-    <value>oAdicionales</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>347, 75</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>B&amp;esuchen...</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 130</value>
-  </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
-  </data>
-  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>60, 17</value>
   </data>
   <data name="checkBox2.Text" xml:space="preserve">
     <value>&amp;Kein Limit</value>
   </data>
-  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
-    <value>checkBox2</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 131</value>
-  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>93, 13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>(GEFÄHRLICH)</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="oAdicionales.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="oAdicionales.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 257</value>
-  </data>
-  <data name="oAdicionales.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 64</value>
-  </data>
-  <data name="oAdicionales.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>Sch&amp;ließen durch ende</value>
   </data>
   <data name="oAdicionales.Text" xml:space="preserve">
     <value>Zusätzliches Optionen</value>
-  </data>
-  <data name="&gt;&gt;oAdicionales.Name" xml:space="preserve">
-    <value>oAdicionales</value>
-  </data>
-  <data name="&gt;&gt;oAdicionales.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;oAdicionales.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;oAdicionales.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cancText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
   </data>
   <data name="cancText.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -512,33 +225,6 @@
         871eba2nqyX8HQUbzGFpWFUMrCMOwXwh9NBsan5gZmuNV5cN/mndQy4uO+DN4eDTcvCzKv6DzQy05AtI
         Fhtxr9iIv19IrJH0VKqoAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="cancText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>326, 81</value>
-  </data>
-  <data name="cancText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 11</value>
-  </data>
-  <data name="cancText.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="cancText.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;cancText.Name" xml:space="preserve">
-    <value>cancText</value>
-  </data>
-  <data name="&gt;&gt;cancText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cancText.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="desText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
   </data>
   <data name="desText.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -605,36 +291,6 @@
         qA8UAvFi5cMwPl9qd3iWaPBOxKAQH4bxQFiiR4vtI5L8DyRgeJ474ZAQAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="desText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 80</value>
-  </data>
-  <data name="desText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 11</value>
-  </data>
-  <data name="desText.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="desText.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="desText.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;desText.Name" xml:space="preserve">
-    <value>desText</value>
-  </data>
-  <data name="&gt;&gt;desText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;desText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;desText.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ctst.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="ctst.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -694,176 +350,83 @@
         KBQKrnpGzmQy+A3wSLWHP2SeogAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="ctst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 81</value>
-  </data>
-  <data name="ctst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>13, 11</value>
-  </data>
-  <data name="ctst.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="ctst.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;ctst.Name" xml:space="preserve">
-    <value>ctst</value>
-  </data>
-  <data name="&gt;&gt;ctst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ctst.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ctst.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="nombresDeEjemploToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+E</value>
-  </data>
   <data name="nombresDeEjemploToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 22</value>
+    <value>239, 22</value>
   </data>
   <data name="nombresDeEjemploToolStripMenuItem.Text" xml:space="preserve">
-    <value>Beispiel-Prozesse-&amp;Namen</value>
-  </data>
-  <data name="historialDeProcesosToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+H</value>
+    <value>&amp;Beispiel-Prozesse-Namen</value>
   </data>
   <data name="historialDeProcesosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 22</value>
+    <value>239, 22</value>
   </data>
   <data name="historialDeProcesosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Prozess-C&amp;hronik</value>
+    <value>&amp;Prozess-Chronik</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 6</value>
+    <value>236, 6</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 22</value>
+    <value>239, 22</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Beenden</value>
   </data>
   <data name="SobreloaderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>59, 20</value>
   </data>
   <data name="SobreloaderToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Prozess</value>
   </data>
-  <data name="restaurarVentanaToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="restaurarVentanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 22</value>
+    <value>149, 22</value>
   </data>
   <data name="restaurarVentanaToolStripMenuItem.Text" xml:space="preserve">
     <value>G&amp;roße wiederherstellen</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 22</value>
+    <value>149, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
     <value>Immer &amp;sichtbar</value>
   </data>
   <data name="ventanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>63, 20</value>
   </data>
   <data name="ventanaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Fenster</value>
   </data>
   <data name="advertenciaDeInicioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+    <value>173, 22</value>
   </data>
   <data name="advertenciaDeInicioToolStripMenuItem.Text" xml:space="preserve">
     <value>St&amp;artvorgang-Warnung</value>
   </data>
   <data name="visitarRepositorioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+    <value>173, 22</value>
   </data>
   <data name="visitarRepositorioToolStripMenuItem.Text" xml:space="preserve">
     <value>Repository &amp;Besuchen</value>
   </data>
   <data name="licenciaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+    <value>173, 22</value>
   </data>
   <data name="licenciaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Lizenz</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 6</value>
+    <value>170, 6</value>
   </data>
   <data name="acercaDeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+    <value>173, 22</value>
   </data>
   <data name="acercaDeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ü&amp;ber Sobreloader</value>
+    <value>&amp;Über Sobreloader</value>
   </data>
   <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
+    <value>44, 20</value>
   </data>
   <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Hilfe</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 24</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 44</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>434, 350</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5066,102 +4629,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Sobreloader</value>
-  </data>
-  <data name="&gt;&gt;SobreloaderToolStripMenuItem.Name" xml:space="preserve">
-    <value>SobreloaderToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;SobreloaderToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nombresDeEjemploToolStripMenuItem.Name" xml:space="preserve">
-    <value>nombresDeEjemploToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;nombresDeEjemploToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;historialDeProcesosToolStripMenuItem.Name" xml:space="preserve">
-    <value>historialDeProcesosToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;historialDeProcesosToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;salirToolStripMenuItem.Name" xml:space="preserve">
-    <value>salirToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;salirToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ventanaToolStripMenuItem.Name" xml:space="preserve">
-    <value>ventanaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;ventanaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;restaurarVentanaToolStripMenuItem.Name" xml:space="preserve">
-    <value>restaurarVentanaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;restaurarVentanaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;siempreVisibleToolStripMenuItem.Name" xml:space="preserve">
-    <value>siempreVisibleToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;siempreVisibleToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ayudaToolStripMenuItem.Name" xml:space="preserve">
-    <value>ayudaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;ayudaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;advertenciaDeInicioToolStripMenuItem.Name" xml:space="preserve">
-    <value>advertenciaDeInicioToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;advertenciaDeInicioToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;visitarRepositorioToolStripMenuItem.Name" xml:space="preserve">
-    <value>visitarRepositorioToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;visitarRepositorioToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;licenciaToolStripMenuItem.Name" xml:space="preserve">
-    <value>licenciaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;licenciaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;acercaDeToolStripMenuItem.Name" xml:space="preserve">
-    <value>acercaDeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;acercaDeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>sobreloader</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="msgAmount1" xml:space="preserve">
-    <value>Der Betrag muss größer als 0 sein.</value>
-  </data>
   <data name="msgErrorOF" xml:space="preserve">
     <value>Beim Öffnen der Datei ist ein Fehler aufgetreten.
 
@@ -5176,7 +4643,6 @@ Wenn Sie den Namen der ausführbaren Datei trocken eingegeben haben, versuchen S
   <data name="msgNoLimit" xml:space="preserve">
     <value>Sie haben die Option Kein Limit ausgewählt, was bedeutet, dass das eingestellte Programm ständig und ohne Beendigung ausgeführt wird. Wenn Sie sich nicht in einer virtualisierten Umgebung befinden, ist es sehr wahrscheinlich, dass dieses Verfahren die Leistung Ihres Computers beeinträchtigt und Folgeerscheinungen hinterlässt.
 
-
 Sind Sie wirklich sicher, dass Sie weitermachen werden? Wenn Sie sich nicht in einer virtuellen Maschine befinden, wählen Sie Nein aus.</value>
   </data>
   <data name="msgNoProcess" xml:space="preserve">
@@ -5189,6 +4655,12 @@ Im Menü mit der gleicher Namen sehen Sie einige Beispiele mit Factory-Programme
 
 Der Autor dieses Programms ist nicht verantwortlich für die Auswirkungen, die seine Ausführung mit sich bringen kann. Verwenden Sie es micht Vorsicht.</value>
   </data>
+  <data name="textEx" xml:space="preserve">
+    <value>Ausführbare Datei|*.exe</value>
+  </data>
+  <data name="textOFD" xml:space="preserve">
+    <value>Wähle eine Ausführbare Datei...</value>
+  </data>
   <data name="nby" xml:space="preserve">
     <value> durch elstef41</value>
   </data>
@@ -5198,10 +4670,10 @@ Der Autor dieses Programms ist nicht verantwortlich für die Auswirkungen, die s
   <data name="nlt" xml:space="preserve">
     <value> - Kein Limit</value>
   </data>
-  <data name="textEx" xml:space="preserve">
+  <data name="textEx1" xml:space="preserve">
     <value>Ausführbare Datei|*.exe</value>
   </data>
-  <data name="textOFD" xml:space="preserve">
+  <data name="textOFD1" xml:space="preserve">
     <value>Wähle eine Ausführbare Datei...</value>
   </data>
 </root>
