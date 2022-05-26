@@ -4629,6 +4629,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <data name="msgAmount1" xml:space="preserve">
+    <value>Der Betrag muss größer als 0 sein.</value>
+  </data>
   <data name="msgErrorOF" xml:space="preserve">
     <value>Beim Öffnen der Datei ist ein Fehler aufgetreten.
 
