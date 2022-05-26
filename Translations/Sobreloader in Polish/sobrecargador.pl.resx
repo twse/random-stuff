@@ -122,49 +122,49 @@
     <value>224, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Schreiben Sie den Pfad der ausführbaren Datei/den Namen des Prozesses ein:</value>
+    <value>Wpisz ścieżkę pliku wykowalnego/nazwę procesu:</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>z.B.: mspaint</value>
+    <value>przykład: mspaint</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Schreiben Sie die Anzahl der auszuführenden Male</value>
+    <value>Napisz liczbę uruchomień:</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Aus&amp;führen</value>
+    <value>&amp;Uruchomie</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 17</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Ar&amp;gumente hinzufügen</value>
+    <value>&amp;Dodaj argumenty...</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>B&amp;esuchen...</value>
+    <value>&amp;Szukaj...</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
   </data>
   <data name="checkBox2.Text" xml:space="preserve">
-    <value>&amp;Kein Limit</value>
+    <value>&amp;Bez limit</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>(GEFÄHRLICH)</value>
+    <value>(NIEBEZPIECZNE)</value>
   </data>
   <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 17</value>
   </data>
   <data name="checkBox3.Text" xml:space="preserve">
-    <value>Sch&amp;ließen durch ende</value>
+    <value>&amp;Zamknij po zakończeniu</value>
   </data>
   <data name="oAdicionales.Text" xml:space="preserve">
-    <value>Zusätzliches Optionen</value>
+    <value>Dodatkowe ustawienia</value>
   </data>
   <data name="cancText.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -354,13 +354,13 @@
     <value>239, 22</value>
   </data>
   <data name="nombresDeEjemploToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Beispiel-Prozesse-Namen</value>
+    <value>&amp;Przykładów procesy nazwy</value>
   </data>
   <data name="historialDeProcesosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
   <data name="historialDeProcesosToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Prozess-Chronik</value>
+    <value>&amp;Historię procesy</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 6</value>
@@ -369,49 +369,49 @@
     <value>239, 22</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Beenden</value>
+    <value>&amp;Koniec</value>
   </data>
   <data name="SobreloaderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 20</value>
   </data>
   <data name="SobreloaderToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Prozess</value>
+    <value>&amp;Procesy</value>
   </data>
   <data name="restaurarVentanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
   <data name="restaurarVentanaToolStripMenuItem.Text" xml:space="preserve">
-    <value>G&amp;roße wiederherstellen</value>
+    <value>&amp;Przywróć rozmiar</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Immer &amp;sichtbar</value>
+    <value>&amp;Zawsze widoczne</value>
   </data>
   <data name="ventanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
   </data>
   <data name="ventanaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Fenster</value>
+    <value>&amp;Okno</value>
   </data>
   <data name="advertenciaDeInicioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 22</value>
   </data>
   <data name="advertenciaDeInicioToolStripMenuItem.Text" xml:space="preserve">
-    <value>St&amp;artvorgang-Warnung</value>
+    <value>Ostrzeżenie o &amp;uruchomieniu</value>
   </data>
   <data name="visitarRepositorioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 22</value>
   </data>
   <data name="visitarRepositorioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Repository &amp;Besuchen</value>
+    <value>&amp;Odwiedź repozytorium</value>
   </data>
   <data name="licenciaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 22</value>
   </data>
   <data name="licenciaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Lizenz</value>
+    <value>&amp;Licencja</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 6</value>
@@ -420,13 +420,13 @@
     <value>173, 22</value>
   </data>
   <data name="acercaDeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Über Sobreloader</value>
+    <value>&amp;O programy Sobreloader</value>
   </data>
   <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Hilfe</value>
+    <value>&amp;Pomoc</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4630,53 +4630,53 @@
 </value>
   </data>
   <data name="msgAmount1" xml:space="preserve">
-    <value>Der Betrag muss größer als 0 sein.</value>
+    <value>Kwota musi być większa niż 0.</value>
   </data>
   <data name="msgErrorOF" xml:space="preserve">
-    <value>Beim Öffnen der Datei ist ein Fehler aufgetreten.
+    <value>Wystąpił błąd podczas otwierania pliku.
 
-Wenn Sie den Namen der ausführbaren Datei trocken eingegeben haben, versuchen Sie, den ursprünglichen Speicherort zu platzieren.</value>
+Jeśli wpisałeś nazwę pliku wykonywalnego suchego, spróbuj umieścić jego oryginalną lokalizację.</value>
   </data>
   <data name="msgErrorOpen" xml:space="preserve">
-    <value>Beim Öffnen der Datei ist ein Fehler aufgetreten.</value>
+    <value>Wystąpił błąd podczas otwierania pliku.</value>
   </data>
   <data name="msgErrorSE" xml:space="preserve">
-    <value>Wählen Sie eine Datei aus.</value>
+    <value>Wybierz plik.</value>
   </data>
   <data name="msgNoLimit" xml:space="preserve">
-    <value>Sie haben die Option Kein Limit ausgewählt, was bedeutet, dass das eingestellte Programm ständig und ohne Beendigung ausgeführt wird. Wenn Sie sich nicht in einer virtualisierten Umgebung befinden, ist es sehr wahrscheinlich, dass dieses Verfahren die Leistung Ihres Computers beeinträchtigt und Folgeerscheinungen hinterlässt.
+    <value>Wybrano opcję Bez limitu, co oznaca, że ustawiony program będzie działał stale, bez wypowiedzenia. Jeśli nie jesteś w środowisku zwirtualizowanym, jest bardzo prawdopodobne, że ta procedura spowoduje uszkodzenie wydajności komputera, pozostawiając sequele.
 
-Sind Sie wirklich sicher, dass Sie weitermachen werden? Wenn Sie sich nicht in einer virtuellen Maschine befinden, wählen Sie Nein aus.</value>
+Czy naprawdę na pewno będziesz kontynuować? Jeśli nie korzystasz z maszyny wirtualnej, wybierz pozycję Nie.</value>
   </data>
   <data name="msgNoProcess" xml:space="preserve">
-    <value>Sie haben keinen Prozess geschreiben.
+    <value>Nie napisałeś procesu.
 
-Im Menü mit der gleicher Namen sehen Sie einige Beispiele mit Factory-Programmen.</value>
+W menu o tej samej nazwie można zobaczyć kilka przykładów z programami fabrycznymi.</value>
   </data>
   <data name="msgWelcome" xml:space="preserve">
-    <value>Dieses einfache Tool wurde für Bildungszwecke und für alle, die die Überlastungsmethode ausprobieren wollten, entwickelt. Es wird empfohlen, es in virtualisierten Umgebungen wie virtuelle Maschinen zu verwenden.
+    <value>To proste narzędie zostało stworzone w celach edukacyjnych i dla każdego, kto chciał wypróbować metodę przeciążenia. Zaleca się używanie go w środowiskach zwirtualizowanych, takich jak maszyny wirtualne.
 
-Der Autor dieses Programms ist nicht verantwortlich für die Auswirkungen, die seine Ausführung mit sich bringen kann. Verwenden Sie es micht Vorsicht.</value>
+Autor tego programu nie ponosi odpowiedzialności za skutki, jakie może pociągą za sobą jeko wykonanie. Używaj go ostrożnie.</value>
   </data>
   <data name="textEx" xml:space="preserve">
-    <value>Ausführbare Datei|*.exe</value>
+    <value>Plików wykonywalny|*.exe</value>
   </data>
   <data name="textOFD" xml:space="preserve">
-    <value>Wähle eine Ausführbare Datei...</value>
+    <value>Wybierz pliku wykonywalnego...</value>
   </data>
   <data name="nby" xml:space="preserve">
-    <value> durch elstef41</value>
+    <value> dla elstef41</value>
   </data>
   <data name="nex" xml:space="preserve">
-    <value>z.B.:</value>
+    <value>przykład:</value>
   </data>
   <data name="nlt" xml:space="preserve">
-    <value> - Kein Limit</value>
+    <value> - bez limit</value>
   </data>
   <data name="textEx1" xml:space="preserve">
-    <value>Ausführbare Datei|*.exe</value>
+    <value>Plików wykonywalny|*.exe</value>
   </data>
   <data name="textOFD1" xml:space="preserve">
-    <value>Wähle eine Ausführbare Datei...</value>
+    <value>Wybierz pliku wykonywalnego...</value>
   </data>
 </root>
