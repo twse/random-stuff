@@ -118,18 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Hier werden die zuletzt eingegebenen Prozesse zusammen mit ihrer Menge angezeigt.</value>
+    <value>Pojawią się tutaj ostatnie wprowadzone procesy wraz z ich ilością.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Neu laden</value>
+    <value>&amp;Naładuj</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Namen &amp;kopieren</value>
+    <value>&amp;Kopiuj nazwa</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Diese werden gelöscht, wenn Sie das Programm schließen.</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Chronik</value>
+    <value>Zostaną one usunięte po zamknięciu programu.</value>
   </data>
 </root>
