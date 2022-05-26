@@ -118,18 +118,95 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Hier werden die zuletzt eingegebenen Prozesse zusammen mit ihrer Menge angezeigt.</value>
+    <value>Niektóre nazwy do uruchamiania programów:
+(kliknij na element, aby zobaczyć więcej informacji)</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>&amp;Neu laden</value>
+    <value>&amp;Kopiuj</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Namen &amp;kopieren</value>
+    <value>&amp;Testu</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Diese werden gelöscht, wenn Sie das Programm schließen.</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="labelw.Text" xml:space="preserve">
+    <value>Działa na</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Chronik</value>
+    <value>Przykładów</value>
+  </data>
+  <data name="1D" xml:space="preserve">
+    <value>Klasyczny edytor obrazów preinstalowany w Windows.</value>
+  </data>
+  <data name="1T" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="1W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="2D" xml:space="preserve">
+    <value>Prosty edytor zwykłego tekstu.</value>
+  </data>
+  <data name="2T" xml:space="preserve">
+    <value>Notatnik</value>
+  </data>
+  <data name="2W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="3D" xml:space="preserve">
+    <value>Edytor tekstu w formacie sformatowym, bardzo prosty w porównaniu do Worda, ale bardziej kompletny niż Notatnik. Czego chcieć więcej?</value>
+  </data>
+  <data name="3T" xml:space="preserve">
+    <value>WordPad</value>
+  </data>
+  <data name="3W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="4D" xml:space="preserve">
+    <value>Z przeglądarek internetowych, które przeszły do historii. W tym czasie stał się najczęściej używany, przewyższając Netscape. W dzisiejszych czasach pozwala pobierać inne podobne.</value>
+  </data>
+  <data name="4T" xml:space="preserve">
+    <value>Internet Explorer</value>
+  </data>
+  <data name="4W" xml:space="preserve">
+    <value>Przed Windows 10</value>
+  </data>
+  <data name="5D" xml:space="preserve">
+    <value>Najczęściej używane narzędzie dla Microsoft Windows</value>
+  </data>
+  <data name="5T" xml:space="preserve">
+    <value>Eksplorator plików</value>
+  </data>
+  <data name="5W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="6D" xml:space="preserve">
+    <value>Jeśli chcesz wyszukać i wstawić dziwne symbole lub jeśli zamierzasz wysłać wiadomość e-mail, a twoja błogosławiona klawiatura nie pozwala ci wstawić at, to wstępnie zainstalowane narzędzie wspaniale Ci służy.</value>
+  </data>
+  <data name="6T" xml:space="preserve">
+    <value>Mapa znaków</value>
+  </data>
+  <data name="6W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="7D" xml:space="preserve">
+    <value>Centrum głównych konfiguracji systemu operacyjnego Microsoftu. Obecny na zawsze.</value>
+  </data>
+  <data name="7T" xml:space="preserve">
+    <value>Panel sterowania</value>
+  </data>
+  <data name="7W" xml:space="preserve">
+    <value>Wszystkich</value>
+  </data>
+  <data name="8D" xml:space="preserve">
+    <value />
+  </data>
+  <data name="8T" xml:space="preserve">
+    <value>Nieznanego programu</value>
+  </data>
+  <data name="8W" xml:space="preserve">
+    <value>??</value>
   </data>
 </root>
