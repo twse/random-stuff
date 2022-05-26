@@ -63,7 +63,7 @@ The protest pages are as follows:
 Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish.
 
 ## Brief description of Sobreloader and German/Polish translation info
-Sobreloader is a simple overloader to run a program multiple times massively. The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) is in Spanish.
+Sobreloader is a simple Windows overloader by running a program multiple times massively. Sobreloader is said to work with Windows XP & above. No option to change the language is included in the program's menu. The program was developed by Mateo "elstef41" Capote under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
