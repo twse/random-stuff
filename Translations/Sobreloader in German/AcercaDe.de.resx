@@ -155,9 +155,7 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Ein einfacher Über-Programm-Loader für Microsoft Windows.
-
-Sorry für meine schlechter deutscher, ich bin uruguayisch!</value>
+    <value>Ein einfacher Über-Programm-Loader für Microsoft Windows.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>S&amp;chließen</value>
@@ -4368,5 +4366,8 @@ Sorry für meine schlechter deutscher, ich bin uruguayisch!</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="ver" xml:space="preserve">
+    <value>Version </value>
   </data>
 </root>
