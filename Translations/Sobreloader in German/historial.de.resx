@@ -129,7 +129,4 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Diese werden gelöscht, wenn Sie das Programm schließen.</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Chronik</value>
-  </data>
 </root>

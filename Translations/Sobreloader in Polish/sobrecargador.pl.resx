@@ -365,6 +365,12 @@
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 6</value>
   </data>
+  <data name="activarDepuraciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="activarDepuraciónToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Włącz debugowanie</value>
+  </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
@@ -427,6 +433,45 @@
   </data>
   <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Pomoc</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>&amp;Domyślyny</value>
+  </data>
+  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 40</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Z&amp;minimalizowany</value>
+  </data>
+  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 60</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>Zma&amp;ksymalizowany</value>
+  </data>
+  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 79</value>
+  </data>
+  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>&amp;Ukryty</value>
+  </data>
+  <data name="estadoVentana.Text" xml:space="preserve">
+    <value>Stan okna</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4678,5 +4723,8 @@ Autor tego programu nie ponosi odpowiedzialności za skutki, jakie może pociąg
   </data>
   <data name="textOFD1" xml:space="preserve">
     <value>Wybierz pliku wykonywalnego...</value>
+  </data>
+  <data name="msgWarn" xml:space="preserve">
+    <value>Ostrzeżenie</value>
   </data>
 </root>
