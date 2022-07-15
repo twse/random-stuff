@@ -155,9 +155,7 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Proste narzędzie do przeciążenie uruchuamiania programów dla Microsoft Windows.
-
-Tłumacz: Microsoft Bing Translator</value>
+    <value>Proste narzędzie do przeciążenie uruchuamiania programów dla Microsoft Windows.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>&amp;Zamknij</value>
@@ -4368,5 +4366,8 @@ Tłumacz: Microsoft Bing Translator</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="ver" xml:space="preserve">
+    <value>Wersja </value>
   </data>
 </root>
