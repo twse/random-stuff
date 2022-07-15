@@ -209,4 +209,7 @@
   <data name="8W" xml:space="preserve">
     <value>??</value>
   </data>
+  <data name="msgErrorOF" xml:space="preserve">
+    <value>Wystąpił błąd. Sprawdź, czy program jest zgodny z Używaną wersją Windows.</value>
+  </data>
 </root>
