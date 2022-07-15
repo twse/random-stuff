@@ -500,7 +500,6 @@ Do you want to save changes?</source>
         <location filename="../dialogs/resizedialog.cpp" line="44"/>
 
         <location filename="../resizedialog.cpp" line="42"/>
-        <location filename="../dialogs/resizedialog.cpp" line="44"/>
         <source>Resize</source>
         <translation>Redimensionar</translation>
     </message>
@@ -508,7 +507,6 @@ Do you want to save changes?</source>
         <location filename="../dialogs/resizedialog.cpp" line="49"/>
 
         <location filename="../resizedialog.cpp" line="47"/>
-        <location filename="../dialogs/resizedialog.cpp" line="49"/>
         <source>Original size:</source>
         <translation>Tamaño original:</translation>
     </message>
@@ -536,8 +534,6 @@ Do you want to save changes?</source>
 
         <location filename="../resizedialog.cpp" line="66"/>
         <location filename="../resizedialog.cpp" line="84"/>
-        <location filename="../dialogs/resizedialog.cpp" line="68"/>
-        <location filename="../dialogs/resizedialog.cpp" line="86"/>
         <source>Width:</source>
         <translation>Ancho:</translation>
     </message>
