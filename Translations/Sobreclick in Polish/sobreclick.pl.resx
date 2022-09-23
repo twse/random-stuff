@@ -161,7 +161,7 @@
     <value>152, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Zawsze widoczne</value>
+    <value>Zawsze &amp;widoczne</value>
   </data>
   <data name="ventanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
