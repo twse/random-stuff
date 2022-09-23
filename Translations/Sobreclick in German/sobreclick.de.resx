@@ -149,7 +149,7 @@
     <value>152, 22</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Text" xml:space="preserve">
-    <value>Schließen durch &amp;enden</value>
+    <value>Schli&amp;eßen nach Abschluss</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
