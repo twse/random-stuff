@@ -28,11 +28,6 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * [Mobile platforms](https://drive.google.com/uc?id=1VRSVtj_AxrrD-jaKYhk5xZ1S-g_MauvJ&export=download)
 * [Game consoles](https://drive.google.com/uc?id=1JJZ9qHIFXxyQTBJTFfX120Z3rIS5pBbb&export=download)
 
-### Modifying the Perl or Python script to add entries whose notes are not qualified for inclusion in the Mozilla credits list
-The script is called check-names and is located in the `credits` directory in the `mozilla/community-data` repository.
-* To modify the Perl script, you see the line saying next if $notes ne, change it to N, Non Qual or Not enough evidence yourself.
-* To modify the Python script, you see the line saying if row[-2], change it to N, Non Qual or Not enough evidence yourself.
-
 ## Mozilla credits list module info
 * **Description:** Shows a list of all those who contributed to Mozilla. The original list was created in August 1999.
 * **Owners:** Ram Dayal Vaishnav (2017-present – GIT), Mohammad Shahbaz Alam (2019-present – GIT)
@@ -69,16 +64,6 @@ The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) un
 Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above.
 
 The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator.
-
-## Brief description of Sobreclick and German/Polish translation info
-Sobreclick is a simple auto-clicking tool. Sobreclick is said to work with Windows XP & above. No options to change the language to German or Polish is included in the program's menu.
-
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. This translation is for Sobreclick 0.9.0. I created this with Microsoft Bing Translator.
-
-## Brief description of Sobreloader and German/Polish translation info
-Sobreloader is a simple overloader to run a program multiple times massively. Sobreloader is said to work with Windows XP & above. No option to change the language is included in the program's menu.
-
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the terms of the Apache License but the precompiled executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translation is for Sobreloader 1.0. I created this with Microsoft Bing Translator.
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
