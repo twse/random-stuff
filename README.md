@@ -1,5 +1,5 @@
 ﻿# Index
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language; there is no regard to the `Accept-Language` HTTP request header. Only paragraphs for languages with Latin, Greek and Cyrillic script are included (see the list of languages in the zipped archive itself). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language (either credited or uncredited in-game). **NB!** Swearing is everywhere in the font-specific pages so readers should be 12 or older.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language. Only paragraphs for languages with Latin, Greek and Cyrillic script are included (see the language list in the archive itself). See the comments for each paragraph in the font-specific HTML pages to determine what game uses the dialogue and who wrote or translated the text in each language (either credited or uncredited in-game). **NB!** Includes cursing used by many games (e.g. Hatred, 2015)
 * **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). "We know there are many Mozillians, past and present, who do not have Mozilla Bugzilla or Pontoon profiles. This includes legacy contributors and translators who have not updated their email address on Mozilla Bugzilla and Pontoon." (**Source:** Monument page in the Mozilla Wiki) The list is sorted by Unicode codepoint.
 * **SitePal Forum Drug Words.htm**: Shows a list of medicine brand names excluding song artists used to spam the old SitePal forum. **Fun fact:** This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
 * (Not present in this repository) [Uninstall Character Map](https://drive.google.com/uc?id=1n3loPDWQTVfGjk2l4dQSMB1mYBlzjNxl&export=download) (Windows command line script). Character Map is a core component of Windows 2000 and Vista and higher and cannot be removed with **Add/Remove Windows Components** on Windows 2000 or **Optional Features** on Windows Vista and higher. Use this script to get rid of the program (remove the `rem` parts if you're running Windows 2000). CMD files are presented with a virus scan warning before using the direct Google Drive download links.
@@ -11,7 +11,7 @@
 
 ## Fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the font files). All fonts have only a regular type style, so don't apply bold or italic attributes, otherwise the OS will synthesise styles, which will bloat PDF files.
-* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2009) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs.
+* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2008) by Tim Mott (MrMoto) with revised glyphs and support for more glyphs.
 * **Generic Menu**: Adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font.
 * **LTROL Font**: Adapted and converted from the US version of *Lufia: The Ruins of Lore*.
 * (Not present in this repository) [Uninstall MS Shell Dlg](https://drive.google.com/uc?id=1rAvLseIK4UEYbIe3l8ihXW_0t8xrc9eW&export=download) (Windows command line script). Use this script to uninstall Microsoft Sans Serif (linked to MS Shell Dlg) and Tahoma (linked to MS Shell Dlg 2) on Windows 2000 and XP if Windows File Protection is disabled or Windows Vista & above. The script takes ownership of both fonts, modifies the permission list entries and deletes the font files as well. The fonts are copyrighted by Microsoft. CMD files are presented with a virus scan warning before using the direct Google Drive download links.
@@ -35,7 +35,7 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above.
 * **Note:** Please do not add your name/someone else's names or modify existing entries to the abovementioned file in the source repository without filling in the form or replying to the form's application acceptance message via direct pull requests as they will be closed by the owner.
-* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Still has spammy entries to this day.
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address.
 
 ## Index of protest pages (requires JavaScript)
 Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages based on his profile page and the protest images for graphical browsers.
@@ -74,7 +74,7 @@ All translations are in `ts` format and can be edited with e.g. Qt Linguist. Gen
 * Hungarian (`hu_HU`)
 * Korean (`ko_KR`)
 * Polish (`pl_PL`) – **Note:** Unmerged pull request created
-* Portuguese, as spoken in Brazil (`pt_BR`)
+* Portuguese - Brazil (`pt_BR`)
 * Romanian (`ro_RO`) – Contributed by Nicolae Oprea
 * Spanish (`es_ES`)
 * Swedish (`sv_SE`)
