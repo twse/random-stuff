@@ -6,7 +6,7 @@
 * The program shows a critical error saying "access violation" when exiting while during some operations – the font(s) may be invalid.
 * Glyphs stored in the clipboard (version 1.0 until 6.0) use "**Glyph Contours**" for contours and "**Glyph Data**" for glyphs. Version 7.0 & above stores the PostScript glyph name(s) as text (glyphs) or **Font Data** (contours).
 * **Edit: Delete** is not dimmed on startup or when closing other dialogs in old versions.
-* **Complete Composites** (when generated from `CompositeData.xml` but not auto or anchor based) times out two seconds when used the first time in simple and composite glyphs.
+* **Complete Composites** (when generated from `CompositeData.xml`, not auto or anchor based) times out two seconds when used the first time in simple and composite glyphs.
 * **Complete Composites** is dimmed when editing empty glyphs in version 5.0 until 6.5.
 * The program shows a critical error when using **Complete Composites** for some glyphs assigned by [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) in the Private Use Area (old versions only).
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs mapped to Windows Unicode Basic Multilingual Plane codepoints to the preview window.
@@ -38,7 +38,7 @@ If the program detects it is an unregistered copy or is running as a limited use
 ## User data
 “FontCreator uses several extra data files to read settings and other program specific information.” Most files below can be edited directly with administrator privileges.
 * **bookmarks.txt** (version 4.5 until 6.5) – Includes bookmarks used by the font overview. Created automatically after exiting the program.
-* **CompositeData.xml** (version 5.0 & above) – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is removed. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
+* **CompositeData.xml** (version 5.0 & above) – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is missing. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** (version 4.5 & above) – Transform Program used by `TTRANSFORMFORM`. The window will appear empty if removed.
 * **default.otlfd** (version 7.0 until 11.5) – Default OpenType feature definitions used when adding common OpenType features (replaced with `TFEATURESETTINGSFORM` in version 12 & above).
 * **Denissen.ttf** (version 4.5 until 5.5) – located in the fonts folder) – Sample font made from handwriting (with only the Basic Latin Unicode block), named after Erwin Denissen (the co-founder of High-Logic). León Fridsma (the other co-founder of High-Logic joined in 2009) didn't create this font. It dates from the year 2000.
@@ -54,14 +54,14 @@ If the program detects it is an unregistered copy or is running as a limited use
 * **FontCreator.tip** (version 2.0 until 6.5) – Contains the tips and tricks used in Tip of the Day. The window will appear empty if removed.
 * **FontCreator YYYYMMDD HHMMSS ###.dat/prd** (version 12.0) – Contains crash info (located in `ProgramData\High-Logic\Errors` – **YYYYMMDD HHMMSS** is the computer's date and time and **###** is a number). Prior to FontCreator 12.0.0.2561 it includes the Call Stack Information.
 * **FontInstaller.dll** (version 2.0 until 6.5) and **FontInstaller2.dll** (version 7.0 & above) – Dynamic link library for installing fonts.
-* **glyphlist.dat** – Contains the Adobe glyph list. Old versions have the same list but it duplicates **xi** to the first Unicode codepoint.
+* **glyphlist.dat** – List of PostScript names for glyphs in the Adobe glyph list. Old versions have the same list but it duplicates **xi** to the first Unicode codepoint.
 * **glyphnames.dat** (version 7.0 until 11.5) and **glyphnamesnew.dat** (version 12.0 & above) – “Contains overrides of the default friendly glyph names, as used when opening existing fonts and when you generate glyph names on the Glyph Properties dialog”
 * **guidelines.dat** – Contains the guidelines used by the glyph edit and guideline options windows. Created automatically after exiting the program.
 * **kern_font.txt** – For old versions of FontCreator, stores the old `KERN` table data in each font whereas `font` is the font name. Opening fonts with the old `KERN` table in recent versions will create the `GPOS` table named `KerningFromKernTable` from the OpenType kerning feature.
-* **preview.txt** (version 4.5 & above) – “Contains the standard preview texts for the Preview toolbar”. The dropdown list will appear empty if removed.
+* **preview.txt** (version 4.5 & above) – “Contains the standard preview texts for the Preview toolbar”. The dropdown list is empty if this file is missing.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains multilanguage naming fields.
 * **TableOffsetOrderCFF.txt** – Contains supported tables in fonts with CFF Postscript outlines or Cubic Bézier curves.
-* **TableOffsetOrder.dat** (old versions) or **TableOffsetOrder.txt** – Contains supported tables in fonts with quadratic curves. All tables are moved to **Unsupported Tables** (Properties in version 7.0 & above) or **Unsupported** (Tables in version 3.0 until 6.5) if the file is removed. This may result in invalid fonts!
+* **TableOffsetOrder.dat** (old versions) or **TableOffsetOrder.txt** – Contains supported tables in fonts with quadratic curves. All tables are moved to **Unsupported Tables** (Properties in version 7.0 & above) or **Unsupported** (Tables in version 3.0 until 6.5) if the file is missing. This may result in invalid fonts!
 * **tags.txt** (version 7.0 & above) – Contains the five tags which can be assigned to each glyph. Defaults are **Important**, **Incomplete**, **Completed**, **Review** and **Workspace**.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** (version 8.0 & above). When pressed, the program will either copy some files in the above list to the user's data folder or open the user's data folder.
@@ -71,7 +71,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 
 ### AddCharacters (version 4.0 & above)
 * **SelectedCharacter** – Select the character in this dialog. Default is 0 (null).
-* **SelectedFont** – Select the font to display characters at the top and bottom left corners. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013. Available in Regular and Bold as a non-commercial font).
+* **SelectedFont** – Select the font to display characters at the top and bottom left corners. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013. Available in Regular and Bold as a commercial font).
 
 ### Background (version 3.1 & above, used in Background Image)
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -81,6 +81,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **Open Installed Fonts** – This numerical value changes the width.
 
 ### Edit (version 8.0 & above, used in Paste Special)
+**NB!** These values are not used in version 7.0 & below.
 * **PasteSpecialAnchors** – This will paste anchors. Default is on.
 * **PasteSpecialCodepoints** – This will paste codepoints. Default is on.
 * **PasteSpecialCodepointsOption** – Choose whether to paste codepoints. Default is 0 (Keep same code-points).
@@ -302,7 +303,7 @@ By default, all keys beginning with “Include” are on. Other features (e.g. h
 * **CPSPPerc** – Contains the percentage of advance width used by **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5%.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. It generates lookups for glyphs used by other OpenType features (e.g. Unicase - unic).
 * **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. It generates lookups for all pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* blocks of Unicode as well as fractions not encoded in Unicode.
-* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. Examples of fonts including them are e.g. Arial (Windows Vista & above), Roboto (pre-Flex version from Android 5.0 "Lollipop" & above - missing anchors for e.g. capital open O, Latin upsilon et al.) and more. This feature is used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Blackfoot, Choctaw, Dakota, Lakota, etc. etc. etc.), phonetic transcription and zalgo text.
+* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. Examples of fonts including all three features are e.g. Arial (Windows Vista & above), [Roboto](https://github.com/googlefonts/roboto) (pre-Flex version from Android 5.0 "Lollipop" & above - missing anchors for e.g. capital open O, capital M hook, Latin upsilon, etc. etc. etc.) and more. The `mark` and `mkmk` features are used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Blackfoot, Choctaw, Dakota, Lakota, etc. etc. etc.), phonetic transcription (IPA and UPA) and zalgo text. The `ccmp` feature is included in e.g. [Roboto](https://github.com/googlefonts/roboto) (pre-Flex version from Android 5.0 "Lollipop" & above) and [URW Palladio HOT](http://www.sanskritweb.net/fonts/index.html) for diacritics with codepoints assigned by the Unicode Consortium.
 * **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. This feature excludes fullwidth Latin characters. The glyph spacing may vary if this feature is included in monospaced or pixelated fonts.
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**. This feature moves the position of certain punctuation marks, e.g. inverted exclamation point or question mark and brackets to CapHeight. An example font without this feature is System VIO (from OS/2 with the characters at the CapHeight position).
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
