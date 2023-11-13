@@ -1,20 +1,20 @@
 ﻿# Index
-* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language. Only languages with Latin, Greek and Cyrillic script are included (see the language list in the archive itself). See the comments for each paragraph in the HTML pages of each font to determine what game uses the dialogue and who wrote or translated the text (person's name or agency) in each language (either credited or uncredited in-game). **NB!** Includes cursing used by many games (e.g. Hatred, 2015)
-* **names.csv**: Contributor names to add to the [Mozilla credits list](https://www.mozilla.org/credits/). "We know there are many Mozillians, past and present, who do not have Mozilla Bugzilla or Pontoon profiles. This includes legacy contributors and translators who have not updated their email address on Mozilla Bugzilla and Pontoon." (**Source:** Monument page in the Mozilla Wiki) The list is sorted by Unicode codepoint.
-* **SitePal Forum Drug Words.htm**: List of medicine brand names except song artists for spamming the legacy SitePal forum. This page is based on the [Mozilla credits list](https://www.mozilla.org/credits/).
-* (Not present in this repository) [Uninstall Character Map](https://drive.google.com/uc?id=1n3loPDWQTVfGjk2l4dQSMB1mYBlzjNxl&export=download) (Windows command line script). Character Map is a core component of Windows 2000 and Vista and higher and cannot be removed with **Add/Remove Windows Components** on Windows 2000 or **Optional Features** on Windows Vista and higher. Use this script to get rid of the program (remove the `rem` parts if you're running Windows 2000). CMD files are presented with a virus scan warning before using the direct Google Drive download links.
+* (Not present in this repository) [Font test pages with game dialogues](https://drive.google.com/uc?id=11DeLAaXrlsdL4rtde386v5TFi0_b8zsd&export=download). It uses the `lang` HTML attribute to repeat the text over and over again for each language. Only languages with Latin, Greek and Cyrillic script are included (see the language list in the archive itself). See the comments for each paragraph in the HTML pages of each font to determine what game uses the dialogue and who wrote or translated the text (person's name or agency) in each language (either credited or uncredited in-game). **Note:** Includes cursing used by many games (e.g. Hatred, Outriders, Starfield, Redfall, Death Stranding, Days Gone, Forspoken etc.)
+* **names.csv**: Contributor names to add to the [Mozilla credits page](https://www.mozilla.org/credits/). **Note:** This includes legacy contributors and translators who have not updated their email address on Mozilla Bugzilla and Pontoon. The list is sorted by Unicode codepoint.
+* **SitePal Forum Drug Words.htm**: Based on the [Mozilla credits page](https://www.mozilla.org/credits/) but with the person's names replaced with the medicine brand names.
+* (Not present in this repository) [Uninstall Character Map](https://drive.google.com/uc?id=1n3loPDWQTVfGjk2l4dQSMB1mYBlzjNxl&export=download) (Windows command line script). Character Map is a core component of Windows 2000 and Vista and higher and cannot be removed with **Add/Remove Windows Components** on Windows 2000 or **Optional Features** on Windows Vista and higher. Use this script to get rid of the program (remove `rem` for users running Windows 2000). CMD files are presented with a virus scan warning before using the direct Google Drive download links.
 * (Not present in this repository) VENDINFO.DIZ files for [Bloček - Y2K versions](https://drive.google.com/uc?id=1E3fWU3Zc5pdCBq1-wE_qLNMJjkHnfDXm&export=download), [Bloček - Y2K10 versions](https://drive.google.com/uc?id=1hned8JUF8jGUZQbN9ypBwwz3_0QuhKbv&export=download) and [Kašmár](https://drive.google.com/uc?id=1nhUnhLejYjWrN_E_ywygXPMyfOz9Jseh&export=download). Created with VENDEDIT v1.30-053 by Rams' Island Software.
 
 ## Software Data Files and Registry Keys
-* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for *FontCreator* (pay shareware font editor).
-* **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for *PurgeIE* (pay shareware utility to remove Internet Explorer browsing data, e.g. history and cookies).
+* **FontCreator Data Files and Registry Keys.md**: Contains the data files, fun facts, registry keys and RC data (including unused content) for FontCreator (pay shareware font editor).
+* **PurgeIE Data Files and Registry Keys.md**: Contains the data files, fun facts and RC data (including unused content) for PurgeIE (pay shareware utility to remove Internet Explorer browsing data, e.g. history and cookies).
 
 ## Fonts
 Created with CrystalTile2 and edited with old versions of FontCreator. All except LTROL Font and ZOE TFOM are released under the terms of the WTFPL license (see the license agreement field in the font files). All fonts have only a regular type style, so don't apply bold or italic attributes, otherwise the OS will synthesise styles, which will bloat PDF files.
-* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2008) by Tim "MrMoto" with revised glyphs and support for more glyphs. Please note that Cyrano Nouveau must not be offered for download on the internet.
+* **Cyrano Text** (named after Cyrano de Bergerac): Based on [Cyrano Nouveau](https://www.typophile.com/node/64838) (2008) by Tim "MrMoto" Mott with revised glyphs and support for more glyphs. Please note that the original font must not be offered for download on the internet.
 * **Generic Menu**: Adapted and converted from the GBA/DS versions of *WarioWare* (small font). Thanks to Jackster from [The Spriters Resource](https://www.spriters-resource.com/) for ripping the font.
 * **LTROL Font**: Adapted and converted from the US version of *Lufia: The Ruins of Lore*.
-* (Not present in this repository) [Uninstall MS Shell Dlg](https://drive.google.com/uc?id=1rAvLseIK4UEYbIe3l8ihXW_0t8xrc9eW&export=download) (Windows command line script). Use this script to uninstall Microsoft Sans Serif (linked to MS Shell Dlg) and Tahoma (linked to MS Shell Dlg 2) on Windows 2000 and XP if Windows File Protection is disabled or Windows Vista & above. The script takes ownership of both fonts, modifies the permission list entries and deletes the font files as well. The fonts are copyrighted by Microsoft. **NB!** Google Drive always scans files for viruses when using the direct download links.
+* (Not present in this repository) [Uninstall MS Shell Dlg](https://drive.google.com/uc?id=1rAvLseIK4UEYbIe3l8ihXW_0t8xrc9eW&export=download) (Windows command line script). Use this script to uninstall Microsoft Sans Serif (linked to MS Shell Dlg) and Tahoma (linked to MS Shell Dlg 2) on Windows 2000 and XP if Windows File Protection is disabled or Windows Vista & above. The script takes ownership of both fonts, modifies the permission list entries and deletes the font files as well. **NB!** The fonts are copyrighted by Microsoft. Google Drive always scans files for viruses when using the direct download links.
 * (Not present in this repository) [ReactOS Font Hack](https://drive.google.com/uc?id=14gt8XYCDnO441Wa-h8aqgxUJ8qPrL76P&export=download) (Windows registry entries). Apply this hack only to ReactOS if the Pan-European Supplementary Fonts from Windows 10 and 11 are installed. It modifies the `FontSubstitutes` to change existing or add new string values.
 * **Readable Fonts**: Based on the System VIO font from OS/2 with revised glyphs and support for more glyphs. The fonts were created in 2014 as self-loading fonts and most characters were placed in a Unicode TrueType font from [VileR's Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/) by derived from the IBM VGA 8×14 and 8×16 PxPlus fonts.
 * (Not present in this repository) [SuperTux fonts in ROT-13](https://drive.google.com/uc?id=1tIPEov7J_wG8tZAN4QgNnqIqzKN6GD4Q&export=download). Only languages with Latin script are affected. Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for converting his old ANSICHRW font.
@@ -38,7 +38,7 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Gervase Markham did not use pull requests when updating the credits list.
 
 ## Index of protest pages (requires JavaScript)
-Thanks to [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) for creating the original protest pages based on his profile page and the protest images for graphical browsers.
+The original protest pages were created by [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) from his profile page as well as the images for graphical browsers.
 * **Web page not available** (Android) – The link in the paragraph refers to a page in the **@Macarlo, Inc** website (the domain was expired on July 1st, 2013).
 * **Cannot find server** (Internet Explorer 6 – Windows XP Service Pack 3) – **Fun fact:** Many Internet Explorer versions use different text strings for some steps in the original page. The original page is available as an HTML resource in `shdoclc.dll` (Windows 98 & above), `xpsp2res.dll` (Windows XP Service Pack 2) and `xpsp3res.dll` (Windows XP Service Pack 3).
 * **Internet Explorer cannot display the webpage** (Internet Explorer 7-10 – Windows XP SP2 & above) – In this page is a button labeled **Diagnose Connection Problems** (pressing when accessed as `res://shdocvw.dll/dnserror.htm` or `res://shdocvw.dll/dnserrordiagoff.htm` opens the network diagnostic tool if it is installed and present).
@@ -51,30 +51,30 @@ The protest pages are as follows:
 * **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
-* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list - the sites are listed in alphabetical order).
+* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list of sites in alphabetical order).
 
-**NB!** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
+**Note:** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
 
 ## Brief description of Sobreclick and German/Polish translation info
-Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor. Sobreclick is said to work with Windows XP & above.
+Sobreclick is a simple auto-clicker for use with e.g. when deleting keys in Registry Editor, developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the Apache License. Sobreclick is said to work with Windows XP & above.
 
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the Apache License but the executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
+**Note:** the executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreclick) is in Spanish. The translations are for Sobreclick 0.9.3. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreclick/code/ci/main/tree/) is for version 0.8.0.)
 
 ## Brief description of Sobreloader and German/Polish translation info
-Sobreloader is a simple overloader to massively run a program multiple times. Sobreloader is said to work with Windows XP & above.
+Sobreloader is a simple overloader to massively run a program multiple times, developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the Apache License. Sobreloader is said to work with Windows XP & above.
 
-The program was developed by [Mateo "elstef41" Capote](https://elstef41.com/) under the Apache License but the executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.) The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator.
+**Note:** The executable, documentation and source code comments/identifiers in [the repository](https://github.com/elstef41/sobreloader) and demo videos on [his YouTube channel](https://www.youtube.com/user/elstef41) is in Spanish. The translations are for Sobreloader 1.0. I created these with Microsoft Bing Translator. (The source code in [the SourceForge repository](https://sourceforge.net/p/sobreloader/code/ci/main/tree/) is for version 0.9.0.)
 
 ## Translations of EasyPaint in multiple languages
 All translations are in `ts` format and can be edited with e.g. Qt Linguist. Generated translations are found in [CMakeLists.txt](https://github.com/Gr1N/EasyPaint/blob/master/CMakeLists.txt#L109). Nikita Grishko stopped developing the program in 2018/02/08.
 * Danish (`da_DK`)
 * Esperanto (`eo`)
 * Finnish (`fi_FI`)
-* German (`de_DE`) – Contributed by freddii. **Note:** Unmerged pull request created
+* German (`de_DE`) – Edited by freddii. **Note:** Unmerged pull request created
 * Hungarian (`hu_HU`)
 * Korean (`ko_KR`)
 * Polish (`pl_PL`) – **Note:** Unmerged pull request created
 * Portuguese - Brazil (`pt_BR`)
-* Romanian (`ro_RO`) – Contributed by Nicolae Oprea
+* Romanian (`ro_RO`) – Edited by Nicolae Oprea
 * Spanish (`es_ES`)
 * Swedish (`sv_SE`)
