@@ -112,15 +112,15 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="btnGuardar.Text" xml:space="preserve">
     <value>&amp;Сохранить</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
   </data>
@@ -139,8 +139,38 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Стоп</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="btnRestaurar.Text" xml:space="preserve">
     <value>&amp;Восстановить</value>
+  </data>
+  <data name="cbSonidosSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="cbSonidosSistema.Text" xml:space="preserve">
+    <value>&amp;Использовать звук системы по умолчанию</value>
+  </data>
+  <data name="btnReproducir.Text" xml:space="preserve">
+    <value>&amp;Воспроизводить</value>
+  </data>
+  <data name="btnExmnr.Text" xml:space="preserve">
+    <value>&amp;Просмотреть</value>
+  </data>
+  <data name="gbSonido.Text" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="cbSinLimiteIniciar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="cbSinLimiteIniciar.Text" xml:space="preserve">
+    <value>Количество &amp;без ограничений при запуске</value>
+  </data>
+  <data name="gbComp.Text" xml:space="preserve">
+    <value>Поступки</value>
+  </data>
+  <data name="btnValoresPredeterminados.Text" xml:space="preserve">
+    <value>&amp;Ценносты по умолчанию</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5198,9 +5228,30 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Настройка клавиш</value>
+    <value>Настройки</value>
   </data>
   <data name="msgEqual" xml:space="preserve">
     <value>Некоторые клавиши повторяются. Проверьте их и попробуйте снова.</value>
+  </data>
+  <data name="msgErrorSaving" xml:space="preserve">
+    <value>Нежданныя ошибка пока сохранить файл конфигурации. Проверьте, вы нужно довольный увольнение, чтоы делать и попробуйте снова.</value>
+  </data>
+  <data name="msgSonDefault" xml:space="preserve">
+    <value>Вы не выбрали файла звук. Вы хотите использовать звук системы по умолчанию?</value>
+  </data>
+  <data name="msgErrorLoadingSound" xml:space="preserve">
+    <value>Особый файл не является поддерживаемым</value>
+  </data>
+  <data name="msgValoresPredeterminados" xml:space="preserve">
+    <value>Все ценносты будет сбросить по умолчанию. Вы действительно?</value>
+  </data>
+  <data name="msgErrorTitle" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="msgInfoTitle" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="msgQuestionTitle" xml:space="preserve">
+    <value>Вопрос</value>
   </data>
 </root>
