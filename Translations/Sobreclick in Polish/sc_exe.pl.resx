@@ -117,174 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="restaurarValoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="btnAcpt.Text" xml:space="preserve">
+    <value>&amp;OK</value>
   </data>
-  <data name="restaurarValoresToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Obnovit hodnotu</value>
-  </data>
-  <data name="configuraciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="notificarToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Upozornit</value>
-  </data>
-  <data name="configuraciónToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Nastavení</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
-  </data>
-  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>&amp;Konec</value>
-  </data>
-  <data name="reproducirSonidoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="reproducirSonidoToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Reprodukovat zvuk</value>
-  </data>
-  <data name="apagarElEquipoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="apagarElEquipoToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Vypnout počítač</value>
-  </data>
-  <data name="restaurarValoresToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="restaurarValoresToolStripMenuItem1.Text" xml:space="preserve">
-    <value>&amp;Obnovit hodnotu</value>
-  </data>
-  <data name="cerrarAlTerminarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="cerrarAlTerminarToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Po dokončení...</value>
-  </data>
-  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Konec</value>
-  </data>
-  <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Vždy viditelné</value>
-  </data>
-  <data name="restaurarTamañoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="restaurarTamañoToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Obnovit velikost</value>
-  </data>
-  <data name="ventanaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 20</value>
-  </data>
-  <data name="ventanaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Okno</value>
-  </data>
-  <data name="licenciaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="licenciaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Licence</value>
-  </data>
-  <data name="visitarRepositorioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="visitarRepositorioToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Navštívit repozitář</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
-  </data>
-  <data name="ascercaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="ascercaToolStripMenuItem.Text" xml:space="preserve">
-    <value>O programu &amp;Sobreclick</value>
-  </data>
-  <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Nápověda</value>
-  </data>
-  <data name="buttonC.Text" xml:space="preserve">
-    <value>&amp;Spustit (F6)</value>
-  </data>
-  <data name="buttonP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 159</value>
-  </data>
-  <data name="buttonP.Text" xml:space="preserve">
-    <value>&amp;Pozastavit (F7)</value>
-  </data>
-  <data name="buttonD.Text" xml:space="preserve">
-    <value>&amp;Zastavit (F8)</value>
-  </data>
-  <data name="buttonR.Text" xml:space="preserve">
-    <value>&amp;Pokračovat (F7)</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
+  <data name="btnExmnr.Text" xml:space="preserve">
+    <value>&amp;Szukaj</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Počet</value>
+    <value>Ustawienie katalogu pliku wykowalnego. Zostaną uruchomień po koniec sekwencja.</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
+  <data name="btnProbar.Text" xml:space="preserve">
+    <value>&amp;Testuj</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Délka trvání</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
+  <data name="cbArgs.Text" xml:space="preserve">
+    <value>&amp;Dodaj argumenty</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Typ</value>
-  </data>
-  <data name="cbTipo.Items" xml:space="preserve">
-    <value>Levé</value>
-  </data>
-  <data name="cbTipo.Items1" xml:space="preserve">
-    <value>Střední</value>
-  </data>
-  <data name="cbTipo.Items2" xml:space="preserve">
-    <value>Pravé</value>
-  </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 17</value>
-  </data>
-  <data name="cbSinLimite.Text" xml:space="preserve">
-    <value>&amp;Bez omezení</value>
-  </data>
-  <data name="cbDur.Items" xml:space="preserve">
-    <value>Milisekundy</value>
-  </data>
-  <data name="cbDur.Items1" xml:space="preserve">
-    <value>Sekundy</value>
-  </data>
-  <data name="cbDur.Items2" xml:space="preserve">
-    <value>Minuty</value>
-  </data>
-  <data name="cbDur.Items3" xml:space="preserve">
-    <value>Hodiny</value>
-  </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 104</value>
-  </data>
-  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
-  </data>
-  <data name="cbDClick.Text" xml:space="preserve">
-    <value>Dvojitý klik</value>
+  <data name="btnCanc.Text" xml:space="preserve">
+    <value>&amp;Anuluj</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5341,73 +5194,25 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="msgErrorBlank" xml:space="preserve">
+    <value>Pole katalogu nie może być pusty</value>
   </data>
-  <data name="msgClickType" xml:space="preserve">
-    <value>Vyberte typ kliknutí: levé, střední lub pravé.</value>
-  </data>
-  <data name="msgMore0" xml:space="preserve">
-    <value>Počet kliknutí musí být větší než 0.</value>
-  </data>
-  <data name="msgTimeSelection" xml:space="preserve">
-    <value>Musíte nastavit délku trvání.</value>
-  </data>
-  <data name="msgTypeSelection" xml:space="preserve">
-    <value>Musíte nastavit typ.</value>
-  </data>
-  <data name="msgConfError0" xml:space="preserve">
-    <value>Konfigurační soubor (Sobreclick.exe.config) se nepodařilo načíst. Možnost změny nebude k dispozici.</value>
-  </data>
-  <data name="msgShutdownError" xml:space="preserve">
-    <value>Nelze vypnout počítač. Zkontrolujte, zda spustitelnému soubor shutdown Windows existovat.</value>
-  </data>
-  <data name="msgSoundError" xml:space="preserve">
-    <value>Nelze reprodukovat soubor zvuk. Zkontrolujte, zda existovat a dostůpné.</value>
-  </data>
-  <data name="statusEstimatedTime0" xml:space="preserve">
-    <value>Trvání: </value>
-  </data>
-  <data name="statusEstimatedTime1" xml:space="preserve">
-    <value> sekundy a </value>
-  </data>
-  <data name="statusEstimatedTime2" xml:space="preserve">
-    <value> minuty (přibližně)</value>
-  </data>
-  <data name="statusEstimatedTime1NP" xml:space="preserve">
-    <value> sekund a </value>
-  </data>
-  <data name="statusEstimatedTime2NP" xml:space="preserve">
-    <value> minut (přibližně)</value>
-  </data>
-  <data name="statusPaused" xml:space="preserve">
-    <value>Pozastaveno</value>
-  </data>
-  <data name="statusEnded" xml:space="preserve">
-    <value>Konec</value>
-  </data>
-  <data name="statusConfigClosed" xml:space="preserve">
-    <value>Nastavení aktualizovat</value>
-  </data>
-  <data name="masToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Skript přizpůsobovat...</value>
+  <data name="msgErrorOpen" xml:space="preserve">
+    <value>Wystąpił błąd podczas otwierania pliku wykowalnego. Sprawdż, czy istnieją i mam odpowiedni uprawnień.</value>
   </data>
   <data name="msgErrorScript" xml:space="preserve">
-    <value>Skript přizpůsobovat se nepodařilo načíst. Odpovídat možnost bylo deaktivovat.</value>
+    <value>Nie można załadować skrypt personalizować (może jest zły napisałeś). Odpowiadać ustawienia było wyłączyć.</value>
   </data>
-  <data name="msgRepeatedKeys" xml:space="preserve">
-    <value>Některé klávesy se opakují v konfigurační soubor. Tlačit OK pro přistupovat a modyfikovat.
-
-Sobreclick bude uzavřen.</value>
+  <data name="msgErrorSE" xml:space="preserve">
+    <value>Plik wybrany nie jest obsługiwany</value>
   </data>
-  <data name="errorLoadingConfigFile" xml:space="preserve">
-    <value>Konfigurační soubor (Sobreclick.exe.config) se nepodařilo načíst. Zkontrolujte, zda existovat v adresář.</value>
+  <data name="textEx" xml:space="preserve">
+    <value>Plików wykonywalny|*.exe</value>
   </data>
-  <data name="notifyEnded" xml:space="preserve">
-    <value>Sekvence bylo konec.</value>
+  <data name="textOFD" xml:space="preserve">
+    <value>Wybierz plik...</value>
   </data>
-  <data name="errorProgramAlreadyRunning" xml:space="preserve">
-    <value>Další podnět Sobreclick už provádět</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Skrypt personalizować</value>
   </data>
 </root>
