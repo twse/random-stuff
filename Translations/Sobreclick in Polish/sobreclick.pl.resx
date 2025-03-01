@@ -117,39 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="restaurarValoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
   <data name="restaurarValoresToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Przywróć dwukrotnie</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="configuraciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
+  </data>
+  <data name="notificarToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Notyfikować</value>
   </data>
   <data name="configuraciónToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Ustawienie klawisz</value>
+    <value>&amp;Ustawienie</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>149, 6</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Koniec</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dźwięk &amp;reprodukować</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Wyłączyć komputer</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Przywróć dwukrotnie</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Zamknij po zakończeniu</value>
+    <value>&amp;Po zakończenie...</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Koniec</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Zawsze widoczne</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Przywróć rozmiar</value>
@@ -191,7 +221,7 @@
     <value>&amp;Uruchomie (F6)</value>
   </data>
   <data name="buttonP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 182</value>
+    <value>98, 159</value>
   </data>
   <data name="buttonP.Text" xml:space="preserve">
     <value>&amp;Wstrzymywanie (F7)</value>
@@ -220,40 +250,40 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Typ</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="cbTipo.Items" xml:space="preserve">
     <value>Lewo</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="cbTipo.Items1" xml:space="preserve">
     <value>Środku</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="cbTipo.Items2" xml:space="preserve">
     <value>Prawo</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
+  <data name="cbSinLimite.Text" xml:space="preserve">
     <value>&amp;Bez limitu</value>
   </data>
-  <data name="comboBox2.Items" xml:space="preserve">
+  <data name="cbDur.Items" xml:space="preserve">
     <value>Milisekundy</value>
   </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
+  <data name="cbDur.Items1" xml:space="preserve">
     <value>Sekundy</value>
   </data>
-  <data name="comboBox2.Items2" xml:space="preserve">
+  <data name="cbDur.Items2" xml:space="preserve">
     <value>Minuty</value>
   </data>
-  <data name="comboBox2.Items3" xml:space="preserve">
+  <data name="cbDur.Items3" xml:space="preserve">
     <value>Godziny</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 104</value>
+    <value>178, 104</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>79, 17</value>
   </data>
-  <data name="checkBox2.Text" xml:space="preserve">
+  <data name="cbDClick.Text" xml:space="preserve">
     <value>Wartości kliknięte</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -5328,6 +5358,56 @@
     <value>Musisz wybierz typ.</value>
   </data>
   <data name="msgConfError0" xml:space="preserve">
-    <value>Nie udało się załadować pliku konfiguracyjnego (sobreclick.exe.config). Opcja zmiany klawiszy nie będzie dostępna.</value>
+    <value>Nie udało się załadować pliku konfiguracyjnego (sobreclick.exe.config). Opcja zmiany nie będzie dostępna.</value>
+  </data>
+  <data name="msgShutdownError" xml:space="preserve">
+    <value>Nie udało się wyłączyć komputer. Sprawdż, czy plik wykonywalny Windows shutdown istnieją.</value>
+  </data>
+  <data name="msgSoundError" xml:space="preserve">
+    <value>Nie udało się reprodukować plik dźwięk. Sprawdż, czy istnieją i dostępna.</value>
+  </data>
+  <data name="statusEstimatedTime0" xml:space="preserve">
+    <value>Czas: </value>
+  </data>
+  <data name="statusEstimatedTime1" xml:space="preserve">
+    <value> sekundy i </value>
+  </data>
+  <data name="statusEstimatedTime2" xml:space="preserve">
+    <value> minuty (ok.)</value>
+  </data>
+  <data name="statusEstimatedTime1NP" xml:space="preserve">
+    <value> sekund i </value>
+  </data>
+  <data name="statusEstimatedTime2NP" xml:space="preserve">
+    <value> minut (ok.)</value>
+  </data>
+  <data name="statusPaused" xml:space="preserve">
+    <value>Wstrzymano</value>
+  </data>
+  <data name="statusEnded" xml:space="preserve">
+    <value>Koniec</value>
+  </data>
+  <data name="statusConfigClosed" xml:space="preserve">
+    <value>Ustawienie aktualizowat</value>
+  </data>
+  <data name="masToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Skrypt personalizować...</value>
+  </data>
+  <data name="msgErrorScript" xml:space="preserve">
+    <value>Nie udało się załadować skrypt personalizować. Odpowiadać ustawienia było wyłączyć.</value>
+  </data>
+  <data name="msgRepeatedKeys" xml:space="preserve">
+    <value>Niektóre klawiszy są powtarzane w pliku konfiguracyjnego. Naciśnij OK, aby zdobyć dostęp i modyfikować.
+
+Sobreclick zostanie zamknięty.</value>
+  </data>
+  <data name="errorLoadingConfigFile" xml:space="preserve">
+    <value>Nie udało się załadować pliku konfiguracyjnego (sobreclick.exe.config). Sprawdż, czy istnieją w katalogu.</value>
+  </data>
+  <data name="notifyEnded" xml:space="preserve">
+    <value>Sekwencja było koniec.</value>
+  </data>
+  <data name="errorProgramAlreadyRunning" xml:space="preserve">
+    <value>Inny instancja Sobreclick jest już uruchamiać</value>
   </data>
 </root>
