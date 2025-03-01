@@ -117,39 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="restaurarValoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
   <data name="restaurarValoresToolStripMenuItem.Text" xml:space="preserve">
     <value>Werten &amp;wiederherstellen</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="configuraciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
+  </data>
+  <data name="notificarToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mitteilen</value>
   </data>
   <data name="configuraciónToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Tasten-Einstellungen</value>
+    <value>&amp;Einstellungen</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>149, 6</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Beenden</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ton &amp;reproduzieren</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Computer &amp;sperren</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Werten &amp;wiederherstellen</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Text" xml:space="preserve">
-    <value>Schließen durch &amp;enden</value>
+    <value>&amp;Nach Abschluss...</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Beenden</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
     <value>Immer &amp;sichtbar</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Text" xml:space="preserve">
     <value>Große &amp;wiederherstellen</value>
@@ -191,7 +221,7 @@
     <value>&amp;Starten (F6)</value>
   </data>
   <data name="buttonP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 182</value>
+    <value>98, 159</value>
   </data>
   <data name="buttonP.Text" xml:space="preserve">
     <value>&amp;Pause (F7)</value>
@@ -220,40 +250,40 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Format</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="cbTipo.Items" xml:space="preserve">
     <value>Links</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="cbTipo.Items1" xml:space="preserve">
     <value>Zentrum</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="cbTipo.Items2" xml:space="preserve">
     <value>Recht</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
+  <data name="cbSinLimite.Text" xml:space="preserve">
     <value>&amp;Kein Limit</value>
   </data>
-  <data name="comboBox2.Items" xml:space="preserve">
+  <data name="cbDur.Items" xml:space="preserve">
     <value>Millisekunden</value>
   </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
+  <data name="cbDur.Items1" xml:space="preserve">
     <value>Sekunden</value>
   </data>
-  <data name="comboBox2.Items2" xml:space="preserve">
+  <data name="cbDur.Items2" xml:space="preserve">
     <value>Minuten</value>
   </data>
-  <data name="comboBox2.Items3" xml:space="preserve">
+  <data name="cbDur.Items3" xml:space="preserve">
     <value>Stunden</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 104</value>
+    <value>178, 104</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>79, 17</value>
   </data>
-  <data name="checkBox2.Text" xml:space="preserve">
+  <data name="cbDClick.Text" xml:space="preserve">
     <value>Zweimal klicken</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -5328,6 +5358,56 @@
     <value>Du muss Wählen der Format.</value>
   </data>
   <data name="msgConfError0" xml:space="preserve">
-    <value>Die Konfigurationsdatei (sobreclick.exe.config) konnte nicht geladen werden. Die Option zum Ändern der Tasten ist nicht verfügbar.</value>
+    <value>Die Konfigurationsdatei (sobreclick.exe.config) konnte nicht geladen werden. Die Option zum Ändern ist nicht verfügbar.</value>
+  </data>
+  <data name="msgShutdownError" xml:space="preserve">
+    <value>Der System konnte nicht gesperrt werden. Überprüfen Sie, das der Windows-Shutdown-Ausführbare Datei existiert.</value>
+  </data>
+  <data name="msgSoundError" xml:space="preserve">
+    <value>Das Ton-Datei konnte nicht reproduziert werden. Überprüfen Sie, das ist existiert und zugänglich.</value>
+  </data>
+  <data name="statusEstimatedTime0" xml:space="preserve">
+    <value>Zeit: </value>
+  </data>
+  <data name="statusEstimatedTime1" xml:space="preserve">
+    <value> Sekunden und </value>
+  </data>
+  <data name="statusEstimatedTime2" xml:space="preserve">
+    <value> Minuten (ca.)</value>
+  </data>
+  <data name="statusEstimatedTime1NP" xml:space="preserve">
+    <value> Sekund und </value>
+  </data>
+  <data name="statusEstimatedTime2NP" xml:space="preserve">
+    <value> Minut (ca.)</value>
+  </data>
+  <data name="statusEnded" xml:space="preserve">
+    <value>Beendet</value>
+  </data>
+  <data name="statusPaused" xml:space="preserve">
+    <value>Pausiert</value>
+  </data>
+  <data name="statusEnded" xml:space="preserve">
+    <value>Beendet</value>
+  </data>
+  <data name="statusConfigClosed" xml:space="preserve">
+    <value>Einstellungen aktualisiert</value>
+  </data>
+  <data name="masToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Personalisiert Schrift...</value>
+  </data>
+  <data name="msgErrorScript" xml:space="preserve">
+    <value>Das Personalisiert Schrift konnte nicht geladen werden. Der antwortet Einstellung wurde deaktiviert.</value>
+  </data>
+  <data name="msgRepeatedKeys" xml:space="preserve">
+    <value>Einige Tasten werden wiederholt auf der Konfigurationsdatei. Drücken Sie auf OK, um zu zugreifen und änderen.
+
+Sobreclick wird geschlossen.</value>
+  </data>
+  <data name="errorLoadingConfigFile" xml:space="preserve">
+    <value>Die Konfigurationsdatei (sobreclick.exe.config) konnte nicht geladen werden. Überprüfen Sie, das auf der Verzeichnis existiert.</value>
+  </data>
+  <data name="notifyEnded" xml:space="preserve">
+    <value>Der Sequenze wurde beendet.</value>
   </data>
 </root>
