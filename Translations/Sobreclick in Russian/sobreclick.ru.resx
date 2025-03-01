@@ -117,39 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="restaurarValoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
   <data name="restaurarValoresToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Восстановить ценность</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="configuraciónToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
+  </data>
+  <data name="notificarToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Уведомлять</value>
   </data>
   <data name="configuraciónToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Настройте клавиши</value>
+    <value>&amp;Настройки</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>149, 6</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="salirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="reproducirSonidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Воспроизводить звук</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="apagarElEquipoToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Выключить компьютер</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="restaurarValoresToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Восстановить ценность</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="cerrarAlTerminarToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Закрыть после завершения</value>
+    <value>&amp;После завершения...</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Выход</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="siempreVisibleToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Всегда на виду</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="restaurarTamañoToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Восстановить размер</value>
@@ -191,7 +221,7 @@
     <value>&amp;Запуск (F6)</value>
   </data>
   <data name="buttonP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 182</value>
+    <value>98, 159</value>
   </data>
   <data name="buttonP.Text" xml:space="preserve">
     <value>&amp;Пауза (F7)</value>
@@ -220,40 +250,40 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Тип</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="cbTipo.Items" xml:space="preserve">
     <value>Левая</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="cbTipo.Items1" xml:space="preserve">
     <value>Средняя</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="cbTipo.Items2" xml:space="preserve">
     <value>Правая</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
+  <data name="cbSinLimite.Text" xml:space="preserve">
     <value>&amp;Без ограничений</value>
   </data>
-  <data name="comboBox2.Items" xml:space="preserve">
+  <data name="cbDur.Items" xml:space="preserve">
     <value>Миллисекунды</value>
   </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
+  <data name="cbDur.Items1" xml:space="preserve">
     <value>Секунды</value>
   </data>
-  <data name="comboBox2.Items2" xml:space="preserve">
+  <data name="cbDur.Items2" xml:space="preserve">
     <value>Минуты</value>
   </data>
-  <data name="comboBox2.Items3" xml:space="preserve">
+  <data name="cbDur.Items3" xml:space="preserve">
     <value>Часы</value>
   </data>
   <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 104</value>
+    <value>178, 104</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
+    <value>79, 17</value>
   </data>
-  <data name="checkBox2.Text" xml:space="preserve">
+  <data name="cbDClick.Text" xml:space="preserve">
     <value>Двойной клик</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -5328,6 +5358,56 @@
     <value>Необходимо выбрать тип.</value>
   </data>
   <data name="msgConfError0" xml:space="preserve">
-    <value>Не удалось загрузить файл конфигурации (Sobreclick.exe.config). Опция изменения клавиш будет недоступна.</value>
+    <value>Не удалось загрузить файл конфигурации (Sobreclick.exe.config). Опция изменения будет недоступна.</value>
+  </data>
+  <data name="msgShutdownError" xml:space="preserve">
+    <value>Не удалось выключить компьютер. Проверьте, исполняемый файл shutdown Windows выть.</value>
+  </data>
+  <data name="msgSoundError" xml:space="preserve">
+    <value>Не удалось воспроизводить файл звук. Проверьте, выть и доступный.</value>
+  </data>
+  <data name="statusEstimatedTime0" xml:space="preserve">
+    <value>Длительность: </value>
+  </data>
+  <data name="statusEstimatedTime1" xml:space="preserve">
+    <value> секунды и </value>
+  </data>
+  <data name="statusEstimatedTime2" xml:space="preserve">
+    <value> минуты (к.)</value>
+  </data>
+  <data name="statusEstimatedTime1NP" xml:space="preserve">
+    <value> секунд и </value>
+  </data>
+  <data name="statusEstimatedTime2NP" xml:space="preserve">
+    <value> минут (к.)</value>
+  </data>
+  <data name="statusPaused" xml:space="preserve">
+    <value>На паузе</value>
+  </data>
+  <data name="statusEnded" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="statusConfigClosed" xml:space="preserve">
+    <value>Настройки обновлять</value>
+  </data>
+  <data name="masToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Скрипт персонализировать...</value>
+  </data>
+  <data name="msgErrorScript" xml:space="preserve">
+    <value>Не удалось окрыить скрипт персонализировать. Соответствовать опция была выключить.</value>
+  </data>
+  <data name="msgRepeatedKeys" xml:space="preserve">
+    <value>Некоторые клавиши повторяются в файл конфигурации. Давить «ОК», чтобы проход доступ и изменить.
+
+Собреклик будет закрыт.</value>
+  </data>
+  <data name="errorLoadingConfigFile" xml:space="preserve">
+    <value>Не удалось загрузить файл конфигурации (Sobreclick.exe.config). Проверьте, выть в каталог.</value>
+  </data>
+  <data name="notifyEnded" xml:space="preserve">
+    <value>Последовательность была конец.</value>
+  </data>
+  <data name="errorProgramAlreadyRunning" xml:space="preserve">
+    <value>Другой инстанция Собреклик есть уже выполнять</value>
   </data>
 </root>

@@ -112,65 +112,32 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnGuardar.Text" xml:space="preserve">
-    <value>&amp;Zapisz</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Uruchomie</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Wstrzymywanie/Wznawianie</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Zatrzymać</value>
-  </data>
-  <data name="btnRestaurar.Text" xml:space="preserve">
-    <value>&amp;Przywróć</value>
-  </data>
-  <data name="cbSonidosSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 17</value>
-  </data>
-  <data name="cbSonidosSistema.Text" xml:space="preserve">
-    <value>&amp;Użyj dźwięk systemu domyślyny</value>
-  </data>
-  <data name="btnReproducir.Text" xml:space="preserve">
-    <value>&amp;Reprodukować</value>
+  <data name="btnAcpt.Text" xml:space="preserve">
+    <value>&amp;OK</value>
   </data>
   <data name="btnExmnr.Text" xml:space="preserve">
-    <value>&amp;Szukaj</value>
+    <value>&amp;Suchen</value>
   </data>
-  <data name="gbSonido.Text" xml:space="preserve">
-    <value>Dźwięk</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Einstellungen Sie den Katalog der ausführbaren Datei. Es wurde ausgeführt, wenn das Sequenze ist geschlossen.</value>
   </data>
-  <data name="btnCancelar.Text" xml:space="preserve">
-    <value>&amp;Anuluj</value>
+  <data name="btnProbar.Text" xml:space="preserve">
+    <value>&amp;Testen</value>
   </data>
-  <data name="cbSinLimiteIniciar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
   </data>
-  <data name="cbSinLimiteIniciar.Text" xml:space="preserve">
-    <value>Kwota &amp;bez limit o uruchomieniu</value>
+  <data name="cbArgs.Text" xml:space="preserve">
+    <value>&amp;Argumente hinzufügen</value>
   </data>
-  <data name="gbComp.Text" xml:space="preserve">
-    <value>Zachowanie</value>
-  </data>
-  <data name="btnValoresPredeterminados.Text" xml:space="preserve">
-    <value>&amp;Wartości domyślyny</value>
+  <data name="btnCanc.Text" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5227,31 +5194,25 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="msgErrorBlank" xml:space="preserve">
+    <value>Das Verzeichnis-Feld konnte nicht leer werden</value>
+  </data>
+  <data name="msgErrorOpen" xml:space="preserve">
+    <value>Beim Öffnen der Ausführbare Datei ist ein Fehler aufgetreten. Überprüfen Sie, das ist existiert und Sie habe genug Rechtung.</value>
+  </data>
+  <data name="msgErrorScript" xml:space="preserve">
+    <value>Das Personalisiert Schrift konnte nicht geladen werden (vielleicht ist falsch geschreiben). Die antwortet Option wurde deaktiviert.</value>
+  </data>
+  <data name="msgErrorSE" xml:space="preserve">
+    <value>Der ausgewählte Datei ist nicht unterstützt</value>
+  </data>
+  <data name="textEx" xml:space="preserve">
+    <value>Ausführbare Datei|*.exe</value>
+  </data>
+  <data name="textOFD" xml:space="preserve">
+    <value>Wähle eine Datei...</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Ustawienie</value>
-  </data>
-  <data name="msgEqual" xml:space="preserve">
-    <value>Niektóre klawiszy są powtarzane. Przejrzyj je i spróbuj ponownie.</value>
-  </data>
-  <data name="msgErrorSaving" xml:space="preserve">
-    <value>Nieoczekiwany błąd podczas zapisz pliku konfiguracyjnego. Sprawdż, czy mam odpowiedni uprawnień, aby robić i spróbuj ponownie.</value>
-  </data>
-  <data name="msgSonDefault" xml:space="preserve">
-    <value>Nie wybrano plik dźwięk. Czy chcesz używać dźwięk systemu domyślyny?</value>
-  </data>
-  <data name="msgErrorLoadingSound" xml:space="preserve">
-    <value>Plik specyficzny nie jest obsługiwany</value>
-  </data>
-  <data name="msgValoresPredeterminados" xml:space="preserve">
-    <value>Wszystkie wartoścy zostaną przywróć dla domyślyny fabrycznymi. Czy na pewno?</value>
-  </data>
-  <data name="msgErrorTitle" xml:space="preserve">
-    <value>Błąd</value>
-  </data>
-  <data name="msgInfoTitle" xml:space="preserve">
-    <value>Informacja</value>
-  </data>
-  <data name="msgQuestionTitle" xml:space="preserve">
-    <value>Pytania</value>
+    <value>Personalisiert Schrift</value>
   </data>
 </root>
