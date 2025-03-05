@@ -30,7 +30,7 @@ If the program detects it is an unregistered copy or is running as a limited use
 ## Windows version compatibility
 | Operating system              | Latest version |
 |-------------------------------|----------------|
-| Windows Vista and later       | 15.0.0.2549    |
+| Windows Vista and later       | 15.0.0.3015    |
 | Windows XP                    | 10.0           |
 | Windows 2000                  | 7.0            |
 | Windows 95, 98, ME and NT 4.0 | 6.0.1          |
@@ -58,6 +58,7 @@ If the program detects it is an unregistered copy or is running as a limited use
 * **glyphnames.dat** (version 7.0 until 11.5) and **glyphnamesnew.dat** (version 12.0 & above) – “Contains overrides of the default friendly glyph names, as used when opening existing fonts and when you generate glyph names on the Glyph Properties dialog”
 * **guidelines.dat** – Contains the guidelines used by the glyph edit and guideline options windows. Created automatically after exiting the program.
 * **kern_font.txt** – For old versions of FontCreator, stores the old `KERN` table data in each font whereas `font` is the font name. Opening fonts with the old `KERN` table in recent versions will create the `GPOS` table named `KerningFromKernTable` from the OpenType kerning feature.
+* **lang.language code** – Localized files.
 * **preview.txt** (version 4.5 & above) – “Contains the standard preview texts for the Preview toolbar”. The dropdown list is empty if this file is missing.
 * **SubFamily.dat** or **SubFamily2.dat** – Contains multilanguage naming fields.
 * **TableOffsetOrderCFF.txt** – Contains supported tables in fonts with CFF Postscript outlines or Cubic Bézier curves.
@@ -501,16 +502,20 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
 * **TADDPLATFORMFORM** (version 2.0 until 6.5) – Adds a platform to the font by pressing the **Add** button in the Platform Manager.
 * **TADDUVSFORM** – Used by fonts for East Asian languages to add Unicode variation sequences.
+* **TADDVARIATIONCONDITIONFORM** – Used by fonts for East Asian languages to add Unicode variation conditions.
+* **TADDVARIATIONSUBSTITUTIONFORM** – Used by fonts for East Asian languages to add Unicode variation substitutions.
 * **TADVANCEDEDITFORM** – Edit a naming field in the font.
 * **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 7.0 & above) – Manages anchors in the font if positioning data exists in the OpenType layout tables.
 * **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5) if you don't want to manually add kerning pairs to the font via the OpenType Designer. The Garava and Times New Roman (previously) fonts were used in the form as shown in the manual.
 * **TAUTOMETRICSFORM** (version 3.0.1 & above) – Automatically generate metrics for glyphs for use with proportional fonts. Don't use this feature for monospaced, pixel or barcode fonts! The optical metrics adjustment user interface is used by *Scanahand* (font generator). The Calibri and Times New Roman (previously) fonts were used in the form's second page (selecting glyphs) as shown in the manual.
 * **TAUTONAMEFORM** (version 3.1.2 until 6.5) – Automatically change the naming fields of a font. The MegaWaves font was used in the form as shown in the manual.
+* **TAXISVALUEMULTIFORM** – Edits axis value combinations in the font.
 * **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Edit a naming field or include additional naming fields in the font (replaced with Properties in version 7.0 & above). The MegaWaves font was used in the form as shown in the manual.
 * **TCHANGETAGFORM** (version 7.0 & above) – Changes tags in the OpenType layout tables.
 * **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.0, **Tools: TODO! AutoCmap...** in version 3.0 until 5.6 as hidden menu item) – Maps characters to glyph indexes. The Arial font was used in the form as shown in the manual. This corresponds to the `cmap` table.
+* **TCLASSMANAGERFORM** (version 7.0 & above) – Changes classes in the OpenType layout tables.
 * **TCODEEDITORFORM** (version 7.0 & above) – OpenType Layout Feature Editor; used to view, edit and compile the OpenType feature source code.
-* **TCODEPAGERANGEFORM** – Includes or excludes code pages to support in the font. This corresponds to the `ulCodePageRange` fields to make the font work in some programs (e.g. Sublime Text). If the fields are not set (e.g. Noto Sans), then Windows will show the script dropdown menu in the font selection dialog as **Other**.
+* **TCODEPAGERANGEFORM** – Includes or excludes code pages to support in the font. This corresponds to the `ulCodePageRange` fields to make the font work in some programs (e.g. Sublime Text). If the fields are not set (e.g. Hindsight Unicode), then Windows will show the script dropdown menu in the font selection dialog as **Other**.
 * **TCOLORFORM** (old versions) – This resource is not the standard Windows color selection dialog available in `comdlg32.dll`.
 * **TCOMPOSITEGLYPHPROPERTIESFORM** – Views or modifies properties for composite glyph members. The Calibri font was used in the form as shown in the manual (using the lowercase e acute).
 * **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – This confirmation dialog will ask you what to do when replacing.
@@ -525,23 +530,29 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure font export settings.
 * **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Extract TrueType or OpenType font collections to multiple font files (**Tools: Extract from OTC...**). The SimSun font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `MiToolsExtractFromTTCClick` function used by `CheckLicenseNotGood`.
-* **TFEATURESETTINGSFORM** (version 12.0) – Generates or updates feature code in the OpenType Designer.
+* **TFEATURESETTINGSFORM** (version 12.0) and **TFEATURESFRAME** – Generates or updates feature code in the OpenType Designer.
 * **TFINDFORM** – Searches parts of a font.
 * **TFONTEMBEDDINGLICENSINGRIGHTSFORM** (version 2.0 until 6.5) – Shows a list of embedding or licensing rights to use in the font (replaced with **Legal: Embedding Licensing Rights** in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
-* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer (version 6.0 & below requires saving the font). **Fun fact:** The file path in the first step is dummy. The second step (font already installed) names the installed font as Arial (`c:\win98\fonts\arial.ttf` - the **win98** part stands for Windows 98). The MegaWaves font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
+* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer (version 6.0 & below requires saving the font). **Fun fact:** The file path in the first step is dummy. The second step (font already installed) names the installed font as Arial (`c:\win98\fonts\arial.ttf` - **win98** stands for Windows 98). The MegaWaves font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
 * **TFONTLOGFORM** – Displays the font log (**Developer Tools: Font Log**).
 * **TFONTOVERVIEWFORM** – Shows all the glyphs included in the font. The Calibri and Courier New (previously) fonts were used in the form as shown in the manual. The Cambria font was used in the form as shown in the Font Inspection tutorial. The Fredoka (variable font regular style), Kabala (extra-bold style), Pali (previously) and Verajja (showing the Latin-1 Supplement Unicode block sorted by Mac codepoint) fonts were used in the form as shown in the program's official screenshots. The Lato font (used in the company's website) was used in the form as shown in the Running FontCreator on a Mac tutorial.
-* **TFONTPROPERTIESFORM** – Contains properties and unsupported tables (version 7.0 & above) in the font. If the non-Unicode language is Chinese, Japanese or Korean, the hexadecimal data text box in the **Unsupported Tables** tab substitutes Latin-1 accented letters by ASCII forms, e.g. Wästman by Wastman and some Latin-1 symbols by fullwidth forms or other symbols, e.g. £ by ￡ and « by ≪. The MegaWaves font was used in the form's identification and legal tabs as shown in the manual.
-* **TFONTSETTINGSFORM** – Contains basic naming fields or metric settings, Unicode and code page ranges, gasp ranges and more.
+* **TFONTPROPERTIESFORM** and **TFONTPROPERTIESFRAME** – Contains properties and unsupported tables (version 7.0 & above) in the font. If the non-Unicode language is Chinese, Japanese or Korean, the hexadecimal data text box in the **Unsupported Tables** tab substitutes Latin-1 accented letters by ASCII forms, e.g. Wästman by Wastman and some Latin-1 symbols by fullwidth forms or other symbols, e.g. £ by ￡ and « by ≪. The MegaWaves font was used in the form's identification and legal tabs as shown in the manual.
+* **TFONTSETTINGSFORM** – Contains basic naming fields or metrics settings, Unicode and code page ranges, gasp ranges and more.
 * **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font. Unsupported tables is a separate tab in the font properties window in version 7.0 & above.
-* **TFONTTESTFORM** – Test desktop fonts (not web fonts). The default text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, uppercase, lowercase and numbers with DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the characters at the end and adds the company's name to the program name at the beginning). Version 1.1.1c until 5.0 allows the user to change the encoding (it was removed in version 5.5 & above). The Verajja font was used in the form in a size of 24 points with the pangrams sample text selected as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `TestFontTTFOTF` (`miFontTestTTFOTFClick`) and `TestFontWOFF` (`btnFontTestWoffClick`) functions used by `CheckLicenseNotGood`.
-* **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if positioning data exists.
+* **TFONTTESTFORM** – Test desktop fonts (not web fonts). The default text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, uppercase, lowercase and numbers with DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the characters at the end and High-Logic FontCreator at the beginning). Version 1.1.1c until 5.0 allows the user to change the encoding (it was removed in version 5.5 & above). The Verajja font was used in the form in a size of 24 points with the pangrams sample text selected as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `TestFontTTFOTF` (`miFontTestTTFOTFClick`) and `TestFontWOFF` (`btnFontTestWoffClick`) functions used by `CheckLicenseNotGood`.
+* **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if OpenType positioning data exists.
+* **TFORMEDITANCHOR** (version 7.0 & above) – Edits anchors to any glyph in the font if OpenType positioning data exists.
+* **TFORMINSERTGLYPHS** (**TINSERTGLYPHFORM**) – Inserts glyphs in the font.
 * **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Changes the OpenType Designer options.
 * **TFORMULAFORM** (version 12.0) – Writes formulas to construct anchor based composite glyphs.
 * **TFRAMECATEGORY** (version 7.0 & above) – Contains categories in the font overview (left side).
-* **TFRAMEGLYPHMEMBER** (version 7.5 & above) – Used when editing colored glyphs to display glyph members (automatically shown when switching glyphs to color mode).
+* **TFRAMEFONT** – Used by the font overview (left side).
+* **TFRAMEGLYPH** – Used by glyphs in the font overview (left side).
+* **TFRAMEGLYPHMEMBERS** (version 7.5 & above) – Used when editing colored glyphs to display glyph members (automatically shown when switching glyphs to color mode).
+* **TFRAMEMASTERS** – Used by masters in the font overview (left side).
 * **TFRAMEPALETTE** (version 7.5 & above) – Shows the color palette when editing multicolored fonts (automatically shown when switching glyphs to color mode).
+* **TFRAMEVALIDATION** – Used when validating fonts.
 * **TGASPFORM** (version 2.0 until 6.5) – Manages the `gasp` table in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in the Validation Wizard.
@@ -552,22 +563,25 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TGRIDFORM** – Configures grid options.
 * **TGUIDELINEMODIFYFORM** – Modifies the selected guideline.
 * **TGUIDELINESFORM** – Configures guideline options. The label in the **Show Guidelines** checkbox says **&Show &Guidelines**.
+* **THLBASEFORM** – It's just an empty dialog.
+* **THLBASEFRAME**
 * **TIMPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Imports glyph data in the font to fgd files (**Tools: Import Glyph Data...**). Recent versions are limited to only one glyph.
-* **TINSERTGLYPHFORM** – Shows a dialog to insert glyphs to the font.
 * **TINSTALLEDFONTSFORM** – Shows a list of installed fonts in the computer which can be opened. The preview in the bottom side (version 5.0 & above) is shown by its font name. The Arial Rounded MT Bold (previously) and Segoe Script fonts were used in the form as shown in the manual. Version 10.1.0.2272 (2016-12-20) & below has a delay.
 * **TKERNFEATUREFRAME** – Used by `TKERNINGFORM`.
 * **TKERNGROUPMANAGERFORM** (version 7.0 & above) – Manages kerning groups or classes in the font.
 * **TKERNINGFORM** (version 3.0 until 8.0) – Edits the legacy `KERN` table (not the `GPOS` kerning tables) in the font (replaced with OpenType Designer in version 7.0 & above). The Calibri (previously) font was used in the form as shown in the program's official screenshots. The Elephant font (previously) was used in the form with the AV pair selected as shown in the manual.
 * **TKERNINGNEWPAIRFORM** (version 3.0 until 8.0) – Adds a kerning pair to the old `KERN` table or `GPOS` kerning tables.
 * **TKERNINGNEWSINGLEFORM** (version 7.0 & above) – Adds a single kerning adjustment to the font.
-* **TMADEXCEPT**, **TMECONTACTFORM**, **TMEDETAILSFORM**, **TMESCRSHOTFORM** – Contains exceptions, contact info, details about the crash report and screenshots.
-* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0 and **TMAINFORMFCP4** in version 4.0 until 5.0) – Contains a lot of things like the main window, glyph properties, user notes (version 7.0 & above), preview window (version 3.0.1 & above), anchors, glyph validation report and more.
+* **TLOCALIZEDEDITFORM** – Edits localized name values.
+* **TMADEXCEPT**, **TMECONTACTFORM**, **TMEDETAILSFORM**, **TMESCRSHOTFORM** – Contains exceptions, contact info, details about the crash report and screenshot configuration.
+* **TMAINFORMFONTCREATOR** (**TMAINFORMFCP3** in version 3.0 and **TMAINFORMFCP4** in version 4.0 until 5.0) – Contains lots of things like the main window, glyph properties, user notes (version 7.0 & above), preview window (version 3.0.1 & above), anchors, glyph validation report and more. The Fredoka font is used in the program's official screenshot.
 * **TMETRICSFORM** – Shows an interface for viewing and setting metrics options.
 * **TNAMINGFORM** (version 3.0 until 6.5) – Contains basic naming fields in the font excluding fields with unknown numbers (replaced with Properties in version 7.0 & above). The MegaWaves font was used in the form as shown in the manual. If a naming field is not in the font and not checked, the words “not included.” will be added to the input field in versions before 5.0.
 * **TNEWSUBSINGLEFORM** (version 10.0 until 10.1.0.2272) – Adds a single substitution to the OpenType layout tables.
 * **TNEWTRUETYPEFONTFORM** – Creates a new font.
 * **TOPENTYPEDESIGNERFORM** (version 7.0 & above) – Shows an interface for viewing, editing or creating the OpenType layout tables. This corresponds to the `GDEF`, `GPOS` and `GSUB` tables. The Calibri and Verajja fonts were used in the form as shown in the program's official screenshots. The Calibri font was used in the form (with the kerning table selected) as shown in the manual.
 * **TOPENTYPEDESIGNERPROOFINGFORM** (version 12.0.0.2560 & above) – Used for interactive feature proofing of OpenType layout tables. Before version 13 the form was blank. The Amiri and Arabic Typesetting (Microsoft VOLT version) fonts were used in the Font Proofing - OpenType Layout Features Unleashed tutorial with the form in the right side. The Amiri font was used in the form with Arabic text as shown in the manual.
+* **TOPENTYPEDESIGNERSEARCHFORM** – Search the OpenType layout tables in the font.
 * **TOPENTYPEITEMADDFRM** (version 7.0 & above) – Adds items to the OpenType layout tables.
 * **TOPTIONSFORM** – Shows an interface for viewing and setting a wide variety of options.
 * **TOTLFRENAMEFORM** (version 7.0 & above) – Rename lookup tables in the OpenType layout tables.
@@ -590,15 +604,17 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TSELECTLOOKUPTABLEFORM** – Selects a lookup table in the OpenType layout tables.
 * **TSHAREWAREFORM** (version 3.0 until 5.0) – For unregistered copies running after a grace period of 30 days, shows a shareware description when pressing **Start** in `TSPLASHFORM`.
 * **TSORTGLYPHSFORM** (version 5.6 until 6.5) – Changes the glyph order within a font (replaced with **Tools: Sort Glyphs** in version 7.0 & above). Prior to version 5.6 the glyphs are sorted in any font with the standard macOS ordering.
-* **TSPLASHFORM** – Shows if the program is detected to be running an unregistered copy. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) changes the order. **Fun fact:** The copyright in version 7.0 & above has a date of 2007-2010.
+* **TSPLASHFORM** – Shows if the program is detected to be running an unregistered copy. The three buttons at the bottom (**Use Evaluation Version**, **Enter Registration Code** and **Buy Now**) changes the order. **Fun fact:** The copyright in version 7.0 & above starts at 2007 and end at 2010.
 * **TSPTBXCOLORPICKERFORM** – Selects colors when editing colored glyphs.
 * **TSUBLOOKUPMGR** (version 7.0 & above) – Manages subtables in the OpenType layout tables.
+* **TSUBSETSFORM** – Manages subsets in the font.
+* **TTAGSFORM** – Configures tags in the font.
 * **TTEXTREPLACEDIALOG** – Replaces text in the OpenType Layout Feature Editor.
 * **TTEXTSEARCHDIALOG** – Searches for text in the OpenType Layout Feature Editor.
 * **TTIPOFTHEDAYFORM** (version 1.0 until 6.5) – Shows tips and tricks (**Help: Tip of the Day**). The **Register** button is shown if the program is detected to be running an unregistered copy.
 * **TTRANSFORMFORM** (version 4.5 & above) – Transforms the font to other weights (e.g. medium, bold or black) or add character ranges (e.g. some characters in the *Letterlike Symbols* range of Unicode like double struck letters). The Eastern European transformation script was used in the form as shown in the program's official screenshots.
 * **TTRIALNOTICEWINDOW** (version 7.0 until 10.1.0.2272) – If the program is detected to be running an unregistered copy, testing, installing or exporting fonts displays this message. The message has a checkbox to turn it off. The message text includes a link to the registration page in the High-Logic website.
-* **TTRIMFORM** – Used when trimming glyphs.
+* **TTRIMFORM** – Used when trimming kerning pairs.
 * **TUNICODERANGEFORM** – Includes or excludes Unicode blocks or ranges to support in the font (the list in the dialog itself belongs to OpenType 1.3). This corresponds to the `ulUnicodeRange` fields.
 * **TUPDATEFORM** and **TUPDATEFORMFC** (version 6.1 & above, **TUPDATEREMINDERFORM** in version 5.5 until 6.0) – Checks for updates (**Help: Check for Updates**) as if `OnStartupShowUpdateReminder` or `UpdateCheckInterval` is enabled. The program will terminate silently if the first form is removed or `mRestart` in the first form is not three lines. It connects to the High-Logic website to download the installer if the computer is connected to the internet.
 * **TUSEDBYFORM** – Displays an overview of all glyphs that use the selected glyph.
@@ -606,6 +622,10 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TVALIDATIONWIZARDFORM** (version 4.0 & above, **Font: TODO! Problem Report...** in version 3.0 as a hidden menu item) – Validates the font for errors or problems.
 * **TWIDEMESSAGEFORM** – Used for messages.
 * **TWIDEWARNINGFORM** (**TEXTENDEDWARNINGFORM** and **TWARNINGFORM** in old versions) – Used for warnings.
+* **WIN10STYLE** – Windows 10 style.
+* **WIN11STYLE** – Windows 11 style.
+* **WIN7STYLE** – Windows 7 style.
+* **WIN8STYLE** – Windows 8 style.
 
 ## Unused Content
 The program includes hidden options for debugging, development and testing purpose.
@@ -688,7 +708,7 @@ All values start with a capital D enclosed in square brackets.
 * Checkbox: **Debug: VOLT.UseGlyphIds** – Used for fonts with Microsoft VOLT projects.
 
 ### Font Test Window
-The context menu for `mmFontTest` has two paste options and a multiline text field at the bottom (`Memo1`) with the same text in Arial Bold (13 points). Double-click the memo to change the font and size.
+The context menu for `mmFontTest` has two paste options (pmSamplePaste and pmSamplePaste2) and a multiline text field at the bottom (`Memo1`) with the same text in Arial Bold (13 points). Double-click the memo to change the font and size.
 
 ### Options Window
 The **General** tab has a group to associate fonts with the program itself (it is in version 3.0 only and was dropped after version 4.0). The **Preview** tab includes three unused buttons to move the selected text string up and down or to reset the list.
