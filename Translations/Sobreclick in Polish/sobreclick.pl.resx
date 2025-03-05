@@ -221,13 +221,13 @@
     <value>Typ</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
-    <value>Lewo</value>
+    <value>W lewo</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Środku</value>
+    <value>W środku</value>
   </data>
   <data name="comboBox1.Items2" xml:space="preserve">
-    <value>Prawo</value>
+    <value>W prawo</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
@@ -5326,5 +5326,8 @@
   </data>
   <data name="msgTypeSelection" xml:space="preserve">
     <value>Musisz wybierz typ.</value>
+  </data>
+  <data name="msgConfError0" xml:space="preserve">
+    <value>Nie można przesłać pliku konfiguracyjnego (Sobreclick.exe.config). Opcja zmiany klawiszy nie będzie dostępna.</value>
   </data>
 </root>
