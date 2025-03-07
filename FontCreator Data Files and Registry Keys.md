@@ -11,11 +11,11 @@
 * The program shows a critical error when using **Complete Composites** for some glyphs assigned by [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) in the Private Use Area (old versions only).
 * Version 1.0 (1998-04-11) until 7.0 (2013-04-25) only adds glyphs mapped to Windows Unicode Basic Multilingual Plane codepoints to the preview window.
 * Version 5.6 (2007-07-19) uses a non-standard layout for all resources.
-* In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) which contains the same codepoint (219).
+* In new fonts (version 5.0 until 6.5), the international currency sign (¤) is mapped to the Macintosh Roman platform but not the euro (€) which has the same codepoint (219).
 * Version 1.0 (1998-04-11) until 6.5 (2011-11-18) used ISO Latin-1 as the program's output encoding (the same is used for exported kerning pairs) while version 7.0 (2013-04-25) & above uses Unicode.
 * The PostScript names modified when opening fonts in version 3.0 until 4.0 are as follows: the full stop in **.notdef** is removed, **nonmarkingreturn** is changed to **CR** and **exclamdown** is changed to **exclamationdown**.
 * The installer was mirrored in **fontcreator.com** up to version 6.1.
-* The existing characters used by subsetted fonts in unregistered copies of FontCreator 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) is as follows: exclamation mark, comma, hyphen, period, equal, numbers, question mark, commercial at, letters, slash, backslash, fi and fl. Other characters are replaced with rectangles.
+* The existing characters used by subsetted fonts in unregistered copies of FontCreator 7.0 (2013-04-25) until 11.5.0.2430 (2018-12-05) is as follows: exclamation mark, comma, hyphen, period, equal, numbers, question mark, commercial at, letters, slash, backslash, fi and fl. Other characters are replaced by rectangles.
 
 ## Unregistered version limitations
 If the program detects it is an unregistered copy or is running as a limited user or if registration is not performed during or within the grace period, the following restrictions will be imposed on the version number:
@@ -30,29 +30,30 @@ If the program detects it is an unregistered copy or is running as a limited use
 ## Windows version compatibility
 | Operating system              | Latest version |
 |-------------------------------|----------------|
-| Windows Vista and later       | 15.0.0.3015    |
+| Windows 7 and later           | 15.0.0.3015    |
+| Windows Vista                 | 11.0           |
 | Windows XP                    | 10.0           |
 | Windows 2000                  | 7.0            |
 | Windows 95, 98, ME and NT 4.0 | 6.0.1          |
 
 ## User data
-“FontCreator uses several extra data files to read settings and other program specific information.” Most files below can be edited directly with administrator privileges.
+“FontCreator uses several extra data files to read settings and other program specific information.” Most files can be edited directly with administrator privileges.
 * **bookmarks.txt** (version 4.5 until 6.5) – Includes bookmarks used by the font overview. Created automatically after exiting the program.
 * **CompositeData.xml** (version 5.0 & above) – Located in the `Composite` folder as used by **Complete Composites**. The feature will do nothing if there are syntax errors or this file is missing. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) had assigned code points in the Private Use Area for different glyphs in this file and his fonts (he removed them), notably for use with OpenType features like small capitals or old style numbers.
 * **CurrentTransformProgram.xml** (version 4.5 & above) – Transform Program used by `TTRANSFORMFORM`. The window will appear empty if removed.
 * **default.otlfd** (version 7.0 until 11.5) – Default OpenType feature definitions used when adding common OpenType features (replaced with `TFEATURESETTINGSFORM` in version 12 & above).
-* **Denissen.ttf** (version 4.5 until 5.5) – located in the fonts folder) – Sample font made from handwriting designed by Erwin Denissen (with only the Basic Latin Unicode block). Named after Erwin Denissen (the co-founder of High-Logic). León Fridsma (the other co-founder of High-Logic joined in 2009) did not design this font. It dates from the year 2000.
+* **Denissen.ttf** (version 4.5 until 5.5) – located in the fonts folder) – Sample font made from handwriting designed by Erwin Denissen (with only the Basic Latin Unicode block). Named after Erwin Denissen (the co-founder of High-Logic). León Fridsma (the other co-founder of High-Logic who joined in 2009) has not designed this font. It dates from the year 2000.
 * **FC#####.otf/ttf** (desktop fonts in the test font window) or **FC#####.woff** (web fonts) – Temporary fonts whereas the last 5 characters in the filename are numbers. Version 3.0 until 6.5 named the font as **FC Test Font ######** while recent versions names the font up to 25 characters followed by 5 numbers.
 * **fc12.cfg** (version 12.0) – Configuration file located in the user's directory.
 * **FCOutDrw.dll** – Dynamic link library used by advanced outlines, located in the system root directory (version 10 & above).
 * **fcp5.cfg** (version 5.0 until 5.6) – Configuration file located in the system root directory.
 * **fcppreview.txt** (version 3.0 until 4.5) and **previewtext.dat** (version 5.0 & above) – Text used in the test font window. The default text will be used if the file is removed.
-* **FCPSHL.dll** (version 3.0 until 6.5) – Adds the **Open with FontCreator** menu item to all TrueType fonts (version 7.0 & above adds the program itself to the **Open with** menu).
+* **FCPSHL.dll** (version 3.0 until 6.5) – Adds the **Open with FontCreator** menu item to TrueType fonts (version 7.0 & above adds the program itself to the **Open with** menu).
 * **fntXX/XXX.tmp** – Temporary font used by saving (the last two or three characters in the filename is a combo of letters and/or numbers).
-* **FontCreatorSetup.exe** – Installs the Win32 version of the program. Use the `/DIR` switch to install the program to another directory.
-* **FontCreatorSetup-x64.exe** (version 11.0 & above) – Installs the Win64 version of the program. Use the `/DIR` switch to install the program to another directory.
+* **FontCreatorSetup.exe** – Installs the Win32 version of the program. Use the `/DIR` switch to change the installation directory.
+* **FontCreatorSetup-x64.exe** (version 11.0 & above) – Installs the Win64 version of the program. Use the `/DIR` switch to change the installation directory.
 * **FontCreator.tip** (version 2.0 until 6.5) – Contains tips and tricks used by the Tip of the Day. The window will appear empty if removed.
-* **FontCreator YYYYMMDD HHMMSS ###.dat/prd** (version 12.0) – Contains crash info (located in `ProgramData\High-Logic\Errors` – **YYYYMMDD HHMMSS** is the computer's date and time and **###** is a number). The Call Stack Information was removed with 12.0.0.2563 (2020-02-21).
+* **FontCreator YYYYMMDD HHMMSS ###.dat/prd** (version 12.0) – Contains crash and error info (located in `ProgramData\High-Logic\Errors` – **YYYYMMDD HHMMSS** is the computer's date and time and **###** is a number). The Call Stack Information was removed with 12.0.0.2563 (2020-02-21).
 * **FontInstaller.dll** (version 2.0 until 6.5) and **FontInstaller2.dll** (version 7.0 & above) – Dynamic link library for installing fonts.
 * **glyphlist.dat** – List of PostScript names for glyphs in the Adobe glyph list. Old versions have the same list but it duplicates **xi** to the first Unicode codepoint.
 * **glyphnames.dat** (version 7.0 until 11.5) and **glyphnamesnew.dat** (version 12.0 & above) – “Contains overrides of the default friendly glyph names, as used when opening existing fonts and when you generate glyph names on the Glyph Properties dialog”
@@ -72,7 +73,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 
 ### AddCharacters (version 4.0 & above)
 * **SelectedCharacter** – Select the character in this dialog. Default is 0 (null).
-* **SelectedFont** – Select the font to display characters at the top and bottom left corners. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013. Available in Regular and Bold as a commercial font).
+* **SelectedFont** – Select the font to display characters at the top and bottom left corners. Default is **Arial Unicode MS** (shipped with Microsoft Office up to 2013; also commercially available).
 
 ### Background (version 3.1 & above, used in Background Image)
 * **BackgroundInitColor** – Select the background color. Default is white.
@@ -201,8 +202,8 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** (version 12.0 & above) – Used by `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
 * **InsertGlyphsPage** (version 12.0 & above) – Select the tab in the insert glyph window.
 * **InsertGlyphsRanges** – Used to insert glyph ranges.
-* **KerningFolderExport** – Select the directory to export the old `KERN` table.
-* **KerningFolderImport** – Select the directory to import the old `KERN` table.
+* **KerningFolderExport** – Select the directory to export the legacy `KERN` table.
+* **KerningFolderImport** – Select the directory to import the legacy `KERN` table.
 * **NewFontIncludeOutlines** (version 5.6 & above) – Used with **Predefined outlines: Include outlines** in the New Font window (the outlines are from Garava). Default is on.
 * **OpenDialogInitialDir2** – Contains the directory in the Open dialog. Default is user's font folder.
 * **OpenDialogInitialDirAutoKerning** (version 2.0 until 6.5) – Contains the directory in the Open dialog from the AutoKern Wizard.
@@ -235,7 +236,7 @@ The registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` 
 * **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in Options: Edit. Default is 1.
 * **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in Options: Edit. Default is 1.
 * **OverviewUseColor** (version 3.0 until 6.5) – Used with **Font overview: Use type color in glyph caption** in Options: Font. Default is on.
-* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty. The sample glyphs included with the program were derived from Garava and Times New Roman.
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty. The sample glyphs are derived from Garava (Designed by Bhikkhu Pesala in 2003) and Times New Roman (Designed by Stanley Morison for Monotype Imaging Inc.).
 * **SampleSingleHeight** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph height** in Options: Sample. Default is 55.
 * **SampleSingleWidth** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph width** in Options: Sample. Default is 62.
 * **SaveDialogInitialDirNew2** – Select the directory in the save dialog.
@@ -304,7 +305,7 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **CPSPPerc** – Contains the percentage of advance width used by **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5%.
 * **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. It generates lookups for glyphs used by other OpenType features (e.g. Unicase - unic).
 * **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. It generates lookups for pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* blocks of Unicode and fractions not available in Unicode.
-* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. Examples of fonts including all three features are e.g. Arial (Windows Vista & above), [Roboto](https://github.com/googlefonts/roboto) (pre-Flex version from Android 5.0 "Lollipop" & above - missing anchors for e.g. capital open O, capital M hook, etc. etc. etc.) and more. The `mark` and `mkmk` features are used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Blackfoot, Choctaw, Dakota, Lakota, etc. etc. etc.), phonetic transcription (IPA and UPA) and zalgo text. The `ccmp` feature is included in e.g. [Roboto](https://github.com/googlefonts/roboto) (pre-Flex version from Android 5.0 "Lollipop" & above) and [URW Palladio HOT](http://www.sanskritweb.net/fonts/index.html) for diacritics with codepoints assigned by the Unicode Consortium.
+* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. Examples of fonts including all three features are e.g. Arial (Windows Vista & above), [Roboto](https://github.com/googlefonts/roboto-3-classic) (missing anchors for e.g. capital open O, capital M hook, etc. etc. etc.) and more. The `mark` and `mkmk` features are used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, Dagaare, Tammari, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Choctaw, Dakota, Lakota, Heiltsuk, Kwakwala, Liqwala, etc. etc. etc.), phonetic transcription (IPA and UPA) and zalgo text.
 * **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. Fullwidth Latin characters are not included. Don't include this feature in monospaced or pixel fonts!
 * **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**. This feature moves the position of some punctuation marks, e.g. inverted exclamation point or question mark and brackets to the CapHeight position. Example font without the feature: System VIO from OS/2 (with the characters at the CapHeight position).
 * **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
@@ -373,7 +374,7 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **DefaultVendorURLIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off. Recent versions of this program comes with [ttfautohint](https://freetype.org/ttfautohint/) for automatic hinting.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off. Recent versions use [ttfautohint](https://freetype.org/ttfautohint/) for automatic hinting.
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
 * **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in recent versions) is the date used when **Startup: Show update reminder** in Options: General is enabled.
 * **LeftSideBearingExcludeLargeFonts** (version 4.0 until 6.5) – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
@@ -632,46 +633,46 @@ The program includes hidden options for debugging, development and testing purpo
 
 ### Main Window
 **Menu Items**
-* **Edit: Knife** – Does not work. Use the Knife option in the **Glyph** toolbar.
+* **Edit: Knife** – Use the Knife option in the **Glyph** toolbar.
 * **Edit: Join Contours** – Use the Union option in the **Glyph** toolbar.
-* **Edit: Split Contours** – Does not work.
-* **View: Toolbars: Tab Bar** – Hides the tabs if version 6.1 until 11.5 is used. The feature summons no action when selected in the 12th and 13th major versions.
+* **Edit: Split Contours** – Use the Knife option in the **Glyph** toolbar.
+* **View: Toolbars: Tab Bar** – Hides the tabs if version 6.1 until 11.5 is used. The feature summons no action when selected in version 12 and 13.
 * **Tools: Export Glyph Outlines...** (version 4.0 until 5.6) – Does not work. See **miTestItem4 Save** in the glyph edit window for glyphs edited in contour mode.
 * **Tools: Import Glyph Data...** (version 4.0 until 5.6) – Imports glyph data from the font. Replaced with **miTestItem3 Load** in the glyph edit window for glyphs edited in contour mode. This feature is undocumented in the manual.
 * **Tools: Export Glyph Data...** (version 4.0 until 5.6) – Exports glyph data in the font to fgd files. Replaced with **miTestItem4 Save** in the glyph edit window for glyphs edited in contour mode. This feature is undocumented in the manual.
-* **Tools: TODO! Customize...** – Included in all versions. If some icons are removed in the toolbars without using `Visible = False`, the first message shown in the status bar is replaced with access violation when e.g. opening fonts.
-* **Window: Minimize All** – Minimizes all other windows (restore each minimized window via the restore button).
+* **Tools: TODO! Customize...** – If some icons are removed in the toolbars without using `Visible = False`, the first message shown in the status bar is replaced with access violation when e.g. opening fonts.
+* **Window: Minimize All** – Minimizes all other windows (restore each minimized window with the restore button).
 * **Help: Upgrade** (version 13.0) – Shows a message with licensing information for the Standard version.
 
 **Hidden Shortcuts** – These items are here so the shortcuts work.
 * **Restore Overview Splitter** – Hide or show the overview splitter.
-* **Close** – Close active window with the same command in the **File** menu.
+* **Close** – Closes the active window with the same command in the **File** menu.
 * **Cut**, **Copy** and **Paste** – Uses the same commands in the **Edit** menu.
 * **Show Font Properties** – Uses the same command in the **Font** menu.
 * **Redo** – Uses the same command in the **Edit** menu.
 * Tags from **tags.txt** and **Tagged** folder (font overview; automatically shown) – The menu items summons no action when selected.
 
-**Developer Tools** – Contains debugging functions and developer commands (the menu is hidden for unregistered copies of FontCreator 12 through 14).
-* **Screenshot macro 1** or **Screenshot macro 2 (website)** – Create the folder `help\screenshots\` from the Program Files directory (Program Files (x86) if the 32-bit version is installed on 64-bit) and register the program to use these features. In FontCreator 7.0 until 11.5, anti-aliased smoothing should be used.
+**Developer Tools** – Contains debugging functions and developer commands (the menu is hidden for unregistered copies of FontCreator 12 through 15).
+* **Screenshot macro 1** and **Screenshot macro 2 (website)** – Create the folder `help\screenshots\` from the Program Files directory (Program Files (x86) if the 32-bit version is installed on 64-bit) and register the program to use these features. In FontCreator 7.0 until 11.5, anti-aliased smoothing should be used.
 * **Hide Developer Menu** – Hides the menu.
 * **AutohintMacro** – Uses the **Close All** command in the **File** menu.
 * **Video mode** – Restores the window to its original size and registers the program without a key.
 * **A/B Testing** – Contains two options to set the variant.
 * **Font Log** – Shows the font log (this item is hidden for unregistered copies of FontCreator 12 through 14).
-* **Disable garbage collector** – Does not work.
+* **Disable garbage collector** – This option disables the garbage collector.
 * **Increase Font Size** – Shows information about the font and size with two numerical strings.
-* **Enable All Toolbar Icons** – Enables all icons in every toolbar.
+* **Enable All Toolbar Icons** – Enables all icons in all toolbars.
 * **Font Tester Action** – Intended to change the action in `TFONTTESTFORM`.
-* **Boink!** – Exit the program silently. In version 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), the feature summons no action when selected and is located in the **Debug** menu. It may display a critical error which contains an "OK" button.
+* **Boink!** – Exit the program silently. In version 10.0 (2016-06-22) until 11.5.0.2430 (2018-12-05), the feature summons no action when selected and is in the **Debug** menu. It may display a critical error which contains an "OK" button.
 
 **Toolbar Buttons** – The last four buttons are enabled when editing simple or composite glyphs.
 * Second **Open** and **Print** options in the **Standard** toolbar – Only the second **Print** option uses the same command in the **File** menu or the first **Print** option. The second **Open** option icon is blank.
 * **Next Glyph** in the **Validation** toolbar – Does not work.
-* **Tools: Generate Glyph Names** – Save friendly glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator14\generatednames.txt` (`FontCreator12` or `FontCreator13` in version 12 or 13). Create the user `EDenissen` to use this feature. The button is hidden for unregistered copies of FontCreator 12 or 13.
-* **Glyph: Smooth Curves** – Smooths all curves.
-* **Glyph: Smooth and Align Curves** – Smooths and aligns curves.
-* **Glyph: Harmonize** – Harmonizes all contours.
-* **Glyph: Round XY Coordinates** – Round XY coordinates values.
+* **Tools: Generate Glyph Names** – Save friendly glyph names to `C:\Users\EDenissen\AppData\Roaming\FontCreator14\generatednames.txt` (`FontCreator12` or `FontCreator13` in version 12 or 13). Create the user `EDenissen` to use this feature. The button is hidden for unregistered copies of FontCreator 12 and 13.
+* **Glyph: Smooth Curves** – Smooths all curves. The icon is shown as S.
+* **Glyph: Smooth and Align Curves** – Smooths and aligns curves. The icon is shown as SA.
+* **Glyph: Harmonize** – Harmonizes all contours. The icon is shown as H.
+* **Glyph: Round XY Coordinates** – Round XY coordinates values. The icon is shown as R.
 
 ### Glyph Edit Window Contour Mode Context Menu
 * **Order** (version 3.0 until 5.0) – The features were implemented as **Align or Distribute** in version 5.5 & above.
@@ -700,7 +701,7 @@ If the program detects it is running the Home Edition, it shows the Professional
 
 ### OpenType Designer: GPOS Kerning Editor Buttons
 All values start with a capital D enclosed in square brackets.
-* **Clear Values** – Sets the value for all kerning pairs to zero. Used for monospaced fonts with kerning tables (e.g. *Monospaced Typewriter* by Manfred Klein based on Monospace 821 BT).
+* **Clear Values** – Sets the value for all kerning pairs to zero. Used for monospaced fonts with kerning tables (e.g. *Monospaced Typewriter*: Designed by Manfred Klein, based on Monospace 821 BT).
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
 * **Clean Up** – Removes all kerning pairs with a zero value. Version 3.0 until 6.5 (not version 7.0 & above) removes pairs with glyphs that are not mapped to any Unicode character.
 
@@ -715,6 +716,38 @@ The **General** tab has a group to associate fonts with the program itself (it i
 
 ### About Dialog
 These are located in the corners of the program name, version number, copyright notice and link to the company's website (**Note:** uses HTTP via the HTML linking tag).
-* **Clr** (Clear) (version 4.5 & above, top left corner) – Removes registration information (see the `Reg` section in **Registry Keys** above). Before version 6.0 the text is white and is located in the registration information.
+* **Clr** (Clear) (version 4.5 & above, top left corner) – Removes registration information (see the `Reg` section in **Registry Keys** above). Before version 6.0 the text is white and is located in the left side of the registration information.
 * **Crash** (top right corner) – When clicked, displays a critical error saying "We hope you enjoyed clicking this crash button."
 * **Trial** (bottom right corner, version 12.0 & above) – Resets or extends the trial period for unregistered copies running after a grace period of 30 days.
+
+### Unused Content translated to French
+Put the following lines in the `lang.fr` file - make sure the lines are in alphabetical order.
+* Forms.AboutDialog.sbClear = "Déboucher"
+* Forms.AboutDialog.sbCrash = "Tomber en panne"
+* Forms.AboutDialog.sbTrial = "Essai"
+* Forms.CodeEditorForm.cbVOLTUseGlyphIDs = "Dépuration : VOLT.UseGlyphIds"
+* Forms.FrameGlyph.miTestItem3 = "miTestItem3 Sauvegarde"
+* Forms.FrameGlyph.miTestItem4 = "miTestItem4 Charger"
+* Forms.MainFormFontCreator.miDevTools = "Outils développeur"
+* Forms.MainFormFontCreator.miDevToolsABTesting = "Contrôle A/B"
+* Forms.MainFormFontCreator.miDevToolsABTestingA = "Configurer le variante A"
+* Forms.MainFormFontCreator.miDevToolsABTestingB = "Configurer le variante B"
+* Forms.MainFormFontCreator.miDevToolsBoink = "Boink !"
+* Forms.MainFormFontCreator.miDevToolsDisableGarbageCollector = "Desactiver le récupérateur de mémoire"
+* Forms.MainFormFontCreator.miDevToolsEnableAllToolbarIcons = "Activer tous les icons de barres d'outils"
+* Forms.MainFormFontCreator.miDevToolsFontLog = "Historique du police"
+* Forms.MainFormFontCreator.miDevToolsFontTesterAction = "Opération de tester la police"
+* Forms.MainFormFontCreator.miDevToolsHideDeveloperMenu = "Cacher le ménu de développeur"
+* Forms.MainFormFontCreator.miDevToolsIncreaseFontSize = "Augmenter le taille de la police"
+* Forms.MainFormFontCreator.miDevToolsScreenshotMacro1 = "Macro de capture d'écran 1"
+* Forms.MainFormFontCreator.miDevToolsScreenshotMacro2 = "Macro de capture d'écran 2 (site web)"
+* Forms.MainFormFontCreator.miDevToolsVideoMode = "Modalité vidéo"
+* Forms.MainFormFontCreator.miHS = "Raccourcis cachés"
+* Forms.MainFormFontCreator.miHS.Hint = "Ces éléments sont là pour que les raccourcis fonctionnent"
+* Forms.MainFormFontCreator.miHSEditCutShortcut = "C&ouper"
+* Forms.MainFormFontCreator.miHSEditPasteShortcut = "&Coller"
+* Forms.MainFormFontCreator.miHSEditRedoShortcut = "&Rétablir"
+* Forms.MainFormFontCreator.miHSRestoreOverviewSplitter = "Restaurer le séparateur de vue d'ensemble"
+* Forms.MainFormFontCreator.miHSWindowsClose = "&Fermer Ctrl+F4"
+* Forms.MainFormFontCreator.miHSWindowsClose2 = "&Fermer CTRL+W"
+* Forms.MainFormFontCreator.miToolsCustomize = "TODO ! Personnaliser..."
