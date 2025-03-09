@@ -67,6 +67,16 @@ If the program detects it is an unregistered copy or is running as a limited use
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** (version 8.0 & above). When pressed, some files in the above list will be copied to the user's data folder or the user's data folder will be opened.
 
+## Default font export settings
+* **WOFF Version** – Default is version 1 and 2.
+* **Outline Format** – Default is TrueType.
+* **Components** – Default is Decompose scaled (recommended).
+* **Glyph Names** – Default is Regenerate for release.
+* **Color** – Default is No.
+* **Hinting** – Default is Keep original.
+* **Output Folder** – Default is the Fonts folder from the user's documents folder.
+* **Existing Files** – Default is Rename existing files.
+
 ## Index of registry keys
 Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` or `HKCU\Software\High-Logic\Font Creator Program\version` where `version` is the version number (the settings are stored as `settings.json` since FontCreator 15). Holding down **Ctrl** in version 7.0 & above during startup will restore the program to factory settings.
 
