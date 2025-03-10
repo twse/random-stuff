@@ -39,11 +39,11 @@ FontCreator uses several data files for advanced settings and customizations. No
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **CurrentTransformProgram.xml** – Created when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
-* **fcppreview.txt** (version 3.0 until 4.5) – Text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
+* **fcppreview.txt** (version 3.0 until 4.5) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **fnt[XX/XXX].tmp** – Temporary font used for saving (XX or XXX are letter and number combos).
 * **FontCreatorSetup.exe** – Install the program for use with x86 platform (32 bit).
 * **FontCreatorSetup-x64.exe** – Install the program for use with x64 platform (64 bit).
@@ -55,12 +55,23 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **previewtext.dat** (version 5.0 & above) – Controls the text used in `TFONTTESTFORM`. The text is restored to factory defaults if removed.
 * **preview.txt** (version 6.5 & above) – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
-* **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
+* **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the tables supported in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
 * **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
 
-## Registry Keys
+## Default font export settings
+* **WOFF Version** – Default is **version 1 and 2**.
+* **Outline Format** – Default is **TrueType**.
+* **Components** – Default is **Decompose scaled (recommended)**.
+* **Glyph Names** – Default is **Regenerate for release**.
+* **Color** – Default is No.
+* **Hinting** – Default is **Auto hinting** or **Keep original**.
+* **Output Folder** – Default is the **Fonts** folder from the user's documents folder.
+* **Existing Files** – Default is **Rename existing files**.
+
+## Index of registry keys
+Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` or `HKCU\Software\High-Logic\Font Creator Program\version` where `version` is the version number (the settings are stored as `settings.json` since FontCreator 15). Holding down **Ctrl** in version 7.0 & above during startup will restore the program to factory settings.
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
