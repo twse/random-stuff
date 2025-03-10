@@ -186,7 +186,7 @@ Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logi
 * **InstallFontsInFontsFolder** – **Install the font in Windows Fonts folder**. Default is on. On Windows Vista & above, the User Account Control shield is displayed before the label.
 
 ### InstalledFonts
-* **PreviewHeight** – Set the font sample height (version 5.5 & above). Default is 124.
+* **PreviewHeight** – Set the font preview text height (version 5.5 & above). Default is 124.
 
 ### Interface (used in the toolbar context menu or View: Toolbars)
 * **LockToolbars** (version 11.0 & above) – **Lock Docked Toolbars**. Default is off.
@@ -209,7 +209,7 @@ Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logi
 * **GlyphPropsExpanded** – Expand glyph properties via the **More** button at the bottom left corner. Default is on.
 * **GroupManagerSorted** – Sorts the group manager.
 * **InsertGlyphsCB1** and **InsertGlyphsCB2** (version 12.0 & above) – Used by `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
-* **InsertGlyphsPage** (version 12.0 & above) – Select the tab in the insert glyph window.
+* **InsertGlyphsPage** (version 12.0 & above) – Select the tab in the insert glyph window. Default is insert by glyph name.
 * **InsertGlyphsRanges** – Used to insert glyph ranges.
 * **KerningFolderExport** – Select the directory to export the legacy `KERN` table.
 * **KerningFolderImport** – Select the directory to import the legacy `KERN` table.
@@ -333,7 +333,7 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses medial characters from the *Arabic* ranges of Unicode if the glyphs exist. The second feature is used only for Syriac if the glyphs exist.
 * **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses either glyphs with a `.nalt` suffix or circled characters from the *Enclosed Alphanumerics* block and initial, isolated, medial or terminal characters from the *Arabic* ranges of Unicode if the glyphs exist. The Verajja font was used in the OpenType Designer using the number six as shown in the manual.
 * **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. Glyphs with `.onum` at the end of PostScript names should be present to generate this feature. The Mandala font was used for the feature as shown in the Enrich Your Fonts With OpenType Features tutorial.
-* **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**. It creates a numero substitution (capital N and small o with or without full stop) if the glyph exists in the *Letterlike Symbols* block of Unicode and substitutions for letters and numbers. The numero character is included in encodings for languages with Cyrillic script (e.g. Windows CP1251 - Cyrillic).
+* **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**. It creates a numero substitution (capital N and small o with or without full stop) if the glyph exists in the *Letterlike Symbols* block of Unicode and substitutions for letters and numbers.
 * **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**. If no glyphs that end with `.ordn` or `.sups` are found, it creates substitutions for a to ª and o to º if these glyphs exist.
 * **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. The first method uses the bullet. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace bb, bp, bq, wk and wr by chess pieces.
 * **IncludePetiteCapitals** – Used with **Other Forms and Variants: Petite Capitals (pcap, c2pc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only common punctuation and the Latin, Greek and Cyrillic alphabets with diacritics for Classical Sanskrit (not Vedic Sanskrit with additional diacritics like ā́ī́ḷ́l̃m̐ṝ́ū́).
@@ -383,7 +383,7 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **DefaultVendorURLIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
 * **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off. Recent versions use [ttfautohint](https://freetype.org/ttfautohint/) for automatic hinting.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off. Recent versions use [ttfautohint](https://freetype.org/ttfautohint/) for automatic hinting (enabled by default when exporting font projects).
 * **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
 * **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in recent versions) is the date used when **Startup: Show update reminder** in Options: General is enabled.
 * **LeftSideBearingExcludeLargeFonts** (version 4.0 until 6.5) – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
@@ -466,11 +466,11 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**. Default is on.
 * **WarnBeforeAnchorDelete** and **WarnBeforeAnchorDelete2** – Used with **Warn when deleting an anchor used by OpenType features**. Default is on.
 * **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**. Default is on.
-* **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above; in recent versions, it is hidden and moved all the way down) – Used with **Warn before executing a glyph transformer script**. Default is on.
+* **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above) – Used with **Warn before executing a glyph transformer script**. Default is on.
 * **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**. Default is on.
 * **WarnImportSmallImage** – Used with **Warn when importing small image**. Default is on.
 * **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**. Default is on.
-* **WarnWhenProcessingVOLTTable** (version 9.0 until 11.0) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
+* **WarnWhenProcessingVOLTTable** (version 9.0 until 11.0; in recent versions, it is hidden and moved all the way down) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
 
 ## Cursors in the executable file
 **Note:** All resources start with HL (the vendor ID is in the vendor list and is the default vendor ID used for new fonts).
@@ -532,13 +532,13 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images to any glyph in the font.
 * **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups from the OpenType layout tables in the font.
 * **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes from the OpenType layout tables in the font.
-* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). If this form is deleted, it will either show a non-existing form message (old versions) or a message with only text (recent versions).
+* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). If this form is deleted, it will either show a non-existing form message (old versions) or a text only message (recent versions).
 * **TDM** (version 4.0 & above) – Contains icons with no regard to `Glyph.Data` in old versions. Version 5.5 (2006-05-30) until 11.0.0.2365 (2017-05-10) uses icons in e.g. Microsoft Office 2003 up to 2010. The icons were changed in version 12.0 & above.
 * **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data.
 * **TEDITANCHORFORM** (version 7.0 & above) – Edits anchors in the font if any glyph has positioning data.
-* **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Exports glyph data in the font to fgd files (**Tools: Export Glyph Data...**). Recent versions are limited to only one glyph.
+* **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Exports glyph data to fgd files (**Tools: Export Glyph Data...**). Recent versions are limited to only one glyph.
 * **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure font export settings.
-* **TEXTERNALSFORM** – Edits the external tools menu (**Tools: Launch Externals: Configure Externals...**).
+* **TEXTERNALSFORM** – Edit the three custom external tools (**Tools: Launch Externals: Configure Externals...**).
 * **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Extract TrueType or OpenType font collections to multiple font files (**Tools: Extract from OTC...**). The SimSun font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `MiToolsExtractFromTTCClick` function used by `CheckLicenseNotGood`.
 * **TFEATURESETTINGSFORM** (version 12.0) and **TFEATURESFRAME** – Generates or updates feature code in the OpenType Designer.
 * **TFINDFORM** – Searches parts of a font.
