@@ -14,7 +14,7 @@
 * In order to edit FontCreator 5.6 resources, you would have to use [Resource Tuner](http://www.heaventools.com/resource-tuner.htm) (tested with version 2.20) or [UPX](https://upx.github.io/) (tested with version 2.01 released in 2006 and distributed with FreeDOS) to unpack the executable file which isn't possible as UPX says it's not packed.
 * In new fonts, the Euro (€) doesn't have a Macintosh Roman mapping but the international currency sign (¤) does have it.
 * The euro (€) and international currency sign (¤) use the same mapping in the Macintosh Roman glyph mapping list.
-* Version 1.0 until 5.6 use ISO Latin-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
+* Version 1.0 until 5.6 uses ISO 8859-1 as the output encoding. East Asian users (e.g. Korean) will appreciate in `previewtext.dat` substitutes accented letters by ASCII counterparts, e.g. é by e and if kerning pairs are exported, instead of having &lt;&lt; for « you have to use \\00AB as escape code.
 
 ## Unregistered version limitations
 As FontCreator is released as pay shareware, the unregistered version works for 30 days with the following limitations based on the version number.
@@ -25,7 +25,7 @@ As FontCreator is released as pay shareware, the unregistered version works for 
 * 7.0 (2013-04-25) - The program will create subsetted versions when saving, testing, exporting or installing fonts.
 * 12.0.0.2543 (2019-07-10) - The program will add watermarks when generating fonts.
 
-Under the Help menu is an item labeled **Register** when this executed a screen will pop up giving the registration code.
+Under the Help menu is an item labeled **Register**. When executed, a screen will pop up giving the registration code.
 
 ## Windows version compatibility
 * Windows Vista and later – 12.0.0.2543
@@ -39,7 +39,7 @@ FontCreator uses several data files for advanced settings and customizations. No
 
 * **bookmarks.txt** (version 5.0 until 6.5) – Created automatically after exit. Includes bookmarks used in the glyph overview.
 * **CompositeData.xml** – Located in the `Composite` folder as used by **Complete Composites**.
-* **CurrentTransformProgram.xml** – Used when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
+* **CurrentTransformProgram.xml** – Created when opening Transform Programs in `TPERFORMTRANSFORMATIONFORM`. The window will appear empty if removed.
 * **FC#####.ttf** – Temporary font used by `TFONTTESTFORM` (##### is five numbers). The font name in version 3.0 until 6.5 is FC Test Font ###### (###### is six numbers).
 * **fc12.cfg** – Configuration file used by FontCreator.
 * **fcp5.cfg** – Configuration file used by FontCreator 5.0 and 5.6 in the system root directory.
@@ -56,11 +56,21 @@ FontCreator uses several data files for advanced settings and customizations. No
 * **preview.txt** (version 6.5 & above) – Contains the standard preview texts for the Preview toolbar. The dropdown list is shown as blank if removed.
 * **SubFamily.dat** or **SubFamily2.dat** – Includes naming fields for multiple languages.
 * **TableOffsetOrderCFF.txt** and **TableOffsetOrder.txt** (.dat in old versions) – Contains the supported tables in any font. All tables are moved to Unsupported if removed, making the font unable to work or install.
-* **tags.txt** (version 7.0 & above) – Controls the names of the five tags that can be assigned to each glyph.
 
 In **Options: Advanced: Data Files** are two buttons labeled **Copy Data Files to User Data Folder** and **Open User Data Folder** when pressed the program will either copy most files to the user data folder or open it.
 
-## Registry Keys
+## Default font export settings
+* **WOFF Version** – Default is **version 1 and 2**.
+* **Outline Format** – Default is **TrueType**.
+* **Components** – Default is **Decompose scaled (recommended)**.
+* **Glyph Names** – Default is **Regenerate for release**.
+* **Color** – Default is No.
+* **Hinting** – Default is **Auto hinting** for or **Keep original**.
+* **Output Folder** – Default is the **Fonts** folder from the user's documents folder.
+* **Existing Files** – Default is **Rename existing files**.
+
+## Index of registry keys
+Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logic\FontCreator\version` or `HKCU\Software\High-Logic\Font Creator Program\version` where `version` is the version number (the settings are stored as `settings.json` since FontCreator 15). Holding down **Ctrl** in version 7.0 & above during startup will restore the program to factory settings.
 
 ### AddCharacters (used in `TADDCHARACTERSFORM`)
 * **SelectedCharacter** – Select the character in this form. Default is 0 (null).
@@ -153,8 +163,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### Install (used in `TFONTINSTALLWIZARDFORM`)
 * **InstallFontsInFontsFolder** (version 3.0 until 6.5) – Used with **Install the font in Windows Fonts folder**. Default is on. If the program is ran under Windows Vista & above, the UAC shield is added before the label.
 
-### InstalledFonts
-* **PreviewHeight** – Select the height used for the preview area in the Open Installed Fonts window.
+### InstalledFonts (used in `TINSTALLEDFONTSFORM`)
+* **PreviewHeight** – Set the font preview text height (version 5.5 & above). Default is 124.
 
 ### Interface
 * **LockToolbars** – Used with **Lock Docked Toolbars** option in the toolbar context menu or in View: Toolbars. Default is off.
@@ -162,58 +172,65 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 
 ### Interface Settings
 * **ChildWindowState** – Contains the child window state.
-* **CompleteCompositesAction** – Set the value to either 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) as used with **Complete Composites**. Default is 1 (auto).
-* **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the Font Properties window.
-* **ExportSettingsPage** – Select the page used for export settings.
-* **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** in the font overview context menu.
-* **GlyphCaptionType2** – Used with the Captions options in the font overview context menu.
-* **GlyphDrawMode** – Set the value to 2 (auto), 0 (monochrome) or 1 (color). Default is 2 (auto).
-* **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **Fill Outline** in the View menu.
-* **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of postscript names to replace as used by the glyph names dialog.
-* **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of postscript names to find as used by the glyph names dialog.
-* **GlyphNamesOptionsCS** – Contains the context substitutions used by the glyph names dialog.
-* **GlyphNamesOptionsRE** – Contains the regular expressions used by the glyph names dialog.
-* **GlyphOutlineFillMode** – Used with **Glyph outline fill mode** in the Options: General tab.
-* **GlyphPropsExpanded** – Used to expand the glyph properties.
-* **GroupManagerSorted** – Used to sort the group manager.
-* **InsertGlyphsCB1** and **InsertGlyphsCB2** – Select this value in the insert glyphs window to either insert each glyph at top (0), after last glyph (1), before each selected glyph (2) or after each selected glyph (3). Default is 3 (after each selected glyph).
-* **InsertGlyphsPage** – Select the page in the Insert Glyphs dialog.
-* **KerningFolderExport** – Select the directory to export the legacy kerning tables.
-* **KerningFolderImport** – Select the directory to import the legacy kerning tables.
-* **NewFontIncludeOutlines** – Used with **Predefined outlines: Include outlines** in the new font dialog. Default is on.
-* **OpenDialogInitialDir2** – Select the directory to use in the Open dialog.
-* **OpenDialogInitialDirAutoKerning** – Select the directory to use in the AutoKern Open dialog.
-* **OpenDialogInitialDirImportImage** – Select the directory to use in the Open dialog from Import Image.
-* **OpenDialogInitialDirNamingField** – Select the directory in the Open dialog from Edit Naming Field.
-* **OpenDialogInitialDirTransform** – Select the directory to use in the Open dialog from Glyph Transformer.
-* **OptionsPage** – Select the tab used in the Options dialog.
-* **OTLFDesignerCollapsedFeatures** – Select the features to collapse in the OpenType Designer.
-* **OTLFDesignerCollapsedLookups** – Select the lookups to collapse in the OpenType Designer.
-* **OTLFDesignerCollapsedScripts** – Select the scripts to collapse in the OpenType Designer.
-* **OTLFDesignerPreviewLanguage** – Contains the language used for the preview text in the OpenType Designer.
-* **OTLFDesignerPreviewSampleText** – Contains sample text for the OpenType Designer preview.
-* **OTLFDesignerPreviewScript** – Select script for the OpenType Designer preview.
-* **OTLFEditor** – Contains settings in the OpenType script editor.
-* **OverviewColCat** – Contains the column categories used in the glyph overview.
-* **OverviewFontZoom** – Contains the zoom factor used in the glyph overview. Default is 35.
-* **OverviewGridZoom** – Contains the grid zoom factor used in the glyph overview.
-* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in the View tab. Default is **Arial**. If this string is empty, the previews are displayed with **MS Sans Serif** moving the glyphs to different positions. (Available in the Options window)
-* **OverviewShowCaption** – Used with **Font overview: Show caption** in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in the Overview tab. Default is on. (Available in the Options window)
-* **OverviewSingleHeight** – Used with **Font overview: Glyph height** in the Overview tab. Default is 48. (Available in the Options window)
-* **OverviewSingleWidth** – Used with **Font overview: Glyph width** in the Overview tab. Default is 70. (Available in the Options window)
-* **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in the Overview tab. (Available in the Options window)
-* **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in the Edit tab. Default is 1. (Available in the Options window)
-* **OverviewUseColor** – Used with **Font overview: Use type color in glyph caption** in the Font tab. Default is on. (Available in the Options window)
-* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in the General tab. Default is blank.
-* **SampleSingleHeight** – Used with **Samples Toolbar: Glyph height** in the Sample tab. Default is 55. (Available in the Options window)
-* **SampleSingleWidth** – Used with **Samples Toolbar: Glyph width** in the Sample tab. Default is 62. (Available in the Options window)
-* **SaveDialogInitialDirNew2** – Contains the initial directory used in the save dialog.
-* **SelectCompositeCaptionType** – Contains the caption used in the select composite glyph window.
-* **SelectCompositeFontZoom** – Contains the zoom factor used in the select composite glyph window.
-* **SelectCompositeGridZoom** – Contains the grid zoom factor used in the select composite glyph window.
-* **SettingsPage** – Select the tab used in the Settings dialog.
+* **CompleteCompositesAction** – Set to 1 (auto), 2 (anchor based), 3 (anchor based reposition) or 4 (composite data) to **Complete Composites**. Default is 1 (auto).
+* **CustomNamingShowOutputContent** – Used by **Custom: Additional Naming Fields: Show Output Content** in the font properties window. Default is on.
+* **ExportSettingsPage** – Select page in `TEXPORTSETTINGSFORM` and `TEXPORTSETTINGSFRAME`. Default is 0 (Desktop Font (ttf/otf)).
+* **GlyphCaptionAuto** – Used with **Glyph Caption: Automatic** (Glyph Index) in the font overview context menu.
+* **GlyphCaptionType** (old versions) or **GlyphCaptionType2** (recent versions) – Used with the font overview context menu captions options. Default is Auto.
+* **GlyphDrawMode** – Set to 0 (monochrome), 1 (color) or 2 (auto). Default is 2 (auto).
+* **GlyphFillAlpha** (version 11.0.0.2365 & above) – Used with **View: Fill Outline**. Default is solid.
+* **GlyphNamesHistoryReplace** (version 11.0.0.2365 & above) – Contains the history of replaced PostScript glyph names in `TGLYPHNAMEFORM`. Default is blank.
+* **GlyphNamesHistorySearch** (version 11.0.0.2365 & above) – Contains the history of searched PostScript glyph names in `TGLYPHNAMEFORM`. Default is blank.
+* **GlyphNamesOptionsCS** – Used with **Options: Case sensitive** in `TGLYPHNAMEFORM`. Default is on.
+* **GlyphNamesOptionsRE** – Used with **Options: Regular expressions** in `TGLYPHNAMEFORM`. Default is off.
+* **GlyphOutlineFillMode** – Used with **Interface: Glyph outline fill mode** in Options: General. Default is 0 (Winding).
+* **GlyphPropsExpanded** – Expand glyph properties via the **More** button at the bottom left corner. Default is on.
+* **GroupManagerSorted** – Sorts the group manager.
+* **InsertGlyphsCB1** and **InsertGlyphsCB2** (version 12.0 & above) – Used by `TINSERTGLYPHFORM` to insert glyphs at the top (0), after the last glyph (1), before (2) or after selected glyphs (3). Default is 3 (after selected glyphs).
+* **InsertGlyphsPage** (version 12.0 & above) – Select the tab in the insert glyph window. Default is insert by glyph name.
+* **InsertGlyphsRanges** – Used to insert glyph ranges.
+* **KerningFolderExport** – Select the directory to export the legacy `KERN` table.
+* **KerningFolderImport** – Select the directory to import the legacy `KERN` table.
+* **NewFontIncludeOutlines** (version 5.6 & above) – Used with **Predefined outlines: Include outlines** in the New Font window (the outlines are from Garava). Default is on.
+* **OpenDialogInitialDir2** – Contains the directory in the Open dialog. Default is user's font folder.
+* **OpenDialogInitialDirAutoKerning** (version 2.0 until 6.5) – Contains the directory in the Open dialog from the AutoKern Wizard.
+* **OpenDialogInitialDirImportImage2** – Contains the directory in the Open dialog from Import Image.
+* **OpenDialogInitialDirNamingField2** – Contains the directory in the Open dialog from `TADDCUSTOMNAMINGFORM`. Default is desktop.
+* **OpenDialogInitialDirTransform3** – Contains the directory in the Open dialog from `TPERFORMTRANSFORMATIONFORM`. Default is the program's transform folder.
+* **OptionsPage** – Select the tab in the options window. Default is 0 (General).
+* **OTLFDesignerCollapsedFeatures** – Contains features collapsed in the OpenType Designer.
+* **OTLFDesignerCollapsedLookups** – Contains lookups collapsed in the OpenType Designer.
+* **OTLFDesignerCollapsedScripts** – Contains scripts collapsed in the OpenType Designer.
+* **OTLFDesignerPairFilterFirst** – Contains the preceding character to filter kerning pairs.
+* **OTLFDesignerPairFilterSecond** – Contains the succeeding character to filter kerning pairs.
+* **OTLFDesignerPairKindFirst** – Filters the first kerning pair kind.
+* **OTLFDesignerPairKindSecond** – Filters the last kerning pair kind.
+* **OTLFDesignerPreviewLanguage** – Selects the language to use in the preview text. Default is **Auto**.
+* **OTLFDesignerPreviewSampleText** – Contains sample text used in the preview text. Default is **The five boxing wizards jump quickly**.
+* **OTLFDesignerPreviewScript** – Selects the script to use in the preview text. Default is **Auto**.
+* **OTLFDesignerSingleFilter** – Used for single filter in the OpenType Designer.
+* **OTLFDesignerSingleKind** – Used for single kind in the OpenType Designer.
+* **OTLFEditor** – Changes the font, displays line numbers or wraps words in the OpenType Feature Code Editor.
+* **OverviewColCat** – Contains the column categories used in the font overview.
+* **OverviewFontZoom** – Zoom glyphs in the font overview. Default is 35.
+* **OverviewGridZoom** – Zoom the grid in the font overview.
+* **OverviewSampleFont** (version 4.0 & above) – Used with **Font Overview: Font used in cells** in Options: View. Default is **Arial**. Empty strings will show the characters in **MS Sans Serif**.
+* **OverviewShowCaption** (version 3.0 until 6.5) – Used with **Font overview: Show caption** in Options: Overview. Default is on.
+* **OverviewShowSample** – Used with **Font Overview: Show sample in empty glyphs** in Options: Overview. Default is on.
+* **OverviewSingleHeight** (version 3.0 until 6.5) – Used with **Font overview: Glyph height** in Options: Overview. Default is 48.
+* **OverviewSingleWidth** (version 3.0 until 6.5) – Used with **Font overview: Glyph width** in Options: Overview. Default is 70.
+* **OverviewSmoothGlyphs** – Used with **Font overview: Smooth glyphs** in Options: Overview. Default is off.
+* **OverviewUndoLimitMaxCount** – Used with **Undo limits: Max. count** in Options: Edit. Default is 1.
+* **OverviewUndoLimitMaxSize** – Used with **Undo limits: Max. size [KB]** in Options: Edit. Default is 1.
+* **OverviewUseColor** (version 3.0 until 6.5) – Used with **Font overview: Use type color in glyph caption** in Options: Font. Default is on.
+* **SampleFileName** – Used with **Samples Toolbar Font: Filename** in Options: General. Default is empty. The sample glyphs are derived from Garava (Designed by Bhikkhu Pesala in 2003) and Times New Roman (Designed by Stanley Morison for Monotype Imaging Inc.).
+* **SampleSingleHeight** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph height** in Options: Sample. Default is 55.
+* **SampleSingleWidth** (version 3.0 until 6.5) – Used with **Samples Toolbar: Glyph width** in Options: Sample. Default is 62.
+* **SaveDialogInitialDirNew2** – Select the directory in the save dialog.
+* **SelectCompositeCaptionType** – Changes caption used in the select composite glyph member window. Default is 0 (glyph name).
+* **SelectCompositeFontZoom** – Scale the glyphs in the select composite glyph member window.
+* **SelectCompositeGridZoom** – Scale the grid in the select composite glyph member window.
+* **SettingsPage** – Changes tab in the Options window. Default is 0 (Identification).
 
 ### Kerning
 * **AutoKerningAllowForPositiveKerningValues** – Used with **Additional Options: Allow for positive kerning values** option in the AutoKern window.
@@ -259,18 +276,66 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 ### Most Recently Used Files, Most Recently Used Projects
 * **File_#** – Lists the font and project file names in the **File: Reopen** menu (# is a number). The menu will appear dimmed if deleted or if **Clear recent file lists** is selected under this menu.
 
-### OpenType Designer
-* **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the OpenType Designer Settings window.
-* **GlyphFillColor** – Used with **Colors: Glyph fill color** in the OpenType Designer Settings window.
-* **LayoutMode**
-* **MarkWidth**
-* **PairWidth**
-* **PreviewHeight** – Used with preview text height in the OpenType Designer.
-* **PreviewSampleFontSize** – Used with preview sample font size in the OpenType Designer.
-* **SimpleWidth**
-* **SingleWidth**
-* **TreeWidth**
-* **ZoomFactor**
+### OpenType Designer (version 7.0 & above)
+* **FillGlyphOutlines** – Used with **Colors: Fill glyph outlines** in the settings window. Default is on.
+* **GlyphFillColor** – Used with **Colors: Glyph fill color** in the settings window. Default is off.
+* **LayoutMode** – Select the layout mode. Default is 0.
+* **MarkWidth** – Set the mark width. Default is 240.
+* **PairWidth** – Set the pair width. Default is 145.
+* **PreviewHeight** – Set the preview text height. Default is 120.
+* **PreviewSampleFontSize** – Scale the preview sample. Default is 32.
+* **SimpleWidth** – Set the simple width. Default is 145.
+* **SingleWidth** – Set the single width. Default is 145.
+* **TreeWidth** – Set the tree width. Default is 320.
+* **ZoomFactor** – Zooms the OpenType Designer. Default is 12.
+
+### OpenType Generator (version 12.0.0.2521 & above, used in the feature settings window)
+Default is on for all keys beginning with “Include”. Other features (e.g. half forms or distances for Indic scripts) have no inclusion options; use the add button at the top left corner of the OpenType Designer or the OpenType Layout Feature Editor to create the tables manually.
+* **CPSPKind** – Used with the **Spacing and Positioning: Capital Spacing (cpsp)** dropdown box. Default is 0 (Percentage of advance width).
+* **CPSPPerc** – Contains the percentage of advance width used by **Spacing and Positioning: Capital Spacing (cpsp)** spinner. Default is 5%.
+* **IncludeAalt** – Used with **Other Forms and Variants: Access All Alternates (aalt)**. It generates lookups for glyphs used by other OpenType features (e.g. Unicase - unic).
+* **IncludeAltFractions** – Used with **Numerals: Alternative Fractions (e.g. stacked) (afrc)**. It generates lookups for pre-composed fractions in the *Latin-1 Supplement* and *Number Forms* blocks of Unicode and fractions not available in Unicode.
+* **IncludeAnchorBased** – Used with **Spacing and Positioning: Anchor Based Positioning (ccmp, mark, mkmk)**. To generate this feature, each letter should have anchors. Examples of fonts including all three features are e.g. Arial (Windows Vista & above), [Roboto](https://github.com/googlefonts/roboto-3-classic) (missing anchors for e.g. capital open O, capital M hook, etc. etc. etc.) and more. The `mark` and `mkmk` features are used by e.g. many African languages (Yoruba, Lingala, Ewe, Wolof, Dagaare, Tammari, etc. etc. etc.) and Native American languages (Navajo, Kwakiutl, Choctaw, Dakota, Lakota, Heiltsuk, Kwakwala, Liqwala, etc. etc. etc.), phonetic transcription (IPA and UPA) and zalgo text.
+* **IncludeCapitalSpacing** – Used with **Spacing and Positioning: Capital Spacing (cpsp)**. Fullwidth Latin characters are not included. Don't include this feature in monospaced or pixel fonts!
+* **IncludeCase** – Used with **Other Forms and Variants: Case-Sensitive Forms (case)**. This feature moves the position of some punctuation marks, e.g. inverted exclamation point or question mark and brackets to the CapHeight position. Example font without the feature: System VIO from OS/2 (with the characters at the CapHeight position).
+* **IncludeCharacterVariants** – Used with **Other Forms and Variants: Character Variants (cv01-cv99)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts for ! * + @ © × † ‡ • ○ ● ☀.
+* **IncludeCursive** – Used with **Spacing and Positioning: Cursive Positioning (curs)**. Use this feature only for connecting script fonts (e.g. Brush Script MT, Script MT Bold, Bickham Script Pro, Lucida Handwriting, etc. etc. etc.).
+* **IncludeDlig** – Used with **Other Forms and Variants: Discretionary Ligatures (dlig)**.
+* **IncludeFina** – Used with **Terminal Forms (fina, fin2, fin3)**. This feature uses terminal characters from the *Arabic* ranges of Unicode if the glyphs exist. The last two features are used only for Syriac. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses the feature in his fonts to replace Greek sigma (σ) with the final sigma (ς) at the end of Greek words, not stigma (Ϛϛ).
+* **IncludeFractions** – Used with **Numerals: Fractions (diagonal) (frac, dnom, numr)**. The `frac` feature uses precomposed vulgar fractions from the *Latin-1 Supplement* and *Number Forms* ranges of Unicode as well as unencoded vulgar fractions if the glyphs exist. The Garava font was used for the feature in the preview as shown in the manual.
+* **IncludeFractionsAdv** – Used with **Numerals: Fractions (diagonal) (frac, dnom, numr): Extended (smart math format)**.
+* **IncludeHlig** – Used with **Other Forms and Variants: Historical Ligatures and Historical Forms (hlig, hist)**. The `hist` feature uses the last character from the *Latin Extended-A* range of Unicode. The `hlig` feature uses ſt from the *Alphabetic Presentation Forms* range of Unicode and ligatures that are made up of glyphs beginning with ſ if the PostScript names in each glyph have `longs` followed by the underscore. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to substitute Roman numerals.
+* **IncludeInit** – Used with **Initial Forms (init)**. This feature uses initial characters from the *Arabic* ranges of Unicode if the glyphs exist.
+* **IncludeIsol** – Used with **Isolated Forms (isol)**. This feature uses isolated characters from the *Arabic* ranges of Unicode if the glyphs exist.
+* **IncludeLiga** – Used with **Other Forms and Variants: Standard Ligatures (liga)**. This feature uses the first five Latin characters from the *Alphabetic Presentation Forms* range of Unicode. The Mandala font was used for the feature as shown in the Enrich Your Fonts With OpenType Features tutorial. Don't include this feature in monospaced fonts without programming ligatures (e.g. Helvetica Monospaced, Nimbus Sans Mono, Harmonia Sans Mono, Prima Sans Mono, SST Typewriter, etc. etc. etc.) or with programming ligatures (e.g. Cascadia Code, Fira Code, etc. etc. etc.)! Example font without this feature: Agency FB from Microsoft products (the ff, ffi and ffl ligatures are unmapped)
+* **IncludeLnum** – Used with **Numerals: Lining Figures (lnum)**. Glyphs with `.lnum` at the end of PostScript names should be present to generate this feature.
+* **IncludeLoclCommon** – Used with **Localized Forms (locl): Common Localized Forms (CAT, NLD, TRK, ROM)**. This feature is used for Catalan (`CAT`) to replace l· with the character from *Latin Extended-A*, Dutch and Flemish (`NLD` and `FLE`) to replace ij and íj́ with its own ligatures, Turkish (`TRK`) and other Turkic languages to replace i for case sensitivity and Romanian or Moldavian (`ROM` or `MOL`) to replace ş and ţ (cedilla) with ș and ț (comma). [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) originally used this feature in his fonts to substitute Roman numerals. He used the `hlig`/`hist` feature instead in his fonts.
+* **IncludeLoclCustom** – Used with **Localized Forms (locl): Custom Localized Forms (loclLANG)**. This feature supports only languages with Arabic, Greek, Hebrew or Latin scripts. It may be used for some languages, e.g. to change the acute in áéíóú (őű) for Hungarian (`HUN`) or ćńóśź for Polish (`POL`), change letter designs in Bulgarian (`BGR`), Macedonian (`MKD`) or Serbian (`SRB`) or to use tighter thin space metrics in French (`FRA`). The Munson Roman font was used in the OpenType Designer using s acute for Polish localized forms, both uppercase and small caps as shown in the manual. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) originally used this feature in his fonts to substitute Roman numerals.
+* **IncludeMedi** – Used with **Medial Forms (medi, med2)**. This feature uses medial characters from the *Arabic* ranges of Unicode if the glyphs exist. The second feature is used only for Syriac if the glyphs exist.
+* **IncludeNalt** – Used with **Other Forms and Variants: Alternate Annotation Forms (nalt)**. This feature uses either glyphs with a `.nalt` suffix or circled characters from the *Enclosed Alphanumerics* block and initial, isolated, medial or terminal characters from the *Arabic* ranges of Unicode if the glyphs exist. The Verajja font was used in the OpenType Designer using the number six as shown in the manual.
+* **IncludeOnum** – Used with **Numerals: Oldstyle Figures (onum)**. Glyphs with `.onum` at the end of PostScript names should be present to generate this feature. The Mandala font was used for the feature as shown in the Enrich Your Fonts With OpenType Features tutorial.
+* **IncludeOrdinals** – Used with **Other Forms and Variants: Ordinals (ordn)**. It creates a numero substitution (capital N and small o with or without full stop) if the glyph exists in the *Letterlike Symbols* block of Unicode and substitutions for letters and numbers.
+* **IncludeOrdinalsExt** – Used with **Other Forms and Variants: Ordinals (ordn): Extended (use .ordn or .sups for all letters)**. If no glyphs that end with `.ordn` or `.sups` are found, it creates substitutions for a to ª and o to º if these glyphs exist.
+* **IncludeOrnaments** – Used with **Other Forms and Variants: Ornaments (ornm)**. The first method uses the bullet. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature in his fonts to replace bb, bp, bq, wk and wr by chess pieces.
+* **IncludePetiteCapitals** – Used with **Other Forms and Variants: Petite Capitals (pcap, c2pc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only common punctuation and the Latin, Greek and Cyrillic alphabets with diacritics for Classical Sanskrit (not Vedic Sanskrit with additional diacritics like ā́ī́ḷ́l̃m̐ṝ́ū́).
+* **IncludePnum** – Used with **Numerals: Proportional Figures (pnum)**. Glyphs with `.pnum` at the end of PostScript names should be present to generate this feature.
+* **IncludeSalt** – Used with **Other Forms and Variants: Stylistic Alternates (uses ss01) (salt)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses this feature as a contextual substitution to substitute only the first capital letter of a word in Cankama, Garava, Jivita, Lekhana, Mandala, Odana, Pali, Sukhumala, Talapanna, and Verajja for decorative drop capitals. Example font without the feature using unencoded glyphs: Agency FB from Microsoft products.
+* **IncludeSinf** – Used with **Numerals: Scientific Inferiors (sinf)**.
+* **IncludeSmallCapitals** – Used with **Other Forms and Variants: Small Capitals (scap, c2sc)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset for this feature in his fonts, including only the Latin, Greek and Cyrillic alphabets and punctuation with diacritics for Classical Sanskrit (not Vedic Sanskrit with additional diacritics like ā́ī́ḷ́l̃m̐ṝ́ū́). The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) includes only glyphs for the Latin alphabet, numbers and þḃḋḟġḣk̇l̇ṁṅṗṙṡṫḅḍg̣ḷṃṇṛṣṭ (without this feature). Most fonts use their own glyphs (e.g. Letter Gothic Std, Lithos Pro, Trajan Pro, etc. etc. etc. from Adobe products).
+* **IncludeStylisticSets** – Used with **Other Forms and Variants: Stylistic Sets (ss01-ss20)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a contextual substitution for decorative drop capitals in Cankama, Garava, Jivita, Lekhana, Mandala, Odana, Pali, Sukhumala, Talapanna and Verajja (colored). The IBM Plex Sans font was used for the feature as shown in the Enrich Your Fonts With OpenType Features tutorial.
+* **IncludeSubs** – Used with **Other Forms and Variants: Subscript (subs)**. The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) includes only numbers, some letters in the Latin alphabet, punctuation and äīùú (without the OpenType feature).
+* **IncludeSups** – Used with **Other Forms and Variants: Superscript (sups)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) uses a subset in his fonts as either (1) the Latin alphabet, numbers, common punctuation/mathematical symbols and spacing accents, with Latin-1 and Classical Sanskrit (not Vedic Sanskrit with additional diacritics like ā́ī́ḷ́l̃m̐ṝ́ū́) diacritics (Garava) or (2) the Latin alphabet, numbers, è and ú (other fonts). The [TITUS Cyberbit Basic font](http://titus.uni-frankfurt.de/unicode/unitest2.htm) includes only numbers, some Latin letters and punctuation and äi̯ıu̯ü (without the OpenType feature).
+* **IncludeSwsh** – Used with **Other Forms and Variants: Swash (swsh)**. [Bhikkhu Pesala](http://www.softerviews.org/Fonts.html) colorized the glyphs in his fonts. Most fonts include glyphs only for capital letters in italics (e.g. Times New Roman from Windows 8 through 11 or Minion Pro from Adobe products).
+* **IncludeTitl** – Used with **Other Forms and Variants: Titling (titl)**. Most fonts uses its own glyphs (e.g. Perpetua Titling MT).
+* **IncludeTnum** – Used with **Numerals: Tabular Figures (tnum)**. Glyphs with `.onum` at the end of PostScript names should be present to generate this feature.
+* **IncludeZero** – Used with **Numerals: Slashed Zero (zero)**. Most fonts use the slashed zero by default (e.g. Roboto Mono, Sweden Sans, Menlo, PT Mono, Noto Sans Mono, etc. etc. etc.). The Mandala font was used for the feature as shown in the Enrich Your Fonts With OpenType Features tutorial.
+
+### OpenType Proofing (version 13.0 & above, used in `TOPENTYPEDESIGNERPROOFINGFORM`)
+* **Compact** – Default is on.
+* **Filter** – Default is on.
+* **FontSize** – Scale the font. Default is 32.
+* **PreviewHeight** – Changes the preview area height. Default is 120.
+* **SpecialFill** – **Special Fill**. Default is on.
 
 ### Options
 * **AlwaysCreateBackupCopy** – Used with **Create backup copy (bck) on saving a font project** in the Advanced: Settings tab. Default is off.
@@ -298,25 +363,25 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **DefaultVendorIncluded** – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
-* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in the Font tab. Default is off. (Available in the Options window)
-* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in the Font tab. Default is off. (Available in the Options window)
-* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in the Font tab. Default is off. (Available in the Options window)
-* **LastUpdateReminderDate** – Used when **OnStartupShowUpdateReminder** is enabled.
-* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in the Font tab. Default is on. (Available in the Options window)
-* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in the Font tab. Default is on. (Available in the Options window)
-* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in the General tab. Default is on. (Available in the Options window)
-* **OnStartupShowUpdateReminder** – Used with **Startup: Show update reminder** in the General tab. Default is Once a year. (Available in the Options window)
-* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in the General tab. Default is on. (Available in the Options window)
-* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. If enabled, the PANOSE value is displayed in hexadecimal. If disabled, the PANOSE value is displayed in decimal.
-* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in the Font tab. Default is on. (Available in the Options window)
-* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in the Font tab. Default is off. (Available in the Options window)
-* **RemoveDSIGTable** – Used with **When Opening Font Files: Remove DSIG table** in the Font tab. Default is off. (Available in version 5.5 through 6.5 only)
-* **RemoveHdmxTable** – Used with **When Opening Font Files: Remove hdmx table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **RemoveLTSHTable** – Used with **When Opening Font Files: Remove LTSH table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **RemoveVDMXTable** – Used with **When Opening Font Files: Remove VDMX table** in the Font tab. Default is on. (Available in version 5.5 through 6.5 only)
-* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in the Font tab. Default is on. (Available in the Options window)
-* **UnicodeEnabledGUI** (version 5.5 until 6.1) – Used with **Unicode Support: Enable Unicode support for text display and user input** in the General tab. Default is on. Disabling it will use the codepage based on the **Language For Non-Unicode Programs** variable. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
-* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in the Font Properties: Identification tab. Default is on.
+* **ExcludeMonospacedFonts** – Used with **When Saving Font Files: Exclude monospaced fonts** in Options: Font. Default is off.
+* **IgnoreHintingData** – Used with **When Opening Font Files: Remove hinting data** in Options: Font. Default is off. Recent versions use [ttfautohint](https://freetype.org/ttfautohint/) for automatic hinting (enabled by default when exporting font projects).
+* **IgnoreUnsupportedTables** – Used with **When Opening Font Files: Remove unsupported tables** in Options: Font. Default is off.
+* **LastUpdateReminderDate** (`LastUpdateCheck` in `HKCU\Updates` in newer versions) – Includes the date used by the last update check when **Startup: Show update reminder** in Options: General is enabled.
+* **LeftSideBearingExcludeLargeFonts** – Used with **When Saving Font Files: Set left side bearing point at x=0: Exclude large (1500+) fonts** in Options: Font. Default is on.
+* **LongAlignedLocalOffsets** – Used with **When Saving Font Files: Long-aligned local offsets** in Options: Font. Default is on.
+* **OnStartupOpenFonts** (version 5.6 & above) – Used with **Startup: On start open fonts from last time** in Options: General. Default is on.
+* **OnStartupShowUpdateReminder** – Set this value in the **Startup: Show update reminder** in Options: General to 0 (Never), 1 (Once a year), 2 (Twice a year) or 3 (Once a month). Default is 1 (Once a year). See also `UpdateCheckInterval` in the GUI key in recent versions.
+* **OnStartupShowWelcome** – Used with **Startup: On start show Welcome dialog** in Options: General. Default is on.
+* **PanoseValueHexadecimal** – Used with **PANOSE: Value: Show hexadecimal** in Font Properties: Characteristics. Default is off.
+* **RecalcAverageCharWidth** – Used with **When Saving Font Files: Recalc average char width** in Options: Font. Default is on.
+* **RecalcGlyphBoundingBoxes** – Used with **When Saving Font Files: Recalc glyph bounding boxes** in Options: Font. Default is off.
+* **RemoveDSIGTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove DSIG table** in Options: Font. Default is off.
+* **RemoveHdmxTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove hdmx table** in Options: Font. Default is on.
+* **RemoveLTSHTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove LTSH table** in Options: Font. Default is on.
+* **RemoveVDMXTable** (version 3.0 until 6.5) – Used with **When Opening Font Files: Remove VDMX table** in Options: Font. Default is on.
+* **SetLeftSideBearingPointAtX0** (version 4.5 & above) – Used with **When Saving Font Files: Set left side bearing point at x=0** in Options: Font. Default is on.
+* **UnicodeEnabledGUI** (version 5.5 until 6.5) – Used with **Unicode Support: Enable Unicode support for text display and user input** in Options: General. Default is on. If the program is ran under Windows 9x/ME or compatibility mode, the option will appear dimmed.
+* **UpdateModifiedDateTimeField** – Used with **Identification: Automatically update modified timestamp when exporting font** in Font Properties: Identification. Default is on.
 * **ValueHexadecimal** – Used with **Values: Hexadecimal** in the View: Display Format menu. Default is on. Hexadecimal values in Delphi are usually given with a dollar sign ($).
 * **VectorImageEPSForceRepositioning** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Move imported outlines to origin (0,0)** in Options: Import. Default is off.
 * **VectorImageEPSOriginX** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Origin X** in Options: Import. Default is 100.00.
@@ -324,8 +389,8 @@ There are three built-in external programs: Fonts Folder, Character Map and Main
 * **VectorImageEPSPixelsPerEm** – Used with **Vector Based Images (EPS, AI, PDF, SVG): Pixels per em** in Options: Import. Default is 512.00.
 
 ### Preview
-* **FeaturesWidth** – Contains the width used for OpenType features.
-* **FeatureTags** – Contains the tags used for OpenType features.
+* **FeaturesWidth** – OpenType features width.
+* **FeatureTags** – OpenType features tags.
 * **PreviewFeatures** – Enable or disable any OpenType feature for the preview text.
 * **PreviewFontSize** – Select the size in the Test Font window. Default is 24.
 * **PreviewSampleFontSize** – Select the size in the Preview window.
@@ -372,17 +437,17 @@ The program is started in unregistered mode either after the installation proces
 * **ValidationMaxNumberOfContours** – Used with **Real-time glyph validation: Disable when number of contours exceeds** in Settings: Validation. Default is 100.
 * **ValidationMaxNumberOfPoints** – Used with **Real-time glyph validation: Disable when number of points exceeds** in Settings: Validation. Default is 25.
 
-### Warn (used in Options: Advanced – default is on for all options)
-* **WarnBeforeActivatingFixFeature** (version 5.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**.
-* **WarnBeforeActivatingRemoveFeature** (version 5.0 until 6.5) – Used with **Warn before activating a remove feature from the Options → Font page**.
-* **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**.
-* **WarnBeforeAnchorDelete** – Used with **Warn when deleting anchor**.
-* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**.
-* **WarnBeforeExecutingGlyphTransformProgram** – Used with **Warn before executing Glyph Transformer script**.
-* **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**.
-* **WarnImportSmallImage** – Used with **Warn when importing small image**.
-* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**.
-* **WarnWhenProcessingVOLTTable** (version 9.0 & above) – Used with **Warn when opening a font file which contains a VOLT table**.
+### Warn (used in Options: Advanced)
+* **WarnBeforeActivatingFixFeature** (version 4.0 until 6.5) – Used with **Warn before activating the fix feature in the Font Validation Wizard**. Default is on.
+* **WarnBeforeActivatingRemoveFeature** (version 4.0 until 6.5) – Used with **Warn before activating a remove feature from the Options → Font page**. Default is on.
+* **WarnBeforeAddCharacters** (version 5.0 until 6.5) – Used with **Warn before adding characters**. Default is on.
+* **WarnBeforeAnchorDelete** and **WarnBeforeAnchorDelete2** – Used with **Warn when deleting an anchor used by OpenType features**. Default is on.
+* **WarnBeforeCloseOpenTypeDesigner** – Used with **Warn about losing changes when cancelling or closing OpenType Designer dialog**. Default is on.
+* **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above) – Used with **Warn before executing a glyph transformer script**. Default is on.
+* **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**. Default is on.
+* **WarnImportSmallImage** – Used with **Warn when importing small image**. Default is on.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**. Default is on.
+* **WarnWhenProcessingVOLTTable** (version 9.0 until 11.0; in recent versions, it is hidden and moved all the way down) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
 
 ## Cursors in the executable file (Delphi resources omitted)
 * **CZCANCEL** – Used when canceling actions. This resource uses Argentinian Spanish language.
@@ -391,7 +456,7 @@ The program is started in unregistered mode either after the installation proces
 * **HLDUPLICATE** – Used when duplicating contours.
 * **HLFREEHAND** – Used by **Freehand**
 * **HLGUIDELINED** – Used by **Guideline**
-* **HLKNIFE** – Used by **Knife**. This resource uses German language.
+* **HLKNIFE** – Used by **Knife**. This resource uses German language. The cursor was changed in FontCreator 10.0 & above.
 * **HLMEASURE** – Used by **Measure**
 * **HLMOVECONTOUR** – Used when moving contours. This resource uses German language.
 * **HLMOVEPOINT** – Used when moving points. This resource uses German language.
@@ -446,44 +511,78 @@ The program is started in unregistered mode either after the installation proces
 * **VT_XPBUTTONPLUS** – No meaning
 
 ## RC Data in the executable file
-* **CLOUDS** – Image of colorful clouds.
-* **DESCRIPTION** – This data is binary.
-* **DVCLAL** – Shows two paragraphs (license is valid and runs C++ Builder Professional).
-* **PACKAGEINFO** – Shows the log used by Pascal to compile the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, version number, physical memory, registration info and the list of MPL Licensed Open Source Software (**Help: About...**).
-* **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used for newcomers as if **OnStartupShowWelcome** is enabled.
-* **TADDCHARACTERSFORM** – Used when adding characters to the font. **Sorted** is checked by default according to **Go to Unicode Block**.
-* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Displays a dialog when you press **Select** in **TCHARACTERTOGLYPHINDEXMAPPINGFORM**. It allows you to select Unicode values for each glyph. The default push button is **OK**.
-* **TADDGASPFORM** – Used when adding a gasp range to the font. The default push button is **OK**.
-* **TADDLOCALLANGUAGEDATAFORM** – Used when adding language data to the font. The default push button is **OK**.
-* **TADDPLATFORMFORM** – Used when pressing the **Add** button in the Platform Manager (this adds a platform to the font). The default push button is **OK**. The **Help** button does nothing in old versions.
-* **TADVANCEDEDITFORM** – Used when editing a naming field in the font. The default push button is **OK**.
-* **TADVANCEDNAMINGFORM** – For versions 3.0 through 6.0 only, used when including additional naming fields for a font. The default push button is **OK**. See TFONTPROPERTIESFORM in recent versions.
-* **TAUTOKERNINGFORM** – Used when automatically adding kerning pairs to the legacy kerning tables. The default push button is **Next**.
-* **TAUTOMETRICSFORM** – Used when automatically generating metrics for glyphs. The default push button is **Next**.
-* **TAUTONAMEFORM** – Used when automatically changing the naming fields of a font. The default push button is **Next**.
-* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** – The default push button is **OK**.
-* **TCODEPAGERANGEFORM** – Displays a dialog where you can enable or disable which encoding to support in the font. The default push button is **OK**.
-* **TCOLORFORM** – It's not the standard Windows color selection dialog.
-* **TCOMPOSITEGLYPHPROPERTIESFORM** – Used when modifying the properties of each composite glyph member. The default push button is **OK**.
-* **TCONVERTBITMAPTOCONTOURSFORM** – Used when converting bitmaps to contours into contours. The default push button is **OK**.
-* **TDISABLEDFORM** – For version 6.0 and 8.0 until 12.0.0.2539 only, displays this form when trying to save/test/install fonts or extract TrueType font collections or when pressing Use Evaluation Version in the splash screen reminding that the trial period is exceeded.
-* **TDM** – This data is binary.
-* **TEXPORTGLYPHDATAFORM** – Used when exporting glyph data. The default push button is **OK**.
-* **TEXTRACTFROMTTCFORM** – Used by **Tools: Extract from TTC...** to extract TrueType font collections. The default push button is **Next**.
-* **TFINDFORM** – Used when searching parts of a font.
-* **TFONTEMBEDDINGLICENSINGRIGHTSFORM** – Used when setting embedding and licensing rights in the font. The default push button is **OK**.
-* **TFONTHEADERFLAGSFORM** – Used when setting the header flags in the font. The default push button is **OK**.
-* **TFONTINSTALLWIZARDFORM** – Used when installing the font for use with other applications. The default push button is **Next** or **Finish**.
-* **TFONTOVERVIEWFORM** – Shows the glyphs available in any opened font.
-* **TFONTPROPERTIESFORM** – Used when viewing the font properties. The default push button is **OK**.
-* **TFONTSETTINGSFORM** – Displays a dialog where you can change various settings for the font. The default push button is **OK**.
-* **TFONTTABLESFORM** – Displays a dialog where it shows a full list of tables in the font. The default push button is **OK**.
-* **TFONTTESTFORM** – Used when testing TrueType or OpenType fonts (not web fonts). Version 3.0 has a dropdown list to choose the encoding, which this is implemented with Windows 95. The Sample Text list in versions 5.0 through 6.0 is predefined and cannot be edited. Printing in version 3.0 through 6.0 only supports ASCII characters while others are printed with a system font.
-* **TGASPFORM** – Used when managing gasps in the font. The default push button is **OK**.
-* **TGENERATECONTOURSCANCELFORM** – The default push button is **Cancel**.
-* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard. The problem report is "Report". The default push button is **OK**.
-* **TGLYPHALREADYMAPPEDFORM** – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The default push button is **Yes**.
+* **CHARTABLE** (version 10.0 until 10.1.0.2272) – Contains a list of characters.
+* **CLOUDS** (unused) – It's not a bitmap but is a picture of multi-colored clouds.
+* **DESCRIPTION**, **ELDATA** and **PLATFORMTARGETS** (unused) – These are binary resources.
+* **DVCLAL** (unused) – Shows two paragraphs saying the license key is valid and is running C++ Builder Professional.
+* **PACKAGEINFO** (unused) – Shows all functions and the Pascal log used to compile the program.
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program/operating system version number, physical memory, registration information and MPL Licensed Open Source Software (version 6.0 & above) (**Help: About...**).
+* **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
+* **TADDCHARACTERSFORM** (version 5.0 & above) – Adds characters as empty glyphs to the font. This requires the Unicode information to be present. If the Unicode information is corrupted, it will show a range check error. In version 4.0 the feature is hidden and it adds glyph data from another font/only adds one character. In version 5.0 & above it adds up to 65,535 characters. The Arial Unicode MS font was used in the form showcasing the Currency Symbols through Letterlike Symbols blocks in the font with the lira character selected in the manual. The characters that the selected font lacks are shaded gray.
+* **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shown when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` (old versions) or the Unicode button in the glyph properties (new versions) to assign Unicode character values for each glyph.
+* **TADDCUSTOMNAMINGFORM** – Used by **Font Properties: Custom: Add...** to add custom naming fields for multiple languages. The Dutch (Standard) - Netherlands language was selected and used in the form as shown in the manual.
+* **TADDFPCVLTSFORM** – Adds labels, tooltips or samples to character variants in the OpenType layout tables.
+* **TADDFPSIZENAMEFORM** – Adds subfamily names to the font.
+* **TADDFPSTYLISTICSETNAMEFORM** – Adds or writes stylistic set names or descriptions in the OpenType layout tables.
+* **TADDGASPFORM** – Adds gasp ranges to the font (**Add** in **Smoothing: Preferred rasterization techniques** in the font settings window).
+* **TADDLOCALLANGUAGEDATAFORM** (version 2.0 until 6.5) – Shows a dialog to add naming fields for multiple languages to the font.
+* **TADDPLATFORMFORM** (version 2.0 until 6.5) – Adds a platform to the font by pressing the **Add** button in the Platform Manager.
+* **TADDUVSFORM** – Used by fonts for East Asian languages to add Unicode variation sequences.
+* **TADDVARIATIONCONDITIONFORM** – Used by fonts for East Asian languages to add Unicode variation conditions.
+* **TADDVARIATIONSUBSTITUTIONFORM** – Used by fonts for East Asian languages to add Unicode variation substitutions.
+* **TADVANCEDEDITFORM** – Edit a naming field in the font.
+* **TANCHORMANAGERFRAME** and **TANCHORMANAGERFRM** (version 8.0 & above) – Manages anchors in the font if positioning data exists in the OpenType layout tables.
+* **TAUTOKERNEXFORM** (**TAUTOKERNINGFORM** in version 3.0.1 until 6.5) – Automatically add kerning pairs to the OpenType layout tables (version 7.0 & above) or legacy kerning tables (version 1.0 until 6.5) if you don't want to manually add kerning pairs to the font via the OpenType Designer. The Garava and Times New Roman (previously) fonts were used in the form as shown in the manual.
+* **TAUTOMETRICSFORM** (version 3.0.1 & above) – Automatically generate metrics for glyphs for use with proportional fonts. Don't use this feature for monospaced, pixel or barcode fonts! The optical metrics adjustment user interface is used by *Scanahand* (font generator). The Calibri and Times New Roman (previously) fonts were used in the form's second page (selecting glyphs) as shown in the manual.
+* **TAUTONAMEFORM** (version 3.1.2 until 6.5) – Automatically change the naming fields of a font. The MegaWaves font was used in the form as shown in the manual.
+* **TAXISVALUEMULTIFORM** – Edits axis value combinations in the font.
+* **TBASICEDITFORM** (**TADVANCEDNAMINGFORM** in version 3.0 until 6.5) – Edit a naming field or include additional naming fields in the font (replaced with Properties in version 7.0 & above). The MegaWaves font was used in the form as shown in the manual.
+* **TCHANGETAGFORM** (version 7.0 & above) – Changes tags in the OpenType layout tables.
+* **TCHARACTERTOGLYPHINDEXMAPPINGFORM** (version 2.0 until 6.0, **Tools: TODO! AutoCmap...** in version 3.0 until 5.6 as hidden menu item) – Maps characters to glyph indexes. The Arial font was used in the form as shown in the manual. This corresponds to the `cmap` table.
+* **TCLASSMANAGERFORM** (version 7.0 & above) – Changes classes in the OpenType layout tables.
+* **TCODEEDITORFORM** (version 7.0 & above) – OpenType Layout Feature Editor; used to view, edit and compile the OpenType feature source code.
+* **TCODEPAGERANGEFORM** – Includes or excludes code pages to support in the font. This corresponds to the `ulCodePageRange` fields to make the font work in some programs (e.g. Sublime Text). If the fields are not set (e.g. Hindsight Unicode), then Windows will show the script dropdown menu in the font selection dialog as **Other**.
+* **TCOLORFORM** (old versions) – This resource is not the standard Windows color selection dialog available in `comdlg32.dll`.
+* **TCOMPOSITEGLYPHPROPERTIESFORM** – Views or modifies properties for composite glyph members. The Calibri font was used in the form as shown in the manual (using the lowercase e acute).
+* **TCONFIRMREPLACEDIALOG** (version 10.0 until 10.1.0.2272) – This confirmation dialog will ask you what to do when replacing.
+* **TCONVERTBITMAPTOCONTOURSFORM** – Converts bitmap images to contours or imports raster images to any glyph in the font.
+* **TDELETEFEATURELOOKUPFORM** (version 7.0 & above) – Removes features or lookups from the OpenType layout tables in the font.
+* **TDELETEKERNGROUPFORM** (version 7.0 & above) – Removes kerning groups or classes from the OpenType layout tables in the font.
+* **TDISABLEDFORM** (version 5.0 & above) and **TABSTRACTDISABLEDIALOG** (version 12.0.0.2565 & above) – Used in unregistered copies during (recent versions) or after a grace period of 30 days (old or recent versions). If this form is deleted, it will either show a non-existing form message (old versions) or a text only message (recent versions).
+* **TDM** (version 4.0 & above) – Contains icons with no regard to `Glyph.Data` in old versions. Version 5.5 (2006-05-30) until 11.0.0.2365 (2017-05-10) uses icons in e.g. Microsoft Office 2003 up to 2010. The icons were changed in version 12.0 & above.
+* **TDMGLOBAL** – Contains codepages, vendors, hinting and bidirectional mirroring data.
+* **TEDITANCHORFORM** (version 7.0 & above) – Edits anchors in the font if any glyph has positioning data.
+* **TEXPORTGLYPHDATAFORM** (version 4.0 until 6.5) – Exports glyph data to fgd files (**Tools: Export Glyph Data...**). Recent versions are limited to only one glyph.
+* **TEXPORTSETTINGSFORM** and **TEXPORTSETTINGSFRAME** – Configure font export settings.
+* **TEXTERNALSFORM** – Edit the three custom external tools (**Tools: Launch Externals: Configure Externals...**).
+* **TEXTRACTFROMTTCFORM** (version 4.0 & above) – Extract TrueType or OpenType font collections to multiple font files (**Tools: Extract from OTC...**). The SimSun font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `MiToolsExtractFromTTCClick` function used by `CheckLicenseNotGood`.
+* **TFEATURESETTINGSFORM** (version 12.0) and **TFEATURESFRAME** – Generates or updates feature code in the OpenType Designer.
+* **TFINDFORM** – Searches parts of a font.
+* **TFONTEMBEDDINGLICENSINGRIGHTSFORM** (version 2.0 until 6.5) – Shows a list of embedding or licensing rights to use in the font (replaced with **Legal: Embedding Licensing Rights** in `TFONTSETTINGSFORM` in version 7.0 & above).
+* **TFONTHEADERFLAGSFORM** – Enables or disables header flags in the font.
+* **TFONTINSTALLWIZARDFORM** – Installs the font to the computer (version 6.0 & below requires saving the font). **Fun fact:** The file path in the first step is dummy. The second step (font already installed) names the installed font as Arial (`c:\win98\fonts\arial.ttf` - **win98** stands for Windows 98). The MegaWaves font was used in the form as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `InstallFont` and `miFontInstallClick` functions used by `CheckLicenseNotGood`.
+* **TFONTLOGFORM** – Displays the font log (**Developer Tools: Font Log**).
+* **TFONTOVERVIEWFORM** – Shows all the glyphs included in the font. The Calibri and Courier New (previously) fonts were used in the form as shown in the manual. The Cambria font was used in the form as shown in the Font Inspection tutorial. The Fredoka (variable font regular style), Kabala (extra-bold style), Pali (previously) and Verajja (showing the Latin-1 Supplement Unicode block sorted by Mac codepoint) fonts were used in the form as shown in the program's official screenshots. The Lato font (used in the company's website) was used in the form as shown in the Running FontCreator on a Mac tutorial.
+* **TFONTPROPERTIESFORM** and **TFONTPROPERTIESFRAME** – Contains properties and unsupported tables (version 7.0 & above) in the font. If the non-Unicode language is Chinese, Japanese or Korean, the hexadecimal data text box in the **Unsupported Tables** tab substitutes Latin-1 accented letters by ASCII forms, e.g. Wästman by Wastman and some Latin-1 symbols by fullwidth forms or other symbols, e.g. £ by ￡ and « by ≪. The MegaWaves font was used in the form's identification and legal tabs as shown in the manual.
+* **TFONTSETTINGSFORM** – Contains basic naming fields or metrics settings, Unicode and code page ranges, gasp ranges and more.
+* **TFONTTABLESFORM** (version 2.0 until 6.5) – Shows a list of supported and unsupported tables in the font. Unsupported tables is a separate tab in the font properties window in version 7.0 & above.
+* **TFONTTESTFORM** – Test desktop fonts (not web fonts). The default text in `mmFontTest` and `Memo1` (version 7.0 & above) in version 4.0 until 5.6 is the program name, letters and numbers with DOS/Windows Latin-1 and USA characters (version 6.0 & above removes the characters at the end and adds High-Logic FontCreator at the beginning). Version 1.1.1c until 5.0 allows the user to change the encoding (it was removed in version 5.5 & above). The Verajja font was used in the form in a size of 24 points with the pangrams sample text selected as shown in the manual. If the unregistered copy detects it is running after a grace period of 30 days, **TDISABLEDFORM** (old versions) or the **Evaluation Period Expired** message (recent versions) is shown instead. This corresponds to the `TestFontTTFOTF` (`miFontTestTTFOTFClick`) and `TestFontWOFF` (`btnFontTestWoffClick`) functions used by `CheckLicenseNotGood`.
+* **TFORMADDANCHOR** (version 7.0 & above) – Adds anchors to any glyph in the font if OpenType positioning data exists.
+* **TFORMEDITANCHOR** (version 7.0 & above) – Edits anchors in any glyph in the font if OpenType positioning data exists.
+* **TFORMINSERTGLYPHS** (**TINSERTGLYPHFORM**) – Inserts glyphs in the font.
+* **TFORMOPENTYPEDESIGNERSETTINGS** (version 7.0 & above) – Changes the OpenType Designer options.
+* **TFORMULAFORM** (version 12.0) – Writes formulas to construct anchor based composite glyphs.
+* **TFRAMECATEGORY** (version 7.0 & above) – Contains categories in the font overview (left side).
+* **TFRAMEFONT** – Used by the font overview (left side).
+* **TFRAMEGLYPH** – Used by glyphs in the font overview (left side).
+* **TFRAMEGLYPHMEMBERS** (version 7.5 & above) – Used when editing colored glyphs to display glyph members (automatically shown when switching glyphs to color mode).
+* **TFRAMEMASTERS** – Used by masters in the font overview (left side).
+* **TFRAMEPALETTE** (version 7.5 & above) – Shows the color palette when editing multicolored fonts (automatically shown when switching glyphs to color mode).
+* **TFRAMEVALIDATION** – Used when validating fonts.
+* **TGASPFORM** (version 2.0 until 6.5) – Manages the `gasp` table in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
+* **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
+* **TGENERATEPROBLEMREPORTFORM** – Used when pressing **Next** in the Glyph Validation Wizard (the window is titled **Report**).
+* **TGLYPHALREADYMAPPEDFORM** (version 3.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the overview.
 * **TGLYPHNAMEFORM** – Used when changing glyph names.
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** – Used where you can change various properties for the selected glyph.
