@@ -1,4 +1,4 @@
-﻿FontCreator is a shareware font editor which supports TrueType (TTF), TrueType Collection (TTC), OpenType (OTF), and Web Open Font Format (WOFF, WOFF2). Developed by [High-Logic](https://www.high-logic.com/) since 1997.
+﻿FontCreator is a shareware font editor for Windows and macOS which supports fonts in TrueType (TTF), OpenType (OTF), and Web Open Font Format (WOFF, WOFF2) and TrueType font collections (TTC). Developed by [High-Logic](https://www.high-logic.com/) since 1997.
 
 ## Notes
 * The cursor will remain **Busy** if the user is doing other stuff while saving fonts in the background.
@@ -500,7 +500,7 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **DESCRIPTION**, **ELDATA** and **PLATFORMTARGETS** (unused) – These are binary resources.
 * **DVCLAL** (unused) – Shows two paragraphs saying the license key is valid and is running C++ Builder Professional.
 * **PACKAGEINFO** (unused) – Shows all functions and the Pascal log used to compile the program.
-* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program/operating system version number, physical memory, registration information and MPL Licensed Open Source Software (version 6.0 & above) (**Help: About...**).
+* **TABOUTDIALOG** and **TABSTRACTABOUTDIALOG** (**TABOUTFORM** and **THLCREGISTERABOUTBOXDLG** in old versions) – Displays copyright, program and Windows version number, physical memory, registration information and MPL Licensed Open Source Software (version 6.0 & above) (**Help: About...**).
 * **TABSTRACTWELCOMEDIALOG** (**TWELCOMEFORM** in old versions) – Used by newcomers if `OnStartupShowWelcome` is enabled.
 * **TADDCHARACTERSFORM** (version 5.0 & above) – Adds characters as empty glyphs to the font. This requires the Unicode information to be present (if corrupted, it will show a range check error). In version 4.0 the feature is hidden and it adds glyph data from another font/only adds one character. In version 5.0 & above it adds up to 65,535 characters. The Arial Unicode MS font was used in the form showcasing the Currency Symbols through Letterlike Symbols blocks in the font with the lira (₤) selected in the manual. The characters that the selected font lacks are shaded gray.
 * **TADDCHARACTERTOGLYPHINDEXMAPPINGFORM** – Shown when pressing **Select** in `TCHARACTERTOGLYPHINDEXMAPPINGFORM` (old versions) or the Unicode button in the glyph properties (new versions) to assign Unicode character values for each glyph.
@@ -568,7 +568,7 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **TGASPFORM** (version 2.0 until 6.5) – Manages the `gasp` table in the font (replaced with the Smoothing tab in `TFONTSETTINGSFORM` in version 7.0 & above).
 * **TGENERATECONTOURSCANCELFORM** – Used when generating contours.
 * **TGENERATEPROBLEMREPORTFORM** (version 3.0 until 11.5) – Used when pressing **Next** in the Validation Wizard.
-* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – For each platform a character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The Arial font was used in the form with the OE ligature as shown in the manual.
+* **TGLYPHALREADYMAPPEDFORM** (version 2.0 until 6.5) – A character to glyph index mapping can only exist once, so if you try to add a mapping that already exists this window will ask you what to do. The Arial font was used in the form with the OE ligature as shown in the manual.
 * **TGLYPHEDITFORM** – Used when opening any glyph from the font overview. The Calibri and Courier New (previously) fonts were used in the form as shown in the manual.
 * **TGLYPHNAMEFORM** (version 7.0 & above) – Changes the PostScript names in the font (**Tools: Glyph Names**).
 * **TGLYPHPROPERTIESFORM** (version 2.0 until 6.5) and **TGLYPHPROPERTIESFRAME** (version 7.0 & above) – Contains postscript name, glyph metrics/bearings and character mappings.
@@ -706,11 +706,11 @@ Version 4.0 until 5.0 includes a text box intended to show the number of contour
 * Checkbox: **ARGS_ARE_XY_VALUES** (version 3.0 until 6.5) – The checkbox was dropped after version 7.0.
 
 ### Automatic Metrics Wizard (`TAUTOMETRICSFORM`)
-If the program detects it is running the Home Edition, it shows the Professional Edition note (it is hidden if running the Professional Edition). Version 10.0 includes three unused features which were dropped in version 11.0 & above: The third panel changes the advance width with check boxes to center the glyph or set the left side bearing to x=0 and a radio button to use monospaced metrics (it is only active when the Fixed option is selected).
+If the program detects it is running the Home Edition, it shows the Professional Edition note (it is hidden if running the Professional Edition). Version 10.0 includes three unused features which were dropped in version 11.0 & above: The third panel changes the advance width with check boxes to center the glyph or set the left side bearing to x=0 and a radio button to use monospaced metrics (only active when selecting the Fixed option).
 
 ### OpenType Designer: GPOS Kerning Editor Buttons
 All values start with a capital D in square brackets.
-* **Clear Values** – Sets the value for all kerning pairs to zero. Used for monospaced fonts with kerning tables (e.g. **Monospaced Typewriter**: Designed by Manfred Klein, based on Monospace 821 BT).
+* **Clear Values** – Sets all kerning pairs values to zero. Used for monospaced fonts with kerning tables (e.g. **Monospaced Typewriter**: Designed by Manfred Klein, based on Monospace 821 BT).
 * **Harmonize** – Harmonizes all kerning pairs in subtables.
 * **Clean Up** – Removes all kerning pairs with a zero value. In version 3.0 until 6.5, all pairs from the legacy `KERN` table with unencoded glyphs are removed.
 
