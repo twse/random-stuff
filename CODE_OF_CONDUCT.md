@@ -15,16 +15,14 @@ This list represents but a portion of the people who have signed the Python Soft
 Mariatta Wijaya created the [Check Python CLA](https://check-python-cla.herokuapp.com/) program to check each GitHub user to see if the contributor license agreement is signed.
 
 ## Ubuntu Code of Conduct (Ubunteros.htm)
-Ubuntu has a code of conduct (Freeware under Creative Commons license) that you may sign with Launchpad or the [Code of Conduct Signing Assistant](https://launchpad.net/code-of-conduct-signing-assistant) (signed digitally or physically by the user) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad). The instructions are in the Launchpad help documentation located [here](https://help.launchpad.net/Signing%20the%20Ubuntu%20Code%20of%20Conduct).
+Ubuntu has a code of conduct (Licensed under Creative Commons Attribution) that you may sign with Launchpad or the [Code of Conduct Signing Assistant](https://launchpad.net/code-of-conduct-signing-assistant) (signed digitally or physically by the user) in this file - many teams require doing this like the [Ubuntu BugSquad](https://launchpad.net/~bugsquad). The instructions are located [here](https://help.launchpad.net/Signing%20the%20Ubuntu%20Code%20of%20Conduct).
 
-The entire text is located in the operating system's official website and can be read [here](https://ubuntu.com/community/code-of-conduct). Typos, grammar errors and undocumented things should be reported to [Launchpad](https://bugs.launchpad.net/ubuntu-codeofconduct).
-
-The Ubuntu product has very much been a team effort from development teams around Canonical and regional local communities and many, many people have contributed. This list represents but a portion of the people who have signed the Ubuntu Code of Conduct.
+The entire text can be read [here](https://ubuntu.com/community/code-of-conduct). Typos, grammar errors and undocumented things should be reported to [Launchpad](https://bugs.launchpad.net/ubuntu-codeofconduct).
 
 **P.S.** Don't add your name here or anyone else who haven't signed the Ubuntu Code of Conduct (if the **Signed Ubuntu Code of Conduct** value for each user says No), unless you really *are* after Hatem alphabetically. Make sure you have imported your OpenPGP key to sign the Ubuntu Code of Conduct. Ubunteros linked to deactivated Launchpad accounts are not listed.
 
 ### Code of Conduct Signing Assistant
-The program was created in April 2013 and maintained by [Marten de Vries](https://launchpad.net/~marten-de-vries). The program is available under the GNU GPL 3.0 license.
+The program (Licensed under GNU General Public License, Version 3.0) was created in April 2013 and maintained by [Marten de Vries](https://launchpad.net/~marten-de-vries).
 
 ### Acknowledgments
 * Thanks goes to Microsoft for writing the text shown by the Windows 98 credits screen Easter egg accessible in the welcome program.
