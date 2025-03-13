@@ -49,7 +49,11 @@ Adding these user agents in the files below will show them in the Otter Browser 
 * **Source Dir:** GitHub Repository `mozilla/community-data/credits` (`names.csv` file)
 * **URL:** See second file entry in the index above.
 * **Note:** Please do not add your name/someone else's names or modify existing entries to the abovementioned file in the source repository without filling in the form or replying to the form's application acceptance message via direct pull requests as they will be closed by the owner.
+<<<<<<< HEAD
 * **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Still has spammy entries to this day.
+=======
+* **Fun fact:** The form linked to the credits page and its responses spreadsheet was created in November 20th, 2013 by Gervase Markham (the guy with access privileges and owner) to remove their request email address. Gervase Markham did not use pull requests when updating the credits list (i.e. they committed directly).
+>>>>>>> 5bef9b5 (Updated unsupported browser page)
 
 ## Index of protest pages (requires JavaScript)
 The original protest pages were created by [Norman L. De Forest](http://www.chebucto.ns.ca/~af380/Profile.html) (1942-2006) from his profile page as well as the images for graphical browsers.
@@ -65,7 +69,7 @@ The protest pages are as follows:
 * **protest2.htm** replaces everything with IMAGE and INLINE in square brackets.
 * **protest3.htm** protests against sites that use JavaScript URLs.
 * **protest4.htm** protests against sites that use HTML external links so the links do nothing when selected.
-* **protest5.htm** redirects to an "Unsupported Browser" page (see the page itself in the zipped archive for a partial list of sites in alphabetical order).
+* **protest5.htm** redirects to an "Unsupported Browser" page (sites listed in alphabetical order). Region locked sites are shown with a dagger (†) and their country names.
 
 **Note:** The network diagnostic tool is only included in Windows XP Service Pack 2 and above.
 
