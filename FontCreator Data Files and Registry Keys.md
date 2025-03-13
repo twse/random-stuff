@@ -104,7 +104,7 @@ Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logi
 ### Exchange (version 13.0, used in Options: Exchange)
 * **OutlineFormat** – Used with **Exchange Glyph Outlines: Preferred outline format**. Default is Don't change it, but use quadratic with new contours.
 
-### Externals (version 7.0 & above for defining three external tools, used in Tools: Launch Externals)
+### Externals (version 7.0 & above, used in Tools: Launch Externals)
 **MainType** (version 5.6 & above, if installed), **Fonts Folder** (not the same folder in Control Panel) and **Character Map** (can be removed in Windows 9x, ME and XP via **Control Panel: Add/Remove Programs: Add/Remove Windows Features: Components: Accessories and Utilities: Accessories: Character Map**, in Windows 2000 as administrator by deleting `charmap.exe` – executable file and `charmap.chm`/`charmap.hlp` – help documentation and in Windows Vista & above as administrator or `NT SERVICE\TrustedInstaller` by taking ownership, modifying the permission entries and deleting `charmap.exe`/`charmap.exe.mui` – executable file and resource files based on OS language) are built-in to the program's menu.
 * **Location#** – The last character has three values. Default is empty.
 * **Title#** – The last character has three values. Default is **External #** whereas # is a number.
@@ -121,7 +121,7 @@ Before FontCreator 15, the registry keys are located in `HKCU\Software\High-Logi
 ### Fonts (used in Options: Font)
 * **ExportDecomposeScaled** (version 12.0.0.2521 & above) – Used with **Export Font: Decompose composite glyphs with scaled components**. Default is on.
 * **ExportExcludeLegacy** and **ExportExcludeLegacy2** – Used with **Export Font: Exclude legacy data**. Default is on.
-* **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**. Default is on.
+* **FontEnableOpenContours** (version 11.5.0.2421 & above) – Used with **Special Features: Enable open contours**. Default is off.
 * **OpenFriendlyGlyphNames** – Used with **Open Font: Generate friendly glyph names (recommended)**. Default is on.
 
 ### FreeDraw (version 6.5 & above)
@@ -374,11 +374,11 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **DefaultNamingLicenseAgreementText** – Used with **Default Settings for New Fonts: License Agreement** in Options: Personalize. Default is empty.
 * **DefaultNamingTrademarkIncluded** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is off.
 * **DefaultNamingTrademarkText** – Used with **Default Settings for New Fonts: Trademark** in Options: Personalize. Default is **&lt;font family&gt;® Trademark of (your company)**. The &lt;font family&gt; placeholder in the default string is replaced with the actual font name.
-* **DefaultPersFontEmbeddingItemID** (version 8.0 & above) – Used with **Default Settings for New Fonts: Embedding Licensing Rights** in Options: Personalize. Default is 0 (Installable (no embedding restrictions)).
+* **DefaultPersFontEmbeddingItemID** (version 8.0 & above) – Used with **Default Settings for New Fonts: Embedding Licensing Rights** in Options: Personalize. Default is 1 (Editable (read-write)).
 * **DefaultPersVendorIDText** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is **HL**.
 * **DefaultPersVendorText** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is **High-Logic / Made with FontCreator**.
 * **DefaultPersVendorURLText** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is empty.
-* **DefaultVendorIDIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is on.
+* **DefaultVendorIDIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor ID** in Options: Personalize. Default is off.
 * **DefaultVendorIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor** in Options: Personalize. Default is off.
 * **DefaultVendorURLIncluded** (version 8.0 & above) – Used with **Default Settings for New Fonts: Vendor URL** in Options: Personalize. Default is off.
 * **DefaultZoomFactor** – Used with **Glyph Edit Window: Open with default zoom factor** in Options: View.
@@ -418,7 +418,7 @@ Default is on for all keys beginning with “Include”. Other features (e.g. ha
 * **PreviewPosWidth** (version 3.0 until 4.5) – Contains the width in the preview window.
 * **PreviewSampleFontSize** – Scale the font in the Preview window. Default is 24.
 * **PreviewSampleText** – Contains sample text in the Preview window. Default is **High-Logic ©** (old versions) or **&lt;enter preview text here&gt;**.
-* **PreviewSampleUseKerning** (version 3.0 until 6.5) – Use the legacy KERN table in the Preview window. Replaced by `PreviewFeatures` in version 7.0 & above.
+* **PreviewSampleUseKerning** (version 3.0 until 6.5) – Use the legacy KERN table in the Preview window.
 * **ShowToolbarWindowPreview** – Show or hide the Preview window. Default is on.
 * **StrikeThrough** – Strikes out text in the test font window. Default is off.
 * **Underline** – Underlines text in the test font window. Default is off.
@@ -432,7 +432,7 @@ Many people and companies provided registration keys for cracked or illegal vers
 
 ### Tip of the Day (version 3.0 until 6.5)
 * **CurrentTip** – Line number in `FontCreator.tip` (it goes to the next line when closed). Default is the first line.
-* **ShowTipOnStartup** – Shows the dialog itself if FontCreator is started. Default is on.
+* **ShowTipOnStartup** – Shows the dialog itself when starting FontCreator. Default is on.
 
 ### Validation
 * **DiagonalRedundantOffCurvePointsDetection** – Used with **Diagonal redundant points detection: Maximum off-curve distance** in Options: Validation. Default is off.
@@ -441,8 +441,8 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **LocalExtremeCoordinatesDetection** – Used with **Off-curve extreme coordinates: Local detection** in Options: Validation. Default is on.
 * **MaximumRedundantOffCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum off-curve distance** spinner in Options: Validation. Default is 0.20.
 * **MaximumRedundantOnCurvePointsDistance** – Used with **Diagonal redundant points detection: Maximum on-curve distance** spinner in Options: Validation. Default is 0.80.
-* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points seen in the registry keys below during real-time validation (i.e. it is too complex), the button will appear dimmed.
-* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points seen in the registry keys below during real-time validation (i.e. it is too complex), the button will appear dimmed.
+* **ShowIntersection** – Used with **Show Intersecting** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points during real-time validation (i.e. it is too complex), the button will appear dimmed.
+* **ShowWarningPoints** – Used with **Show Warning Points** in the Validation toolbar. Default is on. If the glyph exceeds the maximum number of composite glyph members, contours or points during real-time validation (i.e. it is too complex), the button will appear dimmed.
 * **TestContoursWithIncorrectDirection** – Used with **Validation Tests: Contours with incorrect direction** in the Validation Wizard. Default is on.
 * **TestContoursWithOneOrTwoPoints** – Used with **Validation Tests: Contours with one or two points** in the Validation Wizard. Default is on.
 * **TestDuplicateComponents** – Used with **Validation Tests: Duplicate components** in the Validation Wizard. Default is on.
@@ -469,8 +469,8 @@ Many people and companies provided registration keys for cracked or illegal vers
 * **WarnBeforeExecutingGlyphTransformProgram** (version 4.5 & above) – Used with **Warn before executing a glyph transformer script**. Default is on.
 * **WarnBeforeSortingGlyphs** (version 5.0 until 6.5) – Used with **Warn before sorting glyphs**. Default is on.
 * **WarnImportSmallImage** – Used with **Warn when importing small image**. Default is on.
-* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**. Default is on.
-* **WarnWhenProcessingVOLTTable** (version 9.0 until 11.0; in recent versions, it is hidden and moved all the way down) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
+* **WarnWhenOpening10OrMoreFonts** – Used with **Warn when opening 10 or more fonts**. Default is off.
+* **WarnWhenProcessingVOLTTable** (version 9.0 until 11.0) – Used with **Warn when opening a font file which contains a VOLT table**. Default is on.
 
 ## Cursors in the executable file
 **Note:** All resources start with HL (the vendor ID is in the vendor list and is the default vendor ID used for new fonts).
